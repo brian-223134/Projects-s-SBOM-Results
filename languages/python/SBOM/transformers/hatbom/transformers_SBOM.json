@@ -1,0 +1,945 @@
+{
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:d97d1058-a590-d90b-c379-8146d0132c53",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-01-09T04:02:22.861685+00:00",
+      "authors": [
+        {
+          "name": "IoTcube - https://iotcube.net"
+        }
+      ],
+      "component": {
+        "group": "",
+        "name": "transformers",
+        "version": "",
+        "type": "application",
+        "bom-ref": "pkg:generic/transformers",
+        "purl": "pkg:generic/transformers"
+      }
+    },
+    "dependencies": [
+      {
+        "ref": "transformers",
+        "dependsOn": [
+          "transformers v4.44.0"
+        ]
+      }
+    ],
+    "components": [
+      {
+        "group": "transformers",
+        "name": "optimum_benchmark_wrapper",
+        "version": "0.0.0-aaf60cce010e",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/optimum_benchmark_wrapper@0.0.0-aaf60cce010e#benchmark/optimum_benchmark_wrapper.py",
+        "purl": "pkg:generic/transformers/optimum_benchmark_wrapper@0.0.0-aaf60cce010e#benchmark/optimum_benchmark_wrapper.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "aaf60cce010ecac1d2bf843bba568768"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "_config",
+        "version": "0.0.0-80129a58b731",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/_config@0.0.0-80129a58b731#docs/source/_config.py",
+        "purl": "pkg:generic/transformers/_config@0.0.0-80129a58b731#docs/source/_config.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "80129a58b731ab2590bcb55e58632ea6"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "_config",
+        "version": "0.0.0-fa30869be2be",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/_config@0.0.0-fa30869be2be#docs/source/fr/_config.py",
+        "purl": "pkg:generic/transformers/_config@0.0.0-fa30869be2be#docs/source/fr/_config.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "fa30869be2bebf4b9a714b0803617352"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "_config",
+        "version": "0.0.0-419f474c7e1a",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/_config@0.0.0-419f474c7e1a#docs/source/it/_config.py",
+        "purl": "pkg:generic/transformers/_config@0.0.0-419f474c7e1a#docs/source/it/_config.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "419f474c7e1ae14b1975ccb002b223bf"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "_config",
+        "version": "0.0.0-dba1534f0514",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/_config@0.0.0-dba1534f0514#docs/source/ko/_config.py",
+        "purl": "pkg:generic/transformers/_config@0.0.0-dba1534f0514#docs/source/ko/_config.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "dba1534f0514660e1032bbc25f31d92a"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "modular_my_new_model2",
+        "version": "0.0.0-05c862c6eaa2",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/modular_my_new_model2@0.0.0-05c862c6eaa2#examples/modular-transformers/modular_my_new_model2.py",
+        "purl": "pkg:generic/transformers/modular_my_new_model2@0.0.0-05c862c6eaa2#examples/modular-transformers/modular_my_new_model2.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "05c862c6eaa2b90bc0b3f01e70f08076"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "conftest",
+        "version": "0.0.0-2d4d05ba8110",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/conftest@0.0.0-2d4d05ba8110#examples/pytorch/conftest.py",
+        "purl": "pkg:generic/transformers/conftest@0.0.0-2d4d05ba8110#examples/pytorch/conftest.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "2d4d05ba8110f2ff2575edc4f12844a3"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "torch-distributed-gpu-test",
+        "version": "0.0.0-361db980dc41",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/torch-distributed-gpu-test@0.0.0-361db980dc41#scripts/distributed/torch-distributed-gpu-test.py",
+        "purl": "pkg:generic/transformers/torch-distributed-gpu-test@0.0.0-361db980dc41#scripts/distributed/torch-distributed-gpu-test.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "361db980dc418b230a423749a693014f"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "__init__",
+        "version": "0.0.0-8377bee2d5c2",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/__init__@0.0.0-8377bee2d5c2#src/data/processors/__init__.py",
+        "purl": "pkg:generic/transformers/__init__@0.0.0-8377bee2d5c2#src/data/processors/__init__.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "8377bee2d5c284edb5dc0421cf202446"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "xnli",
+        "version": "0.0.0-d9614afa4cf3",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/xnli@0.0.0-d9614afa4cf3#src/data/processors/xnli.py",
+        "purl": "pkg:generic/transformers/xnli@0.0.0-d9614afa4cf3#src/data/processors/xnli.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d9614afa4cf37c43f6e60eb8083e7edd"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "dependency_versions_check",
+        "version": "0.0.0-6f6c7577bb63",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/dependency_versions_check@0.0.0-6f6c7577bb63#src/dependency_versions_check.py",
+        "purl": "pkg:generic/transformers/dependency_versions_check@0.0.0-6f6c7577bb63#src/dependency_versions_check.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "6f6c7577bb630c224be8ef97cba24d21"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "tpu",
+        "version": "0.0.0-c78ebe5b30a2",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/tpu@0.0.0-c78ebe5b30a2#src/integrations/tpu.py",
+        "purl": "pkg:generic/transformers/tpu@0.0.0-c78ebe5b30a2#src/integrations/tpu.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c78ebe5b30a28e0413a91fdcb7d28b62"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "convert_albert_original_tf_checkpoint_to_pytorch",
+        "version": "0.0.0-9996ba9ff793",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/convert_albert_original_tf_checkpoint_to_pytorch@0.0.0-9996ba9ff793#src/models/albert/convert_albert_original_tf_checkpoint_to_pytorch.py",
+        "purl": "pkg:generic/transformers/convert_albert_original_tf_checkpoint_to_pytorch@0.0.0-9996ba9ff793#src/models/albert/convert_albert_original_tf_checkpoint_to_pytorch.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "9996ba9ff7938b01a7da2c47290bb62b"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "convert_beit_unilm_to_pytorch",
+        "version": "0.0.0-6dee650657a1",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/convert_beit_unilm_to_pytorch@0.0.0-6dee650657a1#src/models/beit/convert_beit_unilm_to_pytorch.py",
+        "purl": "pkg:generic/transformers/convert_beit_unilm_to_pytorch@0.0.0-6dee650657a1#src/models/beit/convert_beit_unilm_to_pytorch.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "6dee650657a18fa81f773e2e8dc2ef29"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "convert_bert_original_tf2_checkpoint_to_pytorch",
+        "version": "0.0.0-18cdaf62f42a",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/convert_bert_original_tf2_checkpoint_to_pytorch@0.0.0-18cdaf62f42a#src/models/bert/convert_bert_original_tf2_checkpoint_to_pytorch.py",
+        "purl": "pkg:generic/transformers/convert_bert_original_tf2_checkpoint_to_pytorch@0.0.0-18cdaf62f42a#src/models/bert/convert_bert_original_tf2_checkpoint_to_pytorch.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "18cdaf62f42a2345d49525c55f07b7cf"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "convert_bert_original_tf_checkpoint_to_pytorch",
+        "version": "0.0.0-f9b1899fa5ae",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/convert_bert_original_tf_checkpoint_to_pytorch@0.0.0-f9b1899fa5ae#src/models/bert/convert_bert_original_tf_checkpoint_to_pytorch.py",
+        "purl": "pkg:generic/transformers/convert_bert_original_tf_checkpoint_to_pytorch@0.0.0-f9b1899fa5ae#src/models/bert/convert_bert_original_tf_checkpoint_to_pytorch.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "f9b1899fa5ae4a902ba98246801f31aa"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "convert_blip_original_pytorch_to_hf",
+        "version": "0.0.0-27da676651c6",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/convert_blip_original_pytorch_to_hf@0.0.0-27da676651c6#src/models/blip/convert_blip_original_pytorch_to_hf.py",
+        "purl": "pkg:generic/transformers/convert_blip_original_pytorch_to_hf@0.0.0-27da676651c6#src/models/blip/convert_blip_original_pytorch_to_hf.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "27da676651c6138c0335d5e6f34e94fd"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "convert_clap_original_pytorch_to_hf",
+        "version": "0.0.0-d7ffa5340d62",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/convert_clap_original_pytorch_to_hf@0.0.0-d7ffa5340d62#src/models/clap/convert_clap_original_pytorch_to_hf.py",
+        "purl": "pkg:generic/transformers/convert_clap_original_pytorch_to_hf@0.0.0-d7ffa5340d62#src/models/clap/convert_clap_original_pytorch_to_hf.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d7ffa5340d62ac43a2ed52c801a73a6d"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "convert_deit_timm_to_pytorch",
+        "version": "0.0.0-80e83553f571",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/convert_deit_timm_to_pytorch@0.0.0-80e83553f571#src/models/deit/convert_deit_timm_to_pytorch.py",
+        "purl": "pkg:generic/transformers/convert_deit_timm_to_pytorch@0.0.0-80e83553f571#src/models/deit/convert_deit_timm_to_pytorch.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "80e83553f57111cde3607b733d3155f0"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "convert_dinov2_depth_to_hf",
+        "version": "0.0.0-2131e63ce9b6",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/convert_dinov2_depth_to_hf@0.0.0-2131e63ce9b6#src/models/dpt/convert_dinov2_depth_to_hf.py",
+        "purl": "pkg:generic/transformers/convert_dinov2_depth_to_hf@0.0.0-2131e63ce9b6#src/models/dpt/convert_dinov2_depth_to_hf.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "2131e63ce9b6f6a72636053d14569bc9"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "convert_dpt_beit_to_hf",
+        "version": "0.0.0-9018d31860af",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/convert_dpt_beit_to_hf@0.0.0-9018d31860af#src/models/dpt/convert_dpt_beit_to_hf.py",
+        "purl": "pkg:generic/transformers/convert_dpt_beit_to_hf@0.0.0-9018d31860af#src/models/dpt/convert_dpt_beit_to_hf.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "9018d31860af7b5dddf2aa97a7df726b"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "convert_dpt_swinv2_to_hf",
+        "version": "0.0.0-b31e1f16d9c1",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/convert_dpt_swinv2_to_hf@0.0.0-b31e1f16d9c1#src/models/dpt/convert_dpt_swinv2_to_hf.py",
+        "purl": "pkg:generic/transformers/convert_dpt_swinv2_to_hf@0.0.0-b31e1f16d9c1#src/models/dpt/convert_dpt_swinv2_to_hf.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "b31e1f16d9c1953c01c019976a89e8c9"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "convert_efficientnet_to_pytorch",
+        "version": "0.0.0-b2b4eb28cb26",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/convert_efficientnet_to_pytorch@0.0.0-b2b4eb28cb26#src/models/efficientnet/convert_efficientnet_to_pytorch.py",
+        "purl": "pkg:generic/transformers/convert_efficientnet_to_pytorch@0.0.0-b2b4eb28cb26#src/models/efficientnet/convert_efficientnet_to_pytorch.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "b2b4eb28cb267e434479aba1054468c8"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "__init__",
+        "version": "0.0.0-e4853f8cc1fb",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/__init__@0.0.0-e4853f8cc1fb#src/models/esm/openfold_utils/__init__.py",
+        "purl": "pkg:generic/transformers/__init__@0.0.0-e4853f8cc1fb#src/models/esm/openfold_utils/__init__.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "e4853f8cc1fbe863892412d3f2d6ca93"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "convert_custom_code_checkpoint",
+        "version": "0.0.0-909c7530e888",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/convert_custom_code_checkpoint@0.0.0-909c7530e888#src/models/falcon/convert_custom_code_checkpoint.py",
+        "purl": "pkg:generic/transformers/convert_custom_code_checkpoint@0.0.0-909c7530e888#src/models/falcon/convert_custom_code_checkpoint.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "909c7530e8884ffb057364b7a066cfa5"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "convert_fnet_original_flax_checkpoint_to_pytorch",
+        "version": "0.0.0-1df19e110cca",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/convert_fnet_original_flax_checkpoint_to_pytorch@0.0.0-1df19e110cca#src/models/fnet/convert_fnet_original_flax_checkpoint_to_pytorch.py",
+        "purl": "pkg:generic/transformers/convert_fnet_original_flax_checkpoint_to_pytorch@0.0.0-1df19e110cca#src/models/fnet/convert_fnet_original_flax_checkpoint_to_pytorch.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "1df19e110ccae1d1408569064718865f"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "convert_instructblip_original_to_pytorch",
+        "version": "0.0.0-68b58ba617e4",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/convert_instructblip_original_to_pytorch@0.0.0-68b58ba617e4#src/models/instructblip/convert_instructblip_original_to_pytorch.py",
+        "purl": "pkg:generic/transformers/convert_instructblip_original_to_pytorch@0.0.0-68b58ba617e4#src/models/instructblip/convert_instructblip_original_to_pytorch.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "68b58ba617e4c913c6fe6cd71539ef0c"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "convert_instructblipvideo_original_to_pytorch",
+        "version": "0.0.0-29f40d087ad9",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/convert_instructblipvideo_original_to_pytorch@0.0.0-29f40d087ad9#src/models/instructblipvideo/convert_instructblipvideo_original_to_pytorch.py",
+        "purl": "pkg:generic/transformers/convert_instructblipvideo_original_to_pytorch@0.0.0-29f40d087ad9#src/models/instructblipvideo/convert_instructblipvideo_original_to_pytorch.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "29f40d087ad900f5cc7227168316835c"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "convert_kosmos2_original_pytorch_checkpoint_to_pytorch",
+        "version": "0.0.0-b5022024bc85",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/convert_kosmos2_original_pytorch_checkpoint_to_pytorch@0.0.0-b5022024bc85#src/models/kosmos2/convert_kosmos2_original_pytorch_checkpoint_to_pytorch.py",
+        "purl": "pkg:generic/transformers/convert_kosmos2_original_pytorch_checkpoint_to_pytorch@0.0.0-b5022024bc85#src/models/kosmos2/convert_kosmos2_original_pytorch_checkpoint_to_pytorch.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "b5022024bc85f7b20abfaf2ef33ff61c"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "convert_fairseq2_to_hf",
+        "version": "0.0.0-071fbea0a243",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/convert_fairseq2_to_hf@0.0.0-071fbea0a243#src/models/seamless_m4t/convert_fairseq2_to_hf.py",
+        "purl": "pkg:generic/transformers/convert_fairseq2_to_hf@0.0.0-071fbea0a243#src/models/seamless_m4t/convert_fairseq2_to_hf.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "071fbea0a2435fa5f056d0f65d0b089f"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "convert_fairseq2_to_hf",
+        "version": "0.0.0-3f07faee0c08",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/convert_fairseq2_to_hf@0.0.0-3f07faee0c08#src/models/seamless_m4t_v2/convert_fairseq2_to_hf.py",
+        "purl": "pkg:generic/transformers/convert_fairseq2_to_hf@0.0.0-3f07faee0c08#src/models/seamless_m4t_v2/convert_fairseq2_to_hf.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "3f07faee0c087e66edaf467feaada0b5"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "convert_speech_to_text_wav2vec2_seq2seq_original_to_pytorch",
+        "version": "0.0.0-1aa7ee99d9f0",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/convert_speech_to_text_wav2vec2_seq2seq_original_to_pytorch@0.0.0-1aa7ee99d9f0#src/models/speech_encoder_decoder/convert_speech_to_text_wav2vec2_seq2seq_original_to_pytorch.py",
+        "purl": "pkg:generic/transformers/convert_speech_to_text_wav2vec2_seq2seq_original_to_pytorch@0.0.0-1aa7ee99d9f0#src/models/speech_encoder_decoder/convert_speech_to_text_wav2vec2_seq2seq_original_to_pytorch.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "1aa7ee99d9f092eb01e1e16753c3c839"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "number_normalizer",
+        "version": "0.0.0-6bad9296d51c",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/number_normalizer@0.0.0-6bad9296d51c#src/models/speecht5/number_normalizer.py",
+        "purl": "pkg:generic/transformers/number_normalizer@0.0.0-6bad9296d51c#src/models/speecht5/number_normalizer.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "6bad9296d51cc33d1065491a187da2d1"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "convert_t5x_checkpoint_to_pytorch",
+        "version": "0.0.0-dfdcc0a58568",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/convert_t5x_checkpoint_to_pytorch@0.0.0-dfdcc0a58568#src/models/t5/convert_t5x_checkpoint_to_pytorch.py",
+        "purl": "pkg:generic/transformers/convert_t5x_checkpoint_to_pytorch@0.0.0-dfdcc0a58568#src/models/t5/convert_t5x_checkpoint_to_pytorch.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "dfdcc0a585683ff93da6d3e445d72773"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "convert_trocr_unilm_to_pytorch",
+        "version": "0.0.0-aae4ce935f2c",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/convert_trocr_unilm_to_pytorch@0.0.0-aae4ce935f2c#src/models/trocr/convert_trocr_unilm_to_pytorch.py",
+        "purl": "pkg:generic/transformers/convert_trocr_unilm_to_pytorch@0.0.0-aae4ce935f2c#src/models/trocr/convert_trocr_unilm_to_pytorch.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "aae4ce935f2ca9d39d514ea1282f522b"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "convert_unispeech_sat_original_pytorch_checkpoint_to_pytorch",
+        "version": "0.0.0-619e72b09983",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/convert_unispeech_sat_original_pytorch_checkpoint_to_pytorch@0.0.0-619e72b09983#src/models/unispeech_sat/convert_unispeech_sat_original_pytorch_checkpoint_to_pytorch.py",
+        "purl": "pkg:generic/transformers/convert_unispeech_sat_original_pytorch_checkpoint_to_pytorch@0.0.0-619e72b09983#src/models/unispeech_sat/convert_unispeech_sat_original_pytorch_checkpoint_to_pytorch.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "619e72b09983357046daab011ff578a3"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "convert_vilt_original_to_pytorch",
+        "version": "0.0.0-560fb586b75a",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/convert_vilt_original_to_pytorch@0.0.0-560fb586b75a#src/models/vilt/convert_vilt_original_to_pytorch.py",
+        "purl": "pkg:generic/transformers/convert_vilt_original_to_pytorch@0.0.0-560fb586b75a#src/models/vilt/convert_vilt_original_to_pytorch.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "560fb586b75a443fe26071acc7dcaf8c"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "convert_dino_to_pytorch",
+        "version": "0.0.0-b1f57751c4ab",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/convert_dino_to_pytorch@0.0.0-b1f57751c4ab#src/models/vit/convert_dino_to_pytorch.py",
+        "purl": "pkg:generic/transformers/convert_dino_to_pytorch@0.0.0-b1f57751c4ab#src/models/vit/convert_dino_to_pytorch.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "b1f57751c4ab92ffeac524d03bd4321a"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "convert_vit_timm_to_pytorch",
+        "version": "0.0.0-3b7015315a14",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/convert_vit_timm_to_pytorch@0.0.0-3b7015315a14#src/models/vit/convert_vit_timm_to_pytorch.py",
+        "purl": "pkg:generic/transformers/convert_vit_timm_to_pytorch@0.0.0-3b7015315a14#src/models/vit/convert_vit_timm_to_pytorch.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "3b7015315a147d423d772d9afa9c1258"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "convert_msn_to_pytorch",
+        "version": "0.0.0-afde69712660",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/convert_msn_to_pytorch@0.0.0-afde69712660#src/models/vit_msn/convert_msn_to_pytorch.py",
+        "purl": "pkg:generic/transformers/convert_msn_to_pytorch@0.0.0-afde69712660#src/models/vit_msn/convert_msn_to_pytorch.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "afde6971266031f393c626ae85b50cc0"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "constants",
+        "version": "0.0.0-8ec2677c8716",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/constants@0.0.0-8ec2677c8716#src/utils/constants.py",
+        "purl": "pkg:generic/transformers/constants@0.0.0-8ec2677c8716#src/utils/constants.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "8ec2677c87163d4cedac713fb94d583f"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "dummy_detectron2_objects",
+        "version": "0.0.0-3e7115952ba6",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/dummy_detectron2_objects@0.0.0-3e7115952ba6#src/utils/dummy_detectron2_objects.py",
+        "purl": "pkg:generic/transformers/dummy_detectron2_objects@0.0.0-3e7115952ba6#src/utils/dummy_detectron2_objects.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "3e7115952ba645bd12268e239c6e3bf5"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "dummy_essentia_and_librosa_and_pretty_midi_and_scipy_and_torch_objects",
+        "version": "0.0.0-249da5a93eac",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/dummy_essentia_and_librosa_and_pretty_midi_and_scipy_and_torch_objects@0.0.0-249da5a93eac#src/utils/dummy_essentia_and_librosa_and_pretty_midi_and_scipy_and_torch_objects.py",
+        "purl": "pkg:generic/transformers/dummy_essentia_and_librosa_and_pretty_midi_and_scipy_and_torch_objects@0.0.0-249da5a93eac#src/utils/dummy_essentia_and_librosa_and_pretty_midi_and_scipy_and_torch_objects.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "249da5a93eac1f760a953adc42556b6a"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "dummy_music_objects",
+        "version": "0.0.0-e4a9f7021fc2",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/dummy_music_objects@0.0.0-e4a9f7021fc2#src/utils/dummy_music_objects.py",
+        "purl": "pkg:generic/transformers/dummy_music_objects@0.0.0-e4a9f7021fc2#src/utils/dummy_music_objects.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "e4a9f7021fc2843cda397c0edf12a137"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "dummy_sentencepiece_and_tokenizers_objects",
+        "version": "0.0.0-c155ea1d411f",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/dummy_sentencepiece_and_tokenizers_objects@0.0.0-c155ea1d411f#src/utils/dummy_sentencepiece_and_tokenizers_objects.py",
+        "purl": "pkg:generic/transformers/dummy_sentencepiece_and_tokenizers_objects@0.0.0-c155ea1d411f#src/utils/dummy_sentencepiece_and_tokenizers_objects.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c155ea1d411fa36e6932c3cd19f6ba30"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "dummy_speech_objects",
+        "version": "0.0.0-ca5d8ebf91c4",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/dummy_speech_objects@0.0.0-ca5d8ebf91c4#src/utils/dummy_speech_objects.py",
+        "purl": "pkg:generic/transformers/dummy_speech_objects@0.0.0-ca5d8ebf91c4#src/utils/dummy_speech_objects.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "ca5d8ebf91c49e87954c99b4c64cc26f"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "hp_naming",
+        "version": "0.0.0-d31a77a2e8ec",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/hp_naming@0.0.0-d31a77a2e8ec#src/utils/hp_naming.py",
+        "purl": "pkg:generic/transformers/hp_naming@0.0.0-d31a77a2e8ec#src/utils/hp_naming.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d31a77a2e8ece72409029c7ea5633f18"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "sentencepiece_model_pb2_new",
+        "version": "0.0.0-1f32fdbacc4c",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/sentencepiece_model_pb2_new@0.0.0-1f32fdbacc4c#src/utils/sentencepiece_model_pb2_new.py",
+        "purl": "pkg:generic/transformers/sentencepiece_model_pb2_new@0.0.0-1f32fdbacc4c#src/utils/sentencepiece_model_pb2_new.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "1f32fdbacc4cd00946254fae06424299"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "test_tokenization_{{cookiecutter.lowercase_modelname}}",
+        "version": "0.0.0-715f56dd5f7f",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/test_tokenization_{{cookiecutter.lowercase_modelname}}@0.0.0-715f56dd5f7f#templates/adding_a_missing_tokenization_test/cookiecutter-template-{{cookiecutter.modelname}}/test_tokenization_{{cookiecutter.lowercase_modelname}}.py",
+        "purl": "pkg:generic/transformers/test_tokenization_{{cookiecutter.lowercase_modelname}}@0.0.0-715f56dd5f7f#templates/adding_a_missing_tokenization_test/cookiecutter-template-{{cookiecutter.modelname}}/test_tokenization_{{cookiecutter.lowercase_modelname}}.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "715f56dd5f7f706ca158346f07c1417b"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "test_modeling_megatron_gpt2",
+        "version": "0.0.0-aac83587ac32",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/test_modeling_megatron_gpt2@0.0.0-aac83587ac32#tests/models/megatron_gpt2/test_modeling_megatron_gpt2.py",
+        "purl": "pkg:generic/transformers/test_modeling_megatron_gpt2@0.0.0-aac83587ac32#tests/models/megatron_gpt2/test_modeling_megatron_gpt2.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "aac83587ac323683f71b70be6f05f221"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "test_check_docstrings",
+        "version": "0.0.0-bc5354c389d8",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/test_check_docstrings@0.0.0-bc5354c389d8#tests/repo_utils/test_check_docstrings.py",
+        "purl": "pkg:generic/transformers/test_check_docstrings@0.0.0-bc5354c389d8#tests/repo_utils/test_check_docstrings.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "bc5354c389d8048009ab82afdbdf33d8"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "test_get_test_info",
+        "version": "0.0.0-c38f0a26b6cf",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/test_get_test_info@0.0.0-c38f0a26b6cf#tests/repo_utils/test_get_test_info.py",
+        "purl": "pkg:generic/transformers/test_get_test_info@0.0.0-c38f0a26b6cf#tests/repo_utils/test_get_test_info.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c38f0a26b6cfed6a26db29b1fe1c18f4"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "__init__",
+        "version": "0.0.0-937ee0720748",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/__init__@0.0.0-937ee0720748#tests/sagemaker/__init__.py",
+        "purl": "pkg:generic/transformers/__init__@0.0.0-937ee0720748#tests/sagemaker/__init__.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "937ee0720748b694d4438a4708c7ba44"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "run_ddp",
+        "version": "0.0.0-454de513e6eb",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/run_ddp@0.0.0-454de513e6eb#tests/sagemaker/scripts/pytorch/run_ddp.py",
+        "purl": "pkg:generic/transformers/run_ddp@0.0.0-454de513e6eb#tests/sagemaker/scripts/pytorch/run_ddp.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "454de513e6eb776c3fb4af47fcb5ec1d"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "test_backbone_common",
+        "version": "0.0.0-7de946083067",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/test_backbone_common@0.0.0-7de946083067#tests/test_backbone_common.py",
+        "purl": "pkg:generic/transformers/test_backbone_common@0.0.0-7de946083067#tests/test_backbone_common.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "7de9460830679b2410011168a14429db"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "test_feature_extraction_common",
+        "version": "0.0.0-3c20459bc6b9",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/test_feature_extraction_common@0.0.0-3c20459bc6b9#tests/test_feature_extraction_common.py",
+        "purl": "pkg:generic/transformers/test_feature_extraction_common@0.0.0-3c20459bc6b9#tests/test_feature_extraction_common.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "3c20459bc6b9ddde783d0602ef4a943b"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "test_backbone_utils",
+        "version": "0.0.0-f948a1ab41eb",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/test_backbone_utils@0.0.0-f948a1ab41eb#tests/utils/test_backbone_utils.py",
+        "purl": "pkg:generic/transformers/test_backbone_utils@0.0.0-f948a1ab41eb#tests/utils/test_backbone_utils.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "f948a1ab41eba6710f91036d6fe8c3c5"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "test_dynamic_module_utils",
+        "version": "0.0.0-d6f1fd629428",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/test_dynamic_module_utils@0.0.0-d6f1fd629428#tests/utils/test_dynamic_module_utils.py",
+        "purl": "pkg:generic/transformers/test_dynamic_module_utils@0.0.0-d6f1fd629428#tests/utils/test_dynamic_module_utils.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d6f1fd62942829649828586c71861910"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "extract_warnings",
+        "version": "0.0.0-49cfa21da4e5",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/extract_warnings@0.0.0-49cfa21da4e5#utils/extract_warnings.py",
+        "purl": "pkg:generic/transformers/extract_warnings@0.0.0-49cfa21da4e5#utils/extract_warnings.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "49cfa21da4e5d2e03c9e1acad1fe1e34"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "get_github_job_time",
+        "version": "0.0.0-f4b6231ca933",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/get_github_job_time@0.0.0-f4b6231ca933#utils/get_github_job_time.py",
+        "purl": "pkg:generic/transformers/get_github_job_time@0.0.0-f4b6231ca933#utils/get_github_job_time.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "f4b6231ca933faeefece797e549400aa"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "get_modified_files",
+        "version": "0.0.0-3273504252a1",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/get_modified_files@0.0.0-3273504252a1#utils/get_modified_files.py",
+        "purl": "pkg:generic/transformers/get_modified_files@0.0.0-3273504252a1#utils/get_modified_files.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "3273504252a142c26760ea6c9bc0b44a"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "set_cuda_devices_for_ci",
+        "version": "0.0.0-c152cd9c231b",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/set_cuda_devices_for_ci@0.0.0-c152cd9c231b#utils/set_cuda_devices_for_ci.py",
+        "purl": "pkg:generic/transformers/set_cuda_devices_for_ci@0.0.0-c152cd9c231b#utils/set_cuda_devices_for_ci.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c152cd9c231b4f4ab09dd9bc2f0044f0"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "custom_feature_extraction",
+        "version": "0.0.0-e9b25ecd2d6e",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/custom_feature_extraction@0.0.0-e9b25ecd2d6e#utils/test_module/custom_feature_extraction.py",
+        "purl": "pkg:generic/transformers/custom_feature_extraction@0.0.0-e9b25ecd2d6e#utils/test_module/custom_feature_extraction.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "e9b25ecd2d6e699abc48812233923114"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "custom_image_processing",
+        "version": "0.0.0-e8aab51cdf25",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/custom_image_processing@0.0.0-e8aab51cdf25#utils/test_module/custom_image_processing.py",
+        "purl": "pkg:generic/transformers/custom_image_processing@0.0.0-e8aab51cdf25#utils/test_module/custom_image_processing.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "e8aab51cdf255bedb152bfdca79b7613"
+          }
+        ]
+      },
+      {
+        "group": "transformers",
+        "name": "custom_tokenization",
+        "version": "0.0.0-008b49d27849",
+        "type": "file",
+        "bom-ref": "pkg:generic/transformers/custom_tokenization@0.0.0-008b49d27849#utils/test_module/custom_tokenization.py",
+        "purl": "pkg:generic/transformers/custom_tokenization@0.0.0-008b49d27849#utils/test_module/custom_tokenization.py",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "008b49d27849586c362495215e01b124"
+          }
+        ]
+      }
+    ]
+  },
+  "file_count": 65
+}
