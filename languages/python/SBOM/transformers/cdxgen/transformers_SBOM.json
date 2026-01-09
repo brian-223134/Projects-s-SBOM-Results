@@ -1,0 +1,2610 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:65496a18-9503-47a4-a6ac-e6da2485b488",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-01-09T06:50:35Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "12.0.0",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@12.0.0",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@12.0.0",
+          "publisher": "OWASP Foundation",
+          "authors": [
+            {
+              "name": "OWASP Foundation"
+            }
+          ]
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "component": {
+      "group": "",
+      "name": "app",
+      "version": "latest",
+      "type": "application",
+      "bom-ref": "pkg:pypi/app@latest",
+      "purl": "pkg:pypi/app@latest"
+    },
+    "properties": [
+      {
+        "name": "cdx:bom:componentTypes",
+        "value": "github\\npypi"
+      },
+      {
+        "name": "cdx:bom:componentNamespaces",
+        "value": "actions\\nconda-incubator\\ndocker\\nhuggingface\\nhuggingface/hf-workflows/.github/actions\\npypa\\nslackapi\\ntrufflesecurity"
+      },
+      {
+        "name": "cdx:bom:componentSrcFiles",
+        "value": ".github/workflows/add-model-like.yml\\n.github/workflows/assign-reviewers.yml\\n.github/workflows/benchmark.yml\\n.github/workflows/benchmark_v2.yml\\n.github/workflows/build-ci-docker-images.yml\\n.github/workflows/build-docker-images.yml\\n.github/workflows/build-nightly-ci-docker-images.yml\\n.github/workflows/build-past-ci-docker-images.yml\\n.github/workflows/check_failed_tests.yml\\n.github/workflows/check_tiny_models.yml\\n.github/workflows/circleci-failure-summary-comment.yml\\n.github/workflows/collated-reports.yml\\n.github/workflows/doctest_job.yml\\n.github/workflows/doctests.yml\\n.github/workflows/get-pr-info.yml\\n.github/workflows/model_jobs.yml\\n.github/workflows/model_jobs_intel_gaudi.yml\\n.github/workflows/new_model_pr_merged_notification.yml\\n.github/workflows/pr-repo-consistency-bot.yml\\n.github/workflows/pr_slow_ci_suggestion.yml\\n.github/workflows/push-important-models.yml\\n.github/workflows/release-conda.yml\\n.github/workflows/release.yml\\n.github/workflows/self-comment-ci.yml\\n.github/workflows/self-nightly-caller.yml\\n.github/workflows/self-scheduled-caller.yml\\n.github/workflows/self-scheduled-flash-attn-caller.yml\\n.github/workflows/self-scheduled-intel-gaudi.yml\\n.github/workflows/self-scheduled.yml\\n.github/workflows/slack-report.yml\\n.github/workflows/ssh-runner.yml\\n.github/workflows/stale.yml\\n.github/workflows/trufflehog.yml\\n.github/workflows/update_metdata.yml\\nPyPI package: django-git\\nbenchmark/requirements.txt\\nbenchmark_v2/requirements.txt\\ncdxgen-venv-x5HuYY\\npyproject.toml\\ntests/sagemaker/scripts/pytorch/requirements.txt"
+      }
+    ]
+  },
+  "components": [
+    {
+      "authors": [
+        {
+          "name": "Seth Buntin <sethtrain@gmail.com>"
+        }
+      ],
+      "group": "",
+      "name": "django-git",
+      "version": "0.1",
+      "description": "django gitweb replacement",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e2320fcea2accf78128c3520d94e9865fc938d386a9e4bf49d9973277c0a7f7d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "0BSD",
+            "url": "https://opensource.org/licenses/0BSD"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/django-git@0.1",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://code.google.com/p/django-git"
+        }
+      ],
+      "type": "framework",
+      "bom-ref": "pkg:pypi/django-git@0.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "tests/sagemaker/scripts/pytorch/requirements.txt"
+        },
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": "+https://github.com/huggingface/transformers.git@main # install main or adjust it with vX.X.X for installing version specific transforms"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "version",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "PyPI package: django-git"
+              }
+            ],
+            "concludedValue": "PyPI package: django-git"
+          }
+        ]
+      },
+      "tags": [
+        "framework"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "name": "HuggingFace Inc. <thomas@huggingface.co>"
+        }
+      ],
+      "group": "",
+      "name": "datasets",
+      "version": "1.8.0",
+      "description": "HuggingFace/Datasets is an open library of NLP datasets.",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/datasets@1.8.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/huggingface/datasets"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/datasets@1.8.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "tests/sagemaker/scripts/pytorch/requirements.txt"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "tests/sagemaker/scripts/pytorch/requirements.txt"
+              }
+            ],
+            "concludedValue": "tests/sagemaker/scripts/pytorch/requirements.txt"
+          }
+        ]
+      }
+    },
+    {
+      "authors": [
+        {
+          "name": "Travis E. Oliphant et al."
+        }
+      ],
+      "group": "",
+      "name": "numpy",
+      "version": "1.21.0",
+      "description": "NumPy is the fundamental package for array computing with Python.",
+      "licenses": [
+        {
+          "license": {
+            "id": "0BSD",
+            "url": "https://opensource.org/licenses/0BSD"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/numpy@1.21.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.numpy.org"
+        }
+      ],
+      "type": "framework",
+      "bom-ref": "pkg:pypi/numpy@1.21.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "benchmark_v2/requirements.txt"
+        },
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ">=1.21.0"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "benchmark_v2/requirements.txt"
+              }
+            ],
+            "concludedValue": "benchmark_v2/requirements.txt"
+          }
+        ]
+      },
+      "tags": [
+        "framework"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "name": "Giampaolo Rodola <g.rodola@gmail.com>"
+        }
+      ],
+      "group": "",
+      "name": "psutil",
+      "version": "5.8.0",
+      "description": "Cross-platform lib for process and system monitoring in Python.",
+      "licenses": [
+        {
+          "license": {
+            "id": "0BSD",
+            "url": "https://opensource.org/licenses/0BSD"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/psutil@5.8.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/giampaolo/psutil"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/psutil@5.8.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "benchmark_v2/requirements.txt"
+        },
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ">=5.8.0"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "benchmark_v2/requirements.txt"
+              }
+            ],
+            "concludedValue": "benchmark_v2/requirements.txt"
+          }
+        ]
+      }
+    },
+    {
+      "authors": [
+        {
+          "name": "Jongwook Choi <wookayin@gmail.com>"
+        }
+      ],
+      "group": "",
+      "name": "gpustat",
+      "version": "1.0.0",
+      "description": "An utility to monitor NVIDIA GPU status and usage",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/gpustat@1.0.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/wookayin/gpustat"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/gpustat@1.0.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "benchmark_v2/requirements.txt"
+        },
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ">=1.0.0"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "benchmark_v2/requirements.txt"
+              }
+            ],
+            "concludedValue": "benchmark_v2/requirements.txt"
+          }
+        ]
+      }
+    },
+    {
+      "authors": [
+        {
+          "name": "PyTorch Team <packages@pytorch.org>"
+        }
+      ],
+      "group": "",
+      "name": "torch",
+      "version": "2.0.0",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "licenses": [
+        {
+          "license": {
+            "id": "0BSD",
+            "url": "https://opensource.org/licenses/0BSD"
+          }
+        },
+        {
+          "license": {
+            "name": "BSD-3"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/torch@2.0.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://pytorch.org/"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/torch@2.0.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "benchmark_v2/requirements.txt"
+        },
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ">=2.0.0"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "benchmark_v2/requirements.txt"
+              }
+            ],
+            "concludedValue": "benchmark_v2/requirements.txt"
+          }
+        ]
+      }
+    },
+    {
+      "authors": [
+        {
+          "name": "HuggingFace Inc. <thomas@huggingface.co>"
+        }
+      ],
+      "group": "",
+      "name": "datasets",
+      "version": "2.10.0",
+      "description": "HuggingFace community-driven open-source library of datasets",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/datasets@2.10.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/huggingface/datasets"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/datasets@2.10.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "benchmark_v2/requirements.txt"
+        },
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ">=2.10.0"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "benchmark_v2/requirements.txt"
+              }
+            ],
+            "concludedValue": "benchmark_v2/requirements.txt"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "huggingface_hub",
+      "version": "0.16.0",
+      "purl": "pkg:pypi/huggingface-hub@0.16.0",
+      "type": "framework",
+      "bom-ref": "pkg:pypi/huggingface-hub@0.16.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "benchmark_v2/requirements.txt"
+        },
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ">=0.16.0"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "benchmark_v2/requirements.txt"
+              }
+            ],
+            "concludedValue": "benchmark_v2/requirements.txt"
+          }
+        ]
+      },
+      "tags": [
+        "framework"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "name": "Jongwook Choi <wookayin@gmail.com>"
+        }
+      ],
+      "group": "",
+      "name": "gpustat",
+      "version": "1.1.1",
+      "description": "An utility to monitor NVIDIA GPU status and usage",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/gpustat@1.1.1",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/wookayin/gpustat"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/gpustat@1.1.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "benchmark/requirements.txt"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "benchmark/requirements.txt"
+              }
+            ],
+            "concludedValue": "benchmark/requirements.txt"
+          }
+        ]
+      }
+    },
+    {
+      "authors": [
+        {
+          "name": "Giampaolo Rodola <g.rodola@gmail.com>"
+        }
+      ],
+      "group": "",
+      "name": "psutil",
+      "version": "6.0.0",
+      "description": "Cross-platform lib for process and system monitoring in Python.",
+      "licenses": [
+        {
+          "license": {
+            "id": "0BSD",
+            "url": "https://opensource.org/licenses/0BSD"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/psutil@6.0.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/giampaolo/psutil"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/psutil@6.0.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "benchmark/requirements.txt"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "benchmark/requirements.txt"
+              }
+            ],
+            "concludedValue": "benchmark/requirements.txt"
+          }
+        ]
+      }
+    },
+    {
+      "authors": [
+        {
+          "name": "Federico Di Gregorio <fog@initd.org>"
+        }
+      ],
+      "group": "",
+      "name": "psycopg2",
+      "version": "2.9.9",
+      "description": "psycopg2 - Python-PostgreSQL Database Adapter",
+      "licenses": [
+        {
+          "expression": "LGPL with exceptions"
+        }
+      ],
+      "purl": "pkg:pypi/psycopg2@2.9.9",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://psycopg.org/"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/psycopg2@2.9.9",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "benchmark/requirements.txt"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "benchmark/requirements.txt"
+              }
+            ],
+            "concludedValue": "benchmark/requirements.txt"
+          }
+        ]
+      },
+      "tags": [
+        "database"
+      ]
+    },
+    {
+      "group": "",
+      "name": "hf_xet",
+      "version": "1.2.0",
+      "description": "Fast transfer of large files with the Hugging Face Hub.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ceeefcd1b7aed4956ae8499e2199607765fbd1c60510752003b6cc0b8413b649"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/hf-xet@1.2.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/hf-xet@1.2.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "benchmark/requirements.txt"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pyproject.toml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.8,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.8,
+                "value": "pyproject.toml"
+              }
+            ],
+            "concludedValue": "pyproject.toml"
+          }
+        ]
+      }
+    },
+    {
+      "authors": [
+        {
+          "name": "The Pandas Development Team <pandas-dev@python.org>"
+        }
+      ],
+      "group": "",
+      "name": "pandas",
+      "version": "1.5.0",
+      "description": "Powerful data structures for data analysis, time series, and statistics",
+      "licenses": [
+        {
+          "license": {
+            "id": "0BSD",
+            "url": "https://opensource.org/licenses/0BSD"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/pandas@1.5.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://pandas.pydata.org"
+        }
+      ],
+      "type": "framework",
+      "bom-ref": "pkg:pypi/pandas@1.5.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "benchmark/requirements.txt"
+        },
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ">=1.5.0"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "benchmark/requirements.txt"
+              }
+            ],
+            "concludedValue": "benchmark/requirements.txt"
+          }
+        ]
+      },
+      "tags": [
+        "framework"
+      ]
+    },
+    {
+      "group": "",
+      "name": "anyio",
+      "version": "4.12.1",
+      "purl": "pkg:pypi/anyio@4.12.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/anyio@4.12.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "pyproject.toml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.8,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.8,
+                "value": "pyproject.toml"
+              }
+            ],
+            "concludedValue": "pyproject.toml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "idna",
+      "version": "3.11",
+      "purl": "pkg:pypi/idna@3.11",
+      "type": "library",
+      "bom-ref": "pkg:pypi/idna@3.11",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "pyproject.toml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.8,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.8,
+                "value": "pyproject.toml"
+              }
+            ],
+            "concludedValue": "pyproject.toml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "typing-extensions",
+      "version": "4.15.0",
+      "purl": "pkg:pypi/typing-extensions@4.15.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/typing-extensions@4.15.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "pyproject.toml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "instrumentation",
+                "confidence": 1,
+                "value": "cdxgen-venv-x5HuYY"
+              }
+            ],
+            "concludedValue": "cdxgen-venv-x5HuYY"
+          }
+        ]
+      },
+      "tags": [
+        "devel"
+      ]
+    },
+    {
+      "group": "",
+      "name": "certifi",
+      "version": "2026.1.4",
+      "purl": "pkg:pypi/certifi@2026.1.4",
+      "type": "library",
+      "bom-ref": "pkg:pypi/certifi@2026.1.4",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "pyproject.toml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.8,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.8,
+                "value": "pyproject.toml"
+              }
+            ],
+            "concludedValue": "pyproject.toml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "charset-normalizer",
+      "version": "3.4.4",
+      "purl": "pkg:pypi/charset-normalizer@3.4.4",
+      "type": "library",
+      "bom-ref": "pkg:pypi/charset-normalizer@3.4.4",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "pyproject.toml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.8,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.8,
+                "value": "pyproject.toml"
+              }
+            ],
+            "concludedValue": "pyproject.toml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "click",
+      "version": "8.3.1",
+      "purl": "pkg:pypi/click@8.3.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/click@8.3.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "pyproject.toml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.8,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.8,
+                "value": "pyproject.toml"
+              }
+            ],
+            "concludedValue": "pyproject.toml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "filelock",
+      "version": "3.20.2",
+      "purl": "pkg:pypi/filelock@3.20.2",
+      "type": "library",
+      "bom-ref": "pkg:pypi/filelock@3.20.2",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "pyproject.toml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.8,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.8,
+                "value": "pyproject.toml"
+              }
+            ],
+            "concludedValue": "pyproject.toml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "fsspec",
+      "version": "2025.12.0",
+      "purl": "pkg:pypi/fsspec@2025.12.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/fsspec@2025.12.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "pyproject.toml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.8,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.8,
+                "value": "pyproject.toml"
+              }
+            ],
+            "concludedValue": "pyproject.toml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "h11",
+      "version": "0.16.0",
+      "purl": "pkg:pypi/h11@0.16.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/h11@0.16.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "pyproject.toml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.8,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.8,
+                "value": "pyproject.toml"
+              }
+            ],
+            "concludedValue": "pyproject.toml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "httpcore",
+      "version": "1.0.9",
+      "purl": "pkg:pypi/httpcore@1.0.9",
+      "type": "library",
+      "bom-ref": "pkg:pypi/httpcore@1.0.9",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "pyproject.toml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.8,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.8,
+                "value": "pyproject.toml"
+              }
+            ],
+            "concludedValue": "pyproject.toml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "httpx",
+      "version": "0.28.1",
+      "purl": "pkg:pypi/httpx@0.28.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/httpx@0.28.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "pyproject.toml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.8,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.8,
+                "value": "pyproject.toml"
+              }
+            ],
+            "concludedValue": "pyproject.toml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "huggingface-hub",
+      "version": "1.2.4",
+      "purl": "pkg:pypi/huggingface-hub@1.2.4",
+      "type": "framework",
+      "bom-ref": "pkg:pypi/huggingface-hub@1.2.4",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "pyproject.toml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.8,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.8,
+                "value": "pyproject.toml"
+              }
+            ],
+            "concludedValue": "pyproject.toml"
+          }
+        ]
+      },
+      "tags": [
+        "framework"
+      ]
+    },
+    {
+      "group": "",
+      "name": "packaging",
+      "version": "25.0",
+      "purl": "pkg:pypi/packaging@25.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/packaging@25.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "pyproject.toml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.8,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.8,
+                "value": "pyproject.toml"
+              }
+            ],
+            "concludedValue": "pyproject.toml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "pyyaml",
+      "version": "6.0.3",
+      "purl": "pkg:pypi/pyyaml@6.0.3",
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyyaml@6.0.3",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "pyproject.toml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.8,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.8,
+                "value": "pyproject.toml"
+              }
+            ],
+            "concludedValue": "pyproject.toml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "shellingham",
+      "version": "1.5.4",
+      "purl": "pkg:pypi/shellingham@1.5.4",
+      "type": "library",
+      "bom-ref": "pkg:pypi/shellingham@1.5.4",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "pyproject.toml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.8,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.8,
+                "value": "pyproject.toml"
+              }
+            ],
+            "concludedValue": "pyproject.toml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "tqdm",
+      "version": "4.67.1",
+      "purl": "pkg:pypi/tqdm@4.67.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/tqdm@4.67.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "pyproject.toml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.8,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.8,
+                "value": "pyproject.toml"
+              }
+            ],
+            "concludedValue": "pyproject.toml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "typer-slim",
+      "version": "0.21.1",
+      "purl": "pkg:pypi/typer-slim@0.21.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/typer-slim@0.21.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "pyproject.toml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "instrumentation",
+                "confidence": 1,
+                "value": "cdxgen-venv-x5HuYY"
+              }
+            ],
+            "concludedValue": "cdxgen-venv-x5HuYY"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "urllib3",
+      "version": "2.6.3",
+      "purl": "pkg:pypi/urllib3@2.6.3",
+      "type": "library",
+      "bom-ref": "pkg:pypi/urllib3@2.6.3",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "pyproject.toml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "instrumentation",
+                "confidence": 1,
+                "value": "cdxgen-venv-x5HuYY"
+              }
+            ],
+            "concludedValue": "cdxgen-venv-x5HuYY"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "numpy",
+      "version": "2.4.0",
+      "purl": "pkg:pypi/numpy@2.4.0",
+      "type": "framework",
+      "bom-ref": "pkg:pypi/numpy@2.4.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "pyproject.toml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.8,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.8,
+                "value": "pyproject.toml"
+              }
+            ],
+            "concludedValue": "pyproject.toml"
+          }
+        ]
+      },
+      "tags": [
+        "framework"
+      ]
+    },
+    {
+      "group": "",
+      "name": "regex",
+      "version": "2025.11.3",
+      "purl": "pkg:pypi/regex@2025.11.3",
+      "type": "library",
+      "bom-ref": "pkg:pypi/regex@2025.11.3",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "pyproject.toml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.8,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.8,
+                "value": "pyproject.toml"
+              }
+            ],
+            "concludedValue": "pyproject.toml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "requests",
+      "version": "2.32.5",
+      "purl": "pkg:pypi/requests@2.32.5",
+      "type": "library",
+      "bom-ref": "pkg:pypi/requests@2.32.5",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "pyproject.toml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.8,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.8,
+                "value": "pyproject.toml"
+              }
+            ],
+            "concludedValue": "pyproject.toml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "safetensors",
+      "version": "0.7.0",
+      "purl": "pkg:pypi/safetensors@0.7.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/safetensors@0.7.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "pyproject.toml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.8,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.8,
+                "value": "pyproject.toml"
+              }
+            ],
+            "concludedValue": "pyproject.toml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "tokenizers",
+      "version": "0.22.2",
+      "purl": "pkg:pypi/tokenizers@0.22.2",
+      "type": "library",
+      "bom-ref": "pkg:pypi/tokenizers@0.22.2",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "pyproject.toml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.8,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.8,
+                "value": "pyproject.toml"
+              }
+            ],
+            "concludedValue": "pyproject.toml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "transformers",
+      "version": "latest",
+      "purl": "pkg:pypi/transformers@latest",
+      "type": "library",
+      "bom-ref": "pkg:pypi/transformers@latest",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "pyproject.toml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "instrumentation",
+                "confidence": 1,
+                "value": "cdxgen-venv-x5HuYY"
+              }
+            ],
+            "concludedValue": "cdxgen-venv-x5HuYY"
+          }
+        ]
+      },
+      "tags": [
+        "transform"
+      ]
+    },
+    {
+      "group": "actions",
+      "name": "checkout",
+      "version": "v4",
+      "purl": "pkg:github/actions/checkout@v4",
+      "type": "application",
+      "bom-ref": "pkg:github/actions/checkout@v4",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/update_metdata.yml"
+        },
+        {
+          "name": "cdx:actions:isOfficial",
+          "value": "true"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/trufflehog.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/stale.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/slack-report.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/self-scheduled.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/self-scheduled-intel-gaudi.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/self-comment-ci.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/release.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/release-conda.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/push-important-models.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/pr_slow_ci_suggestion.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/pr-repo-consistency-bot.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/new_model_pr_merged_notification.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/model_jobs_intel_gaudi.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/doctests.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/collated-reports.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/circleci-failure-summary-comment.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/check_tiny_models.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/build-past-ci-docker-images.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/build-nightly-ci-docker-images.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/build-docker-images.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/build-ci-docker-images.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/benchmark_v2.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/assign-reviewers.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/add-model-like.yml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.6,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.6,
+                "value": ".github/workflows/add-model-like.yml"
+              }
+            ],
+            "concludedValue": ".github/workflows/add-model-like.yml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "trufflesecurity",
+      "name": "trufflehog",
+      "version": "main",
+      "purl": "pkg:github/trufflesecurity/trufflehog@main",
+      "type": "application",
+      "bom-ref": "pkg:github/trufflesecurity/trufflehog@main",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/trufflehog.yml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.6,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.6,
+                "value": ".github/workflows/trufflehog.yml"
+              }
+            ],
+            "concludedValue": ".github/workflows/trufflehog.yml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "actions",
+      "name": "setup-python",
+      "version": "v5",
+      "purl": "pkg:github/actions/setup-python@v5",
+      "type": "application",
+      "bom-ref": "pkg:github/actions/setup-python@v5",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/stale.yml"
+        },
+        {
+          "name": "cdx:actions:isOfficial",
+          "value": "true"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/self-scheduled-intel-gaudi.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/release.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/circleci-failure-summary-comment.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/check_tiny_models.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/assign-reviewers.yml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.6,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.6,
+                "value": ".github/workflows/assign-reviewers.yml"
+              }
+            ],
+            "concludedValue": ".github/workflows/assign-reviewers.yml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "huggingface",
+      "name": "tailscale-action",
+      "version": "main",
+      "purl": "pkg:github/huggingface/tailscale-action@main",
+      "type": "application",
+      "bom-ref": "pkg:github/huggingface/tailscale-action@main",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/ssh-runner.yml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.6,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.6,
+                "value": ".github/workflows/ssh-runner.yml"
+              }
+            ],
+            "concludedValue": ".github/workflows/ssh-runner.yml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "actions",
+      "name": "download-artifact",
+      "version": "v4",
+      "purl": "pkg:github/actions/download-artifact@v4",
+      "type": "application",
+      "bom-ref": "pkg:github/actions/download-artifact@v4",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/slack-report.yml"
+        },
+        {
+          "name": "cdx:actions:isOfficial",
+          "value": "true"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/self-scheduled.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/release.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/pr-repo-consistency-bot.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/doctests.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/collated-reports.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/check_failed_tests.yml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.6,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.6,
+                "value": ".github/workflows/check_failed_tests.yml"
+              }
+            ],
+            "concludedValue": ".github/workflows/check_failed_tests.yml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "actions",
+      "name": "upload-artifact",
+      "version": "v4",
+      "purl": "pkg:github/actions/upload-artifact@v4",
+      "type": "application",
+      "bom-ref": "pkg:github/actions/upload-artifact@v4",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/slack-report.yml"
+        },
+        {
+          "name": "cdx:actions:isOfficial",
+          "value": "true"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/self-scheduled.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/self-scheduled-intel-gaudi.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/self-scheduled-flash-attn-caller.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/self-scheduled-caller.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/self-nightly-caller.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/release.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/pr-repo-consistency-bot.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/model_jobs_intel_gaudi.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/model_jobs.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/doctests.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/doctest_job.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/check_tiny_models.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/check_failed_tests.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/add-model-like.yml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.6,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.6,
+                "value": ".github/workflows/add-model-like.yml"
+              }
+            ],
+            "concludedValue": ".github/workflows/add-model-like.yml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "pypa",
+      "name": "gh-action-pypi-publish",
+      "version": "release/v1",
+      "purl": "pkg:github/pypa/gh-action-pypi-publish@release/v1",
+      "type": "application",
+      "bom-ref": "pkg:github/pypa/gh-action-pypi-publish@release/v1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/release.yml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.6,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.6,
+                "value": ".github/workflows/release.yml"
+              }
+            ],
+            "concludedValue": ".github/workflows/release.yml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "conda-incubator",
+      "name": "setup-miniconda",
+      "version": "v2",
+      "purl": "pkg:github/conda-incubator/setup-miniconda@v2",
+      "type": "application",
+      "bom-ref": "pkg:github/conda-incubator/setup-miniconda@v2",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/release-conda.yml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.6,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.6,
+                "value": ".github/workflows/release-conda.yml"
+              }
+            ],
+            "concludedValue": ".github/workflows/release-conda.yml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "actions",
+      "name": "github-script",
+      "version": "v7",
+      "purl": "pkg:github/actions/github-script@v7",
+      "type": "application",
+      "bom-ref": "pkg:github/actions/github-script@v7",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/push-important-models.yml"
+        },
+        {
+          "name": "cdx:actions:isOfficial",
+          "value": "true"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/pr_slow_ci_suggestion.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/circleci-failure-summary-comment.yml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.6,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.6,
+                "value": ".github/workflows/circleci-failure-summary-comment.yml"
+              }
+            ],
+            "concludedValue": ".github/workflows/circleci-failure-summary-comment.yml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "actions",
+      "name": "github-script",
+      "version": "v6",
+      "purl": "pkg:github/actions/github-script@v6",
+      "type": "application",
+      "bom-ref": "pkg:github/actions/github-script@v6",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/pr_slow_ci_suggestion.yml"
+        },
+        {
+          "name": "cdx:actions:isOfficial",
+          "value": "true"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/pr-repo-consistency-bot.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/get-pr-info.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/check_failed_tests.yml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.6,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.6,
+                "value": ".github/workflows/check_failed_tests.yml"
+              }
+            ],
+            "concludedValue": ".github/workflows/check_failed_tests.yml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "actions",
+      "name": "setup-python",
+      "version": "v4",
+      "purl": "pkg:github/actions/setup-python@v4",
+      "type": "application",
+      "bom-ref": "pkg:github/actions/setup-python@v4",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/pr-repo-consistency-bot.yml"
+        },
+        {
+          "name": "cdx:actions:isOfficial",
+          "value": "true"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.6,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.6,
+                "value": ".github/workflows/pr-repo-consistency-bot.yml"
+              }
+            ],
+            "concludedValue": ".github/workflows/pr-repo-consistency-bot.yml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "slackapi",
+      "name": "slack-github-action",
+      "version": "6c661ce58804a1a20f6dc5fbee7f0381b469e001",
+      "purl": "pkg:github/slackapi/slack-github-action@6c661ce58804a1a20f6dc5fbee7f0381b469e001",
+      "type": "application",
+      "bom-ref": "pkg:github/slackapi/slack-github-action@6c661ce58804a1a20f6dc5fbee7f0381b469e001",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/new_model_pr_merged_notification.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/check_failed_tests.yml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.6,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.6,
+                "value": ".github/workflows/check_failed_tests.yml"
+              }
+            ],
+            "concludedValue": ".github/workflows/check_failed_tests.yml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "docker",
+      "name": "setup-buildx-action",
+      "version": "v2",
+      "purl": "pkg:github/docker/setup-buildx-action@v2",
+      "type": "application",
+      "bom-ref": "pkg:github/docker/setup-buildx-action@v2",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/build-past-ci-docker-images.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/build-nightly-ci-docker-images.yml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.6,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.6,
+                "value": ".github/workflows/build-nightly-ci-docker-images.yml"
+              }
+            ],
+            "concludedValue": ".github/workflows/build-nightly-ci-docker-images.yml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "docker",
+      "name": "login-action",
+      "version": "v2",
+      "purl": "pkg:github/docker/login-action@v2",
+      "type": "application",
+      "bom-ref": "pkg:github/docker/login-action@v2",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/build-past-ci-docker-images.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/build-nightly-ci-docker-images.yml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.6,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.6,
+                "value": ".github/workflows/build-nightly-ci-docker-images.yml"
+              }
+            ],
+            "concludedValue": ".github/workflows/build-nightly-ci-docker-images.yml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "docker",
+      "name": "build-push-action",
+      "version": "v3",
+      "purl": "pkg:github/docker/build-push-action@v3",
+      "type": "application",
+      "bom-ref": "pkg:github/docker/build-push-action@v3",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/build-past-ci-docker-images.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/build-nightly-ci-docker-images.yml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.6,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.6,
+                "value": ".github/workflows/build-nightly-ci-docker-images.yml"
+              }
+            ],
+            "concludedValue": ".github/workflows/build-nightly-ci-docker-images.yml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "docker",
+      "name": "setup-buildx-action",
+      "version": "v3",
+      "purl": "pkg:github/docker/setup-buildx-action@v3",
+      "type": "application",
+      "bom-ref": "pkg:github/docker/setup-buildx-action@v3",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/build-docker-images.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/build-ci-docker-images.yml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.6,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.6,
+                "value": ".github/workflows/build-ci-docker-images.yml"
+              }
+            ],
+            "concludedValue": ".github/workflows/build-ci-docker-images.yml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "docker",
+      "name": "login-action",
+      "version": "v3",
+      "purl": "pkg:github/docker/login-action@v3",
+      "type": "application",
+      "bom-ref": "pkg:github/docker/login-action@v3",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/build-docker-images.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/build-ci-docker-images.yml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.6,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.6,
+                "value": ".github/workflows/build-ci-docker-images.yml"
+              }
+            ],
+            "concludedValue": ".github/workflows/build-ci-docker-images.yml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "docker",
+      "name": "build-push-action",
+      "version": "v5",
+      "purl": "pkg:github/docker/build-push-action@v5",
+      "type": "application",
+      "bom-ref": "pkg:github/docker/build-push-action@v5",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/build-docker-images.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/build-ci-docker-images.yml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.6,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.6,
+                "value": ".github/workflows/build-ci-docker-images.yml"
+              }
+            ],
+            "concludedValue": ".github/workflows/build-ci-docker-images.yml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "huggingface/hf-workflows/.github/actions",
+      "name": "post-slack",
+      "version": "main",
+      "purl": "pkg:github/huggingface/hf-workflows/.github/actions/post-slack@main",
+      "type": "application",
+      "bom-ref": "pkg:github/huggingface/hf-workflows/.github/actions/post-slack@main",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/build-docker-images.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/build-ci-docker-images.yml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.6,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.6,
+                "value": ".github/workflows/build-ci-docker-images.yml"
+              }
+            ],
+            "concludedValue": ".github/workflows/build-ci-docker-images.yml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "actions",
+      "name": "checkout",
+      "version": "v5",
+      "purl": "pkg:github/actions/checkout@v5",
+      "type": "application",
+      "bom-ref": "pkg:github/actions/checkout@v5",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/benchmark.yml"
+        },
+        {
+          "name": "cdx:actions:isOfficial",
+          "value": "true"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.6,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.6,
+                "value": ".github/workflows/benchmark.yml"
+              }
+            ],
+            "concludedValue": ".github/workflows/benchmark.yml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "actions",
+      "name": "cache",
+      "version": "v4",
+      "purl": "pkg:github/actions/cache@v4",
+      "type": "application",
+      "bom-ref": "pkg:github/actions/cache@v4",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/add-model-like.yml"
+        },
+        {
+          "name": "cdx:actions:isOfficial",
+          "value": "true"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.6,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.6,
+                "value": ".github/workflows/add-model-like.yml"
+              }
+            ],
+            "concludedValue": ".github/workflows/add-model-like.yml"
+          }
+        ]
+      }
+    }
+  ],
+  "services": [],
+  "dependencies": [
+    {
+      "ref": "pkg:pypi/app@latest",
+      "dependsOn": [
+        "pkg:pypi/anyio@4.12.1",
+        "pkg:pypi/certifi@2026.1.4",
+        "pkg:pypi/charset-normalizer@3.4.4",
+        "pkg:pypi/click@8.3.1",
+        "pkg:pypi/filelock@3.20.2",
+        "pkg:pypi/fsspec@2025.12.0",
+        "pkg:pypi/h11@0.16.0",
+        "pkg:pypi/hf-xet@1.2.0",
+        "pkg:pypi/httpcore@1.0.9",
+        "pkg:pypi/httpx@0.28.1",
+        "pkg:pypi/huggingface-hub@1.2.4",
+        "pkg:pypi/idna@3.11",
+        "pkg:pypi/numpy@2.4.0",
+        "pkg:pypi/packaging@25.0",
+        "pkg:pypi/pyyaml@6.0.3",
+        "pkg:pypi/regex@2025.11.3",
+        "pkg:pypi/requests@2.32.5",
+        "pkg:pypi/safetensors@0.7.0",
+        "pkg:pypi/shellingham@1.5.4",
+        "pkg:pypi/tokenizers@0.22.2",
+        "pkg:pypi/tqdm@4.67.1",
+        "pkg:pypi/transformers@latest",
+        "pkg:pypi/typer-slim@0.21.1",
+        "pkg:pypi/typing-extensions@4.15.0",
+        "pkg:pypi/urllib3@2.6.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/idna@3.11",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/typing-extensions@4.15.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/anyio@4.12.1",
+      "dependsOn": [
+        "pkg:pypi/idna@3.11",
+        "pkg:pypi/typing-extensions@4.15.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/certifi@2026.1.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/charset-normalizer@3.4.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/click@8.3.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/filelock@3.20.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/fsspec@2025.12.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/h11@0.16.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/hf-xet@1.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/httpcore@1.0.9",
+      "dependsOn": [
+        "pkg:pypi/certifi@2026.1.4",
+        "pkg:pypi/h11@0.16.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/httpx@0.28.1",
+      "dependsOn": [
+        "pkg:pypi/anyio@4.12.1",
+        "pkg:pypi/certifi@2026.1.4",
+        "pkg:pypi/httpcore@1.0.9",
+        "pkg:pypi/idna@3.11"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/packaging@25.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pyyaml@6.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/shellingham@1.5.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/tqdm@4.67.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/typer-slim@0.21.1",
+      "dependsOn": [
+        "pkg:pypi/click@8.3.1",
+        "pkg:pypi/typing-extensions@4.15.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/urllib3@2.6.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/numpy@2.4.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/huggingface-hub@1.2.4",
+      "dependsOn": [
+        "pkg:pypi/filelock@3.20.2",
+        "pkg:pypi/fsspec@2025.12.0",
+        "pkg:pypi/hf-xet@1.2.0",
+        "pkg:pypi/httpx@0.28.1",
+        "pkg:pypi/numpy@2.4.0",
+        "pkg:pypi/packaging@25.0",
+        "pkg:pypi/pyyaml@6.0.3",
+        "pkg:pypi/shellingham@1.5.4",
+        "pkg:pypi/tqdm@4.67.1",
+        "pkg:pypi/typer-slim@0.21.1",
+        "pkg:pypi/typing-extensions@4.15.0",
+        "pkg:pypi/urllib3@2.6.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/regex@2025.11.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/requests@2.32.5",
+      "dependsOn": [
+        "pkg:pypi/certifi@2026.1.4",
+        "pkg:pypi/charset-normalizer@3.4.4",
+        "pkg:pypi/idna@3.11",
+        "pkg:pypi/urllib3@2.6.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/safetensors@0.7.0",
+      "dependsOn": [
+        "pkg:pypi/safetensors@0.7.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/tokenizers@0.22.2",
+      "dependsOn": [
+        "pkg:pypi/huggingface-hub@1.2.4"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/transformers@latest",
+      "dependsOn": [
+        "pkg:pypi/filelock@3.20.2",
+        "pkg:pypi/huggingface-hub@1.2.4",
+        "pkg:pypi/numpy@2.4.0",
+        "pkg:pypi/packaging@25.0",
+        "pkg:pypi/pyyaml@6.0.3",
+        "pkg:pypi/regex@2025.11.3",
+        "pkg:pypi/requests@2.32.5",
+        "pkg:pypi/safetensors@0.7.0",
+        "pkg:pypi/tokenizers@0.22.2",
+        "pkg:pypi/tqdm@4.67.1",
+        "pkg:pypi/typer-slim@0.21.1"
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "bom-ref": "metadata-annotations",
+      "subjects": [
+        "pkg:pypi/app@latest"
+      ],
+      "annotator": {
+        "component": {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "12.0.0",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@12.0.0",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@12.0.0",
+          "publisher": "OWASP Foundation",
+          "authors": [
+            {
+              "name": "OWASP Foundation"
+            }
+          ]
+        }
+      },
+      "timestamp": "2026-01-09T06:50:35Z",
+      "text": "This Software Bill-of-Materials (SBOM) document was created on Friday, January 9, 2026 with cdxgen. The data was captured during the build lifecycle phase. The document describes an application named 'app'. There are 58 components. 2 package type(s) and 8 purl namespaces are described in the document under components."
+    }
+  ]
+}
