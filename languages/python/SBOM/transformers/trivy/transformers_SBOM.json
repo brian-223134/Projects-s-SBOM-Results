@@ -1,0 +1,158 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:a5557814-033f-4103-9290-589da850405b",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-01-09T05:35:10+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.68.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "fffbbf4e-8a48-4965-9160-fa57170e8bb5",
+      "type": "application",
+      "name": "/src",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "019d81f4-0937-496e-9e38-1ca8e7633437",
+      "type": "application",
+      "name": "benchmark/requirements.txt",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "73ed62d0-18c9-4793-b9ea-c82701debcc9",
+      "type": "application",
+      "name": "tests/sagemaker/scripts/pytorch/requirements.txt",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/datasets@1.8.0",
+      "type": "library",
+      "name": "datasets",
+      "version": "1.8.0",
+      "purl": "pkg:pypi/datasets@1.8.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/gpustat@1.1.1",
+      "type": "library",
+      "name": "gpustat",
+      "version": "1.1.1",
+      "purl": "pkg:pypi/gpustat@1.1.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/psutil@6.0.0",
+      "type": "library",
+      "name": "psutil",
+      "version": "6.0.0",
+      "purl": "pkg:pypi/psutil@6.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/psycopg2@2.9.9",
+      "type": "library",
+      "name": "psycopg2",
+      "version": "2.9.9",
+      "purl": "pkg:pypi/psycopg2@2.9.9",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "019d81f4-0937-496e-9e38-1ca8e7633437",
+      "dependsOn": [
+        "pkg:pypi/gpustat@1.1.1",
+        "pkg:pypi/psutil@6.0.0",
+        "pkg:pypi/psycopg2@2.9.9"
+      ]
+    },
+    {
+      "ref": "73ed62d0-18c9-4793-b9ea-c82701debcc9",
+      "dependsOn": [
+        "pkg:pypi/datasets@1.8.0"
+      ]
+    },
+    {
+      "ref": "fffbbf4e-8a48-4965-9160-fa57170e8bb5",
+      "dependsOn": [
+        "019d81f4-0937-496e-9e38-1ca8e7633437",
+        "73ed62d0-18c9-4793-b9ea-c82701debcc9"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/datasets@1.8.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/gpustat@1.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/psutil@6.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/psycopg2@2.9.9",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}
