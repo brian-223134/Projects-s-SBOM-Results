@@ -1,0 +1,2766 @@
+{
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:3b555969-4126-8462-bb87-57fe8cd671d4",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-01-09T04:52:06.765602+00:00",
+      "authors": [
+        {
+          "name": "IoTcube - https://iotcube.net"
+        }
+      ],
+      "component": {
+        "group": "",
+        "name": "hugo",
+        "version": "",
+        "type": "application",
+        "bom-ref": "pkg:generic/hugo",
+        "purl": "pkg:generic/hugo"
+      }
+    },
+    "dependencies": [
+      {
+        "ref": "hugo",
+        "dependsOn": [
+          "clib 2.8.2",
+          "hugo v0.129.0"
+        ]
+      }
+    ],
+    "components": [
+      {
+        "group": "clib",
+        "name": "parson",
+        "version": "0.0.0-cb4ed9722fb2",
+        "type": "file",
+        "bom-ref": "pkg:generic/clib/parson@0.0.0-cb4ed9722fb2#/internal/warpc/genwebp/deps/parson/parson.c",
+        "purl": "pkg:generic/clib/parson@0.0.0-cb4ed9722fb2#/internal/warpc/genwebp/deps/parson/parson.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "cb4ed9722fb25289a76f358cc80cb328"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "bufpool",
+        "version": "0.0.0-747e18e2441a",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/bufpool@0.0.0-747e18e2441a#/bufferpool/bufpool.go",
+        "purl": "pkg:generic/hugo/bufpool@0.0.0-747e18e2441a#/bufferpool/bufpool.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "747e18e2441a51fe9dab94950a39d1d8"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "bufpool_test",
+        "version": "0.0.0-8fc6bc670891",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/bufpool_test@0.0.0-8fc6bc670891#/bufferpool/bufpool_test.go",
+        "purl": "pkg:generic/hugo/bufpool_test@0.0.0-8fc6bc670891#/bufferpool/bufpool_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "8fc6bc6708917d764e78218aa78f69fc"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "filecache",
+        "version": "0.0.0-6266708a10ca",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/filecache@0.0.0-6266708a10ca#/cache/filecache/filecache.go",
+        "purl": "pkg:generic/hugo/filecache@0.0.0-6266708a10ca#/cache/filecache/filecache.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "6266708a10cafca89c4dcc33062a16b7"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "filecache_pruner",
+        "version": "0.0.0-a916f67ffe89",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/filecache_pruner@0.0.0-a916f67ffe89#/cache/filecache/filecache_pruner.go",
+        "purl": "pkg:generic/hugo/filecache_pruner@0.0.0-a916f67ffe89#/cache/filecache/filecache_pruner.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "a916f67ffe893bb1a32fa27e1173943a"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "methods2_test",
+        "version": "0.0.0-4c270c55f819",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/methods2_test@0.0.0-4c270c55f819#/codegen/methods2_test.go",
+        "purl": "pkg:generic/hugo/methods2_test@0.0.0-4c270c55f819#/codegen/methods2_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "4c270c55f819dcee2d1a643c412f28b6"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "methods_test",
+        "version": "0.0.0-2e4a64a48f5a",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/methods_test@0.0.0-2e4a64a48f5a#/codegen/methods_test.go",
+        "purl": "pkg:generic/hugo/methods_test@0.0.0-2e4a64a48f5a#/codegen/methods_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "2e4a64a48f5ada3a6afb3c22351096fe"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "hugo_windows",
+        "version": "0.0.0-59aa2676acd2",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/hugo_windows@0.0.0-59aa2676acd2#/commands/hugo_windows.go",
+        "purl": "pkg:generic/hugo/hugo_windows@0.0.0-59aa2676acd2#/commands/hugo_windows.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "59aa2676acd2a0838a351fdc84820176"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "collections",
+        "version": "0.0.0-cea072e2a334",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/collections@0.0.0-cea072e2a334#/common/collections/collections.go",
+        "purl": "pkg:generic/hugo/collections@0.0.0-cea072e2a334#/common/collections/collections.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "cea072e2a3347915fae3aa8f41a0c1e5"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "order",
+        "version": "0.0.0-d332785eb5ba",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/order@0.0.0-d332785eb5ba#/common/collections/order.go",
+        "purl": "pkg:generic/hugo/order@0.0.0-d332785eb5ba#/common/collections/order.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d332785eb5ba3612154cc594f688f95c"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "slice",
+        "version": "0.0.0-473b4bcb4b50",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/slice@0.0.0-473b4bcb4b50#/common/collections/slice.go",
+        "purl": "pkg:generic/hugo/slice@0.0.0-473b4bcb4b50#/common/collections/slice.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "473b4bcb4b50cee1489388bedf08d6f4"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "error_locator_test",
+        "version": "0.0.0-dd34551537c8",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/error_locator_test@0.0.0-dd34551537c8#/common/herrors/error_locator_test.go",
+        "purl": "pkg:generic/hugo/error_locator_test@0.0.0-dd34551537c8#/common/herrors/error_locator_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "dd34551537c822018b4ee07fd5f07da4"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "errors_test",
+        "version": "0.0.0-11618db91722",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/errors_test@0.0.0-11618db91722#/common/herrors/errors_test.go",
+        "purl": "pkg:generic/hugo/errors_test@0.0.0-11618db91722#/common/herrors/errors_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "11618db917229a1ecb43933b3903c6ac"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "file_error_test",
+        "version": "0.0.0-2bbda2571f86",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/file_error_test@0.0.0-2bbda2571f86#/common/herrors/file_error_test.go",
+        "purl": "pkg:generic/hugo/file_error_test@0.0.0-2bbda2571f86#/common/herrors/file_error_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "2bbda2571f86dac57fd0cf586f88396f"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "time",
+        "version": "0.0.0-b2c31a15ca7d",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/time@0.0.0-b2c31a15ca7d#/common/htime/time.go",
+        "purl": "pkg:generic/hugo/time@0.0.0-b2c31a15ca7d#/common/htime/time.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "b2c31a15ca7dd40aade885912fe7533a"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "copy",
+        "version": "0.0.0-bfa7e3eb6367",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/copy@0.0.0-bfa7e3eb6367#/common/hugio/copy.go",
+        "purl": "pkg:generic/hugo/copy@0.0.0-bfa7e3eb6367#/common/hugio/copy.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "bfa7e3eb6367a05ec57ad7a1dd28c057"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "hasBytesWriter",
+        "version": "0.0.0-8b4e8ffb8cf9",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/hasBytesWriter@0.0.0-8b4e8ffb8cf9#/common/hugio/hasBytesWriter.go",
+        "purl": "pkg:generic/hugo/hasBytesWriter@0.0.0-8b4e8ffb8cf9#/common/hugio/hasBytesWriter.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "8b4e8ffb8cf9421b335e936146750680"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "vars_extended",
+        "version": "0.0.0-e47b6690f0a7",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/vars_extended@0.0.0-e47b6690f0a7#/common/hugo/vars_extended.go",
+        "purl": "pkg:generic/hugo/vars_extended@0.0.0-e47b6690f0a7#/common/hugo/vars_extended.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "e47b6690f0a78f908c5d018b12422b6d"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "vars_regular",
+        "version": "0.0.0-58e7c39e7338",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/vars_regular@0.0.0-58e7c39e7338#/common/hugo/vars_regular.go",
+        "purl": "pkg:generic/hugo/vars_regular@0.0.0-58e7c39e7338#/common/hugo/vars_regular.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "58e7c39e7338b28b672cfc039c3eb5a2"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "handlerdefault",
+        "version": "0.0.0-b1d5bca82df4",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/handlerdefault@0.0.0-b1d5bca82df4#/common/loggers/handlerdefault.go",
+        "purl": "pkg:generic/hugo/handlerdefault@0.0.0-b1d5bca82df4#/common/loggers/handlerdefault.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "b1d5bca82df4e9b39b3bbf0c04785fef"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "para",
+        "version": "0.0.0-356a466e42f5",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/para@0.0.0-356a466e42f5#/common/para/para.go",
+        "purl": "pkg:generic/hugo/para@0.0.0-356a466e42f5#/common/para/para.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "356a466e42f58f0d0388ce10ef28bc55"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "url_test",
+        "version": "0.0.0-97edf5c6bb0c",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/url_test@0.0.0-97edf5c6bb0c#/common/paths/url_test.go",
+        "purl": "pkg:generic/hugo/url_test@0.0.0-97edf5c6bb0c#/common/paths/url_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "97edf5c6bb0c4e8a102852da95c4318d"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "rungroup_test",
+        "version": "0.0.0-0e5635be863e",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/rungroup_test@0.0.0-0e5635be863e#/common/rungroup/rungroup_test.go",
+        "purl": "pkg:generic/hugo/rungroup_test@0.0.0-0e5635be863e#/common/rungroup/rungroup_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "0e5635be863e20c4816a5a92e4447c36"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "position",
+        "version": "0.0.0-2098b990172c",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/position@0.0.0-2098b990172c#/common/text/position.go",
+        "purl": "pkg:generic/hugo/position@0.0.0-2098b990172c#/common/text/position.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "2098b990172c3e88b38389fc853acf1c"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "position_test",
+        "version": "0.0.0-43958744c0fd",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/position_test@0.0.0-43958744c0fd#/common/text/position_test.go",
+        "purl": "pkg:generic/hugo/position_test@0.0.0-43958744c0fd#/common/text/position_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "43958744c0fd72e46890cb621e1d784b"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "transform",
+        "version": "0.0.0-7c15c1646a61",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/transform@0.0.0-7c15c1646a61#/common/text/transform.go",
+        "purl": "pkg:generic/hugo/transform@0.0.0-7c15c1646a61#/common/text/transform.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "7c15c1646a61bee0d6ff8cb18fba49fe"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "convert_test",
+        "version": "0.0.0-107d9f3716c8",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/convert_test@0.0.0-107d9f3716c8#/common/types/convert_test.go",
+        "purl": "pkg:generic/hugo/convert_test@0.0.0-107d9f3716c8#/common/types/convert_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "107d9f3716c8e0199868183156ba0e72"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "csstypes",
+        "version": "0.0.0-2fdc49ed0bc2",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/csstypes@0.0.0-2fdc49ed0bc2#/common/types/css/csstypes.go",
+        "purl": "pkg:generic/hugo/csstypes@0.0.0-2fdc49ed0bc2#/common/types/css/csstypes.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "2fdc49ed0bc2affdde0e529f98efa670"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "baseURL",
+        "version": "0.0.0-e86115c0cf4e",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/baseURL@0.0.0-e86115c0cf4e#/common/urls/baseURL.go",
+        "purl": "pkg:generic/hugo/baseURL@0.0.0-e86115c0cf4e#/common/urls/baseURL.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "e86115c0cf4e30ef8f0d2993c11fef0d"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "baseURL_test",
+        "version": "0.0.0-4f21916bb3b8",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/baseURL_test@0.0.0-4f21916bb3b8#/common/urls/baseURL_test.go",
+        "purl": "pkg:generic/hugo/baseURL_test@0.0.0-4f21916bb3b8#/common/urls/baseURL_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "4f21916bb3b8b95f439370bb4c3dd315"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "ref",
+        "version": "0.0.0-4b0087bfe9d2",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/ref@0.0.0-4b0087bfe9d2#/common/urls/ref.go",
+        "purl": "pkg:generic/hugo/ref@0.0.0-4b0087bfe9d2#/common/urls/ref.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "4b0087bfe9d2f943c18c2b5df2342293"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "compare",
+        "version": "0.0.0-a55ce39036b7",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/compare@0.0.0-a55ce39036b7#/compare/compare.go",
+        "purl": "pkg:generic/hugo/compare@0.0.0-a55ce39036b7#/compare/compare.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "a55ce39036b7f2b0d58752c38d8e1a1f"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "compare_strings",
+        "version": "0.0.0-4eb314370202",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/compare_strings@0.0.0-4eb314370202#/compare/compare_strings.go",
+        "purl": "pkg:generic/hugo/compare_strings@0.0.0-4eb314370202#/compare/compare_strings.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "4eb3143702029690cfda59de66557c00"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "compare_strings_test",
+        "version": "0.0.0-5e1b4b81a618",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/compare_strings_test@0.0.0-5e1b4b81a618#/compare/compare_strings_test.go",
+        "purl": "pkg:generic/hugo/compare_strings_test@0.0.0-5e1b4b81a618#/compare/compare_strings_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "5e1b4b81a61891c0fddf5eb2355376b9"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "docshelper",
+        "version": "0.0.0-9ef81cb2708e",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/docshelper@0.0.0-9ef81cb2708e#/config/allconfig/docshelper.go",
+        "purl": "pkg:generic/hugo/docshelper@0.0.0-9ef81cb2708e#/config/allconfig/docshelper.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "9ef81cb2708efa564a4f84e5c86fd72f"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "configProvider_test",
+        "version": "0.0.0-0c8c2046bc33",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/configProvider_test@0.0.0-0c8c2046bc33#/config/configProvider_test.go",
+        "purl": "pkg:generic/hugo/configProvider_test@0.0.0-0c8c2046bc33#/config/configProvider_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "0c8c2046bc33605595703d083adb6f15"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "env",
+        "version": "0.0.0-5c263a3d08c6",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/env@0.0.0-5c263a3d08c6#/config/env.go",
+        "purl": "pkg:generic/hugo/env@0.0.0-5c263a3d08c6#/config/env.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "5c263a3d08c653abdc72777bed128e31"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "env_test",
+        "version": "0.0.0-9fb98b395536",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/env_test@0.0.0-9fb98b395536#/config/env_test.go",
+        "purl": "pkg:generic/hugo/env_test@0.0.0-9fb98b395536#/config/env_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "9fb98b395536913c8a69450c8c8ad930"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "whitelist_test",
+        "version": "0.0.0-8d8c5086246e",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/whitelist_test@0.0.0-8d8c5086246e#/config/security/whitelist_test.go",
+        "purl": "pkg:generic/hugo/whitelist_test@0.0.0-8d8c5086246e#/config/security/whitelist_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "8d8c5086246e0162705e74c8e8a520eb"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "cloudfront",
+        "version": "0.0.0-cac30f93d5dd",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/cloudfront@0.0.0-cac30f93d5dd#/deploy/cloudfront.go",
+        "purl": "pkg:generic/hugo/cloudfront@0.0.0-cac30f93d5dd#/deploy/cloudfront.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "cac30f93d5dde215c3d3ccaf5722d7fa"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "deployConfig",
+        "version": "0.0.0-2874d5b75ee5",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/deployConfig@0.0.0-2874d5b75ee5#/deploy/deployconfig/deployConfig.go",
+        "purl": "pkg:generic/hugo/deployConfig@0.0.0-2874d5b75ee5#/deploy/deployconfig/deployConfig.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "2874d5b75ee572a89be8ec29c1ad87f8"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "deployConfig_test",
+        "version": "0.0.0-6b189be1ee35",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/deployConfig_test@0.0.0-6b189be1ee35#/deploy/deployconfig/deployConfig_test.go",
+        "purl": "pkg:generic/hugo/deployConfig_test@0.0.0-6b189be1ee35#/deploy/deployconfig/deployConfig_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "6b189be1ee3573868afb6803fdd6bb98"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "google",
+        "version": "0.0.0-6e4ae275c624",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/google@0.0.0-6e4ae275c624#/deploy/google.go",
+        "purl": "pkg:generic/hugo/google@0.0.0-6e4ae275c624#/deploy/google.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "6e4ae275c6245cb7b551d05a1ca7dc97"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "deps_test",
+        "version": "0.0.0-2f690c711910",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/deps_test@0.0.0-2f690c711910#/deps/deps_test.go",
+        "purl": "pkg:generic/hugo/deps_test@0.0.0-2f690c711910#/deps/deps_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "2f690c711910d976578d1b79a17d6f28"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "docs",
+        "version": "0.0.0-e38f23aa0238",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/docs@0.0.0-e38f23aa0238#/docshelper/docs.go",
+        "purl": "pkg:generic/hugo/docs@0.0.0-e38f23aa0238#/docshelper/docs.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "e38f23aa02388caeb7cd69d3087d93c2"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "emoji_test",
+        "version": "0.0.0-63c7ede3c93d",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/emoji_test@0.0.0-63c7ede3c93d#/helpers/emoji_test.go",
+        "purl": "pkg:generic/hugo/emoji_test@0.0.0-63c7ede3c93d#/helpers/emoji_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "63c7ede3c93df9694d9c22d41a0743a5"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "url",
+        "version": "0.0.0-79b7ce6df1c4",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/url@0.0.0-79b7ce6df1c4#/helpers/url.go",
+        "purl": "pkg:generic/hugo/url@0.0.0-79b7ce6df1c4#/helpers/url.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "79b7ce6df1c49bb023337fe43feabec6"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "test_helpers_test",
+        "version": "0.0.0-09d6bbaab184",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/test_helpers_test@0.0.0-09d6bbaab184#/htesting/test_helpers_test.go",
+        "purl": "pkg:generic/hugo/test_helpers_test@0.0.0-09d6bbaab184#/htesting/test_helpers_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "09d6bbaab184c29c5d2ceafa48601f72"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "createcounting_fs",
+        "version": "0.0.0-b70ef1be24fe",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/createcounting_fs@0.0.0-b70ef1be24fe#/hugofs/createcounting_fs.go",
+        "purl": "pkg:generic/hugo/createcounting_fs@0.0.0-b70ef1be24fe#/hugofs/createcounting_fs.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "b70ef1be24fe72e2c6c5002361dc5711"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "decorators",
+        "version": "0.0.0-1ec775ae6ad7",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/decorators@0.0.0-1ec775ae6ad7#/hugofs/decorators.go",
+        "purl": "pkg:generic/hugo/decorators@0.0.0-1ec775ae6ad7#/hugofs/decorators.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "1ec775ae6ad7d0982867ee2c8a0a24d8"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "fileinfo_test",
+        "version": "0.0.0-9db4d2f705ed",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/fileinfo_test@0.0.0-9db4d2f705ed#/hugofs/fileinfo_test.go",
+        "purl": "pkg:generic/hugo/fileinfo_test@0.0.0-9db4d2f705ed#/hugofs/fileinfo_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "9db4d2f705ed8d4f01412b3163ef9eb6"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "classifier",
+        "version": "0.0.0-83e16645d3c6",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/classifier@0.0.0-83e16645d3c6#/hugofs/files/classifier.go",
+        "purl": "pkg:generic/hugo/classifier@0.0.0-83e16645d3c6#/hugofs/files/classifier.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "83e16645d3c61e2f97120760890fccd9"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "classifier_test",
+        "version": "0.0.0-5b411e709d7b",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/classifier_test@0.0.0-5b411e709d7b#/hugofs/files/classifier_test.go",
+        "purl": "pkg:generic/hugo/classifier_test@0.0.0-5b411e709d7b#/hugofs/files/classifier_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "5b411e709d7bf0bfcfe8468bf5f261d9"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "fs_test",
+        "version": "0.0.0-bef2227d8d11",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/fs_test@0.0.0-bef2227d8d11#/hugofs/fs_test.go",
+        "purl": "pkg:generic/hugo/fs_test@0.0.0-bef2227d8d11#/hugofs/fs_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "bef2227d8d116b074c8a88cff9a43555"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "glob_test",
+        "version": "0.0.0-278042423536",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/glob_test@0.0.0-278042423536#/hugofs/glob_test.go",
+        "purl": "pkg:generic/hugo/glob_test@0.0.0-278042423536#/hugofs/glob_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "278042423536ec4fb450678f5f42088d"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "hasbytes_fs",
+        "version": "0.0.0-5cb529ecc1d9",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/hasbytes_fs@0.0.0-5cb529ecc1d9#/hugofs/hasbytes_fs.go",
+        "purl": "pkg:generic/hugo/hasbytes_fs@0.0.0-5cb529ecc1d9#/hugofs/hasbytes_fs.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "5cb529ecc1d904310d4c90506c97c751"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "hashing_fs",
+        "version": "0.0.0-45ffa159c87a",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/hashing_fs@0.0.0-45ffa159c87a#/hugofs/hashing_fs.go",
+        "purl": "pkg:generic/hugo/hashing_fs@0.0.0-45ffa159c87a#/hugofs/hashing_fs.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "45ffa159c87a52ab54e00c1f44e91255"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "filename_filter_test",
+        "version": "0.0.0-829202d0318c",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/filename_filter_test@0.0.0-829202d0318c#/hugofs/hglob/filename_filter_test.go",
+        "purl": "pkg:generic/hugo/filename_filter_test@0.0.0-829202d0318c#/hugofs/hglob/filename_filter_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "829202d0318c30cb26ebe1fe0be853d2"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "noop_fs",
+        "version": "0.0.0-9f8c204ad891",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/noop_fs@0.0.0-9f8c204ad891#/hugofs/noop_fs.go",
+        "purl": "pkg:generic/hugo/noop_fs@0.0.0-9f8c204ad891#/hugofs/noop_fs.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "9f8c204ad8913e1d6c10c6e5fdb54445"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "openfiles_fs",
+        "version": "0.0.0-2ab6f107b799",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/openfiles_fs@0.0.0-2ab6f107b799#/hugofs/openfiles_fs.go",
+        "purl": "pkg:generic/hugo/openfiles_fs@0.0.0-2ab6f107b799#/hugofs/openfiles_fs.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "2ab6f107b7996dc3d14edcf1a1a6d59f"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "stacktracer_fs",
+        "version": "0.0.0-500d29d1fecf",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/stacktracer_fs@0.0.0-500d29d1fecf#/hugofs/stacktracer_fs.go",
+        "purl": "pkg:generic/hugo/stacktracer_fs@0.0.0-500d29d1fecf#/hugofs/stacktracer_fs.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "500d29d1fecf36e0e55aac76d84eacd3"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "codeowners",
+        "version": "0.0.0-5bf0b0e3dfef",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/codeowners@0.0.0-5bf0b0e3dfef#/hugolib/codeowners.go",
+        "purl": "pkg:generic/hugo/codeowners@0.0.0-5bf0b0e3dfef#/hugolib/codeowners.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "5bf0b0e3dfef72b772d4d73c9eacbbfd"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "config",
+        "version": "0.0.0-590777070a0f",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/config@0.0.0-590777070a0f#/hugolib/config.go",
+        "purl": "pkg:generic/hugo/config@0.0.0-590777070a0f#/hugolib/config.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "590777070a0f9aa6e5bd6b8c70613c86"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "fileInfo_test",
+        "version": "0.0.0-a9df4c62c46e",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/fileInfo_test@0.0.0-a9df4c62c46e#/hugolib/fileInfo_test.go",
+        "purl": "pkg:generic/hugo/fileInfo_test@0.0.0-a9df4c62c46e#/hugolib/fileInfo_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "a9df4c62c46eb76baeb6469b51fd9637"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "page__paginator",
+        "version": "0.0.0-4c3ce9eeafc1",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/page__paginator@0.0.0-4c3ce9eeafc1#/hugolib/page__paginator.go",
+        "purl": "pkg:generic/hugo/page__paginator@0.0.0-4c3ce9eeafc1#/hugolib/page__paginator.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "4c3ce9eeafc18d36459a2a377e30202a"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "page_kinds",
+        "version": "0.0.0-0c7a2df1fc1d",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/page_kinds@0.0.0-0c7a2df1fc1d#/hugolib/page_kinds.go",
+        "purl": "pkg:generic/hugo/page_kinds@0.0.0-0c7a2df1fc1d#/hugolib/page_kinds.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "0c7a2df1fc1daf35a7dc5246a30f9676"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "page_unwrap",
+        "version": "0.0.0-2efd5c5e8439",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/page_unwrap@0.0.0-2efd5c5e8439#/hugolib/page_unwrap.go",
+        "purl": "pkg:generic/hugo/page_unwrap@0.0.0-2efd5c5e8439#/hugolib/page_unwrap.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "2efd5c5e8439e03016e1b67770662274"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "page_unwrap_test",
+        "version": "0.0.0-d502434196a7",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/page_unwrap_test@0.0.0-d502434196a7#/hugolib/page_unwrap_test.go",
+        "purl": "pkg:generic/hugo/page_unwrap_test@0.0.0-d502434196a7#/hugolib/page_unwrap_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d502434196a78e414acf3b0e494a60c5"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "permalinker",
+        "version": "0.0.0-ab320f7364a4",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/permalinker@0.0.0-ab320f7364a4#/hugolib/permalinker.go",
+        "purl": "pkg:generic/hugo/permalinker@0.0.0-ab320f7364a4#/hugolib/permalinker.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "ab320f7364a4b48ba80fde82486a8c02"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "prune_resources",
+        "version": "0.0.0-7abf2063a477",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/prune_resources@0.0.0-7abf2063a477#/hugolib/prune_resources.go",
+        "purl": "pkg:generic/hugo/prune_resources@0.0.0-7abf2063a477#/hugolib/prune_resources.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "7abf2063a477df7e909287d15fbb7c36"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "identitytesting",
+        "version": "0.0.0-86af0c65f032",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/identitytesting@0.0.0-86af0c65f032#/identity/identitytesting/identitytesting.go",
+        "purl": "pkg:generic/hugo/identitytesting@0.0.0-86af0c65f032#/identity/identitytesting/identitytesting.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "86af0c65f0327433d03153714c3a744d"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "question",
+        "version": "0.0.0-72fd1d967471",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/question@0.0.0-72fd1d967471#/identity/question.go",
+        "purl": "pkg:generic/hugo/question@0.0.0-72fd1d967471#/identity/question.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "72fd1d9674718da48b3ccbbcc3e8d4ea"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "question_test",
+        "version": "0.0.0-17f207dc2e31",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/question_test@0.0.0-17f207dc2e31#/identity/question_test.go",
+        "purl": "pkg:generic/hugo/question_test@0.0.0-17f207dc2e31#/identity/question_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "17f207dc2e315e1aa6885cd6e3cd3b8e"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "connection",
+        "version": "0.0.0-8feab3b1ddbf",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/connection@0.0.0-8feab3b1ddbf#/livereload/connection.go",
+        "purl": "pkg:generic/hugo/connection@0.0.0-8feab3b1ddbf#/livereload/connection.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "8feab3b1ddbff03b789880dfe39e9ee8"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "main",
+        "version": "0.0.0-fdd1a5496959",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/main@0.0.0-fdd1a5496959#/livereload/gen/main.go",
+        "purl": "pkg:generic/hugo/main@0.0.0-fdd1a5496959#/livereload/gen/main.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "fdd1a54969595816de793351d43fe085"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "hub",
+        "version": "0.0.0-73d276c87d8c",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/hub@0.0.0-73d276c87d8c#/livereload/hub.go",
+        "purl": "pkg:generic/hugo/hub@0.0.0-73d276c87d8c#/livereload/hub.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "73d276c87d8cddae0065078d0e8870ac"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "livereload",
+        "version": "0.0.0-97713b5b2447",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/livereload@0.0.0-97713b5b2447#/livereload/livereload.go",
+        "purl": "pkg:generic/hugo/livereload@0.0.0-97713b5b2447#/livereload/livereload.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "97713b5b2447e032adc2692cd11fd513"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "anchors",
+        "version": "0.0.0-010cf8a8655e",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/anchors@0.0.0-010cf8a8655e#/markup/blackfriday/anchors.go",
+        "purl": "pkg:generic/hugo/anchors@0.0.0-010cf8a8655e#/markup/blackfriday/anchors.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "010cf8a8655e3cacdaaa4b32db6ad4ec"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "converter",
+        "version": "0.0.0-e04ec88d2faa",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/converter@0.0.0-e04ec88d2faa#/markup/converter/converter.go",
+        "purl": "pkg:generic/hugo/converter@0.0.0-e04ec88d2faa#/markup/converter/converter.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "e04ec88d2faa1f65bebe2013f41e216c"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "transform",
+        "version": "0.0.0-6538133f6a75",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/transform@0.0.0-6538133f6a75#/markup/goldmark/images/transform.go",
+        "purl": "pkg:generic/hugo/transform@0.0.0-6538133f6a75#/markup/goldmark/images/transform.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "6538133f6a75029f59626757b736de2a"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "chromalexers",
+        "version": "0.0.0-371e6ee7260e",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/chromalexers@0.0.0-371e6ee7260e#/markup/highlight/chromalexers/chromalexers.go",
+        "purl": "pkg:generic/hugo/chromalexers@0.0.0-371e6ee7260e#/markup/highlight/chromalexers/chromalexers.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "371e6ee7260e13c990a16db77977f6b9"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "config_test",
+        "version": "0.0.0-7ce2a43f9d72",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/config_test@0.0.0-7ce2a43f9d72#/markup/highlight/config_test.go",
+        "purl": "pkg:generic/hugo/config_test@0.0.0-7ce2a43f9d72#/markup/highlight/config_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "7ce2a43f9d72daa598b76369c315abdf"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "highlight_test",
+        "version": "0.0.0-546234bd9111",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/highlight_test@0.0.0-546234bd9111#/markup/highlight/highlight_test.go",
+        "purl": "pkg:generic/hugo/highlight_test@0.0.0-546234bd9111#/markup/highlight/highlight_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "546234bd9111ae2f792b4c29346bb1a9"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "markup",
+        "version": "0.0.0-7458769bd771",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/markup@0.0.0-7458769bd771#/markup/markup.go",
+        "purl": "pkg:generic/hugo/markup@0.0.0-7458769bd771#/markup/markup.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "7458769bd77118ba0f67bb32ba165d9e"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "markup_test",
+        "version": "0.0.0-ff7958b2e6ae",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/markup_test@0.0.0-ff7958b2e6ae#/markup/markup_test.go",
+        "purl": "pkg:generic/hugo/markup_test@0.0.0-ff7958b2e6ae#/markup/markup_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "ff7958b2e6ae2a3e3bec49c3f8ac6529"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "convert",
+        "version": "0.0.0-789e20738cdf",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/convert@0.0.0-789e20738cdf#/markup/org/convert.go",
+        "purl": "pkg:generic/hugo/convert@0.0.0-789e20738cdf#/markup/org/convert.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "789e20738cdf90f6c1586ad179849258"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "convert_test",
+        "version": "0.0.0-1ff4281fb5ad",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/convert_test@0.0.0-1ff4281fb5ad#/markup/org/convert_test.go",
+        "purl": "pkg:generic/hugo/convert_test@0.0.0-1ff4281fb5ad#/markup/org/convert_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "1ff4281fb5ad52cb6282dff455ea83a0"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "convert",
+        "version": "0.0.0-51970cd15f4f",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/convert@0.0.0-51970cd15f4f#/markup/pandoc/convert.go",
+        "purl": "pkg:generic/hugo/convert@0.0.0-51970cd15f4f#/markup/pandoc/convert.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "51970cd15f4f2aee80098bf2d56bb4ab"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "minifiers",
+        "version": "0.0.0-9ff5df4118ec",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/minifiers@0.0.0-9ff5df4118ec#/minifiers/minifiers.go",
+        "purl": "pkg:generic/hugo/minifiers@0.0.0-9ff5df4118ec#/minifiers/minifiers.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "9ff5df4118ec6baf3c161c15592e2bef"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "package_builder",
+        "version": "0.0.0-2b66a3940ce5",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/package_builder@0.0.0-2b66a3940ce5#/modules/npm/package_builder.go",
+        "purl": "pkg:generic/hugo/package_builder@0.0.0-2b66a3940ce5#/modules/npm/package_builder.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "2b66a3940ce56ef80b977d35da2a0102"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "package_builder_test",
+        "version": "0.0.0-f1767876a286",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/package_builder_test@0.0.0-f1767876a286#/modules/npm/package_builder_test.go",
+        "purl": "pkg:generic/hugo/package_builder_test@0.0.0-f1767876a286#/modules/npm/package_builder_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "f1767876a286513900832c0eecb2cc77"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "pagemenus",
+        "version": "0.0.0-fa1a364c86fc",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/pagemenus@0.0.0-fa1a364c86fc#/navigation/pagemenus.go",
+        "purl": "pkg:generic/hugo/pagemenus@0.0.0-fa1a364c86fc#/navigation/pagemenus.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "fa1a364c86fc3ee4f2d1762065e4986d"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "config",
+        "version": "0.0.0-13ecab264fb9",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/config@0.0.0-13ecab264fb9#/output/config.go",
+        "purl": "pkg:generic/hugo/config@0.0.0-13ecab264fb9#/output/config.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "13ecab264fb944bd64b013b3fd1f1510"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "config_test",
+        "version": "0.0.0-9af36f9ed943",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/config_test@0.0.0-9af36f9ed943#/output/config_test.go",
+        "purl": "pkg:generic/hugo/config_test@0.0.0-9af36f9ed943#/output/config_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "9af36f9ed94392ad7a985a8fbd7bb175"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "frontmatter_test",
+        "version": "0.0.0-1a7dce370d78",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/frontmatter_test@0.0.0-1a7dce370d78#/parser/frontmatter_test.go",
+        "purl": "pkg:generic/hugo/frontmatter_test@0.0.0-1a7dce370d78#/parser/frontmatter_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "1a7dce370d782130855ac35e38052ef9"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "lowercase_camel_json_test",
+        "version": "0.0.0-d2c1397844bb",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/lowercase_camel_json_test@0.0.0-d2c1397844bb#/parser/lowercase_camel_json_test.go",
+        "purl": "pkg:generic/hugo/lowercase_camel_json_test@0.0.0-d2c1397844bb#/parser/lowercase_camel_json_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d2c1397844bb99a7654318d00e9277c4"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "format",
+        "version": "0.0.0-50bb1d61d5ef",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/format@0.0.0-50bb1d61d5ef#/parser/metadecoders/format.go",
+        "purl": "pkg:generic/hugo/format@0.0.0-50bb1d61d5ef#/parser/metadecoders/format.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "50bb1d61d5ef2e51087f316034dac847"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "format_test",
+        "version": "0.0.0-e087fec5491e",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/format_test@0.0.0-e087fec5491e#/parser/metadecoders/format_test.go",
+        "purl": "pkg:generic/hugo/format_test@0.0.0-e087fec5491e#/parser/metadecoders/format_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "e087fec5491ebd701f184e05b04267d1"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "itemtype_string",
+        "version": "0.0.0-b144344f7394",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/itemtype_string@0.0.0-b144344f7394#/parser/pageparser/itemtype_string.go",
+        "purl": "pkg:generic/hugo/itemtype_string@0.0.0-b144344f7394#/parser/pageparser/itemtype_string.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "b144344f73941a4cfc6ab48114f3f445"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "pagelexer_test",
+        "version": "0.0.0-ef3fc2d43427",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/pagelexer_test@0.0.0-ef3fc2d43427#/parser/pageparser/pagelexer_test.go",
+        "purl": "pkg:generic/hugo/pagelexer_test@0.0.0-ef3fc2d43427#/parser/pageparser/pagelexer_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "ef3fc2d43427eec4f01aeec67efc1c65"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "pageparser_intro_test",
+        "version": "0.0.0-e2dab2a0ab81",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/pageparser_intro_test@0.0.0-e2dab2a0ab81#/parser/pageparser/pageparser_intro_test.go",
+        "purl": "pkg:generic/hugo/pageparser_intro_test@0.0.0-e2dab2a0ab81#/parser/pageparser/pageparser_intro_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "e2dab2a0ab815031f7377c2ee741f773"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "publisher",
+        "version": "0.0.0-fa592200f1c8",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/publisher@0.0.0-fa592200f1c8#/publisher/publisher.go",
+        "purl": "pkg:generic/hugo/publisher@0.0.0-fa592200f1c8#/publisher/publisher.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "fa592200f1c8746135c67460c6f64724"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "dither",
+        "version": "0.0.0-ebcd81a0c9aa",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/dither@0.0.0-ebcd81a0c9aa#/resources/images/dither.go",
+        "purl": "pkg:generic/hugo/dither@0.0.0-ebcd81a0c9aa#/resources/images/dither.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "ebcd81a0c9aa672ff5a715cd1c695f70"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "exif",
+        "version": "0.0.0-2f42dc5fa74b",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/exif@0.0.0-2f42dc5fa74b#/resources/images/exif/exif.go",
+        "purl": "pkg:generic/hugo/exif@0.0.0-2f42dc5fa74b#/resources/images/exif/exif.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "2f42dc5fa74b3f89d773bb57732b20ec"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "image_resource",
+        "version": "0.0.0-6d82045dc46c",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/image_resource@0.0.0-6d82045dc46c#/resources/images/image_resource.go",
+        "purl": "pkg:generic/hugo/image_resource@0.0.0-6d82045dc46c#/resources/images/image_resource.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "6d82045dc46c06ce03589ebf9392bb7b"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "opacity",
+        "version": "0.0.0-41760f81342c",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/opacity@0.0.0-41760f81342c#/resources/images/opacity.go",
+        "purl": "pkg:generic/hugo/opacity@0.0.0-41760f81342c#/resources/images/opacity.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "41760f81342c6e8579837e59079c5e51"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "overlay",
+        "version": "0.0.0-427e108ef7a3",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/overlay@0.0.0-427e108ef7a3#/resources/images/overlay.go",
+        "purl": "pkg:generic/hugo/overlay@0.0.0-427e108ef7a3#/resources/images/overlay.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "427e108ef7a38b322ef4323e4e88579e"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "padding",
+        "version": "0.0.0-46676aabadc2",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/padding@0.0.0-46676aabadc2#/resources/images/padding.go",
+        "purl": "pkg:generic/hugo/padding@0.0.0-46676aabadc2#/resources/images/padding.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "46676aabadc2fce6f4332cb34802c84f"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "process",
+        "version": "0.0.0-70bd5ee8fa80",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/process@0.0.0-70bd5ee8fa80#/resources/images/process.go",
+        "purl": "pkg:generic/hugo/process@0.0.0-70bd5ee8fa80#/resources/images/process.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "70bd5ee8fa80a7060c7921452017cb5b"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "resampling",
+        "version": "0.0.0-16a945c03bf5",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/resampling@0.0.0-16a945c03bf5#/resources/images/resampling.go",
+        "purl": "pkg:generic/hugo/resampling@0.0.0-16a945c03bf5#/resources/images/resampling.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "16a945c03bf5e3fd84979869f60e1a8f"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "resourcepaths",
+        "version": "0.0.0-5f8a16726ae3",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/resourcepaths@0.0.0-5f8a16726ae3#/resources/internal/resourcepaths.go",
+        "purl": "pkg:generic/hugo/resourcepaths@0.0.0-5f8a16726ae3#/resources/internal/resourcepaths.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "5f8a16726ae34015125002568cf041df"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "jsconfig",
+        "version": "0.0.0-6fdc79188601",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/jsconfig@0.0.0-6fdc79188601#/resources/jsconfig/jsconfig.go",
+        "purl": "pkg:generic/hugo/jsconfig@0.0.0-6fdc79188601#/resources/jsconfig/jsconfig.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "6fdc7918860191d5910db7f18aa6db45"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "jsconfig_test",
+        "version": "0.0.0-5f06f3463c56",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/jsconfig_test@0.0.0-5f06f3463c56#/resources/jsconfig/jsconfig_test.go",
+        "purl": "pkg:generic/hugo/jsconfig_test@0.0.0-5f06f3463c56#/resources/jsconfig/jsconfig_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "5f06f3463c560674c2a7092a3dfd1955"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "kinds_test",
+        "version": "0.0.0-444643101140",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/kinds_test@0.0.0-444643101140#/resources/kinds/kinds_test.go",
+        "purl": "pkg:generic/hugo/kinds_test@0.0.0-444643101140#/resources/kinds/kinds_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "444643101140e442d25d5da2ce0420e3"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "page_author",
+        "version": "0.0.0-72b506f2daa2",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/page_author@0.0.0-72b506f2daa2#/resources/page/page_author.go",
+        "purl": "pkg:generic/hugo/page_author@0.0.0-72b506f2daa2#/resources/page/page_author.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "72b506f2daa29258d364827412a9c419"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "page_data",
+        "version": "0.0.0-623701dc5fbf",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/page_data@0.0.0-623701dc5fbf#/resources/page/page_data.go",
+        "purl": "pkg:generic/hugo/page_data@0.0.0-623701dc5fbf#/resources/page/page_data.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "623701dc5fbf58c0618d2b2329eb001b"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "page_data_test",
+        "version": "0.0.0-8b5617dc2f57",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/page_data_test@0.0.0-8b5617dc2f57#/resources/page/page_data_test.go",
+        "purl": "pkg:generic/hugo/page_data_test@0.0.0-8b5617dc2f57#/resources/page/page_data_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "8b5617dc2f57425aed4c1bd29d66d554"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "generate_page_wrappers",
+        "version": "0.0.0-d1151a8a86d5",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/generate_page_wrappers@0.0.0-d1151a8a86d5#/resources/page/page_generate/generate_page_wrappers.go",
+        "purl": "pkg:generic/hugo/generate_page_wrappers@0.0.0-d1151a8a86d5#/resources/page/page_generate/generate_page_wrappers.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d1151a8a86d512bc4a44aa8f715efbd5"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "page_marshaljson.autogen",
+        "version": "0.0.0-042f169689df",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/page_marshaljson.autogen@0.0.0-042f169689df#/resources/page/page_marshaljson.autogen.go",
+        "purl": "pkg:generic/hugo/page_marshaljson.autogen@0.0.0-042f169689df#/resources/page/page_marshaljson.autogen.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "042f169689df3924188193c7363f5661"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "page_outputformat",
+        "version": "0.0.0-0249fc96d942",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/page_outputformat@0.0.0-0249fc96d942#/resources/page/page_outputformat.go",
+        "purl": "pkg:generic/hugo/page_outputformat@0.0.0-0249fc96d942#/resources/page/page_outputformat.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "0249fc96d942898614f51cc0fc4198cc"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "pages",
+        "version": "0.0.0-c57269081cb9",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/pages@0.0.0-c57269081cb9#/resources/page/pages.go",
+        "purl": "pkg:generic/hugo/pages@0.0.0-c57269081cb9#/resources/page/pages.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c57269081cb9748c3a76f2fd8620e0be"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "pages_language_merge",
+        "version": "0.0.0-1caaad99f3f8",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/pages_language_merge@0.0.0-1caaad99f3f8#/resources/page/pages_language_merge.go",
+        "purl": "pkg:generic/hugo/pages_language_merge@0.0.0-1caaad99f3f8#/resources/page/pages_language_merge.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "1caaad99f3f80103e8e3bbead1ebcd4c"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "pages_prev_next",
+        "version": "0.0.0-97cd65cb4ff5",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/pages_prev_next@0.0.0-97cd65cb4ff5#/resources/page/pages_prev_next.go",
+        "purl": "pkg:generic/hugo/pages_prev_next@0.0.0-97cd65cb4ff5#/resources/page/pages_prev_next.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "97cd65cb4ff5d6bd513e95523e7ea51e"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "pages_prev_next_test",
+        "version": "0.0.0-14650d512361",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/pages_prev_next_test@0.0.0-14650d512361#/resources/page/pages_prev_next_test.go",
+        "purl": "pkg:generic/hugo/pages_prev_next_test@0.0.0-14650d512361#/resources/page/pages_prev_next_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "14650d5123613b8d5ecc415ccd510ad7"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "pages_related_test",
+        "version": "0.0.0-0b25a254d0e7",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/pages_related_test@0.0.0-0b25a254d0e7#/resources/page/pages_related_test.go",
+        "purl": "pkg:generic/hugo/pages_related_test@0.0.0-0b25a254d0e7#/resources/page/pages_related_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "0b25a254d0e7ca4ec5a9636a65732927"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "pages_sort_search",
+        "version": "0.0.0-d0c5787e9840",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/pages_sort_search@0.0.0-d0c5787e9840#/resources/page/pages_sort_search.go",
+        "purl": "pkg:generic/hugo/pages_sort_search@0.0.0-d0c5787e9840#/resources/page/pages_sort_search.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d0c5787e98403251387e8e861cdfac6d"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "pages_test",
+        "version": "0.0.0-d999b3ce014a",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/pages_test@0.0.0-d999b3ce014a#/resources/page/pages_test.go",
+        "purl": "pkg:generic/hugo/pages_test@0.0.0-d999b3ce014a#/resources/page/pages_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d999b3ce014ad8ff4e04280c177ac8ab"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "pagination",
+        "version": "0.0.0-c652b44bc638",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/pagination@0.0.0-c652b44bc638#/resources/page/pagination.go",
+        "purl": "pkg:generic/hugo/pagination@0.0.0-c652b44bc638#/resources/page/pagination.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c652b44bc638cbf1f9f933a64e2d10be"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "identities",
+        "version": "0.0.0-eb70511fbedf",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/identities@0.0.0-eb70511fbedf#/resources/page/siteidentities/identities.go",
+        "purl": "pkg:generic/hugo/identities@0.0.0-eb70511fbedf#/resources/page/siteidentities/identities.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "eb70511fbedfc219ca3483c32c060f35"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "taxonomy",
+        "version": "0.0.0-7391855173c7",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/taxonomy@0.0.0-7391855173c7#/resources/page/taxonomy.go",
+        "purl": "pkg:generic/hugo/taxonomy@0.0.0-7391855173c7#/resources/page/taxonomy.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "7391855173c739a3cbe5a5451cfe9fa7"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "weighted",
+        "version": "0.0.0-226ad2e30015",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/weighted@0.0.0-226ad2e30015#/resources/page/weighted.go",
+        "purl": "pkg:generic/hugo/weighted@0.0.0-226ad2e30015#/resources/page/weighted.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "226ad2e30015fc50dcb7b4a6f63a37a2"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "post_publish",
+        "version": "0.0.0-a40d89501572",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/post_publish@0.0.0-a40d89501572#/resources/post_publish.go",
+        "purl": "pkg:generic/hugo/post_publish@0.0.0-a40d89501572#/resources/post_publish.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "a40d89501572bb212462496947956895"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "fields_test",
+        "version": "0.0.0-2ca7144d2ffa",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/fields_test@0.0.0-2ca7144d2ffa#/resources/postpub/fields_test.go",
+        "purl": "pkg:generic/hugo/fields_test@0.0.0-2ca7144d2ffa#/resources/postpub/fields_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "2ca7144d2ffaec7037501827e8196f71"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "postpub",
+        "version": "0.0.0-faf88453bab4",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/postpub@0.0.0-faf88453bab4#/resources/postpub/postpub.go",
+        "purl": "pkg:generic/hugo/postpub@0.0.0-faf88453bab4#/resources/postpub/postpub.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "faf88453bab4930803234f06091526d7"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "dates",
+        "version": "0.0.0-628561914091",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/dates@0.0.0-628561914091#/resources/resource/dates.go",
+        "purl": "pkg:generic/hugo/dates@0.0.0-628561914091#/resources/resource/dates.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "6285619140912a02f3fa004bd6b1ba73"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "params",
+        "version": "0.0.0-9e630aeb3ab7",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/params@0.0.0-9e630aeb3ab7#/resources/resource/params.go",
+        "purl": "pkg:generic/hugo/params@0.0.0-9e630aeb3ab7#/resources/resource/params.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "9e630aeb3ab7f0151d4c7e5c88e827cc"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "resource_spec_test",
+        "version": "0.0.0-bf15a8f572b7",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/resource_spec_test@0.0.0-bf15a8f572b7#/resources/resource_spec_test.go",
+        "purl": "pkg:generic/hugo/resource_spec_test@0.0.0-bf15a8f572b7#/resources/resource_spec_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "bf15a8f572b709206f3681d9a3cac8a4"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "babel",
+        "version": "0.0.0-75c7f1ea1473",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/babel@0.0.0-75c7f1ea1473#/resources/resource_transformers/babel/babel.go",
+        "purl": "pkg:generic/hugo/babel@0.0.0-75c7f1ea1473#/resources/resource_transformers/babel/babel.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "75c7f1ea1473aa184fe88b32a29ce7c3"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "testhelpers",
+        "version": "0.0.0-00e8e2266509",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/testhelpers@0.0.0-00e8e2266509#/resources/resource_transformers/htesting/testhelpers.go",
+        "purl": "pkg:generic/hugo/testhelpers@0.0.0-00e8e2266509#/resources/resource_transformers/htesting/testhelpers.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "00e8e2266509aa299bbac837bcb89027"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "integrity",
+        "version": "0.0.0-6f49fd10c29d",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/integrity@0.0.0-6f49fd10c29d#/resources/resource_transformers/integrity/integrity.go",
+        "purl": "pkg:generic/hugo/integrity@0.0.0-6f49fd10c29d#/resources/resource_transformers/integrity/integrity.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "6f49fd10c29d46b50eded0216499574d"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "integrity_test",
+        "version": "0.0.0-1de3ce6c5c11",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/integrity_test@0.0.0-1de3ce6c5c11#/resources/resource_transformers/integrity/integrity_test.go",
+        "purl": "pkg:generic/hugo/integrity_test@0.0.0-1de3ce6c5c11#/resources/resource_transformers/integrity/integrity_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "1de3ce6c5c1139da442b715f75c207f3"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "minify",
+        "version": "0.0.0-74e86578d4b0",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/minify@0.0.0-74e86578d4b0#/resources/resource_transformers/minifier/minify.go",
+        "purl": "pkg:generic/hugo/minify@0.0.0-74e86578d4b0#/resources/resource_transformers/minifier/minify.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "74e86578d4b0ccd3035cbab4a5414096"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "minify_test",
+        "version": "0.0.0-144d0cedae94",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/minify_test@0.0.0-144d0cedae94#/resources/resource_transformers/minifier/minify_test.go",
+        "purl": "pkg:generic/hugo/minify_test@0.0.0-144d0cedae94#/resources/resource_transformers/minifier/minify_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "144d0cedae94b397a8570b31447ad609"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "helpers_test",
+        "version": "0.0.0-20af3a63c990",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/helpers_test@0.0.0-20af3a63c990#/resources/resource_transformers/tocss/sass/helpers_test.go",
+        "purl": "pkg:generic/hugo/helpers_test@0.0.0-20af3a63c990#/resources/resource_transformers/tocss/sass/helpers_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "20af3a63c990bbb810c56668db27e634"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "client",
+        "version": "0.0.0-1b2cba652500",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/client@0.0.0-1b2cba652500#/resources/resource_transformers/tocss/scss/client.go",
+        "purl": "pkg:generic/hugo/client@0.0.0-1b2cba652500#/resources/resource_transformers/tocss/scss/client.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "1b2cba65250057612834b7043be12e32"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "client_extended",
+        "version": "0.0.0-0f1515dddf56",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/client_extended@0.0.0-0f1515dddf56#/resources/resource_transformers/tocss/scss/client_extended.go",
+        "purl": "pkg:generic/hugo/client_extended@0.0.0-0f1515dddf56#/resources/resource_transformers/tocss/scss/client_extended.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "0f1515dddf5693d67d597dc7a5951c22"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "client_notavailable",
+        "version": "0.0.0-ed2bceec0a8e",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/client_notavailable@0.0.0-ed2bceec0a8e#/resources/resource_transformers/tocss/scss/client_notavailable.go",
+        "purl": "pkg:generic/hugo/client_notavailable@0.0.0-ed2bceec0a8e#/resources/resource_transformers/tocss/scss/client_notavailable.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "ed2bceec0a8e764db51694fd378d62b3"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "client_test",
+        "version": "0.0.0-b614219ba9c4",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/client_test@0.0.0-b614219ba9c4#/resources/resource_transformers/tocss/scss/client_test.go",
+        "purl": "pkg:generic/hugo/client_test@0.0.0-b614219ba9c4#/resources/resource_transformers/tocss/scss/client_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "b614219ba9c4f9d660d666ce25c08aef"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "testhelpers_test",
+        "version": "0.0.0-291a3d1d419e",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/testhelpers_test@0.0.0-291a3d1d419e#/resources/testhelpers_test.go",
+        "purl": "pkg:generic/hugo/testhelpers_test@0.0.0-291a3d1d419e#/resources/testhelpers_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "291a3d1d419e4ec737c30fbb95fa9082"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "cast",
+        "version": "0.0.0-8a3cb546945b",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/cast@0.0.0-8a3cb546945b#/tpl/cast/cast.go",
+        "purl": "pkg:generic/hugo/cast@0.0.0-8a3cb546945b#/tpl/cast/cast.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "8a3cb546945bb02c1b2eae4edd97bcdd"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "docshelper",
+        "version": "0.0.0-c70b1ec9b94b",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/docshelper@0.0.0-c70b1ec9b94b#/tpl/cast/docshelper.go",
+        "purl": "pkg:generic/hugo/docshelper@0.0.0-c70b1ec9b94b#/tpl/cast/docshelper.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c70b1ec9b94b44ff5bf785dd7a06c4f4"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "append",
+        "version": "0.0.0-adb9092f4765",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/append@0.0.0-adb9092f4765#/tpl/collections/append.go",
+        "purl": "pkg:generic/hugo/append@0.0.0-adb9092f4765#/tpl/collections/append.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "adb9092f476506ea9bd73223c9bded2c"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "append_test",
+        "version": "0.0.0-63a47cc4fcbd",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/append_test@0.0.0-63a47cc4fcbd#/tpl/collections/append_test.go",
+        "purl": "pkg:generic/hugo/append_test@0.0.0-63a47cc4fcbd#/tpl/collections/append_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "63a47cc4fcbdb072ab2b5f4188d3e8b5"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "complement_test",
+        "version": "0.0.0-9b619c9c1776",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/complement_test@0.0.0-9b619c9c1776#/tpl/collections/complement_test.go",
+        "purl": "pkg:generic/hugo/complement_test@0.0.0-9b619c9c1776#/tpl/collections/complement_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "9b619c9c17760c15b80b169c417dad06"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "index_test",
+        "version": "0.0.0-7afa2d35102a",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/index_test@0.0.0-7afa2d35102a#/tpl/collections/index_test.go",
+        "purl": "pkg:generic/hugo/index_test@0.0.0-7afa2d35102a#/tpl/collections/index_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "7afa2d35102af8ef9690054a1db3f611"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "symdiff_test",
+        "version": "0.0.0-74f66abf00d9",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/symdiff_test@0.0.0-74f66abf00d9#/tpl/collections/symdiff_test.go",
+        "purl": "pkg:generic/hugo/symdiff_test@0.0.0-74f66abf00d9#/tpl/collections/symdiff_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "74f66abf00d944e437500511d4dd6c38"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "crypto",
+        "version": "0.0.0-bb21f230034a",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/crypto@0.0.0-bb21f230034a#/tpl/crypto/crypto.go",
+        "purl": "pkg:generic/hugo/crypto@0.0.0-bb21f230034a#/tpl/crypto/crypto.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "bb21f230034a77ac9c0cc5850c445666"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "crypto_test",
+        "version": "0.0.0-24164fd1bc38",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/crypto_test@0.0.0-24164fd1bc38#/tpl/crypto/crypto_test.go",
+        "purl": "pkg:generic/hugo/crypto_test@0.0.0-24164fd1bc38#/tpl/crypto/crypto_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "24164fd1bc38c640e1cee3779c768e7d"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "data_test",
+        "version": "0.0.0-c1de22a9e5d2",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/data_test@0.0.0-c1de22a9e5d2#/tpl/data/data_test.go",
+        "purl": "pkg:generic/hugo/data_test@0.0.0-c1de22a9e5d2#/tpl/data/data_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c1de22a9e5d21482b6b63c77644eda7e"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "init",
+        "version": "0.0.0-f28918c5e1d8",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/init@0.0.0-f28918c5e1d8#/tpl/data/init.go",
+        "purl": "pkg:generic/hugo/init@0.0.0-f28918c5e1d8#/tpl/data/init.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "f28918c5e1d872d118798a9543f79156"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "diagrams",
+        "version": "0.0.0-7c3d22bff2ae",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/diagrams@0.0.0-7c3d22bff2ae#/tpl/diagrams/diagrams.go",
+        "purl": "pkg:generic/hugo/diagrams@0.0.0-7c3d22bff2ae#/tpl/diagrams/diagrams.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "7c3d22bff2ae2553c20574b86ffba930"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "goat",
+        "version": "0.0.0-6919de9e4e7f",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/goat@0.0.0-6919de9e4e7f#/tpl/diagrams/goat.go",
+        "purl": "pkg:generic/hugo/goat@0.0.0-6919de9e4e7f#/tpl/diagrams/goat.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "6919de9e4e7feb910d6ea518003768e2"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "encoding",
+        "version": "0.0.0-8425b55b1c4e",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/encoding@0.0.0-8425b55b1c4e#/tpl/encoding/encoding.go",
+        "purl": "pkg:generic/hugo/encoding@0.0.0-8425b55b1c4e#/tpl/encoding/encoding.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "8425b55b1c4eeaaf8ebfcb001ed7f1b2"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "encoding_test",
+        "version": "0.0.0-9347fa7f9d56",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/encoding_test@0.0.0-9347fa7f9d56#/tpl/encoding/encoding_test.go",
+        "purl": "pkg:generic/hugo/encoding_test@0.0.0-9347fa7f9d56#/tpl/encoding/encoding_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "9347fa7f9d56ca20f1e3de2fb90ea12a"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "init",
+        "version": "0.0.0-89c90cf1050d",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/init@0.0.0-89c90cf1050d#/tpl/encoding/init.go",
+        "purl": "pkg:generic/hugo/init@0.0.0-89c90cf1050d#/tpl/encoding/init.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "89c90cf1050d46f6c299a5ddc090f306"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "init",
+        "version": "0.0.0-8c1092aa9b90",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/init@0.0.0-8c1092aa9b90#/tpl/hugo/init.go",
+        "purl": "pkg:generic/hugo/init@0.0.0-8c1092aa9b90#/tpl/hugo/init.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "8c1092aa9b902e4d676cf636bad87769"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "inflect",
+        "version": "0.0.0-9346c0765b37",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/inflect@0.0.0-9346c0765b37#/tpl/inflect/inflect.go",
+        "purl": "pkg:generic/hugo/inflect@0.0.0-9346c0765b37#/tpl/inflect/inflect.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "9346c0765b370852fae5e272d4c4e6c2"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "inflect_test",
+        "version": "0.0.0-fbd2804404bc",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/inflect_test@0.0.0-fbd2804404bc#/tpl/inflect/inflect_test.go",
+        "purl": "pkg:generic/hugo/inflect_test@0.0.0-fbd2804404bc#/tpl/inflect/inflect_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "fbd2804404bc655cfcf9c6a0af568267"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "init",
+        "version": "0.0.0-4366d7282496",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/init@0.0.0-4366d7282496#/tpl/inflect/init.go",
+        "purl": "pkg:generic/hugo/init@0.0.0-4366d7282496#/tpl/inflect/init.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "4366d728249651aa634fe97d23fe53dd"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "content_test",
+        "version": "0.0.0-92c1bb9e42b4",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/content_test@0.0.0-92c1bb9e42b4#/tpl/internal/go_templates/htmltemplate/content_test.go",
+        "purl": "pkg:generic/hugo/content_test@0.0.0-92c1bb9e42b4#/tpl/internal/go_templates/htmltemplate/content_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "92c1bb9e42b4b8a5ab84779423e24b4f"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "hugo_template_test",
+        "version": "0.0.0-198b6dde31e1",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/hugo_template_test@0.0.0-198b6dde31e1#/tpl/internal/go_templates/texttemplate/hugo_template_test.go",
+        "purl": "pkg:generic/hugo/hugo_template_test@0.0.0-198b6dde31e1#/tpl/internal/go_templates/texttemplate/hugo_template_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "198b6dde31e18bb7cc7a676f3ff3db90"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "link_test",
+        "version": "0.0.0-e3eefd0fbe94",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/link_test@0.0.0-e3eefd0fbe94#/tpl/internal/go_templates/texttemplate/link_test.go",
+        "purl": "pkg:generic/hugo/link_test@0.0.0-e3eefd0fbe94#/tpl/internal/go_templates/texttemplate/link_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "e3eefd0fbe9432d29ebb5a1bcf2f5e76"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "helpers",
+        "version": "0.0.0-ce07404e7ad4",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/helpers@0.0.0-ce07404e7ad4#/tpl/internal/resourcehelpers/helpers.go",
+        "purl": "pkg:generic/hugo/helpers@0.0.0-ce07404e7ad4#/tpl/internal/resourcehelpers/helpers.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "ce07404e7ad4750286a57c6ecb045217"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "templatefuncRegistry_test",
+        "version": "0.0.0-63a6a904357b",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/templatefuncRegistry_test@0.0.0-63a6a904357b#/tpl/internal/templatefuncRegistry_test.go",
+        "purl": "pkg:generic/hugo/templatefuncRegistry_test@0.0.0-63a6a904357b#/tpl/internal/templatefuncRegistry_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "63a6a904357b0ce680135bf92b8406d0"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "lang_test",
+        "version": "0.0.0-9b9351e65f5f",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/lang_test@0.0.0-9b9351e65f5f#/tpl/lang/lang_test.go",
+        "purl": "pkg:generic/hugo/lang_test@0.0.0-9b9351e65f5f#/tpl/lang/lang_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "9b9351e65f5fffc16728d6249c7a9dcf"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "round",
+        "version": "0.0.0-d5e5db6eb264",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/round@0.0.0-d5e5db6eb264#/tpl/math/round.go",
+        "purl": "pkg:generic/hugo/round@0.0.0-d5e5db6eb264#/tpl/math/round.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d5e5db6eb2645adf49aa0b03139b9ab4"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "os",
+        "version": "0.0.0-71fa081bd34c",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/os@0.0.0-71fa081bd34c#/tpl/os/os.go",
+        "purl": "pkg:generic/hugo/os@0.0.0-71fa081bd34c#/tpl/os/os.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "71fa081bd34cda044ca739fd41ada993"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "os_test",
+        "version": "0.0.0-f14899a94667",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/os_test@0.0.0-f14899a94667#/tpl/os/os_test.go",
+        "purl": "pkg:generic/hugo/os_test@0.0.0-f14899a94667#/tpl/os/os_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "f14899a94667b634732e2a42313d8ffd"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "path",
+        "version": "0.0.0-b491be61cb82",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/path@0.0.0-b491be61cb82#/tpl/path/path.go",
+        "purl": "pkg:generic/hugo/path@0.0.0-b491be61cb82#/tpl/path/path.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "b491be61cb82fa11c01fadaf3af83030"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "path_test",
+        "version": "0.0.0-3643ba6fdce6",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/path_test@0.0.0-3643ba6fdce6#/tpl/path/path_test.go",
+        "purl": "pkg:generic/hugo/path_test@0.0.0-3643ba6fdce6#/tpl/path/path_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "3643ba6fdce676c4b81ab36d2a377ce6"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "init",
+        "version": "0.0.0-93dee8243f8a",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/init@0.0.0-93dee8243f8a#/tpl/reflect/init.go",
+        "purl": "pkg:generic/hugo/init@0.0.0-93dee8243f8a#/tpl/reflect/init.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "93dee8243f8a38f475764a1b5f96d51f"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "reflect_test",
+        "version": "0.0.0-902809872a52",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/reflect_test@0.0.0-902809872a52#/tpl/reflect/reflect_test.go",
+        "purl": "pkg:generic/hugo/reflect_test@0.0.0-902809872a52#/tpl/reflect/reflect_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "902809872a52ad7f5306a69d9b4f6253"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "safe",
+        "version": "0.0.0-2588b799fc84",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/safe@0.0.0-2588b799fc84#/tpl/safe/safe.go",
+        "purl": "pkg:generic/hugo/safe@0.0.0-2588b799fc84#/tpl/safe/safe.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "2588b799fc84cea32afb4d872238ca20"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "safe_test",
+        "version": "0.0.0-a982ecce506d",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/safe_test@0.0.0-a982ecce506d#/tpl/safe/safe_test.go",
+        "purl": "pkg:generic/hugo/safe_test@0.0.0-a982ecce506d#/tpl/safe/safe_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "a982ecce506d52eb251357a733e8754c"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "init",
+        "version": "0.0.0-48a31391688a",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/init@0.0.0-48a31391688a#/tpl/site/init.go",
+        "purl": "pkg:generic/hugo/init@0.0.0-48a31391688a#/tpl/site/init.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "48a31391688a571f92b88666cc85fd0b"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "regexp",
+        "version": "0.0.0-b660e33e3eba",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/regexp@0.0.0-b660e33e3eba#/tpl/strings/regexp.go",
+        "purl": "pkg:generic/hugo/regexp@0.0.0-b660e33e3eba#/tpl/strings/regexp.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "b660e33e3eba95dcc60e05b2f211b70a"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "regexp_test",
+        "version": "0.0.0-54816925482e",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/regexp_test@0.0.0-54816925482e#/tpl/strings/regexp_test.go",
+        "purl": "pkg:generic/hugo/regexp_test@0.0.0-54816925482e#/tpl/strings/regexp_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "54816925482e29f1356fc2edebcb3417"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "remarshal",
+        "version": "0.0.0-cb71f5448209",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/remarshal@0.0.0-cb71f5448209#/tpl/transform/remarshal.go",
+        "purl": "pkg:generic/hugo/remarshal@0.0.0-cb71f5448209#/tpl/transform/remarshal.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "cb71f5448209a61c7e03ae073996770a"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "chain",
+        "version": "0.0.0-ebd7beaa5ffc",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/chain@0.0.0-ebd7beaa5ffc#/transform/chain.go",
+        "purl": "pkg:generic/hugo/chain@0.0.0-ebd7beaa5ffc#/transform/chain.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "ebd7beaa5ffcee6f608c876e7a5522ca"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "chain_test",
+        "version": "0.0.0-162f0c3ea562",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/chain_test@0.0.0-162f0c3ea562#/transform/chain_test.go",
+        "purl": "pkg:generic/hugo/chain_test@0.0.0-162f0c3ea562#/transform/chain_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "162f0c3ea562326eb913d9a6903a7b2a"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "hugogenerator_test",
+        "version": "0.0.0-95829472c665",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/hugogenerator_test@0.0.0-95829472c665#/transform/metainject/hugogenerator_test.go",
+        "purl": "pkg:generic/hugo/hugogenerator_test@0.0.0-95829472c665#/transform/metainject/hugogenerator_test.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "95829472c665a4812247c870ffcebe17"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "absurl",
+        "version": "0.0.0-db885a5a7766",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/absurl@0.0.0-db885a5a7766#/transform/urlreplacers/absurl.go",
+        "purl": "pkg:generic/hugo/absurl@0.0.0-db885a5a7766#/transform/urlreplacers/absurl.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "db885a5a7766ded4e194614d3355bf36"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "batcher",
+        "version": "0.0.0-309307b14fb9",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/batcher@0.0.0-309307b14fb9#/watcher/batcher.go",
+        "purl": "pkg:generic/hugo/batcher@0.0.0-309307b14fb9#/watcher/batcher.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "309307b14fb99a655073b3abfab8ff6b"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "filenotify",
+        "version": "0.0.0-fcbc86be36e2",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/filenotify@0.0.0-fcbc86be36e2#/watcher/filenotify/filenotify.go",
+        "purl": "pkg:generic/hugo/filenotify@0.0.0-fcbc86be36e2#/watcher/filenotify/filenotify.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "fcbc86be36e2a583f084b0ae5cba2d49"
+          }
+        ]
+      },
+      {
+        "group": "hugo",
+        "name": "poller",
+        "version": "0.0.0-de3cbbea4dd5",
+        "type": "file",
+        "bom-ref": "pkg:generic/hugo/poller@0.0.0-de3cbbea4dd5#/watcher/filenotify/poller.go",
+        "purl": "pkg:generic/hugo/poller@0.0.0-de3cbbea4dd5#/watcher/filenotify/poller.go",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "de3cbbea4dd55875a449aee7b8d4eebc"
+          }
+        ]
+      }
+    ]
+  },
+  "file_count": 195
+}
