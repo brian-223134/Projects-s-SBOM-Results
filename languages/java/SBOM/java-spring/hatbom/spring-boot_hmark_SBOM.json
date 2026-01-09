@@ -1,0 +1,1829 @@
+{
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:66f848bc-a282-5cb1-c511-324ecfa446c5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-01-09T04:20:03.752149+00:00",
+      "authors": [
+        {
+          "name": "IoTcube - https://iotcube.net"
+        }
+      ],
+      "component": {
+        "group": "",
+        "name": "spring-boot",
+        "version": "",
+        "type": "application",
+        "bom-ref": "pkg:generic/spring-boot",
+        "purl": "pkg:generic/spring-boot"
+      }
+    },
+    "dependencies": [
+      {
+        "ref": "spring-boot",
+        "dependsOn": [
+          "spring-boot-data-source-decorator 1.4.1",
+          "spring-boot v3.3.0-M2",
+          "gradle-docker-plugin v9.4.0"
+        ]
+      }
+    ],
+    "components": [
+      {
+        "group": "spring-boot-data-source-decorator",
+        "name": "SampleApplication",
+        "version": "0.0.0-b99d866e3a5a",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot-data-source-decorator/SampleApplication@0.0.0-b99d866e3a5a#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-exclude-devtools/src/main/java/org/test/SampleApplication.java",
+        "purl": "pkg:generic/spring-boot-data-source-decorator/SampleApplication@0.0.0-b99d866e3a5a#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-exclude-devtools/src/main/java/org/test/SampleApplication.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "b99d866e3a5a80dc13ade7aa02337b14"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "PluginApplicationAction",
+        "version": "0.0.0-03d104538cfc",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/PluginApplicationAction@0.0.0-03d104538cfc#/build-plugin/spring-boot-gradle-plugin/src/main/java/org/springframework/boot/gradle/plugin/PluginApplicationAction.java",
+        "purl": "pkg:generic/spring-boot/PluginApplicationAction@0.0.0-03d104538cfc#/build-plugin/spring-boot-gradle-plugin/src/main/java/org/springframework/boot/gradle/plugin/PluginApplicationAction.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "03d104538cfc38d576930e7c94a2b0d0"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "AbstractAot",
+        "version": "0.0.0-f0ce2cce4187",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/AbstractAot@0.0.0-f0ce2cce4187#/build-plugin/spring-boot-gradle-plugin/src/main/java/org/springframework/boot/gradle/tasks/aot/AbstractAot.java",
+        "purl": "pkg:generic/spring-boot/AbstractAot@0.0.0-f0ce2cce4187#/build-plugin/spring-boot-gradle-plugin/src/main/java/org/springframework/boot/gradle/tasks/aot/AbstractAot.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "f0ce2cce4187ab5558f8040e0eb99e69"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "ProcessAot",
+        "version": "0.0.0-55e52a09ef7a",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/ProcessAot@0.0.0-55e52a09ef7a#/build-plugin/spring-boot-gradle-plugin/src/main/java/org/springframework/boot/gradle/tasks/aot/ProcessAot.java",
+        "purl": "pkg:generic/spring-boot/ProcessAot@0.0.0-55e52a09ef7a#/build-plugin/spring-boot-gradle-plugin/src/main/java/org/springframework/boot/gradle/tasks/aot/ProcessAot.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "55e52a09ef7a87455e05713e94ce4e5a"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "BuildInfo",
+        "version": "0.0.0-a6e450940305",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/BuildInfo@0.0.0-a6e450940305#/build-plugin/spring-boot-gradle-plugin/src/main/java/org/springframework/boot/gradle/tasks/buildinfo/BuildInfo.java",
+        "purl": "pkg:generic/spring-boot/BuildInfo@0.0.0-a6e450940305#/build-plugin/spring-boot-gradle-plugin/src/main/java/org/springframework/boot/gradle/tasks/buildinfo/BuildInfo.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "a6e450940305cb6e389056507381909d"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "DefaultTimeZoneOffset",
+        "version": "0.0.0-dc88a3895811",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/DefaultTimeZoneOffset@0.0.0-dc88a3895811#/build-plugin/spring-boot-gradle-plugin/src/main/java/org/springframework/boot/gradle/tasks/bundling/DefaultTimeZoneOffset.java",
+        "purl": "pkg:generic/spring-boot/DefaultTimeZoneOffset@0.0.0-dc88a3895811#/build-plugin/spring-boot-gradle-plugin/src/main/java/org/springframework/boot/gradle/tasks/bundling/DefaultTimeZoneOffset.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "dc88a389581168c990df9d156ffc4b32"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "BootRun",
+        "version": "0.0.0-32607fc7c4aa",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/BootRun@0.0.0-32607fc7c4aa#/build-plugin/spring-boot-gradle-plugin/src/main/java/org/springframework/boot/gradle/tasks/run/BootRun.java",
+        "purl": "pkg:generic/spring-boot/BootRun@0.0.0-32607fc7c4aa#/build-plugin/spring-boot-gradle-plugin/src/main/java/org/springframework/boot/gradle/tasks/run/BootRun.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "32607fc7c4aab85a80701d6529577781"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "BootJarTests",
+        "version": "0.0.0-fda561bd00d0",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/BootJarTests@0.0.0-fda561bd00d0#/build-plugin/spring-boot-gradle-plugin/src/test/java/org/springframework/boot/gradle/tasks/bundling/BootJarTests.java",
+        "purl": "pkg:generic/spring-boot/BootJarTests@0.0.0-fda561bd00d0#/build-plugin/spring-boot-gradle-plugin/src/test/java/org/springframework/boot/gradle/tasks/bundling/BootJarTests.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "fda561bd00d035cc579b8f96d6680021"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "BootWarIntegrationTests",
+        "version": "0.0.0-92cb54a53ac2",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/BootWarIntegrationTests@0.0.0-92cb54a53ac2#/build-plugin/spring-boot-gradle-plugin/src/test/java/org/springframework/boot/gradle/tasks/bundling/BootWarIntegrationTests.java",
+        "purl": "pkg:generic/spring-boot/BootWarIntegrationTests@0.0.0-92cb54a53ac2#/build-plugin/spring-boot-gradle-plugin/src/test/java/org/springframework/boot/gradle/tasks/bundling/BootWarIntegrationTests.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "92cb54a53ac2db8d629fe7f16472206b"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "BootWarTests",
+        "version": "0.0.0-12ca2638ad79",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/BootWarTests@0.0.0-12ca2638ad79#/build-plugin/spring-boot-gradle-plugin/src/test/java/org/springframework/boot/gradle/tasks/bundling/BootWarTests.java",
+        "purl": "pkg:generic/spring-boot/BootWarTests@0.0.0-12ca2638ad79#/build-plugin/spring-boot-gradle-plugin/src/test/java/org/springframework/boot/gradle/tasks/bundling/BootWarTests.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "12ca2638ad79d9e5d3efbeb7ed4f184e"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "DefaultTimeZoneOffsetTests",
+        "version": "0.0.0-03ae13a4545d",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/DefaultTimeZoneOffsetTests@0.0.0-03ae13a4545d#/build-plugin/spring-boot-gradle-plugin/src/test/java/org/springframework/boot/gradle/tasks/bundling/DefaultTimeZoneOffsetTests.java",
+        "purl": "pkg:generic/spring-boot/DefaultTimeZoneOffsetTests@0.0.0-03ae13a4545d#/build-plugin/spring-boot-gradle-plugin/src/test/java/org/springframework/boot/gradle/tasks/bundling/DefaultTimeZoneOffsetTests.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "03ae13a4545d41b2966d63ce242eb32d"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "PomCondition",
+        "version": "0.0.0-123a74085ec3",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/PomCondition@0.0.0-123a74085ec3#/build-plugin/spring-boot-gradle-plugin/src/test/java/org/springframework/boot/gradle/tasks/bundling/PomCondition.java",
+        "purl": "pkg:generic/spring-boot/PomCondition@0.0.0-123a74085ec3#/build-plugin/spring-boot-gradle-plugin/src/test/java/org/springframework/boot/gradle/tasks/bundling/PomCondition.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "123a74085ec32c6e0ccb64280ca82cf1"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "BootJarClasspathApplication",
+        "version": "0.0.0-25f68c374e00",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/BootJarClasspathApplication@0.0.0-25f68c374e00#/build-plugin/spring-boot-gradle-plugin/src/test/resources/com/example/bootjar/classpath/BootJarClasspathApplication.java",
+        "purl": "pkg:generic/spring-boot/BootJarClasspathApplication@0.0.0-25f68c374e00#/build-plugin/spring-boot-gradle-plugin/src/test/resources/com/example/bootjar/classpath/BootJarClasspathApplication.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "25f68c374e00a60d4431ba5212c99742"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "CustomMainClass",
+        "version": "0.0.0-d45ce51f50f0",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/CustomMainClass@0.0.0-d45ce51f50f0#/build-plugin/spring-boot-gradle-plugin/src/test/resources/com/example/bootjar/main/CustomMainClass.java",
+        "purl": "pkg:generic/spring-boot/CustomMainClass@0.0.0-d45ce51f50f0#/build-plugin/spring-boot-gradle-plugin/src/test/resources/com/example/bootjar/main/CustomMainClass.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d45ce51f50f0fefab85a5dd4369b901e"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "BootRunClasspathApplication",
+        "version": "0.0.0-05257e45c068",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/BootRunClasspathApplication@0.0.0-05257e45c068#/build-plugin/spring-boot-gradle-plugin/src/test/resources/com/example/bootrun/classpath/BootRunClasspathApplication.java",
+        "purl": "pkg:generic/spring-boot/BootRunClasspathApplication@0.0.0-05257e45c068#/build-plugin/spring-boot-gradle-plugin/src/test/resources/com/example/bootrun/classpath/BootRunClasspathApplication.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "05257e45c068793d016334e5bd1b7223"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "BootRunJvmArgsApplication",
+        "version": "0.0.0-d165ed2bcf37",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/BootRunJvmArgsApplication@0.0.0-d165ed2bcf37#/build-plugin/spring-boot-gradle-plugin/src/test/resources/com/example/bootrun/jvmargs/BootRunJvmArgsApplication.java",
+        "purl": "pkg:generic/spring-boot/BootRunJvmArgsApplication@0.0.0-d165ed2bcf37#/build-plugin/spring-boot-gradle-plugin/src/test/resources/com/example/bootrun/jvmargs/BootRunJvmArgsApplication.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d165ed2bcf37add2a242532a13f87b34"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "BootTestRunClasspathApplication",
+        "version": "0.0.0-c1a67048aab1",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/BootTestRunClasspathApplication@0.0.0-c1a67048aab1#/build-plugin/spring-boot-gradle-plugin/src/test/resources/com/example/boottestrun/classpath/BootTestRunClasspathApplication.java",
+        "purl": "pkg:generic/spring-boot/BootTestRunClasspathApplication@0.0.0-c1a67048aab1#/build-plugin/spring-boot-gradle-plugin/src/test/resources/com/example/boottestrun/classpath/BootTestRunClasspathApplication.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c1a67048aab1aeb0267e22ea0134e948"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "BootTestRunJvmArgsApplication",
+        "version": "0.0.0-7496d136f313",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/BootTestRunJvmArgsApplication@0.0.0-7496d136f313#/build-plugin/spring-boot-gradle-plugin/src/test/resources/com/example/boottestrun/jvmargs/BootTestRunJvmArgsApplication.java",
+        "purl": "pkg:generic/spring-boot/BootTestRunJvmArgsApplication@0.0.0-7496d136f313#/build-plugin/spring-boot-gradle-plugin/src/test/resources/com/example/boottestrun/jvmargs/BootTestRunJvmArgsApplication.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "7496d136f313b29a37e5b763f359ece4"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "BootTestRunNoMain",
+        "version": "0.0.0-45919e3392f7",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/BootTestRunNoMain@0.0.0-45919e3392f7#/build-plugin/spring-boot-gradle-plugin/src/test/resources/com/example/boottestrun/nomain/BootTestRunNoMain.java",
+        "purl": "pkg:generic/spring-boot/BootTestRunNoMain@0.0.0-45919e3392f7#/build-plugin/spring-boot-gradle-plugin/src/test/resources/com/example/boottestrun/nomain/BootTestRunNoMain.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "45919e3392f7ccadb9fa8ade660a5a3b"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "SampleApplication",
+        "version": "0.0.0-7f2047bfd55f",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/SampleApplication@0.0.0-7f2047bfd55f#/build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-multi-module/app/src/main/java/org/test/SampleApplication.java",
+        "purl": "pkg:generic/spring-boot/SampleApplication@0.0.0-7f2047bfd55f#/build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-multi-module/app/src/main/java/org/test/SampleApplication.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "7f2047bfd55fa89bff38d67ff9869939"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "SampleLibrary",
+        "version": "0.0.0-8ea61cc9ce7f",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/SampleLibrary@0.0.0-8ea61cc9ce7f#/build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-multi-module/library/src/main/java/org/test/SampleLibrary.java",
+        "purl": "pkg:generic/spring-boot/SampleLibrary@0.0.0-8ea61cc9ce7f#/build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-multi-module/library/src/main/java/org/test/SampleLibrary.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "8ea61cc9ce7f0b094f7b8e92c455beee"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "SampleApplication",
+        "version": "0.0.0-138aab0ce607",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/SampleApplication@0.0.0-138aab0ce607#/build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image/src/main/java/org/test/SampleApplication.java",
+        "purl": "pkg:generic/spring-boot/SampleApplication@0.0.0-138aab0ce607#/build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image/src/main/java/org/test/SampleApplication.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "138aab0ce60757efbac9efa2b4d5e2ef"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "MavenBuildExtension",
+        "version": "0.0.0-ee12a54a23b3",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/MavenBuildExtension@0.0.0-ee12a54a23b3#/build-plugin/spring-boot-maven-plugin/src/intTest/java/org/springframework/boot/maven/MavenBuildExtension.java",
+        "purl": "pkg:generic/spring-boot/MavenBuildExtension@0.0.0-ee12a54a23b3#/build-plugin/spring-boot-maven-plugin/src/intTest/java/org/springframework/boot/maven/MavenBuildExtension.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "ee12a54a23b393fb9521916d70b61974"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "StartStopIntegrationTests",
+        "version": "0.0.0-db918c120aa7",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/StartStopIntegrationTests@0.0.0-db918c120aa7#/build-plugin/spring-boot-maven-plugin/src/intTest/java/org/springframework/boot/maven/StartStopIntegrationTests.java",
+        "purl": "pkg:generic/spring-boot/StartStopIntegrationTests@0.0.0-db918c120aa7#/build-plugin/spring-boot-maven-plugin/src/intTest/java/org/springframework/boot/maven/StartStopIntegrationTests.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "db918c120aa7d639a7adf458be1e23b0"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "SampleApplication",
+        "version": "0.0.0-8e0387141b04",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/SampleApplication@0.0.0-8e0387141b04#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-arguments/src/main/java/org/test/SampleApplication.java",
+        "purl": "pkg:generic/spring-boot/SampleApplication@0.0.0-8e0387141b04#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-arguments/src/main/java/org/test/SampleApplication.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "8e0387141b04f90735e4af571269cd8d"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "TestProfileConfiguration",
+        "version": "0.0.0-d84ae1eb3ce1",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/TestProfileConfiguration@0.0.0-d84ae1eb3ce1#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-arguments/src/main/java/org/test/TestProfileConfiguration.java",
+        "purl": "pkg:generic/spring-boot/TestProfileConfiguration@0.0.0-d84ae1eb3ce1#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-arguments/src/main/java/org/test/TestProfileConfiguration.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d84ae1eb3ce1a8b5f0ca4be52e1f8d2a"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "SampleApplication",
+        "version": "0.0.0-3616f87b4ae5",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/SampleApplication@0.0.0-3616f87b4ae5#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-class-proxy/src/main/java/org/test/SampleApplication.java",
+        "purl": "pkg:generic/spring-boot/SampleApplication@0.0.0-3616f87b4ae5#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-class-proxy/src/main/java/org/test/SampleApplication.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "3616f87b4ae5065afc085b982517975c"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "SampleRunner",
+        "version": "0.0.0-33b08a37ef91",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/SampleRunner@0.0.0-33b08a37ef91#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-class-proxy/src/main/java/org/test/SampleRunner.java",
+        "purl": "pkg:generic/spring-boot/SampleRunner@0.0.0-33b08a37ef91#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-class-proxy/src/main/java/org/test/SampleRunner.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "33b08a37ef91293066b17f600081d48d"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "SampleApplication",
+        "version": "0.0.0-6b9ec21083e0",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/SampleApplication@0.0.0-6b9ec21083e0#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-jdk-proxy/src/main/java/org/test/SampleApplication.java",
+        "purl": "pkg:generic/spring-boot/SampleApplication@0.0.0-6b9ec21083e0#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-jdk-proxy/src/main/java/org/test/SampleApplication.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "6b9ec21083e06b5e1dc5f814de34cec0"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "ResourceRegisteringAotProcessor",
+        "version": "0.0.0-94eeb42c8aa0",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/ResourceRegisteringAotProcessor@0.0.0-94eeb42c8aa0#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-resource-generation/src/main/java/org/test/ResourceRegisteringAotProcessor.java",
+        "purl": "pkg:generic/spring-boot/ResourceRegisteringAotProcessor@0.0.0-94eeb42c8aa0#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-resource-generation/src/main/java/org/test/ResourceRegisteringAotProcessor.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "94eeb42c8aa0d3207ea53370d89c3b1f"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "SampleApplicationTests",
+        "version": "0.0.0-e04b6cfd4079",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/SampleApplicationTests@0.0.0-e04b6cfd4079#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-test/src/test/java/org/test/SampleApplicationTests.java",
+        "purl": "pkg:generic/spring-boot/SampleApplicationTests@0.0.0-e04b6cfd4079#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-test/src/test/java/org/test/SampleApplicationTests.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "e04b6cfd4079ee0f3a8dc39ac36a1c8c"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "SampleApplication",
+        "version": "0.0.0-c1adeddf77b7",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/SampleApplication@0.0.0-c1adeddf77b7#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot/src/main/java/org/test/SampleApplication.java",
+        "purl": "pkg:generic/spring-boot/SampleApplication@0.0.0-c1adeddf77b7#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot/src/main/java/org/test/SampleApplication.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c1adeddf77b7026489f59c50640e4d7d"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "SampleApplication",
+        "version": "0.0.0-d32ee4c6c969",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/SampleApplication@0.0.0-d32ee4c6c969#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-additional-classpath-directory/src/main/java/org/test/SampleApplication.java",
+        "purl": "pkg:generic/spring-boot/SampleApplication@0.0.0-d32ee4c6c969#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-additional-classpath-directory/src/main/java/org/test/SampleApplication.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d32ee4c6c969193108815bfcc851d7ce"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "SampleApplication",
+        "version": "0.0.0-16e9ff16b43a",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/SampleApplication@0.0.0-16e9ff16b43a#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-arguments/src/main/java/org/test/SampleApplication.java",
+        "purl": "pkg:generic/spring-boot/SampleApplication@0.0.0-16e9ff16b43a#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-arguments/src/main/java/org/test/SampleApplication.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "16e9ff16b43acfbd58f349cb00f524df"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "SampleApplication",
+        "version": "0.0.0-eade7108a937",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/SampleApplication@0.0.0-eade7108a937#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-exclude/src/main/java/org/test/SampleApplication.java",
+        "purl": "pkg:generic/spring-boot/SampleApplication@0.0.0-eade7108a937#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-exclude/src/main/java/org/test/SampleApplication.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "eade7108a937d069f00aedce487d5d84"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "SampleApplication",
+        "version": "0.0.0-fdf227b81ac4",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/SampleApplication@0.0.0-fdf227b81ac4#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-fork/src/main/java/org/test/SampleApplication.java",
+        "purl": "pkg:generic/spring-boot/SampleApplication@0.0.0-fdf227b81ac4#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-fork/src/main/java/org/test/SampleApplication.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "fdf227b81ac4f0721d798ac306a16bdd"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "SampleApplication",
+        "version": "0.0.0-43bf35134dab",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/SampleApplication@0.0.0-43bf35134dab#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-jvmargs-commandline/src/main/java/org/test/SampleApplication.java",
+        "purl": "pkg:generic/spring-boot/SampleApplication@0.0.0-43bf35134dab#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-jvmargs-commandline/src/main/java/org/test/SampleApplication.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "43bf35134dab79c833e68b18ffaf443a"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "SampleApplication",
+        "version": "0.0.0-6e4ae174e706",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/SampleApplication@0.0.0-6e4ae174e706#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-profiles/src/main/java/org/test/SampleApplication.java",
+        "purl": "pkg:generic/spring-boot/SampleApplication@0.0.0-6e4ae174e706#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-profiles/src/main/java/org/test/SampleApplication.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "6e4ae174e706e0d9ec341fc195db9205"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "SampleApplication",
+        "version": "0.0.0-ccce8878dac1",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/SampleApplication@0.0.0-ccce8878dac1#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-toolchains/src/main/java/org/test/SampleApplication.java",
+        "purl": "pkg:generic/spring-boot/SampleApplication@0.0.0-ccce8878dac1#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-toolchains/src/main/java/org/test/SampleApplication.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "ccce8878dac1d8bf7d0a651251d67311"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "SampleApplication",
+        "version": "0.0.0-1b0c9d42bea5",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/SampleApplication@0.0.0-1b0c9d42bea5#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/start-stop/src/main/java/org/test/SampleApplication.java",
+        "purl": "pkg:generic/spring-boot/SampleApplication@0.0.0-1b0c9d42bea5#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/start-stop/src/main/java/org/test/SampleApplication.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "1b0c9d42bea5d35b4aecbce79d2eba05"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "TestSampleApplication",
+        "version": "0.0.0-84239712a3c1",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/TestSampleApplication@0.0.0-84239712a3c1#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/test-run/src/test/java/org/test/TestSampleApplication.java",
+        "purl": "pkg:generic/spring-boot/TestSampleApplication@0.0.0-84239712a3c1#/build-plugin/spring-boot-maven-plugin/src/intTest/projects/test-run/src/test/java/org/test/TestSampleApplication.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "84239712a3c159acdac513d810b5f46c"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "SpringApplicationAdminClient",
+        "version": "0.0.0-83ae724580ba",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/SpringApplicationAdminClient@0.0.0-83ae724580ba#/build-plugin/spring-boot-maven-plugin/src/main/java/org/springframework/boot/maven/SpringApplicationAdminClient.java",
+        "purl": "pkg:generic/spring-boot/SpringApplicationAdminClient@0.0.0-83ae724580ba#/build-plugin/spring-boot-maven-plugin/src/main/java/org/springframework/boot/maven/SpringApplicationAdminClient.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "83ae724580baf87e272f622f5e657e30"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "SpringBootApplicationClassFinder",
+        "version": "0.0.0-2a6a69063c98",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/SpringBootApplicationClassFinder@0.0.0-2a6a69063c98#/build-plugin/spring-boot-maven-plugin/src/main/java/org/springframework/boot/maven/SpringBootApplicationClassFinder.java",
+        "purl": "pkg:generic/spring-boot/SpringBootApplicationClassFinder@0.0.0-2a6a69063c98#/build-plugin/spring-boot-maven-plugin/src/main/java/org/springframework/boot/maven/SpringBootApplicationClassFinder.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "2a6a69063c985b882eb8b61122ce585e"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "EnvVariablesTests",
+        "version": "0.0.0-de76fab2830c",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/EnvVariablesTests@0.0.0-de76fab2830c#/build-plugin/spring-boot-maven-plugin/src/test/java/org/springframework/boot/maven/EnvVariablesTests.java",
+        "purl": "pkg:generic/spring-boot/EnvVariablesTests@0.0.0-de76fab2830c#/build-plugin/spring-boot-maven-plugin/src/test/java/org/springframework/boot/maven/EnvVariablesTests.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "de76fab2830c938dcdeb7a8ef927495c"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "JavaCompilerPluginConfigurationTests",
+        "version": "0.0.0-b9fc4eb3e344",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/JavaCompilerPluginConfigurationTests@0.0.0-b9fc4eb3e344#/build-plugin/spring-boot-maven-plugin/src/test/java/org/springframework/boot/maven/JavaCompilerPluginConfigurationTests.java",
+        "purl": "pkg:generic/spring-boot/JavaCompilerPluginConfigurationTests@0.0.0-b9fc4eb3e344#/build-plugin/spring-boot-maven-plugin/src/test/java/org/springframework/boot/maven/JavaCompilerPluginConfigurationTests.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "b9fc4eb3e34460754a42bcdaafb2a2f5"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "Buildpack",
+        "version": "0.0.0-694acc9360e0",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/Buildpack@0.0.0-694acc9360e0#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/build/Buildpack.java",
+        "purl": "pkg:generic/spring-boot/Buildpack@0.0.0-694acc9360e0#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/build/Buildpack.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "694acc9360e086617941e7a22004fc3a"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "BuildpackResolverContext",
+        "version": "0.0.0-283ded48933e",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/BuildpackResolverContext@0.0.0-283ded48933e#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/build/BuildpackResolverContext.java",
+        "purl": "pkg:generic/spring-boot/BuildpackResolverContext@0.0.0-283ded48933e#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/build/BuildpackResolverContext.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "283ded48933e6cdd9eed1fd8c151783c"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "ImageType",
+        "version": "0.0.0-0c74772b5e6e",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/ImageType@0.0.0-0c74772b5e6e#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/build/ImageType.java",
+        "purl": "pkg:generic/spring-boot/ImageType@0.0.0-0c74772b5e6e#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/build/ImageType.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "0c74772b5e6ed9493d25208782f00a23"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "PrintStreamBuildLog",
+        "version": "0.0.0-43f8d6e18b4a",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/PrintStreamBuildLog@0.0.0-43f8d6e18b4a#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/build/PrintStreamBuildLog.java",
+        "purl": "pkg:generic/spring-boot/PrintStreamBuildLog@0.0.0-43f8d6e18b4a#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/build/PrintStreamBuildLog.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "43f8d6e18b4a35d54c664d0c6ae612f3"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "PullPolicy",
+        "version": "0.0.0-34220a7da3b0",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/PullPolicy@0.0.0-34220a7da3b0#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/build/PullPolicy.java",
+        "purl": "pkg:generic/spring-boot/PullPolicy@0.0.0-34220a7da3b0#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/build/PullPolicy.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "34220a7da3b0c58465bc686679547f9c"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "DockerRegistryTokenAuthentication",
+        "version": "0.0.0-b857b985857b",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/DockerRegistryTokenAuthentication@0.0.0-b857b985857b#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/docker/configuration/DockerRegistryTokenAuthentication.java",
+        "purl": "pkg:generic/spring-boot/DockerRegistryTokenAuthentication@0.0.0-b857b985857b#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/docker/configuration/DockerRegistryTokenAuthentication.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "b857b985857bcf763196afa83c227005"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "PullImageUpdateEvent",
+        "version": "0.0.0-7c9fcbf39845",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/PullImageUpdateEvent@0.0.0-7c9fcbf39845#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/docker/PullImageUpdateEvent.java",
+        "purl": "pkg:generic/spring-boot/PullImageUpdateEvent@0.0.0-7c9fcbf39845#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/docker/PullImageUpdateEvent.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "7c9fcbf398453a892eaeb6fd9220de7a"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "SslContextFactory",
+        "version": "0.0.0-4512c1a9b420",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/SslContextFactory@0.0.0-4512c1a9b420#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/docker/ssl/SslContextFactory.java",
+        "purl": "pkg:generic/spring-boot/SslContextFactory@0.0.0-4512c1a9b420#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/docker/ssl/SslContextFactory.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "4512c1a9b420aee9b54a8736da196e73"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "TotalProgressPullListener",
+        "version": "0.0.0-22006995d2a7",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/TotalProgressPullListener@0.0.0-22006995d2a7#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/docker/TotalProgressPullListener.java",
+        "purl": "pkg:generic/spring-boot/TotalProgressPullListener@0.0.0-22006995d2a7#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/docker/TotalProgressPullListener.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "22006995d2a7e31d134e7b2bb561661d"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "TotalProgressPushListener",
+        "version": "0.0.0-64031014848a",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/TotalProgressPushListener@0.0.0-64031014848a#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/docker/TotalProgressPushListener.java",
+        "purl": "pkg:generic/spring-boot/TotalProgressPushListener@0.0.0-64031014848a#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/docker/TotalProgressPushListener.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "64031014848a0cf895130996e0b52d48"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "Regex",
+        "version": "0.0.0-4303775e3493",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/Regex@0.0.0-4303775e3493#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/docker/type/Regex.java",
+        "purl": "pkg:generic/spring-boot/Regex@0.0.0-4303775e3493#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/docker/type/Regex.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "4303775e34939a0b9a65bb841456b5d1"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "UpdateEvent",
+        "version": "0.0.0-efed58799125",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/UpdateEvent@0.0.0-efed58799125#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/docker/UpdateEvent.java",
+        "purl": "pkg:generic/spring-boot/UpdateEvent@0.0.0-efed58799125#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/docker/UpdateEvent.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "efed587991254a37ed2dd1252475114a"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "UpdateListener",
+        "version": "0.0.0-d094ae072346",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/UpdateListener@0.0.0-d094ae072346#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/docker/UpdateListener.java",
+        "purl": "pkg:generic/spring-boot/UpdateListener@0.0.0-d094ae072346#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/docker/UpdateListener.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d094ae072346fcd2c14b039ba63e4b5f"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "DefaultOwner",
+        "version": "0.0.0-a8875cd01720",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/DefaultOwner@0.0.0-a8875cd01720#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/io/DefaultOwner.java",
+        "purl": "pkg:generic/spring-boot/DefaultOwner@0.0.0-a8875cd01720#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/io/DefaultOwner.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "a8875cd0172053b3203f1c430fb18040"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "IOBiConsumer",
+        "version": "0.0.0-e622605b28cb",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/IOBiConsumer@0.0.0-e622605b28cb#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/io/IOBiConsumer.java",
+        "purl": "pkg:generic/spring-boot/IOBiConsumer@0.0.0-e622605b28cb#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/io/IOBiConsumer.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "e622605b28cbe2d20c50d9b5fce43941"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "IOConsumer",
+        "version": "0.0.0-2113dce4a756",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/IOConsumer@0.0.0-2113dce4a756#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/io/IOConsumer.java",
+        "purl": "pkg:generic/spring-boot/IOConsumer@0.0.0-2113dce4a756#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/io/IOConsumer.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "2113dce4a756a14725952ee0b6d5604f"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "IOSupplier",
+        "version": "0.0.0-60f6d5efd0b8",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/IOSupplier@0.0.0-60f6d5efd0b8#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/io/IOSupplier.java",
+        "purl": "pkg:generic/spring-boot/IOSupplier@0.0.0-60f6d5efd0b8#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/io/IOSupplier.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "60f6d5efd0b839bdb2434ce6ee4e44bd"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "Layout",
+        "version": "0.0.0-49d6a33e17d3",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/Layout@0.0.0-49d6a33e17d3#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/io/Layout.java",
+        "purl": "pkg:generic/spring-boot/Layout@0.0.0-49d6a33e17d3#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/io/Layout.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "49d6a33e17d39ffa3e9e18ab3fa36123"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "Owner",
+        "version": "0.0.0-5820fba56780",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/Owner@0.0.0-5820fba56780#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/io/Owner.java",
+        "purl": "pkg:generic/spring-boot/Owner@0.0.0-5820fba56780#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/io/Owner.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "5820fba567802d723999ce6b88c0371a"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "TarLayoutWriter",
+        "version": "0.0.0-55e5a312452c",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/TarLayoutWriter@0.0.0-55e5a312452c#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/io/TarLayoutWriter.java",
+        "purl": "pkg:generic/spring-boot/TarLayoutWriter@0.0.0-55e5a312452c#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/io/TarLayoutWriter.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "55e5a312452cca28ec2a71c704f0b6c6"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "FileDescriptor",
+        "version": "0.0.0-c431cb1000af",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/FileDescriptor@0.0.0-c431cb1000af#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/socket/FileDescriptor.java",
+        "purl": "pkg:generic/spring-boot/FileDescriptor@0.0.0-c431cb1000af#/buildpack/spring-boot-buildpack-platform/src/main/java/org/springframework/boot/buildpack/platform/socket/FileDescriptor.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c431cb1000af6e9ce23c27c23bac6d92"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "ApiVersionsTests",
+        "version": "0.0.0-867a486fb86b",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/ApiVersionsTests@0.0.0-867a486fb86b#/buildpack/spring-boot-buildpack-platform/src/test/java/org/springframework/boot/buildpack/platform/build/ApiVersionsTests.java",
+        "purl": "pkg:generic/spring-boot/ApiVersionsTests@0.0.0-867a486fb86b#/buildpack/spring-boot-buildpack-platform/src/test/java/org/springframework/boot/buildpack/platform/build/ApiVersionsTests.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "867a486fb86b5c41c01f5e327f17ac14"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "BuilderExceptionTests",
+        "version": "0.0.0-27f39c960ab5",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/BuilderExceptionTests@0.0.0-27f39c960ab5#/buildpack/spring-boot-buildpack-platform/src/test/java/org/springframework/boot/buildpack/platform/build/BuilderExceptionTests.java",
+        "purl": "pkg:generic/spring-boot/BuilderExceptionTests@0.0.0-27f39c960ab5#/buildpack/spring-boot-buildpack-platform/src/test/java/org/springframework/boot/buildpack/platform/build/BuilderExceptionTests.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "27f39c960ab51b98f1db3d215e247102"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "BuildLogTests",
+        "version": "0.0.0-974c6377b8f8",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/BuildLogTests@0.0.0-974c6377b8f8#/buildpack/spring-boot-buildpack-platform/src/test/java/org/springframework/boot/buildpack/platform/build/BuildLogTests.java",
+        "purl": "pkg:generic/spring-boot/BuildLogTests@0.0.0-974c6377b8f8#/buildpack/spring-boot-buildpack-platform/src/test/java/org/springframework/boot/buildpack/platform/build/BuildLogTests.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "974c6377b8f8e5c8fac3cd8e2b4a4566"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "BuildpackResolversTests",
+        "version": "0.0.0-4248c30d2613",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/BuildpackResolversTests@0.0.0-4248c30d2613#/buildpack/spring-boot-buildpack-platform/src/test/java/org/springframework/boot/buildpack/platform/build/BuildpackResolversTests.java",
+        "purl": "pkg:generic/spring-boot/BuildpackResolversTests@0.0.0-4248c30d2613#/buildpack/spring-boot-buildpack-platform/src/test/java/org/springframework/boot/buildpack/platform/build/BuildpackResolversTests.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "4248c30d26137a63f6bf396fc7583661"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "BuildpacksTests",
+        "version": "0.0.0-f593e4c7a6c5",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/BuildpacksTests@0.0.0-f593e4c7a6c5#/buildpack/spring-boot-buildpack-platform/src/test/java/org/springframework/boot/buildpack/platform/build/BuildpacksTests.java",
+        "purl": "pkg:generic/spring-boot/BuildpacksTests@0.0.0-f593e4c7a6c5#/buildpack/spring-boot-buildpack-platform/src/test/java/org/springframework/boot/buildpack/platform/build/BuildpacksTests.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "f593e4c7a6c5f4ed3522fc102098f453"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "LogUpdateEventTests",
+        "version": "0.0.0-a34390d42e6b",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/LogUpdateEventTests@0.0.0-a34390d42e6b#/buildpack/spring-boot-buildpack-platform/src/test/java/org/springframework/boot/buildpack/platform/docker/LogUpdateEventTests.java",
+        "purl": "pkg:generic/spring-boot/LogUpdateEventTests@0.0.0-a34390d42e6b#/buildpack/spring-boot-buildpack-platform/src/test/java/org/springframework/boot/buildpack/platform/docker/LogUpdateEventTests.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "a34390d42e6b59c633efb35b6f26319b"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "PullImageUpdateEventTests",
+        "version": "0.0.0-87c9e7473bf5",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/PullImageUpdateEventTests@0.0.0-87c9e7473bf5#/buildpack/spring-boot-buildpack-platform/src/test/java/org/springframework/boot/buildpack/platform/docker/PullImageUpdateEventTests.java",
+        "purl": "pkg:generic/spring-boot/PullImageUpdateEventTests@0.0.0-87c9e7473bf5#/buildpack/spring-boot-buildpack-platform/src/test/java/org/springframework/boot/buildpack/platform/docker/PullImageUpdateEventTests.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "87c9e7473bf528d601e4847702d96bf0"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "KeyStoreFactoryTests",
+        "version": "0.0.0-a6e5e417b7e7",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/KeyStoreFactoryTests@0.0.0-a6e5e417b7e7#/buildpack/spring-boot-buildpack-platform/src/test/java/org/springframework/boot/buildpack/platform/docker/ssl/KeyStoreFactoryTests.java",
+        "purl": "pkg:generic/spring-boot/KeyStoreFactoryTests@0.0.0-a6e5e417b7e7#/buildpack/spring-boot-buildpack-platform/src/test/java/org/springframework/boot/buildpack/platform/docker/ssl/KeyStoreFactoryTests.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "a6e5e417b7e767e41070223d9f9a5d9f"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "PemFileWriter",
+        "version": "0.0.0-1ead37196faa",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/PemFileWriter@0.0.0-1ead37196faa#/buildpack/spring-boot-buildpack-platform/src/test/java/org/springframework/boot/buildpack/platform/docker/ssl/PemFileWriter.java",
+        "purl": "pkg:generic/spring-boot/PemFileWriter@0.0.0-1ead37196faa#/buildpack/spring-boot-buildpack-platform/src/test/java/org/springframework/boot/buildpack/platform/docker/ssl/PemFileWriter.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "1ead37196faa2403d0ddf1b517be2331"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "SslContextFactoryTests",
+        "version": "0.0.0-5910a618cfbd",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/SslContextFactoryTests@0.0.0-5910a618cfbd#/buildpack/spring-boot-buildpack-platform/src/test/java/org/springframework/boot/buildpack/platform/docker/ssl/SslContextFactoryTests.java",
+        "purl": "pkg:generic/spring-boot/SslContextFactoryTests@0.0.0-5910a618cfbd#/buildpack/spring-boot-buildpack-platform/src/test/java/org/springframework/boot/buildpack/platform/docker/ssl/SslContextFactoryTests.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "5910a618cfbdfa90923791f9c961de0a"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "TotalProgressBarTests",
+        "version": "0.0.0-64e33c41289d",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/TotalProgressBarTests@0.0.0-64e33c41289d#/buildpack/spring-boot-buildpack-platform/src/test/java/org/springframework/boot/buildpack/platform/docker/TotalProgressBarTests.java",
+        "purl": "pkg:generic/spring-boot/TotalProgressBarTests@0.0.0-64e33c41289d#/buildpack/spring-boot-buildpack-platform/src/test/java/org/springframework/boot/buildpack/platform/docker/TotalProgressBarTests.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "64e33c41289daa5c452e072f6f12560c"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "ContainerStatusTests",
+        "version": "0.0.0-8698fce3710b",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/ContainerStatusTests@0.0.0-8698fce3710b#/buildpack/spring-boot-buildpack-platform/src/test/java/org/springframework/boot/buildpack/platform/docker/type/ContainerStatusTests.java",
+        "purl": "pkg:generic/spring-boot/ContainerStatusTests@0.0.0-8698fce3710b#/buildpack/spring-boot-buildpack-platform/src/test/java/org/springframework/boot/buildpack/platform/docker/type/ContainerStatusTests.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "8698fce3710b0d5441c3aad54c8bf7c4"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "DefaultOwnerTests",
+        "version": "0.0.0-ed2b3945b302",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/DefaultOwnerTests@0.0.0-ed2b3945b302#/buildpack/spring-boot-buildpack-platform/src/test/java/org/springframework/boot/buildpack/platform/io/DefaultOwnerTests.java",
+        "purl": "pkg:generic/spring-boot/DefaultOwnerTests@0.0.0-ed2b3945b302#/buildpack/spring-boot-buildpack-platform/src/test/java/org/springframework/boot/buildpack/platform/io/DefaultOwnerTests.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "ed2b3945b3028f0e02de99f8cc363b67"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "OwnerTests",
+        "version": "0.0.0-29dc7a1e3bad",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/OwnerTests@0.0.0-29dc7a1e3bad#/buildpack/spring-boot-buildpack-platform/src/test/java/org/springframework/boot/buildpack/platform/io/OwnerTests.java",
+        "purl": "pkg:generic/spring-boot/OwnerTests@0.0.0-29dc7a1e3bad#/buildpack/spring-boot-buildpack-platform/src/test/java/org/springframework/boot/buildpack/platform/io/OwnerTests.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "29dc7a1e3bad9ccb4d05f8fa6aff5df7"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "TarLayoutWriterTests",
+        "version": "0.0.0-6afd51ce6c90",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/TarLayoutWriterTests@0.0.0-6afd51ce6c90#/buildpack/spring-boot-buildpack-platform/src/test/java/org/springframework/boot/buildpack/platform/io/TarLayoutWriterTests.java",
+        "purl": "pkg:generic/spring-boot/TarLayoutWriterTests@0.0.0-6afd51ce6c90#/buildpack/spring-boot-buildpack-platform/src/test/java/org/springframework/boot/buildpack/platform/io/TarLayoutWriterTests.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "6afd51ce6c904dc0466b1e86ecc5d1bb"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "GitHub",
+        "version": "0.0.0-7354f6a20ac1",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/GitHub@0.0.0-7354f6a20ac1#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/github/GitHub.java",
+        "purl": "pkg:generic/spring-boot/GitHub@0.0.0-7354f6a20ac1#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/github/GitHub.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "7354f6a20ac13e7c9faa43ccc3b38b87"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "GitHubRepository",
+        "version": "0.0.0-4cab46a88547",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/GitHubRepository@0.0.0-4cab46a88547#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/github/GitHubRepository.java",
+        "purl": "pkg:generic/spring-boot/GitHubRepository@0.0.0-4cab46a88547#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/github/GitHubRepository.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "4cab46a88547f7c0a793d5582c3c611a"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "Issue",
+        "version": "0.0.0-569bc3acff08",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/Issue@0.0.0-569bc3acff08#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/github/Issue.java",
+        "purl": "pkg:generic/spring-boot/Issue@0.0.0-569bc3acff08#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/github/Issue.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "569bc3acff088e93467aace00bd89bfc"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "Milestone",
+        "version": "0.0.0-775e3973b589",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/Milestone@0.0.0-775e3973b589#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/github/Milestone.java",
+        "purl": "pkg:generic/spring-boot/Milestone@0.0.0-775e3973b589#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/github/Milestone.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "775e3973b5898b333417bf713f62aa8d"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "StandardGitHubRepository",
+        "version": "0.0.0-7b336e1a6764",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/StandardGitHubRepository@0.0.0-7b336e1a6764#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/github/StandardGitHubRepository.java",
+        "purl": "pkg:generic/spring-boot/StandardGitHubRepository@0.0.0-7b336e1a6764#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/github/StandardGitHubRepository.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "7b336e1a676494091d418a1f547afc0c"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "LibraryUpdateResolver",
+        "version": "0.0.0-8305159e6252",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/LibraryUpdateResolver@0.0.0-8305159e6252#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/LibraryUpdateResolver.java",
+        "purl": "pkg:generic/spring-boot/LibraryUpdateResolver@0.0.0-8305159e6252#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/LibraryUpdateResolver.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "8305159e6252f73c8457da56806d8bff"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "LibraryWithVersionOptions",
+        "version": "0.0.0-40340da94513",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/LibraryWithVersionOptions@0.0.0-40340da94513#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/LibraryWithVersionOptions.java",
+        "purl": "pkg:generic/spring-boot/LibraryWithVersionOptions@0.0.0-40340da94513#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/LibraryWithVersionOptions.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "40340da94513fd40f1250376020380e1"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "MultithreadedLibraryUpdateResolver",
+        "version": "0.0.0-97e46e7329f1",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/MultithreadedLibraryUpdateResolver@0.0.0-97e46e7329f1#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/MultithreadedLibraryUpdateResolver.java",
+        "purl": "pkg:generic/spring-boot/MultithreadedLibraryUpdateResolver@0.0.0-97e46e7329f1#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/MultithreadedLibraryUpdateResolver.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "97e46e7329f18de3c3b803a506124dfc"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "ReleaseSchedule",
+        "version": "0.0.0-56d2b1d91ac1",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/ReleaseSchedule@0.0.0-56d2b1d91ac1#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/ReleaseSchedule.java",
+        "purl": "pkg:generic/spring-boot/ReleaseSchedule@0.0.0-56d2b1d91ac1#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/ReleaseSchedule.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "56d2b1d91ac1854d3c5414860aec56e1"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "UpgradeResolver",
+        "version": "0.0.0-6c0478a0c872",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/UpgradeResolver@0.0.0-6c0478a0c872#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/UpgradeResolver.java",
+        "purl": "pkg:generic/spring-boot/UpgradeResolver@0.0.0-6c0478a0c872#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/UpgradeResolver.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "6c0478a0c872a94bfe19d5e4e14864ab"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "CalendarVersionDependencyVersion",
+        "version": "0.0.0-f34927b40999",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/CalendarVersionDependencyVersion@0.0.0-f34927b40999#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/version/CalendarVersionDependencyVersion.java",
+        "purl": "pkg:generic/spring-boot/CalendarVersionDependencyVersion@0.0.0-f34927b40999#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/version/CalendarVersionDependencyVersion.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "f34927b409991f5f44eac3edf8d0415f"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "CombinedPatchAndQualifierDependencyVersion",
+        "version": "0.0.0-d76457a14be5",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/CombinedPatchAndQualifierDependencyVersion@0.0.0-d76457a14be5#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/version/CombinedPatchAndQualifierDependencyVersion.java",
+        "purl": "pkg:generic/spring-boot/CombinedPatchAndQualifierDependencyVersion@0.0.0-d76457a14be5#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/version/CombinedPatchAndQualifierDependencyVersion.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d76457a14be50c628828a2bcfdc89699"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "DependencyVersion",
+        "version": "0.0.0-f132d4547da7",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/DependencyVersion@0.0.0-f132d4547da7#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/version/DependencyVersion.java",
+        "purl": "pkg:generic/spring-boot/DependencyVersion@0.0.0-f132d4547da7#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/version/DependencyVersion.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "f132d4547da71f45f7cfcb06820e9c31"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "LeadingZeroesDependencyVersion",
+        "version": "0.0.0-ad5e39d3ea70",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/LeadingZeroesDependencyVersion@0.0.0-ad5e39d3ea70#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/version/LeadingZeroesDependencyVersion.java",
+        "purl": "pkg:generic/spring-boot/LeadingZeroesDependencyVersion@0.0.0-ad5e39d3ea70#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/version/LeadingZeroesDependencyVersion.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "ad5e39d3ea70aa99289e213bab2188ae"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "MultipleComponentsDependencyVersion",
+        "version": "0.0.0-36bff3194873",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/MultipleComponentsDependencyVersion@0.0.0-36bff3194873#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/version/MultipleComponentsDependencyVersion.java",
+        "purl": "pkg:generic/spring-boot/MultipleComponentsDependencyVersion@0.0.0-36bff3194873#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/version/MultipleComponentsDependencyVersion.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "36bff3194873cb10c331791e766d1595"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "ReleaseTrainDependencyVersion",
+        "version": "0.0.0-42110a2586a0",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/ReleaseTrainDependencyVersion@0.0.0-42110a2586a0#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/version/ReleaseTrainDependencyVersion.java",
+        "purl": "pkg:generic/spring-boot/ReleaseTrainDependencyVersion@0.0.0-42110a2586a0#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/version/ReleaseTrainDependencyVersion.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "42110a2586a01421109a2e542ecacb6a"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "UnstructuredDependencyVersion",
+        "version": "0.0.0-5aa98cbfdfa7",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/UnstructuredDependencyVersion@0.0.0-5aa98cbfdfa7#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/version/UnstructuredDependencyVersion.java",
+        "purl": "pkg:generic/spring-boot/UnstructuredDependencyVersion@0.0.0-5aa98cbfdfa7#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/version/UnstructuredDependencyVersion.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "5aa98cbfdfa720a2f013b52b8d57056a"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "VersionResolver",
+        "version": "0.0.0-f2381f50f62e",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/VersionResolver@0.0.0-f2381f50f62e#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/VersionResolver.java",
+        "purl": "pkg:generic/spring-boot/VersionResolver@0.0.0-f2381f50f62e#/buildSrc/src/main/java/org/springframework/boot/build/bom/bomr/VersionResolver.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "f2381f50f62ecc92c423edd7b51963b1"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "Asciidoc",
+        "version": "0.0.0-c50b64ba562e",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/Asciidoc@0.0.0-c50b64ba562e#/buildSrc/src/main/java/org/springframework/boot/build/context/properties/Asciidoc.java",
+        "purl": "pkg:generic/spring-boot/Asciidoc@0.0.0-c50b64ba562e#/buildSrc/src/main/java/org/springframework/boot/build/context/properties/Asciidoc.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c50b64ba562ede986018d0f93499ba8b"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "Row",
+        "version": "0.0.0-0a557d4ace05",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/Row@0.0.0-0a557d4ace05#/buildSrc/src/main/java/org/springframework/boot/build/context/properties/Row.java",
+        "purl": "pkg:generic/spring-boot/Row@0.0.0-0a557d4ace05#/buildSrc/src/main/java/org/springframework/boot/build/context/properties/Row.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "0a557d4ace050660cf2256ec65db395a"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "DeployedPlugin",
+        "version": "0.0.0-d1a0594554ac",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/DeployedPlugin@0.0.0-d1a0594554ac#/buildSrc/src/main/java/org/springframework/boot/build/DeployedPlugin.java",
+        "purl": "pkg:generic/spring-boot/DeployedPlugin@0.0.0-d1a0594554ac#/buildSrc/src/main/java/org/springframework/boot/build/DeployedPlugin.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d1a0594554ac1ea4aa03d7aa2f801c2e"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "AnnotationProcessorPlugin",
+        "version": "0.0.0-d4b6011ff0e8",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/AnnotationProcessorPlugin@0.0.0-d4b6011ff0e8#/buildSrc/src/main/java/org/springframework/boot/build/processors/AnnotationProcessorPlugin.java",
+        "purl": "pkg:generic/spring-boot/AnnotationProcessorPlugin@0.0.0-d4b6011ff0e8#/buildSrc/src/main/java/org/springframework/boot/build/processors/AnnotationProcessorPlugin.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d4b6011ff0e863308fbad3972d15fe3c"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "TestResultsOverview",
+        "version": "0.0.0-005a34d4ac25",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/TestResultsOverview@0.0.0-005a34d4ac25#/buildSrc/src/main/java/org/springframework/boot/build/testing/TestResultsOverview.java",
+        "purl": "pkg:generic/spring-boot/TestResultsOverview@0.0.0-005a34d4ac25#/buildSrc/src/main/java/org/springframework/boot/build/testing/TestResultsOverview.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "005a34d4ac253d3f1c8cbb9f1de0f61b"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "WarConventions",
+        "version": "0.0.0-0e3f01fe06a4",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/WarConventions@0.0.0-0e3f01fe06a4#/buildSrc/src/main/java/org/springframework/boot/build/WarConventions.java",
+        "purl": "pkg:generic/spring-boot/WarConventions@0.0.0-0e3f01fe06a4#/buildSrc/src/main/java/org/springframework/boot/build/WarConventions.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "0e3f01fe06a4b371ac09073c819ae567"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "NonStaticBeanFactoryPostProcessorConfiguration",
+        "version": "0.0.0-1f7f4534994a",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/NonStaticBeanFactoryPostProcessorConfiguration@0.0.0-1f7f4534994a#/buildSrc/src/test/java/org/springframework/boot/build/architecture/bfpp/nonstatic/NonStaticBeanFactoryPostProcessorConfiguration.java",
+        "purl": "pkg:generic/spring-boot/NonStaticBeanFactoryPostProcessorConfiguration@0.0.0-1f7f4534994a#/buildSrc/src/test/java/org/springframework/boot/build/architecture/bfpp/nonstatic/NonStaticBeanFactoryPostProcessorConfiguration.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "1f7f4534994a7b152880569d4f9e5b47"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "NoParametersBeanFactoryPostProcessorConfiguration",
+        "version": "0.0.0-2218ea8c1d6f",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/NoParametersBeanFactoryPostProcessorConfiguration@0.0.0-2218ea8c1d6f#/buildSrc/src/test/java/org/springframework/boot/build/architecture/bfpp/noparameters/NoParametersBeanFactoryPostProcessorConfiguration.java",
+        "purl": "pkg:generic/spring-boot/NoParametersBeanFactoryPostProcessorConfiguration@0.0.0-2218ea8c1d6f#/buildSrc/src/test/java/org/springframework/boot/build/architecture/bfpp/noparameters/NoParametersBeanFactoryPostProcessorConfiguration.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "2218ea8c1d6f9323d36187005177b75d"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "ParametersBeanFactoryPostProcessorConfiguration",
+        "version": "0.0.0-f33adc130f74",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/ParametersBeanFactoryPostProcessorConfiguration@0.0.0-f33adc130f74#/buildSrc/src/test/java/org/springframework/boot/build/architecture/bfpp/parameters/ParametersBeanFactoryPostProcessorConfiguration.java",
+        "purl": "pkg:generic/spring-boot/ParametersBeanFactoryPostProcessorConfiguration@0.0.0-f33adc130f74#/buildSrc/src/test/java/org/springframework/boot/build/architecture/bfpp/parameters/ParametersBeanFactoryPostProcessorConfiguration.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "f33adc130f7452a87d56b1ca62b282b1"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "NonStaticBeanPostProcessorConfiguration",
+        "version": "0.0.0-b67e23889511",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/NonStaticBeanPostProcessorConfiguration@0.0.0-b67e23889511#/buildSrc/src/test/java/org/springframework/boot/build/architecture/bpp/nonstatic/NonStaticBeanPostProcessorConfiguration.java",
+        "purl": "pkg:generic/spring-boot/NonStaticBeanPostProcessorConfiguration@0.0.0-b67e23889511#/buildSrc/src/test/java/org/springframework/boot/build/architecture/bpp/nonstatic/NonStaticBeanPostProcessorConfiguration.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "b67e238895118b4442a819120a1f44e6"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "NoParametersBeanPostProcessorConfiguration",
+        "version": "0.0.0-8a69143ebae8",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/NoParametersBeanPostProcessorConfiguration@0.0.0-8a69143ebae8#/buildSrc/src/test/java/org/springframework/boot/build/architecture/bpp/noparameters/NoParametersBeanPostProcessorConfiguration.java",
+        "purl": "pkg:generic/spring-boot/NoParametersBeanPostProcessorConfiguration@0.0.0-8a69143ebae8#/buildSrc/src/test/java/org/springframework/boot/build/architecture/bpp/noparameters/NoParametersBeanPostProcessorConfiguration.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "8a69143ebae8ca480dad099f4872266d"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "SafeParametersBeanPostProcessorConfiguration",
+        "version": "0.0.0-fc165a3b3335",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/SafeParametersBeanPostProcessorConfiguration@0.0.0-fc165a3b3335#/buildSrc/src/test/java/org/springframework/boot/build/architecture/bpp/safeparameters/SafeParametersBeanPostProcessorConfiguration.java",
+        "purl": "pkg:generic/spring-boot/SafeParametersBeanPostProcessorConfiguration@0.0.0-fc165a3b3335#/buildSrc/src/test/java/org/springframework/boot/build/architecture/bpp/safeparameters/SafeParametersBeanPostProcessorConfiguration.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "fc165a3b33350eb6ac7e5aaac4e11f28"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "UnsafeParametersBeanPostProcessorConfiguration",
+        "version": "0.0.0-234e26fb1d58",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/UnsafeParametersBeanPostProcessorConfiguration@0.0.0-234e26fb1d58#/buildSrc/src/test/java/org/springframework/boot/build/architecture/bpp/unsafeparameters/UnsafeParametersBeanPostProcessorConfiguration.java",
+        "purl": "pkg:generic/spring-boot/UnsafeParametersBeanPostProcessorConfiguration@0.0.0-234e26fb1d58#/buildSrc/src/test/java/org/springframework/boot/build/architecture/bpp/unsafeparameters/UnsafeParametersBeanPostProcessorConfiguration.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "234e26fb1d589af301ffd2815cad96db"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "TangledTwo",
+        "version": "0.0.0-ae0f3089a954",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/TangledTwo@0.0.0-ae0f3089a954#/buildSrc/src/test/java/org/springframework/boot/build/architecture/tangled/sub/TangledTwo.java",
+        "purl": "pkg:generic/spring-boot/TangledTwo@0.0.0-ae0f3089a954#/buildSrc/src/test/java/org/springframework/boot/build/architecture/tangled/sub/TangledTwo.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "ae0f3089a954404350a4b85859118c43"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "TangledOne",
+        "version": "0.0.0-4e90b4c059ee",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/TangledOne@0.0.0-4e90b4c059ee#/buildSrc/src/test/java/org/springframework/boot/build/architecture/tangled/TangledOne.java",
+        "purl": "pkg:generic/spring-boot/TangledOne@0.0.0-4e90b4c059ee#/buildSrc/src/test/java/org/springframework/boot/build/architecture/tangled/TangledOne.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "4e90b4c059ee415562278ac4e8efed55"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "UntangledTwo",
+        "version": "0.0.0-1bac0fbb97fe",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/UntangledTwo@0.0.0-1bac0fbb97fe#/buildSrc/src/test/java/org/springframework/boot/build/architecture/untangled/sub/UntangledTwo.java",
+        "purl": "pkg:generic/spring-boot/UntangledTwo@0.0.0-1bac0fbb97fe#/buildSrc/src/test/java/org/springframework/boot/build/architecture/untangled/sub/UntangledTwo.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "1bac0fbb97fe86990e087af4bb6f6fa4"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "UntangledOne",
+        "version": "0.0.0-f032a4e60bb9",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/UntangledOne@0.0.0-f032a4e60bb9#/buildSrc/src/test/java/org/springframework/boot/build/architecture/untangled/UntangledOne.java",
+        "purl": "pkg:generic/spring-boot/UntangledOne@0.0.0-f032a4e60bb9#/buildSrc/src/test/java/org/springframework/boot/build/architecture/untangled/UntangledOne.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "f032a4e60bb915041543fb27ea66c0d4"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "NodeAssert",
+        "version": "0.0.0-273bcb1e664a",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/NodeAssert@0.0.0-273bcb1e664a#/buildSrc/src/test/java/org/springframework/boot/build/assertj/NodeAssert.java",
+        "purl": "pkg:generic/spring-boot/NodeAssert@0.0.0-273bcb1e664a#/buildSrc/src/test/java/org/springframework/boot/build/assertj/NodeAssert.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "273bcb1e664a626c00c24176b67e07de"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "ReleaseScheduleTests",
+        "version": "0.0.0-6bb362785f29",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/ReleaseScheduleTests@0.0.0-6bb362785f29#/buildSrc/src/test/java/org/springframework/boot/build/bom/bomr/ReleaseScheduleTests.java",
+        "purl": "pkg:generic/spring-boot/ReleaseScheduleTests@0.0.0-6bb362785f29#/buildSrc/src/test/java/org/springframework/boot/build/bom/bomr/ReleaseScheduleTests.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "6bb362785f29c51931c5c7a83f464748"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "ArtifactVersionDependencyVersionTests",
+        "version": "0.0.0-56e0e7268df2",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/ArtifactVersionDependencyVersionTests@0.0.0-56e0e7268df2#/buildSrc/src/test/java/org/springframework/boot/build/bom/bomr/version/ArtifactVersionDependencyVersionTests.java",
+        "purl": "pkg:generic/spring-boot/ArtifactVersionDependencyVersionTests@0.0.0-56e0e7268df2#/buildSrc/src/test/java/org/springframework/boot/build/bom/bomr/version/ArtifactVersionDependencyVersionTests.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "56e0e7268df2c6992128654e35bf987d"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "CalendarVersionDependencyVersionTests",
+        "version": "0.0.0-e15df62f2b8a",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/CalendarVersionDependencyVersionTests@0.0.0-e15df62f2b8a#/buildSrc/src/test/java/org/springframework/boot/build/bom/bomr/version/CalendarVersionDependencyVersionTests.java",
+        "purl": "pkg:generic/spring-boot/CalendarVersionDependencyVersionTests@0.0.0-e15df62f2b8a#/buildSrc/src/test/java/org/springframework/boot/build/bom/bomr/version/CalendarVersionDependencyVersionTests.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "e15df62f2b8a8608b3098d058ea26c1d"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "DependencyVersionTests",
+        "version": "0.0.0-d799ec264760",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/DependencyVersionTests@0.0.0-d799ec264760#/buildSrc/src/test/java/org/springframework/boot/build/bom/bomr/version/DependencyVersionTests.java",
+        "purl": "pkg:generic/spring-boot/DependencyVersionTests@0.0.0-d799ec264760#/buildSrc/src/test/java/org/springframework/boot/build/bom/bomr/version/DependencyVersionTests.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d799ec2647605ac6041cce1696e1450a"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "MultipleComponentsDependencyVersionTests",
+        "version": "0.0.0-8ec628583112",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/MultipleComponentsDependencyVersionTests@0.0.0-8ec628583112#/buildSrc/src/test/java/org/springframework/boot/build/bom/bomr/version/MultipleComponentsDependencyVersionTests.java",
+        "purl": "pkg:generic/spring-boot/MultipleComponentsDependencyVersionTests@0.0.0-8ec628583112#/buildSrc/src/test/java/org/springframework/boot/build/bom/bomr/version/MultipleComponentsDependencyVersionTests.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "8ec628583112dd24fa01499259be0d9d"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "ReleaseTrainDependencyVersionTests",
+        "version": "0.0.0-ba38705612e4",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/ReleaseTrainDependencyVersionTests@0.0.0-ba38705612e4#/buildSrc/src/test/java/org/springframework/boot/build/bom/bomr/version/ReleaseTrainDependencyVersionTests.java",
+        "purl": "pkg:generic/spring-boot/ReleaseTrainDependencyVersionTests@0.0.0-ba38705612e4#/buildSrc/src/test/java/org/springframework/boot/build/bom/bomr/version/ReleaseTrainDependencyVersionTests.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "ba38705612e45db6a0380f8520b44000"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "ConfigurationPropertiesTests",
+        "version": "0.0.0-a90cdf87b46b",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/ConfigurationPropertiesTests@0.0.0-a90cdf87b46b#/buildSrc/src/test/java/org/springframework/boot/build/context/properties/ConfigurationPropertiesTests.java",
+        "purl": "pkg:generic/spring-boot/ConfigurationPropertiesTests@0.0.0-a90cdf87b46b#/buildSrc/src/test/java/org/springframework/boot/build/context/properties/ConfigurationPropertiesTests.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "a90cdf87b46b81d6db273599d1c50ae9"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "PluginXmlParserTests",
+        "version": "0.0.0-8f081b5b8ef4",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/PluginXmlParserTests@0.0.0-8f081b5b8ef4#/buildSrc/src/test/java/org/springframework/boot/build/mavenplugin/PluginXmlParserTests.java",
+        "purl": "pkg:generic/spring-boot/PluginXmlParserTests@0.0.0-8f081b5b8ef4#/buildSrc/src/test/java/org/springframework/boot/build/mavenplugin/PluginXmlParserTests.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "8f081b5b8ef46f7a3d8e0af32d9bcc43"
+          }
+        ]
+      },
+      {
+        "group": "spring-boot",
+        "name": "OptionalDependenciesPluginIntegrationTests",
+        "version": "0.0.0-13961d5ba79f",
+        "type": "file",
+        "bom-ref": "pkg:generic/spring-boot/OptionalDependenciesPluginIntegrationTests@0.0.0-13961d5ba79f#/buildSrc/src/test/java/org/springframework/boot/build/optional/OptionalDependenciesPluginIntegrationTests.java",
+        "purl": "pkg:generic/spring-boot/OptionalDependenciesPluginIntegrationTests@0.0.0-13961d5ba79f#/buildSrc/src/test/java/org/springframework/boot/build/optional/OptionalDependenciesPluginIntegrationTests.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "13961d5ba79fcf665193703d113ced2e"
+          }
+        ]
+      },
+      {
+        "group": "gradle-docker-plugin",
+        "name": "ClassWithMainMethod",
+        "version": "0.0.0-1675ff384130",
+        "type": "file",
+        "bom-ref": "pkg:generic/gradle-docker-plugin/ClassWithMainMethod@0.0.0-1675ff384130#/build-plugin/spring-boot-maven-plugin/src/test/java/org/springframework/boot/maven/sample/ClassWithMainMethod.java",
+        "purl": "pkg:generic/gradle-docker-plugin/ClassWithMainMethod@0.0.0-1675ff384130#/build-plugin/spring-boot-maven-plugin/src/test/java/org/springframework/boot/maven/sample/ClassWithMainMethod.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "1675ff38413001b182b01f728e083945"
+          }
+        ]
+      },
+      {
+        "group": "gradle-docker-plugin",
+        "name": "ClassWithoutMainMethod",
+        "version": "0.0.0-d54d1c5d575c",
+        "type": "file",
+        "bom-ref": "pkg:generic/gradle-docker-plugin/ClassWithoutMainMethod@0.0.0-d54d1c5d575c#/build-plugin/spring-boot-maven-plugin/src/test/java/org/springframework/boot/maven/sample/ClassWithoutMainMethod.java",
+        "purl": "pkg:generic/gradle-docker-plugin/ClassWithoutMainMethod@0.0.0-d54d1c5d575c#/build-plugin/spring-boot-maven-plugin/src/test/java/org/springframework/boot/maven/sample/ClassWithoutMainMethod.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d54d1c5d575c3806973b363aff0c9c06"
+          }
+        ]
+      }
+    ]
+  },
+  "file_count": 128
+}
