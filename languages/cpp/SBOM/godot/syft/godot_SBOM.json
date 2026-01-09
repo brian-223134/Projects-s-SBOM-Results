@@ -1,0 +1,3333 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:4eb7bd59-5bc6-4b96-8fab-9ba532edfbf5",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-01-09T05:12:30Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.39.0"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "dfcd457ff0b35452",
+      "type": "file",
+      "name": "/src"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "353fc6d015471e6c",
+      "type": "library",
+      "name": "./.github/actions/godot-build",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/godot-build:.\\/.github\\/actions\\/godot-build:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-build:.\\/.github\\/actions\\/godot_build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_build:.\\/.github\\/actions\\/godot-build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_build:.\\/.github\\/actions\\/godot_build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot-build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot_build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/android_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "096be1666eb75a8e",
+      "type": "library",
+      "name": "./.github/actions/godot-build",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/godot-build:.\\/.github\\/actions\\/godot-build:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-build:.\\/.github\\/actions\\/godot_build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_build:.\\/.github\\/actions\\/godot-build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_build:.\\/.github\\/actions\\/godot_build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot-build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot_build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/ios_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "e3c966baa0a32a43",
+      "type": "library",
+      "name": "./.github/actions/godot-build",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/godot-build:.\\/.github\\/actions\\/godot-build:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-build:.\\/.github\\/actions\\/godot_build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_build:.\\/.github\\/actions\\/godot-build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_build:.\\/.github\\/actions\\/godot_build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot-build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot_build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/linux_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "f8e359381f137c8a",
+      "type": "library",
+      "name": "./.github/actions/godot-build",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/godot-build:.\\/.github\\/actions\\/godot-build:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-build:.\\/.github\\/actions\\/godot_build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_build:.\\/.github\\/actions\\/godot-build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_build:.\\/.github\\/actions\\/godot_build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot-build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot_build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/macos_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "bd79fa8e44132fda",
+      "type": "library",
+      "name": "./.github/actions/godot-build",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/godot-build:.\\/.github\\/actions\\/godot-build:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-build:.\\/.github\\/actions\\/godot_build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_build:.\\/.github\\/actions\\/godot-build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_build:.\\/.github\\/actions\\/godot_build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot-build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot_build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/web_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "ad7eb331449e95d3",
+      "type": "library",
+      "name": "./.github/actions/godot-build",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/godot-build:.\\/.github\\/actions\\/godot-build:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-build:.\\/.github\\/actions\\/godot_build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_build:.\\/.github\\/actions\\/godot-build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_build:.\\/.github\\/actions\\/godot_build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot-build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot_build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/windows_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "7b7161ebbf2519be",
+      "type": "library",
+      "name": "./.github/actions/godot-cache-restore",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache-restore:.\\/.github\\/actions\\/godot-cache-restore:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache-restore:.\\/.github\\/actions\\/godot_cache_restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache_restore:.\\/.github\\/actions\\/godot-cache-restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache_restore:.\\/.github\\/actions\\/godot_cache_restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache:.\\/.github\\/actions\\/godot-cache-restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache:.\\/.github\\/actions\\/godot_cache_restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache:.\\/.github\\/actions\\/godot-cache-restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache:.\\/.github\\/actions\\/godot_cache_restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot-cache-restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot_cache_restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/android_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "89e00a6d2290396f",
+      "type": "library",
+      "name": "./.github/actions/godot-cache-restore",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache-restore:.\\/.github\\/actions\\/godot-cache-restore:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache-restore:.\\/.github\\/actions\\/godot_cache_restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache_restore:.\\/.github\\/actions\\/godot-cache-restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache_restore:.\\/.github\\/actions\\/godot_cache_restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache:.\\/.github\\/actions\\/godot-cache-restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache:.\\/.github\\/actions\\/godot_cache_restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache:.\\/.github\\/actions\\/godot-cache-restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache:.\\/.github\\/actions\\/godot_cache_restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot-cache-restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot_cache_restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/ios_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "b0d26c496dec4d54",
+      "type": "library",
+      "name": "./.github/actions/godot-cache-restore",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache-restore:.\\/.github\\/actions\\/godot-cache-restore:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache-restore:.\\/.github\\/actions\\/godot_cache_restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache_restore:.\\/.github\\/actions\\/godot-cache-restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache_restore:.\\/.github\\/actions\\/godot_cache_restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache:.\\/.github\\/actions\\/godot-cache-restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache:.\\/.github\\/actions\\/godot_cache_restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache:.\\/.github\\/actions\\/godot-cache-restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache:.\\/.github\\/actions\\/godot_cache_restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot-cache-restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot_cache_restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/linux_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "0b1f0d36e27ff80d",
+      "type": "library",
+      "name": "./.github/actions/godot-cache-restore",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache-restore:.\\/.github\\/actions\\/godot-cache-restore:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache-restore:.\\/.github\\/actions\\/godot_cache_restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache_restore:.\\/.github\\/actions\\/godot-cache-restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache_restore:.\\/.github\\/actions\\/godot_cache_restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache:.\\/.github\\/actions\\/godot-cache-restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache:.\\/.github\\/actions\\/godot_cache_restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache:.\\/.github\\/actions\\/godot-cache-restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache:.\\/.github\\/actions\\/godot_cache_restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot-cache-restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot_cache_restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/macos_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "b172b85190cf0f63",
+      "type": "library",
+      "name": "./.github/actions/godot-cache-restore",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache-restore:.\\/.github\\/actions\\/godot-cache-restore:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache-restore:.\\/.github\\/actions\\/godot_cache_restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache_restore:.\\/.github\\/actions\\/godot-cache-restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache_restore:.\\/.github\\/actions\\/godot_cache_restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache:.\\/.github\\/actions\\/godot-cache-restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache:.\\/.github\\/actions\\/godot_cache_restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache:.\\/.github\\/actions\\/godot-cache-restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache:.\\/.github\\/actions\\/godot_cache_restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot-cache-restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot_cache_restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/web_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "0241e05b55bdc1fc",
+      "type": "library",
+      "name": "./.github/actions/godot-cache-restore",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache-restore:.\\/.github\\/actions\\/godot-cache-restore:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache-restore:.\\/.github\\/actions\\/godot_cache_restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache_restore:.\\/.github\\/actions\\/godot-cache-restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache_restore:.\\/.github\\/actions\\/godot_cache_restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache:.\\/.github\\/actions\\/godot-cache-restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache:.\\/.github\\/actions\\/godot_cache_restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache:.\\/.github\\/actions\\/godot-cache-restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache:.\\/.github\\/actions\\/godot_cache_restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot-cache-restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot_cache_restore:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/windows_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "4642858ab758e2f2",
+      "type": "library",
+      "name": "./.github/actions/godot-cache-save",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache-save:.\\/.github\\/actions\\/godot-cache-save:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache-save:.\\/.github\\/actions\\/godot_cache_save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache_save:.\\/.github\\/actions\\/godot-cache-save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache_save:.\\/.github\\/actions\\/godot_cache_save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache:.\\/.github\\/actions\\/godot-cache-save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache:.\\/.github\\/actions\\/godot_cache_save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache:.\\/.github\\/actions\\/godot-cache-save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache:.\\/.github\\/actions\\/godot_cache_save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot-cache-save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot_cache_save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/android_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "aac0baee31c15be4",
+      "type": "library",
+      "name": "./.github/actions/godot-cache-save",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache-save:.\\/.github\\/actions\\/godot-cache-save:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache-save:.\\/.github\\/actions\\/godot_cache_save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache_save:.\\/.github\\/actions\\/godot-cache-save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache_save:.\\/.github\\/actions\\/godot_cache_save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache:.\\/.github\\/actions\\/godot-cache-save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache:.\\/.github\\/actions\\/godot_cache_save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache:.\\/.github\\/actions\\/godot-cache-save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache:.\\/.github\\/actions\\/godot_cache_save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot-cache-save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot_cache_save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/ios_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "04ee86167fe7842c",
+      "type": "library",
+      "name": "./.github/actions/godot-cache-save",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache-save:.\\/.github\\/actions\\/godot-cache-save:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache-save:.\\/.github\\/actions\\/godot_cache_save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache_save:.\\/.github\\/actions\\/godot-cache-save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache_save:.\\/.github\\/actions\\/godot_cache_save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache:.\\/.github\\/actions\\/godot-cache-save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache:.\\/.github\\/actions\\/godot_cache_save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache:.\\/.github\\/actions\\/godot-cache-save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache:.\\/.github\\/actions\\/godot_cache_save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot-cache-save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot_cache_save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/linux_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "2bcae472170c79a6",
+      "type": "library",
+      "name": "./.github/actions/godot-cache-save",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache-save:.\\/.github\\/actions\\/godot-cache-save:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache-save:.\\/.github\\/actions\\/godot_cache_save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache_save:.\\/.github\\/actions\\/godot-cache-save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache_save:.\\/.github\\/actions\\/godot_cache_save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache:.\\/.github\\/actions\\/godot-cache-save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache:.\\/.github\\/actions\\/godot_cache_save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache:.\\/.github\\/actions\\/godot-cache-save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache:.\\/.github\\/actions\\/godot_cache_save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot-cache-save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot_cache_save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/macos_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "4b77f3ab6f3952d7",
+      "type": "library",
+      "name": "./.github/actions/godot-cache-save",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache-save:.\\/.github\\/actions\\/godot-cache-save:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache-save:.\\/.github\\/actions\\/godot_cache_save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache_save:.\\/.github\\/actions\\/godot-cache-save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache_save:.\\/.github\\/actions\\/godot_cache_save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache:.\\/.github\\/actions\\/godot-cache-save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache:.\\/.github\\/actions\\/godot_cache_save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache:.\\/.github\\/actions\\/godot-cache-save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache:.\\/.github\\/actions\\/godot_cache_save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot-cache-save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot_cache_save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/web_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "549ae3d6257f534c",
+      "type": "library",
+      "name": "./.github/actions/godot-cache-save",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache-save:.\\/.github\\/actions\\/godot-cache-save:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache-save:.\\/.github\\/actions\\/godot_cache_save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache_save:.\\/.github\\/actions\\/godot-cache-save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache_save:.\\/.github\\/actions\\/godot_cache_save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache:.\\/.github\\/actions\\/godot-cache-save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cache:.\\/.github\\/actions\\/godot_cache_save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache:.\\/.github\\/actions\\/godot-cache-save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cache:.\\/.github\\/actions\\/godot_cache_save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot-cache-save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot_cache_save:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/windows_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "c6e221f8b43a90a3",
+      "type": "library",
+      "name": "./.github/actions/godot-converter-test",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/godot-converter-test:.\\/.github\\/actions\\/godot-converter-test:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-converter-test:.\\/.github\\/actions\\/godot_converter_test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_converter_test:.\\/.github\\/actions\\/godot-converter-test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_converter_test:.\\/.github\\/actions\\/godot_converter_test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-converter:.\\/.github\\/actions\\/godot-converter-test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-converter:.\\/.github\\/actions\\/godot_converter_test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_converter:.\\/.github\\/actions\\/godot-converter-test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_converter:.\\/.github\\/actions\\/godot_converter_test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot-converter-test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot_converter_test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/linux_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "262bef54e2fc6ef3",
+      "type": "library",
+      "name": "./.github/actions/godot-cpp-build",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cpp-build:.\\/.github\\/actions\\/godot-cpp-build:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cpp-build:.\\/.github\\/actions\\/godot_cpp_build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cpp_build:.\\/.github\\/actions\\/godot-cpp-build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cpp_build:.\\/.github\\/actions\\/godot_cpp_build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cpp:.\\/.github\\/actions\\/godot-cpp-build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-cpp:.\\/.github\\/actions\\/godot_cpp_build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cpp:.\\/.github\\/actions\\/godot-cpp-build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_cpp:.\\/.github\\/actions\\/godot_cpp_build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot-cpp-build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot_cpp_build:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/linux_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "b2a57bf74a5d9406",
+      "type": "library",
+      "name": "./.github/actions/godot-deps",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/godot-deps:.\\/.github\\/actions\\/godot-deps:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-deps:.\\/.github\\/actions\\/godot_deps:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_deps:.\\/.github\\/actions\\/godot-deps:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_deps:.\\/.github\\/actions\\/godot_deps:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot-deps:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot_deps:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/android_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "fcc59d9d26d4a6aa",
+      "type": "library",
+      "name": "./.github/actions/godot-deps",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/godot-deps:.\\/.github\\/actions\\/godot-deps:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-deps:.\\/.github\\/actions\\/godot_deps:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_deps:.\\/.github\\/actions\\/godot-deps:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_deps:.\\/.github\\/actions\\/godot_deps:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot-deps:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot_deps:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/ios_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "75037463ed6ea5e4",
+      "type": "library",
+      "name": "./.github/actions/godot-deps",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/godot-deps:.\\/.github\\/actions\\/godot-deps:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-deps:.\\/.github\\/actions\\/godot_deps:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_deps:.\\/.github\\/actions\\/godot-deps:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_deps:.\\/.github\\/actions\\/godot_deps:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot-deps:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot_deps:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/linux_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "f6430bbb0957c3fd",
+      "type": "library",
+      "name": "./.github/actions/godot-deps",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/godot-deps:.\\/.github\\/actions\\/godot-deps:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-deps:.\\/.github\\/actions\\/godot_deps:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_deps:.\\/.github\\/actions\\/godot-deps:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_deps:.\\/.github\\/actions\\/godot_deps:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot-deps:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot_deps:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/macos_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "2d7c8854f47ffb92",
+      "type": "library",
+      "name": "./.github/actions/godot-deps",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/godot-deps:.\\/.github\\/actions\\/godot-deps:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-deps:.\\/.github\\/actions\\/godot_deps:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_deps:.\\/.github\\/actions\\/godot-deps:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_deps:.\\/.github\\/actions\\/godot_deps:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot-deps:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot_deps:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/web_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "76f5cceffb8b815f",
+      "type": "library",
+      "name": "./.github/actions/godot-deps",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/godot-deps:.\\/.github\\/actions\\/godot-deps:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-deps:.\\/.github\\/actions\\/godot_deps:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_deps:.\\/.github\\/actions\\/godot-deps:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_deps:.\\/.github\\/actions\\/godot_deps:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot-deps:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot_deps:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/windows_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "5bd4564b6484177e",
+      "type": "library",
+      "name": "./.github/actions/godot-project-test",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/godot-project-test:.\\/.github\\/actions\\/godot-project-test:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-project-test:.\\/.github\\/actions\\/godot_project_test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_project_test:.\\/.github\\/actions\\/godot-project-test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_project_test:.\\/.github\\/actions\\/godot_project_test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-project:.\\/.github\\/actions\\/godot-project-test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot-project:.\\/.github\\/actions\\/godot_project_test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_project:.\\/.github\\/actions\\/godot-project-test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot_project:.\\/.github\\/actions\\/godot_project_test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot-project-test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/godot:.\\/.github\\/actions\\/godot_project_test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/linux_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "3a2328880e0da9c5",
+      "type": "library",
+      "name": "./.github/actions/upload-artifact",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/upload-artifact:.\\/.github\\/actions\\/upload-artifact:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/upload-artifact:.\\/.github\\/actions\\/upload_artifact:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/upload_artifact:.\\/.github\\/actions\\/upload-artifact:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/upload_artifact:.\\/.github\\/actions\\/upload_artifact:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/upload:.\\/.github\\/actions\\/upload-artifact:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/upload:.\\/.github\\/actions\\/upload_artifact:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/android_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "a323b8c82838d5db",
+      "type": "library",
+      "name": "./.github/actions/upload-artifact",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/upload-artifact:.\\/.github\\/actions\\/upload-artifact:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/upload-artifact:.\\/.github\\/actions\\/upload_artifact:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/upload_artifact:.\\/.github\\/actions\\/upload-artifact:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/upload_artifact:.\\/.github\\/actions\\/upload_artifact:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/upload:.\\/.github\\/actions\\/upload-artifact:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/upload:.\\/.github\\/actions\\/upload_artifact:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/ios_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "acd068e944012a24",
+      "type": "library",
+      "name": "./.github/actions/upload-artifact",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/upload-artifact:.\\/.github\\/actions\\/upload-artifact:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/upload-artifact:.\\/.github\\/actions\\/upload_artifact:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/upload_artifact:.\\/.github\\/actions\\/upload-artifact:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/upload_artifact:.\\/.github\\/actions\\/upload_artifact:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/upload:.\\/.github\\/actions\\/upload-artifact:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/upload:.\\/.github\\/actions\\/upload_artifact:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/linux_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "0c0f3f574a19c0d7",
+      "type": "library",
+      "name": "./.github/actions/upload-artifact",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/upload-artifact:.\\/.github\\/actions\\/upload-artifact:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/upload-artifact:.\\/.github\\/actions\\/upload_artifact:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/upload_artifact:.\\/.github\\/actions\\/upload-artifact:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/upload_artifact:.\\/.github\\/actions\\/upload_artifact:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/upload:.\\/.github\\/actions\\/upload-artifact:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/upload:.\\/.github\\/actions\\/upload_artifact:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/macos_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "0526e4c269d539fa",
+      "type": "library",
+      "name": "./.github/actions/upload-artifact",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/upload-artifact:.\\/.github\\/actions\\/upload-artifact:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/upload-artifact:.\\/.github\\/actions\\/upload_artifact:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/upload_artifact:.\\/.github\\/actions\\/upload-artifact:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/upload_artifact:.\\/.github\\/actions\\/upload_artifact:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/upload:.\\/.github\\/actions\\/upload-artifact:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/upload:.\\/.github\\/actions\\/upload_artifact:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/web_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "0678c6abbc87de17",
+      "type": "library",
+      "name": "./.github/actions/upload-artifact",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/upload-artifact:.\\/.github\\/actions\\/upload-artifact:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/upload-artifact:.\\/.github\\/actions\\/upload_artifact:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/upload_artifact:.\\/.github\\/actions\\/upload-artifact:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/upload_artifact:.\\/.github\\/actions\\/upload_artifact:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/upload:.\\/.github\\/actions\\/upload-artifact:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/actions\\/upload:.\\/.github\\/actions\\/upload_artifact:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/windows_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "ade1950fc19d1107",
+      "type": "library",
+      "name": "./.github/workflows/android_builds.yml",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/android-builds.yml:.\\/.github\\/workflows\\/android-builds.yml:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-action-workflow-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action-workflow"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/android-builds.yml:.\\/.github\\/workflows\\/android_builds.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/android_builds.yml:.\\/.github\\/workflows\\/android-builds.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/android_builds.yml:.\\/.github\\/workflows\\/android_builds.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/android:.\\/.github\\/workflows\\/android-builds.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/android:.\\/.github\\/workflows\\/android_builds.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/runner.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "6313163335544b2e",
+      "type": "library",
+      "name": "./.github/workflows/ios_builds.yml",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/ios-builds.yml:.\\/.github\\/workflows\\/ios-builds.yml:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-action-workflow-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action-workflow"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/ios-builds.yml:.\\/.github\\/workflows\\/ios_builds.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/ios_builds.yml:.\\/.github\\/workflows\\/ios-builds.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/ios_builds.yml:.\\/.github\\/workflows\\/ios_builds.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/ios:.\\/.github\\/workflows\\/ios-builds.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/ios:.\\/.github\\/workflows\\/ios_builds.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/runner.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "10b24b08ad853d68",
+      "type": "library",
+      "name": "./.github/workflows/linux_builds.yml",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/linux-builds.yml:.\\/.github\\/workflows\\/linux-builds.yml:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-action-workflow-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action-workflow"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/linux-builds.yml:.\\/.github\\/workflows\\/linux_builds.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/linux_builds.yml:.\\/.github\\/workflows\\/linux-builds.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/linux_builds.yml:.\\/.github\\/workflows\\/linux_builds.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/linux:.\\/.github\\/workflows\\/linux-builds.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/linux:.\\/.github\\/workflows\\/linux_builds.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/runner.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "52f7f98aa1d6b300",
+      "type": "library",
+      "name": "./.github/workflows/macos_builds.yml",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/macos-builds.yml:.\\/.github\\/workflows\\/macos-builds.yml:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-action-workflow-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action-workflow"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/macos-builds.yml:.\\/.github\\/workflows\\/macos_builds.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/macos_builds.yml:.\\/.github\\/workflows\\/macos-builds.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/macos_builds.yml:.\\/.github\\/workflows\\/macos_builds.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/macos:.\\/.github\\/workflows\\/macos-builds.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/macos:.\\/.github\\/workflows\\/macos_builds.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/runner.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "d99a5b3bbed8ab8a",
+      "type": "library",
+      "name": "./.github/workflows/static_checks.yml",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/static-checks.yml:.\\/.github\\/workflows\\/static-checks.yml:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-action-workflow-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action-workflow"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/static-checks.yml:.\\/.github\\/workflows\\/static_checks.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/static_checks.yml:.\\/.github\\/workflows\\/static-checks.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/static_checks.yml:.\\/.github\\/workflows\\/static_checks.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/static:.\\/.github\\/workflows\\/static-checks.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/static:.\\/.github\\/workflows\\/static_checks.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/runner.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "a24d8eb6f0c8f0b4",
+      "type": "library",
+      "name": "./.github/workflows/web_builds.yml",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/web-builds.yml:.\\/.github\\/workflows\\/web-builds.yml:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-action-workflow-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action-workflow"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/web-builds.yml:.\\/.github\\/workflows\\/web_builds.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/web_builds.yml:.\\/.github\\/workflows\\/web-builds.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/web_builds.yml:.\\/.github\\/workflows\\/web_builds.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/web:.\\/.github\\/workflows\\/web-builds.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/web:.\\/.github\\/workflows\\/web_builds.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/runner.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "f0e68faf466aacc4",
+      "type": "library",
+      "name": "./.github/workflows/windows_builds.yml",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/windows-builds.yml:.\\/.github\\/workflows\\/windows-builds.yml:*:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-action-workflow-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action-workflow"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/windows-builds.yml:.\\/.github\\/workflows\\/windows_builds.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/windows_builds.yml:.\\/.github\\/workflows\\/windows-builds.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/windows_builds.yml:.\\/.github\\/workflows\\/windows_builds.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/windows:.\\/.github\\/workflows\\/windows-builds.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:.\\/.github\\/workflows\\/windows:.\\/.github\\/workflows\\/windows_builds.yml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/runner.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/Android/Android?package-id=9d3e1e563c380358",
+      "type": "library",
+      "name": "Android",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:Android:Android:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/Android/Android",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "7c410b93b2d4f8379bb853b57af32a7d42c0a90b"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/modules/mono/thirdparty/libSystem.Security.Cryptography.Native.Android.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/modules/mono/thirdparty/libSystem.Security.Cryptography.Native.Android.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/cache@v4?package-id=d18de62842102dcc#restore",
+      "type": "library",
+      "name": "actions/cache/restore",
+      "version": "v4",
+      "cpe": "cpe:2.3:a:actions\\/cache\\/restore:actions\\/cache\\/restore:v4:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/cache@v4#restore",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/actions/godot-cache-restore/action.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/cache@v4?package-id=4763c4468f772dbc#save",
+      "type": "library",
+      "name": "actions/cache/save",
+      "version": "v4",
+      "cpe": "cpe:2.3:a:actions\\/cache\\/save:actions\\/cache\\/save:v4:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/cache@v4#save",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/actions/godot-cache-save/action.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v4?package-id=00a3f31dee19d7cc",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v4",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/actions/godot-cpp-build/action.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v4?package-id=95b16fa71d14382a",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v4",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/android_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v4?package-id=448024cdab89224d",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v4",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/ios_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v4?package-id=d25fd19b9814e02c",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v4",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/linux_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v4?package-id=e7f22a4267f29c90",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v4",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/macos_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v4?package-id=7e13dff3e7402991",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v4",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/static_checks.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v4?package-id=8c01f2f2eb8336aa",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v4",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/web_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v4?package-id=c393cad6227d0dab",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v4",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/windows_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/download-artifact@v4?package-id=6c7f18a23bbf4555",
+      "type": "library",
+      "name": "actions/download-artifact",
+      "version": "v4",
+      "cpe": "cpe:2.3:a:actions\\/download-artifact:actions\\/download-artifact:v4:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/download-artifact@v4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/download-artifact:actions\\/download_artifact:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/download_artifact:actions\\/download-artifact:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/download_artifact:actions\\/download_artifact:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/download:actions\\/download-artifact:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/download:actions\\/download_artifact:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/actions/download-artifact/action.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/setup-dotnet@v4?package-id=1cb777adf85731af",
+      "type": "library",
+      "name": "actions/setup-dotnet",
+      "version": "v4",
+      "cpe": "cpe:2.3:a:actions\\/setup-dotnet:actions\\/setup-dotnet:v4:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/setup-dotnet@v4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup-dotnet:actions\\/setup_dotnet:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_dotnet:actions\\/setup-dotnet:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_dotnet:actions\\/setup_dotnet:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup-dotnet:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup_dotnet:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/linux_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/setup-java@v4?package-id=28fb2a80bfc6fe43",
+      "type": "library",
+      "name": "actions/setup-java",
+      "version": "v4",
+      "cpe": "cpe:2.3:a:actions\\/setup-java:actions\\/setup-java:v4:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/setup-java@v4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup-java:actions\\/setup_java:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_java:actions\\/setup-java:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_java:actions\\/setup_java:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup-java:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup_java:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/android_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/setup-python@v5?package-id=1b38ea39728b93ac",
+      "type": "library",
+      "name": "actions/setup-python",
+      "version": "v5",
+      "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup-python:v5:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/setup-python@v5",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup-python:actions\\/setup_python:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_python:actions\\/setup-python:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_python:actions\\/setup_python:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup-python:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup_python:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/actions/godot-deps/action.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/upload-artifact@v4?package-id=f909bbaa15260f8f",
+      "type": "library",
+      "name": "actions/upload-artifact",
+      "version": "v4",
+      "cpe": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload-artifact:v4:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/upload-artifact@v4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload_artifact:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload-artifact:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload_artifact:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload:actions\\/upload-artifact:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload:actions\\/upload_artifact:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/actions/upload-artifact/action.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/dsaltares/fetch-gh-release-asset@1.1.2?package-id=72b84be0006d75fc",
+      "type": "library",
+      "name": "dsaltares/fetch-gh-release-asset",
+      "version": "1.1.2",
+      "cpe": "cpe:2.3:a:dsaltares\\/fetch-gh-release-asset:dsaltares\\/fetch-gh-release-asset:1.1.2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/dsaltares/fetch-gh-release-asset@1.1.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch-gh-release-asset:dsaltares\\/fetch_gh_release_asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch_gh_release_asset:dsaltares\\/fetch-gh-release-asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch_gh_release_asset:dsaltares\\/fetch_gh_release_asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch-gh-release:dsaltares\\/fetch-gh-release-asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch-gh-release:dsaltares\\/fetch_gh_release_asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch_gh_release:dsaltares\\/fetch-gh-release-asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch_gh_release:dsaltares\\/fetch_gh_release_asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch-gh:dsaltares\\/fetch-gh-release-asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch-gh:dsaltares\\/fetch_gh_release_asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch_gh:dsaltares\\/fetch-gh-release-asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch_gh:dsaltares\\/fetch_gh_release_asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch:dsaltares\\/fetch-gh-release-asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch:dsaltares\\/fetch_gh_release_asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/linux_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/dsaltares/fetch-gh-release-asset@1.1.2?package-id=3914f4fa0c2a0a19",
+      "type": "library",
+      "name": "dsaltares/fetch-gh-release-asset",
+      "version": "1.1.2",
+      "cpe": "cpe:2.3:a:dsaltares\\/fetch-gh-release-asset:dsaltares\\/fetch-gh-release-asset:1.1.2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/dsaltares/fetch-gh-release-asset@1.1.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch-gh-release-asset:dsaltares\\/fetch_gh_release_asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch_gh_release_asset:dsaltares\\/fetch-gh-release-asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch_gh_release_asset:dsaltares\\/fetch_gh_release_asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch-gh-release:dsaltares\\/fetch-gh-release-asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch-gh-release:dsaltares\\/fetch_gh_release_asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch_gh_release:dsaltares\\/fetch-gh-release-asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch_gh_release:dsaltares\\/fetch_gh_release_asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch-gh:dsaltares\\/fetch-gh-release-asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch-gh:dsaltares\\/fetch_gh_release_asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch_gh:dsaltares\\/fetch-gh-release-asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch_gh:dsaltares\\/fetch_gh_release_asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch:dsaltares\\/fetch-gh-release-asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch:dsaltares\\/fetch_gh_release_asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/macos_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/dsaltares/fetch-gh-release-asset@1.1.2?package-id=5b3835af3078b565",
+      "type": "library",
+      "name": "dsaltares/fetch-gh-release-asset",
+      "version": "1.1.2",
+      "cpe": "cpe:2.3:a:dsaltares\\/fetch-gh-release-asset:dsaltares\\/fetch-gh-release-asset:1.1.2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/dsaltares/fetch-gh-release-asset@1.1.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch-gh-release-asset:dsaltares\\/fetch_gh_release_asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch_gh_release_asset:dsaltares\\/fetch-gh-release-asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch_gh_release_asset:dsaltares\\/fetch_gh_release_asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch-gh-release:dsaltares\\/fetch-gh-release-asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch-gh-release:dsaltares\\/fetch_gh_release_asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch_gh_release:dsaltares\\/fetch-gh-release-asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch_gh_release:dsaltares\\/fetch_gh_release_asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch-gh:dsaltares\\/fetch-gh-release-asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch-gh:dsaltares\\/fetch_gh_release_asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch_gh:dsaltares\\/fetch-gh-release-asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch_gh:dsaltares\\/fetch_gh_release_asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch:dsaltares\\/fetch-gh-release-asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dsaltares\\/fetch:dsaltares\\/fetch_gh_release_asset:1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/windows_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/godot@1.0.0?package-id=b6a0577bf69a38f7",
+      "type": "library",
+      "name": "godot",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:godot:godot:1.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/godot@1.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "javascript-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "javascript"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "npm"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "javascript-npm-package-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/platform/web/package-lock.json"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/gradle-wrapper/gradle-wrapper?package-id=8ef93affbb069dde",
+      "type": "library",
+      "name": "gradle-wrapper",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:gradle-wrapper:gradle-wrapper:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/gradle-wrapper/gradle-wrapper",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "2685e1a923d4c79dd549889406c6ffa9e8661744"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle-wrapper:gradle_wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle_wrapper:gradle-wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle_wrapper:gradle_wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle:gradle-wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle:gradle_wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/platform/android/java/gradle/wrapper/gradle-wrapper.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/platform/android/java/gradle/wrapper/gradle-wrapper.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/mymindstorm/setup-emsdk@v14?package-id=29347ce776483398",
+      "type": "library",
+      "name": "mymindstorm/setup-emsdk",
+      "version": "v14",
+      "cpe": "cpe:2.3:a:mymindstorm\\/setup-emsdk:mymindstorm\\/setup-emsdk:v14:*:*:*:*:*:*:*",
+      "purl": "pkg:github/mymindstorm/setup-emsdk@v14",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mymindstorm\\/setup-emsdk:mymindstorm\\/setup_emsdk:v14:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mymindstorm\\/setup_emsdk:mymindstorm\\/setup-emsdk:v14:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mymindstorm\\/setup_emsdk:mymindstorm\\/setup_emsdk:v14:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mymindstorm\\/setup:mymindstorm\\/setup-emsdk:v14:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mymindstorm\\/setup:mymindstorm\\/setup_emsdk:v14:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/web_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/pre-commit/action@v3.0.1?package-id=9b6d497148148ad6",
+      "type": "library",
+      "name": "pre-commit/action",
+      "version": "v3.0.1",
+      "cpe": "cpe:2.3:a:pre-commit\\/action:pre-commit\\/action:v3.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/pre-commit/action@v3.0.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pre-commit\\/action:pre_commit\\/action:v3.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pre_commit\\/action:pre-commit\\/action:v3.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pre_commit\\/action:pre_commit\\/action:v3.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pre:pre-commit\\/action:v3.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pre:pre_commit\\/action:v3.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/static_checks.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/rui314/setup-mold@v1?package-id=f037b513a25d31cc",
+      "type": "library",
+      "name": "rui314/setup-mold",
+      "version": "v1",
+      "cpe": "cpe:2.3:a:rui314\\/setup-mold:rui314\\/setup-mold:v1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/rui314/setup-mold@v1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:rui314\\/setup-mold:rui314\\/setup_mold:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:rui314\\/setup_mold:rui314\\/setup-mold:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:rui314\\/setup_mold:rui314\\/setup_mold:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:rui314\\/setup:rui314\\/setup-mold:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:rui314\\/setup:rui314\\/setup_mold:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/linux_builds.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "a6be40b9f025627e",
+      "type": "file",
+      "name": "/src/.github/actions/download-artifact/action.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "003e2282908af8987b1914dcfb993a6ef1cfe592"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ed4f6f94e5c1503c574e43016a66df229ef6cb2950746a42eda1c1bbdec6873d"
+        }
+      ]
+    },
+    {
+      "bom-ref": "4d4f4bc4369c31fa",
+      "type": "file",
+      "name": "/src/.github/actions/godot-cache-restore/action.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "32b8001a382fed48fefc20758231663e75e03019"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1bd9eab2fcc092561cdd69e270cd011f99f472961c8d7aa52989e366c650e0a7"
+        }
+      ]
+    },
+    {
+      "bom-ref": "1bf8a683209a15b2",
+      "type": "file",
+      "name": "/src/.github/actions/godot-cache-save/action.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "922fc8ceb654eddea57c32d891edd1c425b33ddd"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c7d99de374684af145449f0ec0b27a9d55494961aab5544b3686ad71fe585b65"
+        }
+      ]
+    },
+    {
+      "bom-ref": "29bb69c0b7127899",
+      "type": "file",
+      "name": "/src/.github/actions/godot-cpp-build/action.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "a9b80302a5ba8133666c3af9950e002ca6999a82"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b00e0210a47d6b3de9e145228b0ed83c311803991d9966451941df7b6b87fe7a"
+        }
+      ]
+    },
+    {
+      "bom-ref": "dda233eb8cee641a",
+      "type": "file",
+      "name": "/src/.github/actions/godot-deps/action.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "074cb797afb682348cfd976869235f4385f700d3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ebb8315157af3626b9081adf5b091d47cf14fce6f37471fae13bfbbe628b33ef"
+        }
+      ]
+    },
+    {
+      "bom-ref": "39a12b4ba89039a0",
+      "type": "file",
+      "name": "/src/.github/actions/upload-artifact/action.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "bd1a63d482c89efaced79405c764fb74e5300fa5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "fc6f4b481360a9f8a3b5f06d292684148d1db1a9d74430b7823c3ac4146a9e63"
+        }
+      ]
+    },
+    {
+      "bom-ref": "bcf63a00ebe760d7",
+      "type": "file",
+      "name": "/src/.github/workflows/android_builds.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "8986499be725a340951c7aabc3b5911161c53f84"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "fe36f1d506d666931e86d5b035d386cb442bc986ec0bbc6f60b8b69a463bc001"
+        }
+      ]
+    },
+    {
+      "bom-ref": "b5c3d9584688c2c3",
+      "type": "file",
+      "name": "/src/.github/workflows/ios_builds.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "19f839eea2d3bf4415c49f9df9b86ff214e50798"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "742efc8b95ce577dea02517758cd7543735d4e578248c04f87f7612ed90258fb"
+        }
+      ]
+    },
+    {
+      "bom-ref": "b91e1d66221bbb27",
+      "type": "file",
+      "name": "/src/.github/workflows/linux_builds.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "dbff76d3a8b531538970e68f0a5a506e197789fa"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "654af0ecc63e9e936a1584c80fccb52b8bf7ab33b6f455f707c5bb3e867f4840"
+        }
+      ]
+    },
+    {
+      "bom-ref": "bc98444e7d3b9ff8",
+      "type": "file",
+      "name": "/src/.github/workflows/macos_builds.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "6168e14e0f29fa33b6dbd2e415b036ec665f2417"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5afb88abfb141e113bab9584a685fbbd94a362f50ac736c77c2a7905050fba17"
+        }
+      ]
+    },
+    {
+      "bom-ref": "48175b2128a032c0",
+      "type": "file",
+      "name": "/src/.github/workflows/runner.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "e5cfa9f7eb10fd7d6720048915eeb0291444ca08"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "0c0cac2c36e620d23885ece2769287904f7177734840dad4bb355e320cbc269b"
+        }
+      ]
+    },
+    {
+      "bom-ref": "06de51c9602d2cb9",
+      "type": "file",
+      "name": "/src/.github/workflows/static_checks.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "310a2c1ded308fa0e685efe45338039d364700b4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7b409b8ba688e1c5dc8cce046fe24792b898bc14676166e794e6d9ae836f02cc"
+        }
+      ]
+    },
+    {
+      "bom-ref": "b60ad38f300b71d3",
+      "type": "file",
+      "name": "/src/.github/workflows/web_builds.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "1eaa1ac96375e7976658029558ff05c4c2b34049"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ebb760e2a3e97d37c8249736755b4c8ff6cd6b0bd49440c295734220eb50ea6b"
+        }
+      ]
+    },
+    {
+      "bom-ref": "4d2017f646a3e03a",
+      "type": "file",
+      "name": "/src/.github/workflows/windows_builds.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "8e8e4d7dac5869560611dc99b3abc037a68b4358"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a2d88cdc30e8f4b08e3ceb64c4c366629c5d1ab4d7058d00f2736c39da8af87d"
+        }
+      ]
+    },
+    {
+      "bom-ref": "b7789d9e4ca2e6e3",
+      "type": "file",
+      "name": "/src/modules/mono/thirdparty/libSystem.Security.Cryptography.Native.Android.jar",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7c410b93b2d4f8379bb853b57af32a7d42c0a90b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "175ed3188225418aac3a6d99219a4cc8525f5fbf021175e466402b7bc1dcc7bb"
+        }
+      ]
+    },
+    {
+      "bom-ref": "f7a72da0e5ca53c4",
+      "type": "file",
+      "name": "/src/platform/android/java/gradle/wrapper/gradle-wrapper.jar",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "2685e1a923d4c79dd549889406c6ffa9e8661744"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e996d452d2645e70c01c11143ca2d3742734a28da2bf61f25c82bdc288c9e637"
+        }
+      ]
+    },
+    {
+      "bom-ref": "a9a18a2b71dcc3fe",
+      "type": "file",
+      "name": "/src/platform/web/package-lock.json",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d026ddb884060e9f76fd054289f73519e9911b6a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1e02ba9f7becb2f390e1a41af423a4f720a6fafb88bd986967daab22597a65ff"
+        }
+      ]
+    }
+  ]
+}

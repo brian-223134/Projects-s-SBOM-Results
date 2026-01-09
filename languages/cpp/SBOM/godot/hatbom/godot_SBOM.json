@@ -1,0 +1,5074 @@
+{
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:4c4e1d24-3c66-7982-8cce-9b28fa17b1aa",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-01-09T04:16:26.463839+00:00",
+      "authors": [
+        {
+          "name": "IoTcube - https://iotcube.net"
+        }
+      ],
+      "component": {
+        "group": "",
+        "name": "godot",
+        "version": "",
+        "type": "application",
+        "bom-ref": "pkg:generic/godot",
+        "purl": "pkg:generic/godot"
+      }
+    },
+    "dependencies": [
+      {
+        "ref": "godot",
+        "dependsOn": [
+          "miniupnp miniupnpd_2_3_1",
+          "miktex 22.8.28",
+          "libjpeg-turbo 2.1.4",
+          "Blast v1.1.7_rc2",
+          "vmprof-python temp",
+          "glslang untagged-305dd8c44fedc0e7814b",
+          "KTX-Software v4.1.0-rc3",
+          "embree v3.13.5-alpha.0",
+          "hdBlackbird rez_hdcycles-0.9.3",
+          "libwebp v1.2.4",
+          "enet v1.3.9",
+          "libpng v1.6.39",
+          "FastLZ 0.5.0",
+          "vorbis v1.3.7",
+          "FidelityFX-FSR2 v2.1.2",
+          "ZeroTierOne v1.1.5-live-roots",
+          "OpenXR-SDK release-1.0.26",
+          "zlib v1.3.1",
+          "pcre2 8.42",
+          "freetype VER-2-13-3",
+          "harfbuzz 8.4.0",
+          "link-bubble v1.5.2",
+          "android-getapkinfo v2.0",
+          "piracychecker javiersantos@@piracychecker",
+          "apk-parser v2.6.7",
+          "apkmultichannelplugin v1.2",
+          "betterbatterystats v0.9.0.0",
+          "smapi-android-installer zaneyork@@smapi-android-installer"
+        ]
+      }
+    ],
+    "components": [
+      {
+        "group": "miniupnp",
+        "name": "minixmlvalid",
+        "version": "0.0.0-8b7c65dc3b31",
+        "type": "file",
+        "bom-ref": "pkg:generic/miniupnp/minixmlvalid@0.0.0-8b7c65dc3b31#/thirdparty/miniupnpc/src/minixmlvalid.c",
+        "purl": "pkg:generic/miniupnp/minixmlvalid@0.0.0-8b7c65dc3b31#/thirdparty/miniupnpc/src/minixmlvalid.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "8b7c65dc3b311576dacb78187ddec39f"
+          }
+        ]
+      },
+      {
+        "group": "miniupnp",
+        "name": "portlistingparse",
+        "version": "0.0.0-0a6a856c90bd",
+        "type": "file",
+        "bom-ref": "pkg:generic/miniupnp/portlistingparse@0.0.0-0a6a856c90bd#/thirdparty/miniupnpc/src/portlistingparse.c",
+        "purl": "pkg:generic/miniupnp/portlistingparse@0.0.0-0a6a856c90bd#/thirdparty/miniupnpc/src/portlistingparse.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "0a6a856c90bd1c4838148b702d8c9a09"
+          }
+        ]
+      },
+      {
+        "group": "miktex",
+        "name": "call_machine",
+        "version": "0.0.0-f951f02872da",
+        "type": "file",
+        "bom-ref": "pkg:generic/miktex/call_machine@0.0.0-f951f02872da#/thirdparty/graphite/src/call_machine.cpp",
+        "purl": "pkg:generic/miktex/call_machine@0.0.0-f951f02872da#/thirdparty/graphite/src/call_machine.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "f951f02872dafb83ccb6c4b02cbb4ae2"
+          }
+        ]
+      },
+      {
+        "group": "miktex",
+        "name": "CmapCache",
+        "version": "0.0.0-3b24a623ef44",
+        "type": "file",
+        "bom-ref": "pkg:generic/miktex/CmapCache@0.0.0-3b24a623ef44#/thirdparty/graphite/src/CmapCache.cpp",
+        "purl": "pkg:generic/miktex/CmapCache@0.0.0-3b24a623ef44#/thirdparty/graphite/src/CmapCache.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "3b24a623ef44c63b8e0ba2c369ad1960"
+          }
+        ]
+      },
+      {
+        "group": "miktex",
+        "name": "Code",
+        "version": "0.0.0-b7a4c4b7d5f5",
+        "type": "file",
+        "bom-ref": "pkg:generic/miktex/Code@0.0.0-b7a4c4b7d5f5#/thirdparty/graphite/src/Code.cpp",
+        "purl": "pkg:generic/miktex/Code@0.0.0-b7a4c4b7d5f5#/thirdparty/graphite/src/Code.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "b7a4c4b7d5f54ea4254055b15ba765a2"
+          }
+        ]
+      },
+      {
+        "group": "miktex",
+        "name": "Collider",
+        "version": "0.0.0-050f5b426d87",
+        "type": "file",
+        "bom-ref": "pkg:generic/miktex/Collider@0.0.0-050f5b426d87#/thirdparty/graphite/src/Collider.cpp",
+        "purl": "pkg:generic/miktex/Collider@0.0.0-050f5b426d87#/thirdparty/graphite/src/Collider.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "050f5b426d8725b142daa41528166f9f"
+          }
+        ]
+      },
+      {
+        "group": "miktex",
+        "name": "Decompressor",
+        "version": "0.0.0-67bad3a9dc79",
+        "type": "file",
+        "bom-ref": "pkg:generic/miktex/Decompressor@0.0.0-67bad3a9dc79#/thirdparty/graphite/src/Decompressor.cpp",
+        "purl": "pkg:generic/miktex/Decompressor@0.0.0-67bad3a9dc79#/thirdparty/graphite/src/Decompressor.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "67bad3a9dc79a7cd2aea62c1d19333ca"
+          }
+        ]
+      },
+      {
+        "group": "miktex",
+        "name": "direct_machine",
+        "version": "0.0.0-4008776e6766",
+        "type": "file",
+        "bom-ref": "pkg:generic/miktex/direct_machine@0.0.0-4008776e6766#/thirdparty/graphite/src/direct_machine.cpp",
+        "purl": "pkg:generic/miktex/direct_machine@0.0.0-4008776e6766#/thirdparty/graphite/src/direct_machine.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "4008776e67664745a91a0884628f028d"
+          }
+        ]
+      },
+      {
+        "group": "miktex",
+        "name": "Face",
+        "version": "0.0.0-78913bc2c4af",
+        "type": "file",
+        "bom-ref": "pkg:generic/miktex/Face@0.0.0-78913bc2c4af#/thirdparty/graphite/src/Face.cpp",
+        "purl": "pkg:generic/miktex/Face@0.0.0-78913bc2c4af#/thirdparty/graphite/src/Face.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "78913bc2c4af24111fc4f215038bab6a"
+          }
+        ]
+      },
+      {
+        "group": "miktex",
+        "name": "FeatureMap",
+        "version": "0.0.0-b84d875868a4",
+        "type": "file",
+        "bom-ref": "pkg:generic/miktex/FeatureMap@0.0.0-b84d875868a4#/thirdparty/graphite/src/FeatureMap.cpp",
+        "purl": "pkg:generic/miktex/FeatureMap@0.0.0-b84d875868a4#/thirdparty/graphite/src/FeatureMap.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "b84d875868a48d431d2b3fdac24df8a2"
+          }
+        ]
+      },
+      {
+        "group": "miktex",
+        "name": "FileFace",
+        "version": "0.0.0-db8248e793dc",
+        "type": "file",
+        "bom-ref": "pkg:generic/miktex/FileFace@0.0.0-db8248e793dc#/thirdparty/graphite/src/FileFace.cpp",
+        "purl": "pkg:generic/miktex/FileFace@0.0.0-db8248e793dc#/thirdparty/graphite/src/FileFace.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "db8248e793dc0c5779058f3223a3fdd5"
+          }
+        ]
+      },
+      {
+        "group": "miktex",
+        "name": "Font",
+        "version": "0.0.0-65e7c347d2ba",
+        "type": "file",
+        "bom-ref": "pkg:generic/miktex/Font@0.0.0-65e7c347d2ba#/thirdparty/graphite/src/Font.cpp",
+        "purl": "pkg:generic/miktex/Font@0.0.0-65e7c347d2ba#/thirdparty/graphite/src/Font.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "65e7c347d2ba98b0b11bf0f443ece119"
+          }
+        ]
+      },
+      {
+        "group": "miktex",
+        "name": "GlyphFace",
+        "version": "0.0.0-711d35164add",
+        "type": "file",
+        "bom-ref": "pkg:generic/miktex/GlyphFace@0.0.0-711d35164add#/thirdparty/graphite/src/GlyphFace.cpp",
+        "purl": "pkg:generic/miktex/GlyphFace@0.0.0-711d35164add#/thirdparty/graphite/src/GlyphFace.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "711d35164add88b046c9e76f2762361f"
+          }
+        ]
+      },
+      {
+        "group": "miktex",
+        "name": "gr_char_info",
+        "version": "0.0.0-1ba2b6319d75",
+        "type": "file",
+        "bom-ref": "pkg:generic/miktex/gr_char_info@0.0.0-1ba2b6319d75#/thirdparty/graphite/src/gr_char_info.cpp",
+        "purl": "pkg:generic/miktex/gr_char_info@0.0.0-1ba2b6319d75#/thirdparty/graphite/src/gr_char_info.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "1ba2b6319d75a846281661e605eef24d"
+          }
+        ]
+      },
+      {
+        "group": "miktex",
+        "name": "gr_face",
+        "version": "0.0.0-51253754a4c0",
+        "type": "file",
+        "bom-ref": "pkg:generic/miktex/gr_face@0.0.0-51253754a4c0#/thirdparty/graphite/src/gr_face.cpp",
+        "purl": "pkg:generic/miktex/gr_face@0.0.0-51253754a4c0#/thirdparty/graphite/src/gr_face.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "51253754a4c0b28fb69d2bc72e8c322a"
+          }
+        ]
+      },
+      {
+        "group": "miktex",
+        "name": "gr_logging",
+        "version": "0.0.0-945bf1c51d6c",
+        "type": "file",
+        "bom-ref": "pkg:generic/miktex/gr_logging@0.0.0-945bf1c51d6c#/thirdparty/graphite/src/gr_logging.cpp",
+        "purl": "pkg:generic/miktex/gr_logging@0.0.0-945bf1c51d6c#/thirdparty/graphite/src/gr_logging.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "945bf1c51d6c7ecf23ba63fce996803a"
+          }
+        ]
+      },
+      {
+        "group": "miktex",
+        "name": "gr_segment",
+        "version": "0.0.0-0dabf791dab3",
+        "type": "file",
+        "bom-ref": "pkg:generic/miktex/gr_segment@0.0.0-0dabf791dab3#/thirdparty/graphite/src/gr_segment.cpp",
+        "purl": "pkg:generic/miktex/gr_segment@0.0.0-0dabf791dab3#/thirdparty/graphite/src/gr_segment.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "0dabf791dab30b2c4c323e68b3e8b817"
+          }
+        ]
+      },
+      {
+        "group": "miktex",
+        "name": "gr_slot",
+        "version": "0.0.0-dab903ba556d",
+        "type": "file",
+        "bom-ref": "pkg:generic/miktex/gr_slot@0.0.0-dab903ba556d#/thirdparty/graphite/src/gr_slot.cpp",
+        "purl": "pkg:generic/miktex/gr_slot@0.0.0-dab903ba556d#/thirdparty/graphite/src/gr_slot.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "dab903ba556d7d258a45e5098daf09d6"
+          }
+        ]
+      },
+      {
+        "group": "miktex",
+        "name": "Intervals",
+        "version": "0.0.0-35f7b9fc1f5b",
+        "type": "file",
+        "bom-ref": "pkg:generic/miktex/Intervals@0.0.0-35f7b9fc1f5b#/thirdparty/graphite/src/Intervals.cpp",
+        "purl": "pkg:generic/miktex/Intervals@0.0.0-35f7b9fc1f5b#/thirdparty/graphite/src/Intervals.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "35f7b9fc1f5ba5c402fce941b631b4c5"
+          }
+        ]
+      },
+      {
+        "group": "miktex",
+        "name": "json",
+        "version": "0.0.0-8c14e1a5cfca",
+        "type": "file",
+        "bom-ref": "pkg:generic/miktex/json@0.0.0-8c14e1a5cfca#/thirdparty/graphite/src/json.cpp",
+        "purl": "pkg:generic/miktex/json@0.0.0-8c14e1a5cfca#/thirdparty/graphite/src/json.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "8c14e1a5cfca2e5e0abde71f8bf3a80b"
+          }
+        ]
+      },
+      {
+        "group": "miktex",
+        "name": "Justifier",
+        "version": "0.0.0-5fcd09f95902",
+        "type": "file",
+        "bom-ref": "pkg:generic/miktex/Justifier@0.0.0-5fcd09f95902#/thirdparty/graphite/src/Justifier.cpp",
+        "purl": "pkg:generic/miktex/Justifier@0.0.0-5fcd09f95902#/thirdparty/graphite/src/Justifier.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "5fcd09f95902d89295c2080fa0a7c08d"
+          }
+        ]
+      },
+      {
+        "group": "miktex",
+        "name": "NameTable",
+        "version": "0.0.0-87da1dcd72ad",
+        "type": "file",
+        "bom-ref": "pkg:generic/miktex/NameTable@0.0.0-87da1dcd72ad#/thirdparty/graphite/src/NameTable.cpp",
+        "purl": "pkg:generic/miktex/NameTable@0.0.0-87da1dcd72ad#/thirdparty/graphite/src/NameTable.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "87da1dcd72adbfb217865826e64ec7fa"
+          }
+        ]
+      },
+      {
+        "group": "miktex",
+        "name": "Position",
+        "version": "0.0.0-022cc8e915f4",
+        "type": "file",
+        "bom-ref": "pkg:generic/miktex/Position@0.0.0-022cc8e915f4#/thirdparty/graphite/src/Position.cpp",
+        "purl": "pkg:generic/miktex/Position@0.0.0-022cc8e915f4#/thirdparty/graphite/src/Position.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "022cc8e915f49512e609c83e228f3988"
+          }
+        ]
+      },
+      {
+        "group": "miktex",
+        "name": "Segment",
+        "version": "0.0.0-b76438d62042",
+        "type": "file",
+        "bom-ref": "pkg:generic/miktex/Segment@0.0.0-b76438d62042#/thirdparty/graphite/src/Segment.cpp",
+        "purl": "pkg:generic/miktex/Segment@0.0.0-b76438d62042#/thirdparty/graphite/src/Segment.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "b76438d62042ebb4e34f6491328e6a56"
+          }
+        ]
+      },
+      {
+        "group": "miktex",
+        "name": "Silf",
+        "version": "0.0.0-80ad7ccda3c9",
+        "type": "file",
+        "bom-ref": "pkg:generic/miktex/Silf@0.0.0-80ad7ccda3c9#/thirdparty/graphite/src/Silf.cpp",
+        "purl": "pkg:generic/miktex/Silf@0.0.0-80ad7ccda3c9#/thirdparty/graphite/src/Silf.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "80ad7ccda3c9e344b2aae6b219e31d6f"
+          }
+        ]
+      },
+      {
+        "group": "miktex",
+        "name": "Slot",
+        "version": "0.0.0-fa2e5a01e6a4",
+        "type": "file",
+        "bom-ref": "pkg:generic/miktex/Slot@0.0.0-fa2e5a01e6a4#/thirdparty/graphite/src/Slot.cpp",
+        "purl": "pkg:generic/miktex/Slot@0.0.0-fa2e5a01e6a4#/thirdparty/graphite/src/Slot.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "fa2e5a01e6a468a08039b8c40a2bf071"
+          }
+        ]
+      },
+      {
+        "group": "miktex",
+        "name": "Sparse",
+        "version": "0.0.0-62cb27e63887",
+        "type": "file",
+        "bom-ref": "pkg:generic/miktex/Sparse@0.0.0-62cb27e63887#/thirdparty/graphite/src/Sparse.cpp",
+        "purl": "pkg:generic/miktex/Sparse@0.0.0-62cb27e63887#/thirdparty/graphite/src/Sparse.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "62cb27e63887f782a5ea30fbb2da8d44"
+          }
+        ]
+      },
+      {
+        "group": "miktex",
+        "name": "TtfUtil",
+        "version": "0.0.0-351552bd21c7",
+        "type": "file",
+        "bom-ref": "pkg:generic/miktex/TtfUtil@0.0.0-351552bd21c7#/thirdparty/graphite/src/TtfUtil.cpp",
+        "purl": "pkg:generic/miktex/TtfUtil@0.0.0-351552bd21c7#/thirdparty/graphite/src/TtfUtil.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "351552bd21c7e28caf3e3d2c90246726"
+          }
+        ]
+      },
+      {
+        "group": "miktex",
+        "name": "UtfCodec",
+        "version": "0.0.0-5f43e5b10dc8",
+        "type": "file",
+        "bom-ref": "pkg:generic/miktex/UtfCodec@0.0.0-5f43e5b10dc8#/thirdparty/graphite/src/UtfCodec.cpp",
+        "purl": "pkg:generic/miktex/UtfCodec@0.0.0-5f43e5b10dc8#/thirdparty/graphite/src/UtfCodec.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "5f43e5b10dc8733e946df392f7c74c71"
+          }
+        ]
+      },
+      {
+        "group": "libjpeg-turbo",
+        "name": "jaricom",
+        "version": "0.0.0-6cca1c87cad9",
+        "type": "file",
+        "bom-ref": "pkg:generic/libjpeg-turbo/jaricom@0.0.0-6cca1c87cad9#/thirdparty/libjpeg-turbo/src/jaricom.c",
+        "purl": "pkg:generic/libjpeg-turbo/jaricom@0.0.0-6cca1c87cad9#/thirdparty/libjpeg-turbo/src/jaricom.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "6cca1c87cad97b264d790b6a2abd0d32"
+          }
+        ]
+      },
+      {
+        "group": "libjpeg-turbo",
+        "name": "jcarith",
+        "version": "0.0.0-4e36adece026",
+        "type": "file",
+        "bom-ref": "pkg:generic/libjpeg-turbo/jcarith@0.0.0-4e36adece026#/thirdparty/libjpeg-turbo/src/jcarith.c",
+        "purl": "pkg:generic/libjpeg-turbo/jcarith@0.0.0-4e36adece026#/thirdparty/libjpeg-turbo/src/jcarith.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "4e36adece026dd0131b0926387bc5d18"
+          }
+        ]
+      },
+      {
+        "group": "libjpeg-turbo",
+        "name": "jcicc",
+        "version": "0.0.0-9211b9a254f8",
+        "type": "file",
+        "bom-ref": "pkg:generic/libjpeg-turbo/jcicc@0.0.0-9211b9a254f8#/thirdparty/libjpeg-turbo/src/jcicc.c",
+        "purl": "pkg:generic/libjpeg-turbo/jcicc@0.0.0-9211b9a254f8#/thirdparty/libjpeg-turbo/src/jcicc.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "9211b9a254f889b05bab85058e3a78cf"
+          }
+        ]
+      },
+      {
+        "group": "libjpeg-turbo",
+        "name": "jdarith",
+        "version": "0.0.0-052d19dbc866",
+        "type": "file",
+        "bom-ref": "pkg:generic/libjpeg-turbo/jdarith@0.0.0-052d19dbc866#/thirdparty/libjpeg-turbo/src/jdarith.c",
+        "purl": "pkg:generic/libjpeg-turbo/jdarith@0.0.0-052d19dbc866#/thirdparty/libjpeg-turbo/src/jdarith.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "052d19dbc866c1c11fe7f37b05702e80"
+          }
+        ]
+      },
+      {
+        "group": "libjpeg-turbo",
+        "name": "jdicc",
+        "version": "0.0.0-ff3c96eba909",
+        "type": "file",
+        "bom-ref": "pkg:generic/libjpeg-turbo/jdicc@0.0.0-ff3c96eba909#/thirdparty/libjpeg-turbo/src/jdicc.c",
+        "purl": "pkg:generic/libjpeg-turbo/jdicc@0.0.0-ff3c96eba909#/thirdparty/libjpeg-turbo/src/jdicc.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "ff3c96eba9097f2b542689997801785b"
+          }
+        ]
+      },
+      {
+        "group": "libjpeg-turbo",
+        "name": "jdphuff",
+        "version": "0.0.0-77950613d2cb",
+        "type": "file",
+        "bom-ref": "pkg:generic/libjpeg-turbo/jdphuff@0.0.0-77950613d2cb#/thirdparty/libjpeg-turbo/src/jdphuff.c",
+        "purl": "pkg:generic/libjpeg-turbo/jdphuff@0.0.0-77950613d2cb#/thirdparty/libjpeg-turbo/src/jdphuff.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "77950613d2cb9e0daaea411a6eae64b6"
+          }
+        ]
+      },
+      {
+        "group": "libjpeg-turbo",
+        "name": "jfdctflt",
+        "version": "0.0.0-794d9c45a6f6",
+        "type": "file",
+        "bom-ref": "pkg:generic/libjpeg-turbo/jfdctflt@0.0.0-794d9c45a6f6#/thirdparty/libjpeg-turbo/src/jfdctflt.c",
+        "purl": "pkg:generic/libjpeg-turbo/jfdctflt@0.0.0-794d9c45a6f6#/thirdparty/libjpeg-turbo/src/jfdctflt.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "794d9c45a6f64d8f04fe2274209fe2bc"
+          }
+        ]
+      },
+      {
+        "group": "libjpeg-turbo",
+        "name": "jmemnobs",
+        "version": "0.0.0-2a565b9f5d83",
+        "type": "file",
+        "bom-ref": "pkg:generic/libjpeg-turbo/jmemnobs@0.0.0-2a565b9f5d83#/thirdparty/libjpeg-turbo/src/jmemnobs.c",
+        "purl": "pkg:generic/libjpeg-turbo/jmemnobs@0.0.0-2a565b9f5d83#/thirdparty/libjpeg-turbo/src/jmemnobs.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "2a565b9f5d832f99df97347d10d3cabe"
+          }
+        ]
+      },
+      {
+        "group": "Blast",
+        "name": "vhacdICHull",
+        "version": "0.0.0-0ca1a9b06973",
+        "type": "file",
+        "bom-ref": "pkg:generic/Blast/vhacdICHull@0.0.0-0ca1a9b06973#/thirdparty/vhacd/src/vhacdICHull.cpp",
+        "purl": "pkg:generic/Blast/vhacdICHull@0.0.0-0ca1a9b06973#/thirdparty/vhacd/src/vhacdICHull.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "0ca1a9b06973596f248dca9a8ae396f5"
+          }
+        ]
+      },
+      {
+        "group": "Blast",
+        "name": "vhacdManifoldMesh",
+        "version": "0.0.0-a80375123956",
+        "type": "file",
+        "bom-ref": "pkg:generic/Blast/vhacdManifoldMesh@0.0.0-a80375123956#/thirdparty/vhacd/src/vhacdManifoldMesh.cpp",
+        "purl": "pkg:generic/Blast/vhacdManifoldMesh@0.0.0-a80375123956#/thirdparty/vhacd/src/vhacdManifoldMesh.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "a80375123956d5eede477c4598cc2537"
+          }
+        ]
+      },
+      {
+        "group": "Blast",
+        "name": "vhacdRaycastMesh",
+        "version": "0.0.0-f1404ec8ae6e",
+        "type": "file",
+        "bom-ref": "pkg:generic/Blast/vhacdRaycastMesh@0.0.0-f1404ec8ae6e#/thirdparty/vhacd/src/vhacdRaycastMesh.cpp",
+        "purl": "pkg:generic/Blast/vhacdRaycastMesh@0.0.0-f1404ec8ae6e#/thirdparty/vhacd/src/vhacdRaycastMesh.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "f1404ec8ae6ecf98fdd04183f40f9252"
+          }
+        ]
+      },
+      {
+        "group": "vmprof-python",
+        "name": "atomic",
+        "version": "0.0.0-6b3e51c6d2e4",
+        "type": "file",
+        "bom-ref": "pkg:generic/vmprof-python/atomic@0.0.0-6b3e51c6d2e4#/thirdparty/libbacktrace/atomic.c",
+        "purl": "pkg:generic/vmprof-python/atomic@0.0.0-6b3e51c6d2e4#/thirdparty/libbacktrace/atomic.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "6b3e51c6d2e49fccc67a18d3035adc05"
+          }
+        ]
+      },
+      {
+        "group": "glslang",
+        "name": "IntermTraverse",
+        "version": "0.0.0-f1e10310ef77",
+        "type": "file",
+        "bom-ref": "pkg:generic/glslang/IntermTraverse@0.0.0-f1e10310ef77#/thirdparty/glslang/glslang/MachineIndependent/IntermTraverse.cpp",
+        "purl": "pkg:generic/glslang/IntermTraverse@0.0.0-f1e10310ef77#/thirdparty/glslang/glslang/MachineIndependent/IntermTraverse.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "f1e10310ef77efad2e899f1324b6fc33"
+          }
+        ]
+      },
+      {
+        "group": "glslang",
+        "name": "InReadableOrder",
+        "version": "0.0.0-86e4862d699b",
+        "type": "file",
+        "bom-ref": "pkg:generic/glslang/InReadableOrder@0.0.0-86e4862d699b#/thirdparty/glslang/SPIRV/InReadableOrder.cpp",
+        "purl": "pkg:generic/glslang/InReadableOrder@0.0.0-86e4862d699b#/thirdparty/glslang/SPIRV/InReadableOrder.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "86e4862d699b398e5dd3a8ad2888e049"
+          }
+        ]
+      },
+      {
+        "group": "KTX-Software",
+        "name": "astcenc_mathlib",
+        "version": "0.0.0-0522a0d0f12c",
+        "type": "file",
+        "bom-ref": "pkg:generic/KTX-Software/astcenc_mathlib@0.0.0-0522a0d0f12c#/thirdparty/astcenc/astcenc_mathlib.cpp",
+        "purl": "pkg:generic/KTX-Software/astcenc_mathlib@0.0.0-0522a0d0f12c#/thirdparty/astcenc/astcenc_mathlib.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "0522a0d0f12ccd103b7cbee4dbe4504e"
+          }
+        ]
+      },
+      {
+        "group": "KTX-Software",
+        "name": "astcenc_mathlib_softfloat",
+        "version": "0.0.0-fe7d7e9929b5",
+        "type": "file",
+        "bom-ref": "pkg:generic/KTX-Software/astcenc_mathlib_softfloat@0.0.0-fe7d7e9929b5#/thirdparty/astcenc/astcenc_mathlib_softfloat.cpp",
+        "purl": "pkg:generic/KTX-Software/astcenc_mathlib_softfloat@0.0.0-fe7d7e9929b5#/thirdparty/astcenc/astcenc_mathlib_softfloat.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "fe7d7e9929b5a61ddd7ebed2f8c0bc66"
+          }
+        ]
+      },
+      {
+        "group": "KTX-Software",
+        "name": "basisu_basis_file",
+        "version": "0.0.0-db5ee0bda692",
+        "type": "file",
+        "bom-ref": "pkg:generic/KTX-Software/basisu_basis_file@0.0.0-db5ee0bda692#/thirdparty/basis_universal/encoder/basisu_basis_file.cpp",
+        "purl": "pkg:generic/KTX-Software/basisu_basis_file@0.0.0-db5ee0bda692#/thirdparty/basis_universal/encoder/basisu_basis_file.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "db5ee0bda69251124895a33546033a62"
+          }
+        ]
+      },
+      {
+        "group": "KTX-Software",
+        "name": "basisu_pvrtc1_4",
+        "version": "0.0.0-b2bcb0ac81b4",
+        "type": "file",
+        "bom-ref": "pkg:generic/KTX-Software/basisu_pvrtc1_4@0.0.0-b2bcb0ac81b4#/thirdparty/basis_universal/encoder/basisu_pvrtc1_4.cpp",
+        "purl": "pkg:generic/KTX-Software/basisu_pvrtc1_4@0.0.0-b2bcb0ac81b4#/thirdparty/basis_universal/encoder/basisu_pvrtc1_4.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "b2bcb0ac81b4c9d6f93cf4b7a86349c9"
+          }
+        ]
+      },
+      {
+        "group": "KTX-Software",
+        "name": "vk2dfd",
+        "version": "0.0.0-b2fd686fdd19",
+        "type": "file",
+        "bom-ref": "pkg:generic/KTX-Software/vk2dfd@0.0.0-b2fd686fdd19#/thirdparty/libktx/external/dfdutils/vk2dfd.c",
+        "purl": "pkg:generic/KTX-Software/vk2dfd@0.0.0-b2fd686fdd19#/thirdparty/libktx/external/dfdutils/vk2dfd.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "b2fd686fdd19c385860f73efc15d6d53"
+          }
+        ]
+      },
+      {
+        "group": "KTX-Software",
+        "name": "swap",
+        "version": "0.0.0-75ceeceb4a04",
+        "type": "file",
+        "bom-ref": "pkg:generic/KTX-Software/swap@0.0.0-75ceeceb4a04#/thirdparty/libktx/lib/swap.c",
+        "purl": "pkg:generic/KTX-Software/swap@0.0.0-75ceeceb4a04#/thirdparty/libktx/lib/swap.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "75ceeceb4a045530eaffb5fc6a7c6730"
+          }
+        ]
+      },
+      {
+        "group": "embree",
+        "name": "constants",
+        "version": "0.0.0-22d3a64e4c78",
+        "type": "file",
+        "bom-ref": "pkg:generic/embree/constants@0.0.0-22d3a64e4c78#/thirdparty/embree/common/math/constants.cpp",
+        "purl": "pkg:generic/embree/constants@0.0.0-22d3a64e4c78#/thirdparty/embree/common/math/constants.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "22d3a64e4c78d3eb9350dc4203dce406"
+          }
+        ]
+      },
+      {
+        "group": "embree",
+        "name": "sse",
+        "version": "0.0.0-a46ba7b81c07",
+        "type": "file",
+        "bom-ref": "pkg:generic/embree/sse@0.0.0-a46ba7b81c07#/thirdparty/embree/common/simd/sse.cpp",
+        "purl": "pkg:generic/embree/sse@0.0.0-a46ba7b81c07#/thirdparty/embree/common/simd/sse.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "a46ba7b81c074c688d6cc26798f524aa"
+          }
+        ]
+      },
+      {
+        "group": "embree",
+        "name": "barrier",
+        "version": "0.0.0-6ee0ccbf3461",
+        "type": "file",
+        "bom-ref": "pkg:generic/embree/barrier@0.0.0-6ee0ccbf3461#/thirdparty/embree/common/sys/barrier.cpp",
+        "purl": "pkg:generic/embree/barrier@0.0.0-6ee0ccbf3461#/thirdparty/embree/common/sys/barrier.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "6ee0ccbf346124f7129d7a48d4c152a2"
+          }
+        ]
+      },
+      {
+        "group": "embree",
+        "name": "condition",
+        "version": "0.0.0-40d2bceac560",
+        "type": "file",
+        "bom-ref": "pkg:generic/embree/condition@0.0.0-40d2bceac560#/thirdparty/embree/common/sys/condition.cpp",
+        "purl": "pkg:generic/embree/condition@0.0.0-40d2bceac560#/thirdparty/embree/common/sys/condition.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "40d2bceac56071637f5324e30df2c140"
+          }
+        ]
+      },
+      {
+        "group": "embree",
+        "name": "library",
+        "version": "0.0.0-fea04da472f6",
+        "type": "file",
+        "bom-ref": "pkg:generic/embree/library@0.0.0-fea04da472f6#/thirdparty/embree/common/sys/library.cpp",
+        "purl": "pkg:generic/embree/library@0.0.0-fea04da472f6#/thirdparty/embree/common/sys/library.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "fea04da472f6970b24ce77ac5eea3c7a"
+          }
+        ]
+      },
+      {
+        "group": "embree",
+        "name": "mutex",
+        "version": "0.0.0-c8ffc0a06b00",
+        "type": "file",
+        "bom-ref": "pkg:generic/embree/mutex@0.0.0-c8ffc0a06b00#/thirdparty/embree/common/sys/mutex.cpp",
+        "purl": "pkg:generic/embree/mutex@0.0.0-c8ffc0a06b00#/thirdparty/embree/common/sys/mutex.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c8ffc0a06b00c8050abe6d5f95a4706e"
+          }
+        ]
+      },
+      {
+        "group": "embree",
+        "name": "regression",
+        "version": "0.0.0-4d8d4eb77305",
+        "type": "file",
+        "bom-ref": "pkg:generic/embree/regression@0.0.0-4d8d4eb77305#/thirdparty/embree/common/sys/regression.cpp",
+        "purl": "pkg:generic/embree/regression@0.0.0-4d8d4eb77305#/thirdparty/embree/common/sys/regression.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "4d8d4eb77305dc4b63a142aba165a1d7"
+          }
+        ]
+      },
+      {
+        "group": "embree",
+        "name": "bvh",
+        "version": "0.0.0-c8f4dea91967",
+        "type": "file",
+        "bom-ref": "pkg:generic/embree/bvh@0.0.0-c8f4dea91967#/thirdparty/embree/kernels/bvh/bvh.cpp",
+        "purl": "pkg:generic/embree/bvh@0.0.0-c8f4dea91967#/thirdparty/embree/kernels/bvh/bvh.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c8f4dea919679f0a9446be67467f626c"
+          }
+        ]
+      },
+      {
+        "group": "embree",
+        "name": "bvh_builder",
+        "version": "0.0.0-08ec656ffce3",
+        "type": "file",
+        "bom-ref": "pkg:generic/embree/bvh_builder@0.0.0-08ec656ffce3#/thirdparty/embree/kernels/bvh/bvh_builder.cpp",
+        "purl": "pkg:generic/embree/bvh_builder@0.0.0-08ec656ffce3#/thirdparty/embree/kernels/bvh/bvh_builder.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "08ec656ffce37d0d1374fcdb3b216ae3"
+          }
+        ]
+      },
+      {
+        "group": "embree",
+        "name": "bvh_rotate",
+        "version": "0.0.0-7186d25027bc",
+        "type": "file",
+        "bom-ref": "pkg:generic/embree/bvh_rotate@0.0.0-7186d25027bc#/thirdparty/embree/kernels/bvh/bvh_rotate.cpp",
+        "purl": "pkg:generic/embree/bvh_rotate@0.0.0-7186d25027bc#/thirdparty/embree/kernels/bvh/bvh_rotate.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "7186d25027bc88668fef1379baa0ec6f"
+          }
+        ]
+      },
+      {
+        "group": "embree",
+        "name": "accelset",
+        "version": "0.0.0-db2e5a4622ee",
+        "type": "file",
+        "bom-ref": "pkg:generic/embree/accelset@0.0.0-db2e5a4622ee#/thirdparty/embree/kernels/common/accelset.cpp",
+        "purl": "pkg:generic/embree/accelset@0.0.0-db2e5a4622ee#/thirdparty/embree/kernels/common/accelset.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "db2e5a4622ee836892e4e940850a4879"
+          }
+        ]
+      },
+      {
+        "group": "embree",
+        "name": "rtcore_builder",
+        "version": "0.0.0-4b54bb46177c",
+        "type": "file",
+        "bom-ref": "pkg:generic/embree/rtcore_builder@0.0.0-4b54bb46177c#/thirdparty/embree/kernels/common/rtcore_builder.cpp",
+        "purl": "pkg:generic/embree/rtcore_builder@0.0.0-4b54bb46177c#/thirdparty/embree/kernels/common/rtcore_builder.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "4b54bb46177c7f15cd56b2c032d74494"
+          }
+        ]
+      },
+      {
+        "group": "hdBlackbird",
+        "name": "mikktspace",
+        "version": "0.0.0-0c47226387ef",
+        "type": "file",
+        "bom-ref": "pkg:generic/hdBlackbird/mikktspace@0.0.0-0c47226387ef#/thirdparty/misc/mikktspace.c",
+        "purl": "pkg:generic/hdBlackbird/mikktspace@0.0.0-0c47226387ef#/thirdparty/misc/mikktspace.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "0c47226387efe9732fcfff9af9ef4e4d"
+          }
+        ]
+      },
+      {
+        "group": "libwebp",
+        "name": "alpha_processing_mips_dsp_r2",
+        "version": "0.0.0-cf7edb3d26e9",
+        "type": "file",
+        "bom-ref": "pkg:generic/libwebp/alpha_processing_mips_dsp_r2@0.0.0-cf7edb3d26e9#/thirdparty/libwebp/src/dsp/alpha_processing_mips_dsp_r2.c",
+        "purl": "pkg:generic/libwebp/alpha_processing_mips_dsp_r2@0.0.0-cf7edb3d26e9#/thirdparty/libwebp/src/dsp/alpha_processing_mips_dsp_r2.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "cf7edb3d26e967d911d9dd8924c4b9ac"
+          }
+        ]
+      },
+      {
+        "group": "libwebp",
+        "name": "alpha_processing_neon",
+        "version": "0.0.0-9198aa6c1406",
+        "type": "file",
+        "bom-ref": "pkg:generic/libwebp/alpha_processing_neon@0.0.0-9198aa6c1406#/thirdparty/libwebp/src/dsp/alpha_processing_neon.c",
+        "purl": "pkg:generic/libwebp/alpha_processing_neon@0.0.0-9198aa6c1406#/thirdparty/libwebp/src/dsp/alpha_processing_neon.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "9198aa6c1406adcf9c71254a7a6514ad"
+          }
+        ]
+      },
+      {
+        "group": "libwebp",
+        "name": "cost_mips_dsp_r2",
+        "version": "0.0.0-04f681db4de8",
+        "type": "file",
+        "bom-ref": "pkg:generic/libwebp/cost_mips_dsp_r2@0.0.0-04f681db4de8#/thirdparty/libwebp/src/dsp/cost_mips_dsp_r2.c",
+        "purl": "pkg:generic/libwebp/cost_mips_dsp_r2@0.0.0-04f681db4de8#/thirdparty/libwebp/src/dsp/cost_mips_dsp_r2.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "04f681db4de81c4982b317863d9b8e8c"
+          }
+        ]
+      },
+      {
+        "group": "libwebp",
+        "name": "rescaler_mips_dsp_r2",
+        "version": "0.0.0-d3061ecfb01d",
+        "type": "file",
+        "bom-ref": "pkg:generic/libwebp/rescaler_mips_dsp_r2@0.0.0-d3061ecfb01d#/thirdparty/libwebp/src/dsp/rescaler_mips_dsp_r2.c",
+        "purl": "pkg:generic/libwebp/rescaler_mips_dsp_r2@0.0.0-d3061ecfb01d#/thirdparty/libwebp/src/dsp/rescaler_mips_dsp_r2.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d3061ecfb01d93b09e5849ae590fbe5b"
+          }
+        ]
+      },
+      {
+        "group": "enet",
+        "name": "callbacks",
+        "version": "0.0.0-8ad44c92874b",
+        "type": "file",
+        "bom-ref": "pkg:generic/enet/callbacks@0.0.0-8ad44c92874b#/thirdparty/enet/callbacks.c",
+        "purl": "pkg:generic/enet/callbacks@0.0.0-8ad44c92874b#/thirdparty/enet/callbacks.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "8ad44c92874b79c3f0a74e5d96508dc4"
+          }
+        ]
+      },
+      {
+        "group": "enet",
+        "name": "compress",
+        "version": "0.0.0-0c645f3b51df",
+        "type": "file",
+        "bom-ref": "pkg:generic/enet/compress@0.0.0-0c645f3b51df#/thirdparty/enet/compress.c",
+        "purl": "pkg:generic/enet/compress@0.0.0-0c645f3b51df#/thirdparty/enet/compress.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "0c645f3b51dfd7e1c40e32741d350217"
+          }
+        ]
+      },
+      {
+        "group": "enet",
+        "name": "list",
+        "version": "0.0.0-ef95c7c248d4",
+        "type": "file",
+        "bom-ref": "pkg:generic/enet/list@0.0.0-ef95c7c248d4#/thirdparty/enet/list.c",
+        "purl": "pkg:generic/enet/list@0.0.0-ef95c7c248d4#/thirdparty/enet/list.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "ef95c7c248d430c6d97da50b4ed02e87"
+          }
+        ]
+      },
+      {
+        "group": "libpng",
+        "name": "filter_sse2_intrinsics",
+        "version": "0.0.0-aff9957ec96e",
+        "type": "file",
+        "bom-ref": "pkg:generic/libpng/filter_sse2_intrinsics@0.0.0-aff9957ec96e#/thirdparty/libpng/intel/filter_sse2_intrinsics.c",
+        "purl": "pkg:generic/libpng/filter_sse2_intrinsics@0.0.0-aff9957ec96e#/thirdparty/libpng/intel/filter_sse2_intrinsics.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "aff9957ec96e0720aaa40c714c52f13f"
+          }
+        ]
+      },
+      {
+        "group": "libpng",
+        "name": "intel_init",
+        "version": "0.0.0-1f93fee078a6",
+        "type": "file",
+        "bom-ref": "pkg:generic/libpng/intel_init@0.0.0-1f93fee078a6#/thirdparty/libpng/intel/intel_init.c",
+        "purl": "pkg:generic/libpng/intel_init@0.0.0-1f93fee078a6#/thirdparty/libpng/intel/intel_init.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "1f93fee078a6c3e381ad110484739f93"
+          }
+        ]
+      },
+      {
+        "group": "libpng",
+        "name": "pngwtran",
+        "version": "0.0.0-6be95e2e10b2",
+        "type": "file",
+        "bom-ref": "pkg:generic/libpng/pngwtran@0.0.0-6be95e2e10b2#/thirdparty/libpng/pngwtran.c",
+        "purl": "pkg:generic/libpng/pngwtran@0.0.0-6be95e2e10b2#/thirdparty/libpng/pngwtran.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "6be95e2e10b26cda7ad246bcf8c2b36a"
+          }
+        ]
+      },
+      {
+        "group": "FastLZ",
+        "name": "fastlz",
+        "version": "0.0.0-ea6d817b1a31",
+        "type": "file",
+        "bom-ref": "pkg:generic/FastLZ/fastlz@0.0.0-ea6d817b1a31#/thirdparty/misc/fastlz.c",
+        "purl": "pkg:generic/FastLZ/fastlz@0.0.0-ea6d817b1a31#/thirdparty/misc/fastlz.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "ea6d817b1a31a666d9c5c7d2cefa5974"
+          }
+        ]
+      },
+      {
+        "group": "vorbis",
+        "name": "analysis",
+        "version": "0.0.0-d332b6a89e76",
+        "type": "file",
+        "bom-ref": "pkg:generic/vorbis/analysis@0.0.0-d332b6a89e76#/thirdparty/libvorbis/analysis.c",
+        "purl": "pkg:generic/vorbis/analysis@0.0.0-d332b6a89e76#/thirdparty/libvorbis/analysis.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d332b6a89e76385392b224c82d1ce31a"
+          }
+        ]
+      },
+      {
+        "group": "vorbis",
+        "name": "barkmel",
+        "version": "0.0.0-05de1692c5d6",
+        "type": "file",
+        "bom-ref": "pkg:generic/vorbis/barkmel@0.0.0-05de1692c5d6#/thirdparty/libvorbis/barkmel.c",
+        "purl": "pkg:generic/vorbis/barkmel@0.0.0-05de1692c5d6#/thirdparty/libvorbis/barkmel.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "05de1692c5d6f3dac6ea29bd42414478"
+          }
+        ]
+      },
+      {
+        "group": "vorbis",
+        "name": "bitrate",
+        "version": "0.0.0-cf0a455da64e",
+        "type": "file",
+        "bom-ref": "pkg:generic/vorbis/bitrate@0.0.0-cf0a455da64e#/thirdparty/libvorbis/bitrate.c",
+        "purl": "pkg:generic/vorbis/bitrate@0.0.0-cf0a455da64e#/thirdparty/libvorbis/bitrate.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "cf0a455da64e3f0eb3d24c7fde168d39"
+          }
+        ]
+      },
+      {
+        "group": "vorbis",
+        "name": "block",
+        "version": "0.0.0-9239817886e5",
+        "type": "file",
+        "bom-ref": "pkg:generic/vorbis/block@0.0.0-9239817886e5#/thirdparty/libvorbis/block.c",
+        "purl": "pkg:generic/vorbis/block@0.0.0-9239817886e5#/thirdparty/libvorbis/block.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "9239817886e5006dd789228a07b6eb17"
+          }
+        ]
+      },
+      {
+        "group": "vorbis",
+        "name": "codebook",
+        "version": "0.0.0-22b2bae0e628",
+        "type": "file",
+        "bom-ref": "pkg:generic/vorbis/codebook@0.0.0-22b2bae0e628#/thirdparty/libvorbis/codebook.c",
+        "purl": "pkg:generic/vorbis/codebook@0.0.0-22b2bae0e628#/thirdparty/libvorbis/codebook.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "22b2bae0e628d99f8a7ae90376cbec78"
+          }
+        ]
+      },
+      {
+        "group": "vorbis",
+        "name": "envelope",
+        "version": "0.0.0-3f27acd2ba39",
+        "type": "file",
+        "bom-ref": "pkg:generic/vorbis/envelope@0.0.0-3f27acd2ba39#/thirdparty/libvorbis/envelope.c",
+        "purl": "pkg:generic/vorbis/envelope@0.0.0-3f27acd2ba39#/thirdparty/libvorbis/envelope.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "3f27acd2ba394ed3728cd0b0cbc1effc"
+          }
+        ]
+      },
+      {
+        "group": "vorbis",
+        "name": "floor0",
+        "version": "0.0.0-44e7024bb926",
+        "type": "file",
+        "bom-ref": "pkg:generic/vorbis/floor0@0.0.0-44e7024bb926#/thirdparty/libvorbis/floor0.c",
+        "purl": "pkg:generic/vorbis/floor0@0.0.0-44e7024bb926#/thirdparty/libvorbis/floor0.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "44e7024bb9263d4fd724724b5415dd94"
+          }
+        ]
+      },
+      {
+        "group": "vorbis",
+        "name": "floor1",
+        "version": "0.0.0-3b3aeff9b97c",
+        "type": "file",
+        "bom-ref": "pkg:generic/vorbis/floor1@0.0.0-3b3aeff9b97c#/thirdparty/libvorbis/floor1.c",
+        "purl": "pkg:generic/vorbis/floor1@0.0.0-3b3aeff9b97c#/thirdparty/libvorbis/floor1.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "3b3aeff9b97c88adccb1b4201f6e5fa0"
+          }
+        ]
+      },
+      {
+        "group": "vorbis",
+        "name": "info",
+        "version": "0.0.0-169e811253e0",
+        "type": "file",
+        "bom-ref": "pkg:generic/vorbis/info@0.0.0-169e811253e0#/thirdparty/libvorbis/info.c",
+        "purl": "pkg:generic/vorbis/info@0.0.0-169e811253e0#/thirdparty/libvorbis/info.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "169e811253e053d19cbe14a2ecd4d7c3"
+          }
+        ]
+      },
+      {
+        "group": "vorbis",
+        "name": "lookup",
+        "version": "0.0.0-49a3639fc126",
+        "type": "file",
+        "bom-ref": "pkg:generic/vorbis/lookup@0.0.0-49a3639fc126#/thirdparty/libvorbis/lookup.c",
+        "purl": "pkg:generic/vorbis/lookup@0.0.0-49a3639fc126#/thirdparty/libvorbis/lookup.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "49a3639fc1265e7e294eb67910e37baa"
+          }
+        ]
+      },
+      {
+        "group": "vorbis",
+        "name": "lpc",
+        "version": "0.0.0-194f24ca06ff",
+        "type": "file",
+        "bom-ref": "pkg:generic/vorbis/lpc@0.0.0-194f24ca06ff#/thirdparty/libvorbis/lpc.c",
+        "purl": "pkg:generic/vorbis/lpc@0.0.0-194f24ca06ff#/thirdparty/libvorbis/lpc.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "194f24ca06ff877ec9f8dfb9b0065ca4"
+          }
+        ]
+      },
+      {
+        "group": "vorbis",
+        "name": "lsp",
+        "version": "0.0.0-75d2fe7714b2",
+        "type": "file",
+        "bom-ref": "pkg:generic/vorbis/lsp@0.0.0-75d2fe7714b2#/thirdparty/libvorbis/lsp.c",
+        "purl": "pkg:generic/vorbis/lsp@0.0.0-75d2fe7714b2#/thirdparty/libvorbis/lsp.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "75d2fe7714b2aaf70e9a93efe7a2031f"
+          }
+        ]
+      },
+      {
+        "group": "vorbis",
+        "name": "mapping0",
+        "version": "0.0.0-4e90caef8398",
+        "type": "file",
+        "bom-ref": "pkg:generic/vorbis/mapping0@0.0.0-4e90caef8398#/thirdparty/libvorbis/mapping0.c",
+        "purl": "pkg:generic/vorbis/mapping0@0.0.0-4e90caef8398#/thirdparty/libvorbis/mapping0.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "4e90caef839816315fd218623c84df02"
+          }
+        ]
+      },
+      {
+        "group": "vorbis",
+        "name": "mdct",
+        "version": "0.0.0-1a19c9a66496",
+        "type": "file",
+        "bom-ref": "pkg:generic/vorbis/mdct@0.0.0-1a19c9a66496#/thirdparty/libvorbis/mdct.c",
+        "purl": "pkg:generic/vorbis/mdct@0.0.0-1a19c9a66496#/thirdparty/libvorbis/mdct.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "1a19c9a664960a18630da35da82d67e5"
+          }
+        ]
+      },
+      {
+        "group": "vorbis",
+        "name": "psy",
+        "version": "0.0.0-fbaf12776f56",
+        "type": "file",
+        "bom-ref": "pkg:generic/vorbis/psy@0.0.0-fbaf12776f56#/thirdparty/libvorbis/psy.c",
+        "purl": "pkg:generic/vorbis/psy@0.0.0-fbaf12776f56#/thirdparty/libvorbis/psy.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "fbaf12776f565a5ad5b0fa591cc454cb"
+          }
+        ]
+      },
+      {
+        "group": "vorbis",
+        "name": "psytune",
+        "version": "0.0.0-ee46741a674e",
+        "type": "file",
+        "bom-ref": "pkg:generic/vorbis/psytune@0.0.0-ee46741a674e#/thirdparty/libvorbis/psytune.c",
+        "purl": "pkg:generic/vorbis/psytune@0.0.0-ee46741a674e#/thirdparty/libvorbis/psytune.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "ee46741a674e24d470f88dd6365273b3"
+          }
+        ]
+      },
+      {
+        "group": "vorbis",
+        "name": "registry",
+        "version": "0.0.0-e311a8f59fa9",
+        "type": "file",
+        "bom-ref": "pkg:generic/vorbis/registry@0.0.0-e311a8f59fa9#/thirdparty/libvorbis/registry.c",
+        "purl": "pkg:generic/vorbis/registry@0.0.0-e311a8f59fa9#/thirdparty/libvorbis/registry.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "e311a8f59fa9804875ca7395a69760f7"
+          }
+        ]
+      },
+      {
+        "group": "vorbis",
+        "name": "res0",
+        "version": "0.0.0-500ad223bcd2",
+        "type": "file",
+        "bom-ref": "pkg:generic/vorbis/res0@0.0.0-500ad223bcd2#/thirdparty/libvorbis/res0.c",
+        "purl": "pkg:generic/vorbis/res0@0.0.0-500ad223bcd2#/thirdparty/libvorbis/res0.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "500ad223bcd242aa1f005e4b07611469"
+          }
+        ]
+      },
+      {
+        "group": "vorbis",
+        "name": "sharedbook",
+        "version": "0.0.0-a1c394c98395",
+        "type": "file",
+        "bom-ref": "pkg:generic/vorbis/sharedbook@0.0.0-a1c394c98395#/thirdparty/libvorbis/sharedbook.c",
+        "purl": "pkg:generic/vorbis/sharedbook@0.0.0-a1c394c98395#/thirdparty/libvorbis/sharedbook.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "a1c394c98395bb1853d0414eae5b57c5"
+          }
+        ]
+      },
+      {
+        "group": "vorbis",
+        "name": "smallft",
+        "version": "0.0.0-f703e60e5df9",
+        "type": "file",
+        "bom-ref": "pkg:generic/vorbis/smallft@0.0.0-f703e60e5df9#/thirdparty/libvorbis/smallft.c",
+        "purl": "pkg:generic/vorbis/smallft@0.0.0-f703e60e5df9#/thirdparty/libvorbis/smallft.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "f703e60e5df9e902a05abecd38e0d4bd"
+          }
+        ]
+      },
+      {
+        "group": "vorbis",
+        "name": "synthesis",
+        "version": "0.0.0-17fea63fc9b7",
+        "type": "file",
+        "bom-ref": "pkg:generic/vorbis/synthesis@0.0.0-17fea63fc9b7#/thirdparty/libvorbis/synthesis.c",
+        "purl": "pkg:generic/vorbis/synthesis@0.0.0-17fea63fc9b7#/thirdparty/libvorbis/synthesis.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "17fea63fc9b72f61999f146775e2b200"
+          }
+        ]
+      },
+      {
+        "group": "vorbis",
+        "name": "tone",
+        "version": "0.0.0-f583d0a82490",
+        "type": "file",
+        "bom-ref": "pkg:generic/vorbis/tone@0.0.0-f583d0a82490#/thirdparty/libvorbis/tone.c",
+        "purl": "pkg:generic/vorbis/tone@0.0.0-f583d0a82490#/thirdparty/libvorbis/tone.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "f583d0a824908ba8e496d001344429ca"
+          }
+        ]
+      },
+      {
+        "group": "vorbis",
+        "name": "vorbisenc",
+        "version": "0.0.0-0f50f2e3beed",
+        "type": "file",
+        "bom-ref": "pkg:generic/vorbis/vorbisenc@0.0.0-0f50f2e3beed#/thirdparty/libvorbis/vorbisenc.c",
+        "purl": "pkg:generic/vorbis/vorbisenc@0.0.0-0f50f2e3beed#/thirdparty/libvorbis/vorbisenc.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "0f50f2e3beed556657314a66b4de5a6f"
+          }
+        ]
+      },
+      {
+        "group": "vorbis",
+        "name": "vorbisfile",
+        "version": "0.0.0-83856ca36f78",
+        "type": "file",
+        "bom-ref": "pkg:generic/vorbis/vorbisfile@0.0.0-83856ca36f78#/thirdparty/libvorbis/vorbisfile.c",
+        "purl": "pkg:generic/vorbis/vorbisfile@0.0.0-83856ca36f78#/thirdparty/libvorbis/vorbisfile.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "83856ca36f78f0035d14c3660a1e9e21"
+          }
+        ]
+      },
+      {
+        "group": "vorbis",
+        "name": "window",
+        "version": "0.0.0-53e100b0fd7d",
+        "type": "file",
+        "bom-ref": "pkg:generic/vorbis/window@0.0.0-53e100b0fd7d#/thirdparty/libvorbis/window.c",
+        "purl": "pkg:generic/vorbis/window@0.0.0-53e100b0fd7d#/thirdparty/libvorbis/window.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "53e100b0fd7d9621749f6672e5a85b8d"
+          }
+        ]
+      },
+      {
+        "group": "FidelityFX-FSR2",
+        "name": "ffx_assert",
+        "version": "0.0.0-db5c00841162",
+        "type": "file",
+        "bom-ref": "pkg:generic/FidelityFX-FSR2/ffx_assert@0.0.0-db5c00841162#/thirdparty/amd-fsr2/ffx_assert.cpp",
+        "purl": "pkg:generic/FidelityFX-FSR2/ffx_assert@0.0.0-db5c00841162#/thirdparty/amd-fsr2/ffx_assert.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "db5c00841162a4441886f6f57eb95eef"
+          }
+        ]
+      },
+      {
+        "group": "ZeroTierOne",
+        "name": "igd_desc_parse",
+        "version": "0.0.0-2c411e081756",
+        "type": "file",
+        "bom-ref": "pkg:generic/ZeroTierOne/igd_desc_parse@0.0.0-2c411e081756#/thirdparty/miniupnpc/src/igd_desc_parse.c",
+        "purl": "pkg:generic/ZeroTierOne/igd_desc_parse@0.0.0-2c411e081756#/thirdparty/miniupnpc/src/igd_desc_parse.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "2c411e081756237be6a0ded537943032"
+          }
+        ]
+      },
+      {
+        "group": "ZeroTierOne",
+        "name": "minixml",
+        "version": "0.0.0-5a092bac9ef5",
+        "type": "file",
+        "bom-ref": "pkg:generic/ZeroTierOne/minixml@0.0.0-5a092bac9ef5#/thirdparty/miniupnpc/src/minixml.c",
+        "purl": "pkg:generic/ZeroTierOne/minixml@0.0.0-5a092bac9ef5#/thirdparty/miniupnpc/src/minixml.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "5a092bac9ef573297e77d95c65a2d493"
+          }
+        ]
+      },
+      {
+        "group": "ZeroTierOne",
+        "name": "upnpdev",
+        "version": "0.0.0-c392a1bc045a",
+        "type": "file",
+        "bom-ref": "pkg:generic/ZeroTierOne/upnpdev@0.0.0-c392a1bc045a#/thirdparty/miniupnpc/src/upnpdev.c",
+        "purl": "pkg:generic/ZeroTierOne/upnpdev@0.0.0-c392a1bc045a#/thirdparty/miniupnpc/src/upnpdev.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c392a1bc045af7b9584c89a94d10829a"
+          }
+        ]
+      },
+      {
+        "group": "OpenXR-SDK",
+        "name": "filesystem_utils",
+        "version": "0.0.0-d286fefd2dd1",
+        "type": "file",
+        "bom-ref": "pkg:generic/OpenXR-SDK/filesystem_utils@0.0.0-d286fefd2dd1#/thirdparty/openxr/src/common/filesystem_utils.cpp",
+        "purl": "pkg:generic/OpenXR-SDK/filesystem_utils@0.0.0-d286fefd2dd1#/thirdparty/openxr/src/common/filesystem_utils.cpp",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d286fefd2dd1a4085b61662ebf7e71b3"
+          }
+        ]
+      },
+      {
+        "group": "zlib",
+        "name": "adler32",
+        "version": "0.0.0-971fc339172e",
+        "type": "file",
+        "bom-ref": "pkg:generic/zlib/adler32@0.0.0-971fc339172e#/thirdparty/zlib/adler32.c",
+        "purl": "pkg:generic/zlib/adler32@0.0.0-971fc339172e#/thirdparty/zlib/adler32.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "971fc339172ecd47d8a12e0286229025"
+          }
+        ]
+      },
+      {
+        "group": "zlib",
+        "name": "compress",
+        "version": "0.0.0-8c23a2f087fc",
+        "type": "file",
+        "bom-ref": "pkg:generic/zlib/compress@0.0.0-8c23a2f087fc#/thirdparty/zlib/compress.c",
+        "purl": "pkg:generic/zlib/compress@0.0.0-8c23a2f087fc#/thirdparty/zlib/compress.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "8c23a2f087fc81ada0d33c38824cad60"
+          }
+        ]
+      },
+      {
+        "group": "zlib",
+        "name": "crc32",
+        "version": "0.0.0-829caae7a118",
+        "type": "file",
+        "bom-ref": "pkg:generic/zlib/crc32@0.0.0-829caae7a118#/thirdparty/zlib/crc32.c",
+        "purl": "pkg:generic/zlib/crc32@0.0.0-829caae7a118#/thirdparty/zlib/crc32.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "829caae7a118ef8189318a2cea026ee1"
+          }
+        ]
+      },
+      {
+        "group": "zlib",
+        "name": "uncompr",
+        "version": "0.0.0-76e66f9a57e6",
+        "type": "file",
+        "bom-ref": "pkg:generic/zlib/uncompr@0.0.0-76e66f9a57e6#/thirdparty/zlib/uncompr.c",
+        "purl": "pkg:generic/zlib/uncompr@0.0.0-76e66f9a57e6#/thirdparty/zlib/uncompr.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "76e66f9a57e6ee107a784323b2040f15"
+          }
+        ]
+      },
+      {
+        "group": "zlib",
+        "name": "zutil",
+        "version": "0.0.0-63c892641156",
+        "type": "file",
+        "bom-ref": "pkg:generic/zlib/zutil@0.0.0-63c892641156#/thirdparty/zlib/zutil.c",
+        "purl": "pkg:generic/zlib/zutil@0.0.0-63c892641156#/thirdparty/zlib/zutil.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "63c892641156ca90c93b210be176ecdd"
+          }
+        ]
+      },
+      {
+        "group": "pcre2",
+        "name": "pcre2_auto_possess",
+        "version": "0.0.0-301e9f44f3ee",
+        "type": "file",
+        "bom-ref": "pkg:generic/pcre2/pcre2_auto_possess@0.0.0-301e9f44f3ee#/thirdparty/pcre2/src/pcre2_auto_possess.c",
+        "purl": "pkg:generic/pcre2/pcre2_auto_possess@0.0.0-301e9f44f3ee#/thirdparty/pcre2/src/pcre2_auto_possess.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "301e9f44f3eeb2cc2d7a5792d5fec5ed"
+          }
+        ]
+      },
+      {
+        "group": "pcre2",
+        "name": "pcre2_chkdint",
+        "version": "0.0.0-bbd06c8d2179",
+        "type": "file",
+        "bom-ref": "pkg:generic/pcre2/pcre2_chkdint@0.0.0-bbd06c8d2179#/thirdparty/pcre2/src/pcre2_chkdint.c",
+        "purl": "pkg:generic/pcre2/pcre2_chkdint@0.0.0-bbd06c8d2179#/thirdparty/pcre2/src/pcre2_chkdint.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "bbd06c8d2179e8c1e28069fd5c3d630e"
+          }
+        ]
+      },
+      {
+        "group": "pcre2",
+        "name": "pcre2_compile",
+        "version": "0.0.0-561761cc0a3e",
+        "type": "file",
+        "bom-ref": "pkg:generic/pcre2/pcre2_compile@0.0.0-561761cc0a3e#/thirdparty/pcre2/src/pcre2_compile.c",
+        "purl": "pkg:generic/pcre2/pcre2_compile@0.0.0-561761cc0a3e#/thirdparty/pcre2/src/pcre2_compile.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "561761cc0a3eca35bfd41e7ddbcbf109"
+          }
+        ]
+      },
+      {
+        "group": "pcre2",
+        "name": "pcre2_compile_cgroup",
+        "version": "0.0.0-6717bc1d598d",
+        "type": "file",
+        "bom-ref": "pkg:generic/pcre2/pcre2_compile_cgroup@0.0.0-6717bc1d598d#/thirdparty/pcre2/src/pcre2_compile_cgroup.c",
+        "purl": "pkg:generic/pcre2/pcre2_compile_cgroup@0.0.0-6717bc1d598d#/thirdparty/pcre2/src/pcre2_compile_cgroup.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "6717bc1d598d2108d77243296ca96ce1"
+          }
+        ]
+      },
+      {
+        "group": "pcre2",
+        "name": "pcre2_config",
+        "version": "0.0.0-4305e11bac99",
+        "type": "file",
+        "bom-ref": "pkg:generic/pcre2/pcre2_config@0.0.0-4305e11bac99#/thirdparty/pcre2/src/pcre2_config.c",
+        "purl": "pkg:generic/pcre2/pcre2_config@0.0.0-4305e11bac99#/thirdparty/pcre2/src/pcre2_config.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "4305e11bac99b2103a4dc55af270c212"
+          }
+        ]
+      },
+      {
+        "group": "pcre2",
+        "name": "pcre2_context",
+        "version": "0.0.0-9774368a3256",
+        "type": "file",
+        "bom-ref": "pkg:generic/pcre2/pcre2_context@0.0.0-9774368a3256#/thirdparty/pcre2/src/pcre2_context.c",
+        "purl": "pkg:generic/pcre2/pcre2_context@0.0.0-9774368a3256#/thirdparty/pcre2/src/pcre2_context.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "9774368a32569093c98377c85fd84142"
+          }
+        ]
+      },
+      {
+        "group": "pcre2",
+        "name": "pcre2_convert",
+        "version": "0.0.0-44b274d86db6",
+        "type": "file",
+        "bom-ref": "pkg:generic/pcre2/pcre2_convert@0.0.0-44b274d86db6#/thirdparty/pcre2/src/pcre2_convert.c",
+        "purl": "pkg:generic/pcre2/pcre2_convert@0.0.0-44b274d86db6#/thirdparty/pcre2/src/pcre2_convert.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "44b274d86db699242d3cfc0b0748618a"
+          }
+        ]
+      },
+      {
+        "group": "pcre2",
+        "name": "pcre2_dfa_match",
+        "version": "0.0.0-2b5fb7065cc1",
+        "type": "file",
+        "bom-ref": "pkg:generic/pcre2/pcre2_dfa_match@0.0.0-2b5fb7065cc1#/thirdparty/pcre2/src/pcre2_dfa_match.c",
+        "purl": "pkg:generic/pcre2/pcre2_dfa_match@0.0.0-2b5fb7065cc1#/thirdparty/pcre2/src/pcre2_dfa_match.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "2b5fb7065cc1fc6f216ac090039e25ee"
+          }
+        ]
+      },
+      {
+        "group": "pcre2",
+        "name": "pcre2_error",
+        "version": "0.0.0-e830c956e50e",
+        "type": "file",
+        "bom-ref": "pkg:generic/pcre2/pcre2_error@0.0.0-e830c956e50e#/thirdparty/pcre2/src/pcre2_error.c",
+        "purl": "pkg:generic/pcre2/pcre2_error@0.0.0-e830c956e50e#/thirdparty/pcre2/src/pcre2_error.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "e830c956e50e7f47b74d4435dc7843f5"
+          }
+        ]
+      },
+      {
+        "group": "pcre2",
+        "name": "pcre2_extuni",
+        "version": "0.0.0-d4f58817487b",
+        "type": "file",
+        "bom-ref": "pkg:generic/pcre2/pcre2_extuni@0.0.0-d4f58817487b#/thirdparty/pcre2/src/pcre2_extuni.c",
+        "purl": "pkg:generic/pcre2/pcre2_extuni@0.0.0-d4f58817487b#/thirdparty/pcre2/src/pcre2_extuni.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d4f58817487bd3d5f4458dd038434b9d"
+          }
+        ]
+      },
+      {
+        "group": "pcre2",
+        "name": "pcre2_find_bracket",
+        "version": "0.0.0-8bdc1e5a9044",
+        "type": "file",
+        "bom-ref": "pkg:generic/pcre2/pcre2_find_bracket@0.0.0-8bdc1e5a9044#/thirdparty/pcre2/src/pcre2_find_bracket.c",
+        "purl": "pkg:generic/pcre2/pcre2_find_bracket@0.0.0-8bdc1e5a9044#/thirdparty/pcre2/src/pcre2_find_bracket.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "8bdc1e5a90445be65e97475a7184e7c1"
+          }
+        ]
+      },
+      {
+        "group": "pcre2",
+        "name": "pcre2_jit_compile",
+        "version": "0.0.0-1113e9a663e7",
+        "type": "file",
+        "bom-ref": "pkg:generic/pcre2/pcre2_jit_compile@0.0.0-1113e9a663e7#/thirdparty/pcre2/src/pcre2_jit_compile.c",
+        "purl": "pkg:generic/pcre2/pcre2_jit_compile@0.0.0-1113e9a663e7#/thirdparty/pcre2/src/pcre2_jit_compile.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "1113e9a663e7ff09ce87722d07bddffa"
+          }
+        ]
+      },
+      {
+        "group": "pcre2",
+        "name": "pcre2_maketables",
+        "version": "0.0.0-00ab8520366b",
+        "type": "file",
+        "bom-ref": "pkg:generic/pcre2/pcre2_maketables@0.0.0-00ab8520366b#/thirdparty/pcre2/src/pcre2_maketables.c",
+        "purl": "pkg:generic/pcre2/pcre2_maketables@0.0.0-00ab8520366b#/thirdparty/pcre2/src/pcre2_maketables.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "00ab8520366b2740f25fe8e12fbb7f76"
+          }
+        ]
+      },
+      {
+        "group": "pcre2",
+        "name": "pcre2_match",
+        "version": "0.0.0-2f90ed47fc80",
+        "type": "file",
+        "bom-ref": "pkg:generic/pcre2/pcre2_match@0.0.0-2f90ed47fc80#/thirdparty/pcre2/src/pcre2_match.c",
+        "purl": "pkg:generic/pcre2/pcre2_match@0.0.0-2f90ed47fc80#/thirdparty/pcre2/src/pcre2_match.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "2f90ed47fc80b8d654ae3b9f36ddf760"
+          }
+        ]
+      },
+      {
+        "group": "pcre2",
+        "name": "pcre2_match_data",
+        "version": "0.0.0-c9fd7f804984",
+        "type": "file",
+        "bom-ref": "pkg:generic/pcre2/pcre2_match_data@0.0.0-c9fd7f804984#/thirdparty/pcre2/src/pcre2_match_data.c",
+        "purl": "pkg:generic/pcre2/pcre2_match_data@0.0.0-c9fd7f804984#/thirdparty/pcre2/src/pcre2_match_data.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c9fd7f80498430b92cd0d1b34299ecc9"
+          }
+        ]
+      },
+      {
+        "group": "pcre2",
+        "name": "pcre2_match_next",
+        "version": "0.0.0-475325e496ac",
+        "type": "file",
+        "bom-ref": "pkg:generic/pcre2/pcre2_match_next@0.0.0-475325e496ac#/thirdparty/pcre2/src/pcre2_match_next.c",
+        "purl": "pkg:generic/pcre2/pcre2_match_next@0.0.0-475325e496ac#/thirdparty/pcre2/src/pcre2_match_next.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "475325e496ac802841fbb2714298e6c9"
+          }
+        ]
+      },
+      {
+        "group": "pcre2",
+        "name": "pcre2_newline",
+        "version": "0.0.0-c0b10f79e7df",
+        "type": "file",
+        "bom-ref": "pkg:generic/pcre2/pcre2_newline@0.0.0-c0b10f79e7df#/thirdparty/pcre2/src/pcre2_newline.c",
+        "purl": "pkg:generic/pcre2/pcre2_newline@0.0.0-c0b10f79e7df#/thirdparty/pcre2/src/pcre2_newline.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c0b10f79e7df68b9ca06c4ba8a85c1f1"
+          }
+        ]
+      },
+      {
+        "group": "pcre2",
+        "name": "pcre2_ord2utf",
+        "version": "0.0.0-7976ad4286ee",
+        "type": "file",
+        "bom-ref": "pkg:generic/pcre2/pcre2_ord2utf@0.0.0-7976ad4286ee#/thirdparty/pcre2/src/pcre2_ord2utf.c",
+        "purl": "pkg:generic/pcre2/pcre2_ord2utf@0.0.0-7976ad4286ee#/thirdparty/pcre2/src/pcre2_ord2utf.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "7976ad4286ee072d509093cfa31697a8"
+          }
+        ]
+      },
+      {
+        "group": "pcre2",
+        "name": "pcre2_pattern_info",
+        "version": "0.0.0-50e2685001d3",
+        "type": "file",
+        "bom-ref": "pkg:generic/pcre2/pcre2_pattern_info@0.0.0-50e2685001d3#/thirdparty/pcre2/src/pcre2_pattern_info.c",
+        "purl": "pkg:generic/pcre2/pcre2_pattern_info@0.0.0-50e2685001d3#/thirdparty/pcre2/src/pcre2_pattern_info.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "50e2685001d3e52bc71b7f6c191f05db"
+          }
+        ]
+      },
+      {
+        "group": "pcre2",
+        "name": "pcre2_script_run",
+        "version": "0.0.0-98e5c1dbd668",
+        "type": "file",
+        "bom-ref": "pkg:generic/pcre2/pcre2_script_run@0.0.0-98e5c1dbd668#/thirdparty/pcre2/src/pcre2_script_run.c",
+        "purl": "pkg:generic/pcre2/pcre2_script_run@0.0.0-98e5c1dbd668#/thirdparty/pcre2/src/pcre2_script_run.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "98e5c1dbd668238091b2d8641a9f10a5"
+          }
+        ]
+      },
+      {
+        "group": "pcre2",
+        "name": "pcre2_serialize",
+        "version": "0.0.0-310e36809fa4",
+        "type": "file",
+        "bom-ref": "pkg:generic/pcre2/pcre2_serialize@0.0.0-310e36809fa4#/thirdparty/pcre2/src/pcre2_serialize.c",
+        "purl": "pkg:generic/pcre2/pcre2_serialize@0.0.0-310e36809fa4#/thirdparty/pcre2/src/pcre2_serialize.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "310e36809fa492d978b704d0b696badb"
+          }
+        ]
+      },
+      {
+        "group": "pcre2",
+        "name": "pcre2_string_utils",
+        "version": "0.0.0-44ac6457441d",
+        "type": "file",
+        "bom-ref": "pkg:generic/pcre2/pcre2_string_utils@0.0.0-44ac6457441d#/thirdparty/pcre2/src/pcre2_string_utils.c",
+        "purl": "pkg:generic/pcre2/pcre2_string_utils@0.0.0-44ac6457441d#/thirdparty/pcre2/src/pcre2_string_utils.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "44ac6457441d30f54dde53bc8c833985"
+          }
+        ]
+      },
+      {
+        "group": "pcre2",
+        "name": "pcre2_study",
+        "version": "0.0.0-8b888cd1216c",
+        "type": "file",
+        "bom-ref": "pkg:generic/pcre2/pcre2_study@0.0.0-8b888cd1216c#/thirdparty/pcre2/src/pcre2_study.c",
+        "purl": "pkg:generic/pcre2/pcre2_study@0.0.0-8b888cd1216c#/thirdparty/pcre2/src/pcre2_study.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "8b888cd1216c0ca4ca6b410c534bb150"
+          }
+        ]
+      },
+      {
+        "group": "pcre2",
+        "name": "pcre2_substitute",
+        "version": "0.0.0-9a0f09e7b08e",
+        "type": "file",
+        "bom-ref": "pkg:generic/pcre2/pcre2_substitute@0.0.0-9a0f09e7b08e#/thirdparty/pcre2/src/pcre2_substitute.c",
+        "purl": "pkg:generic/pcre2/pcre2_substitute@0.0.0-9a0f09e7b08e#/thirdparty/pcre2/src/pcre2_substitute.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "9a0f09e7b08eda87756ee57540339dbe"
+          }
+        ]
+      },
+      {
+        "group": "pcre2",
+        "name": "pcre2_substring",
+        "version": "0.0.0-5627eb3c8611",
+        "type": "file",
+        "bom-ref": "pkg:generic/pcre2/pcre2_substring@0.0.0-5627eb3c8611#/thirdparty/pcre2/src/pcre2_substring.c",
+        "purl": "pkg:generic/pcre2/pcre2_substring@0.0.0-5627eb3c8611#/thirdparty/pcre2/src/pcre2_substring.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "5627eb3c861192d948584db8eaa99a3c"
+          }
+        ]
+      },
+      {
+        "group": "pcre2",
+        "name": "pcre2_tables",
+        "version": "0.0.0-8a01bf8a27c7",
+        "type": "file",
+        "bom-ref": "pkg:generic/pcre2/pcre2_tables@0.0.0-8a01bf8a27c7#/thirdparty/pcre2/src/pcre2_tables.c",
+        "purl": "pkg:generic/pcre2/pcre2_tables@0.0.0-8a01bf8a27c7#/thirdparty/pcre2/src/pcre2_tables.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "8a01bf8a27c7e2c0585a4aa00682b59b"
+          }
+        ]
+      },
+      {
+        "group": "pcre2",
+        "name": "pcre2_ucd",
+        "version": "0.0.0-b658e5d7c1e7",
+        "type": "file",
+        "bom-ref": "pkg:generic/pcre2/pcre2_ucd@0.0.0-b658e5d7c1e7#/thirdparty/pcre2/src/pcre2_ucd.c",
+        "purl": "pkg:generic/pcre2/pcre2_ucd@0.0.0-b658e5d7c1e7#/thirdparty/pcre2/src/pcre2_ucd.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "b658e5d7c1e7e253654f2342c1179229"
+          }
+        ]
+      },
+      {
+        "group": "pcre2",
+        "name": "pcre2_valid_utf",
+        "version": "0.0.0-cfcf317dab62",
+        "type": "file",
+        "bom-ref": "pkg:generic/pcre2/pcre2_valid_utf@0.0.0-cfcf317dab62#/thirdparty/pcre2/src/pcre2_valid_utf.c",
+        "purl": "pkg:generic/pcre2/pcre2_valid_utf@0.0.0-cfcf317dab62#/thirdparty/pcre2/src/pcre2_valid_utf.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "cfcf317dab62134bebcb979daeb6946f"
+          }
+        ]
+      },
+      {
+        "group": "pcre2",
+        "name": "pcre2_xclass",
+        "version": "0.0.0-d3d767bcb988",
+        "type": "file",
+        "bom-ref": "pkg:generic/pcre2/pcre2_xclass@0.0.0-d3d767bcb988#/thirdparty/pcre2/src/pcre2_xclass.c",
+        "purl": "pkg:generic/pcre2/pcre2_xclass@0.0.0-d3d767bcb988#/thirdparty/pcre2/src/pcre2_xclass.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d3d767bcb988cc52cca4e41025d4882c"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "afdummy",
+        "version": "0.0.0-5065c21640fa",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/afdummy@0.0.0-5065c21640fa#/thirdparty/freetype/src/autofit/afdummy.c",
+        "purl": "pkg:generic/freetype/afdummy@0.0.0-5065c21640fa#/thirdparty/freetype/src/autofit/afdummy.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "5065c21640fa73269c206e473d3992d6"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "afindic",
+        "version": "0.0.0-5b8abde92f5b",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/afindic@0.0.0-5b8abde92f5b#/thirdparty/freetype/src/autofit/afindic.c",
+        "purl": "pkg:generic/freetype/afindic@0.0.0-5b8abde92f5b#/thirdparty/freetype/src/autofit/afindic.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "5b8abde92f5b51be588d32455b84b8b1"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "afloader",
+        "version": "0.0.0-a2ad8980775d",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/afloader@0.0.0-a2ad8980775d#/thirdparty/freetype/src/autofit/afloader.c",
+        "purl": "pkg:generic/freetype/afloader@0.0.0-a2ad8980775d#/thirdparty/freetype/src/autofit/afloader.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "a2ad8980775d864a721b4ab6e8c83f4d"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftadvanc",
+        "version": "0.0.0-c70b67d1b67b",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftadvanc@0.0.0-c70b67d1b67b#/thirdparty/freetype/src/base/ftadvanc.c",
+        "purl": "pkg:generic/freetype/ftadvanc@0.0.0-c70b67d1b67b#/thirdparty/freetype/src/base/ftadvanc.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c70b67d1b67bb04ef488e147b7ad7b11"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftbbox",
+        "version": "0.0.0-d650be4ace72",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftbbox@0.0.0-d650be4ace72#/thirdparty/freetype/src/base/ftbbox.c",
+        "purl": "pkg:generic/freetype/ftbbox@0.0.0-d650be4ace72#/thirdparty/freetype/src/base/ftbbox.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d650be4ace72c58cfe42bc6340a975e3"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftbdf",
+        "version": "0.0.0-56e4cb0dbb1b",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftbdf@0.0.0-56e4cb0dbb1b#/thirdparty/freetype/src/base/ftbdf.c",
+        "purl": "pkg:generic/freetype/ftbdf@0.0.0-56e4cb0dbb1b#/thirdparty/freetype/src/base/ftbdf.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "56e4cb0dbb1b1a33ec5e384906fc3dd5"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftcid",
+        "version": "0.0.0-059ee08b6aa9",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftcid@0.0.0-059ee08b6aa9#/thirdparty/freetype/src/base/ftcid.c",
+        "purl": "pkg:generic/freetype/ftcid@0.0.0-059ee08b6aa9#/thirdparty/freetype/src/base/ftcid.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "059ee08b6aa99747e896598e00931a9f"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftdebug",
+        "version": "0.0.0-4a01d761890d",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftdebug@0.0.0-4a01d761890d#/thirdparty/freetype/src/base/ftdebug.c",
+        "purl": "pkg:generic/freetype/ftdebug@0.0.0-4a01d761890d#/thirdparty/freetype/src/base/ftdebug.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "4a01d761890d604a485c5cbb01e61d84"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "fterrors",
+        "version": "0.0.0-3357d52d75b0",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/fterrors@0.0.0-3357d52d75b0#/thirdparty/freetype/src/base/fterrors.c",
+        "purl": "pkg:generic/freetype/fterrors@0.0.0-3357d52d75b0#/thirdparty/freetype/src/base/fterrors.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "3357d52d75b0d7b2b0649be6b0762c6e"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftfntfmt",
+        "version": "0.0.0-2b78cd5f9fdd",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftfntfmt@0.0.0-2b78cd5f9fdd#/thirdparty/freetype/src/base/ftfntfmt.c",
+        "purl": "pkg:generic/freetype/ftfntfmt@0.0.0-2b78cd5f9fdd#/thirdparty/freetype/src/base/ftfntfmt.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "2b78cd5f9fddcae470b960784ef72934"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftfstype",
+        "version": "0.0.0-c0b149cab041",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftfstype@0.0.0-c0b149cab041#/thirdparty/freetype/src/base/ftfstype.c",
+        "purl": "pkg:generic/freetype/ftfstype@0.0.0-c0b149cab041#/thirdparty/freetype/src/base/ftfstype.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c0b149cab04184b8de401f382f111424"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftgasp",
+        "version": "0.0.0-441e0a76a415",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftgasp@0.0.0-441e0a76a415#/thirdparty/freetype/src/base/ftgasp.c",
+        "purl": "pkg:generic/freetype/ftgasp@0.0.0-441e0a76a415#/thirdparty/freetype/src/base/ftgasp.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "441e0a76a415d468ded9b7a57364ed6c"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftgloadr",
+        "version": "0.0.0-f67993c3e728",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftgloadr@0.0.0-f67993c3e728#/thirdparty/freetype/src/base/ftgloadr.c",
+        "purl": "pkg:generic/freetype/ftgloadr@0.0.0-f67993c3e728#/thirdparty/freetype/src/base/ftgloadr.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "f67993c3e728b1f2fe496ff1b418c4af"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftglyph",
+        "version": "0.0.0-cb07ebc64b3b",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftglyph@0.0.0-cb07ebc64b3b#/thirdparty/freetype/src/base/ftglyph.c",
+        "purl": "pkg:generic/freetype/ftglyph@0.0.0-cb07ebc64b3b#/thirdparty/freetype/src/base/ftglyph.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "cb07ebc64b3b69afb5fa13ea5eae8804"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftgxval",
+        "version": "0.0.0-add67ea40c8a",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftgxval@0.0.0-add67ea40c8a#/thirdparty/freetype/src/base/ftgxval.c",
+        "purl": "pkg:generic/freetype/ftgxval@0.0.0-add67ea40c8a#/thirdparty/freetype/src/base/ftgxval.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "add67ea40c8a1e6adccae6e72962c022"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftinit",
+        "version": "0.0.0-cf1d1b781992",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftinit@0.0.0-cf1d1b781992#/thirdparty/freetype/src/base/ftinit.c",
+        "purl": "pkg:generic/freetype/ftinit@0.0.0-cf1d1b781992#/thirdparty/freetype/src/base/ftinit.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "cf1d1b781992218b438d27873656faf8"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftlcdfil",
+        "version": "0.0.0-87851ecaf972",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftlcdfil@0.0.0-87851ecaf972#/thirdparty/freetype/src/base/ftlcdfil.c",
+        "purl": "pkg:generic/freetype/ftlcdfil@0.0.0-87851ecaf972#/thirdparty/freetype/src/base/ftlcdfil.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "87851ecaf97221ae3efff4402120eebf"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftmac",
+        "version": "0.0.0-fa7a6571d136",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftmac@0.0.0-fa7a6571d136#/thirdparty/freetype/src/base/ftmac.c",
+        "purl": "pkg:generic/freetype/ftmac@0.0.0-fa7a6571d136#/thirdparty/freetype/src/base/ftmac.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "fa7a6571d136b9fff02727f133c4b00f"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftotval",
+        "version": "0.0.0-4c4b7f5b363a",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftotval@0.0.0-4c4b7f5b363a#/thirdparty/freetype/src/base/ftotval.c",
+        "purl": "pkg:generic/freetype/ftotval@0.0.0-4c4b7f5b363a#/thirdparty/freetype/src/base/ftotval.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "4c4b7f5b363a1a5907a34ec562e79dc9"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftoutln",
+        "version": "0.0.0-560bad463479",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftoutln@0.0.0-560bad463479#/thirdparty/freetype/src/base/ftoutln.c",
+        "purl": "pkg:generic/freetype/ftoutln@0.0.0-560bad463479#/thirdparty/freetype/src/base/ftoutln.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "560bad46347938caca6314684aa61671"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftpatent",
+        "version": "0.0.0-c0fc6403ad1b",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftpatent@0.0.0-c0fc6403ad1b#/thirdparty/freetype/src/base/ftpatent.c",
+        "purl": "pkg:generic/freetype/ftpatent@0.0.0-c0fc6403ad1b#/thirdparty/freetype/src/base/ftpatent.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c0fc6403ad1b4257cd1b46478e35f761"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftpfr",
+        "version": "0.0.0-9baefce5c0e9",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftpfr@0.0.0-9baefce5c0e9#/thirdparty/freetype/src/base/ftpfr.c",
+        "purl": "pkg:generic/freetype/ftpfr@0.0.0-9baefce5c0e9#/thirdparty/freetype/src/base/ftpfr.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "9baefce5c0e94beca61ef2cc3724d905"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftpsprop",
+        "version": "0.0.0-ebfe12df92d5",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftpsprop@0.0.0-ebfe12df92d5#/thirdparty/freetype/src/base/ftpsprop.c",
+        "purl": "pkg:generic/freetype/ftpsprop@0.0.0-ebfe12df92d5#/thirdparty/freetype/src/base/ftpsprop.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "ebfe12df92d5e0aa0c4e83fb06933720"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftsnames",
+        "version": "0.0.0-ffaf9ddbd4fa",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftsnames@0.0.0-ffaf9ddbd4fa#/thirdparty/freetype/src/base/ftsnames.c",
+        "purl": "pkg:generic/freetype/ftsnames@0.0.0-ffaf9ddbd4fa#/thirdparty/freetype/src/base/ftsnames.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "ffaf9ddbd4fa1f0c41afbf6c3652f2df"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftsynth",
+        "version": "0.0.0-f6ebee85442c",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftsynth@0.0.0-f6ebee85442c#/thirdparty/freetype/src/base/ftsynth.c",
+        "purl": "pkg:generic/freetype/ftsynth@0.0.0-f6ebee85442c#/thirdparty/freetype/src/base/ftsynth.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "f6ebee85442c9a35651fa0293e292504"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "fttrigon",
+        "version": "0.0.0-c71b49949cc0",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/fttrigon@0.0.0-c71b49949cc0#/thirdparty/freetype/src/base/fttrigon.c",
+        "purl": "pkg:generic/freetype/fttrigon@0.0.0-c71b49949cc0#/thirdparty/freetype/src/base/fttrigon.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c71b49949cc0fd30252572b4caa79600"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "fttype1",
+        "version": "0.0.0-8d40aa753d7e",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/fttype1@0.0.0-8d40aa753d7e#/thirdparty/freetype/src/base/fttype1.c",
+        "purl": "pkg:generic/freetype/fttype1@0.0.0-8d40aa753d7e#/thirdparty/freetype/src/base/fttype1.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "8d40aa753d7e19c2db0a253fe15b0988"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftutil",
+        "version": "0.0.0-6ce692ff198b",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftutil@0.0.0-6ce692ff198b#/thirdparty/freetype/src/base/ftutil.c",
+        "purl": "pkg:generic/freetype/ftutil@0.0.0-6ce692ff198b#/thirdparty/freetype/src/base/ftutil.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "6ce692ff198b20c303b1f71c4a431853"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftwinfnt",
+        "version": "0.0.0-0aa412ec912c",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftwinfnt@0.0.0-0aa412ec912c#/thirdparty/freetype/src/base/ftwinfnt.c",
+        "purl": "pkg:generic/freetype/ftwinfnt@0.0.0-0aa412ec912c#/thirdparty/freetype/src/base/ftwinfnt.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "0aa412ec912c8f8ca0c241284cde9145"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "md5",
+        "version": "0.0.0-2860615ba094",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/md5@0.0.0-2860615ba094#/thirdparty/freetype/src/base/md5.c",
+        "purl": "pkg:generic/freetype/md5@0.0.0-2860615ba094#/thirdparty/freetype/src/base/md5.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "2860615ba094a6a44125894ac4638a24"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "bdf",
+        "version": "0.0.0-384e451e5cbc",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/bdf@0.0.0-384e451e5cbc#/thirdparty/freetype/src/bdf/bdf.c",
+        "purl": "pkg:generic/freetype/bdf@0.0.0-384e451e5cbc#/thirdparty/freetype/src/bdf/bdf.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "384e451e5cbc849f903775c771307b9d"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftbzip2",
+        "version": "0.0.0-36661ed665b2",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftbzip2@0.0.0-36661ed665b2#/thirdparty/freetype/src/bzip2/ftbzip2.c",
+        "purl": "pkg:generic/freetype/ftbzip2@0.0.0-36661ed665b2#/thirdparty/freetype/src/bzip2/ftbzip2.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "36661ed665b222f49300f7ffca6ee71e"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftcache",
+        "version": "0.0.0-5fe977c341c1",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftcache@0.0.0-5fe977c341c1#/thirdparty/freetype/src/cache/ftcache.c",
+        "purl": "pkg:generic/freetype/ftcache@0.0.0-5fe977c341c1#/thirdparty/freetype/src/cache/ftcache.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "5fe977c341c13dd329b64de0c3985035"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftcbasic",
+        "version": "0.0.0-9d1d46eab933",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftcbasic@0.0.0-9d1d46eab933#/thirdparty/freetype/src/cache/ftcbasic.c",
+        "purl": "pkg:generic/freetype/ftcbasic@0.0.0-9d1d46eab933#/thirdparty/freetype/src/cache/ftcbasic.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "9d1d46eab9333bcd995a853577f0a7a5"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftccache",
+        "version": "0.0.0-0dca03fc1634",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftccache@0.0.0-0dca03fc1634#/thirdparty/freetype/src/cache/ftccache.c",
+        "purl": "pkg:generic/freetype/ftccache@0.0.0-0dca03fc1634#/thirdparty/freetype/src/cache/ftccache.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "0dca03fc1634811968545bfe50f43b6f"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftccmap",
+        "version": "0.0.0-9d6d981d068d",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftccmap@0.0.0-9d6d981d068d#/thirdparty/freetype/src/cache/ftccmap.c",
+        "purl": "pkg:generic/freetype/ftccmap@0.0.0-9d6d981d068d#/thirdparty/freetype/src/cache/ftccmap.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "9d6d981d068d9e4bc833530c399cb6d0"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftcglyph",
+        "version": "0.0.0-1364cb077c20",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftcglyph@0.0.0-1364cb077c20#/thirdparty/freetype/src/cache/ftcglyph.c",
+        "purl": "pkg:generic/freetype/ftcglyph@0.0.0-1364cb077c20#/thirdparty/freetype/src/cache/ftcglyph.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "1364cb077c2077ab7d8c5dffdf730ae0"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftcimage",
+        "version": "0.0.0-901bee1e0ed6",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftcimage@0.0.0-901bee1e0ed6#/thirdparty/freetype/src/cache/ftcimage.c",
+        "purl": "pkg:generic/freetype/ftcimage@0.0.0-901bee1e0ed6#/thirdparty/freetype/src/cache/ftcimage.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "901bee1e0ed65d11145e1b2c2eac2807"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftcmanag",
+        "version": "0.0.0-6468ca91b97b",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftcmanag@0.0.0-6468ca91b97b#/thirdparty/freetype/src/cache/ftcmanag.c",
+        "purl": "pkg:generic/freetype/ftcmanag@0.0.0-6468ca91b97b#/thirdparty/freetype/src/cache/ftcmanag.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "6468ca91b97b224788eb73d8acba3bad"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftcmru",
+        "version": "0.0.0-c814bf4146c5",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftcmru@0.0.0-c814bf4146c5#/thirdparty/freetype/src/cache/ftcmru.c",
+        "purl": "pkg:generic/freetype/ftcmru@0.0.0-c814bf4146c5#/thirdparty/freetype/src/cache/ftcmru.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c814bf4146c5566d46a3e27bdfef4ef0"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftcsbits",
+        "version": "0.0.0-a00507ae5dbd",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftcsbits@0.0.0-a00507ae5dbd#/thirdparty/freetype/src/cache/ftcsbits.c",
+        "purl": "pkg:generic/freetype/ftcsbits@0.0.0-a00507ae5dbd#/thirdparty/freetype/src/cache/ftcsbits.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "a00507ae5dbd209fd78d34fc08fcb846"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "cff",
+        "version": "0.0.0-c437c41e5e6f",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/cff@0.0.0-c437c41e5e6f#/thirdparty/freetype/src/cff/cff.c",
+        "purl": "pkg:generic/freetype/cff@0.0.0-c437c41e5e6f#/thirdparty/freetype/src/cff/cff.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c437c41e5e6f9816061c80af159bc805"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "cffcmap",
+        "version": "0.0.0-e8fffc4a1c15",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/cffcmap@0.0.0-e8fffc4a1c15#/thirdparty/freetype/src/cff/cffcmap.c",
+        "purl": "pkg:generic/freetype/cffcmap@0.0.0-e8fffc4a1c15#/thirdparty/freetype/src/cff/cffcmap.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "e8fffc4a1c15f9ee98a892039427f590"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "cidload",
+        "version": "0.0.0-65741e54f596",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/cidload@0.0.0-65741e54f596#/thirdparty/freetype/src/cid/cidload.c",
+        "purl": "pkg:generic/freetype/cidload@0.0.0-65741e54f596#/thirdparty/freetype/src/cid/cidload.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "65741e54f596644e6c63e177991add97"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "cidobjs",
+        "version": "0.0.0-a2c4572fc332",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/cidobjs@0.0.0-a2c4572fc332#/thirdparty/freetype/src/cid/cidobjs.c",
+        "purl": "pkg:generic/freetype/cidobjs@0.0.0-a2c4572fc332#/thirdparty/freetype/src/cid/cidobjs.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "a2c4572fc33214ac081d42540a2a8d5f"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "cidparse",
+        "version": "0.0.0-9ec5bf0142ae",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/cidparse@0.0.0-9ec5bf0142ae#/thirdparty/freetype/src/cid/cidparse.c",
+        "purl": "pkg:generic/freetype/cidparse@0.0.0-9ec5bf0142ae#/thirdparty/freetype/src/cid/cidparse.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "9ec5bf0142aed67edc4ed80e47149635"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "cidriver",
+        "version": "0.0.0-af174a65a16f",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/cidriver@0.0.0-af174a65a16f#/thirdparty/freetype/src/cid/cidriver.c",
+        "purl": "pkg:generic/freetype/cidriver@0.0.0-af174a65a16f#/thirdparty/freetype/src/cid/cidriver.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "af174a65a16f5478b5efd4872097da5c"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "type1cid",
+        "version": "0.0.0-11798deb227c",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/type1cid@0.0.0-11798deb227c#/thirdparty/freetype/src/cid/type1cid.c",
+        "purl": "pkg:generic/freetype/type1cid@0.0.0-11798deb227c#/thirdparty/freetype/src/cid/type1cid.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "11798deb227c2bc982c35b3aff45ca65"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "gxvalid",
+        "version": "0.0.0-6ae7de7d3dcd",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/gxvalid@0.0.0-6ae7de7d3dcd#/thirdparty/freetype/src/gxvalid/gxvalid.c",
+        "purl": "pkg:generic/freetype/gxvalid@0.0.0-6ae7de7d3dcd#/thirdparty/freetype/src/gxvalid/gxvalid.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "6ae7de7d3dcd09cf44fb8b7190851189"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "gxvbsln",
+        "version": "0.0.0-8f13a5d68408",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/gxvbsln@0.0.0-8f13a5d68408#/thirdparty/freetype/src/gxvalid/gxvbsln.c",
+        "purl": "pkg:generic/freetype/gxvbsln@0.0.0-8f13a5d68408#/thirdparty/freetype/src/gxvalid/gxvbsln.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "8f13a5d684086f0e0e06cbed236adbed"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "gxvfgen",
+        "version": "0.0.0-c24a2b9bbde8",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/gxvfgen@0.0.0-c24a2b9bbde8#/thirdparty/freetype/src/gxvalid/gxvfgen.c",
+        "purl": "pkg:generic/freetype/gxvfgen@0.0.0-c24a2b9bbde8#/thirdparty/freetype/src/gxvalid/gxvfgen.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c24a2b9bbde8a1be02dde7fd28b711ca"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "gxvjust",
+        "version": "0.0.0-c2bd306e8698",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/gxvjust@0.0.0-c2bd306e8698#/thirdparty/freetype/src/gxvalid/gxvjust.c",
+        "purl": "pkg:generic/freetype/gxvjust@0.0.0-c2bd306e8698#/thirdparty/freetype/src/gxvalid/gxvjust.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c2bd306e869862881b9f1b89eb1f16a7"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "gxvlcar",
+        "version": "0.0.0-f4cc9cab60e7",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/gxvlcar@0.0.0-f4cc9cab60e7#/thirdparty/freetype/src/gxvalid/gxvlcar.c",
+        "purl": "pkg:generic/freetype/gxvlcar@0.0.0-f4cc9cab60e7#/thirdparty/freetype/src/gxvalid/gxvlcar.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "f4cc9cab60e7ed6300ed33752a92a196"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "gxvmod",
+        "version": "0.0.0-c547f0b26131",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/gxvmod@0.0.0-c547f0b26131#/thirdparty/freetype/src/gxvalid/gxvmod.c",
+        "purl": "pkg:generic/freetype/gxvmod@0.0.0-c547f0b26131#/thirdparty/freetype/src/gxvalid/gxvmod.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c547f0b26131c24ab7de3b7dae69e6ab"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "gxvmort0",
+        "version": "0.0.0-ee50cbbd8c89",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/gxvmort0@0.0.0-ee50cbbd8c89#/thirdparty/freetype/src/gxvalid/gxvmort0.c",
+        "purl": "pkg:generic/freetype/gxvmort0@0.0.0-ee50cbbd8c89#/thirdparty/freetype/src/gxvalid/gxvmort0.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "ee50cbbd8c89689f32497c2c2c59e761"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "gxvmort1",
+        "version": "0.0.0-6fca5910ee8f",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/gxvmort1@0.0.0-6fca5910ee8f#/thirdparty/freetype/src/gxvalid/gxvmort1.c",
+        "purl": "pkg:generic/freetype/gxvmort1@0.0.0-6fca5910ee8f#/thirdparty/freetype/src/gxvalid/gxvmort1.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "6fca5910ee8f1ae4f744c830954ea746"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "gxvmort2",
+        "version": "0.0.0-fb59415fe5ae",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/gxvmort2@0.0.0-fb59415fe5ae#/thirdparty/freetype/src/gxvalid/gxvmort2.c",
+        "purl": "pkg:generic/freetype/gxvmort2@0.0.0-fb59415fe5ae#/thirdparty/freetype/src/gxvalid/gxvmort2.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "fb59415fe5ae40c0a673cfee763cf624"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "gxvmort4",
+        "version": "0.0.0-3faedc727c9e",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/gxvmort4@0.0.0-3faedc727c9e#/thirdparty/freetype/src/gxvalid/gxvmort4.c",
+        "purl": "pkg:generic/freetype/gxvmort4@0.0.0-3faedc727c9e#/thirdparty/freetype/src/gxvalid/gxvmort4.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "3faedc727c9e2280aa48a4639768d04f"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "gxvmort5",
+        "version": "0.0.0-1d55f3273957",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/gxvmort5@0.0.0-1d55f3273957#/thirdparty/freetype/src/gxvalid/gxvmort5.c",
+        "purl": "pkg:generic/freetype/gxvmort5@0.0.0-1d55f3273957#/thirdparty/freetype/src/gxvalid/gxvmort5.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "1d55f3273957c1e4fb1d9a9545430a87"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "gxvmorx",
+        "version": "0.0.0-ed6ed0b35ee8",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/gxvmorx@0.0.0-ed6ed0b35ee8#/thirdparty/freetype/src/gxvalid/gxvmorx.c",
+        "purl": "pkg:generic/freetype/gxvmorx@0.0.0-ed6ed0b35ee8#/thirdparty/freetype/src/gxvalid/gxvmorx.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "ed6ed0b35ee8b831a3738c888d4594fc"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "gxvmorx0",
+        "version": "0.0.0-a3c01e628412",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/gxvmorx0@0.0.0-a3c01e628412#/thirdparty/freetype/src/gxvalid/gxvmorx0.c",
+        "purl": "pkg:generic/freetype/gxvmorx0@0.0.0-a3c01e628412#/thirdparty/freetype/src/gxvalid/gxvmorx0.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "a3c01e6284123b8ed71e22b0875c9add"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "gxvmorx1",
+        "version": "0.0.0-2f6b4d982a75",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/gxvmorx1@0.0.0-2f6b4d982a75#/thirdparty/freetype/src/gxvalid/gxvmorx1.c",
+        "purl": "pkg:generic/freetype/gxvmorx1@0.0.0-2f6b4d982a75#/thirdparty/freetype/src/gxvalid/gxvmorx1.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "2f6b4d982a756a318aa21aec49c2ef87"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "gxvmorx2",
+        "version": "0.0.0-6d2aa6716245",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/gxvmorx2@0.0.0-6d2aa6716245#/thirdparty/freetype/src/gxvalid/gxvmorx2.c",
+        "purl": "pkg:generic/freetype/gxvmorx2@0.0.0-6d2aa6716245#/thirdparty/freetype/src/gxvalid/gxvmorx2.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "6d2aa67162451c56122c65829298b61d"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "gxvmorx4",
+        "version": "0.0.0-d046b6afadbe",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/gxvmorx4@0.0.0-d046b6afadbe#/thirdparty/freetype/src/gxvalid/gxvmorx4.c",
+        "purl": "pkg:generic/freetype/gxvmorx4@0.0.0-d046b6afadbe#/thirdparty/freetype/src/gxvalid/gxvmorx4.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d046b6afadbe245678694566f5015470"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "gxvmorx5",
+        "version": "0.0.0-7470afab0aba",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/gxvmorx5@0.0.0-7470afab0aba#/thirdparty/freetype/src/gxvalid/gxvmorx5.c",
+        "purl": "pkg:generic/freetype/gxvmorx5@0.0.0-7470afab0aba#/thirdparty/freetype/src/gxvalid/gxvmorx5.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "7470afab0abad460897ddc1abcc61a4c"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "gxvopbd",
+        "version": "0.0.0-597269d8144e",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/gxvopbd@0.0.0-597269d8144e#/thirdparty/freetype/src/gxvalid/gxvopbd.c",
+        "purl": "pkg:generic/freetype/gxvopbd@0.0.0-597269d8144e#/thirdparty/freetype/src/gxvalid/gxvopbd.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "597269d8144e15d53abef299fd94c1b0"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "gxvprop",
+        "version": "0.0.0-4dd6079198e4",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/gxvprop@0.0.0-4dd6079198e4#/thirdparty/freetype/src/gxvalid/gxvprop.c",
+        "purl": "pkg:generic/freetype/gxvprop@0.0.0-4dd6079198e4#/thirdparty/freetype/src/gxvalid/gxvprop.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "4dd6079198e434b7c65977255ef6ca84"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "gxvtrak",
+        "version": "0.0.0-689cba2823b1",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/gxvtrak@0.0.0-689cba2823b1#/thirdparty/freetype/src/gxvalid/gxvtrak.c",
+        "purl": "pkg:generic/freetype/gxvtrak@0.0.0-689cba2823b1#/thirdparty/freetype/src/gxvalid/gxvtrak.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "689cba2823b14dfd84c5332c06873c09"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftgzip",
+        "version": "0.0.0-9be129b10814",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftgzip@0.0.0-9be129b10814#/thirdparty/freetype/src/gzip/ftgzip.c",
+        "purl": "pkg:generic/freetype/ftgzip@0.0.0-9be129b10814#/thirdparty/freetype/src/gzip/ftgzip.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "9be129b108147893be2463a022ca4d2d"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftlzw",
+        "version": "0.0.0-0f09f9971675",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftlzw@0.0.0-0f09f9971675#/thirdparty/freetype/src/lzw/ftlzw.c",
+        "purl": "pkg:generic/freetype/ftlzw@0.0.0-0f09f9971675#/thirdparty/freetype/src/lzw/ftlzw.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "0f09f99716755114d106dbd90e2e7852"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftzopen",
+        "version": "0.0.0-1c9041c17f3a",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftzopen@0.0.0-1c9041c17f3a#/thirdparty/freetype/src/lzw/ftzopen.c",
+        "purl": "pkg:generic/freetype/ftzopen@0.0.0-1c9041c17f3a#/thirdparty/freetype/src/lzw/ftzopen.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "1c9041c17f3a889ce1eb3f98038a5693"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "otvalid",
+        "version": "0.0.0-0870745e435f",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/otvalid@0.0.0-0870745e435f#/thirdparty/freetype/src/otvalid/otvalid.c",
+        "purl": "pkg:generic/freetype/otvalid@0.0.0-0870745e435f#/thirdparty/freetype/src/otvalid/otvalid.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "0870745e435fad3a2cf905a1c89a694f"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "otvmath",
+        "version": "0.0.0-b9f7322bc2f6",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/otvmath@0.0.0-b9f7322bc2f6#/thirdparty/freetype/src/otvalid/otvmath.c",
+        "purl": "pkg:generic/freetype/otvmath@0.0.0-b9f7322bc2f6#/thirdparty/freetype/src/otvalid/otvmath.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "b9f7322bc2f6ec3ab500b15db7dee558"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "otvmod",
+        "version": "0.0.0-4c15dc5d6dde",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/otvmod@0.0.0-4c15dc5d6dde#/thirdparty/freetype/src/otvalid/otvmod.c",
+        "purl": "pkg:generic/freetype/otvmod@0.0.0-4c15dc5d6dde#/thirdparty/freetype/src/otvalid/otvmod.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "4c15dc5d6dde2b216af11d12f96ab985"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "pcf",
+        "version": "0.0.0-529eaac8dbb9",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/pcf@0.0.0-529eaac8dbb9#/thirdparty/freetype/src/pcf/pcf.c",
+        "purl": "pkg:generic/freetype/pcf@0.0.0-529eaac8dbb9#/thirdparty/freetype/src/pcf/pcf.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "529eaac8dbb9273d18bfbd242767bd2d"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "pcfutil",
+        "version": "0.0.0-ac4d618c16b9",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/pcfutil@0.0.0-ac4d618c16b9#/thirdparty/freetype/src/pcf/pcfutil.c",
+        "purl": "pkg:generic/freetype/pcfutil@0.0.0-ac4d618c16b9#/thirdparty/freetype/src/pcf/pcfutil.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "ac4d618c16b9ebd4d58b7d312f298d0f"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "pfr",
+        "version": "0.0.0-df0e23b56f5d",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/pfr@0.0.0-df0e23b56f5d#/thirdparty/freetype/src/pfr/pfr.c",
+        "purl": "pkg:generic/freetype/pfr@0.0.0-df0e23b56f5d#/thirdparty/freetype/src/pfr/pfr.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "df0e23b56f5d7e013b9bba815e2c6556"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "pfrcmap",
+        "version": "0.0.0-52d878f367d9",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/pfrcmap@0.0.0-52d878f367d9#/thirdparty/freetype/src/pfr/pfrcmap.c",
+        "purl": "pkg:generic/freetype/pfrcmap@0.0.0-52d878f367d9#/thirdparty/freetype/src/pfr/pfrcmap.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "52d878f367d9fbed6c98f6fb6d5edb6e"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "pfrdrivr",
+        "version": "0.0.0-e40a3ac04131",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/pfrdrivr@0.0.0-e40a3ac04131#/thirdparty/freetype/src/pfr/pfrdrivr.c",
+        "purl": "pkg:generic/freetype/pfrdrivr@0.0.0-e40a3ac04131#/thirdparty/freetype/src/pfr/pfrdrivr.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "e40a3ac041310439779862207b5a69cf"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "pfrload",
+        "version": "0.0.0-ebb6902043c9",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/pfrload@0.0.0-ebb6902043c9#/thirdparty/freetype/src/pfr/pfrload.c",
+        "purl": "pkg:generic/freetype/pfrload@0.0.0-ebb6902043c9#/thirdparty/freetype/src/pfr/pfrload.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "ebb6902043c9aaf1ac3217127a753f0a"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "pfrsbit",
+        "version": "0.0.0-743e7fbd3a83",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/pfrsbit@0.0.0-743e7fbd3a83#/thirdparty/freetype/src/pfr/pfrsbit.c",
+        "purl": "pkg:generic/freetype/pfrsbit@0.0.0-743e7fbd3a83#/thirdparty/freetype/src/pfr/pfrsbit.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "743e7fbd3a8317ce3145398ededb4643"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "afmparse",
+        "version": "0.0.0-a734a9c6cf37",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/afmparse@0.0.0-a734a9c6cf37#/thirdparty/freetype/src/psaux/afmparse.c",
+        "purl": "pkg:generic/freetype/afmparse@0.0.0-a734a9c6cf37#/thirdparty/freetype/src/psaux/afmparse.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "a734a9c6cf37417fc79d835a00ae5239"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "psarrst",
+        "version": "0.0.0-877e55a01e68",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/psarrst@0.0.0-877e55a01e68#/thirdparty/freetype/src/psaux/psarrst.c",
+        "purl": "pkg:generic/freetype/psarrst@0.0.0-877e55a01e68#/thirdparty/freetype/src/psaux/psarrst.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "877e55a01e68dc93e97a6138b38f19dc"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "psaux",
+        "version": "0.0.0-3b09a78beb47",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/psaux@0.0.0-3b09a78beb47#/thirdparty/freetype/src/psaux/psaux.c",
+        "purl": "pkg:generic/freetype/psaux@0.0.0-3b09a78beb47#/thirdparty/freetype/src/psaux/psaux.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "3b09a78beb47908f9f7af3fec296272d"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "psauxmod",
+        "version": "0.0.0-63d1f44d6127",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/psauxmod@0.0.0-63d1f44d6127#/thirdparty/freetype/src/psaux/psauxmod.c",
+        "purl": "pkg:generic/freetype/psauxmod@0.0.0-63d1f44d6127#/thirdparty/freetype/src/psaux/psauxmod.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "63d1f44d612766272a879250e2ffdfda"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "psblues",
+        "version": "0.0.0-7058b36f1080",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/psblues@0.0.0-7058b36f1080#/thirdparty/freetype/src/psaux/psblues.c",
+        "purl": "pkg:generic/freetype/psblues@0.0.0-7058b36f1080#/thirdparty/freetype/src/psaux/psblues.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "7058b36f108044807df7c7c979aeda26"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "psconv",
+        "version": "0.0.0-749717260e25",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/psconv@0.0.0-749717260e25#/thirdparty/freetype/src/psaux/psconv.c",
+        "purl": "pkg:generic/freetype/psconv@0.0.0-749717260e25#/thirdparty/freetype/src/psaux/psconv.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "749717260e25b322d1e264e2efa550f2"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "pserror",
+        "version": "0.0.0-9872302ffced",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/pserror@0.0.0-9872302ffced#/thirdparty/freetype/src/psaux/pserror.c",
+        "purl": "pkg:generic/freetype/pserror@0.0.0-9872302ffced#/thirdparty/freetype/src/psaux/pserror.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "9872302ffced649b352ad19d1305d963"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "psfont",
+        "version": "0.0.0-5208bb5dbde6",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/psfont@0.0.0-5208bb5dbde6#/thirdparty/freetype/src/psaux/psfont.c",
+        "purl": "pkg:generic/freetype/psfont@0.0.0-5208bb5dbde6#/thirdparty/freetype/src/psaux/psfont.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "5208bb5dbde641289393868d5b4864ca"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "psft",
+        "version": "0.0.0-822f9436835a",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/psft@0.0.0-822f9436835a#/thirdparty/freetype/src/psaux/psft.c",
+        "purl": "pkg:generic/freetype/psft@0.0.0-822f9436835a#/thirdparty/freetype/src/psaux/psft.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "822f9436835a911077d5f6879963f73d"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "pshints",
+        "version": "0.0.0-2e2d7a6fc797",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/pshints@0.0.0-2e2d7a6fc797#/thirdparty/freetype/src/psaux/pshints.c",
+        "purl": "pkg:generic/freetype/pshints@0.0.0-2e2d7a6fc797#/thirdparty/freetype/src/psaux/pshints.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "2e2d7a6fc7971e95f5261571ebf96437"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "psintrp",
+        "version": "0.0.0-13229f4b5ddd",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/psintrp@0.0.0-13229f4b5ddd#/thirdparty/freetype/src/psaux/psintrp.c",
+        "purl": "pkg:generic/freetype/psintrp@0.0.0-13229f4b5ddd#/thirdparty/freetype/src/psaux/psintrp.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "13229f4b5ddd8b9c6c5673749ca51e23"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "psread",
+        "version": "0.0.0-28ad714dcccb",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/psread@0.0.0-28ad714dcccb#/thirdparty/freetype/src/psaux/psread.c",
+        "purl": "pkg:generic/freetype/psread@0.0.0-28ad714dcccb#/thirdparty/freetype/src/psaux/psread.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "28ad714dcccb93fa7dc67998c8fd86a5"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "psstack",
+        "version": "0.0.0-9c95a6c96f10",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/psstack@0.0.0-9c95a6c96f10#/thirdparty/freetype/src/psaux/psstack.c",
+        "purl": "pkg:generic/freetype/psstack@0.0.0-9c95a6c96f10#/thirdparty/freetype/src/psaux/psstack.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "9c95a6c96f1082d6e374833d6e6a4cab"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "t1cmap",
+        "version": "0.0.0-7feaf4e6ae04",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/t1cmap@0.0.0-7feaf4e6ae04#/thirdparty/freetype/src/psaux/t1cmap.c",
+        "purl": "pkg:generic/freetype/t1cmap@0.0.0-7feaf4e6ae04#/thirdparty/freetype/src/psaux/t1cmap.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "7feaf4e6ae041a21c6146f673b9e1e43"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "pshglob",
+        "version": "0.0.0-c37833fe872c",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/pshglob@0.0.0-c37833fe872c#/thirdparty/freetype/src/pshinter/pshglob.c",
+        "purl": "pkg:generic/freetype/pshglob@0.0.0-c37833fe872c#/thirdparty/freetype/src/pshinter/pshglob.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c37833fe872c67a1b7e052feebc1927a"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "pshinter",
+        "version": "0.0.0-669a5954e0c2",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/pshinter@0.0.0-669a5954e0c2#/thirdparty/freetype/src/pshinter/pshinter.c",
+        "purl": "pkg:generic/freetype/pshinter@0.0.0-669a5954e0c2#/thirdparty/freetype/src/pshinter/pshinter.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "669a5954e0c2d9b234bbb9f74f574ba9"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "pshmod",
+        "version": "0.0.0-e068fd132c0a",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/pshmod@0.0.0-e068fd132c0a#/thirdparty/freetype/src/pshinter/pshmod.c",
+        "purl": "pkg:generic/freetype/pshmod@0.0.0-e068fd132c0a#/thirdparty/freetype/src/pshinter/pshmod.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "e068fd132c0a6cb1f0f47a909b3614fe"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "psmodule",
+        "version": "0.0.0-8532ee73b463",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/psmodule@0.0.0-8532ee73b463#/thirdparty/freetype/src/psnames/psmodule.c",
+        "purl": "pkg:generic/freetype/psmodule@0.0.0-8532ee73b463#/thirdparty/freetype/src/psnames/psmodule.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "8532ee73b4631f22919ed24957be372f"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "psnames",
+        "version": "0.0.0-defdc1f4f975",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/psnames@0.0.0-defdc1f4f975#/thirdparty/freetype/src/psnames/psnames.c",
+        "purl": "pkg:generic/freetype/psnames@0.0.0-defdc1f4f975#/thirdparty/freetype/src/psnames/psnames.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "defdc1f4f975e34227beeb4bf91d3752"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftrend1",
+        "version": "0.0.0-d850df85458b",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftrend1@0.0.0-d850df85458b#/thirdparty/freetype/src/raster/ftrend1.c",
+        "purl": "pkg:generic/freetype/ftrend1@0.0.0-d850df85458b#/thirdparty/freetype/src/raster/ftrend1.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d850df85458b67288f01997bffe4a637"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "raster",
+        "version": "0.0.0-757e56a40f98",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/raster@0.0.0-757e56a40f98#/thirdparty/freetype/src/raster/raster.c",
+        "purl": "pkg:generic/freetype/raster@0.0.0-757e56a40f98#/thirdparty/freetype/src/raster/raster.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "757e56a40f989e2a8fa1bbf2bfb14088"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftsdfcommon",
+        "version": "0.0.0-ed8e4d9663d0",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftsdfcommon@0.0.0-ed8e4d9663d0#/thirdparty/freetype/src/sdf/ftsdfcommon.c",
+        "purl": "pkg:generic/freetype/ftsdfcommon@0.0.0-ed8e4d9663d0#/thirdparty/freetype/src/sdf/ftsdfcommon.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "ed8e4d9663d05291d8f4df6ee42d6193"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftsdfrend",
+        "version": "0.0.0-25b41aa7e173",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftsdfrend@0.0.0-25b41aa7e173#/thirdparty/freetype/src/sdf/ftsdfrend.c",
+        "purl": "pkg:generic/freetype/ftsdfrend@0.0.0-25b41aa7e173#/thirdparty/freetype/src/sdf/ftsdfrend.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "25b41aa7e173b92fd6a375f3ef3fff50"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "sdf",
+        "version": "0.0.0-dd0bda9b02bf",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/sdf@0.0.0-dd0bda9b02bf#/thirdparty/freetype/src/sdf/sdf.c",
+        "purl": "pkg:generic/freetype/sdf@0.0.0-dd0bda9b02bf#/thirdparty/freetype/src/sdf/sdf.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "dd0bda9b02bf902d98da2a0fd77fd8a2"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "pngshim",
+        "version": "0.0.0-3e334700f203",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/pngshim@0.0.0-3e334700f203#/thirdparty/freetype/src/sfnt/pngshim.c",
+        "purl": "pkg:generic/freetype/pngshim@0.0.0-3e334700f203#/thirdparty/freetype/src/sfnt/pngshim.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "3e334700f203e9af92eccfcfca1ec2bd"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "sfnt",
+        "version": "0.0.0-a8245fdcdc3e",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/sfnt@0.0.0-a8245fdcdc3e#/thirdparty/freetype/src/sfnt/sfnt.c",
+        "purl": "pkg:generic/freetype/sfnt@0.0.0-a8245fdcdc3e#/thirdparty/freetype/src/sfnt/sfnt.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "a8245fdcdc3ee6de7870d1c440f58fe3"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "sfwoff",
+        "version": "0.0.0-223f2995f30d",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/sfwoff@0.0.0-223f2995f30d#/thirdparty/freetype/src/sfnt/sfwoff.c",
+        "purl": "pkg:generic/freetype/sfwoff@0.0.0-223f2995f30d#/thirdparty/freetype/src/sfnt/sfwoff.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "223f2995f30dc2ee6c5f0b9697daa1b3"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ttbdf",
+        "version": "0.0.0-9c148c0428b1",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ttbdf@0.0.0-9c148c0428b1#/thirdparty/freetype/src/sfnt/ttbdf.c",
+        "purl": "pkg:generic/freetype/ttbdf@0.0.0-9c148c0428b1#/thirdparty/freetype/src/sfnt/ttbdf.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "9c148c0428b10499dc65792cc30a88cc"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ttcolr",
+        "version": "0.0.0-dc136bed3825",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ttcolr@0.0.0-dc136bed3825#/thirdparty/freetype/src/sfnt/ttcolr.c",
+        "purl": "pkg:generic/freetype/ttcolr@0.0.0-dc136bed3825#/thirdparty/freetype/src/sfnt/ttcolr.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "dc136bed3825e80f533a891317fff896"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ttcpal",
+        "version": "0.0.0-4b5bf0fd07ec",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ttcpal@0.0.0-4b5bf0fd07ec#/thirdparty/freetype/src/sfnt/ttcpal.c",
+        "purl": "pkg:generic/freetype/ttcpal@0.0.0-4b5bf0fd07ec#/thirdparty/freetype/src/sfnt/ttcpal.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "4b5bf0fd07eccf28dac4a904559daea7"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ttkern",
+        "version": "0.0.0-d1bd0f00cceb",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ttkern@0.0.0-d1bd0f00cceb#/thirdparty/freetype/src/sfnt/ttkern.c",
+        "purl": "pkg:generic/freetype/ttkern@0.0.0-d1bd0f00cceb#/thirdparty/freetype/src/sfnt/ttkern.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d1bd0f00cceb66d4c8aae1dfbbd57214"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ttpost",
+        "version": "0.0.0-58ca3f55ccc5",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ttpost@0.0.0-58ca3f55ccc5#/thirdparty/freetype/src/sfnt/ttpost.c",
+        "purl": "pkg:generic/freetype/ttpost@0.0.0-58ca3f55ccc5#/thirdparty/freetype/src/sfnt/ttpost.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "58ca3f55ccc5b6dd2b7c6dee759c4b98"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "woff2tags",
+        "version": "0.0.0-caf8b750a6e6",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/woff2tags@0.0.0-caf8b750a6e6#/thirdparty/freetype/src/sfnt/woff2tags.c",
+        "purl": "pkg:generic/freetype/woff2tags@0.0.0-caf8b750a6e6#/thirdparty/freetype/src/sfnt/woff2tags.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "caf8b750a6e6b5850851b4807bd38743"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftsmooth",
+        "version": "0.0.0-d00ceae07f63",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftsmooth@0.0.0-d00ceae07f63#/thirdparty/freetype/src/smooth/ftsmooth.c",
+        "purl": "pkg:generic/freetype/ftsmooth@0.0.0-d00ceae07f63#/thirdparty/freetype/src/smooth/ftsmooth.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d00ceae07f63365f35142e8c50393090"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "smooth",
+        "version": "0.0.0-9d4ceb7cfc09",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/smooth@0.0.0-9d4ceb7cfc09#/thirdparty/freetype/src/smooth/smooth.c",
+        "purl": "pkg:generic/freetype/smooth@0.0.0-9d4ceb7cfc09#/thirdparty/freetype/src/smooth/smooth.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "9d4ceb7cfc090241c75545be9f615918"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "ftsvg",
+        "version": "0.0.0-d55857707ea4",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/ftsvg@0.0.0-d55857707ea4#/thirdparty/freetype/src/svg/ftsvg.c",
+        "purl": "pkg:generic/freetype/ftsvg@0.0.0-d55857707ea4#/thirdparty/freetype/src/svg/ftsvg.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d55857707ea4c4dd847a47b128c1d2ae"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "svg",
+        "version": "0.0.0-7e9012975f3d",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/svg@0.0.0-7e9012975f3d#/thirdparty/freetype/src/svg/svg.c",
+        "purl": "pkg:generic/freetype/svg@0.0.0-7e9012975f3d#/thirdparty/freetype/src/svg/svg.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "7e9012975f3dd6addfe02f55c6ce4af9"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "truetype",
+        "version": "0.0.0-f0ceebfb9226",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/truetype@0.0.0-f0ceebfb9226#/thirdparty/freetype/src/truetype/truetype.c",
+        "purl": "pkg:generic/freetype/truetype@0.0.0-f0ceebfb9226#/thirdparty/freetype/src/truetype/truetype.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "f0ceebfb92264a2e9dbe216d10089a62"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "t1afm",
+        "version": "0.0.0-c26574a34be1",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/t1afm@0.0.0-c26574a34be1#/thirdparty/freetype/src/type1/t1afm.c",
+        "purl": "pkg:generic/freetype/t1afm@0.0.0-c26574a34be1#/thirdparty/freetype/src/type1/t1afm.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c26574a34be140f2d60ac7d66377d130"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "t1driver",
+        "version": "0.0.0-01673dcce956",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/t1driver@0.0.0-01673dcce956#/thirdparty/freetype/src/type1/t1driver.c",
+        "purl": "pkg:generic/freetype/t1driver@0.0.0-01673dcce956#/thirdparty/freetype/src/type1/t1driver.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "01673dcce956507b2964e8a6b8ec060b"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "t1objs",
+        "version": "0.0.0-ba2816d163b4",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/t1objs@0.0.0-ba2816d163b4#/thirdparty/freetype/src/type1/t1objs.c",
+        "purl": "pkg:generic/freetype/t1objs@0.0.0-ba2816d163b4#/thirdparty/freetype/src/type1/t1objs.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "ba2816d163b49477031ac87bcb2b9fbc"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "t1parse",
+        "version": "0.0.0-f4aad6034cd1",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/t1parse@0.0.0-f4aad6034cd1#/thirdparty/freetype/src/type1/t1parse.c",
+        "purl": "pkg:generic/freetype/t1parse@0.0.0-f4aad6034cd1#/thirdparty/freetype/src/type1/t1parse.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "f4aad6034cd1b241617834bbd0a4d615"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "type1",
+        "version": "0.0.0-fee708a315c7",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/type1@0.0.0-fee708a315c7#/thirdparty/freetype/src/type1/type1.c",
+        "purl": "pkg:generic/freetype/type1@0.0.0-fee708a315c7#/thirdparty/freetype/src/type1/type1.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "fee708a315c7d6ce63b41aac28ad6690"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "t42drivr",
+        "version": "0.0.0-69db92258373",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/t42drivr@0.0.0-69db92258373#/thirdparty/freetype/src/type42/t42drivr.c",
+        "purl": "pkg:generic/freetype/t42drivr@0.0.0-69db92258373#/thirdparty/freetype/src/type42/t42drivr.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "69db922583730c5b5a2acde2d1ac0f84"
+          }
+        ]
+      },
+      {
+        "group": "freetype",
+        "name": "type42",
+        "version": "0.0.0-ef2f78a9eafc",
+        "type": "file",
+        "bom-ref": "pkg:generic/freetype/type42@0.0.0-ef2f78a9eafc#/thirdparty/freetype/src/type42/type42.c",
+        "purl": "pkg:generic/freetype/type42@0.0.0-ef2f78a9eafc#/thirdparty/freetype/src/type42/type42.c",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "ef2f78a9eafca9f54cf5ad7c5b000559"
+          }
+        ]
+      },
+      {
+        "group": "harfbuzz",
+        "name": "gsubgpos-context",
+        "version": "0.0.0-1256325ef3c5",
+        "type": "file",
+        "bom-ref": "pkg:generic/harfbuzz/gsubgpos-context@0.0.0-1256325ef3c5#/thirdparty/harfbuzz/src/graph/gsubgpos-context.cc",
+        "purl": "pkg:generic/harfbuzz/gsubgpos-context@0.0.0-1256325ef3c5#/thirdparty/harfbuzz/src/graph/gsubgpos-context.cc",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "1256325ef3c5323c872c0d39ed403ed7"
+          }
+        ]
+      },
+      {
+        "group": "harfbuzz",
+        "name": "hb-blob",
+        "version": "0.0.0-603c521ae887",
+        "type": "file",
+        "bom-ref": "pkg:generic/harfbuzz/hb-blob@0.0.0-603c521ae887#/thirdparty/harfbuzz/src/hb-blob.cc",
+        "purl": "pkg:generic/harfbuzz/hb-blob@0.0.0-603c521ae887#/thirdparty/harfbuzz/src/hb-blob.cc",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "603c521ae887c7d6988060643aac6a05"
+          }
+        ]
+      },
+      {
+        "group": "harfbuzz",
+        "name": "hb-fallback-shape",
+        "version": "0.0.0-1f7eee3d32bd",
+        "type": "file",
+        "bom-ref": "pkg:generic/harfbuzz/hb-fallback-shape@0.0.0-1f7eee3d32bd#/thirdparty/harfbuzz/src/hb-fallback-shape.cc",
+        "purl": "pkg:generic/harfbuzz/hb-fallback-shape@0.0.0-1f7eee3d32bd#/thirdparty/harfbuzz/src/hb-fallback-shape.cc",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "1f7eee3d32bdeeea4c173ed128e1c208"
+          }
+        ]
+      },
+      {
+        "group": "harfbuzz",
+        "name": "hb-gdi",
+        "version": "0.0.0-0dec67cc480f",
+        "type": "file",
+        "bom-ref": "pkg:generic/harfbuzz/hb-gdi@0.0.0-0dec67cc480f#/thirdparty/harfbuzz/src/hb-gdi.cc",
+        "purl": "pkg:generic/harfbuzz/hb-gdi@0.0.0-0dec67cc480f#/thirdparty/harfbuzz/src/hb-gdi.cc",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "0dec67cc480fb81fc234ef5b43a4bbdb"
+          }
+        ]
+      },
+      {
+        "group": "harfbuzz",
+        "name": "hb-map",
+        "version": "0.0.0-d593f9be54a0",
+        "type": "file",
+        "bom-ref": "pkg:generic/harfbuzz/hb-map@0.0.0-d593f9be54a0#/thirdparty/harfbuzz/src/hb-map.cc",
+        "purl": "pkg:generic/harfbuzz/hb-map@0.0.0-d593f9be54a0#/thirdparty/harfbuzz/src/hb-map.cc",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d593f9be54a02b06bdbdb63a85d73031"
+          }
+        ]
+      },
+      {
+        "group": "harfbuzz",
+        "name": "hb-number",
+        "version": "0.0.0-a895f5f12606",
+        "type": "file",
+        "bom-ref": "pkg:generic/harfbuzz/hb-number@0.0.0-a895f5f12606#/thirdparty/harfbuzz/src/hb-number.cc",
+        "purl": "pkg:generic/harfbuzz/hb-number@0.0.0-a895f5f12606#/thirdparty/harfbuzz/src/hb-number.cc",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "a895f5f12606345f96d03fd42090aeb4"
+          }
+        ]
+      },
+      {
+        "group": "harfbuzz",
+        "name": "hb-ot-meta",
+        "version": "0.0.0-a20f884e3b88",
+        "type": "file",
+        "bom-ref": "pkg:generic/harfbuzz/hb-ot-meta@0.0.0-a20f884e3b88#/thirdparty/harfbuzz/src/hb-ot-meta.cc",
+        "purl": "pkg:generic/harfbuzz/hb-ot-meta@0.0.0-a20f884e3b88#/thirdparty/harfbuzz/src/hb-ot-meta.cc",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "a20f884e3b88ad316bfd1a5f1bf8bfc4"
+          }
+        ]
+      },
+      {
+        "group": "harfbuzz",
+        "name": "hb-ot-metrics",
+        "version": "0.0.0-8f0b5ea9e9eb",
+        "type": "file",
+        "bom-ref": "pkg:generic/harfbuzz/hb-ot-metrics@0.0.0-8f0b5ea9e9eb#/thirdparty/harfbuzz/src/hb-ot-metrics.cc",
+        "purl": "pkg:generic/harfbuzz/hb-ot-metrics@0.0.0-8f0b5ea9e9eb#/thirdparty/harfbuzz/src/hb-ot-metrics.cc",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "8f0b5ea9e9ebd962b91d52ae93ad7dcb"
+          }
+        ]
+      },
+      {
+        "group": "harfbuzz",
+        "name": "hb-ot-name",
+        "version": "0.0.0-0805d815185e",
+        "type": "file",
+        "bom-ref": "pkg:generic/harfbuzz/hb-ot-name@0.0.0-0805d815185e#/thirdparty/harfbuzz/src/hb-ot-name.cc",
+        "purl": "pkg:generic/harfbuzz/hb-ot-name@0.0.0-0805d815185e#/thirdparty/harfbuzz/src/hb-ot-name.cc",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "0805d815185e2a956c7a3eeff71ad887"
+          }
+        ]
+      },
+      {
+        "group": "harfbuzz",
+        "name": "hb-ot-shaper-default",
+        "version": "0.0.0-fb7ccd1f6e94",
+        "type": "file",
+        "bom-ref": "pkg:generic/harfbuzz/hb-ot-shaper-default@0.0.0-fb7ccd1f6e94#/thirdparty/harfbuzz/src/hb-ot-shaper-default.cc",
+        "purl": "pkg:generic/harfbuzz/hb-ot-shaper-default@0.0.0-fb7ccd1f6e94#/thirdparty/harfbuzz/src/hb-ot-shaper-default.cc",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "fb7ccd1f6e945088f6bbc9d8cd3e06c9"
+          }
+        ]
+      },
+      {
+        "group": "harfbuzz",
+        "name": "hb-ot-shaper-khmer",
+        "version": "0.0.0-632a09bbe184",
+        "type": "file",
+        "bom-ref": "pkg:generic/harfbuzz/hb-ot-shaper-khmer@0.0.0-632a09bbe184#/thirdparty/harfbuzz/src/hb-ot-shaper-khmer.cc",
+        "purl": "pkg:generic/harfbuzz/hb-ot-shaper-khmer@0.0.0-632a09bbe184#/thirdparty/harfbuzz/src/hb-ot-shaper-khmer.cc",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "632a09bbe184a3717e15f8a39fe00dde"
+          }
+        ]
+      },
+      {
+        "group": "harfbuzz",
+        "name": "hb-ot-shaper-myanmar",
+        "version": "0.0.0-e7ff15cb49eb",
+        "type": "file",
+        "bom-ref": "pkg:generic/harfbuzz/hb-ot-shaper-myanmar@0.0.0-e7ff15cb49eb#/thirdparty/harfbuzz/src/hb-ot-shaper-myanmar.cc",
+        "purl": "pkg:generic/harfbuzz/hb-ot-shaper-myanmar@0.0.0-e7ff15cb49eb#/thirdparty/harfbuzz/src/hb-ot-shaper-myanmar.cc",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "e7ff15cb49eb1756d6392b09a9b05afb"
+          }
+        ]
+      },
+      {
+        "group": "harfbuzz",
+        "name": "hb-ot-shaper-syllabic",
+        "version": "0.0.0-a2114f6beea3",
+        "type": "file",
+        "bom-ref": "pkg:generic/harfbuzz/hb-ot-shaper-syllabic@0.0.0-a2114f6beea3#/thirdparty/harfbuzz/src/hb-ot-shaper-syllabic.cc",
+        "purl": "pkg:generic/harfbuzz/hb-ot-shaper-syllabic@0.0.0-a2114f6beea3#/thirdparty/harfbuzz/src/hb-ot-shaper-syllabic.cc",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "a2114f6beea3266d63d9e5c1bb0cfb03"
+          }
+        ]
+      },
+      {
+        "group": "harfbuzz",
+        "name": "hb-ot-shaper-use",
+        "version": "0.0.0-c959d14e9b70",
+        "type": "file",
+        "bom-ref": "pkg:generic/harfbuzz/hb-ot-shaper-use@0.0.0-c959d14e9b70#/thirdparty/harfbuzz/src/hb-ot-shaper-use.cc",
+        "purl": "pkg:generic/harfbuzz/hb-ot-shaper-use@0.0.0-c959d14e9b70#/thirdparty/harfbuzz/src/hb-ot-shaper-use.cc",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c959d14e9b70920eec99eb50be2d5793"
+          }
+        ]
+      },
+      {
+        "group": "harfbuzz",
+        "name": "hb-set",
+        "version": "0.0.0-261a830c8164",
+        "type": "file",
+        "bom-ref": "pkg:generic/harfbuzz/hb-set@0.0.0-261a830c8164#/thirdparty/harfbuzz/src/hb-set.cc",
+        "purl": "pkg:generic/harfbuzz/hb-set@0.0.0-261a830c8164#/thirdparty/harfbuzz/src/hb-set.cc",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "261a830c81640b4886ab1640537b2809"
+          }
+        ]
+      },
+      {
+        "group": "harfbuzz",
+        "name": "hb-shaper",
+        "version": "0.0.0-abbe274980b7",
+        "type": "file",
+        "bom-ref": "pkg:generic/harfbuzz/hb-shaper@0.0.0-abbe274980b7#/thirdparty/harfbuzz/src/hb-shaper.cc",
+        "purl": "pkg:generic/harfbuzz/hb-shaper@0.0.0-abbe274980b7#/thirdparty/harfbuzz/src/hb-shaper.cc",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "abbe274980b72cfb1233238ebf3e7224"
+          }
+        ]
+      },
+      {
+        "group": "harfbuzz",
+        "name": "hb-style",
+        "version": "0.0.0-efee39287376",
+        "type": "file",
+        "bom-ref": "pkg:generic/harfbuzz/hb-style@0.0.0-efee39287376#/thirdparty/harfbuzz/src/hb-style.cc",
+        "purl": "pkg:generic/harfbuzz/hb-style@0.0.0-efee39287376#/thirdparty/harfbuzz/src/hb-style.cc",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "efee392873768ab5d908657bc63e83f6"
+          }
+        ]
+      },
+      {
+        "group": "harfbuzz",
+        "name": "hb-subset-cff-common",
+        "version": "0.0.0-7755d0b3f91d",
+        "type": "file",
+        "bom-ref": "pkg:generic/harfbuzz/hb-subset-cff-common@0.0.0-7755d0b3f91d#/thirdparty/harfbuzz/src/hb-subset-cff-common.cc",
+        "purl": "pkg:generic/harfbuzz/hb-subset-cff-common@0.0.0-7755d0b3f91d#/thirdparty/harfbuzz/src/hb-subset-cff-common.cc",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "7755d0b3f91d0b0ada7b64191d2b0e22"
+          }
+        ]
+      },
+      {
+        "group": "harfbuzz",
+        "name": "hb-subset-cff2",
+        "version": "0.0.0-8dabc68bf5c6",
+        "type": "file",
+        "bom-ref": "pkg:generic/harfbuzz/hb-subset-cff2@0.0.0-8dabc68bf5c6#/thirdparty/harfbuzz/src/hb-subset-cff2.cc",
+        "purl": "pkg:generic/harfbuzz/hb-subset-cff2@0.0.0-8dabc68bf5c6#/thirdparty/harfbuzz/src/hb-subset-cff2.cc",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "8dabc68bf5c64c418a8ba8f7f2e68d4f"
+          }
+        ]
+      },
+      {
+        "group": "harfbuzz",
+        "name": "hb-ucd",
+        "version": "0.0.0-64940d379bea",
+        "type": "file",
+        "bom-ref": "pkg:generic/harfbuzz/hb-ucd@0.0.0-64940d379bea#/thirdparty/harfbuzz/src/hb-ucd.cc",
+        "purl": "pkg:generic/harfbuzz/hb-ucd@0.0.0-64940d379bea#/thirdparty/harfbuzz/src/hb-ucd.cc",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "64940d379bea6ddf4a5da4e272426b17"
+          }
+        ]
+      },
+      {
+        "group": "harfbuzz",
+        "name": "hb-unicode",
+        "version": "0.0.0-97c3fa43963f",
+        "type": "file",
+        "bom-ref": "pkg:generic/harfbuzz/hb-unicode@0.0.0-97c3fa43963f#/thirdparty/harfbuzz/src/hb-unicode.cc",
+        "purl": "pkg:generic/harfbuzz/hb-unicode@0.0.0-97c3fa43963f#/thirdparty/harfbuzz/src/hb-unicode.cc",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "97c3fa43963fa48d8b3d8a585b8230d8"
+          }
+        ]
+      },
+      {
+        "group": "harfbuzz",
+        "name": "hb-uniscribe",
+        "version": "0.0.0-220358a97ede",
+        "type": "file",
+        "bom-ref": "pkg:generic/harfbuzz/hb-uniscribe@0.0.0-220358a97ede#/thirdparty/harfbuzz/src/hb-uniscribe.cc",
+        "purl": "pkg:generic/harfbuzz/hb-uniscribe@0.0.0-220358a97ede#/thirdparty/harfbuzz/src/hb-uniscribe.cc",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "220358a97edef0ac4ad5e20de9d3317f"
+          }
+        ]
+      },
+      {
+        "group": "link-bubble",
+        "name": "DeviceLimiter",
+        "version": "0.0.0-1aa0cf5147ac",
+        "type": "file",
+        "bom-ref": "pkg:generic/link-bubble/DeviceLimiter@0.0.0-1aa0cf5147ac#/platform/android/java/lib/src/main/java/com/google/android/vending/licensing/DeviceLimiter.java",
+        "purl": "pkg:generic/link-bubble/DeviceLimiter@0.0.0-1aa0cf5147ac#/platform/android/java/lib/src/main/java/com/google/android/vending/licensing/DeviceLimiter.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "1aa0cf5147ac5b3648969b7ce8792957"
+          }
+        ]
+      },
+      {
+        "group": "link-bubble",
+        "name": "LicenseCheckerCallback",
+        "version": "0.0.0-15ff45c75df5",
+        "type": "file",
+        "bom-ref": "pkg:generic/link-bubble/LicenseCheckerCallback@0.0.0-15ff45c75df5#/platform/android/java/lib/src/main/java/com/google/android/vending/licensing/LicenseCheckerCallback.java",
+        "purl": "pkg:generic/link-bubble/LicenseCheckerCallback@0.0.0-15ff45c75df5#/platform/android/java/lib/src/main/java/com/google/android/vending/licensing/LicenseCheckerCallback.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "15ff45c75df5a7a67782f7b2f89b6b85"
+          }
+        ]
+      },
+      {
+        "group": "link-bubble",
+        "name": "NullDeviceLimiter",
+        "version": "0.0.0-e38c84103703",
+        "type": "file",
+        "bom-ref": "pkg:generic/link-bubble/NullDeviceLimiter@0.0.0-e38c84103703#/platform/android/java/lib/src/main/java/com/google/android/vending/licensing/NullDeviceLimiter.java",
+        "purl": "pkg:generic/link-bubble/NullDeviceLimiter@0.0.0-e38c84103703#/platform/android/java/lib/src/main/java/com/google/android/vending/licensing/NullDeviceLimiter.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "e38c84103703f66c1ee4d81e74cf7a95"
+          }
+        ]
+      },
+      {
+        "group": "link-bubble",
+        "name": "Obfuscator",
+        "version": "0.0.0-32dc255b3a61",
+        "type": "file",
+        "bom-ref": "pkg:generic/link-bubble/Obfuscator@0.0.0-32dc255b3a61#/platform/android/java/lib/src/main/java/com/google/android/vending/licensing/Obfuscator.java",
+        "purl": "pkg:generic/link-bubble/Obfuscator@0.0.0-32dc255b3a61#/platform/android/java/lib/src/main/java/com/google/android/vending/licensing/Obfuscator.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "32dc255b3a615fd1d180a8c79c4f5fd6"
+          }
+        ]
+      },
+      {
+        "group": "link-bubble",
+        "name": "ValidationException",
+        "version": "0.0.0-2ffbf0b284ba",
+        "type": "file",
+        "bom-ref": "pkg:generic/link-bubble/ValidationException@0.0.0-2ffbf0b284ba#/platform/android/java/lib/src/main/java/com/google/android/vending/licensing/ValidationException.java",
+        "purl": "pkg:generic/link-bubble/ValidationException@0.0.0-2ffbf0b284ba#/platform/android/java/lib/src/main/java/com/google/android/vending/licensing/ValidationException.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "2ffbf0b284bae645c914a89eca37ddbe"
+          }
+        ]
+      },
+      {
+        "group": "android-getapkinfo",
+        "name": "Hints",
+        "version": "0.0.0-968b2642d4c6",
+        "type": "file",
+        "bom-ref": "pkg:generic/android-getapkinfo/Hints@0.0.0-968b2642d4c6#/platform/android/java/editor/src/main/java/com/android/apksig/Hints.java",
+        "purl": "pkg:generic/android-getapkinfo/Hints@0.0.0-968b2642d4c6#/platform/android/java/editor/src/main/java/com/android/apksig/Hints.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "968b2642d4c6bb7fa3b1b33b036197eb"
+          }
+        ]
+      },
+      {
+        "group": "android-getapkinfo",
+        "name": "ChainedDataSource",
+        "version": "0.0.0-58061bac642b",
+        "type": "file",
+        "bom-ref": "pkg:generic/android-getapkinfo/ChainedDataSource@0.0.0-58061bac642b#/platform/android/java/editor/src/main/java/com/android/apksig/internal/util/ChainedDataSource.java",
+        "purl": "pkg:generic/android-getapkinfo/ChainedDataSource@0.0.0-58061bac642b#/platform/android/java/editor/src/main/java/com/android/apksig/internal/util/ChainedDataSource.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "58061bac642b23af602150402ca678ef"
+          }
+        ]
+      },
+      {
+        "group": "android-getapkinfo",
+        "name": "FileChannelDataSource",
+        "version": "0.0.0-d3f28e74c2d8",
+        "type": "file",
+        "bom-ref": "pkg:generic/android-getapkinfo/FileChannelDataSource@0.0.0-d3f28e74c2d8#/platform/android/java/editor/src/main/java/com/android/apksig/internal/util/FileChannelDataSource.java",
+        "purl": "pkg:generic/android-getapkinfo/FileChannelDataSource@0.0.0-d3f28e74c2d8#/platform/android/java/editor/src/main/java/com/android/apksig/internal/util/FileChannelDataSource.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d3f28e74c2d841e5101100a9469adb10"
+          }
+        ]
+      },
+      {
+        "group": "android-getapkinfo",
+        "name": "RSAPublicKey",
+        "version": "0.0.0-57b857be8cc9",
+        "type": "file",
+        "bom-ref": "pkg:generic/android-getapkinfo/RSAPublicKey@0.0.0-57b857be8cc9#/platform/android/java/editor/src/main/java/com/android/apksig/internal/x509/RSAPublicKey.java",
+        "purl": "pkg:generic/android-getapkinfo/RSAPublicKey@0.0.0-57b857be8cc9#/platform/android/java/editor/src/main/java/com/android/apksig/internal/x509/RSAPublicKey.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "57b857be8cc9b72b25ddc1a78515287b"
+          }
+        ]
+      },
+      {
+        "group": "android-getapkinfo",
+        "name": "DataSources",
+        "version": "0.0.0-5d3e07c98a9b",
+        "type": "file",
+        "bom-ref": "pkg:generic/android-getapkinfo/DataSources@0.0.0-5d3e07c98a9b#/platform/android/java/editor/src/main/java/com/android/apksig/util/DataSources.java",
+        "purl": "pkg:generic/android-getapkinfo/DataSources@0.0.0-5d3e07c98a9b#/platform/android/java/editor/src/main/java/com/android/apksig/util/DataSources.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "5d3e07c98a9bf4f731c47ce1b3805510"
+          }
+        ]
+      },
+      {
+        "group": "android-getapkinfo",
+        "name": "RunnablesProvider",
+        "version": "0.0.0-cbcbebcf8ad1",
+        "type": "file",
+        "bom-ref": "pkg:generic/android-getapkinfo/RunnablesProvider@0.0.0-cbcbebcf8ad1#/platform/android/java/editor/src/main/java/com/android/apksig/util/RunnablesProvider.java",
+        "purl": "pkg:generic/android-getapkinfo/RunnablesProvider@0.0.0-cbcbebcf8ad1#/platform/android/java/editor/src/main/java/com/android/apksig/util/RunnablesProvider.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "cbcbebcf8ad101f2323e7e3a41b2f1d6"
+          }
+        ]
+      },
+      {
+        "group": "piracychecker",
+        "name": "ResponseData",
+        "version": "0.0.0-135d9fb94796",
+        "type": "file",
+        "bom-ref": "pkg:generic/piracychecker/ResponseData@0.0.0-135d9fb94796#/platform/android/java/lib/src/main/java/com/google/android/vending/licensing/ResponseData.java",
+        "purl": "pkg:generic/piracychecker/ResponseData@0.0.0-135d9fb94796#/platform/android/java/lib/src/main/java/com/google/android/vending/licensing/ResponseData.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "135d9fb947965f8de85d81deee2f6510"
+          }
+        ]
+      },
+      {
+        "group": "piracychecker",
+        "name": "URIQueryDecoder",
+        "version": "0.0.0-5de49ea2f1f4",
+        "type": "file",
+        "bom-ref": "pkg:generic/piracychecker/URIQueryDecoder@0.0.0-5de49ea2f1f4#/platform/android/java/lib/src/main/java/com/google/android/vending/licensing/util/URIQueryDecoder.java",
+        "purl": "pkg:generic/piracychecker/URIQueryDecoder@0.0.0-5de49ea2f1f4#/platform/android/java/lib/src/main/java/com/google/android/vending/licensing/util/URIQueryDecoder.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "5de49ea2f1f46f93ca07a5c18bec4d18"
+          }
+        ]
+      },
+      {
+        "group": "apk-parser",
+        "name": "Asn1DecodingException",
+        "version": "0.0.0-bb9bb8291be2",
+        "type": "file",
+        "bom-ref": "pkg:generic/apk-parser/Asn1DecodingException@0.0.0-bb9bb8291be2#/platform/android/java/editor/src/main/java/com/android/apksig/internal/asn1/Asn1DecodingException.java",
+        "purl": "pkg:generic/apk-parser/Asn1DecodingException@0.0.0-bb9bb8291be2#/platform/android/java/editor/src/main/java/com/android/apksig/internal/asn1/Asn1DecodingException.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "bb9bb8291be297bda1ef873aec10e8e2"
+          }
+        ]
+      },
+      {
+        "group": "apk-parser",
+        "name": "Asn1EncodingException",
+        "version": "0.0.0-040f9793a6d3",
+        "type": "file",
+        "bom-ref": "pkg:generic/apk-parser/Asn1EncodingException@0.0.0-040f9793a6d3#/platform/android/java/editor/src/main/java/com/android/apksig/internal/asn1/Asn1EncodingException.java",
+        "purl": "pkg:generic/apk-parser/Asn1EncodingException@0.0.0-040f9793a6d3#/platform/android/java/editor/src/main/java/com/android/apksig/internal/asn1/Asn1EncodingException.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "040f9793a6d307e76bbf205e465976f1"
+          }
+        ]
+      },
+      {
+        "group": "apk-parser",
+        "name": "Asn1Field",
+        "version": "0.0.0-c2ac7b90ba3b",
+        "type": "file",
+        "bom-ref": "pkg:generic/apk-parser/Asn1Field@0.0.0-c2ac7b90ba3b#/platform/android/java/editor/src/main/java/com/android/apksig/internal/asn1/Asn1Field.java",
+        "purl": "pkg:generic/apk-parser/Asn1Field@0.0.0-c2ac7b90ba3b#/platform/android/java/editor/src/main/java/com/android/apksig/internal/asn1/Asn1Field.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c2ac7b90ba3b167c4a7ef2ab1c433622"
+          }
+        ]
+      },
+      {
+        "group": "apk-parser",
+        "name": "Asn1OpaqueObject",
+        "version": "0.0.0-d6bf93be71b3",
+        "type": "file",
+        "bom-ref": "pkg:generic/apk-parser/Asn1OpaqueObject@0.0.0-d6bf93be71b3#/platform/android/java/editor/src/main/java/com/android/apksig/internal/asn1/Asn1OpaqueObject.java",
+        "purl": "pkg:generic/apk-parser/Asn1OpaqueObject@0.0.0-d6bf93be71b3#/platform/android/java/editor/src/main/java/com/android/apksig/internal/asn1/Asn1OpaqueObject.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d6bf93be71b3202133e05382a5bda1cd"
+          }
+        ]
+      },
+      {
+        "group": "apk-parser",
+        "name": "Asn1TagClass",
+        "version": "0.0.0-7d2f0cf64737",
+        "type": "file",
+        "bom-ref": "pkg:generic/apk-parser/Asn1TagClass@0.0.0-7d2f0cf64737#/platform/android/java/editor/src/main/java/com/android/apksig/internal/asn1/Asn1TagClass.java",
+        "purl": "pkg:generic/apk-parser/Asn1TagClass@0.0.0-7d2f0cf64737#/platform/android/java/editor/src/main/java/com/android/apksig/internal/asn1/Asn1TagClass.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "7d2f0cf64737bb633e1ac6ec40cbc0a6"
+          }
+        ]
+      },
+      {
+        "group": "apk-parser",
+        "name": "Asn1Tagging",
+        "version": "0.0.0-5e4ebef63553",
+        "type": "file",
+        "bom-ref": "pkg:generic/apk-parser/Asn1Tagging@0.0.0-5e4ebef63553#/platform/android/java/editor/src/main/java/com/android/apksig/internal/asn1/Asn1Tagging.java",
+        "purl": "pkg:generic/apk-parser/Asn1Tagging@0.0.0-5e4ebef63553#/platform/android/java/editor/src/main/java/com/android/apksig/internal/asn1/Asn1Tagging.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "5e4ebef63553d84eaacebf0e53201019"
+          }
+        ]
+      },
+      {
+        "group": "apk-parser",
+        "name": "BerDataValue",
+        "version": "0.0.0-2afb09eccf3b",
+        "type": "file",
+        "bom-ref": "pkg:generic/apk-parser/BerDataValue@0.0.0-2afb09eccf3b#/platform/android/java/editor/src/main/java/com/android/apksig/internal/asn1/ber/BerDataValue.java",
+        "purl": "pkg:generic/apk-parser/BerDataValue@0.0.0-2afb09eccf3b#/platform/android/java/editor/src/main/java/com/android/apksig/internal/asn1/ber/BerDataValue.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "2afb09eccf3b694f388ccf6f9dcbc69c"
+          }
+        ]
+      },
+      {
+        "group": "apk-parser",
+        "name": "BerDataValueFormatException",
+        "version": "0.0.0-3baecd22f1cf",
+        "type": "file",
+        "bom-ref": "pkg:generic/apk-parser/BerDataValueFormatException@0.0.0-3baecd22f1cf#/platform/android/java/editor/src/main/java/com/android/apksig/internal/asn1/ber/BerDataValueFormatException.java",
+        "purl": "pkg:generic/apk-parser/BerDataValueFormatException@0.0.0-3baecd22f1cf#/platform/android/java/editor/src/main/java/com/android/apksig/internal/asn1/ber/BerDataValueFormatException.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "3baecd22f1cf3b5357c5af535cb15049"
+          }
+        ]
+      },
+      {
+        "group": "apk-parser",
+        "name": "BerDataValueReader",
+        "version": "0.0.0-d664e2db7bc7",
+        "type": "file",
+        "bom-ref": "pkg:generic/apk-parser/BerDataValueReader@0.0.0-d664e2db7bc7#/platform/android/java/editor/src/main/java/com/android/apksig/internal/asn1/ber/BerDataValueReader.java",
+        "purl": "pkg:generic/apk-parser/BerDataValueReader@0.0.0-d664e2db7bc7#/platform/android/java/editor/src/main/java/com/android/apksig/internal/asn1/ber/BerDataValueReader.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d664e2db7bc77fab4b9a4c0959cfcd45"
+          }
+        ]
+      },
+      {
+        "group": "apk-parser",
+        "name": "ByteBufferBerDataValueReader",
+        "version": "0.0.0-c25552e0142e",
+        "type": "file",
+        "bom-ref": "pkg:generic/apk-parser/ByteBufferBerDataValueReader@0.0.0-c25552e0142e#/platform/android/java/editor/src/main/java/com/android/apksig/internal/asn1/ber/ByteBufferBerDataValueReader.java",
+        "purl": "pkg:generic/apk-parser/ByteBufferBerDataValueReader@0.0.0-c25552e0142e#/platform/android/java/editor/src/main/java/com/android/apksig/internal/asn1/ber/ByteBufferBerDataValueReader.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c25552e0142e718f2c6c55384b1223b0"
+          }
+        ]
+      },
+      {
+        "group": "apk-parser",
+        "name": "InputStreamBerDataValueReader",
+        "version": "0.0.0-66c0bb4affcc",
+        "type": "file",
+        "bom-ref": "pkg:generic/apk-parser/InputStreamBerDataValueReader@0.0.0-66c0bb4affcc#/platform/android/java/editor/src/main/java/com/android/apksig/internal/asn1/ber/InputStreamBerDataValueReader.java",
+        "purl": "pkg:generic/apk-parser/InputStreamBerDataValueReader@0.0.0-66c0bb4affcc#/platform/android/java/editor/src/main/java/com/android/apksig/internal/asn1/ber/InputStreamBerDataValueReader.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "66c0bb4affcc56da80c2eeafc44481b1"
+          }
+        ]
+      },
+      {
+        "group": "apk-parser",
+        "name": "Attribute",
+        "version": "0.0.0-b69c638a752e",
+        "type": "file",
+        "bom-ref": "pkg:generic/apk-parser/Attribute@0.0.0-b69c638a752e#/platform/android/java/editor/src/main/java/com/android/apksig/internal/pkcs7/Attribute.java",
+        "purl": "pkg:generic/apk-parser/Attribute@0.0.0-b69c638a752e#/platform/android/java/editor/src/main/java/com/android/apksig/internal/pkcs7/Attribute.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "b69c638a752ef45f5e290dc7b69c24a4"
+          }
+        ]
+      },
+      {
+        "group": "apk-parser",
+        "name": "ContentInfo",
+        "version": "0.0.0-eee144f39bcd",
+        "type": "file",
+        "bom-ref": "pkg:generic/apk-parser/ContentInfo@0.0.0-eee144f39bcd#/platform/android/java/editor/src/main/java/com/android/apksig/internal/pkcs7/ContentInfo.java",
+        "purl": "pkg:generic/apk-parser/ContentInfo@0.0.0-eee144f39bcd#/platform/android/java/editor/src/main/java/com/android/apksig/internal/pkcs7/ContentInfo.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "eee144f39bcd6b1620a572c143027cf2"
+          }
+        ]
+      },
+      {
+        "group": "apk-parser",
+        "name": "EncapsulatedContentInfo",
+        "version": "0.0.0-80d5d15aab86",
+        "type": "file",
+        "bom-ref": "pkg:generic/apk-parser/EncapsulatedContentInfo@0.0.0-80d5d15aab86#/platform/android/java/editor/src/main/java/com/android/apksig/internal/pkcs7/EncapsulatedContentInfo.java",
+        "purl": "pkg:generic/apk-parser/EncapsulatedContentInfo@0.0.0-80d5d15aab86#/platform/android/java/editor/src/main/java/com/android/apksig/internal/pkcs7/EncapsulatedContentInfo.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "80d5d15aab8686711dd7d1ae28d3c134"
+          }
+        ]
+      },
+      {
+        "group": "apk-parser",
+        "name": "IssuerAndSerialNumber",
+        "version": "0.0.0-b4f62933555e",
+        "type": "file",
+        "bom-ref": "pkg:generic/apk-parser/IssuerAndSerialNumber@0.0.0-b4f62933555e#/platform/android/java/editor/src/main/java/com/android/apksig/internal/pkcs7/IssuerAndSerialNumber.java",
+        "purl": "pkg:generic/apk-parser/IssuerAndSerialNumber@0.0.0-b4f62933555e#/platform/android/java/editor/src/main/java/com/android/apksig/internal/pkcs7/IssuerAndSerialNumber.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "b4f62933555e6a5c1eabd6b1f1d50712"
+          }
+        ]
+      },
+      {
+        "group": "apk-parser",
+        "name": "Pkcs7Constants",
+        "version": "0.0.0-7c74d893e967",
+        "type": "file",
+        "bom-ref": "pkg:generic/apk-parser/Pkcs7Constants@0.0.0-7c74d893e967#/platform/android/java/editor/src/main/java/com/android/apksig/internal/pkcs7/Pkcs7Constants.java",
+        "purl": "pkg:generic/apk-parser/Pkcs7Constants@0.0.0-7c74d893e967#/platform/android/java/editor/src/main/java/com/android/apksig/internal/pkcs7/Pkcs7Constants.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "7c74d893e967cbc70f4522fa048bdde3"
+          }
+        ]
+      },
+      {
+        "group": "apk-parser",
+        "name": "SignedData",
+        "version": "0.0.0-40fd1c43a648",
+        "type": "file",
+        "bom-ref": "pkg:generic/apk-parser/SignedData@0.0.0-40fd1c43a648#/platform/android/java/editor/src/main/java/com/android/apksig/internal/pkcs7/SignedData.java",
+        "purl": "pkg:generic/apk-parser/SignedData@0.0.0-40fd1c43a648#/platform/android/java/editor/src/main/java/com/android/apksig/internal/pkcs7/SignedData.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "40fd1c43a64896f24c7a481522a5bd49"
+          }
+        ]
+      },
+      {
+        "group": "apk-parser",
+        "name": "SignerIdentifier",
+        "version": "0.0.0-58d9f0e0caa4",
+        "type": "file",
+        "bom-ref": "pkg:generic/apk-parser/SignerIdentifier@0.0.0-58d9f0e0caa4#/platform/android/java/editor/src/main/java/com/android/apksig/internal/pkcs7/SignerIdentifier.java",
+        "purl": "pkg:generic/apk-parser/SignerIdentifier@0.0.0-58d9f0e0caa4#/platform/android/java/editor/src/main/java/com/android/apksig/internal/pkcs7/SignerIdentifier.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "58d9f0e0caa4f702cbb280f70ac966cc"
+          }
+        ]
+      },
+      {
+        "group": "apk-parser",
+        "name": "SignerInfo",
+        "version": "0.0.0-f03d84e7d330",
+        "type": "file",
+        "bom-ref": "pkg:generic/apk-parser/SignerInfo@0.0.0-f03d84e7d330#/platform/android/java/editor/src/main/java/com/android/apksig/internal/pkcs7/SignerInfo.java",
+        "purl": "pkg:generic/apk-parser/SignerInfo@0.0.0-f03d84e7d330#/platform/android/java/editor/src/main/java/com/android/apksig/internal/pkcs7/SignerInfo.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "f03d84e7d330550508e38d4b6eb3727f"
+          }
+        ]
+      },
+      {
+        "group": "apkmultichannelplugin",
+        "name": "ApkFormatException",
+        "version": "0.0.0-5bae2d4ad5c5",
+        "type": "file",
+        "bom-ref": "pkg:generic/apkmultichannelplugin/ApkFormatException@0.0.0-5bae2d4ad5c5#/platform/android/java/editor/src/main/java/com/android/apksig/apk/ApkFormatException.java",
+        "purl": "pkg:generic/apkmultichannelplugin/ApkFormatException@0.0.0-5bae2d4ad5c5#/platform/android/java/editor/src/main/java/com/android/apksig/apk/ApkFormatException.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "5bae2d4ad5c560ffcf4eb46288acbbf2"
+          }
+        ]
+      },
+      {
+        "group": "apkmultichannelplugin",
+        "name": "CodenameMinSdkVersionException",
+        "version": "0.0.0-183b4ce2a9cc",
+        "type": "file",
+        "bom-ref": "pkg:generic/apkmultichannelplugin/CodenameMinSdkVersionException@0.0.0-183b4ce2a9cc#/platform/android/java/editor/src/main/java/com/android/apksig/apk/CodenameMinSdkVersionException.java",
+        "purl": "pkg:generic/apkmultichannelplugin/CodenameMinSdkVersionException@0.0.0-183b4ce2a9cc#/platform/android/java/editor/src/main/java/com/android/apksig/apk/CodenameMinSdkVersionException.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "183b4ce2a9cca7fac6661287b97d5ae0"
+          }
+        ]
+      },
+      {
+        "group": "apkmultichannelplugin",
+        "name": "MinSdkVersionException",
+        "version": "0.0.0-f7aacde175c3",
+        "type": "file",
+        "bom-ref": "pkg:generic/apkmultichannelplugin/MinSdkVersionException@0.0.0-f7aacde175c3#/platform/android/java/editor/src/main/java/com/android/apksig/apk/MinSdkVersionException.java",
+        "purl": "pkg:generic/apkmultichannelplugin/MinSdkVersionException@0.0.0-f7aacde175c3#/platform/android/java/editor/src/main/java/com/android/apksig/apk/MinSdkVersionException.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "f7aacde175c3d888b678b25e20a3ccec"
+          }
+        ]
+      },
+      {
+        "group": "apkmultichannelplugin",
+        "name": "DigestAlgorithm",
+        "version": "0.0.0-0e2ced2ea78f",
+        "type": "file",
+        "bom-ref": "pkg:generic/apkmultichannelplugin/DigestAlgorithm@0.0.0-0e2ced2ea78f#/platform/android/java/editor/src/main/java/com/android/apksig/internal/apk/v1/DigestAlgorithm.java",
+        "purl": "pkg:generic/apkmultichannelplugin/DigestAlgorithm@0.0.0-0e2ced2ea78f#/platform/android/java/editor/src/main/java/com/android/apksig/internal/apk/v1/DigestAlgorithm.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "0e2ced2ea78f415d4d384a9f134f70c5"
+          }
+        ]
+      },
+      {
+        "group": "apkmultichannelplugin",
+        "name": "ManifestParser",
+        "version": "0.0.0-0920ea679b80",
+        "type": "file",
+        "bom-ref": "pkg:generic/apkmultichannelplugin/ManifestParser@0.0.0-0920ea679b80#/platform/android/java/editor/src/main/java/com/android/apksig/internal/jar/ManifestParser.java",
+        "purl": "pkg:generic/apkmultichannelplugin/ManifestParser@0.0.0-0920ea679b80#/platform/android/java/editor/src/main/java/com/android/apksig/internal/jar/ManifestParser.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "0920ea679b80c0b162626bc623647470"
+          }
+        ]
+      },
+      {
+        "group": "apkmultichannelplugin",
+        "name": "ManifestWriter",
+        "version": "0.0.0-78f55a6c8fb8",
+        "type": "file",
+        "bom-ref": "pkg:generic/apkmultichannelplugin/ManifestWriter@0.0.0-78f55a6c8fb8#/platform/android/java/editor/src/main/java/com/android/apksig/internal/jar/ManifestWriter.java",
+        "purl": "pkg:generic/apkmultichannelplugin/ManifestWriter@0.0.0-78f55a6c8fb8#/platform/android/java/editor/src/main/java/com/android/apksig/internal/jar/ManifestWriter.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "78f55a6c8fb86c7d57e119d1b8067d62"
+          }
+        ]
+      },
+      {
+        "group": "apkmultichannelplugin",
+        "name": "SignatureFileWriter",
+        "version": "0.0.0-c918b83b7184",
+        "type": "file",
+        "bom-ref": "pkg:generic/apkmultichannelplugin/SignatureFileWriter@0.0.0-c918b83b7184#/platform/android/java/editor/src/main/java/com/android/apksig/internal/jar/SignatureFileWriter.java",
+        "purl": "pkg:generic/apkmultichannelplugin/SignatureFileWriter@0.0.0-c918b83b7184#/platform/android/java/editor/src/main/java/com/android/apksig/internal/jar/SignatureFileWriter.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c918b83b718421fe6884392b098799b8"
+          }
+        ]
+      },
+      {
+        "group": "apkmultichannelplugin",
+        "name": "InclusiveIntRange",
+        "version": "0.0.0-97703939a5d5",
+        "type": "file",
+        "bom-ref": "pkg:generic/apkmultichannelplugin/InclusiveIntRange@0.0.0-97703939a5d5#/platform/android/java/editor/src/main/java/com/android/apksig/internal/util/InclusiveIntRange.java",
+        "purl": "pkg:generic/apkmultichannelplugin/InclusiveIntRange@0.0.0-97703939a5d5#/platform/android/java/editor/src/main/java/com/android/apksig/internal/util/InclusiveIntRange.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "97703939a5d5b9ee584a95aeed8a68ca"
+          }
+        ]
+      },
+      {
+        "group": "apkmultichannelplugin",
+        "name": "MessageDigestSink",
+        "version": "0.0.0-f52e5fca8b8b",
+        "type": "file",
+        "bom-ref": "pkg:generic/apkmultichannelplugin/MessageDigestSink@0.0.0-f52e5fca8b8b#/platform/android/java/editor/src/main/java/com/android/apksig/internal/util/MessageDigestSink.java",
+        "purl": "pkg:generic/apkmultichannelplugin/MessageDigestSink@0.0.0-f52e5fca8b8b#/platform/android/java/editor/src/main/java/com/android/apksig/internal/util/MessageDigestSink.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "f52e5fca8b8b47d796fc94d4d0c3bb7f"
+          }
+        ]
+      },
+      {
+        "group": "apkmultichannelplugin",
+        "name": "OutputStreamDataSink",
+        "version": "0.0.0-d4f5311bc2b7",
+        "type": "file",
+        "bom-ref": "pkg:generic/apkmultichannelplugin/OutputStreamDataSink@0.0.0-d4f5311bc2b7#/platform/android/java/editor/src/main/java/com/android/apksig/internal/util/OutputStreamDataSink.java",
+        "purl": "pkg:generic/apkmultichannelplugin/OutputStreamDataSink@0.0.0-d4f5311bc2b7#/platform/android/java/editor/src/main/java/com/android/apksig/internal/util/OutputStreamDataSink.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d4f5311bc2b7ab88c7aed89257abd917"
+          }
+        ]
+      },
+      {
+        "group": "apkmultichannelplugin",
+        "name": "Pair",
+        "version": "0.0.0-1fc57b389646",
+        "type": "file",
+        "bom-ref": "pkg:generic/apkmultichannelplugin/Pair@0.0.0-1fc57b389646#/platform/android/java/editor/src/main/java/com/android/apksig/internal/util/Pair.java",
+        "purl": "pkg:generic/apkmultichannelplugin/Pair@0.0.0-1fc57b389646#/platform/android/java/editor/src/main/java/com/android/apksig/internal/util/Pair.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "1fc57b3896469a99f368d8767009e36a"
+          }
+        ]
+      },
+      {
+        "group": "apkmultichannelplugin",
+        "name": "DataSink",
+        "version": "0.0.0-971927052d14",
+        "type": "file",
+        "bom-ref": "pkg:generic/apkmultichannelplugin/DataSink@0.0.0-971927052d14#/platform/android/java/editor/src/main/java/com/android/apksig/util/DataSink.java",
+        "purl": "pkg:generic/apkmultichannelplugin/DataSink@0.0.0-971927052d14#/platform/android/java/editor/src/main/java/com/android/apksig/util/DataSink.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "971927052d141b0a8fb7f051f9e1434a"
+          }
+        ]
+      },
+      {
+        "group": "apkmultichannelplugin",
+        "name": "DataSource",
+        "version": "0.0.0-0491206dc0f5",
+        "type": "file",
+        "bom-ref": "pkg:generic/apkmultichannelplugin/DataSource@0.0.0-0491206dc0f5#/platform/android/java/editor/src/main/java/com/android/apksig/util/DataSource.java",
+        "purl": "pkg:generic/apkmultichannelplugin/DataSource@0.0.0-0491206dc0f5#/platform/android/java/editor/src/main/java/com/android/apksig/util/DataSource.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "0491206dc0f5c6cc904ebb35adb0c1f6"
+          }
+        ]
+      },
+      {
+        "group": "apkmultichannelplugin",
+        "name": "ReadableDataSink",
+        "version": "0.0.0-6c7bfaa2571a",
+        "type": "file",
+        "bom-ref": "pkg:generic/apkmultichannelplugin/ReadableDataSink@0.0.0-6c7bfaa2571a#/platform/android/java/editor/src/main/java/com/android/apksig/util/ReadableDataSink.java",
+        "purl": "pkg:generic/apkmultichannelplugin/ReadableDataSink@0.0.0-6c7bfaa2571a#/platform/android/java/editor/src/main/java/com/android/apksig/util/ReadableDataSink.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "6c7bfaa2571a36163dfd9aca1346e28c"
+          }
+        ]
+      },
+      {
+        "group": "apkmultichannelplugin",
+        "name": "ZipFormatException",
+        "version": "0.0.0-a111f45d1eaf",
+        "type": "file",
+        "bom-ref": "pkg:generic/apkmultichannelplugin/ZipFormatException@0.0.0-a111f45d1eaf#/platform/android/java/editor/src/main/java/com/android/apksig/zip/ZipFormatException.java",
+        "purl": "pkg:generic/apkmultichannelplugin/ZipFormatException@0.0.0-a111f45d1eaf#/platform/android/java/editor/src/main/java/com/android/apksig/zip/ZipFormatException.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "a111f45d1eaf59b8720313d21d40e5e1"
+          }
+        ]
+      },
+      {
+        "group": "betterbatterystats",
+        "name": "Base64DecoderException",
+        "version": "0.0.0-2195865dd502",
+        "type": "file",
+        "bom-ref": "pkg:generic/betterbatterystats/Base64DecoderException@0.0.0-2195865dd502#/platform/android/java/lib/src/main/java/com/google/android/vending/licensing/util/Base64DecoderException.java",
+        "purl": "pkg:generic/betterbatterystats/Base64DecoderException@0.0.0-2195865dd502#/platform/android/java/lib/src/main/java/com/google/android/vending/licensing/util/Base64DecoderException.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "2195865dd502a3bd00427746d47bd185"
+          }
+        ]
+      },
+      {
+        "group": "smapi-android-installer",
+        "name": "ApkSigningBlockNotFoundException",
+        "version": "0.0.0-726c6ae1acbf",
+        "type": "file",
+        "bom-ref": "pkg:generic/smapi-android-installer/ApkSigningBlockNotFoundException@0.0.0-726c6ae1acbf#/platform/android/java/editor/src/main/java/com/android/apksig/apk/ApkSigningBlockNotFoundException.java",
+        "purl": "pkg:generic/smapi-android-installer/ApkSigningBlockNotFoundException@0.0.0-726c6ae1acbf#/platform/android/java/editor/src/main/java/com/android/apksig/apk/ApkSigningBlockNotFoundException.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "726c6ae1acbfad4d033e254bb1afa43e"
+          }
+        ]
+      },
+      {
+        "group": "smapi-android-installer",
+        "name": "AndroidBinXmlParser",
+        "version": "0.0.0-9ae40168ecb0",
+        "type": "file",
+        "bom-ref": "pkg:generic/smapi-android-installer/AndroidBinXmlParser@0.0.0-9ae40168ecb0#/platform/android/java/editor/src/main/java/com/android/apksig/internal/apk/AndroidBinXmlParser.java",
+        "purl": "pkg:generic/smapi-android-installer/AndroidBinXmlParser@0.0.0-9ae40168ecb0#/platform/android/java/editor/src/main/java/com/android/apksig/internal/apk/AndroidBinXmlParser.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "9ae40168ecb00b3c37e066dbf9dd91bd"
+          }
+        ]
+      },
+      {
+        "group": "smapi-android-installer",
+        "name": "SignatureInfo",
+        "version": "0.0.0-979f4e74c930",
+        "type": "file",
+        "bom-ref": "pkg:generic/smapi-android-installer/SignatureInfo@0.0.0-979f4e74c930#/platform/android/java/editor/src/main/java/com/android/apksig/internal/apk/SignatureInfo.java",
+        "purl": "pkg:generic/smapi-android-installer/SignatureInfo@0.0.0-979f4e74c930#/platform/android/java/editor/src/main/java/com/android/apksig/internal/apk/SignatureInfo.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "979f4e74c9300cb1de9d26a9efbd07b8"
+          }
+        ]
+      },
+      {
+        "group": "smapi-android-installer",
+        "name": "Asn1Class",
+        "version": "0.0.0-9c4389a222e9",
+        "type": "file",
+        "bom-ref": "pkg:generic/smapi-android-installer/Asn1Class@0.0.0-9c4389a222e9#/platform/android/java/editor/src/main/java/com/android/apksig/internal/asn1/Asn1Class.java",
+        "purl": "pkg:generic/smapi-android-installer/Asn1Class@0.0.0-9c4389a222e9#/platform/android/java/editor/src/main/java/com/android/apksig/internal/asn1/Asn1Class.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "9c4389a222e93d091cb808cb6eae624a"
+          }
+        ]
+      },
+      {
+        "group": "smapi-android-installer",
+        "name": "Asn1Type",
+        "version": "0.0.0-2690a841bf4f",
+        "type": "file",
+        "bom-ref": "pkg:generic/smapi-android-installer/Asn1Type@0.0.0-2690a841bf4f#/platform/android/java/editor/src/main/java/com/android/apksig/internal/asn1/Asn1Type.java",
+        "purl": "pkg:generic/smapi-android-installer/Asn1Type@0.0.0-2690a841bf4f#/platform/android/java/editor/src/main/java/com/android/apksig/internal/asn1/Asn1Type.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "2690a841bf4f970d4d6f33b52a0af42d"
+          }
+        ]
+      },
+      {
+        "group": "smapi-android-installer",
+        "name": "BerEncoding",
+        "version": "0.0.0-0518ccc358e7",
+        "type": "file",
+        "bom-ref": "pkg:generic/smapi-android-installer/BerEncoding@0.0.0-0518ccc358e7#/platform/android/java/editor/src/main/java/com/android/apksig/internal/asn1/ber/BerEncoding.java",
+        "purl": "pkg:generic/smapi-android-installer/BerEncoding@0.0.0-0518ccc358e7#/platform/android/java/editor/src/main/java/com/android/apksig/internal/asn1/ber/BerEncoding.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "0518ccc358e77c161aa9f7ea5619ec4a"
+          }
+        ]
+      },
+      {
+        "group": "smapi-android-installer",
+        "name": "Pkcs7DecodingException",
+        "version": "0.0.0-fb8656fc81b8",
+        "type": "file",
+        "bom-ref": "pkg:generic/smapi-android-installer/Pkcs7DecodingException@0.0.0-fb8656fc81b8#/platform/android/java/editor/src/main/java/com/android/apksig/internal/pkcs7/Pkcs7DecodingException.java",
+        "purl": "pkg:generic/smapi-android-installer/Pkcs7DecodingException@0.0.0-fb8656fc81b8#/platform/android/java/editor/src/main/java/com/android/apksig/internal/pkcs7/Pkcs7DecodingException.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "fb8656fc81b8fb1dd21fb742f759ad28"
+          }
+        ]
+      },
+      {
+        "group": "smapi-android-installer",
+        "name": "ByteArrayDataSink",
+        "version": "0.0.0-7a2ae3c12076",
+        "type": "file",
+        "bom-ref": "pkg:generic/smapi-android-installer/ByteArrayDataSink@0.0.0-7a2ae3c12076#/platform/android/java/editor/src/main/java/com/android/apksig/internal/util/ByteArrayDataSink.java",
+        "purl": "pkg:generic/smapi-android-installer/ByteArrayDataSink@0.0.0-7a2ae3c12076#/platform/android/java/editor/src/main/java/com/android/apksig/internal/util/ByteArrayDataSink.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "7a2ae3c12076f3a16265619a94af09a5"
+          }
+        ]
+      },
+      {
+        "group": "smapi-android-installer",
+        "name": "ByteBufferDataSource",
+        "version": "0.0.0-0e968742b5ac",
+        "type": "file",
+        "bom-ref": "pkg:generic/smapi-android-installer/ByteBufferDataSource@0.0.0-0e968742b5ac#/platform/android/java/editor/src/main/java/com/android/apksig/internal/util/ByteBufferDataSource.java",
+        "purl": "pkg:generic/smapi-android-installer/ByteBufferDataSource@0.0.0-0e968742b5ac#/platform/android/java/editor/src/main/java/com/android/apksig/internal/util/ByteBufferDataSource.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "0e968742b5ac89ef8982a6bf4ecd434f"
+          }
+        ]
+      },
+      {
+        "group": "smapi-android-installer",
+        "name": "ByteBufferSink",
+        "version": "0.0.0-cc6bb5e8a633",
+        "type": "file",
+        "bom-ref": "pkg:generic/smapi-android-installer/ByteBufferSink@0.0.0-cc6bb5e8a633#/platform/android/java/editor/src/main/java/com/android/apksig/internal/util/ByteBufferSink.java",
+        "purl": "pkg:generic/smapi-android-installer/ByteBufferSink@0.0.0-cc6bb5e8a633#/platform/android/java/editor/src/main/java/com/android/apksig/internal/util/ByteBufferSink.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "cc6bb5e8a6330ed5ffbb927e8949895a"
+          }
+        ]
+      },
+      {
+        "group": "smapi-android-installer",
+        "name": "ByteBufferUtils",
+        "version": "0.0.0-e97839cf9743",
+        "type": "file",
+        "bom-ref": "pkg:generic/smapi-android-installer/ByteBufferUtils@0.0.0-e97839cf9743#/platform/android/java/editor/src/main/java/com/android/apksig/internal/util/ByteBufferUtils.java",
+        "purl": "pkg:generic/smapi-android-installer/ByteBufferUtils@0.0.0-e97839cf9743#/platform/android/java/editor/src/main/java/com/android/apksig/internal/util/ByteBufferUtils.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "e97839cf9743af65cb37ba2fafbce96c"
+          }
+        ]
+      },
+      {
+        "group": "smapi-android-installer",
+        "name": "ByteStreams",
+        "version": "0.0.0-de895a3cbcf8",
+        "type": "file",
+        "bom-ref": "pkg:generic/smapi-android-installer/ByteStreams@0.0.0-de895a3cbcf8#/platform/android/java/editor/src/main/java/com/android/apksig/internal/util/ByteStreams.java",
+        "purl": "pkg:generic/smapi-android-installer/ByteStreams@0.0.0-de895a3cbcf8#/platform/android/java/editor/src/main/java/com/android/apksig/internal/util/ByteStreams.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "de895a3cbcf838dc9625da5c3f911175"
+          }
+        ]
+      },
+      {
+        "group": "smapi-android-installer",
+        "name": "GuaranteedEncodedFormX509Certificate",
+        "version": "0.0.0-cd58dae18334",
+        "type": "file",
+        "bom-ref": "pkg:generic/smapi-android-installer/GuaranteedEncodedFormX509Certificate@0.0.0-cd58dae18334#/platform/android/java/editor/src/main/java/com/android/apksig/internal/util/GuaranteedEncodedFormX509Certificate.java",
+        "purl": "pkg:generic/smapi-android-installer/GuaranteedEncodedFormX509Certificate@0.0.0-cd58dae18334#/platform/android/java/editor/src/main/java/com/android/apksig/internal/util/GuaranteedEncodedFormX509Certificate.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "cd58dae18334e18bdf05657184ec396e"
+          }
+        ]
+      },
+      {
+        "group": "smapi-android-installer",
+        "name": "RandomAccessFileDataSink",
+        "version": "0.0.0-d41330841320",
+        "type": "file",
+        "bom-ref": "pkg:generic/smapi-android-installer/RandomAccessFileDataSink@0.0.0-d41330841320#/platform/android/java/editor/src/main/java/com/android/apksig/internal/util/RandomAccessFileDataSink.java",
+        "purl": "pkg:generic/smapi-android-installer/RandomAccessFileDataSink@0.0.0-d41330841320#/platform/android/java/editor/src/main/java/com/android/apksig/internal/util/RandomAccessFileDataSink.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "d41330841320ee918763551eae5a7c0a"
+          }
+        ]
+      },
+      {
+        "group": "smapi-android-installer",
+        "name": "TeeDataSink",
+        "version": "0.0.0-b390a1f12ea3",
+        "type": "file",
+        "bom-ref": "pkg:generic/smapi-android-installer/TeeDataSink@0.0.0-b390a1f12ea3#/platform/android/java/editor/src/main/java/com/android/apksig/internal/util/TeeDataSink.java",
+        "purl": "pkg:generic/smapi-android-installer/TeeDataSink@0.0.0-b390a1f12ea3#/platform/android/java/editor/src/main/java/com/android/apksig/internal/util/TeeDataSink.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "b390a1f12ea318126a4e00ab41d1df58"
+          }
+        ]
+      },
+      {
+        "group": "smapi-android-installer",
+        "name": "AttributeTypeAndValue",
+        "version": "0.0.0-afb6b24e0726",
+        "type": "file",
+        "bom-ref": "pkg:generic/smapi-android-installer/AttributeTypeAndValue@0.0.0-afb6b24e0726#/platform/android/java/editor/src/main/java/com/android/apksig/internal/x509/AttributeTypeAndValue.java",
+        "purl": "pkg:generic/smapi-android-installer/AttributeTypeAndValue@0.0.0-afb6b24e0726#/platform/android/java/editor/src/main/java/com/android/apksig/internal/x509/AttributeTypeAndValue.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "afb6b24e072651e37e1791ccc05a441f"
+          }
+        ]
+      },
+      {
+        "group": "smapi-android-installer",
+        "name": "Extension",
+        "version": "0.0.0-971bbc634256",
+        "type": "file",
+        "bom-ref": "pkg:generic/smapi-android-installer/Extension@0.0.0-971bbc634256#/platform/android/java/editor/src/main/java/com/android/apksig/internal/x509/Extension.java",
+        "purl": "pkg:generic/smapi-android-installer/Extension@0.0.0-971bbc634256#/platform/android/java/editor/src/main/java/com/android/apksig/internal/x509/Extension.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "971bbc634256920734c2119979a495c5"
+          }
+        ]
+      },
+      {
+        "group": "smapi-android-installer",
+        "name": "Name",
+        "version": "0.0.0-656252edbbe0",
+        "type": "file",
+        "bom-ref": "pkg:generic/smapi-android-installer/Name@0.0.0-656252edbbe0#/platform/android/java/editor/src/main/java/com/android/apksig/internal/x509/Name.java",
+        "purl": "pkg:generic/smapi-android-installer/Name@0.0.0-656252edbbe0#/platform/android/java/editor/src/main/java/com/android/apksig/internal/x509/Name.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "656252edbbe0ad06d953c4f00d07747a"
+          }
+        ]
+      },
+      {
+        "group": "smapi-android-installer",
+        "name": "RelativeDistinguishedName",
+        "version": "0.0.0-3caeee661ccc",
+        "type": "file",
+        "bom-ref": "pkg:generic/smapi-android-installer/RelativeDistinguishedName@0.0.0-3caeee661ccc#/platform/android/java/editor/src/main/java/com/android/apksig/internal/x509/RelativeDistinguishedName.java",
+        "purl": "pkg:generic/smapi-android-installer/RelativeDistinguishedName@0.0.0-3caeee661ccc#/platform/android/java/editor/src/main/java/com/android/apksig/internal/x509/RelativeDistinguishedName.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "3caeee661ccc86c69db7febe3a703d9b"
+          }
+        ]
+      },
+      {
+        "group": "smapi-android-installer",
+        "name": "SubjectPublicKeyInfo",
+        "version": "0.0.0-a9765144ff00",
+        "type": "file",
+        "bom-ref": "pkg:generic/smapi-android-installer/SubjectPublicKeyInfo@0.0.0-a9765144ff00#/platform/android/java/editor/src/main/java/com/android/apksig/internal/x509/SubjectPublicKeyInfo.java",
+        "purl": "pkg:generic/smapi-android-installer/SubjectPublicKeyInfo@0.0.0-a9765144ff00#/platform/android/java/editor/src/main/java/com/android/apksig/internal/x509/SubjectPublicKeyInfo.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "a9765144ff00b066aee3b6f390ed3972"
+          }
+        ]
+      },
+      {
+        "group": "smapi-android-installer",
+        "name": "TBSCertificate",
+        "version": "0.0.0-c474763bbe3a",
+        "type": "file",
+        "bom-ref": "pkg:generic/smapi-android-installer/TBSCertificate@0.0.0-c474763bbe3a#/platform/android/java/editor/src/main/java/com/android/apksig/internal/x509/TBSCertificate.java",
+        "purl": "pkg:generic/smapi-android-installer/TBSCertificate@0.0.0-c474763bbe3a#/platform/android/java/editor/src/main/java/com/android/apksig/internal/x509/TBSCertificate.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "c474763bbe3a0d82a33b2a21774ca8c1"
+          }
+        ]
+      },
+      {
+        "group": "smapi-android-installer",
+        "name": "Time",
+        "version": "0.0.0-ecc261e64223",
+        "type": "file",
+        "bom-ref": "pkg:generic/smapi-android-installer/Time@0.0.0-ecc261e64223#/platform/android/java/editor/src/main/java/com/android/apksig/internal/x509/Time.java",
+        "purl": "pkg:generic/smapi-android-installer/Time@0.0.0-ecc261e64223#/platform/android/java/editor/src/main/java/com/android/apksig/internal/x509/Time.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "ecc261e642234329adcdd133015cd398"
+          }
+        ]
+      },
+      {
+        "group": "smapi-android-installer",
+        "name": "Validity",
+        "version": "0.0.0-73d9b37441ec",
+        "type": "file",
+        "bom-ref": "pkg:generic/smapi-android-installer/Validity@0.0.0-73d9b37441ec#/platform/android/java/editor/src/main/java/com/android/apksig/internal/x509/Validity.java",
+        "purl": "pkg:generic/smapi-android-installer/Validity@0.0.0-73d9b37441ec#/platform/android/java/editor/src/main/java/com/android/apksig/internal/x509/Validity.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "73d9b37441ece6294100d08be064f26b"
+          }
+        ]
+      },
+      {
+        "group": "smapi-android-installer",
+        "name": "CentralDirectoryRecord",
+        "version": "0.0.0-4366d036ab03",
+        "type": "file",
+        "bom-ref": "pkg:generic/smapi-android-installer/CentralDirectoryRecord@0.0.0-4366d036ab03#/platform/android/java/editor/src/main/java/com/android/apksig/internal/zip/CentralDirectoryRecord.java",
+        "purl": "pkg:generic/smapi-android-installer/CentralDirectoryRecord@0.0.0-4366d036ab03#/platform/android/java/editor/src/main/java/com/android/apksig/internal/zip/CentralDirectoryRecord.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "4366d036ab03c88b4b8eb9a9b01e37b8"
+          }
+        ]
+      },
+      {
+        "group": "smapi-android-installer",
+        "name": "DataSinks",
+        "version": "0.0.0-cb0301374cf7",
+        "type": "file",
+        "bom-ref": "pkg:generic/smapi-android-installer/DataSinks@0.0.0-cb0301374cf7#/platform/android/java/editor/src/main/java/com/android/apksig/util/DataSinks.java",
+        "purl": "pkg:generic/smapi-android-installer/DataSinks@0.0.0-cb0301374cf7#/platform/android/java/editor/src/main/java/com/android/apksig/util/DataSinks.java",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "cb0301374cf772c1c5556bedba22e03c"
+          }
+        ]
+      }
+    ]
+  },
+  "file_count": 358
+}
