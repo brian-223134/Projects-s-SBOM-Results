@@ -1,5 +1,56 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+"""
+Schema summary for a JSON SBOM (CycloneDX etc.) — indices collapsed to [].
+
+What it does
+------------
+- Traverses a single JSON file top-down.
+- Produces a "schema-like" list of unique paths where:
+  - Object keys are joined by dots:     metadata.tools.components
+  - Array indices are collapsed to []:  components[].hashes[].alg
+- Aggregates, per path:
+  - Observed types (string/integer/number/boolean/null/object/array)
+  - Occurrence count (how many times the path was seen)
+  - Optional primitive samples (up to 3)
+
+Path notation examples
+----------------------
+- components[].name
+- components[].hashes[].alg
+- metadata.tools.components[].name
+- dependencies[].dependsOn[]
+
+Usage
+-----
+1) Print Markdown table to stdout (default):
+   python schema_summary.py /path/to/sbom.json
+
+2) Save as TSV:
+   python schema_summary.py /path/to/sbom.json --format tsv --out schema.tsv
+
+3) Save as JSON (machine-friendly):
+   python schema_summary.py /path/to/sbom.json --format json --out schema.json
+
+4) Omit primitive samples (only path/types/count):
+   python schema_summary.py /path/to/sbom.json --no-samples
+
+Concrete examples (your uploaded files)
+---------------------------------------
+- Trivy SBOM (Markdown):
+  python schema_summary.py /mnt/data/hugo_SBOM_trivy.json
+
+- Syft SBOM (TSV):
+  python schema_summary.py /mnt/data/hugo_SBOM_syft.json --format tsv --out syft_schema.tsv
+
+- Hmark/Hatbom wrapped SBOM (JSON output):
+  python schema_summary.py /mnt/data/hugo_hmark_SBOM_hatbom.json --format json --out hmark_schema.json
+
+Notes
+-----
+- This is a "schema summary from observed instances" (not an official CycloneDX schema validator).
+- For very large SBOMs, JSON output is often easiest to post-process.
+"""
 
 import argparse
 import json
