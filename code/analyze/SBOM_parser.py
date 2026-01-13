@@ -192,6 +192,19 @@ def comp_has_producer(c: Dict[str, Any]) -> bool:
         return True
     if _nonempty_str(pub):
         return True
+    
+    # 2) Extended 후보: component authors/author
+    # - authors: [{name: "..."}]
+    authors = c.get("authors")
+    if isinstance(authors, list):
+        for a in authors:
+            if isinstance(a, dict) and _nonempty_str(a.get("name")):
+                return True
+
+    # - author: "..." (CycloneDX에서 단일 author 문자열로 나오는 경우도 있음)
+    
+    if _nonempty_str(c.get("author")):
+        return True
     return False
 
 def comp_has_name(c: Dict[str, Any]) -> bool:
