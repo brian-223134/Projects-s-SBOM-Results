@@ -214,3 +214,6 @@ languages/rust/project/
 languages/go/project/
 languages/java/project/
 languages/python/project/
+
+# code/analyze directory's json files
+code/analyze/*.json

@@ -1,410 +1,440 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
-Strict CISA SBOM Minimum Elements (11) checker for CycloneDX JSON SBOMs.
+CISA SBOM Minimum Elements (11 fields) coverage parser for CycloneDX JSON.
 
-Output format:
-- Metadata 5 fields: O / X
-- Component 6 fields: coverage (%) over components[]
+- Accepts 1..N SBOM JSON files
+- Component count denominator:
+  - Normal CycloneDX: $.components.length
+  - Wrapped (Hatbom/Hmark): $.sbom.components.length
+  - Excludes: metadata.component
+  - dependencies[] is NOT part of component denominator
 
-STRICT RULES (more strict than the previous script)
-Metadata (O/X):
-1) SBOM Author:
-   - metadata.authors[] exists AND at least one author.name is non-empty AND not placeholder (e.g., "unknown").
-2) Tool Name:
-   - metadata.tools.components[] exists AND at least one tool has BOTH name and version (non-placeholder).
-3) Timestamp:
-   - metadata.timestamp parses as ISO-8601 AND includes timezone ("Z" or ±HH:MM).
-4) Generation Context:
-   - metadata.lifecycles[].phase exists AND phase is one of {"pre-build","build","post-build"}.
-5) Dependency Relationship:
-   - dependencies[] exists AND at least one edge (ref -> dependsOn[]) is non-empty
-     AND both endpoints exist in known bom-ref set (components[]."bom-ref" plus metadata.component."bom-ref" if present).
-
-Component coverages (% over components[]):
-A) Producer %:
-   - component.supplier.name OR component.manufacturer.name OR component.publisher exists (author/authors NOT counted).
-B) Name %:
-   - component.name exists AND not path-like (doesn't start with "/" or "./" or drive path like "C:\").
-C) Version %:
-   - component.version exists AND not placeholder/templated/UNKNOWN AND not "0.0.0*" pseudo-placeholder.
-D) Identifiers %:
-   - STRICT identifiers only:
-     - purl with explicit version (contains "@") AND not pkg:generic/*
-     - OR CPE v2.3-like string "cpe:2.3:*"
-     - OR swid.tagId present
-     - OR externalReferences has at least one http(s) URL
-   - bom-ref is NOT counted as an identifier.
-E) Hash %:
-   - component.hashes contains at least one strong hash with valid length:
-     SHA-256(64 hex), SHA-384(96 hex), SHA-512(128 hex)
-     (MD5/SHA-1 are not counted).
-F) License %:
-   - component.licenses contains SPDX-like id OR a non-placeholder expression.
-   - "UNKNOWN"/"NOASSERTION" etc. are not counted.
+Outputs:
+1) Coverage table (O/X + %)
+2) Evidence per file (why O/X, and numerator/denominator for %)
 
 Usage:
-  python cisa11_cdx_check_strict.py sbom1.json sbom2.json sbom3.json sbom4.json
+  python sbom_cisa_min_elements.py <sbom1.json> [<sbom2.json> ...]
+Optional:
+  --labels <label1> [<label2> ...]   (if fewer than files, rest auto-filled)
+  --no-evidence
 """
 
-from __future__ import annotations
-
+import argparse
+import datetime as _dt
 import json
-import os
 import re
-import sys
-from datetime import datetime
-from typing import Any, Dict, List, Set
+from pathlib import Path
+from typing import Any, Dict, List, Tuple
 
-# -----------------------------
-# Strict patterns & constants
-# -----------------------------
+_PLACEHOLDER_VERSION = {"unknown", "n/a", "na", "null", "none"}
 
-PLACEHOLDER_STR_RE = re.compile(r"^\s*$|^(unknown|n/a|na|null|none|noassertion)$", re.IGNORECASE)
-TEMPLATED_VERSION_RE = re.compile(r"^@.+@$")                 # e.g., @spring-framework.version@
-PSEUDO_PLACEHOLDER_VERSION_RE = re.compile(r"^0\.0\.0([\-+].*)?$")  # treat 0.0.0 / 0.0.0-xxx as placeholder
-
-# Timestamp must include timezone
-TZ_IN_TIMESTAMP_RE = re.compile(r"(Z|[+\-]\d{2}:\d{2})$")
-
-# Strong hash algorithms allowed
-ALLOWED_HASH_ALGS = {
-    "SHA-256": 64,
-    "SHA-384": 96,
-    "SHA-512": 128,
-}
-HEX_RE = re.compile(r"^[0-9a-fA-F]+$")
-
-# Accept only these lifecycle phases for strict "Generation Context"
-ALLOWED_LIFECYCLE_PHASES = {"pre-build", "build", "post-build"}
-
-# CPE v2.3 prefix check (strict-ish)
-CPE23_RE = re.compile(r"^cpe:2\.3:[aho\*]:", re.IGNORECASE)
-
-# purl strict: must have @version and not pkg:generic
-PURL_STRICT_RE = re.compile(r"^pkg:(?!generic/).+@.+", re.IGNORECASE)
-
-# path-like names we consider invalid in strict mode
-PATHLIKE_NAME_RE = re.compile(r"^(\/|\.\/|[A-Za-z]:\\)")
-
-# SPDX-ish ID pattern (not a full SPDX list validation, but strict enough)
-SPDX_ID_RE = re.compile(r"^[A-Za-z0-9\.\-+]+$")
-
-
-# -----------------------------
-# Helpers
-# -----------------------------
-
-def load_json(path: str) -> Dict[str, Any]:
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-def unwrap_cyclonedx_root(doc: Dict[str, Any]) -> Dict[str, Any]:
-    # Hatbom-like wrapper: {"sbom": {...}}
-    if isinstance(doc, dict) and "sbom" in doc and isinstance(doc["sbom"], dict):
-        inner = doc["sbom"]
-        if inner.get("bomFormat") == "CycloneDX" or "components" in inner or "metadata" in inner:
-            return inner
-    return doc
-
-def get_components(bom: Dict[str, Any]) -> List[Dict[str, Any]]:
-    comps = bom.get("components", [])
-    return comps if isinstance(comps, list) else []
-
-def nonempty_str(x: Any) -> bool:
+def _nonempty_str(x: Any) -> bool:
     return isinstance(x, str) and x.strip() != ""
 
-def is_placeholder_str(x: Any) -> bool:
-    return not nonempty_str(x) or bool(PLACEHOLDER_STR_RE.match(x.strip()))
-
-def parse_iso8601_with_tz(ts: Any) -> bool:
-    if not isinstance(ts, str) or is_placeholder_str(ts):
+def _iso8601_parseable(ts: Any) -> bool:
+    if not _nonempty_str(ts):
         return False
-    if not TZ_IN_TIMESTAMP_RE.search(ts.strip()):
-        return False
+    s = ts.strip()
+    s2 = s[:-1] + "+00:00" if s.endswith("Z") else s
     try:
-        t = ts.replace("Z", "+00:00")
-        datetime.fromisoformat(t)
+        _dt.datetime.fromisoformat(s2)
         return True
     except Exception:
-        return False
+        pat = r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d+)?(Z|[+-]\d{2}:\d{2})$"
+        return re.match(pat, s) is not None
 
-def coverage(components: List[Dict[str, Any]], predicate) -> float:
-    total = len(components)
-    if total == 0:
-        return 0.0
-    ok = sum(1 for c in components if predicate(c))
-    return round(ok * 100.0 / total, 1)
+def _is_wrapped(doc: Dict[str, Any]) -> bool:
+    return isinstance(doc, dict) and isinstance(doc.get("sbom"), dict)
 
-def known_bom_refs(bom: Dict[str, Any], components: List[Dict[str, Any]]) -> Set[str]:
-    refs: Set[str] = set()
-    for c in components:
-        br = c.get("bom-ref")
-        if nonempty_str(br):
-            refs.add(br.strip())
-    meta = bom.get("metadata")
-    if isinstance(meta, dict):
-        mc = meta.get("component")
-        if isinstance(mc, dict) and nonempty_str(mc.get("bom-ref")):
-            refs.add(mc["bom-ref"].strip())
-    return refs
+def _root(doc: Dict[str, Any]) -> Dict[str, Any]:
+    return doc["sbom"] if _is_wrapped(doc) else doc
 
+def _metadata(doc: Dict[str, Any]) -> Dict[str, Any]:
+    md = _root(doc).get("metadata")
+    return md if isinstance(md, dict) else {}
 
-# -----------------------------
-# Strict metadata (O/X)
-# -----------------------------
+def _components(doc: Dict[str, Any]) -> List[Dict[str, Any]]:
+    comps = _root(doc).get("components", [])
+    if not isinstance(comps, list):
+        return []
+    return [c for c in comps if isinstance(c, dict)]
 
-def meta_sbom_author_strict(bom: Dict[str, Any]) -> bool:
-    meta = bom.get("metadata")
-    if not isinstance(meta, dict):
-        return False
-    authors = meta.get("authors")
-    if not isinstance(authors, list) or len(authors) == 0:
-        return False
-    for a in authors:
-        if isinstance(a, dict):
-            name = a.get("name")
-            if nonempty_str(name) and not is_placeholder_str(name):
-                return True
-    return False
+# 1) SBOM Author (O/X): metadata.authors[].name
+def check_sbom_author(doc: Dict[str, Any]) -> Tuple[bool, Dict[str, Any]]:
+    md = _metadata(doc)
+    authors = md.get("authors")
+    names: List[str] = []
+    if isinstance(authors, list):
+        for a in authors:
+            if isinstance(a, dict) and _nonempty_str(a.get("name")):
+                names.append(a["name"].strip())
+    ok = len(names) > 0
+    return ok, {
+        "jsonpath": "$.metadata.authors[].name" if not _is_wrapped(doc) else "$.sbom.metadata.authors[].name",
+        "found_names": names,
+    }
 
-def meta_tool_name_strict(bom: Dict[str, Any]) -> bool:
-    meta = bom.get("metadata")
-    if not isinstance(meta, dict):
-        return False
-    tools = meta.get("tools")
-    if not isinstance(tools, dict):
-        return False
-    comps = tools.get("components")
-    if not isinstance(comps, list) or len(comps) == 0:
-        return False
-    for t in comps:
-        if not isinstance(t, dict):
-            continue
-        name = t.get("name")
-        ver = t.get("version")
-        if nonempty_str(name) and not is_placeholder_str(name) and nonempty_str(ver) and not is_placeholder_str(ver):
-            return True
-    return False
+# 9) Tool Name (O/X): metadata.tools.components[].name (+ fallback)
+def _extract_tool_names(doc: Dict[str, Any]) -> List[str]:
+    md = _metadata(doc)
+    tools = md.get("tools")
+    names: List[str] = []
 
-def meta_timestamp_strict(bom: Dict[str, Any]) -> bool:
-    meta = bom.get("metadata")
-    if not isinstance(meta, dict):
-        return False
-    return parse_iso8601_with_tz(meta.get("timestamp"))
+    # Standard: tools: { components: [ {name:...}, ... ] }
+    if isinstance(tools, dict):
+        comps = tools.get("components")
+        if isinstance(comps, list):
+            for c in comps:
+                if isinstance(c, dict) and _nonempty_str(c.get("name")):
+                    names.append(c["name"].strip())
 
-def meta_generation_context_strict(bom: Dict[str, Any]) -> bool:
-    meta = bom.get("metadata")
-    if not isinstance(meta, dict):
-        return False
-    lifecycles = meta.get("lifecycles")
-    if not isinstance(lifecycles, list) or len(lifecycles) == 0:
-        return False
-    for lc in lifecycles:
-        if isinstance(lc, dict) and nonempty_str(lc.get("phase")):
-            phase = lc["phase"].strip()
-            if phase in ALLOWED_LIFECYCLE_PHASES:
-                return True
-    return False
+    # Non-standard: tools: [ {name:...}, ... ]
+    if isinstance(tools, list):
+        for t in tools:
+            if isinstance(t, dict) and _nonempty_str(t.get("name")):
+                names.append(t["name"].strip())
+            elif isinstance(t, str) and t.strip():
+                names.append(t.strip())
 
-def meta_dependency_relationship_strict(bom: Dict[str, Any], refset: Set[str]) -> bool:
-    deps = bom.get("dependencies")
+    # Optional fallback: annotations.annotator.component.name
+    ann = _root(doc).get("annotations")
+    if isinstance(ann, list):
+        for a in ann:
+            if not isinstance(a, dict):
+                continue
+            annotator = a.get("annotator")
+            if not isinstance(annotator, dict):
+                continue
+            comp = annotator.get("component")
+            if isinstance(comp, dict) and _nonempty_str(comp.get("name")):
+                names.append(comp["name"].strip())
+
+    # de-dup preserve order
+    seen = set()
+    uniq: List[str] = []
+    for n in names:
+        if n not in seen:
+            uniq.append(n)
+            seen.add(n)
+    return uniq
+
+def check_tool_name(doc: Dict[str, Any]) -> Tuple[bool, Dict[str, Any]]:
+    names = _extract_tool_names(doc)
+    ok = len(names) > 0
+    return ok, {
+        "primary_jsonpath": "$.metadata.tools.components[].name" if not _is_wrapped(doc) else "$.sbom.metadata.tools.components[].name",
+        "fallback_jsonpath": "$.annotations[].annotator.component.name" if not _is_wrapped(doc) else "$.sbom.annotations[].annotator.component.name",
+        "found_names": names,
+    }
+
+# 10) Timestamp (O/X): metadata.timestamp ISO8601
+def check_timestamp(doc: Dict[str, Any]) -> Tuple[bool, Dict[str, Any]]:
+    md = _metadata(doc)
+    ts = md.get("timestamp")
+    ok = _iso8601_parseable(ts)
+    return ok, {
+        "jsonpath": "$.metadata.timestamp" if not _is_wrapped(doc) else "$.sbom.metadata.timestamp",
+        "value": ts,
+        "iso8601_ok": ok,
+    }
+
+# 11) Generation Context (O/X): metadata.lifecycles[].phase
+def check_generation_context(doc: Dict[str, Any]) -> Tuple[bool, Dict[str, Any]]:
+    md = _metadata(doc)
+    lifecycles = md.get("lifecycles")
+    phases: List[str] = []
+    if isinstance(lifecycles, list):
+        for l in lifecycles:
+            if isinstance(l, dict) and _nonempty_str(l.get("phase")):
+                phases.append(l["phase"].strip())
+    ok = len(phases) > 0
+    return ok, {
+        "jsonpath": "$.metadata.lifecycles[].phase" if not _is_wrapped(doc) else "$.sbom.metadata.lifecycles[].phase",
+        "found_phases": phases,
+    }
+
+# 8) Dependency Relationship (O/X): dependencies[] + ref/dependsOn edge exists
+def check_dependency_relationship(doc: Dict[str, Any]) -> Tuple[bool, Dict[str, Any]]:
+    deps = _root(doc).get("dependencies")
     if not isinstance(deps, list) or len(deps) == 0:
-        return False
-    # Need at least one valid edge: ref -> dependsOn (non-empty), both endpoints known
+        return False, {
+            "jsonpath": "$.dependencies[]" if not _is_wrapped(doc) else "$.sbom.dependencies[]",
+            "reason": "dependencies[] missing or empty",
+            "edges_found": 0,
+        }
+
+    edges = 0
     for d in deps:
         if not isinstance(d, dict):
             continue
         ref = d.get("ref")
         depends_on = d.get("dependsOn")
-        if not nonempty_str(ref) or ref.strip() not in refset:
-            continue
-        if not isinstance(depends_on, list) or len(depends_on) == 0:
-            continue
-        # At least one dependsOn target must be known
-        for t in depends_on:
-            if nonempty_str(t) and t.strip() in refset:
-                return True
-    return False
+        if _nonempty_str(ref) and isinstance(depends_on, list):
+            edges += sum(1 for x in depends_on if _nonempty_str(x))
 
+    ok = edges > 0
+    return ok, {
+        "jsonpath": "$.dependencies[]" if not _is_wrapped(doc) else "$.sbom.dependencies[]",
+        "edges_found": edges,
+        "ok_rule": "exists at least one non-empty (ref -> dependsOn) edge",
+    }
 
-# -----------------------------
-# Strict component coverages (%)
-# -----------------------------
-
-def comp_producer_strict(c: Dict[str, Any]) -> bool:
-    # Strict: only supplier/manufacturer/publisher count. (Not author/authors.)
-    supplier = c.get("supplier")
-    if isinstance(supplier, dict) and nonempty_str(supplier.get("name")) and not is_placeholder_str(supplier.get("name")):
-        return True
-    manufacturer = c.get("manufacturer")
-    if isinstance(manufacturer, dict) and nonempty_str(manufacturer.get("name")) and not is_placeholder_str(manufacturer.get("name")):
-        return True
+# Component-level checks (%)
+def comp_has_producer(c: Dict[str, Any]) -> bool:
+    man = c.get("manufacturer")
+    sup = c.get("supplier")
     pub = c.get("publisher")
-    if nonempty_str(pub) and not is_placeholder_str(pub):
+    if isinstance(man, dict) and _nonempty_str(man.get("name")):
+        return True
+    if isinstance(sup, dict) and _nonempty_str(sup.get("name")):
+        return True
+    if _nonempty_str(pub):
         return True
     return False
 
-def comp_name_strict(c: Dict[str, Any]) -> bool:
-    name = c.get("name")
-    if not nonempty_str(name) or is_placeholder_str(name):
-        return False
-    if PATHLIKE_NAME_RE.match(name.strip()):
-        return False
-    return True
+def comp_has_name(c: Dict[str, Any]) -> bool:
+    return _nonempty_str(c.get("name"))
 
-def comp_version_strict(c: Dict[str, Any]) -> bool:
+def comp_has_version(c: Dict[str, Any]) -> bool:
     v = c.get("version")
-    if not isinstance(v, str):
+    if v is None:
         return False
-    vs = v.strip()
-    if is_placeholder_str(vs):
-        return False
-    if TEMPLATED_VERSION_RE.match(vs):
-        return False
-    if vs.upper() == "UNKNOWN":
-        return False
-    if PSEUDO_PLACEHOLDER_VERSION_RE.match(vs):
-        return False
+    if isinstance(v, str):
+        vv = v.strip()
+        if vv == "":
+            return False
+        if vv.lower() in _PLACEHOLDER_VERSION:
+            return False
+        return True
     return True
 
-def comp_identifiers_strict(c: Dict[str, Any]) -> bool:
-    purl = c.get("purl")
-    if isinstance(purl, str) and PURL_STRICT_RE.match(purl.strip()):
+def comp_has_identifiers(c: Dict[str, Any]) -> bool:
+    if _nonempty_str(c.get("purl")):
         return True
-
-    cpe = c.get("cpe")
-    if isinstance(cpe, str) and CPE23_RE.match(cpe.strip()):
+    if _nonempty_str(c.get("cpe")):
         return True
 
     swid = c.get("swid")
-    if isinstance(swid, dict) and nonempty_str(swid.get("tagId")) and not is_placeholder_str(swid.get("tagId")):
-        return True
+    if isinstance(swid, dict):
+        for k in ("tagId", "name", "version", "text"):
+            if _nonempty_str(swid.get(k)):
+                return True
 
     ext = c.get("externalReferences")
-    if isinstance(ext, list):
-        for e in ext:
-            if isinstance(e, dict):
-                url = e.get("url")
-                if isinstance(url, str) and url.strip().lower().startswith(("http://", "https://")):
-                    return True
+    if isinstance(ext, list) and len(ext) > 0:
+        return True
+
+    bref = c.get("bom-ref")
+    if _nonempty_str(bref) and re.match(r"^(pkg:|urn:)", bref.strip()):
+        return True
 
     return False
 
-def comp_hash_strict(c: Dict[str, Any]) -> bool:
+def comp_has_hash(c: Dict[str, Any]) -> bool:
     hashes = c.get("hashes")
-    if not isinstance(hashes, list) or len(hashes) == 0:
+    if not isinstance(hashes, list):
         return False
     for h in hashes:
-        if not isinstance(h, dict):
-            continue
-        alg = h.get("alg")
-        content = h.get("content")
-        if not (isinstance(alg, str) and isinstance(content, str)):
-            continue
-        algs = alg.strip().upper()
-        # Normalize some common variations
-        norm = algs.replace("SHA256", "SHA-256").replace("SHA384", "SHA-384").replace("SHA512", "SHA-512")
-        if norm not in ALLOWED_HASH_ALGS:
-            continue
-        hexs = content.strip()
-        if not HEX_RE.match(hexs):
-            continue
-        if len(hexs) != ALLOWED_HASH_ALGS[norm]:
-            continue
-        return True
+        if isinstance(h, dict) and _nonempty_str(h.get("alg")) and _nonempty_str(h.get("content")):
+            return True
     return False
 
-def comp_license_strict(c: Dict[str, Any]) -> bool:
+def comp_has_license(c: Dict[str, Any]) -> bool:
     licenses = c.get("licenses")
     if not isinstance(licenses, list) or len(licenses) == 0:
         return False
-    for item in licenses:
-        if not isinstance(item, dict):
+    for entry in licenses:
+        if not isinstance(entry, dict):
             continue
-
-        expr = item.get("expression")
-        if isinstance(expr, str):
-            ex = expr.strip()
-            if nonempty_str(ex) and not is_placeholder_str(ex) and ex.upper() != "NOASSERTION":
-                return True
-
-        lic = item.get("license")
-        if isinstance(lic, dict):
-            lid = lic.get("id")
-            if isinstance(lid, str):
-                s = lid.strip()
-                if nonempty_str(s) and not is_placeholder_str(s) and s.upper() != "NOASSERTION" and SPDX_ID_RE.match(s):
-                    return True
-            # In strict mode, name alone is weak; still accept if it's not placeholder and looks SPDX-ish
-            lname = lic.get("name")
-            if isinstance(lname, str):
-                s = lname.strip()
-                if nonempty_str(s) and not is_placeholder_str(s) and s.upper() != "NOASSERTION":
-                    return True
-
+        if _nonempty_str(entry.get("expression")):
+            return True
+        lic = entry.get("license")
+        if isinstance(lic, dict) and (_nonempty_str(lic.get("id")) or _nonempty_str(lic.get("name"))):
+            return True
     return False
 
+def _pct(numer: int, denom: int) -> float:
+    return 0.0 if denom <= 0 else (numer / denom) * 100.0
 
-# -----------------------------
-# Evaluation + printing
-# -----------------------------
+def analyze(doc: Dict[str, Any]) -> Dict[str, Any]:
+    comps = _components(doc)
+    denom = len(comps)
 
-def evaluate_bom_strict(path: str) -> Dict[str, Any]:
-    doc = load_json(path)
-    bom = unwrap_cyclonedx_root(doc)
-    comps = get_components(bom)
-    refset = known_bom_refs(bom, comps)
+    sbom_author_ok, sbom_author_evi = check_sbom_author(doc)
+    tool_ok, tool_evi = check_tool_name(doc)
+    ts_ok, ts_evi = check_timestamp(doc)
+    gen_ok, gen_evi = check_generation_context(doc)
+    dep_ok, dep_evi = check_dependency_relationship(doc)
+
+    producer_n = sum(1 for c in comps if comp_has_producer(c))
+    name_n = sum(1 for c in comps if comp_has_name(c))
+    version_n = sum(1 for c in comps if comp_has_version(c))
+    id_n = sum(1 for c in comps if comp_has_identifiers(c))
+    hash_n = sum(1 for c in comps if comp_has_hash(c))
+    lic_n = sum(1 for c in comps if comp_has_license(c))
 
     return {
-        "file": os.path.basename(path),
-        "Component Count": len(comps),
-
-        # Metadata 5 (O/X)
-        "SBOM Author": "O" if meta_sbom_author_strict(bom) else "X",
-        "Tool Name": "O" if meta_tool_name_strict(bom) else "X",
-        "Timestamp": "O" if meta_timestamp_strict(bom) else "X",
-        "Generation Context": "O" if meta_generation_context_strict(bom) else "X",
-        "Dependency Relationship": "O" if meta_dependency_relationship_strict(bom, refset) else "X",
-
-        # Component 6 (%)
-        "Producer %": coverage(comps, comp_producer_strict),
-        "Name %": coverage(comps, comp_name_strict),
-        "Version %": coverage(comps, comp_version_strict),
-        "Identifiers %": coverage(comps, comp_identifiers_strict),
-        "Hash %": coverage(comps, comp_hash_strict),
-        "License %": coverage(comps, comp_license_strict),
+        "wrapped": _is_wrapped(doc),
+        "denom": denom,
+        "sbom_author": {"ok": sbom_author_ok, "evidence": sbom_author_evi},
+        "tool_name": {"ok": tool_ok, "evidence": tool_evi},
+        "timestamp": {"ok": ts_ok, "evidence": ts_evi},
+        "generation_context": {"ok": gen_ok, "evidence": gen_evi},
+        "dependency_relationship": {"ok": dep_ok, "evidence": dep_evi},
+        "producer": {"numer": producer_n, "pct": _pct(producer_n, denom)},
+        "name": {"numer": name_n, "pct": _pct(name_n, denom)},
+        "version": {"numer": version_n, "pct": _pct(version_n, denom)},
+        "identifiers": {"numer": id_n, "pct": _pct(id_n, denom)},
+        "hash": {"numer": hash_n, "pct": _pct(hash_n, denom)},
+        "license": {"numer": lic_n, "pct": _pct(lic_n, denom)},
     }
 
-def print_markdown_table(rows: List[Dict[str, Any]]) -> None:
-    cols = [
+def fmt_ox(ok: bool) -> str:
+    return "O" if ok else "X"
+
+def fmt_pct(x: float) -> str:
+    return f"{x:.1f}"
+
+def print_table(rows: List[Tuple[str, Dict[str, Any]]]) -> None:
+    header = [
         "SBOM Author", "Tool Name", "Timestamp", "Generation Context", "Dependency Relationship",
         "Producer %", "Name %", "Version %", "Identifiers %", "Hash %", "License %"
     ]
-    print("| " + " | ".join(cols) + " |")
-    print("|" + "|".join(["---"] * len(cols)) + "|")
-    for r in rows:
-        out = []
-        for c in cols:
-            v = r[c]
-            if isinstance(v, float):
-                out.append(f"{v:.1f}")
-            else:
-                out.append(str(v))
-        print("| " + " | ".join(out) + " |")
+    print("| " + " | ".join(header) + " |")
+    print("|" + "|".join(["---"] * len(header)) + "|")
 
-def main(argv: List[str]) -> int:
-    if len(argv) < 2:
-        print("Usage: python cisa11_cdx_check_strict.py <sbom1.json> [sbom2.json ...]")
-        return 2
+    for label, r in rows:
+        line = [
+            fmt_ox(r["sbom_author"]["ok"]),
+            fmt_ox(r["tool_name"]["ok"]),
+            fmt_ox(r["timestamp"]["ok"]),
+            fmt_ox(r["generation_context"]["ok"]),
+            fmt_ox(r["dependency_relationship"]["ok"]),
+            fmt_pct(r["producer"]["pct"]),
+            fmt_pct(r["name"]["pct"]),
+            fmt_pct(r["version"]["pct"]),
+            fmt_pct(r["identifiers"]["pct"]),
+            fmt_pct(r["hash"]["pct"]),
+            fmt_pct(r["license"]["pct"]),
+        ]
+        print(f"| {label} | " + " | ".join(line) + " |")
 
-    rows = [evaluate_bom_strict(p) for p in argv[1:]]
+def _comp_hint(c: Dict[str, Any]) -> str:
+    for k in ("bom-ref", "purl", "name"):
+        v = c.get(k)
+        if _nonempty_str(v):
+            return v.strip()
+    return "<unknown>"
 
-    # Print component counts to stderr so the markdown table stays clean
-    for r in rows:
-        sys.stderr.write(f"- {r['file']}: components={r['Component Count']}\n")
+def print_evidence(label: str, r: Dict[str, Any], doc: Dict[str, Any]) -> None:
+    denom = r["denom"]
+    wrapper = "wrapped($.sbom.*)" if r["wrapped"] else "normal($.*)"
+    print(f"\n## {label}")
+    print(f"- Format: {wrapper}")
+    print(f"- Component count (denominator): {denom}")
 
-    print_markdown_table(rows)
-    return 0
+    a = r["sbom_author"]["evidence"]
+    t = r["tool_name"]["evidence"]
+    ts = r["timestamp"]["evidence"]
+    gc = r["generation_context"]["evidence"]
+    dep = r["dependency_relationship"]["evidence"]
+
+    print("\n### SBOM-level (O/X) evidence")
+    print(f"- SBOM Author: {fmt_ox(r['sbom_author']['ok'])}  (path: {a.get('jsonpath')}, found: {a.get('found_names')})")
+    print(f"- Tool Name: {fmt_ox(r['tool_name']['ok'])}  (primary: {t.get('primary_jsonpath')}, fallback: {t.get('fallback_jsonpath')}, found: {t.get('found_names')})")
+    print(f"- Timestamp: {fmt_ox(r['timestamp']['ok'])}  (path: {ts.get('jsonpath')}, value: {ts.get('value')}, iso8601_ok={ts.get('iso8601_ok')})")
+    print(f"- Generation Context: {fmt_ox(r['generation_context']['ok'])}  (path: {gc.get('jsonpath')}, found phases: {gc.get('found_phases')})")
+    print(f"- Dependency Relationship: {fmt_ox(r['dependency_relationship']['ok'])}  (path: {dep.get('jsonpath')}, edges_found={dep.get('edges_found')})")
+
+    print("\n### Component-level (%) evidence")
+    print(f"- Producer: {r['producer']['numer']}/{denom} = {fmt_pct(r['producer']['pct'])}%  (manufacturer.name / supplier.name / publisher)")
+    print(f"- Name: {r['name']['numer']}/{denom} = {fmt_pct(r['name']['pct'])}%  (components[].name)")
+    print(f"- Version: {r['version']['numer']}/{denom} = {fmt_pct(r['version']['pct'])}%  (components[].version, excluding placeholders)")
+    print(f"- Identifiers: {r['identifiers']['numer']}/{denom} = {fmt_pct(r['identifiers']['pct'])}%  (purl/cpe/swid/externalReferences/bom-ref(pkg|urn))")
+    print(f"- Hash: {r['hash']['numer']}/{denom} = {fmt_pct(r['hash']['pct'])}%  (hashes[].alg + hashes[].content)")
+    print(f"- License: {r['license']['numer']}/{denom} = {fmt_pct(r['license']['pct'])}%  (licenses[].license.id|name or licenses[].expression)")
+
+    comps = _components(doc)
+
+    def show_missing(title: str, predicate):
+        missing = [c for c in comps if not predicate(c)]
+        if len(missing) == 0:
+            return
+        if len(missing) == denom:
+            print(f"  - Missing {title}: ALL components")
+            return
+        sample = [_comp_hint(c) for c in missing[:5]]
+        print(f"  - Missing {title}: {len(missing)} comps (sample up to 5): {sample}")
+
+    print("\n### Missing samples (only when not 100%)")
+    show_missing("Producer", comp_has_producer)
+    show_missing("Version", comp_has_version)
+    show_missing("Identifiers", comp_has_identifiers)
+    show_missing("Hash", comp_has_hash)
+    show_missing("License", comp_has_license)
+
+def load_json(path: str) -> Dict[str, Any]:
+    p = Path(path)
+    with p.open("r", encoding="utf-8") as f:
+        return json.load(f)
+
+def build_labels(paths: List[str], user_labels: List[str]) -> List[str]:
+    auto = [Path(p).name for p in paths]
+    if not user_labels:
+        return auto
+    # if labels fewer than files, fill the rest automatically
+    out = []
+    for i, p in enumerate(paths):
+        if i < len(user_labels) and user_labels[i].strip():
+            out.append(user_labels[i].strip())
+        else:
+            out.append(auto[i])
+    return out
+
+def main() -> None:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("sboms", nargs="+", help="One or more CycloneDX SBOM JSON files")
+    ap.add_argument("--labels", nargs="*", default=[], help="Optional labels (can be fewer than files)")
+    ap.add_argument("--no-evidence", action="store_true", help="Print only the table")
+    args = ap.parse_args()
+
+    paths = args.sboms
+    labels = build_labels(paths, args.labels)
+
+    docs = [load_json(p) for p in paths]
+    analyses = [analyze(d) for d in docs]
+    rows = list(zip(labels, analyses))
+
+    # Table with label column
+    # (prepend label column in header for readability)
+    header = [
+        "File/Label", "SBOM Author", "Tool Name", "Timestamp", "Generation Context", "Dependency Relationship",
+        "Producer %", "Name %", "Version %", "Identifiers %", "Hash %", "License %"
+    ]
+    print("| " + " | ".join(header) + " |")
+    print("|" + "|".join(["---"] * len(header)) + "|")
+    for label, r in rows:
+        line = [
+            label,
+            fmt_ox(r["sbom_author"]["ok"]),
+            fmt_ox(r["tool_name"]["ok"]),
+            fmt_ox(r["timestamp"]["ok"]),
+            fmt_ox(r["generation_context"]["ok"]),
+            fmt_ox(r["dependency_relationship"]["ok"]),
+            fmt_pct(r["producer"]["pct"]),
+            fmt_pct(r["name"]["pct"]),
+            fmt_pct(r["version"]["pct"]),
+            fmt_pct(r["identifiers"]["pct"]),
+            fmt_pct(r["hash"]["pct"]),
+            fmt_pct(r["license"]["pct"]),
+        ]
+        print("| " + " | ".join(line) + " |")
+
+    if not args.no_evidence:
+        for label, r, doc in zip(labels, analyses, docs):
+            print_evidence(label, r, doc)
 
 if __name__ == "__main__":
-    raise SystemExit(main(sys.argv))
+    main()
