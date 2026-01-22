@@ -42,7 +42,7 @@ languages/
          └─ trivy/
 ```
 
-<div> <h2>Directories</h2> <ul> <li><strong>languages/</strong>: 언어별로 폴더를 구분 (cpp, go, java, python 등)</li> <li><strong>project/</strong>: 해당 언어별로 직접 clone한 원본 소스 코드 보관</li> <li><strong>SBOM/</strong>: project의 각 프로젝트별 SBOM 결과 정리 <ul> <li>프로젝트명 폴더 예시: godot, hugo, java-spring, transformers</li> <li>SBOM 생성 도구별 하위 폴더: <strong>cdxgen/</strong>, <strong>hatbom/</strong>, <strong>syft/</strong>, <strong>trivy/</strong></li> <li>각 도구 폴더에는 해당 생성기로 추출한 SBOM 산출물(JSON 등)이 들어 있음</li> </ul> </li> </ul> </div>
+<div> <h2>Directories</h2> <ul>  <li><strong>code/</strong>: SBOM의 scheme, 최소 필드 만족 여부를 확인하는 parser </li> <li><strong>languages/</strong>: 언어별로 폴더를 구분 (cpp, go, java, python 등)</li> <li><strong>project/</strong>: 해당 언어별로 직접 clone한 원본 소스 코드 보관</li> <li><strong>SBOM/</strong>: project의 각 프로젝트별 SBOM 결과 정리 <ul> <li>프로젝트명 폴더 예시: godot, hugo, java-spring, transformers</li> <li>SBOM 생성 도구별 하위 폴더: <strong>cdxgen/</strong>, <strong>hatbom/</strong>, <strong>syft/</strong>, <strong>trivy/</strong></li> <li>각 도구 폴더에는 해당 생성기로 추출한 SBOM 산출물(JSON 등)이 들어 있음</li> </ul> </li> </ul> </div>
 
 <div> 
     <h2> TEST ISSUES </h2>
