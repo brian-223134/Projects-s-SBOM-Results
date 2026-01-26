@@ -1,0 +1,6050 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:24d701ab-04ce-4578-a0f3-ea6c64c0fc16",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-01-26T04:35:34+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.68.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "dd0b774b-ff26-42b2-840c-c12931a2c63b",
+      "type": "application",
+      "name": "/src",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "32f85ad2-c18d-466e-a5ac-af0a1942f85f",
+      "type": "library",
+      "name": "logger",
+      "version": "1.7.0",
+      "purl": "pkg:gem/logger@1.7.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "logger@1.7.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "35ad7da1-618e-4926-a47f-7f725ee98e47",
+      "type": "application",
+      "name": "rails/tools/releaser/Gemfile.lock",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "7ebfecef-1dd8-4257-a2eb-fa3edea0bf35",
+      "type": "library",
+      "name": "releaser",
+      "version": "1.0.0",
+      "purl": "pkg:gem/releaser@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "releaser@1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "d2a57c26-5dc8-40db-9c75-e1f097751969",
+      "type": "application",
+      "name": "rails/yarn.lock",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "yarn"
+        }
+      ]
+    },
+    {
+      "bom-ref": "dbf29465-04e8-45fb-aa1c-8d95c10df7a8",
+      "type": "library",
+      "name": "logger",
+      "version": "1.7.0",
+      "purl": "pkg:gem/logger@1.7.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "logger@1.7.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "fb8d6478-65b3-4b59-ade3-f03b65d82f0f",
+      "type": "library",
+      "name": "releaser",
+      "version": "1.0.0",
+      "purl": "pkg:gem/releaser@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "releaser@1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "ff14fdc8-49b8-4224-9896-d1243b51cd23",
+      "type": "library",
+      "name": "",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "rails/package.json"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "yarn"
+        }
+      ]
+    },
+    {
+      "bom-ref": "fff7f67a-1eae-447b-9dd4-2818f07517ff",
+      "type": "application",
+      "name": "rails/Gemfile.lock",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/action_text-trix@2.1.16",
+      "type": "library",
+      "name": "action_text-trix",
+      "version": "2.1.16",
+      "purl": "pkg:gem/action_text-trix@2.1.16",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "action_text-trix@2.1.16"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/actioncable@8.2.0.alpha",
+      "type": "library",
+      "name": "actioncable",
+      "version": "8.2.0.alpha",
+      "purl": "pkg:gem/actioncable@8.2.0.alpha",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "actioncable@8.2.0.alpha"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/actionmailbox@8.2.0.alpha",
+      "type": "library",
+      "name": "actionmailbox",
+      "version": "8.2.0.alpha",
+      "purl": "pkg:gem/actionmailbox@8.2.0.alpha",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "actionmailbox@8.2.0.alpha"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/actionmailer@8.2.0.alpha",
+      "type": "library",
+      "name": "actionmailer",
+      "version": "8.2.0.alpha",
+      "purl": "pkg:gem/actionmailer@8.2.0.alpha",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "actionmailer@8.2.0.alpha"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/actionpack@8.2.0.alpha",
+      "type": "library",
+      "name": "actionpack",
+      "version": "8.2.0.alpha",
+      "purl": "pkg:gem/actionpack@8.2.0.alpha",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "actionpack@8.2.0.alpha"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/actiontext@8.2.0.alpha",
+      "type": "library",
+      "name": "actiontext",
+      "version": "8.2.0.alpha",
+      "purl": "pkg:gem/actiontext@8.2.0.alpha",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "actiontext@8.2.0.alpha"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/actionview@8.2.0.alpha",
+      "type": "library",
+      "name": "actionview",
+      "version": "8.2.0.alpha",
+      "purl": "pkg:gem/actionview@8.2.0.alpha",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "actionview@8.2.0.alpha"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/activejob@8.2.0.alpha",
+      "type": "library",
+      "name": "activejob",
+      "version": "8.2.0.alpha",
+      "purl": "pkg:gem/activejob@8.2.0.alpha",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "activejob@8.2.0.alpha"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/activemodel@8.2.0.alpha",
+      "type": "library",
+      "name": "activemodel",
+      "version": "8.2.0.alpha",
+      "purl": "pkg:gem/activemodel@8.2.0.alpha",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "activemodel@8.2.0.alpha"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/activerecord@8.2.0.alpha",
+      "type": "library",
+      "name": "activerecord",
+      "version": "8.2.0.alpha",
+      "purl": "pkg:gem/activerecord@8.2.0.alpha",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "activerecord@8.2.0.alpha"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/activestorage@8.2.0.alpha",
+      "type": "library",
+      "name": "activestorage",
+      "version": "8.2.0.alpha",
+      "purl": "pkg:gem/activestorage@8.2.0.alpha",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "activestorage@8.2.0.alpha"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/activesupport@8.2.0.alpha",
+      "type": "library",
+      "name": "activesupport",
+      "version": "8.2.0.alpha",
+      "purl": "pkg:gem/activesupport@8.2.0.alpha",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "activesupport@8.2.0.alpha"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/addressable@2.8.7",
+      "type": "library",
+      "name": "addressable",
+      "version": "2.8.7",
+      "purl": "pkg:gem/addressable@2.8.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "addressable@2.8.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/amq-protocol@2.3.2",
+      "type": "library",
+      "name": "amq-protocol",
+      "version": "2.3.2",
+      "purl": "pkg:gem/amq-protocol@2.3.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "amq-protocol@2.3.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/argon2@2.3.2",
+      "type": "library",
+      "name": "argon2",
+      "version": "2.3.2",
+      "purl": "pkg:gem/argon2@2.3.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "argon2@2.3.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/ast@2.4.2",
+      "type": "library",
+      "name": "ast",
+      "version": "2.4.2",
+      "purl": "pkg:gem/ast@2.4.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "ast@2.4.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/aws-eventstream@1.4.0",
+      "type": "library",
+      "name": "aws-eventstream",
+      "version": "1.4.0",
+      "purl": "pkg:gem/aws-eventstream@1.4.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "aws-eventstream@1.4.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/aws-partitions@1.1150.0",
+      "type": "library",
+      "name": "aws-partitions",
+      "version": "1.1150.0",
+      "purl": "pkg:gem/aws-partitions@1.1150.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "aws-partitions@1.1150.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/aws-sdk-core@3.230.0",
+      "type": "library",
+      "name": "aws-sdk-core",
+      "version": "3.230.0",
+      "purl": "pkg:gem/aws-sdk-core@3.230.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "aws-sdk-core@3.230.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/aws-sdk-kms@1.110.0",
+      "type": "library",
+      "name": "aws-sdk-kms",
+      "version": "1.110.0",
+      "purl": "pkg:gem/aws-sdk-kms@1.110.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "aws-sdk-kms@1.110.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/aws-sdk-s3@1.197.0",
+      "type": "library",
+      "name": "aws-sdk-s3",
+      "version": "1.197.0",
+      "purl": "pkg:gem/aws-sdk-s3@1.197.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "aws-sdk-s3@1.197.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/aws-sdk-sns@1.92.0",
+      "type": "library",
+      "name": "aws-sdk-sns",
+      "version": "1.92.0",
+      "purl": "pkg:gem/aws-sdk-sns@1.92.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "aws-sdk-sns@1.92.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/aws-sigv4@1.12.1",
+      "type": "library",
+      "name": "aws-sigv4",
+      "version": "1.12.1",
+      "purl": "pkg:gem/aws-sigv4@1.12.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "aws-sigv4@1.12.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/backburner@1.7.0",
+      "type": "library",
+      "name": "backburner",
+      "version": "1.7.0",
+      "purl": "pkg:gem/backburner@1.7.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "backburner@1.7.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/base64@0.3.0",
+      "type": "library",
+      "name": "base64",
+      "version": "0.3.0",
+      "purl": "pkg:gem/base64@0.3.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "base64@0.3.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/bcrypt@3.1.20",
+      "type": "library",
+      "name": "bcrypt",
+      "version": "3.1.20",
+      "purl": "pkg:gem/bcrypt@3.1.20",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "bcrypt@3.1.20"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/bcrypt_pbkdf@1.1.1",
+      "type": "library",
+      "name": "bcrypt_pbkdf",
+      "version": "1.1.1",
+      "purl": "pkg:gem/bcrypt_pbkdf@1.1.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "bcrypt_pbkdf@1.1.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/beaneater@1.1.3",
+      "type": "library",
+      "name": "beaneater",
+      "version": "1.1.3",
+      "purl": "pkg:gem/beaneater@1.1.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "beaneater@1.1.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/bigdecimal@3.2.3",
+      "type": "library",
+      "name": "bigdecimal",
+      "version": "3.2.3",
+      "purl": "pkg:gem/bigdecimal@3.2.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "bigdecimal@3.2.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/bindex@0.8.1",
+      "type": "library",
+      "name": "bindex",
+      "version": "0.8.1",
+      "purl": "pkg:gem/bindex@0.8.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "bindex@0.8.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/bootsnap@1.18.4",
+      "type": "library",
+      "name": "bootsnap",
+      "version": "1.18.4",
+      "purl": "pkg:gem/bootsnap@1.18.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "bootsnap@1.18.4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/brakeman@7.0.0",
+      "type": "library",
+      "name": "brakeman",
+      "version": "7.0.0",
+      "purl": "pkg:gem/brakeman@7.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "brakeman@7.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/builder@3.3.0",
+      "type": "library",
+      "name": "builder",
+      "version": "3.3.0",
+      "purl": "pkg:gem/builder@3.3.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "builder@3.3.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/bundler-audit@0.9.3",
+      "type": "library",
+      "name": "bundler-audit",
+      "version": "0.9.3",
+      "purl": "pkg:gem/bundler-audit@0.9.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "bundler-audit@0.9.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/bunny@2.23.0",
+      "type": "library",
+      "name": "bunny",
+      "version": "2.23.0",
+      "purl": "pkg:gem/bunny@2.23.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "bunny@2.23.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/capybara@3.40.0",
+      "type": "library",
+      "name": "capybara",
+      "version": "3.40.0",
+      "purl": "pkg:gem/capybara@3.40.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "capybara@3.40.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/chef-utils@18.6.2",
+      "type": "library",
+      "name": "chef-utils",
+      "version": "18.6.2",
+      "purl": "pkg:gem/chef-utils@18.6.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "chef-utils@18.6.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/childprocess@5.1.0",
+      "type": "library",
+      "name": "childprocess",
+      "version": "5.1.0",
+      "purl": "pkg:gem/childprocess@5.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "childprocess@5.1.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/concurrent-ruby@1.3.6",
+      "type": "library",
+      "name": "concurrent-ruby",
+      "version": "1.3.6",
+      "purl": "pkg:gem/concurrent-ruby@1.3.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "concurrent-ruby@1.3.6"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/connection_pool@2.5.4",
+      "type": "library",
+      "name": "connection_pool",
+      "version": "2.5.4",
+      "purl": "pkg:gem/connection_pool@2.5.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "connection_pool@2.5.4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/crack@1.0.0",
+      "type": "library",
+      "name": "crack",
+      "version": "1.0.0",
+      "purl": "pkg:gem/crack@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "crack@1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/crass@1.0.6",
+      "type": "library",
+      "name": "crass",
+      "version": "1.0.6",
+      "purl": "pkg:gem/crass@1.0.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "crass@1.0.6"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/cssbundling-rails@1.4.1",
+      "type": "library",
+      "name": "cssbundling-rails",
+      "version": "1.4.1",
+      "purl": "pkg:gem/cssbundling-rails@1.4.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "cssbundling-rails@1.4.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/dalli@4.0.0",
+      "type": "library",
+      "name": "dalli",
+      "version": "4.0.0",
+      "purl": "pkg:gem/dalli@4.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "dalli@4.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/dante@0.2.0",
+      "type": "library",
+      "name": "dante",
+      "version": "0.2.0",
+      "purl": "pkg:gem/dante@0.2.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "dante@0.2.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/dartsass-rails@0.5.1",
+      "type": "library",
+      "name": "dartsass-rails",
+      "version": "0.5.1",
+      "purl": "pkg:gem/dartsass-rails@0.5.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "dartsass-rails@0.5.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/date@3.4.1",
+      "type": "library",
+      "name": "date",
+      "version": "3.4.1",
+      "purl": "pkg:gem/date@3.4.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "date@3.4.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/debug@1.10.0",
+      "type": "library",
+      "name": "debug",
+      "version": "1.10.0",
+      "purl": "pkg:gem/debug@1.10.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "debug@1.10.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/declarative@0.0.20",
+      "type": "library",
+      "name": "declarative",
+      "version": "0.0.20",
+      "purl": "pkg:gem/declarative@0.0.20",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "declarative@0.0.20"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/digest-crc@0.6.5",
+      "type": "library",
+      "name": "digest-crc",
+      "version": "0.6.5",
+      "purl": "pkg:gem/digest-crc@0.6.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "digest-crc@0.6.5"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/dotenv@3.1.7",
+      "type": "library",
+      "name": "dotenv",
+      "version": "3.1.7",
+      "purl": "pkg:gem/dotenv@3.1.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "dotenv@3.1.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/drb@2.2.3",
+      "type": "library",
+      "name": "drb",
+      "version": "2.2.3",
+      "purl": "pkg:gem/drb@2.2.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "drb@2.2.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/ed25519@1.3.0",
+      "type": "library",
+      "name": "ed25519",
+      "version": "1.3.0",
+      "purl": "pkg:gem/ed25519@1.3.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "ed25519@1.3.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/erb@5.1.1",
+      "type": "library",
+      "name": "erb",
+      "version": "5.1.1",
+      "purl": "pkg:gem/erb@5.1.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "erb@5.1.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/erubi@1.13.1",
+      "type": "library",
+      "name": "erubi",
+      "version": "1.13.1",
+      "purl": "pkg:gem/erubi@1.13.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "erubi@1.13.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/et-orbi@1.2.11",
+      "type": "library",
+      "name": "et-orbi",
+      "version": "1.2.11",
+      "purl": "pkg:gem/et-orbi@1.2.11",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "et-orbi@1.2.11"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/event_emitter@0.2.6",
+      "type": "library",
+      "name": "event_emitter",
+      "version": "0.2.6",
+      "purl": "pkg:gem/event_emitter@0.2.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "event_emitter@0.2.6"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/execjs@2.10.0",
+      "type": "library",
+      "name": "execjs",
+      "version": "2.10.0",
+      "purl": "pkg:gem/execjs@2.10.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "execjs@2.10.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/faraday-net_http@3.4.2",
+      "type": "library",
+      "name": "faraday-net_http",
+      "version": "3.4.2",
+      "purl": "pkg:gem/faraday-net_http@3.4.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "faraday-net_http@3.4.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/faraday@2.14.0",
+      "type": "library",
+      "name": "faraday",
+      "version": "2.14.0",
+      "purl": "pkg:gem/faraday@2.14.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "faraday@2.14.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/ffi-compiler@1.3.2",
+      "type": "library",
+      "name": "ffi-compiler",
+      "version": "1.3.2",
+      "purl": "pkg:gem/ffi-compiler@1.3.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "ffi-compiler@1.3.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/ffi@1.17.1",
+      "type": "library",
+      "name": "ffi",
+      "version": "1.17.1",
+      "purl": "pkg:gem/ffi@1.17.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "ffi@1.17.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/fugit@1.11.1",
+      "type": "library",
+      "name": "fugit",
+      "version": "1.11.1",
+      "purl": "pkg:gem/fugit@1.11.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "fugit@1.11.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/globalid@1.2.1",
+      "type": "library",
+      "name": "globalid",
+      "version": "1.2.1",
+      "purl": "pkg:gem/globalid@1.2.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "globalid@1.2.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/google-apis-core@0.15.1",
+      "type": "library",
+      "name": "google-apis-core",
+      "version": "0.15.1",
+      "purl": "pkg:gem/google-apis-core@0.15.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "google-apis-core@0.15.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/google-apis-iamcredentials_v1@0.22.0",
+      "type": "library",
+      "name": "google-apis-iamcredentials_v1",
+      "version": "0.22.0",
+      "purl": "pkg:gem/google-apis-iamcredentials_v1@0.22.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "google-apis-iamcredentials_v1@0.22.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/google-apis-storage_v1@0.49.0",
+      "type": "library",
+      "name": "google-apis-storage_v1",
+      "version": "0.49.0",
+      "purl": "pkg:gem/google-apis-storage_v1@0.49.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "google-apis-storage_v1@0.49.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/google-cloud-core@1.7.1",
+      "type": "library",
+      "name": "google-cloud-core",
+      "version": "1.7.1",
+      "purl": "pkg:gem/google-cloud-core@1.7.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "google-cloud-core@1.7.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/google-cloud-env@2.2.1",
+      "type": "library",
+      "name": "google-cloud-env",
+      "version": "2.2.1",
+      "purl": "pkg:gem/google-cloud-env@2.2.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "google-cloud-env@2.2.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/google-cloud-errors@1.4.0",
+      "type": "library",
+      "name": "google-cloud-errors",
+      "version": "1.4.0",
+      "purl": "pkg:gem/google-cloud-errors@1.4.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "google-cloud-errors@1.4.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/google-cloud-storage@1.54.0",
+      "type": "library",
+      "name": "google-cloud-storage",
+      "version": "1.54.0",
+      "purl": "pkg:gem/google-cloud-storage@1.54.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "google-cloud-storage@1.54.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/google-logging-utils@0.1.0",
+      "type": "library",
+      "name": "google-logging-utils",
+      "version": "0.1.0",
+      "purl": "pkg:gem/google-logging-utils@0.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "google-logging-utils@0.1.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/google-protobuf@4.29.3",
+      "type": "library",
+      "name": "google-protobuf",
+      "version": "4.29.3",
+      "purl": "pkg:gem/google-protobuf@4.29.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "google-protobuf@4.29.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/googleauth@1.12.2",
+      "type": "library",
+      "name": "googleauth",
+      "version": "1.12.2",
+      "purl": "pkg:gem/googleauth@1.12.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "googleauth@1.12.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/hashdiff@1.1.2",
+      "type": "library",
+      "name": "hashdiff",
+      "version": "1.1.2",
+      "purl": "pkg:gem/hashdiff@1.1.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "hashdiff@1.1.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/httpclient@2.9.0",
+      "type": "library",
+      "name": "httpclient",
+      "version": "2.9.0",
+      "purl": "pkg:gem/httpclient@2.9.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "httpclient@2.9.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/i18n@1.14.7",
+      "type": "library",
+      "name": "i18n",
+      "version": "1.14.7",
+      "purl": "pkg:gem/i18n@1.14.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "i18n@1.14.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/image_processing@1.14.0",
+      "type": "library",
+      "name": "image_processing",
+      "version": "1.14.0",
+      "purl": "pkg:gem/image_processing@1.14.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "image_processing@1.14.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/importmap-rails@2.1.0",
+      "type": "library",
+      "name": "importmap-rails",
+      "version": "2.1.0",
+      "purl": "pkg:gem/importmap-rails@2.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "importmap-rails@2.1.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/io-console@0.8.1",
+      "type": "library",
+      "name": "io-console",
+      "version": "0.8.1",
+      "purl": "pkg:gem/io-console@0.8.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "io-console@0.8.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/irb@1.15.2",
+      "type": "library",
+      "name": "irb",
+      "version": "1.15.2",
+      "purl": "pkg:gem/irb@1.15.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "irb@1.15.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/jbuilder@2.13.0",
+      "type": "library",
+      "name": "jbuilder",
+      "version": "2.13.0",
+      "purl": "pkg:gem/jbuilder@2.13.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "jbuilder@2.13.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/jmespath@1.6.2",
+      "type": "library",
+      "name": "jmespath",
+      "version": "1.6.2",
+      "purl": "pkg:gem/jmespath@1.6.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "jmespath@1.6.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/jsbundling-rails@1.3.1",
+      "type": "library",
+      "name": "jsbundling-rails",
+      "version": "1.3.1",
+      "purl": "pkg:gem/jsbundling-rails@1.3.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "jsbundling-rails@1.3.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/json@2.15.2",
+      "type": "library",
+      "name": "json",
+      "version": "2.15.2",
+      "purl": "pkg:gem/json@2.15.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "json@2.15.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/jwt@2.10.1",
+      "type": "library",
+      "name": "jwt",
+      "version": "2.10.1",
+      "purl": "pkg:gem/jwt@2.10.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "jwt@2.10.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/kamal@2.4.0",
+      "type": "library",
+      "name": "kamal",
+      "version": "2.4.0",
+      "purl": "pkg:gem/kamal@2.4.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "kamal@2.4.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/kramdown-parser-gfm@1.1.0",
+      "type": "library",
+      "name": "kramdown-parser-gfm",
+      "version": "1.1.0",
+      "purl": "pkg:gem/kramdown-parser-gfm@1.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "kramdown-parser-gfm@1.1.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/kramdown@2.5.1",
+      "type": "library",
+      "name": "kramdown",
+      "version": "2.5.1",
+      "purl": "pkg:gem/kramdown@2.5.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "kramdown@2.5.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/language_server-protocol@3.17.0.3",
+      "type": "library",
+      "name": "language_server-protocol",
+      "version": "3.17.0.3",
+      "purl": "pkg:gem/language_server-protocol@3.17.0.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "language_server-protocol@3.17.0.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/launchy@3.0.1",
+      "type": "library",
+      "name": "launchy",
+      "version": "3.0.1",
+      "purl": "pkg:gem/launchy@3.0.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "launchy@3.0.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/libxml-ruby@5.0.4",
+      "type": "library",
+      "name": "libxml-ruby",
+      "version": "5.0.4",
+      "purl": "pkg:gem/libxml-ruby@5.0.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "libxml-ruby@5.0.4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/lint_roller@1.1.0",
+      "type": "library",
+      "name": "lint_roller",
+      "version": "1.1.0",
+      "purl": "pkg:gem/lint_roller@1.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "lint_roller@1.1.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/listen@3.9.0",
+      "type": "library",
+      "name": "listen",
+      "version": "3.9.0",
+      "purl": "pkg:gem/listen@3.9.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "listen@3.9.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/loofah@2.24.1",
+      "type": "library",
+      "name": "loofah",
+      "version": "2.24.1",
+      "purl": "pkg:gem/loofah@2.24.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "loofah@2.24.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/mail@2.8.1",
+      "type": "library",
+      "name": "mail",
+      "version": "2.8.1",
+      "purl": "pkg:gem/mail@2.8.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "mail@2.8.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/marcel@1.0.4",
+      "type": "library",
+      "name": "marcel",
+      "version": "1.0.4",
+      "purl": "pkg:gem/marcel@1.0.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "marcel@1.0.4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/matrix@0.4.2",
+      "type": "library",
+      "name": "matrix",
+      "version": "0.4.2",
+      "purl": "pkg:gem/matrix@0.4.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "matrix@0.4.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/mdl@0.12.0",
+      "type": "library",
+      "name": "mdl",
+      "version": "0.12.0",
+      "purl": "pkg:gem/mdl@0.12.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "mdl@0.12.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/mini_magick@5.3.1",
+      "type": "library",
+      "name": "mini_magick",
+      "version": "5.3.1",
+      "purl": "pkg:gem/mini_magick@5.3.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "mini_magick@5.3.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/mini_mime@1.1.5",
+      "type": "library",
+      "name": "mini_mime",
+      "version": "1.1.5",
+      "purl": "pkg:gem/mini_mime@1.1.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "mini_mime@1.1.5"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/mini_portile2@2.8.9",
+      "type": "library",
+      "name": "mini_portile2",
+      "version": "2.8.9",
+      "purl": "pkg:gem/mini_portile2@2.8.9",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "mini_portile2@2.8.9"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/minitest-mock@5.27.0",
+      "type": "library",
+      "name": "minitest-mock",
+      "version": "5.27.0",
+      "purl": "pkg:gem/minitest-mock@5.27.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "minitest-mock@5.27.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/minitest-retry@0.2.3",
+      "type": "library",
+      "name": "minitest-retry",
+      "version": "0.2.3",
+      "purl": "pkg:gem/minitest-retry@0.2.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "minitest-retry@0.2.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/minitest@5.25.1",
+      "type": "library",
+      "name": "minitest",
+      "version": "5.25.1",
+      "purl": "pkg:gem/minitest@5.25.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "minitest@5.25.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/minitest@6.0.0",
+      "type": "library",
+      "name": "minitest",
+      "version": "6.0.0",
+      "purl": "pkg:gem/minitest@6.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "minitest@6.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/mixlib-cli@2.1.8",
+      "type": "library",
+      "name": "mixlib-cli",
+      "version": "2.1.8",
+      "purl": "pkg:gem/mixlib-cli@2.1.8",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "mixlib-cli@2.1.8"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/mixlib-config@3.0.27",
+      "type": "library",
+      "name": "mixlib-config",
+      "version": "3.0.27",
+      "purl": "pkg:gem/mixlib-config@3.0.27",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "mixlib-config@3.0.27"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/mixlib-shellout@3.3.4",
+      "type": "library",
+      "name": "mixlib-shellout",
+      "version": "3.3.4",
+      "purl": "pkg:gem/mixlib-shellout@3.3.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "mixlib-shellout@3.3.4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/mono_logger@1.1.2",
+      "type": "library",
+      "name": "mono_logger",
+      "version": "1.1.2",
+      "purl": "pkg:gem/mono_logger@1.1.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "mono_logger@1.1.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/msgpack@1.7.5",
+      "type": "library",
+      "name": "msgpack",
+      "version": "1.7.5",
+      "purl": "pkg:gem/msgpack@1.7.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "msgpack@1.7.5"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/multi_json@1.15.0",
+      "type": "library",
+      "name": "multi_json",
+      "version": "1.15.0",
+      "purl": "pkg:gem/multi_json@1.15.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "multi_json@1.15.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/mustermann@3.0.4",
+      "type": "library",
+      "name": "mustermann",
+      "version": "3.0.4",
+      "purl": "pkg:gem/mustermann@3.0.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "mustermann@3.0.4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/mutex_m@0.3.0",
+      "type": "library",
+      "name": "mutex_m",
+      "version": "0.3.0",
+      "purl": "pkg:gem/mutex_m@0.3.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "mutex_m@0.3.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/mysql2@0.5.6",
+      "type": "library",
+      "name": "mysql2",
+      "version": "0.5.6",
+      "purl": "pkg:gem/mysql2@0.5.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "mysql2@0.5.6"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/net-http@0.6.0",
+      "type": "library",
+      "name": "net-http",
+      "version": "0.6.0",
+      "purl": "pkg:gem/net-http@0.6.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "net-http@0.6.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/net-http@0.9.1",
+      "type": "library",
+      "name": "net-http",
+      "version": "0.9.1",
+      "purl": "pkg:gem/net-http@0.9.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "net-http@0.9.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/net-imap@0.5.5",
+      "type": "library",
+      "name": "net-imap",
+      "version": "0.5.5",
+      "purl": "pkg:gem/net-imap@0.5.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "net-imap@0.5.5"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/net-pop@0.1.2",
+      "type": "library",
+      "name": "net-pop",
+      "version": "0.1.2",
+      "purl": "pkg:gem/net-pop@0.1.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "net-pop@0.1.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/net-protocol@0.2.2",
+      "type": "library",
+      "name": "net-protocol",
+      "version": "0.2.2",
+      "purl": "pkg:gem/net-protocol@0.2.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "net-protocol@0.2.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/net-scp@4.0.0",
+      "type": "library",
+      "name": "net-scp",
+      "version": "4.0.0",
+      "purl": "pkg:gem/net-scp@4.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "net-scp@4.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/net-sftp@4.0.0",
+      "type": "library",
+      "name": "net-sftp",
+      "version": "4.0.0",
+      "purl": "pkg:gem/net-sftp@4.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "net-sftp@4.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/net-smtp@0.5.1",
+      "type": "library",
+      "name": "net-smtp",
+      "version": "0.5.1",
+      "purl": "pkg:gem/net-smtp@0.5.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "net-smtp@0.5.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/net-ssh@7.3.0",
+      "type": "library",
+      "name": "net-ssh",
+      "version": "7.3.0",
+      "purl": "pkg:gem/net-ssh@7.3.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "net-ssh@7.3.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/nio4r@2.7.4",
+      "type": "library",
+      "name": "nio4r",
+      "version": "2.7.4",
+      "purl": "pkg:gem/nio4r@2.7.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "nio4r@2.7.4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/nokogiri@1.18.10",
+      "type": "library",
+      "name": "nokogiri",
+      "version": "1.18.10",
+      "purl": "pkg:gem/nokogiri@1.18.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "nokogiri@1.18.10"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/os@1.1.4",
+      "type": "library",
+      "name": "os",
+      "version": "1.1.4",
+      "purl": "pkg:gem/os@1.1.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "os@1.1.4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/ostruct@0.6.1",
+      "type": "library",
+      "name": "ostruct",
+      "version": "0.6.1",
+      "purl": "pkg:gem/ostruct@0.6.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "ostruct@0.6.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/parallel@1.26.3",
+      "type": "library",
+      "name": "parallel",
+      "version": "1.26.3",
+      "purl": "pkg:gem/parallel@1.26.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "parallel@1.26.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/parser@3.3.9.0",
+      "type": "library",
+      "name": "parser",
+      "version": "3.3.9.0",
+      "purl": "pkg:gem/parser@3.3.9.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "parser@3.3.9.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/pg@1.6.2",
+      "type": "library",
+      "name": "pg",
+      "version": "1.6.2",
+      "purl": "pkg:gem/pg@1.6.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "pg@1.6.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/pp@0.6.2",
+      "type": "library",
+      "name": "pp",
+      "version": "0.6.2",
+      "purl": "pkg:gem/pp@0.6.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "pp@0.6.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/prettyprint@0.2.0",
+      "type": "library",
+      "name": "prettyprint",
+      "version": "0.2.0",
+      "purl": "pkg:gem/prettyprint@0.2.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "prettyprint@0.2.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/prism@1.7.0",
+      "type": "library",
+      "name": "prism",
+      "version": "1.7.0",
+      "purl": "pkg:gem/prism@1.7.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "prism@1.7.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/propshaft@1.3.1",
+      "type": "library",
+      "name": "propshaft",
+      "version": "1.3.1",
+      "purl": "pkg:gem/propshaft@1.3.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "propshaft@1.3.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/protobug@0.1.0",
+      "type": "library",
+      "name": "protobug",
+      "version": "0.1.0",
+      "purl": "pkg:gem/protobug@0.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "protobug@0.1.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/protobug_googleapis_field_behavior_protos@0.1.0",
+      "type": "library",
+      "name": "protobug_googleapis_field_behavior_protos",
+      "version": "0.1.0",
+      "purl": "pkg:gem/protobug_googleapis_field_behavior_protos@0.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "protobug_googleapis_field_behavior_protos@0.1.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/protobug_sigstore_protos@0.1.0",
+      "type": "library",
+      "name": "protobug_sigstore_protos",
+      "version": "0.1.0",
+      "purl": "pkg:gem/protobug_sigstore_protos@0.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "protobug_sigstore_protos@0.1.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/protobug_well_known_protos@0.1.0",
+      "type": "library",
+      "name": "protobug_well_known_protos",
+      "version": "0.1.0",
+      "purl": "pkg:gem/protobug_well_known_protos@0.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "protobug_well_known_protos@0.1.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/psych@5.2.6",
+      "type": "library",
+      "name": "psych",
+      "version": "5.2.6",
+      "purl": "pkg:gem/psych@5.2.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "psych@5.2.6"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/public_suffix@6.0.1",
+      "type": "library",
+      "name": "public_suffix",
+      "version": "6.0.1",
+      "purl": "pkg:gem/public_suffix@6.0.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "public_suffix@6.0.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/puma@6.5.0",
+      "type": "library",
+      "name": "puma",
+      "version": "6.5.0",
+      "purl": "pkg:gem/puma@6.5.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "puma@6.5.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/queue_classic@4.0.0",
+      "type": "library",
+      "name": "queue_classic",
+      "version": "4.0.0",
+      "purl": "pkg:gem/queue_classic@4.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "queue_classic@4.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/raabro@1.4.0",
+      "type": "library",
+      "name": "raabro",
+      "version": "1.4.0",
+      "purl": "pkg:gem/raabro@1.4.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "raabro@1.4.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/racc@1.8.1",
+      "type": "library",
+      "name": "racc",
+      "version": "1.8.1",
+      "purl": "pkg:gem/racc@1.8.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "racc@1.8.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/rack-cache@1.17.0",
+      "type": "library",
+      "name": "rack-cache",
+      "version": "1.17.0",
+      "purl": "pkg:gem/rack-cache@1.17.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "rack-cache@1.17.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/rack-protection@4.1.1",
+      "type": "library",
+      "name": "rack-protection",
+      "version": "4.1.1",
+      "purl": "pkg:gem/rack-protection@4.1.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "rack-protection@4.1.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/rack-session@2.1.1",
+      "type": "library",
+      "name": "rack-session",
+      "version": "2.1.1",
+      "purl": "pkg:gem/rack-session@2.1.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "rack-session@2.1.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/rack-test@2.2.0",
+      "type": "library",
+      "name": "rack-test",
+      "version": "2.2.0",
+      "purl": "pkg:gem/rack-test@2.2.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "rack-test@2.2.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/rack@3.2.1",
+      "type": "library",
+      "name": "rack",
+      "version": "3.2.1",
+      "purl": "pkg:gem/rack@3.2.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "rack@3.2.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/rackup@2.2.1",
+      "type": "library",
+      "name": "rackup",
+      "version": "2.2.1",
+      "purl": "pkg:gem/rackup@2.2.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "rackup@2.2.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/rails-dom-testing@2.3.0",
+      "type": "library",
+      "name": "rails-dom-testing",
+      "version": "2.3.0",
+      "purl": "pkg:gem/rails-dom-testing@2.3.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "rails-dom-testing@2.3.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/rails-html-sanitizer@1.6.2",
+      "type": "library",
+      "name": "rails-html-sanitizer",
+      "version": "1.6.2",
+      "purl": "pkg:gem/rails-html-sanitizer@1.6.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "rails-html-sanitizer@1.6.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/rails@8.2.0.alpha",
+      "type": "library",
+      "name": "rails",
+      "version": "8.2.0.alpha",
+      "purl": "pkg:gem/rails@8.2.0.alpha",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "rails@8.2.0.alpha"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/railties@8.2.0.alpha",
+      "type": "library",
+      "name": "railties",
+      "version": "8.2.0.alpha",
+      "purl": "pkg:gem/railties@8.2.0.alpha",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "railties@8.2.0.alpha"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/rainbow@3.1.1",
+      "type": "library",
+      "name": "rainbow",
+      "version": "3.1.1",
+      "purl": "pkg:gem/rainbow@3.1.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "rainbow@3.1.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/rake@13.2.1",
+      "type": "library",
+      "name": "rake",
+      "version": "13.2.1",
+      "purl": "pkg:gem/rake@13.2.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "rake@13.2.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/rake@13.3.0",
+      "type": "library",
+      "name": "rake",
+      "version": "13.3.0",
+      "purl": "pkg:gem/rake@13.3.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "rake@13.3.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/rb-fsevent@0.11.2",
+      "type": "library",
+      "name": "rb-fsevent",
+      "version": "0.11.2",
+      "purl": "pkg:gem/rb-fsevent@0.11.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "rb-fsevent@0.11.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/rb-inotify@0.11.1",
+      "type": "library",
+      "name": "rb-inotify",
+      "version": "0.11.1",
+      "purl": "pkg:gem/rb-inotify@0.11.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "rb-inotify@0.11.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/rbtree@0.4.6",
+      "type": "library",
+      "name": "rbtree",
+      "version": "0.4.6",
+      "purl": "pkg:gem/rbtree@0.4.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "rbtree@0.4.6"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/rdoc@6.15.0",
+      "type": "library",
+      "name": "rdoc",
+      "version": "6.15.0",
+      "purl": "pkg:gem/rdoc@6.15.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "rdoc@6.15.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/redcarpet@3.6.1",
+      "type": "library",
+      "name": "redcarpet",
+      "version": "3.6.1",
+      "purl": "pkg:gem/redcarpet@3.6.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "redcarpet@3.6.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/redis-client@0.25.2",
+      "type": "library",
+      "name": "redis-client",
+      "version": "0.25.2",
+      "purl": "pkg:gem/redis-client@0.25.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "redis-client@0.25.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/redis-namespace@1.11.0",
+      "type": "library",
+      "name": "redis-namespace",
+      "version": "1.11.0",
+      "purl": "pkg:gem/redis-namespace@1.11.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "redis-namespace@1.11.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/redis@5.4.1",
+      "type": "library",
+      "name": "redis",
+      "version": "5.4.1",
+      "purl": "pkg:gem/redis@5.4.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "redis@5.4.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/regexp_parser@2.10.0",
+      "type": "library",
+      "name": "regexp_parser",
+      "version": "2.10.0",
+      "purl": "pkg:gem/regexp_parser@2.10.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "regexp_parser@2.10.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/reline@0.6.1",
+      "type": "library",
+      "name": "reline",
+      "version": "0.6.1",
+      "purl": "pkg:gem/reline@0.6.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "reline@0.6.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/representable@3.2.0",
+      "type": "library",
+      "name": "representable",
+      "version": "3.2.0",
+      "purl": "pkg:gem/representable@3.2.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "representable@3.2.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/resque-scheduler@4.11.0",
+      "type": "library",
+      "name": "resque-scheduler",
+      "version": "4.11.0",
+      "purl": "pkg:gem/resque-scheduler@4.11.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "resque-scheduler@4.11.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/resque@2.7.0",
+      "type": "library",
+      "name": "resque",
+      "version": "2.7.0",
+      "purl": "pkg:gem/resque@2.7.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "resque@2.7.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/retriable@3.1.2",
+      "type": "library",
+      "name": "retriable",
+      "version": "3.1.2",
+      "purl": "pkg:gem/retriable@3.1.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "retriable@3.1.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/rexml@3.4.0",
+      "type": "library",
+      "name": "rexml",
+      "version": "3.4.0",
+      "purl": "pkg:gem/rexml@3.4.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "rexml@3.4.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/rouge@4.6.1",
+      "type": "library",
+      "name": "rouge",
+      "version": "4.6.1",
+      "purl": "pkg:gem/rouge@4.6.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "rouge@4.6.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/rubocop-ast@1.46.0",
+      "type": "library",
+      "name": "rubocop-ast",
+      "version": "1.46.0",
+      "purl": "pkg:gem/rubocop-ast@1.46.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "rubocop-ast@1.46.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/rubocop-md@2.0.1",
+      "type": "library",
+      "name": "rubocop-md",
+      "version": "2.0.1",
+      "purl": "pkg:gem/rubocop-md@2.0.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "rubocop-md@2.0.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/rubocop-minitest@0.37.1",
+      "type": "library",
+      "name": "rubocop-minitest",
+      "version": "0.37.1",
+      "purl": "pkg:gem/rubocop-minitest@0.37.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "rubocop-minitest@0.37.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/rubocop-packaging@0.6.0",
+      "type": "library",
+      "name": "rubocop-packaging",
+      "version": "0.6.0",
+      "purl": "pkg:gem/rubocop-packaging@0.6.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "rubocop-packaging@0.6.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/rubocop-performance@1.24.0",
+      "type": "library",
+      "name": "rubocop-performance",
+      "version": "1.24.0",
+      "purl": "pkg:gem/rubocop-performance@1.24.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "rubocop-performance@1.24.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/rubocop-rails-omakase@1.0.0",
+      "type": "library",
+      "name": "rubocop-rails-omakase",
+      "version": "1.0.0",
+      "purl": "pkg:gem/rubocop-rails-omakase@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "rubocop-rails-omakase@1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/rubocop-rails@2.30.3",
+      "type": "library",
+      "name": "rubocop-rails",
+      "version": "2.30.3",
+      "purl": "pkg:gem/rubocop-rails@2.30.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "rubocop-rails@2.30.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/rubocop@1.79.2",
+      "type": "library",
+      "name": "rubocop",
+      "version": "1.79.2",
+      "purl": "pkg:gem/rubocop@1.79.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "rubocop@1.79.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/ruby-progressbar@1.13.0",
+      "type": "library",
+      "name": "ruby-progressbar",
+      "version": "1.13.0",
+      "purl": "pkg:gem/ruby-progressbar@1.13.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "ruby-progressbar@1.13.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/ruby-vips@2.2.2",
+      "type": "library",
+      "name": "ruby-vips",
+      "version": "2.2.2",
+      "purl": "pkg:gem/ruby-vips@2.2.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "ruby-vips@2.2.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/ruby2_keywords@0.0.5",
+      "type": "library",
+      "name": "ruby2_keywords",
+      "version": "0.0.5",
+      "purl": "pkg:gem/ruby2_keywords@0.0.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "ruby2_keywords@0.0.5"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/rubyzip@2.4.1",
+      "type": "library",
+      "name": "rubyzip",
+      "version": "2.4.1",
+      "purl": "pkg:gem/rubyzip@2.4.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "rubyzip@2.4.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/rufus-scheduler@3.9.2",
+      "type": "library",
+      "name": "rufus-scheduler",
+      "version": "3.9.2",
+      "purl": "pkg:gem/rufus-scheduler@3.9.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "rufus-scheduler@3.9.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/sass-embedded@1.83.4",
+      "type": "library",
+      "name": "sass-embedded",
+      "version": "1.83.4",
+      "purl": "pkg:gem/sass-embedded@1.83.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "sass-embedded@1.83.4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/sdoc@2.6.5",
+      "type": "library",
+      "name": "sdoc",
+      "version": "2.6.5",
+      "purl": "pkg:gem/sdoc@2.6.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "sdoc@2.6.5"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/securerandom@0.4.1",
+      "type": "library",
+      "name": "securerandom",
+      "version": "0.4.1",
+      "purl": "pkg:gem/securerandom@0.4.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "securerandom@0.4.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/selenium-webdriver@4.32.0",
+      "type": "library",
+      "name": "selenium-webdriver",
+      "version": "4.32.0",
+      "purl": "pkg:gem/selenium-webdriver@4.32.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "selenium-webdriver@4.32.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/serverengine@2.0.7",
+      "type": "library",
+      "name": "serverengine",
+      "version": "2.0.7",
+      "purl": "pkg:gem/serverengine@2.0.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "serverengine@2.0.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/set@1.1.2",
+      "type": "library",
+      "name": "set",
+      "version": "1.1.2",
+      "purl": "pkg:gem/set@1.1.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "set@1.1.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/sigdump@0.2.5",
+      "type": "library",
+      "name": "sigdump",
+      "version": "0.2.5",
+      "purl": "pkg:gem/sigdump@0.2.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "sigdump@0.2.5"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/signet@0.19.0",
+      "type": "library",
+      "name": "signet",
+      "version": "0.19.0",
+      "purl": "pkg:gem/signet@0.19.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "signet@0.19.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/sigstore-cli@0.2.2",
+      "type": "library",
+      "name": "sigstore-cli",
+      "version": "0.2.2",
+      "purl": "pkg:gem/sigstore-cli@0.2.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "sigstore-cli@0.2.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/sigstore@0.2.2",
+      "type": "library",
+      "name": "sigstore",
+      "version": "0.2.2",
+      "purl": "pkg:gem/sigstore@0.2.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "sigstore@0.2.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/sinatra@4.1.1",
+      "type": "library",
+      "name": "sinatra",
+      "version": "4.1.1",
+      "purl": "pkg:gem/sinatra@4.1.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "sinatra@4.1.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/sneakers@2.11.0",
+      "type": "library",
+      "name": "sneakers",
+      "version": "2.11.0",
+      "purl": "pkg:gem/sneakers@2.11.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "sneakers@2.11.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/solid_cable@3.0.5",
+      "type": "library",
+      "name": "solid_cable",
+      "version": "3.0.5",
+      "purl": "pkg:gem/solid_cable@3.0.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "solid_cable@3.0.5"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/solid_cache@1.0.6",
+      "type": "library",
+      "name": "solid_cache",
+      "version": "1.0.6",
+      "purl": "pkg:gem/solid_cache@1.0.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "solid_cache@1.0.6"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/solid_queue@1.1.2",
+      "type": "library",
+      "name": "solid_queue",
+      "version": "1.1.2",
+      "purl": "pkg:gem/solid_queue@1.1.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "solid_queue@1.1.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/sorted_set@1.0.3",
+      "type": "library",
+      "name": "sorted_set",
+      "version": "1.0.3",
+      "purl": "pkg:gem/sorted_set@1.0.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "sorted_set@1.0.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/sprockets-rails@3.5.2",
+      "type": "library",
+      "name": "sprockets-rails",
+      "version": "3.5.2",
+      "purl": "pkg:gem/sprockets-rails@3.5.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "sprockets-rails@3.5.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/sprockets@4.2.1",
+      "type": "library",
+      "name": "sprockets",
+      "version": "4.2.1",
+      "purl": "pkg:gem/sprockets@4.2.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "sprockets@4.2.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/sqlite3@2.5.0",
+      "type": "library",
+      "name": "sqlite3",
+      "version": "2.5.0",
+      "purl": "pkg:gem/sqlite3@2.5.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "sqlite3@2.5.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/sshkit@1.23.2",
+      "type": "library",
+      "name": "sshkit",
+      "version": "1.23.2",
+      "purl": "pkg:gem/sshkit@1.23.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "sshkit@1.23.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/stackprof@0.2.27",
+      "type": "library",
+      "name": "stackprof",
+      "version": "0.2.27",
+      "purl": "pkg:gem/stackprof@0.2.27",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "stackprof@0.2.27"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/stimulus-rails@1.3.4",
+      "type": "library",
+      "name": "stimulus-rails",
+      "version": "1.3.4",
+      "purl": "pkg:gem/stimulus-rails@1.3.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "stimulus-rails@1.3.4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/stringio@3.1.7",
+      "type": "library",
+      "name": "stringio",
+      "version": "3.1.7",
+      "purl": "pkg:gem/stringio@3.1.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "stringio@3.1.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/tailwindcss-rails@3.2.0",
+      "type": "library",
+      "name": "tailwindcss-rails",
+      "version": "3.2.0",
+      "purl": "pkg:gem/tailwindcss-rails@3.2.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "tailwindcss-rails@3.2.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/tailwindcss-ruby@3.4.17",
+      "type": "library",
+      "name": "tailwindcss-ruby",
+      "version": "3.4.17",
+      "purl": "pkg:gem/tailwindcss-ruby@3.4.17",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "tailwindcss-ruby@3.4.17"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/terser@1.2.4",
+      "type": "library",
+      "name": "terser",
+      "version": "1.2.4",
+      "purl": "pkg:gem/terser@1.2.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "terser@1.2.4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/thor@1.3.2",
+      "type": "library",
+      "name": "thor",
+      "version": "1.3.2",
+      "purl": "pkg:gem/thor@1.3.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "thor@1.3.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/thor@1.4.0",
+      "type": "library",
+      "name": "thor",
+      "version": "1.4.0",
+      "purl": "pkg:gem/thor@1.4.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "thor@1.4.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/thruster@0.1.16",
+      "type": "library",
+      "name": "thruster",
+      "version": "0.1.16",
+      "purl": "pkg:gem/thruster@0.1.16",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "thruster@0.1.16"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/tilt@2.6.1",
+      "type": "library",
+      "name": "tilt",
+      "version": "2.6.1",
+      "purl": "pkg:gem/tilt@2.6.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "tilt@2.6.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/timeout@0.4.3",
+      "type": "library",
+      "name": "timeout",
+      "version": "0.4.3",
+      "purl": "pkg:gem/timeout@0.4.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "timeout@0.4.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/tomlrb@2.0.3",
+      "type": "library",
+      "name": "tomlrb",
+      "version": "2.0.3",
+      "purl": "pkg:gem/tomlrb@2.0.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "tomlrb@2.0.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/trailblazer-option@0.1.2",
+      "type": "library",
+      "name": "trailblazer-option",
+      "version": "0.1.2",
+      "purl": "pkg:gem/trailblazer-option@0.1.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "trailblazer-option@0.1.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/trilogy@2.9.0",
+      "type": "library",
+      "name": "trilogy",
+      "version": "2.9.0",
+      "purl": "pkg:gem/trilogy@2.9.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "trilogy@2.9.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/tsort@0.2.0",
+      "type": "library",
+      "name": "tsort",
+      "version": "0.2.0",
+      "purl": "pkg:gem/tsort@0.2.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "tsort@0.2.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/turbo-rails@2.0.11",
+      "type": "library",
+      "name": "turbo-rails",
+      "version": "2.0.11",
+      "purl": "pkg:gem/turbo-rails@2.0.11",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "turbo-rails@2.0.11"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/tzinfo@2.0.6",
+      "type": "library",
+      "name": "tzinfo",
+      "version": "2.0.6",
+      "purl": "pkg:gem/tzinfo@2.0.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "tzinfo@2.0.6"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/uber@0.1.0",
+      "type": "library",
+      "name": "uber",
+      "version": "0.1.0",
+      "purl": "pkg:gem/uber@0.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "uber@0.1.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/unicode-display_width@3.1.4",
+      "type": "library",
+      "name": "unicode-display_width",
+      "version": "3.1.4",
+      "purl": "pkg:gem/unicode-display_width@3.1.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "unicode-display_width@3.1.4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/unicode-emoji@4.2.0",
+      "type": "library",
+      "name": "unicode-emoji",
+      "version": "4.2.0",
+      "purl": "pkg:gem/unicode-emoji@4.2.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "unicode-emoji@4.2.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/uri@1.0.3",
+      "type": "library",
+      "name": "uri",
+      "version": "1.0.3",
+      "purl": "pkg:gem/uri@1.0.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "uri@1.0.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/uri@1.0.4",
+      "type": "library",
+      "name": "uri",
+      "version": "1.0.4",
+      "purl": "pkg:gem/uri@1.0.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "uri@1.0.4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/useragent@0.16.11",
+      "type": "library",
+      "name": "useragent",
+      "version": "0.16.11",
+      "purl": "pkg:gem/useragent@0.16.11",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "useragent@0.16.11"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/w3c_validators@1.3.7",
+      "type": "library",
+      "name": "w3c_validators",
+      "version": "1.3.7",
+      "purl": "pkg:gem/w3c_validators@1.3.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "w3c_validators@1.3.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/web-console@4.2.1",
+      "type": "library",
+      "name": "web-console",
+      "version": "4.2.1",
+      "purl": "pkg:gem/web-console@4.2.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "web-console@4.2.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/webmock@3.25.0",
+      "type": "library",
+      "name": "webmock",
+      "version": "3.25.0",
+      "purl": "pkg:gem/webmock@3.25.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "webmock@3.25.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/webrick@1.9.1",
+      "type": "library",
+      "name": "webrick",
+      "version": "1.9.1",
+      "purl": "pkg:gem/webrick@1.9.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "webrick@1.9.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/websocket-client-simple@0.9.0",
+      "type": "library",
+      "name": "websocket-client-simple",
+      "version": "0.9.0",
+      "purl": "pkg:gem/websocket-client-simple@0.9.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "websocket-client-simple@0.9.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/websocket-driver@0.7.7",
+      "type": "library",
+      "name": "websocket-driver",
+      "version": "0.7.7",
+      "purl": "pkg:gem/websocket-driver@0.7.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "websocket-driver@0.7.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/websocket-extensions@0.1.5",
+      "type": "library",
+      "name": "websocket-extensions",
+      "version": "0.1.5",
+      "purl": "pkg:gem/websocket-extensions@0.1.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "websocket-extensions@0.1.5"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/websocket@1.2.11",
+      "type": "library",
+      "name": "websocket",
+      "version": "1.2.11",
+      "purl": "pkg:gem/websocket@1.2.11",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "websocket@1.2.11"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/xpath@3.2.0",
+      "type": "library",
+      "name": "xpath",
+      "version": "3.2.0",
+      "purl": "pkg:gem/xpath@3.2.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "xpath@3.2.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/zeitwerk@2.7.3",
+      "type": "library",
+      "name": "zeitwerk",
+      "version": "2.7.3",
+      "purl": "pkg:gem/zeitwerk@2.7.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "zeitwerk@2.7.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "bundler"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/%40rails/actioncable@8.2.0-alpha",
+      "type": "library",
+      "group": "@rails",
+      "name": "actioncable",
+      "version": "8.2.0-alpha",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40rails/actioncable@8.2.0-alpha",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "@rails/actioncable@8.2.0-alpha"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "yarn"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/%40rails/actiontext@8.2.0-alpha",
+      "type": "library",
+      "group": "@rails",
+      "name": "actiontext",
+      "version": "8.2.0-alpha",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40rails/actiontext@8.2.0-alpha",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "@rails/actiontext@8.2.0-alpha"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "yarn"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/%40rails/activestorage@8.1.0-beta1",
+      "type": "library",
+      "group": "@rails",
+      "name": "activestorage",
+      "version": "8.1.0-beta1",
+      "purl": "pkg:npm/%40rails/activestorage@8.1.0-beta1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "@rails/activestorage@8.1.0-beta1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "yarn"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/%40rails/activestorage@8.2.0-alpha",
+      "type": "library",
+      "group": "@rails",
+      "name": "activestorage",
+      "version": "8.2.0-alpha",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40rails/activestorage@8.2.0-alpha",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "@rails/activestorage@8.2.0-alpha"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "yarn"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/fsevents@2.3.3",
+      "type": "library",
+      "name": "fsevents",
+      "version": "2.3.3",
+      "purl": "pkg:npm/fsevents@2.3.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "fsevents@2.3.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "yarn"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/js-sha256@0.9.0",
+      "type": "library",
+      "name": "js-sha256",
+      "version": "0.9.0",
+      "purl": "pkg:npm/js-sha256@0.9.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "js-sha256@0.9.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "yarn"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/spark-md5@3.0.2",
+      "type": "library",
+      "name": "spark-md5",
+      "version": "3.0.2",
+      "purl": "pkg:npm/spark-md5@3.0.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "spark-md5@3.0.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "yarn"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "32f85ad2-c18d-466e-a5ac-af0a1942f85f",
+      "dependsOn": []
+    },
+    {
+      "ref": "35ad7da1-618e-4926-a47f-7f725ee98e47",
+      "dependsOn": [
+        "fb8d6478-65b3-4b59-ade3-f03b65d82f0f",
+        "pkg:gem/sigstore-cli@0.2.2"
+      ]
+    },
+    {
+      "ref": "7ebfecef-1dd8-4257-a2eb-fa3edea0bf35",
+      "dependsOn": [
+        "pkg:gem/minitest@6.0.0",
+        "pkg:gem/rake@13.3.0"
+      ]
+    },
+    {
+      "ref": "d2a57c26-5dc8-40db-9c75-e1f097751969",
+      "dependsOn": [
+        "ff14fdc8-49b8-4224-9896-d1243b51cd23",
+        "pkg:npm/fsevents@2.3.3"
+      ]
+    },
+    {
+      "ref": "dbf29465-04e8-45fb-aa1c-8d95c10df7a8",
+      "dependsOn": []
+    },
+    {
+      "ref": "dd0b774b-ff26-42b2-840c-c12931a2c63b",
+      "dependsOn": [
+        "35ad7da1-618e-4926-a47f-7f725ee98e47",
+        "d2a57c26-5dc8-40db-9c75-e1f097751969",
+        "fff7f67a-1eae-447b-9dd4-2818f07517ff"
+      ]
+    },
+    {
+      "ref": "fb8d6478-65b3-4b59-ade3-f03b65d82f0f",
+      "dependsOn": [
+        "pkg:gem/minitest@5.25.1",
+        "pkg:gem/rake@13.2.1"
+      ]
+    },
+    {
+      "ref": "ff14fdc8-49b8-4224-9896-d1243b51cd23",
+      "dependsOn": [
+        "pkg:npm/%40rails/actioncable@8.2.0-alpha",
+        "pkg:npm/%40rails/actiontext@8.2.0-alpha",
+        "pkg:npm/%40rails/activestorage@8.2.0-alpha"
+      ]
+    },
+    {
+      "ref": "fff7f67a-1eae-447b-9dd4-2818f07517ff",
+      "dependsOn": [
+        "7ebfecef-1dd8-4257-a2eb-fa3edea0bf35",
+        "pkg:gem/argon2@2.3.2",
+        "pkg:gem/aws-sdk-s3@1.197.0",
+        "pkg:gem/aws-sdk-sns@1.92.0",
+        "pkg:gem/backburner@1.7.0",
+        "pkg:gem/bcrypt@3.1.20",
+        "pkg:gem/bootsnap@1.18.4",
+        "pkg:gem/brakeman@7.0.0",
+        "pkg:gem/bundler-audit@0.9.3",
+        "pkg:gem/capybara@3.40.0",
+        "pkg:gem/connection_pool@2.5.4",
+        "pkg:gem/cssbundling-rails@1.4.1",
+        "pkg:gem/dalli@4.0.0",
+        "pkg:gem/dartsass-rails@0.5.1",
+        "pkg:gem/debug@1.10.0",
+        "pkg:gem/google-cloud-storage@1.54.0",
+        "pkg:gem/image_processing@1.14.0",
+        "pkg:gem/importmap-rails@2.1.0",
+        "pkg:gem/jbuilder@2.13.0",
+        "pkg:gem/jsbundling-rails@1.3.1",
+        "pkg:gem/json@2.15.2",
+        "pkg:gem/kamal@2.4.0",
+        "pkg:gem/launchy@3.0.1",
+        "pkg:gem/libxml-ruby@5.0.4",
+        "pkg:gem/listen@3.9.0",
+        "pkg:gem/mdl@0.12.0",
+        "pkg:gem/minitest-mock@5.27.0",
+        "pkg:gem/minitest-retry@0.2.3",
+        "pkg:gem/minitest@6.0.0",
+        "pkg:gem/msgpack@1.7.5",
+        "pkg:gem/mysql2@0.5.6",
+        "pkg:gem/nokogiri@1.18.10",
+        "pkg:gem/pg@1.6.2",
+        "pkg:gem/prism@1.7.0",
+        "pkg:gem/propshaft@1.3.1",
+        "pkg:gem/puma@6.5.0",
+        "pkg:gem/queue_classic@4.0.0",
+        "pkg:gem/rack-cache@1.17.0",
+        "pkg:gem/rack@3.2.1",
+        "pkg:gem/rails@8.2.0.alpha",
+        "pkg:gem/redcarpet@3.6.1",
+        "pkg:gem/redis-namespace@1.11.0",
+        "pkg:gem/redis@5.4.1",
+        "pkg:gem/resque-scheduler@4.11.0",
+        "pkg:gem/resque@2.7.0",
+        "pkg:gem/rexml@3.4.0",
+        "pkg:gem/rouge@4.6.1",
+        "pkg:gem/rubocop-md@2.0.1",
+        "pkg:gem/rubocop-minitest@0.37.1",
+        "pkg:gem/rubocop-packaging@0.6.0",
+        "pkg:gem/rubocop-performance@1.24.0",
+        "pkg:gem/rubocop-rails-omakase@1.0.0",
+        "pkg:gem/rubocop-rails@2.30.3",
+        "pkg:gem/rubocop@1.79.2",
+        "pkg:gem/rubyzip@2.4.1",
+        "pkg:gem/sdoc@2.6.5",
+        "pkg:gem/selenium-webdriver@4.32.0",
+        "pkg:gem/sneakers@2.11.0",
+        "pkg:gem/solid_cable@3.0.5",
+        "pkg:gem/solid_cache@1.0.6",
+        "pkg:gem/solid_queue@1.1.2",
+        "pkg:gem/sprockets-rails@3.5.2",
+        "pkg:gem/sqlite3@2.5.0",
+        "pkg:gem/stackprof@0.2.27",
+        "pkg:gem/stimulus-rails@1.3.4",
+        "pkg:gem/tailwindcss-rails@3.2.0",
+        "pkg:gem/terser@1.2.4",
+        "pkg:gem/thruster@0.1.16",
+        "pkg:gem/trilogy@2.9.0",
+        "pkg:gem/turbo-rails@2.0.11",
+        "pkg:gem/uri@1.0.3",
+        "pkg:gem/useragent@0.16.11",
+        "pkg:gem/w3c_validators@1.3.7",
+        "pkg:gem/web-console@4.2.1",
+        "pkg:gem/webmock@3.25.0",
+        "pkg:gem/webrick@1.9.1",
+        "pkg:gem/websocket-client-simple@0.9.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/action_text-trix@2.1.16",
+      "dependsOn": [
+        "pkg:gem/railties@8.2.0.alpha"
+      ]
+    },
+    {
+      "ref": "pkg:gem/actioncable@8.2.0.alpha",
+      "dependsOn": [
+        "pkg:gem/actionpack@8.2.0.alpha",
+        "pkg:gem/activesupport@8.2.0.alpha",
+        "pkg:gem/nio4r@2.7.4",
+        "pkg:gem/websocket-driver@0.7.7",
+        "pkg:gem/zeitwerk@2.7.3"
+      ]
+    },
+    {
+      "ref": "pkg:gem/actionmailbox@8.2.0.alpha",
+      "dependsOn": [
+        "pkg:gem/actionpack@8.2.0.alpha",
+        "pkg:gem/activejob@8.2.0.alpha",
+        "pkg:gem/activerecord@8.2.0.alpha",
+        "pkg:gem/activestorage@8.2.0.alpha",
+        "pkg:gem/activesupport@8.2.0.alpha",
+        "pkg:gem/mail@2.8.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/actionmailer@8.2.0.alpha",
+      "dependsOn": [
+        "pkg:gem/actionpack@8.2.0.alpha",
+        "pkg:gem/actionview@8.2.0.alpha",
+        "pkg:gem/activejob@8.2.0.alpha",
+        "pkg:gem/activesupport@8.2.0.alpha",
+        "pkg:gem/mail@2.8.1",
+        "pkg:gem/rails-dom-testing@2.3.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/actionpack@8.2.0.alpha",
+      "dependsOn": [
+        "pkg:gem/actionview@8.2.0.alpha",
+        "pkg:gem/activesupport@8.2.0.alpha",
+        "pkg:gem/nokogiri@1.18.10",
+        "pkg:gem/rack-session@2.1.1",
+        "pkg:gem/rack-test@2.2.0",
+        "pkg:gem/rack@3.2.1",
+        "pkg:gem/rails-dom-testing@2.3.0",
+        "pkg:gem/rails-html-sanitizer@1.6.2",
+        "pkg:gem/useragent@0.16.11"
+      ]
+    },
+    {
+      "ref": "pkg:gem/actiontext@8.2.0.alpha",
+      "dependsOn": [
+        "pkg:gem/action_text-trix@2.1.16",
+        "pkg:gem/actionpack@8.2.0.alpha",
+        "pkg:gem/activerecord@8.2.0.alpha",
+        "pkg:gem/activestorage@8.2.0.alpha",
+        "pkg:gem/activesupport@8.2.0.alpha",
+        "pkg:gem/globalid@1.2.1",
+        "pkg:gem/nokogiri@1.18.10"
+      ]
+    },
+    {
+      "ref": "pkg:gem/actionview@8.2.0.alpha",
+      "dependsOn": [
+        "pkg:gem/activesupport@8.2.0.alpha",
+        "pkg:gem/builder@3.3.0",
+        "pkg:gem/erubi@1.13.1",
+        "pkg:gem/rails-dom-testing@2.3.0",
+        "pkg:gem/rails-html-sanitizer@1.6.2"
+      ]
+    },
+    {
+      "ref": "pkg:gem/activejob@8.2.0.alpha",
+      "dependsOn": [
+        "pkg:gem/activesupport@8.2.0.alpha",
+        "pkg:gem/globalid@1.2.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/activemodel@8.2.0.alpha",
+      "dependsOn": [
+        "pkg:gem/activesupport@8.2.0.alpha"
+      ]
+    },
+    {
+      "ref": "pkg:gem/activerecord@8.2.0.alpha",
+      "dependsOn": [
+        "pkg:gem/activemodel@8.2.0.alpha",
+        "pkg:gem/activesupport@8.2.0.alpha",
+        "pkg:gem/timeout@0.4.3"
+      ]
+    },
+    {
+      "ref": "pkg:gem/activestorage@8.2.0.alpha",
+      "dependsOn": [
+        "pkg:gem/actionpack@8.2.0.alpha",
+        "pkg:gem/activejob@8.2.0.alpha",
+        "pkg:gem/activerecord@8.2.0.alpha",
+        "pkg:gem/activesupport@8.2.0.alpha",
+        "pkg:gem/marcel@1.0.4"
+      ]
+    },
+    {
+      "ref": "pkg:gem/activesupport@8.2.0.alpha",
+      "dependsOn": [
+        "dbf29465-04e8-45fb-aa1c-8d95c10df7a8",
+        "pkg:gem/base64@0.3.0",
+        "pkg:gem/bigdecimal@3.2.3",
+        "pkg:gem/concurrent-ruby@1.3.6",
+        "pkg:gem/connection_pool@2.5.4",
+        "pkg:gem/drb@2.2.3",
+        "pkg:gem/i18n@1.14.7",
+        "pkg:gem/json@2.15.2",
+        "pkg:gem/minitest@6.0.0",
+        "pkg:gem/psych@5.2.6",
+        "pkg:gem/securerandom@0.4.1",
+        "pkg:gem/tzinfo@2.0.6",
+        "pkg:gem/uri@1.0.3"
+      ]
+    },
+    {
+      "ref": "pkg:gem/addressable@2.8.7",
+      "dependsOn": [
+        "pkg:gem/public_suffix@6.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/amq-protocol@2.3.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/argon2@2.3.2",
+      "dependsOn": [
+        "pkg:gem/ffi-compiler@1.3.2",
+        "pkg:gem/ffi@1.17.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/ast@2.4.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/aws-eventstream@1.4.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/aws-partitions@1.1150.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/aws-sdk-core@3.230.0",
+      "dependsOn": [
+        "dbf29465-04e8-45fb-aa1c-8d95c10df7a8",
+        "pkg:gem/aws-eventstream@1.4.0",
+        "pkg:gem/aws-partitions@1.1150.0",
+        "pkg:gem/aws-sigv4@1.12.1",
+        "pkg:gem/base64@0.3.0",
+        "pkg:gem/bigdecimal@3.2.3",
+        "pkg:gem/jmespath@1.6.2"
+      ]
+    },
+    {
+      "ref": "pkg:gem/aws-sdk-kms@1.110.0",
+      "dependsOn": [
+        "pkg:gem/aws-sdk-core@3.230.0",
+        "pkg:gem/aws-sigv4@1.12.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/aws-sdk-s3@1.197.0",
+      "dependsOn": [
+        "pkg:gem/aws-sdk-core@3.230.0",
+        "pkg:gem/aws-sdk-kms@1.110.0",
+        "pkg:gem/aws-sigv4@1.12.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/aws-sdk-sns@1.92.0",
+      "dependsOn": [
+        "pkg:gem/aws-sdk-core@3.230.0",
+        "pkg:gem/aws-sigv4@1.12.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/aws-sigv4@1.12.1",
+      "dependsOn": [
+        "pkg:gem/aws-eventstream@1.4.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/backburner@1.7.0",
+      "dependsOn": [
+        "pkg:gem/beaneater@1.1.3",
+        "pkg:gem/concurrent-ruby@1.3.6",
+        "pkg:gem/dante@0.2.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/base64@0.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/bcrypt@3.1.20",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/bcrypt_pbkdf@1.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/beaneater@1.1.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/bigdecimal@3.2.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/bindex@0.8.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/bootsnap@1.18.4",
+      "dependsOn": [
+        "pkg:gem/msgpack@1.7.5"
+      ]
+    },
+    {
+      "ref": "pkg:gem/brakeman@7.0.0",
+      "dependsOn": [
+        "pkg:gem/racc@1.8.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/builder@3.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/bundler-audit@0.9.3",
+      "dependsOn": [
+        "pkg:gem/thor@1.3.2"
+      ]
+    },
+    {
+      "ref": "pkg:gem/bunny@2.23.0",
+      "dependsOn": [
+        "pkg:gem/amq-protocol@2.3.2",
+        "pkg:gem/sorted_set@1.0.3"
+      ]
+    },
+    {
+      "ref": "pkg:gem/capybara@3.40.0",
+      "dependsOn": [
+        "pkg:gem/addressable@2.8.7",
+        "pkg:gem/matrix@0.4.2",
+        "pkg:gem/mini_mime@1.1.5",
+        "pkg:gem/nokogiri@1.18.10",
+        "pkg:gem/rack-test@2.2.0",
+        "pkg:gem/rack@3.2.1",
+        "pkg:gem/regexp_parser@2.10.0",
+        "pkg:gem/xpath@3.2.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/chef-utils@18.6.2",
+      "dependsOn": [
+        "pkg:gem/concurrent-ruby@1.3.6"
+      ]
+    },
+    {
+      "ref": "pkg:gem/childprocess@5.1.0",
+      "dependsOn": [
+        "dbf29465-04e8-45fb-aa1c-8d95c10df7a8"
+      ]
+    },
+    {
+      "ref": "pkg:gem/concurrent-ruby@1.3.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/connection_pool@2.5.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/crack@1.0.0",
+      "dependsOn": [
+        "pkg:gem/bigdecimal@3.2.3",
+        "pkg:gem/rexml@3.4.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/crass@1.0.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/cssbundling-rails@1.4.1",
+      "dependsOn": [
+        "pkg:gem/railties@8.2.0.alpha"
+      ]
+    },
+    {
+      "ref": "pkg:gem/dalli@4.0.0",
+      "dependsOn": [
+        "dbf29465-04e8-45fb-aa1c-8d95c10df7a8"
+      ]
+    },
+    {
+      "ref": "pkg:gem/dante@0.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/dartsass-rails@0.5.1",
+      "dependsOn": [
+        "pkg:gem/railties@8.2.0.alpha",
+        "pkg:gem/sass-embedded@1.83.4"
+      ]
+    },
+    {
+      "ref": "pkg:gem/date@3.4.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/debug@1.10.0",
+      "dependsOn": [
+        "pkg:gem/irb@1.15.2",
+        "pkg:gem/reline@0.6.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/declarative@0.0.20",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/digest-crc@0.6.5",
+      "dependsOn": [
+        "pkg:gem/rake@13.3.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/dotenv@3.1.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/drb@2.2.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/ed25519@1.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/erb@5.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/erubi@1.13.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/et-orbi@1.2.11",
+      "dependsOn": [
+        "pkg:gem/tzinfo@2.0.6"
+      ]
+    },
+    {
+      "ref": "pkg:gem/event_emitter@0.2.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/execjs@2.10.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/faraday-net_http@3.4.2",
+      "dependsOn": [
+        "pkg:gem/net-http@0.9.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/faraday@2.14.0",
+      "dependsOn": [
+        "dbf29465-04e8-45fb-aa1c-8d95c10df7a8",
+        "pkg:gem/faraday-net_http@3.4.2",
+        "pkg:gem/json@2.15.2"
+      ]
+    },
+    {
+      "ref": "pkg:gem/ffi-compiler@1.3.2",
+      "dependsOn": [
+        "pkg:gem/ffi@1.17.1",
+        "pkg:gem/rake@13.3.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/ffi@1.17.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/fugit@1.11.1",
+      "dependsOn": [
+        "pkg:gem/et-orbi@1.2.11",
+        "pkg:gem/raabro@1.4.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/globalid@1.2.1",
+      "dependsOn": [
+        "pkg:gem/activesupport@8.2.0.alpha"
+      ]
+    },
+    {
+      "ref": "pkg:gem/google-apis-core@0.15.1",
+      "dependsOn": [
+        "pkg:gem/addressable@2.8.7",
+        "pkg:gem/googleauth@1.12.2",
+        "pkg:gem/httpclient@2.9.0",
+        "pkg:gem/mini_mime@1.1.5",
+        "pkg:gem/mutex_m@0.3.0",
+        "pkg:gem/representable@3.2.0",
+        "pkg:gem/retriable@3.1.2"
+      ]
+    },
+    {
+      "ref": "pkg:gem/google-apis-iamcredentials_v1@0.22.0",
+      "dependsOn": [
+        "pkg:gem/google-apis-core@0.15.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/google-apis-storage_v1@0.49.0",
+      "dependsOn": [
+        "pkg:gem/google-apis-core@0.15.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/google-cloud-core@1.7.1",
+      "dependsOn": [
+        "pkg:gem/google-cloud-env@2.2.1",
+        "pkg:gem/google-cloud-errors@1.4.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/google-cloud-env@2.2.1",
+      "dependsOn": [
+        "pkg:gem/faraday@2.14.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/google-cloud-errors@1.4.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/google-cloud-storage@1.54.0",
+      "dependsOn": [
+        "pkg:gem/addressable@2.8.7",
+        "pkg:gem/digest-crc@0.6.5",
+        "pkg:gem/google-apis-core@0.15.1",
+        "pkg:gem/google-apis-iamcredentials_v1@0.22.0",
+        "pkg:gem/google-apis-storage_v1@0.49.0",
+        "pkg:gem/google-cloud-core@1.7.1",
+        "pkg:gem/googleauth@1.12.2",
+        "pkg:gem/mini_mime@1.1.5"
+      ]
+    },
+    {
+      "ref": "pkg:gem/google-logging-utils@0.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/google-protobuf@4.29.3",
+      "dependsOn": [
+        "pkg:gem/bigdecimal@3.2.3",
+        "pkg:gem/rake@13.3.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/googleauth@1.12.2",
+      "dependsOn": [
+        "pkg:gem/faraday@2.14.0",
+        "pkg:gem/google-cloud-env@2.2.1",
+        "pkg:gem/google-logging-utils@0.1.0",
+        "pkg:gem/jwt@2.10.1",
+        "pkg:gem/multi_json@1.15.0",
+        "pkg:gem/os@1.1.4",
+        "pkg:gem/signet@0.19.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/hashdiff@1.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/httpclient@2.9.0",
+      "dependsOn": [
+        "pkg:gem/mutex_m@0.3.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/i18n@1.14.7",
+      "dependsOn": [
+        "pkg:gem/concurrent-ruby@1.3.6"
+      ]
+    },
+    {
+      "ref": "pkg:gem/image_processing@1.14.0",
+      "dependsOn": [
+        "pkg:gem/mini_magick@5.3.1",
+        "pkg:gem/ruby-vips@2.2.2"
+      ]
+    },
+    {
+      "ref": "pkg:gem/importmap-rails@2.1.0",
+      "dependsOn": [
+        "pkg:gem/actionpack@8.2.0.alpha",
+        "pkg:gem/activesupport@8.2.0.alpha",
+        "pkg:gem/railties@8.2.0.alpha"
+      ]
+    },
+    {
+      "ref": "pkg:gem/io-console@0.8.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/irb@1.15.2",
+      "dependsOn": [
+        "pkg:gem/pp@0.6.2",
+        "pkg:gem/rdoc@6.15.0",
+        "pkg:gem/reline@0.6.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/jbuilder@2.13.0",
+      "dependsOn": [
+        "pkg:gem/actionview@8.2.0.alpha",
+        "pkg:gem/activesupport@8.2.0.alpha"
+      ]
+    },
+    {
+      "ref": "pkg:gem/jmespath@1.6.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/jsbundling-rails@1.3.1",
+      "dependsOn": [
+        "pkg:gem/railties@8.2.0.alpha"
+      ]
+    },
+    {
+      "ref": "pkg:gem/json@2.15.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/jwt@2.10.1",
+      "dependsOn": [
+        "pkg:gem/base64@0.3.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/kamal@2.4.0",
+      "dependsOn": [
+        "pkg:gem/activesupport@8.2.0.alpha",
+        "pkg:gem/base64@0.3.0",
+        "pkg:gem/bcrypt_pbkdf@1.1.1",
+        "pkg:gem/concurrent-ruby@1.3.6",
+        "pkg:gem/dotenv@3.1.7",
+        "pkg:gem/ed25519@1.3.0",
+        "pkg:gem/net-ssh@7.3.0",
+        "pkg:gem/sshkit@1.23.2",
+        "pkg:gem/thor@1.3.2",
+        "pkg:gem/zeitwerk@2.7.3"
+      ]
+    },
+    {
+      "ref": "pkg:gem/kramdown-parser-gfm@1.1.0",
+      "dependsOn": [
+        "pkg:gem/kramdown@2.5.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/kramdown@2.5.1",
+      "dependsOn": [
+        "pkg:gem/rexml@3.4.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/language_server-protocol@3.17.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/launchy@3.0.1",
+      "dependsOn": [
+        "pkg:gem/addressable@2.8.7",
+        "pkg:gem/childprocess@5.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/libxml-ruby@5.0.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/lint_roller@1.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/listen@3.9.0",
+      "dependsOn": [
+        "pkg:gem/rb-fsevent@0.11.2",
+        "pkg:gem/rb-inotify@0.11.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/loofah@2.24.1",
+      "dependsOn": [
+        "pkg:gem/crass@1.0.6",
+        "pkg:gem/nokogiri@1.18.10"
+      ]
+    },
+    {
+      "ref": "pkg:gem/mail@2.8.1",
+      "dependsOn": [
+        "pkg:gem/mini_mime@1.1.5",
+        "pkg:gem/net-imap@0.5.5",
+        "pkg:gem/net-pop@0.1.2",
+        "pkg:gem/net-smtp@0.5.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/marcel@1.0.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/matrix@0.4.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/mdl@0.12.0",
+      "dependsOn": [
+        "pkg:gem/kramdown-parser-gfm@1.1.0",
+        "pkg:gem/kramdown@2.5.1",
+        "pkg:gem/mixlib-cli@2.1.8",
+        "pkg:gem/mixlib-config@3.0.27",
+        "pkg:gem/mixlib-shellout@3.3.4"
+      ]
+    },
+    {
+      "ref": "pkg:gem/mini_magick@5.3.1",
+      "dependsOn": [
+        "dbf29465-04e8-45fb-aa1c-8d95c10df7a8"
+      ]
+    },
+    {
+      "ref": "pkg:gem/mini_mime@1.1.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/mini_portile2@2.8.9",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/minitest-mock@5.27.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/minitest-retry@0.2.3",
+      "dependsOn": [
+        "pkg:gem/minitest@6.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/minitest@5.25.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/minitest@6.0.0",
+      "dependsOn": [
+        "pkg:gem/prism@1.7.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/mixlib-cli@2.1.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/mixlib-config@3.0.27",
+      "dependsOn": [
+        "pkg:gem/tomlrb@2.0.3"
+      ]
+    },
+    {
+      "ref": "pkg:gem/mixlib-shellout@3.3.4",
+      "dependsOn": [
+        "pkg:gem/chef-utils@18.6.2"
+      ]
+    },
+    {
+      "ref": "pkg:gem/mono_logger@1.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/msgpack@1.7.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/multi_json@1.15.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/mustermann@3.0.4",
+      "dependsOn": [
+        "pkg:gem/ruby2_keywords@0.0.5"
+      ]
+    },
+    {
+      "ref": "pkg:gem/mutex_m@0.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/mysql2@0.5.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/net-http@0.6.0",
+      "dependsOn": [
+        "pkg:gem/uri@1.0.4"
+      ]
+    },
+    {
+      "ref": "pkg:gem/net-http@0.9.1",
+      "dependsOn": [
+        "pkg:gem/uri@1.0.3"
+      ]
+    },
+    {
+      "ref": "pkg:gem/net-imap@0.5.5",
+      "dependsOn": [
+        "pkg:gem/date@3.4.1",
+        "pkg:gem/net-protocol@0.2.2"
+      ]
+    },
+    {
+      "ref": "pkg:gem/net-pop@0.1.2",
+      "dependsOn": [
+        "pkg:gem/net-protocol@0.2.2"
+      ]
+    },
+    {
+      "ref": "pkg:gem/net-protocol@0.2.2",
+      "dependsOn": [
+        "pkg:gem/timeout@0.4.3"
+      ]
+    },
+    {
+      "ref": "pkg:gem/net-scp@4.0.0",
+      "dependsOn": [
+        "pkg:gem/net-ssh@7.3.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/net-sftp@4.0.0",
+      "dependsOn": [
+        "pkg:gem/net-ssh@7.3.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/net-smtp@0.5.1",
+      "dependsOn": [
+        "pkg:gem/net-protocol@0.2.2"
+      ]
+    },
+    {
+      "ref": "pkg:gem/net-ssh@7.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/nio4r@2.7.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/nokogiri@1.18.10",
+      "dependsOn": [
+        "pkg:gem/racc@1.8.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/os@1.1.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/ostruct@0.6.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/parallel@1.26.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/parser@3.3.9.0",
+      "dependsOn": [
+        "pkg:gem/ast@2.4.2",
+        "pkg:gem/racc@1.8.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/pg@1.6.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/pp@0.6.2",
+      "dependsOn": [
+        "pkg:gem/prettyprint@0.2.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/prettyprint@0.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/prism@1.7.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/propshaft@1.3.1",
+      "dependsOn": [
+        "pkg:gem/actionpack@8.2.0.alpha",
+        "pkg:gem/activesupport@8.2.0.alpha",
+        "pkg:gem/rack@3.2.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/protobug@0.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/protobug_googleapis_field_behavior_protos@0.1.0",
+      "dependsOn": [
+        "pkg:gem/protobug@0.1.0",
+        "pkg:gem/protobug_well_known_protos@0.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/protobug_sigstore_protos@0.1.0",
+      "dependsOn": [
+        "pkg:gem/protobug@0.1.0",
+        "pkg:gem/protobug_googleapis_field_behavior_protos@0.1.0",
+        "pkg:gem/protobug_well_known_protos@0.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/protobug_well_known_protos@0.1.0",
+      "dependsOn": [
+        "pkg:gem/protobug@0.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/psych@5.2.6",
+      "dependsOn": [
+        "pkg:gem/date@3.4.1",
+        "pkg:gem/stringio@3.1.7"
+      ]
+    },
+    {
+      "ref": "pkg:gem/public_suffix@6.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/puma@6.5.0",
+      "dependsOn": [
+        "pkg:gem/nio4r@2.7.4"
+      ]
+    },
+    {
+      "ref": "pkg:gem/queue_classic@4.0.0",
+      "dependsOn": [
+        "pkg:gem/pg@1.6.2"
+      ]
+    },
+    {
+      "ref": "pkg:gem/raabro@1.4.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/racc@1.8.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/rack-cache@1.17.0",
+      "dependsOn": [
+        "pkg:gem/rack@3.2.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/rack-protection@4.1.1",
+      "dependsOn": [
+        "dbf29465-04e8-45fb-aa1c-8d95c10df7a8",
+        "pkg:gem/base64@0.3.0",
+        "pkg:gem/rack@3.2.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/rack-session@2.1.1",
+      "dependsOn": [
+        "pkg:gem/base64@0.3.0",
+        "pkg:gem/rack@3.2.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/rack-test@2.2.0",
+      "dependsOn": [
+        "pkg:gem/rack@3.2.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/rack@3.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/rackup@2.2.1",
+      "dependsOn": [
+        "pkg:gem/rack@3.2.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/rails-dom-testing@2.3.0",
+      "dependsOn": [
+        "pkg:gem/activesupport@8.2.0.alpha",
+        "pkg:gem/minitest@6.0.0",
+        "pkg:gem/nokogiri@1.18.10"
+      ]
+    },
+    {
+      "ref": "pkg:gem/rails-html-sanitizer@1.6.2",
+      "dependsOn": [
+        "pkg:gem/loofah@2.24.1",
+        "pkg:gem/nokogiri@1.18.10"
+      ]
+    },
+    {
+      "ref": "pkg:gem/rails@8.2.0.alpha",
+      "dependsOn": [
+        "pkg:gem/actioncable@8.2.0.alpha",
+        "pkg:gem/actionmailbox@8.2.0.alpha",
+        "pkg:gem/actionmailer@8.2.0.alpha",
+        "pkg:gem/actionpack@8.2.0.alpha",
+        "pkg:gem/actiontext@8.2.0.alpha",
+        "pkg:gem/actionview@8.2.0.alpha",
+        "pkg:gem/activejob@8.2.0.alpha",
+        "pkg:gem/activemodel@8.2.0.alpha",
+        "pkg:gem/activerecord@8.2.0.alpha",
+        "pkg:gem/activestorage@8.2.0.alpha",
+        "pkg:gem/activesupport@8.2.0.alpha",
+        "pkg:gem/railties@8.2.0.alpha"
+      ]
+    },
+    {
+      "ref": "pkg:gem/railties@8.2.0.alpha",
+      "dependsOn": [
+        "pkg:gem/actionpack@8.2.0.alpha",
+        "pkg:gem/activesupport@8.2.0.alpha",
+        "pkg:gem/irb@1.15.2",
+        "pkg:gem/rackup@2.2.1",
+        "pkg:gem/rake@13.3.0",
+        "pkg:gem/thor@1.3.2",
+        "pkg:gem/tsort@0.2.0",
+        "pkg:gem/zeitwerk@2.7.3"
+      ]
+    },
+    {
+      "ref": "pkg:gem/rainbow@3.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/rake@13.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/rake@13.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/rb-fsevent@0.11.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/rb-inotify@0.11.1",
+      "dependsOn": [
+        "pkg:gem/ffi@1.17.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/rbtree@0.4.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/rdoc@6.15.0",
+      "dependsOn": [
+        "pkg:gem/erb@5.1.1",
+        "pkg:gem/psych@5.2.6",
+        "pkg:gem/tsort@0.2.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/redcarpet@3.6.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/redis-client@0.25.2",
+      "dependsOn": [
+        "pkg:gem/connection_pool@2.5.4"
+      ]
+    },
+    {
+      "ref": "pkg:gem/redis-namespace@1.11.0",
+      "dependsOn": [
+        "pkg:gem/redis@5.4.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/redis@5.4.1",
+      "dependsOn": [
+        "pkg:gem/redis-client@0.25.2"
+      ]
+    },
+    {
+      "ref": "pkg:gem/regexp_parser@2.10.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/reline@0.6.1",
+      "dependsOn": [
+        "pkg:gem/io-console@0.8.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/representable@3.2.0",
+      "dependsOn": [
+        "pkg:gem/declarative@0.0.20",
+        "pkg:gem/trailblazer-option@0.1.2",
+        "pkg:gem/uber@0.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/resque-scheduler@4.11.0",
+      "dependsOn": [
+        "pkg:gem/mono_logger@1.1.2",
+        "pkg:gem/redis@5.4.1",
+        "pkg:gem/resque@2.7.0",
+        "pkg:gem/rufus-scheduler@3.9.2"
+      ]
+    },
+    {
+      "ref": "pkg:gem/resque@2.7.0",
+      "dependsOn": [
+        "pkg:gem/mono_logger@1.1.2",
+        "pkg:gem/multi_json@1.15.0",
+        "pkg:gem/redis-namespace@1.11.0",
+        "pkg:gem/sinatra@4.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/retriable@3.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/rexml@3.4.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/rouge@4.6.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/rubocop-ast@1.46.0",
+      "dependsOn": [
+        "pkg:gem/parser@3.3.9.0",
+        "pkg:gem/prism@1.7.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/rubocop-md@2.0.1",
+      "dependsOn": [
+        "pkg:gem/lint_roller@1.1.0",
+        "pkg:gem/rubocop@1.79.2"
+      ]
+    },
+    {
+      "ref": "pkg:gem/rubocop-minitest@0.37.1",
+      "dependsOn": [
+        "pkg:gem/lint_roller@1.1.0",
+        "pkg:gem/rubocop-ast@1.46.0",
+        "pkg:gem/rubocop@1.79.2"
+      ]
+    },
+    {
+      "ref": "pkg:gem/rubocop-packaging@0.6.0",
+      "dependsOn": [
+        "pkg:gem/lint_roller@1.1.0",
+        "pkg:gem/rubocop@1.79.2"
+      ]
+    },
+    {
+      "ref": "pkg:gem/rubocop-performance@1.24.0",
+      "dependsOn": [
+        "pkg:gem/lint_roller@1.1.0",
+        "pkg:gem/rubocop-ast@1.46.0",
+        "pkg:gem/rubocop@1.79.2"
+      ]
+    },
+    {
+      "ref": "pkg:gem/rubocop-rails-omakase@1.0.0",
+      "dependsOn": [
+        "pkg:gem/rubocop-minitest@0.37.1",
+        "pkg:gem/rubocop-performance@1.24.0",
+        "pkg:gem/rubocop-rails@2.30.3",
+        "pkg:gem/rubocop@1.79.2"
+      ]
+    },
+    {
+      "ref": "pkg:gem/rubocop-rails@2.30.3",
+      "dependsOn": [
+        "pkg:gem/activesupport@8.2.0.alpha",
+        "pkg:gem/lint_roller@1.1.0",
+        "pkg:gem/rack@3.2.1",
+        "pkg:gem/rubocop-ast@1.46.0",
+        "pkg:gem/rubocop@1.79.2"
+      ]
+    },
+    {
+      "ref": "pkg:gem/rubocop@1.79.2",
+      "dependsOn": [
+        "pkg:gem/json@2.15.2",
+        "pkg:gem/language_server-protocol@3.17.0.3",
+        "pkg:gem/lint_roller@1.1.0",
+        "pkg:gem/parallel@1.26.3",
+        "pkg:gem/parser@3.3.9.0",
+        "pkg:gem/rainbow@3.1.1",
+        "pkg:gem/regexp_parser@2.10.0",
+        "pkg:gem/rubocop-ast@1.46.0",
+        "pkg:gem/ruby-progressbar@1.13.0",
+        "pkg:gem/unicode-display_width@3.1.4"
+      ]
+    },
+    {
+      "ref": "pkg:gem/ruby-progressbar@1.13.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/ruby-vips@2.2.2",
+      "dependsOn": [
+        "dbf29465-04e8-45fb-aa1c-8d95c10df7a8",
+        "pkg:gem/ffi@1.17.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/ruby2_keywords@0.0.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/rubyzip@2.4.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/rufus-scheduler@3.9.2",
+      "dependsOn": [
+        "pkg:gem/fugit@1.11.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/sass-embedded@1.83.4",
+      "dependsOn": [
+        "pkg:gem/google-protobuf@4.29.3"
+      ]
+    },
+    {
+      "ref": "pkg:gem/sdoc@2.6.5",
+      "dependsOn": [
+        "pkg:gem/rdoc@6.15.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/securerandom@0.4.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/selenium-webdriver@4.32.0",
+      "dependsOn": [
+        "dbf29465-04e8-45fb-aa1c-8d95c10df7a8",
+        "pkg:gem/base64@0.3.0",
+        "pkg:gem/rexml@3.4.0",
+        "pkg:gem/rubyzip@2.4.1",
+        "pkg:gem/websocket@1.2.11"
+      ]
+    },
+    {
+      "ref": "pkg:gem/serverengine@2.0.7",
+      "dependsOn": [
+        "pkg:gem/sigdump@0.2.5"
+      ]
+    },
+    {
+      "ref": "pkg:gem/set@1.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/sigdump@0.2.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/signet@0.19.0",
+      "dependsOn": [
+        "pkg:gem/addressable@2.8.7",
+        "pkg:gem/faraday@2.14.0",
+        "pkg:gem/jwt@2.10.1",
+        "pkg:gem/multi_json@1.15.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/sigstore-cli@0.2.2",
+      "dependsOn": [
+        "pkg:gem/sigstore@0.2.2",
+        "pkg:gem/thor@1.4.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/sigstore@0.2.2",
+      "dependsOn": [
+        "32f85ad2-c18d-466e-a5ac-af0a1942f85f",
+        "pkg:gem/net-http@0.6.0",
+        "pkg:gem/protobug_sigstore_protos@0.1.0",
+        "pkg:gem/uri@1.0.4"
+      ]
+    },
+    {
+      "ref": "pkg:gem/sinatra@4.1.1",
+      "dependsOn": [
+        "dbf29465-04e8-45fb-aa1c-8d95c10df7a8",
+        "pkg:gem/mustermann@3.0.4",
+        "pkg:gem/rack-protection@4.1.1",
+        "pkg:gem/rack-session@2.1.1",
+        "pkg:gem/rack@3.2.1",
+        "pkg:gem/tilt@2.6.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/sneakers@2.11.0",
+      "dependsOn": [
+        "pkg:gem/bunny@2.23.0",
+        "pkg:gem/concurrent-ruby@1.3.6",
+        "pkg:gem/rake@13.3.0",
+        "pkg:gem/serverengine@2.0.7",
+        "pkg:gem/thor@1.3.2"
+      ]
+    },
+    {
+      "ref": "pkg:gem/solid_cable@3.0.5",
+      "dependsOn": [
+        "pkg:gem/actioncable@8.2.0.alpha",
+        "pkg:gem/activejob@8.2.0.alpha",
+        "pkg:gem/activerecord@8.2.0.alpha",
+        "pkg:gem/railties@8.2.0.alpha"
+      ]
+    },
+    {
+      "ref": "pkg:gem/solid_cache@1.0.6",
+      "dependsOn": [
+        "pkg:gem/activejob@8.2.0.alpha",
+        "pkg:gem/activerecord@8.2.0.alpha",
+        "pkg:gem/railties@8.2.0.alpha"
+      ]
+    },
+    {
+      "ref": "pkg:gem/solid_queue@1.1.2",
+      "dependsOn": [
+        "pkg:gem/activejob@8.2.0.alpha",
+        "pkg:gem/activerecord@8.2.0.alpha",
+        "pkg:gem/concurrent-ruby@1.3.6",
+        "pkg:gem/fugit@1.11.1",
+        "pkg:gem/railties@8.2.0.alpha",
+        "pkg:gem/thor@1.3.2"
+      ]
+    },
+    {
+      "ref": "pkg:gem/sorted_set@1.0.3",
+      "dependsOn": [
+        "pkg:gem/rbtree@0.4.6",
+        "pkg:gem/set@1.1.2"
+      ]
+    },
+    {
+      "ref": "pkg:gem/sprockets-rails@3.5.2",
+      "dependsOn": [
+        "pkg:gem/actionpack@8.2.0.alpha",
+        "pkg:gem/activesupport@8.2.0.alpha",
+        "pkg:gem/sprockets@4.2.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/sprockets@4.2.1",
+      "dependsOn": [
+        "pkg:gem/concurrent-ruby@1.3.6",
+        "pkg:gem/rack@3.2.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/sqlite3@2.5.0",
+      "dependsOn": [
+        "pkg:gem/mini_portile2@2.8.9"
+      ]
+    },
+    {
+      "ref": "pkg:gem/sshkit@1.23.2",
+      "dependsOn": [
+        "pkg:gem/base64@0.3.0",
+        "pkg:gem/net-scp@4.0.0",
+        "pkg:gem/net-sftp@4.0.0",
+        "pkg:gem/net-ssh@7.3.0",
+        "pkg:gem/ostruct@0.6.1"
+      ]
+    },
+    {
+      "ref": "pkg:gem/stackprof@0.2.27",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/stimulus-rails@1.3.4",
+      "dependsOn": [
+        "pkg:gem/railties@8.2.0.alpha"
+      ]
+    },
+    {
+      "ref": "pkg:gem/stringio@3.1.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/tailwindcss-rails@3.2.0",
+      "dependsOn": [
+        "pkg:gem/railties@8.2.0.alpha",
+        "pkg:gem/tailwindcss-ruby@3.4.17"
+      ]
+    },
+    {
+      "ref": "pkg:gem/tailwindcss-ruby@3.4.17",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/terser@1.2.4",
+      "dependsOn": [
+        "pkg:gem/execjs@2.10.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/thor@1.3.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/thor@1.4.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/thruster@0.1.16",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/tilt@2.6.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/timeout@0.4.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/tomlrb@2.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/trailblazer-option@0.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/trilogy@2.9.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/tsort@0.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/turbo-rails@2.0.11",
+      "dependsOn": [
+        "pkg:gem/actionpack@8.2.0.alpha",
+        "pkg:gem/railties@8.2.0.alpha"
+      ]
+    },
+    {
+      "ref": "pkg:gem/tzinfo@2.0.6",
+      "dependsOn": [
+        "pkg:gem/concurrent-ruby@1.3.6"
+      ]
+    },
+    {
+      "ref": "pkg:gem/uber@0.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/unicode-display_width@3.1.4",
+      "dependsOn": [
+        "pkg:gem/unicode-emoji@4.2.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/unicode-emoji@4.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/uri@1.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/uri@1.0.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/useragent@0.16.11",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/w3c_validators@1.3.7",
+      "dependsOn": [
+        "pkg:gem/json@2.15.2",
+        "pkg:gem/nokogiri@1.18.10",
+        "pkg:gem/rexml@3.4.0"
+      ]
+    },
+    {
+      "ref": "pkg:gem/web-console@4.2.1",
+      "dependsOn": [
+        "pkg:gem/actionview@8.2.0.alpha",
+        "pkg:gem/activemodel@8.2.0.alpha",
+        "pkg:gem/bindex@0.8.1",
+        "pkg:gem/railties@8.2.0.alpha"
+      ]
+    },
+    {
+      "ref": "pkg:gem/webmock@3.25.0",
+      "dependsOn": [
+        "pkg:gem/addressable@2.8.7",
+        "pkg:gem/crack@1.0.0",
+        "pkg:gem/hashdiff@1.1.2"
+      ]
+    },
+    {
+      "ref": "pkg:gem/webrick@1.9.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/websocket-client-simple@0.9.0",
+      "dependsOn": [
+        "pkg:gem/base64@0.3.0",
+        "pkg:gem/event_emitter@0.2.6",
+        "pkg:gem/mutex_m@0.3.0",
+        "pkg:gem/websocket@1.2.11"
+      ]
+    },
+    {
+      "ref": "pkg:gem/websocket-driver@0.7.7",
+      "dependsOn": [
+        "pkg:gem/base64@0.3.0",
+        "pkg:gem/websocket-extensions@0.1.5"
+      ]
+    },
+    {
+      "ref": "pkg:gem/websocket-extensions@0.1.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/websocket@1.2.11",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:gem/xpath@3.2.0",
+      "dependsOn": [
+        "pkg:gem/nokogiri@1.18.10"
+      ]
+    },
+    {
+      "ref": "pkg:gem/zeitwerk@2.7.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/%40rails/actioncable@8.2.0-alpha",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/%40rails/actiontext@8.2.0-alpha",
+      "dependsOn": [
+        "pkg:npm/%40rails/activestorage@8.1.0-beta1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/%40rails/activestorage@8.1.0-beta1",
+      "dependsOn": [
+        "pkg:npm/spark-md5@3.0.2"
+      ]
+    },
+    {
+      "ref": "pkg:npm/%40rails/activestorage@8.2.0-alpha",
+      "dependsOn": [
+        "pkg:npm/js-sha256@0.9.0",
+        "pkg:npm/spark-md5@3.0.2"
+      ]
+    },
+    {
+      "ref": "pkg:npm/fsevents@2.3.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/js-sha256@0.9.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/spark-md5@3.0.2",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

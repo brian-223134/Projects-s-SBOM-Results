@@ -214,6 +214,15 @@ languages/rust/project/
 languages/go/project/
 languages/java/project/
 languages/python/project/
+languages/*/project/
+languages/ruby/project/
+languages/javascript/project/
+languages/typescript/project/
+languages/csharp/project/
+languages/swift/project/
+languages/kotlin/project/
+languages/php/project/
+
 
 # code/analyze directory's json files
 code/analyze/*.json
