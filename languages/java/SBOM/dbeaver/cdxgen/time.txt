@@ -1,0 +1,13 @@
+Days              : 0
+Hours             : 0
+Minutes           : 16
+Seconds           : 32
+Milliseconds      : 846
+Ticks             : 9928462284
+TotalDays         : 0.0114912757916667
+TotalHours        : 0.275790619
+TotalMinutes      : 16.54743714
+TotalSeconds      : 992.8462284
+TotalMilliseconds : 992846.2284
+
+- maven 빌드 과정 중 오류 발생
