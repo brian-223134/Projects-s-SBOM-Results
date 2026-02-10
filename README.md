@@ -80,4 +80,5 @@ languages/
 
 ## Test issues
 
-- cdxgen 사용 이슈: Go 프로젝트에서 docker로 cdxgen 실행 시 권한 에러가 발생하여, npm/go/cdxgen을 로컬에 직접 설치하여 SBOM을 추출한 케이스가 있음.
+- cdxgen 사용 이슈: Go 프로젝트에서 docker로 cdxgen 실행 시 권한 에러가 발생하여, npm/go/cdxgen을 로컬에 직접 설치하여 SBOM을 추출한 케이스가 있음. (hugo)
+  - 모든 Go 프로젝트에서 이슈가 생긴 것은 아님. (Terraform은 잘 실행되었음.)
