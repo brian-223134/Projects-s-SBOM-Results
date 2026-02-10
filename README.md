@@ -69,6 +69,7 @@ languages/
 
 - code/: SBOM scheme 및 최소 필드 만족 여부 등을 확인하는 분석 코드
   - code/analyze/: 파서/스키마/식별자(purl) 관련 모듈 및 검증 스크립트
+    - 자세한 사용법/산출물 설명: code/analyze/README.md
   - code/analyze/out/: 분석 결과 산출물 저장
     - 예) go-gt-terraform/: go.mod 기반 ground truth(JSON/CSV) 및 SBOM 검증 결과(summary.json, 도구별 TP/FP/FN CSV)
   - code/wrapper/: 실행 시간 측정 등 보조 스크립트
