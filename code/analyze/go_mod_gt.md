@@ -12,7 +12,7 @@ This script extracts *declared* dependency ground-truth signals from `go.mod` fi
 ## Run (Terraform example)
 
 ```powershell
-C:/Users/김찬중(동계 학부 인턴)/Desktop/Projects-s-SBOM-Results/.venv/Scripts/python.exe code/analyze/go_mod_gt.py `
+C:/Users/{username}/Desktop/Projects-s-SBOM-Results/.venv/Scripts/python.exe code/analyze/go_mod_gt.py `
   --root languages/go/project/terraform `
   --out-dir code/analyze/out/go-gt-terraform
 ```
