@@ -9,6 +9,45 @@
 - `SBOM_parser.py`, `SBOM_purl.py`, `SBOM_scheme.py`: SBOM 파싱/스키마/식별자(purl) 관련 모듈
 - `out/`: 분석 결과 산출물(스크립트 실행 결과)이 저장되는 폴더
 
+## Java (DBeaver) - Maven GT & SBOM 검증
+
+Go는 `go.mod`에서 GT를 직접 뽑을 수 있지만, DBeaver처럼 Tycho(OSGi/P2) 기반인 Java 프로젝트는 단일 "정답 파일"이 명확하지 않을 수 있습니다.
+그래서 **Trivy CycloneDX SBOM을 후보 풀(candidate pool)** 로 삼고, **로컬 pom.xml 스캔으로 내부(reactor) 모듈을 제외**하여 재현 가능한 Maven GT를 만듭니다.
+
+### 1) Trivy SBOM → Maven GT 추출
+
+- 스크립트: `java_trivy_gt_extract.py`
+- 출력(예: `code/analyze/out/java-gt-dbeaver/`)
+  - `expected_maven_all.csv|json`: 최종 GT(내부 reactor 산출물 포함)
+  - `expected_maven_external.csv|json`: 외부 Maven만 남긴 GT(프로젝트 특성상 비어 있을 수 있음)
+  - `internal_modules.json`: pom.xml 기반 내부 모듈 목록
+  - `gt_candidates_from_trivy.json`: SBOM에서 파싱된 Maven 후보 전체
+  - `filters_report.json`: 제외 사유별 카운트
+
+```powershell
+python code/analyze/java_trivy_gt_extract.py \
+  --project-root languages/java/project/dbeaver \
+  --sbom languages/java/SBOM/dbeaver/trivy/dbeaver_trivy_sbom.json \
+  --out-dir code/analyze/out/java-gt-dbeaver
+```
+
+### 2) GT ↔ SBOM 검증(TP/FP/FN)
+
+- 스크립트: `java_sbom_gt_validate.py`
+
+```powershell
+python code/analyze/java_sbom_gt_validate.py \
+  --gt code/analyze/out/java-gt-dbeaver/expected_maven_all.csv \
+  --sbom languages/java/SBOM/dbeaver/trivy/dbeaver_trivy_sbom.json \
+  --sbom languages/java/SBOM/dbeaver/syft/dbeaver_syft_sbom.json \
+  --sbom languages/java/SBOM/dbeaver/cdxgen/dbeaver_cdxgen_sbom.json \
+  --out-dir code/analyze/out/java-gt-dbeaver/validation
+
+참고: DBeaver 같은 Tycho 기반 프로젝트에서 cdxgen SBOM은 Maven 좌표를 상대적으로 적게 담을 수 있습니다.
+```
+
+---
+
 ---
 
 ## 1) Go 의존성(GT) 추출: `go_mod_gt.py`

@@ -1,0 +1,7 @@
+{
+  "generated_at": "2026-02-10T07:31:57.535478+00:00",
+  "project_root": "languages/java/project/dbeaver",
+  "sbom": "languages/java/SBOM/dbeaver/trivy/dbeaver_trivy_sbom.json",
+  "mode": "external-only",
+  "expected": []
+}

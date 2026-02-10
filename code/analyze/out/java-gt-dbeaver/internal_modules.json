@@ -1,0 +1,763 @@
+{
+  "generated_at": "2026-02-10T07:31:57.535478+00:00",
+  "project_root": "languages/java/project/dbeaver",
+  "count": 189,
+  "modules": [
+    {
+      "groupId": "com.dbeaver.build",
+      "artifactId": "ce.aggregate"
+    },
+    {
+      "groupId": "org.jkiss",
+      "artifactId": "awt.injector"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "appstore"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "dbeaver"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "features"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.app.base.feature"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.app.local.feature"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.appstore.feature"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ce.debug.updatesite"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ce.feature"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ce.git.updatesite"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ce.office.updatesite"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ce.product.updatesite"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.cmp.simple"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.cmp.simple.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.core"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.data.gis"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.data.gis.view"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.data.office"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.data.office.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.data.transfer"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.data.transfer.test"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.data.transfer.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.db.feature"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.db.ui.feature"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.debug.core"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.debug.feature"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.debug.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.altibase"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.altibase.test"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.altibase.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.athena"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.athena.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.bigquery"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.bigquery.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.clickhouse"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.clickhouse.test"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.clickhouse.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.cubrid"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.cubrid.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.dameng"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.dameng.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.databend"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.databend.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.databricks"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.db2"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.db2.i"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.db2.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.db2.zos"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.denodo"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.derby"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.duckdb"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.duckdb.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.exasol"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.exasol.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.firebird"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.gaussdb"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.gaussdb.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.gbase8s"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.generic"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.generic.test"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.generic.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.greenplum"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.greenplum.test"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.h2"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.hana"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.hana.test"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.hana.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.hive"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.hsqldb"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.informix"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.iotdb"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.iotdb.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.kingbase"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.kingbase.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.mssql"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.mssql.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.mysql"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.mysql.test"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.mysql.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.netezza"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.oceanbase"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.oceanbase.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.ocient"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.office.feature"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.oracle"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.oracle.test"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.oracle.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.phoenix"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.postgresql"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.postgresql.debug.core"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.postgresql.debug.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.postgresql.test"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.postgresql.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.snowflake"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.snowflake.test"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.snowflake.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.spanner"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.spanner.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.sqlite"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.sqlite.test"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.sqlite.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.teradata"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.tidb"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.tidb.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.trino"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.vertica"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.vertica.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.wmi"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.git.feature"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.headless"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ide.feature"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.launcher"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.ai"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.ai.test"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.cli"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.dashboard"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.erd"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.event"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.jdbc"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.lsm"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.lsm.test"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.lsp"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.navigator.test"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.nio"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.rcp"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.sm"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.sql"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.sql.jdbc"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.sql.test"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.net.ssh"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.net.ssh.jsch"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.net.ssh.sshj"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.net.ssh.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.osgi.test.runner"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.rcp.feature"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.registry"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.runtime.feature"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.slf4j"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.standalone.feature"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.tasks.native"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.tasks.native.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.tasks.sql.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.tasks.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.tasks.ui.view"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.team.git.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.test.base.feature"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.test.feature"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.test.platform"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.ai"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.app.devtools"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.app.eclipse"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.app.standalone"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.app.winstore"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.charts"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.config.migration"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.config.sample"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.dashboard"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.editors.acl"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.editors.base"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.editors.connection"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.editors.data"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.editors.entity"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.editors.erd"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.editors.hex"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.editors.image"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.editors.json"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.editors.locks"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.editors.session"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.editors.sql"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.editors.sql.terminal"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.editors.xml"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.extra.feature"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.feature"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.forms"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.navigator"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.search"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.statistics"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.swt.linux"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.swt.macos"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.swt.windows"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.test.feature"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "plugins"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "product"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "repositories"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "standalone"
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "tests"
+    }
+  ]
+}

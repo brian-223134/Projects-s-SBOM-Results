@@ -1,0 +1,4338 @@
+{
+  "generated_at": "2026-02-10T07:31:57.535478+00:00",
+  "sbom": "languages/java/SBOM/dbeaver/trivy/dbeaver_trivy_sbom.json",
+  "total_components": 623,
+  "candidates_count": 433,
+  "candidates": [
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.snowflake",
+      "version": "1.0.193-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.snowflake@1.0.193-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.snowflake@1.0.193-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.snowflake",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.exasol",
+      "version": "1.0.231-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.exasol@1.0.231-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.exasol@1.0.231-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.exasol",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.db2.zos",
+      "version": "1.0.176-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.db2.zos@1.0.176-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.db2.zos@1.0.176-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.db2.zos",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.data.gis",
+      "version": "1.0.197-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.gis@1.0.197-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.gis@1.0.197-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.data.gis",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.oceanbase",
+      "version": "1.0.111-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.oceanbase@1.0.111-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.oceanbase@1.0.111-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.oceanbase",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.cubrid",
+      "version": "1.0.49-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.cubrid@1.0.49-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.cubrid@1.0.49-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.cubrid",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.oracle.test",
+      "version": "1.0.100-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.oracle.test@1.0.100-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.oracle.test@1.0.100-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.oracle.test",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.sql",
+      "version": "1.0.163-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.sql@1.0.163-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.sql@1.0.163-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.sql",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.tasks.native",
+      "version": "1.0.151-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.tasks.native@1.0.151-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.tasks.native@1.0.151-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.tasks.native",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.db2.i",
+      "version": "1.0.161-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.db2.i@1.0.161-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.db2.i@1.0.161-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.db2.i",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.data.transfer.test",
+      "version": "1.0.0-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.transfer.test@1.0.0-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.transfer.test@1.0.0-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.data.transfer.test",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.databricks",
+      "version": "1.0.95-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.databricks@1.0.95-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.databricks@1.0.95-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.databricks",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.databend",
+      "version": "1.0.28-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.databend@1.0.28-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.databend@1.0.28-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.databend",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.duckdb",
+      "version": "1.0.65-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.duckdb@1.0.65-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.duckdb@1.0.65-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.duckdb",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.hana",
+      "version": "1.2.151-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.hana@1.2.151-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.hana@1.2.151-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.hana",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.phoenix",
+      "version": "1.0.242-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.phoenix@1.0.242-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.phoenix@1.0.242-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.phoenix",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.h2",
+      "version": "1.0.228-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.h2@1.0.228-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.h2@1.0.228-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.h2",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.sql",
+      "version": "1.0.163-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.sql@1.0.163-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.sql@1.0.163-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.sql",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.sql",
+      "version": "1.0.163-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.sql@1.0.163-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.sql@1.0.163-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.sql",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "dbeaver",
+      "version": "1.0.0-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/dbeaver@1.0.0-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/dbeaver@1.0.0-SNAPSHOT",
+      "name": "dbeaver",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.hive",
+      "version": "1.0.179-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.hive@1.0.179-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.hive@1.0.179-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.hive",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.navigator.test",
+      "version": "1.0.0-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.navigator.test@1.0.0-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.navigator.test@1.0.0-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.navigator.test",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.hana",
+      "version": "1.2.151-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.hana@1.2.151-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.hana@1.2.151-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.hana",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.dameng",
+      "version": "1.0.57-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.dameng@1.0.57-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.dameng@1.0.57-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.dameng",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.cubrid",
+      "version": "1.0.49-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.cubrid@1.0.49-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.cubrid@1.0.49-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.cubrid",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.net.ssh.sshj",
+      "version": "1.0.194-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.net.ssh.sshj@1.0.194-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.net.ssh.sshj@1.0.194-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.net.ssh.sshj",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.denodo",
+      "version": "1.0.119-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.denodo@1.0.119-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.denodo@1.0.119-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.denodo",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.event",
+      "version": "1.0.77-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.event@1.0.77-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.event@1.0.77-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.event",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.cli",
+      "version": "1.0.18-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.cli@1.0.18-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.cli@1.0.18-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.cli",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.db2",
+      "version": "2.1.258-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.db2@2.1.258-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.db2@2.1.258-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.db2",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.altibase",
+      "version": "1.0.34-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.altibase@1.0.34-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.altibase@1.0.34-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.altibase",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.net.ssh.sshj",
+      "version": "1.0.194-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.net.ssh.sshj@1.0.194-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.net.ssh.sshj@1.0.194-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.net.ssh.sshj",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.phoenix",
+      "version": "1.0.242-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.phoenix@1.0.242-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.phoenix@1.0.242-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.phoenix",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.athena",
+      "version": "1.0.179-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.athena@1.0.179-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.athena@1.0.179-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.athena",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.data.office",
+      "version": "1.1.211-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.office@1.1.211-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.office@1.1.211-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.data.office",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.altibase",
+      "version": "1.0.34-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.altibase@1.0.34-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.altibase@1.0.34-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.altibase",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.db2.i",
+      "version": "1.0.161-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.db2.i@1.0.161-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.db2.i@1.0.161-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.db2.i",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.hsqldb",
+      "version": "1.0.220-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.hsqldb@1.0.220-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.hsqldb@1.0.220-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.hsqldb",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.dameng",
+      "version": "1.0.57-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.dameng@1.0.57-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.dameng@1.0.57-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.dameng",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.ai",
+      "version": "2.0.16-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.ai@2.0.16-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.ai@2.0.16-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.ai",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.iotdb",
+      "version": "1.0.11-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.iotdb@1.0.11-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.iotdb@1.0.11-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.iotdb",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.exasol",
+      "version": "1.0.231-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.exasol@1.0.231-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.exasol@1.0.231-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.exasol",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.tidb",
+      "version": "1.0.53-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.tidb@1.0.53-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.tidb@1.0.53-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.tidb",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.hsqldb",
+      "version": "1.0.220-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.hsqldb@1.0.220-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.hsqldb@1.0.220-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.hsqldb",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "product",
+      "version": "1.0.0-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/product@1.0.0-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/product@1.0.0-SNAPSHOT",
+      "name": "product",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.mysql",
+      "version": "2.1.258-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.mysql@2.1.258-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.mysql@2.1.258-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.mysql",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.generic",
+      "version": "2.3.259-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.generic@2.3.259-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.generic@2.3.259-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.generic",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.bigquery",
+      "version": "1.0.179-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.bigquery@1.0.179-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.bigquery@1.0.179-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.bigquery",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model",
+      "version": "2.0.33-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model@2.0.33-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model@2.0.33-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.data.transfer",
+      "version": "2.0.157-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.transfer@2.0.157-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.transfer@2.0.157-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.data.transfer",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.net.ssh",
+      "version": "1.0.194-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.net.ssh@1.0.194-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.net.ssh@1.0.194-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.net.ssh",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.data.office",
+      "version": "1.1.211-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.office@1.1.211-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.office@1.1.211-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.data.office",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.netezza",
+      "version": "1.0.238-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.netezza@1.0.238-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.netezza@1.0.238-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.netezza",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.data.transfer",
+      "version": "2.0.157-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.transfer@2.0.157-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.transfer@2.0.157-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.data.transfer",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.oracle",
+      "version": "2.1.258-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.oracle@2.1.258-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.oracle@2.1.258-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.oracle",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.db.feature",
+      "version": "1.0.164-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.db.feature@1.0.164-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.db.feature@1.0.164-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.db.feature",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.mysql",
+      "version": "2.1.258-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.mysql@2.1.258-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.mysql@2.1.258-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.mysql",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.ai",
+      "version": "2.0.16-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.ai@2.0.16-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.ai@2.0.16-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.ai",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.phoenix",
+      "version": "1.0.242-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.phoenix@1.0.242-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.phoenix@1.0.242-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.phoenix",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.net.ssh.sshj",
+      "version": "1.0.194-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.net.ssh.sshj@1.0.194-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.net.ssh.sshj@1.0.194-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.net.ssh.sshj",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.hive",
+      "version": "1.0.179-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.hive@1.0.179-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.hive@1.0.179-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.hive",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.erd",
+      "version": "1.1.14-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.erd@1.1.14-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.erd@1.1.14-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.erd",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.sqlite",
+      "version": "1.0.222-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.sqlite@1.0.222-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.sqlite@1.0.222-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.sqlite",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.sql.test",
+      "version": "1.0.0-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.sql.test@1.0.0-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.sql.test@1.0.0-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.sql.test",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.clickhouse.test",
+      "version": "1.0.34-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.clickhouse.test@1.0.34-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.clickhouse.test@1.0.34-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.clickhouse.test",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.db2.zos",
+      "version": "1.0.176-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.db2.zos@1.0.176-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.db2.zos@1.0.176-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.db2.zos",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.greenplum",
+      "version": "1.0.174-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.greenplum@1.0.174-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.greenplum@1.0.174-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.greenplum",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "dbeaver",
+      "version": "1.0.0-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/dbeaver@1.0.0-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/dbeaver@1.0.0-SNAPSHOT",
+      "name": "dbeaver",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.oracle.test",
+      "version": "1.0.100-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.oracle.test@1.0.100-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.oracle.test@1.0.100-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.oracle.test",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.db.feature",
+      "version": "1.0.164-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.db.feature@1.0.164-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.db.feature@1.0.164-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.db.feature",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.trino",
+      "version": "1.0.66-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.trino@1.0.66-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.trino@1.0.66-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.trino",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.kingbase",
+      "version": "1.0.18-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.kingbase@1.0.18-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.kingbase@1.0.18-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.kingbase",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.snowflake.test",
+      "version": "1.0.64-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.snowflake.test@1.0.64-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.snowflake.test@1.0.64-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.snowflake.test",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.nio",
+      "version": "1.0.57-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.nio@1.0.57-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.nio@1.0.57-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.nio",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.cli",
+      "version": "1.0.18-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.cli@1.0.18-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.cli@1.0.18-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.cli",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.test.platform",
+      "version": "1.0.130-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.test.platform@1.0.130-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.test.platform@1.0.130-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.test.platform",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.sqlite",
+      "version": "1.0.222-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.sqlite@1.0.222-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.sqlite@1.0.222-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.sqlite",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.athena",
+      "version": "1.0.179-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.athena@1.0.179-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.athena@1.0.179-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.athena",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.hsqldb",
+      "version": "1.0.220-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.hsqldb@1.0.220-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.hsqldb@1.0.220-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.hsqldb",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.db2.zos",
+      "version": "1.0.176-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.db2.zos@1.0.176-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.db2.zos@1.0.176-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.db2.zos",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.headless",
+      "version": "1.0.106-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.headless@1.0.106-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.headless@1.0.106-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.headless",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.osgi.test.runner",
+      "version": "1.0.129-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.osgi.test.runner@1.0.129-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.osgi.test.runner@1.0.129-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.osgi.test.runner",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.net.ssh",
+      "version": "1.0.194-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.net.ssh@1.0.194-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.net.ssh@1.0.194-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.net.ssh",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "features",
+      "version": "1.0.0-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/features@1.0.0-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/features@1.0.0-SNAPSHOT",
+      "name": "features",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.derby",
+      "version": "1.1.258-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.derby@1.1.258-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.derby@1.1.258-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.derby",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.mssql",
+      "version": "1.0.267-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.mssql@1.0.267-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.mssql@1.0.267-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.mssql",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.vertica",
+      "version": "2.0.203-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.vertica@2.0.203-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.vertica@2.0.203-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.vertica",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.trino",
+      "version": "1.0.66-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.trino@1.0.66-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.trino@1.0.66-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.trino",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "features",
+      "version": "1.0.0-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/features@1.0.0-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/features@1.0.0-SNAPSHOT",
+      "name": "features",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.postgresql.test",
+      "version": "1.0.130-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.postgresql.test@1.0.130-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.postgresql.test@1.0.130-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.postgresql.test",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.teradata",
+      "version": "1.0.241-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.teradata@1.0.241-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.teradata@1.0.241-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.teradata",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.oceanbase",
+      "version": "1.0.111-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.oceanbase@1.0.111-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.oceanbase@1.0.111-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.oceanbase",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.jdbc",
+      "version": "1.0.66-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.jdbc@1.0.66-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.jdbc@1.0.66-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.jdbc",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.net.ssh",
+      "version": "1.0.194-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.net.ssh@1.0.194-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.net.ssh@1.0.194-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.net.ssh",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.rcp",
+      "version": "1.0.34-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.rcp@1.0.34-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.rcp@1.0.34-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.rcp",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.sql.jdbc",
+      "version": "1.0.37-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.sql.jdbc@1.0.37-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.sql.jdbc@1.0.37-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.sql.jdbc",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.netezza",
+      "version": "1.0.238-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.netezza@1.0.238-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.netezza@1.0.238-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.netezza",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.headless",
+      "version": "1.0.106-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.headless@1.0.106-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.headless@1.0.106-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.headless",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "plugins",
+      "version": "1.0.0-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/plugins@1.0.0-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/plugins@1.0.0-SNAPSHOT",
+      "name": "plugins",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.headless",
+      "version": "1.0.106-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.headless@1.0.106-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.headless@1.0.106-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.headless",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.registry",
+      "version": "1.0.167-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.registry@1.0.167-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.registry@1.0.167-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.registry",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.mysql",
+      "version": "2.1.258-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.mysql@2.1.258-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.mysql@2.1.258-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.mysql",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.sm",
+      "version": "1.0.80-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.sm@1.0.80-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.sm@1.0.80-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.sm",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.oracle",
+      "version": "2.1.258-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.oracle@2.1.258-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.oracle@2.1.258-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.oracle",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.erd",
+      "version": "1.1.14-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.erd@1.1.14-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.erd@1.1.14-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.erd",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.h2",
+      "version": "1.0.228-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.h2@1.0.228-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.h2@1.0.228-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.h2",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.firebird",
+      "version": "1.0.274-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.firebird@1.0.274-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.firebird@1.0.274-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.firebird",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "product",
+      "version": "1.0.0-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/product@1.0.0-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/product@1.0.0-SNAPSHOT",
+      "name": "product",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.informix",
+      "version": "1.0.264-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.informix@1.0.264-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.informix@1.0.264-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.informix",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.netezza",
+      "version": "1.0.238-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.netezza@1.0.238-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.netezza@1.0.238-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.netezza",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.clickhouse.test",
+      "version": "1.0.34-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.clickhouse.test@1.0.34-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.clickhouse.test@1.0.34-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.clickhouse.test",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.phoenix",
+      "version": "1.0.242-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.phoenix@1.0.242-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.phoenix@1.0.242-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.phoenix",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.snowflake.test",
+      "version": "1.0.64-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.snowflake.test@1.0.64-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.snowflake.test@1.0.64-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.snowflake.test",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.snowflake",
+      "version": "1.0.193-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.snowflake@1.0.193-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.snowflake@1.0.193-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.snowflake",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.databend",
+      "version": "1.0.28-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.databend@1.0.28-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.databend@1.0.28-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.databend",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.greenplum",
+      "version": "1.0.174-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.greenplum@1.0.174-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.greenplum@1.0.174-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.greenplum",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.data.transfer",
+      "version": "2.0.157-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.transfer@2.0.157-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.transfer@2.0.157-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.data.transfer",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ce.git.updatesite",
+      "version": "1.0.0-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ce.git.updatesite@1.0.0-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ce.git.updateSite@1.0.0-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ce.git.updateSite",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.h2",
+      "version": "1.0.228-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.h2@1.0.228-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.h2@1.0.228-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.h2",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.sm",
+      "version": "1.0.80-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.sm@1.0.80-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.sm@1.0.80-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.sm",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.lsp",
+      "version": "0.0.3-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.lsp@0.0.3-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.lsp@0.0.3-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.lsp",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ce.product.updatesite",
+      "version": "1.0.0-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ce.product.updatesite@1.0.0-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ce.product.updateSite@1.0.0-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ce.product.updateSite",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.kingbase",
+      "version": "1.0.18-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.kingbase@1.0.18-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.kingbase@1.0.18-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.kingbase",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.tidb",
+      "version": "1.0.53-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.tidb@1.0.53-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.tidb@1.0.53-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.tidb",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.ai",
+      "version": "2.0.16-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.ai@2.0.16-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.ai@2.0.16-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.ai",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.launcher",
+      "version": "1.0.47-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.launcher@1.0.47-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.launcher@1.0.47-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.launcher",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.db.feature",
+      "version": "1.0.164-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.db.feature@1.0.164-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.db.feature@1.0.164-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.db.feature",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.duckdb",
+      "version": "1.0.65-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.duckdb@1.0.65-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.duckdb@1.0.65-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.duckdb",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.informix",
+      "version": "1.0.264-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.informix@1.0.264-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.informix@1.0.264-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.informix",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.registry",
+      "version": "1.0.167-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.registry@1.0.167-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.registry@1.0.167-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.registry",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.data.gis",
+      "version": "1.0.197-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.gis@1.0.197-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.gis@1.0.197-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.data.gis",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.generic.test",
+      "version": "1.0.64-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.generic.test@1.0.64-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.generic.test@1.0.64-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.generic.test",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.runtime.feature",
+      "version": "25.3.5-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.runtime.feature@25.3.5-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.runtime.feature@25.3.5-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.runtime.feature",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.launcher",
+      "version": "1.0.47-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.launcher@1.0.47-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.launcher@1.0.47-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.launcher",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.db2",
+      "version": "2.1.258-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.db2@2.1.258-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.db2@2.1.258-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.db2",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.firebird",
+      "version": "1.0.274-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.firebird@1.0.274-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.firebird@1.0.274-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.firebird",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.runtime.feature",
+      "version": "25.3.5-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.runtime.feature@25.3.5-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.runtime.feature@25.3.5-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.runtime.feature",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.postgresql",
+      "version": "2.1.246-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.postgresql@2.1.246-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.postgresql@2.1.246-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.postgresql",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.hana.test",
+      "version": "1.0.55-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.hana.test@1.0.55-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.hana.test@1.0.55-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.hana.test",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.slf4j",
+      "version": "2.0.143-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.slf4j@2.0.143-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.slf4j@2.0.143-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.slf4j",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.data.transfer",
+      "version": "2.0.157-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.transfer@2.0.157-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.transfer@2.0.157-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.data.transfer",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.lsm",
+      "version": "1.0.68-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.lsm@1.0.68-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.lsm@1.0.68-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.lsm",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.generic",
+      "version": "2.3.259-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.generic@2.3.259-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.generic@2.3.259-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.generic",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.iotdb",
+      "version": "1.0.11-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.iotdb@1.0.11-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.iotdb@1.0.11-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.iotdb",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.bigquery",
+      "version": "1.0.179-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.bigquery@1.0.179-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.bigquery@1.0.179-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.bigquery",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.dameng",
+      "version": "1.0.57-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.dameng@1.0.57-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.dameng@1.0.57-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.dameng",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.derby",
+      "version": "1.1.258-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.derby@1.1.258-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.derby@1.1.258-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.derby",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.informix",
+      "version": "1.0.264-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.informix@1.0.264-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.informix@1.0.264-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.informix",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.osgi.test.runner",
+      "version": "1.0.129-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.osgi.test.runner@1.0.129-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.osgi.test.runner@1.0.129-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.osgi.test.runner",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.dashboard",
+      "version": "1.0.46-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.dashboard@1.0.46-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.dashboard@1.0.46-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.dashboard",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.event",
+      "version": "1.0.77-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.event@1.0.77-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.event@1.0.77-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.event",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.gbase8s",
+      "version": "1.0.22-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.gbase8s@1.0.22-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.gbase8s@1.0.22-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.gbase8s",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.teradata",
+      "version": "1.0.241-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.teradata@1.0.241-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.teradata@1.0.241-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.teradata",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.h2",
+      "version": "1.0.228-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.h2@1.0.228-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.h2@1.0.228-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.h2",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.hana",
+      "version": "1.2.151-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.hana@1.2.151-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.hana@1.2.151-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.hana",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.erd",
+      "version": "1.1.14-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.erd@1.1.14-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.erd@1.1.14-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.erd",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.cubrid",
+      "version": "1.0.49-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.cubrid@1.0.49-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.cubrid@1.0.49-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.cubrid",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.test.platform",
+      "version": "1.0.130-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.test.platform@1.0.130-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.test.platform@1.0.130-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.test.platform",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.slf4j",
+      "version": "2.0.143-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.slf4j@2.0.143-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.slf4j@2.0.143-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.slf4j",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.cli",
+      "version": "1.0.18-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.cli@1.0.18-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.cli@1.0.18-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.cli",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.hive",
+      "version": "1.0.179-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.hive@1.0.179-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.hive@1.0.179-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.hive",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.lsp",
+      "version": "0.0.3-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.lsp@0.0.3-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.lsp@0.0.3-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.lsp",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.dashboard",
+      "version": "1.0.46-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.dashboard@1.0.46-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.dashboard@1.0.46-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.dashboard",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.debug.core",
+      "version": "1.0.202-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.debug.core@1.0.202-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.debug.core@1.0.202-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.debug.core",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ce.office.updatesite",
+      "version": "1.0.0-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ce.office.updatesite@1.0.0-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ce.office.updateSite@1.0.0-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ce.office.updateSite",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.altibase",
+      "version": "1.0.34-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.altibase@1.0.34-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.altibase@1.0.34-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.altibase",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.teradata",
+      "version": "1.0.241-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.teradata@1.0.241-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.teradata@1.0.241-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.teradata",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.lsm",
+      "version": "1.0.68-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.lsm@1.0.68-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.lsm@1.0.68-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.lsm",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "plugins",
+      "version": "1.0.0-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/plugins@1.0.0-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/plugins@1.0.0-SNAPSHOT",
+      "name": "plugins",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.sql.jdbc",
+      "version": "1.0.37-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.sql.jdbc@1.0.37-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.sql.jdbc@1.0.37-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.sql.jdbc",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.ai.test",
+      "version": "1.0.0-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.ai.test@1.0.0-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.ai.test@1.0.0-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.ai.test",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.net.ssh",
+      "version": "1.0.194-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.net.ssh@1.0.194-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.net.ssh@1.0.194-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.net.ssh",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.denodo",
+      "version": "1.0.119-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.denodo@1.0.119-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.denodo@1.0.119-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.denodo",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.greenplum.test",
+      "version": "1.0.130-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.greenplum.test@1.0.130-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.greenplum.test@1.0.130-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.greenplum.test",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.oracle",
+      "version": "2.1.258-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.oracle@2.1.258-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.oracle@2.1.258-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.oracle",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.osgi.test.runner",
+      "version": "1.0.129-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.osgi.test.runner@1.0.129-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.osgi.test.runner@1.0.129-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.osgi.test.runner",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.snowflake",
+      "version": "1.0.193-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.snowflake@1.0.193-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.snowflake@1.0.193-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.snowflake",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.registry",
+      "version": "1.0.167-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.registry@1.0.167-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.registry@1.0.167-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.registry",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.sqlite",
+      "version": "1.0.222-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.sqlite@1.0.222-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.sqlite@1.0.222-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.sqlite",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.net.ssh.jsch",
+      "version": "1.1.183-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.net.ssh.jsch@1.1.183-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.net.ssh.jsch@1.1.183-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.net.ssh.jsch",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.denodo",
+      "version": "1.0.119-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.denodo@1.0.119-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.denodo@1.0.119-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.denodo",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "plugins",
+      "version": "1.0.0-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/plugins@1.0.0-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/plugins@1.0.0-SNAPSHOT",
+      "name": "plugins",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.event",
+      "version": "1.0.77-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.event@1.0.77-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.event@1.0.77-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.event",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.data.office",
+      "version": "1.1.211-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.office@1.1.211-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.office@1.1.211-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.data.office",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.generic.test",
+      "version": "1.0.64-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.generic.test@1.0.64-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.generic.test@1.0.64-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.generic.test",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.lsm.test",
+      "version": "1.0.34-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.lsm.test@1.0.34-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.lsm.test@1.0.34-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.lsm.test",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.net.ssh.jsch",
+      "version": "1.1.183-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.net.ssh.jsch@1.1.183-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.net.ssh.jsch@1.1.183-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.net.ssh.jsch",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.osgi.test.runner",
+      "version": "1.0.129-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.osgi.test.runner@1.0.129-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.osgi.test.runner@1.0.129-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.osgi.test.runner",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.cmp.simple",
+      "version": "6.0.169-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.cmp.simple@6.0.169-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.cmp.simple@6.0.169-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.cmp.simple",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.altibase.test",
+      "version": "1.0.34-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.altibase.test@1.0.34-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.altibase.test@1.0.34-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.altibase.test",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.postgresql",
+      "version": "2.1.246-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.postgresql@2.1.246-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.postgresql@2.1.246-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.postgresql",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.ai.test",
+      "version": "1.0.0-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.ai.test@1.0.0-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.ai.test@1.0.0-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.ai.test",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.exasol",
+      "version": "1.0.231-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.exasol@1.0.231-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.exasol@1.0.231-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.exasol",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.runtime.feature",
+      "version": "25.3.5-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.runtime.feature@25.3.5-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.runtime.feature@25.3.5-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.runtime.feature",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.athena",
+      "version": "1.0.179-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.athena@1.0.179-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.athena@1.0.179-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.athena",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.data.gis",
+      "version": "1.0.197-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.gis@1.0.197-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.gis@1.0.197-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.data.gis",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.databend",
+      "version": "1.0.28-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.databend@1.0.28-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.databend@1.0.28-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.databend",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.cmp.simple",
+      "version": "6.0.169-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.cmp.simple@6.0.169-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.cmp.simple@6.0.169-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.cmp.simple",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.net.ssh.jsch",
+      "version": "1.1.183-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.net.ssh.jsch@1.1.183-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.net.ssh.jsch@1.1.183-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.net.ssh.jsch",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.gbase8s",
+      "version": "1.0.22-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.gbase8s@1.0.22-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.gbase8s@1.0.22-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.gbase8s",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.bigquery",
+      "version": "1.0.179-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.bigquery@1.0.179-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.bigquery@1.0.179-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.bigquery",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.sm",
+      "version": "1.0.80-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.sm@1.0.80-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.sm@1.0.80-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.sm",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.data.gis",
+      "version": "1.0.197-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.gis@1.0.197-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.gis@1.0.197-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.data.gis",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.rcp",
+      "version": "1.0.34-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.rcp@1.0.34-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.rcp@1.0.34-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.rcp",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.cmp.simple",
+      "version": "6.0.169-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.cmp.simple@6.0.169-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.cmp.simple@6.0.169-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.cmp.simple",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.runtime.feature",
+      "version": "25.3.5-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.runtime.feature@25.3.5-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.runtime.feature@25.3.5-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.runtime.feature",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.greenplum.test",
+      "version": "1.0.130-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.greenplum.test@1.0.130-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.greenplum.test@1.0.130-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.greenplum.test",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.gbase8s",
+      "version": "1.0.22-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.gbase8s@1.0.22-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.gbase8s@1.0.22-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.gbase8s",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.athena",
+      "version": "1.0.179-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.athena@1.0.179-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.athena@1.0.179-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.athena",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.hive",
+      "version": "1.0.179-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.hive@1.0.179-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.hive@1.0.179-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.hive",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.clickhouse",
+      "version": "1.0.178-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.clickhouse@1.0.178-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.clickhouse@1.0.178-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.clickhouse",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.clickhouse",
+      "version": "1.0.178-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.clickhouse@1.0.178-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.clickhouse@1.0.178-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.clickhouse",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.jdbc",
+      "version": "1.0.66-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.jdbc@1.0.66-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.jdbc@1.0.66-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.jdbc",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.debug.core",
+      "version": "1.0.202-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.debug.core@1.0.202-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.debug.core@1.0.202-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.debug.core",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.clickhouse",
+      "version": "1.0.178-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.clickhouse@1.0.178-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.clickhouse@1.0.178-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.clickhouse",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.rcp",
+      "version": "1.0.34-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.rcp@1.0.34-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.rcp@1.0.34-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.rcp",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.net.ssh.sshj",
+      "version": "1.0.194-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.net.ssh.sshj@1.0.194-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.net.ssh.sshj@1.0.194-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.net.ssh.sshj",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.databricks",
+      "version": "1.0.95-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.databricks@1.0.95-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.databricks@1.0.95-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.databricks",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.slf4j",
+      "version": "2.0.143-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.slf4j@2.0.143-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.slf4j@2.0.143-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.slf4j",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.gaussdb",
+      "version": "1.0.34-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.gaussdb@1.0.34-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.gaussdb@1.0.34-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.gaussdb",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.sqlite.test",
+      "version": "1.0.56-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.sqlite.test@1.0.56-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.sqlite.test@1.0.56-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.sqlite.test",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.greenplum",
+      "version": "1.0.174-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.greenplum@1.0.174-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.greenplum@1.0.174-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.greenplum",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.db2.zos",
+      "version": "1.0.176-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.db2.zos@1.0.176-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.db2.zos@1.0.176-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.db2.zos",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.vertica",
+      "version": "2.0.203-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.vertica@2.0.203-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.vertica@2.0.203-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.vertica",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.db2",
+      "version": "2.1.258-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.db2@2.1.258-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.db2@2.1.258-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.db2",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.cubrid",
+      "version": "1.0.49-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.cubrid@1.0.49-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.cubrid@1.0.49-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.cubrid",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.nio",
+      "version": "1.0.57-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.nio@1.0.57-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.nio@1.0.57-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.nio",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ce.office.updatesite",
+      "version": "1.0.0-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ce.office.updatesite@1.0.0-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ce.office.updateSite@1.0.0-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ce.office.updateSite",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.nio",
+      "version": "1.0.57-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.nio@1.0.57-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.nio@1.0.57-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.nio",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model",
+      "version": "2.0.33-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model@2.0.33-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model@2.0.33-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.oceanbase",
+      "version": "1.0.111-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.oceanbase@1.0.111-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.oceanbase@1.0.111-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.oceanbase",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.mysql",
+      "version": "2.1.258-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.mysql@2.1.258-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.mysql@2.1.258-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.mysql",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "product",
+      "version": "1.0.0-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/product@1.0.0-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/product@1.0.0-SNAPSHOT",
+      "name": "product",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.headless",
+      "version": "1.0.106-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.headless@1.0.106-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.headless@1.0.106-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.headless",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.teradata",
+      "version": "1.0.241-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.teradata@1.0.241-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.teradata@1.0.241-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.teradata",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.erd",
+      "version": "1.1.14-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.erd@1.1.14-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.erd@1.1.14-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.erd",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.duckdb",
+      "version": "1.0.65-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.duckdb@1.0.65-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.duckdb@1.0.65-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.duckdb",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.data.transfer.test",
+      "version": "1.0.0-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.transfer.test@1.0.0-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.transfer.test@1.0.0-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.data.transfer.test",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.event",
+      "version": "1.0.77-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.event@1.0.77-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.event@1.0.77-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.event",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.rcp",
+      "version": "1.0.34-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.rcp@1.0.34-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.rcp@1.0.34-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.rcp",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.lsm",
+      "version": "1.0.68-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.lsm@1.0.68-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.lsm@1.0.68-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.lsm",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.sqlite",
+      "version": "1.0.222-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.sqlite@1.0.222-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.sqlite@1.0.222-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.sqlite",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ce.product.updatesite",
+      "version": "1.0.0-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ce.product.updatesite@1.0.0-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ce.product.updateSite@1.0.0-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ce.product.updateSite",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.denodo",
+      "version": "1.0.119-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.denodo@1.0.119-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.denodo@1.0.119-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.denodo",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.cmp.simple",
+      "version": "6.0.169-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.cmp.simple@6.0.169-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.cmp.simple@6.0.169-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.cmp.simple",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.firebird",
+      "version": "1.0.274-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.firebird@1.0.274-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.firebird@1.0.274-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.firebird",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.ocient",
+      "version": "1.0.144-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.ocient@1.0.144-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.ocient@1.0.144-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.ocient",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.data.office",
+      "version": "1.1.211-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.office@1.1.211-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.office@1.1.211-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.data.office",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.sm",
+      "version": "1.0.80-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.sm@1.0.80-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.sm@1.0.80-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.sm",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.kingbase",
+      "version": "1.0.18-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.kingbase@1.0.18-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.kingbase@1.0.18-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.kingbase",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.slf4j",
+      "version": "2.0.143-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.slf4j@2.0.143-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.slf4j@2.0.143-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.slf4j",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.netezza",
+      "version": "1.0.238-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.netezza@1.0.238-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.netezza@1.0.238-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.netezza",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.launcher",
+      "version": "1.0.47-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.launcher@1.0.47-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.launcher@1.0.47-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.launcher",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.jdbc",
+      "version": "1.0.66-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.jdbc@1.0.66-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.jdbc@1.0.66-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.jdbc",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.ocient",
+      "version": "1.0.144-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.ocient@1.0.144-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.ocient@1.0.144-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.ocient",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.iotdb",
+      "version": "1.0.11-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.iotdb@1.0.11-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.iotdb@1.0.11-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.iotdb",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.debug.core",
+      "version": "1.0.202-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.debug.core@1.0.202-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.debug.core@1.0.202-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.debug.core",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.firebird",
+      "version": "1.0.274-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.firebird@1.0.274-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.firebird@1.0.274-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.firebird",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.mssql",
+      "version": "1.0.267-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.mssql@1.0.267-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.mssql@1.0.267-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.mssql",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.databend",
+      "version": "1.0.28-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.databend@1.0.28-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.databend@1.0.28-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.databend",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.registry",
+      "version": "1.0.167-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.registry@1.0.167-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.registry@1.0.167-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.registry",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.sql.jdbc",
+      "version": "1.0.37-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.sql.jdbc@1.0.37-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.sql.jdbc@1.0.37-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.sql.jdbc",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.bigquery",
+      "version": "1.0.179-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.bigquery@1.0.179-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.bigquery@1.0.179-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.bigquery",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.spanner",
+      "version": "1.0.160-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.spanner@1.0.160-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.spanner@1.0.160-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.spanner",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.spanner",
+      "version": "1.0.160-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.spanner@1.0.160-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.spanner@1.0.160-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.spanner",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.hana.test",
+      "version": "1.0.55-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.hana.test@1.0.55-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.hana.test@1.0.55-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.hana.test",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model",
+      "version": "2.0.33-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model@2.0.33-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model@2.0.33-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.jdbc",
+      "version": "1.0.66-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.jdbc@1.0.66-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.jdbc@1.0.66-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.jdbc",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.clickhouse",
+      "version": "1.0.178-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.clickhouse@1.0.178-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.clickhouse@1.0.178-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.clickhouse",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ce.git.updatesite",
+      "version": "1.0.0-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ce.git.updatesite@1.0.0-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ce.git.updateSite@1.0.0-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ce.git.updateSite",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.trino",
+      "version": "1.0.66-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.trino@1.0.66-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.trino@1.0.66-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.trino",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.ai",
+      "version": "2.0.16-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.ai@2.0.16-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.ai@2.0.16-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.ai",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.lsm",
+      "version": "1.0.68-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.lsm@1.0.68-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.lsm@1.0.68-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.lsm",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.db.feature",
+      "version": "1.0.164-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.db.feature@1.0.164-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.db.feature@1.0.164-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.db.feature",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.duckdb",
+      "version": "1.0.65-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.duckdb@1.0.65-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.duckdb@1.0.65-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.duckdb",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.altibase",
+      "version": "1.0.34-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.altibase@1.0.34-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.altibase@1.0.34-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.altibase",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.db2.i",
+      "version": "1.0.161-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.db2.i@1.0.161-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.db2.i@1.0.161-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.db2.i",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.tasks.native",
+      "version": "1.0.151-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.tasks.native@1.0.151-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.tasks.native@1.0.151-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.tasks.native",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.gaussdb",
+      "version": "1.0.34-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.gaussdb@1.0.34-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.gaussdb@1.0.34-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.gaussdb",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.navigator.test",
+      "version": "1.0.0-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.navigator.test@1.0.0-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.navigator.test@1.0.0-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.navigator.test",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.lsp",
+      "version": "0.0.3-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.lsp@0.0.3-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.lsp@0.0.3-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.lsp",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.generic",
+      "version": "2.3.259-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.generic@2.3.259-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.generic@2.3.259-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.generic",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.sql.test",
+      "version": "1.0.0-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.sql.test@1.0.0-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.sql.test@1.0.0-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.sql.test",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.databricks",
+      "version": "1.0.95-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.databricks@1.0.95-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.databricks@1.0.95-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.databricks",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.informix",
+      "version": "1.0.264-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.informix@1.0.264-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.informix@1.0.264-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.informix",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ce.debug.updatesite",
+      "version": "1.0.0-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ce.debug.updatesite@1.0.0-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ce.debug.updateSite@1.0.0-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ce.debug.updateSite",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "features",
+      "version": "1.0.0-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/features@1.0.0-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/features@1.0.0-SNAPSHOT",
+      "name": "features",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.cli",
+      "version": "1.0.18-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.cli@1.0.18-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.cli@1.0.18-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.cli",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.snowflake",
+      "version": "1.0.193-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.snowflake@1.0.193-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.snowflake@1.0.193-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.snowflake",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.sqlite.test",
+      "version": "1.0.56-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.sqlite.test@1.0.56-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.sqlite.test@1.0.56-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.sqlite.test",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.postgresql",
+      "version": "2.1.246-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.postgresql@2.1.246-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.postgresql@2.1.246-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.postgresql",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.spanner",
+      "version": "1.0.160-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.spanner@1.0.160-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.spanner@1.0.160-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.spanner",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.postgresql.test",
+      "version": "1.0.130-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.postgresql.test@1.0.130-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.postgresql.test@1.0.130-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.postgresql.test",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.kingbase",
+      "version": "1.0.18-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.kingbase@1.0.18-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.kingbase@1.0.18-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.kingbase",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.oceanbase",
+      "version": "1.0.111-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.oceanbase@1.0.111-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.oceanbase@1.0.111-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.oceanbase",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.postgresql",
+      "version": "2.1.246-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.postgresql@2.1.246-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.postgresql@2.1.246-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.postgresql",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.nio",
+      "version": "1.0.57-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.nio@1.0.57-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.nio@1.0.57-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.nio",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.iotdb",
+      "version": "1.0.11-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.iotdb@1.0.11-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.iotdb@1.0.11-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.iotdb",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.derby",
+      "version": "1.1.258-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.derby@1.1.258-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.derby@1.1.258-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.derby",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.databricks",
+      "version": "1.0.95-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.databricks@1.0.95-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.databricks@1.0.95-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.databricks",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.lsp",
+      "version": "0.0.3-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.lsp@0.0.3-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.lsp@0.0.3-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.lsp",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.debug.core",
+      "version": "1.0.202-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.debug.core@1.0.202-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.debug.core@1.0.202-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.debug.core",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.hana",
+      "version": "1.2.151-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.hana@1.2.151-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.hana@1.2.151-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.hana",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.net.ssh.jsch",
+      "version": "1.1.183-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.net.ssh.jsch@1.1.183-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.net.ssh.jsch@1.1.183-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.net.ssh.jsch",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.derby",
+      "version": "1.1.258-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.derby@1.1.258-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.derby@1.1.258-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.derby",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.gbase8s",
+      "version": "1.0.22-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.gbase8s@1.0.22-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.gbase8s@1.0.22-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.gbase8s",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.dashboard",
+      "version": "1.0.46-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.dashboard@1.0.46-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.dashboard@1.0.46-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.dashboard",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.ocient",
+      "version": "1.0.144-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.ocient@1.0.144-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.ocient@1.0.144-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.ocient",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.ocient",
+      "version": "1.0.144-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.ocient@1.0.144-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.ocient@1.0.144-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.ocient",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.mssql",
+      "version": "1.0.267-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.mssql@1.0.267-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.mssql@1.0.267-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.mssql",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.dashboard",
+      "version": "1.0.46-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.dashboard@1.0.46-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.dashboard@1.0.46-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.dashboard",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.gaussdb",
+      "version": "1.0.34-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.gaussdb@1.0.34-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.gaussdb@1.0.34-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.gaussdb",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.tasks.native",
+      "version": "1.0.151-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.tasks.native@1.0.151-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.tasks.native@1.0.151-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.tasks.native",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.exasol",
+      "version": "1.0.231-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.exasol@1.0.231-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.exasol@1.0.231-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.exasol",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.mysql.test",
+      "version": "1.0.34-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.mysql.test@1.0.34-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.mysql.test@1.0.34-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.mysql.test",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model",
+      "version": "2.0.33-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model@2.0.33-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model@2.0.33-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.sql",
+      "version": "1.0.163-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.sql@1.0.163-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.sql@1.0.163-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.sql",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.tidb",
+      "version": "1.0.53-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.tidb@1.0.53-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.tidb@1.0.53-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.tidb",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.tasks.native",
+      "version": "1.0.151-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.tasks.native@1.0.151-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.tasks.native@1.0.151-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.tasks.native",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.lsm.test",
+      "version": "1.0.34-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.lsm.test@1.0.34-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.lsm.test@1.0.34-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.lsm.test",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.oracle",
+      "version": "2.1.258-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.oracle@2.1.258-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.oracle@2.1.258-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.oracle",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.vertica",
+      "version": "2.0.203-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.vertica@2.0.203-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.vertica@2.0.203-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.vertica",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.mssql",
+      "version": "1.0.267-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.mssql@1.0.267-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.mssql@1.0.267-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.mssql",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.gaussdb",
+      "version": "1.0.34-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.gaussdb@1.0.34-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.gaussdb@1.0.34-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.gaussdb",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ce.debug.updatesite",
+      "version": "1.0.0-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ce.debug.updatesite@1.0.0-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ce.debug.updateSite@1.0.0-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ce.debug.updateSite",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.launcher",
+      "version": "1.0.47-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.launcher@1.0.47-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.launcher@1.0.47-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.launcher",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.hsqldb",
+      "version": "1.0.220-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.hsqldb@1.0.220-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.hsqldb@1.0.220-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.hsqldb",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.altibase.test",
+      "version": "1.0.34-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.altibase.test@1.0.34-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.altibase.test@1.0.34-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.altibase.test",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.spanner",
+      "version": "1.0.160-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.spanner@1.0.160-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.spanner@1.0.160-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.spanner",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.vertica",
+      "version": "2.0.203-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.vertica@2.0.203-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.vertica@2.0.203-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.vertica",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.generic",
+      "version": "2.3.259-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.generic@2.3.259-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.generic@2.3.259-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.generic",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.model.sql.jdbc",
+      "version": "1.0.37-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.sql.jdbc@1.0.37-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.model.sql.jdbc@1.0.37-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.model.sql.jdbc",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.db2.i",
+      "version": "1.0.161-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.db2.i@1.0.161-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.db2.i@1.0.161-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.db2.i",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.tidb",
+      "version": "1.0.53-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.tidb@1.0.53-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.tidb@1.0.53-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.tidb",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.mysql.test",
+      "version": "1.0.34-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.mysql.test@1.0.34-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.mysql.test@1.0.34-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.mysql.test",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.dameng",
+      "version": "1.0.57-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.dameng@1.0.57-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.dameng@1.0.57-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.dameng",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.db2",
+      "version": "2.1.258-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.db2@2.1.258-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.db2@2.1.258-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.db2",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.greenplum",
+      "version": "1.0.174-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.greenplum@1.0.174-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.greenplum@1.0.174-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.greenplum",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.trino",
+      "version": "1.0.66-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.trino@1.0.66-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.trino@1.0.66-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.trino",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "com.dbeaver.build",
+      "artifactId": "ce.aggregate",
+      "version": "1.0.0-SNAPSHOT",
+      "purl": "pkg:maven/com.dbeaver.build/ce.aggregate@1.0.0-SNAPSHOT",
+      "source_purl": "pkg:maven/com.dbeaver.build/ce.aggregate@1.0.0-SNAPSHOT",
+      "name": "ce.aggregate",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "appstore",
+      "version": "25.3.5-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/appstore@25.3.5-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/appstore@25.3.5-SNAPSHOT",
+      "name": "appstore",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.app.base.feature",
+      "version": "25.3.5-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.app.base.feature@25.3.5-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.app.base.feature@25.3.5-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.app.base.feature",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.app.local.feature",
+      "version": "25.3.5-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.app.local.feature@25.3.5-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.app.local.feature@25.3.5-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.app.local.feature",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.appstore.feature",
+      "version": "25.3.5-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.appstore.feature@25.3.5-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.appstore.feature@25.3.5-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.appstore.feature",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ce.feature",
+      "version": "25.3.5-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ce.feature@25.3.5-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ce.feature@25.3.5-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ce.feature",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.cmp.simple.ui",
+      "version": "6.0.169-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.cmp.simple.ui@6.0.169-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.cmp.simple.ui@6.0.169-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.cmp.simple.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.core",
+      "version": "25.3.5-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.core@25.3.5-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.core@25.3.5-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.core",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.data.gis.view",
+      "version": "1.0.168-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.gis.view@1.0.168-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.gis.view@1.0.168-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.data.gis.view",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.data.office.ui",
+      "version": "1.0.98-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.office.ui@1.0.98-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.office.ui@1.0.98-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.data.office.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.data.transfer.ui",
+      "version": "1.0.157-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.transfer.ui@1.0.157-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.data.transfer.ui@1.0.157-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.data.transfer.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.db.ui.feature",
+      "version": "1.0.164-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.db.ui.feature@1.0.164-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.db.ui.feature@1.0.164-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.db.ui.feature",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.debug.feature",
+      "version": "6.1.163-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.debug.feature@6.1.163-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.debug.feature@6.1.163-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.debug.feature",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.debug.ui",
+      "version": "1.0.202-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.debug.ui@1.0.202-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.debug.ui@1.0.202-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.debug.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.altibase.ui",
+      "version": "1.0.34-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.altibase.ui@1.0.34-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.altibase.ui@1.0.34-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.altibase.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.athena.ui",
+      "version": "1.0.143-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.athena.ui@1.0.143-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.athena.ui@1.0.143-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.athena.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.bigquery.ui",
+      "version": "1.0.143-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.bigquery.ui@1.0.143-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.bigquery.ui@1.0.143-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.bigquery.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.clickhouse.ui",
+      "version": "1.0.177-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.clickhouse.ui@1.0.177-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.clickhouse.ui@1.0.177-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.clickhouse.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.cubrid.ui",
+      "version": "1.0.33-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.cubrid.ui@1.0.33-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.cubrid.ui@1.0.33-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.cubrid.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.dameng.ui",
+      "version": "1.0.57-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.dameng.ui@1.0.57-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.dameng.ui@1.0.57-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.dameng.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.databend.ui",
+      "version": "1.0.28-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.databend.ui@1.0.28-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.databend.ui@1.0.28-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.databend.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.db2.ui",
+      "version": "1.0.98-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.db2.ui@1.0.98-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.db2.ui@1.0.98-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.db2.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.duckdb.ui",
+      "version": "1.0.2-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.duckdb.ui@1.0.2-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.duckdb.ui@1.0.2-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.duckdb.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.exasol.ui",
+      "version": "1.0.142-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.exasol.ui@1.0.142-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.exasol.ui@1.0.142-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.exasol.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.gaussdb.ui",
+      "version": "1.0.34-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.gaussdb.ui@1.0.34-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.gaussdb.ui@1.0.34-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.gaussdb.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.generic.ui",
+      "version": "1.0.149-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.generic.ui@1.0.149-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.generic.ui@1.0.149-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.generic.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.hana.ui",
+      "version": "1.0.126-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.hana.ui@1.0.126-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.hana.ui@1.0.126-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.hana.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.iotdb.ui",
+      "version": "1.0.11-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.iotdb.ui@1.0.11-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.iotdb.ui@1.0.11-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.iotdb.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.kingbase.ui",
+      "version": "1.0.18-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.kingbase.ui@1.0.18-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.kingbase.ui@1.0.18-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.kingbase.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.mssql.ui",
+      "version": "1.0.172-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.mssql.ui@1.0.172-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.mssql.ui@1.0.172-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.mssql.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.mysql.ui",
+      "version": "1.0.165-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.mysql.ui@1.0.165-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.mysql.ui@1.0.165-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.mysql.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.oceanbase.ui",
+      "version": "1.0.111-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.oceanbase.ui@1.0.111-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.oceanbase.ui@1.0.111-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.oceanbase.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.office.feature",
+      "version": "1.1.210-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.office.feature@1.1.210-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.office.feature@1.1.210-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.office.feature",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.oracle.ui",
+      "version": "1.0.160-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.oracle.ui@1.0.160-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.oracle.ui@1.0.160-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.oracle.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.postgresql.debug.core",
+      "version": "1.0.202-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.postgresql.debug.core@1.0.202-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.postgresql.debug.core@1.0.202-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.postgresql.debug.core",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.postgresql.debug.ui",
+      "version": "1.0.202-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.postgresql.debug.ui@1.0.202-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.postgresql.debug.ui@1.0.202-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.postgresql.debug.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.postgresql.ui",
+      "version": "1.0.149-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.postgresql.ui@1.0.149-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.postgresql.ui@1.0.149-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.postgresql.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.snowflake.ui",
+      "version": "1.0.193-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.snowflake.ui@1.0.193-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.snowflake.ui@1.0.193-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.snowflake.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.spanner.ui",
+      "version": "1.0.143-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.spanner.ui@1.0.143-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.spanner.ui@1.0.143-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.spanner.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.sqlite.ui",
+      "version": "1.0.143-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.sqlite.ui@1.0.143-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.sqlite.ui@1.0.143-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.sqlite.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.tidb.ui",
+      "version": "1.0.53-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.tidb.ui@1.0.53-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.tidb.ui@1.0.53-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.tidb.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.vertica.ui",
+      "version": "1.0.164-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.vertica.ui@1.0.164-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.vertica.ui@1.0.164-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.vertica.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ext.wmi",
+      "version": "2.0.275-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.wmi@2.0.275-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ext.wmi@2.0.275-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ext.wmi",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.git.feature",
+      "version": "1.0.161-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.git.feature@1.0.161-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.git.feature@1.0.161-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.git.feature",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ide.feature",
+      "version": "25.3.5-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ide.feature@25.3.5-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ide.feature@25.3.5-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ide.feature",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.net.ssh.ui",
+      "version": "1.0.194-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.net.ssh.ui@1.0.194-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.net.ssh.ui@1.0.194-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.net.ssh.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.rcp.feature",
+      "version": "3.0.52-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.rcp.feature@3.0.52-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.rcp.feature@3.0.52-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.rcp.feature",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.standalone.feature",
+      "version": "25.3.5-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.standalone.feature@25.3.5-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.standalone.feature@25.3.5-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.standalone.feature",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.tasks.native.ui",
+      "version": "1.0.151-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.tasks.native.ui@1.0.151-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.tasks.native.ui@1.0.151-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.tasks.native.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.tasks.sql.ui",
+      "version": "1.0.139-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.tasks.sql.ui@1.0.139-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.tasks.sql.ui@1.0.139-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.tasks.sql.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.tasks.ui.view",
+      "version": "1.0.122-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.tasks.ui.view@1.0.122-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.tasks.ui.view@1.0.122-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.tasks.ui.view",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.tasks.ui",
+      "version": "1.0.151-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.tasks.ui@1.0.151-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.tasks.ui@1.0.151-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.tasks.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.team.git.ui",
+      "version": "1.0.161-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.team.git.ui@1.0.161-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.team.git.ui@1.0.161-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.team.git.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.test.base.feature",
+      "version": "25.3.5-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.test.base.feature@25.3.5-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.test.base.feature@25.3.5-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.test.base.feature",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.test.feature",
+      "version": "25.3.5-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.test.feature@25.3.5-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.test.feature@25.3.5-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.test.feature",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.ai",
+      "version": "1.0.75-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.ai@1.0.75-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.ai@1.0.75-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.ai",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.app.devtools",
+      "version": "2.0.0-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.app.devtools@2.0.0-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.app.devtools@2.0.0-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.app.devtools",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.app.eclipse",
+      "version": "25.3.5-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.app.eclipse@25.3.5-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.app.eclipse@25.3.5-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.app.eclipse",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.app.standalone",
+      "version": "25.3.5-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.app.standalone@25.3.5-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.app.standalone@25.3.5-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.app.standalone",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.app.winstore",
+      "version": "1.0.98-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.app.winstore@1.0.98-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.app.winstore@1.0.98-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.app.winstore",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.charts",
+      "version": "1.0.170-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.charts@1.0.170-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.charts@1.0.170-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.charts",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.config.migration",
+      "version": "2.1.236-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.config.migration@2.1.236-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.config.migration@2.1.236-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.config.migration",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.config.sample",
+      "version": "1.0.210-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.config.sample@1.0.210-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.config.sample@1.0.210-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.config.sample",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.dashboard",
+      "version": "1.0.170-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.dashboard@1.0.170-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.dashboard@1.0.170-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.dashboard",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.editors.acl",
+      "version": "1.0.169-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.editors.acl@1.0.169-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.editors.acl@1.0.169-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.editors.acl",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.editors.base",
+      "version": "1.0.173-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.editors.base@1.0.173-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.editors.base@1.0.173-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.editors.base",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.editors.connection",
+      "version": "1.0.164-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.editors.connection@1.0.164-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.editors.connection@1.0.164-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.editors.connection",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.editors.data",
+      "version": "1.0.173-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.editors.data@1.0.173-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.editors.data@1.0.173-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.editors.data",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.editors.entity",
+      "version": "1.0.173-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.editors.entity@1.0.173-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.editors.entity@1.0.173-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.editors.entity",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.editors.erd",
+      "version": "3.1.14-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.editors.erd@3.1.14-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.editors.erd@3.1.14-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.editors.erd",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.editors.hex",
+      "version": "1.0.173-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.editors.hex@1.0.173-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.editors.hex@1.0.173-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.editors.hex",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.editors.image",
+      "version": "1.0.173-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.editors.image@1.0.173-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.editors.image@1.0.173-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.editors.image",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.editors.json",
+      "version": "1.0.157-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.editors.json@1.0.157-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.editors.json@1.0.157-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.editors.json",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.editors.locks",
+      "version": "1.0.218-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.editors.locks@1.0.218-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.editors.locks@1.0.218-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.editors.locks",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.editors.session",
+      "version": "1.0.151-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.editors.session@1.0.151-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.editors.session@1.0.151-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.editors.session",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.editors.sql.terminal",
+      "version": "1.0.149-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.editors.sql.terminal@1.0.149-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.editors.sql.terminal@1.0.149-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.editors.sql.terminal",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.editors.sql",
+      "version": "1.0.173-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.editors.sql@1.0.173-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.editors.sql@1.0.173-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.editors.sql",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.editors.xml",
+      "version": "1.0.173-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.editors.xml@1.0.173-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.editors.xml@1.0.173-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.editors.xml",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.extra.feature",
+      "version": "25.3.5-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.extra.feature@25.3.5-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.extra.feature@25.3.5-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.extra.feature",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.feature",
+      "version": "25.3.5-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.feature@25.3.5-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.feature@25.3.5-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.feature",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.forms",
+      "version": "1.0.1-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.forms@1.0.1-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.forms@1.0.1-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.forms",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.navigator",
+      "version": "1.0.173-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.navigator@1.0.173-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.navigator@1.0.173-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.navigator",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.search",
+      "version": "1.0.164-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.search@1.0.164-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.search@1.0.164-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.search",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.statistics",
+      "version": "1.0.69-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.statistics@1.0.69-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.statistics@1.0.69-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.statistics",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.swt.linux",
+      "version": "1.0.33-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.swt.linux@1.0.33-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.swt.linux@1.0.33-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.swt.linux",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.swt.macos",
+      "version": "1.0.38-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.swt.macos@1.0.38-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.swt.macos@1.0.38-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.swt.macos",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.swt.windows",
+      "version": "1.0.33-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.swt.windows@1.0.33-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.swt.windows@1.0.33-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.swt.windows",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui.test.feature",
+      "version": "1.0.239-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.test.feature@1.0.239-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui.test.feature@1.0.239-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui.test.feature",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "org.jkiss.dbeaver.ui",
+      "version": "5.1.188-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui@5.1.188-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/org.jkiss.dbeaver.ui@5.1.188-SNAPSHOT",
+      "name": "org.jkiss.dbeaver.ui",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "repositories",
+      "version": "1.0.0-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/repositories@1.0.0-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/repositories@1.0.0-SNAPSHOT",
+      "name": "repositories",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "standalone",
+      "version": "24.3.1-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/standalone@24.3.1-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/standalone@24.3.1-SNAPSHOT",
+      "name": "standalone",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "standalone",
+      "version": "25.3.5-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/standalone@25.3.5-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/standalone@25.3.5-SNAPSHOT",
+      "name": "standalone",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss.dbeaver",
+      "artifactId": "tests",
+      "version": "1.0.0-SNAPSHOT",
+      "purl": "pkg:maven/org.jkiss.dbeaver/tests@1.0.0-SNAPSHOT",
+      "source_purl": "pkg:maven/org.jkiss.dbeaver/tests@1.0.0-SNAPSHOT",
+      "name": "tests",
+      "type": "library",
+      "internal": true
+    },
+    {
+      "groupId": "org.jkiss",
+      "artifactId": "awt.injector",
+      "version": "1.0.0",
+      "purl": "pkg:maven/org.jkiss/awt.injector@1.0.0",
+      "source_purl": "pkg:maven/org.jkiss/awt.injector@1.0.0",
+      "name": "awt.injector",
+      "type": "library",
+      "internal": true
+    }
+  ]
+}

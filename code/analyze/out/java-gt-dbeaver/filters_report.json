@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-02-10T07:31:57.535478+00:00",
+  "total_components": 623,
+  "maven_candidates": 433,
+  "expected_all_count": 190,
+  "expected_external_count": 0,
+  "excluded_reasons": {
+    "internal_module": 433,
+    "non_maven_or_unparseable": 190
+  },
+  "note": "Tycho projects may appear mostly as internal reactor artifacts in Trivy SBOM; expected_maven_all.* is often the useful GT for 'all components'."
+}
