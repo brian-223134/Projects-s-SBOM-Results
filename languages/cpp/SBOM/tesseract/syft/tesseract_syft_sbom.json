@@ -1,1 +1,1838 @@
-{"$schema":"http://cyclonedx.org/schema/bom-1.6.schema.json","bomFormat":"CycloneDX","specVersion":"1.6","serialNumber":"urn:uuid:387c9e71-0c9f-4a30-990f-b92de253c29d","version":1,"metadata":{"timestamp":"2026-02-09T04:57:08Z","tools":{"components":[{"type":"application","author":"anchore","name":"syft","version":"1.41.2"}]},"component":{"bom-ref":"dfcd457ff0b35452","type":"file","name":"/src"}},"components":[{"bom-ref":"pkg:github/actions/checkout@v6?package-id=e05ae2f6f1b6a047","type":"library","name":"actions/checkout","version":"v6","cpe":"cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*","purl":"pkg:github/actions/checkout@v6","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:location:0:path","value":"/.github/workflows/autotools-macos.yml"}]},{"bom-ref":"pkg:github/actions/checkout@v6?package-id=1a9de2b6c29625cb","type":"library","name":"actions/checkout","version":"v6","cpe":"cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*","purl":"pkg:github/actions/checkout@v6","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:location:0:path","value":"/.github/workflows/autotools-openmp.yml"}]},{"bom-ref":"pkg:github/actions/checkout@v6?package-id=ef71701bffab0cf1","type":"library","name":"actions/checkout","version":"v6","cpe":"cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*","purl":"pkg:github/actions/checkout@v6","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:location:0:path","value":"/.github/workflows/autotools.yml"}]},{"bom-ref":"pkg:github/actions/checkout@v6?package-id=e6895fdd785fdeef","type":"library","name":"actions/checkout","version":"v6","cpe":"cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*","purl":"pkg:github/actions/checkout@v6","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:location:0:path","value":"/.github/workflows/cmake-win64.yml"}]},{"bom-ref":"pkg:github/actions/checkout@v6?package-id=77dc2ec00081e2eb","type":"library","name":"actions/checkout","version":"v6","cpe":"cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*","purl":"pkg:github/actions/checkout@v6","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:location:0:path","value":"/.github/workflows/cmake.yml"}]},{"bom-ref":"pkg:github/actions/checkout@v6?package-id=7f10122e4f7ae1fc","type":"library","name":"actions/checkout","version":"v6","cpe":"cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*","purl":"pkg:github/actions/checkout@v6","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:location:0:path","value":"/.github/workflows/codeql-analysis.yml"}]},{"bom-ref":"pkg:github/actions/checkout@v6?package-id=a8f59f84c06903a5","type":"library","name":"actions/checkout","version":"v6","cpe":"cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*","purl":"pkg:github/actions/checkout@v6","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:location:0:path","value":"/.github/workflows/installer-for-windows.yml"}]},{"bom-ref":"pkg:github/actions/checkout@v6?package-id=4596337de1352725","type":"library","name":"actions/checkout","version":"v6","cpe":"cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*","purl":"pkg:github/actions/checkout@v6","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:location:0:path","value":"/.github/workflows/msys2.yml"}]},{"bom-ref":"pkg:github/actions/checkout@v6?package-id=cede898a69b9d327","type":"library","name":"actions/checkout","version":"v6","cpe":"cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*","purl":"pkg:github/actions/checkout@v6","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:location:0:path","value":"/.github/workflows/sw.yml"}]},{"bom-ref":"pkg:github/actions/checkout@v6?package-id=d002bb1c346539ae","type":"library","name":"actions/checkout","version":"v6","cpe":"cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*","purl":"pkg:github/actions/checkout@v6","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:location:0:path","value":"/.github/workflows/unittest-disablelegacy.yml"}]},{"bom-ref":"pkg:github/actions/checkout@v6?package-id=6a5fda2b196181ef","type":"library","name":"actions/checkout","version":"v6","cpe":"cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*","purl":"pkg:github/actions/checkout@v6","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:location:0:path","value":"/.github/workflows/unittest-macos.yml"}]},{"bom-ref":"pkg:github/actions/checkout@v6?package-id=723df0d63438a8e8","type":"library","name":"actions/checkout","version":"v6","cpe":"cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*","purl":"pkg:github/actions/checkout@v6","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:location:0:path","value":"/.github/workflows/unittest.yml"}]},{"bom-ref":"pkg:github/actions/checkout@v6?package-id=ea970ebb81859d14","type":"library","name":"actions/checkout","version":"v6","cpe":"cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*","purl":"pkg:github/actions/checkout@v6","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:location:0:path","value":"/.github/workflows/vcpkg.yml"}]},{"bom-ref":"pkg:github/actions/upload-artifact@v6?package-id=332b03ed43c85ed3","type":"library","name":"actions/upload-artifact","version":"v6","cpe":"cpe:2.3:a:actions\\/upload-artifact:actions\\/upload-artifact:v6:*:*:*:*:*:*:*","purl":"pkg:github/actions/upload-artifact@v6","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/upload-artifact:actions\\/upload_artifact:v6:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/upload_artifact:actions\\/upload-artifact:v6:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/upload_artifact:actions\\/upload_artifact:v6:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/upload:actions\\/upload-artifact:v6:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/upload:actions\\/upload_artifact:v6:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/.github/workflows/cifuzz.yml"}]},{"bom-ref":"pkg:github/actions/upload-artifact@v6?package-id=9695d93ef41b3b00","type":"library","name":"actions/upload-artifact","version":"v6","cpe":"cpe:2.3:a:actions\\/upload-artifact:actions\\/upload-artifact:v6:*:*:*:*:*:*:*","purl":"pkg:github/actions/upload-artifact@v6","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/upload-artifact:actions\\/upload_artifact:v6:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/upload_artifact:actions\\/upload-artifact:v6:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/upload_artifact:actions\\/upload_artifact:v6:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/upload:actions\\/upload-artifact:v6:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/upload:actions\\/upload_artifact:v6:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/.github/workflows/cmake-win64.yml"}]},{"bom-ref":"pkg:github/actions/upload-artifact@v6?package-id=9d00828c97069a6f","type":"library","name":"actions/upload-artifact","version":"v6","cpe":"cpe:2.3:a:actions\\/upload-artifact:actions\\/upload-artifact:v6:*:*:*:*:*:*:*","purl":"pkg:github/actions/upload-artifact@v6","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/upload-artifact:actions\\/upload_artifact:v6:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/upload_artifact:actions\\/upload-artifact:v6:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/upload_artifact:actions\\/upload_artifact:v6:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/upload:actions\\/upload-artifact:v6:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/upload:actions\\/upload_artifact:v6:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/.github/workflows/installer-for-windows.yml"}]},{"bom-ref":"pkg:github/actions/upload-artifact@v6?package-id=c873a6cb8bb39513","type":"library","name":"actions/upload-artifact","version":"v6","cpe":"cpe:2.3:a:actions\\/upload-artifact:actions\\/upload-artifact:v6:*:*:*:*:*:*:*","purl":"pkg:github/actions/upload-artifact@v6","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/upload-artifact:actions\\/upload_artifact:v6:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/upload_artifact:actions\\/upload-artifact:v6:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/upload_artifact:actions\\/upload_artifact:v6:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/upload:actions\\/upload-artifact:v6:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/upload:actions\\/upload_artifact:v6:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/.github/workflows/sw.yml"}]},{"bom-ref":"pkg:github/egorpugin/sw-action@master?package-id=1966b2dc1775def0","type":"library","name":"egorpugin/sw-action","version":"master","cpe":"cpe:2.3:a:egorpugin\\/sw-action:egorpugin\\/sw-action:master:*:*:*:*:*:*:*","purl":"pkg:github/egorpugin/sw-action@master","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:cpe23","value":"cpe:2.3:a:egorpugin\\/sw-action:egorpugin\\/sw_action:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:egorpugin\\/sw_action:egorpugin\\/sw-action:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:egorpugin\\/sw_action:egorpugin\\/sw_action:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:egorpugin\\/sw:egorpugin\\/sw-action:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:egorpugin\\/sw:egorpugin\\/sw_action:master:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/.github/workflows/sw.yml"}]},{"bom-ref":"pkg:github/github/codeql-action@v4?package-id=aa7781ed46f30904#analyze","type":"library","name":"github/codeql-action/analyze","version":"v4","cpe":"cpe:2.3:a:github\\/codeql-action\\/analyze:github\\/codeql-action\\/analyze:v4:*:*:*:*:*:*:*","purl":"pkg:github/github/codeql-action@v4#analyze","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:cpe23","value":"cpe:2.3:a:github\\/codeql-action\\/analyze:github\\/codeql_action\\/analyze:v4:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:github\\/codeql_action\\/analyze:github\\/codeql-action\\/analyze:v4:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:github\\/codeql_action\\/analyze:github\\/codeql_action\\/analyze:v4:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:github\\/codeql:github\\/codeql-action\\/analyze:v4:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:github\\/codeql:github\\/codeql_action\\/analyze:v4:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/.github/workflows/codeql-analysis.yml"}]},{"bom-ref":"pkg:github/github/codeql-action@v4?package-id=c868d160f9f84e1d#init","type":"library","name":"github/codeql-action/init","version":"v4","cpe":"cpe:2.3:a:github\\/codeql-action\\/init:github\\/codeql-action\\/init:v4:*:*:*:*:*:*:*","purl":"pkg:github/github/codeql-action@v4#init","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:cpe23","value":"cpe:2.3:a:github\\/codeql-action\\/init:github\\/codeql_action\\/init:v4:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:github\\/codeql_action\\/init:github\\/codeql-action\\/init:v4:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:github\\/codeql_action\\/init:github\\/codeql_action\\/init:v4:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:github\\/codeql:github\\/codeql-action\\/init:v4:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:github\\/codeql:github\\/codeql_action\\/init:v4:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/.github/workflows/codeql-analysis.yml"}]},{"bom-ref":"pkg:github/google/oss-fuzz@master?package-id=95c24ead5738875a#infra/cifuzz/actions/build_fuzzers","type":"library","name":"google/oss-fuzz/infra/cifuzz/actions/build_fuzzers","version":"master","cpe":"cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:master:*:*:*:*:*:*:*","purl":"pkg:github/google/oss-fuzz@master#infra/cifuzz/actions/build_fuzzers","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/.github/workflows/cifuzz.yml"}]},{"bom-ref":"pkg:github/google/oss-fuzz@master?package-id=003690b85bd9f86c#infra/cifuzz/actions/run_fuzzers","type":"library","name":"google/oss-fuzz/infra/cifuzz/actions/run_fuzzers","version":"master","cpe":"cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:master:*:*:*:*:*:*:*","purl":"pkg:github/google/oss-fuzz@master#infra/cifuzz/actions/run_fuzzers","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:google\\/oss:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/.github/workflows/cifuzz.yml"}]},{"bom-ref":"pkg:github/ilammy/setup-nasm@v1?package-id=c481145a5ca29dda","type":"library","name":"ilammy/setup-nasm","version":"v1","cpe":"cpe:2.3:a:ilammy\\/setup-nasm:ilammy\\/setup-nasm:v1:*:*:*:*:*:*:*","purl":"pkg:github/ilammy/setup-nasm@v1","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:cpe23","value":"cpe:2.3:a:ilammy\\/setup-nasm:ilammy\\/setup_nasm:v1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:ilammy\\/setup_nasm:ilammy\\/setup-nasm:v1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:ilammy\\/setup_nasm:ilammy\\/setup_nasm:v1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:ilammy\\/setup:ilammy\\/setup-nasm:v1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:ilammy\\/setup:ilammy\\/setup_nasm:v1:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/.github/workflows/cmake-win64.yml"}]},{"bom-ref":"pkg:deb/ubuntu/libcairo2-dev@unknown?package-id=7773a5c923488c0a","type":"library","name":"libcairo2-dev","version":"unknown","cpe":"cpe:2.3:a:libcairo2-dev:libcairo2-dev:unknown:*:*:*:*:*:*:*","purl":"pkg:deb/ubuntu/libcairo2-dev@unknown","properties":[{"name":"syft:package:foundBy","value":"snap-cataloger"},{"name":"syft:package:type","value":"deb"},{"name":"syft:package:metadataType","value":"snap-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:libcairo2-dev:libcairo2_dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libcairo2_dev:libcairo2-dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libcairo2_dev:libcairo2_dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libcairo2:libcairo2-dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libcairo2:libcairo2_dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/snap/snapcraft.yaml"}]},{"bom-ref":"pkg:deb/ubuntu/libgomp1@unknown?package-id=4b860170b585b0bd","type":"library","name":"libgomp1","version":"unknown","cpe":"cpe:2.3:a:libgomp1:libgomp1:unknown:*:*:*:*:*:*:*","purl":"pkg:deb/ubuntu/libgomp1@unknown","properties":[{"name":"syft:package:foundBy","value":"snap-cataloger"},{"name":"syft:package:type","value":"deb"},{"name":"syft:package:metadataType","value":"snap-entry"},{"name":"syft:location:0:path","value":"/snap/snapcraft.yaml"}]},{"bom-ref":"pkg:deb/ubuntu/libicu-dev@unknown?package-id=5ac0678560e9bbca","type":"library","name":"libicu-dev","version":"unknown","cpe":"cpe:2.3:a:libicu-dev:libicu-dev:unknown:*:*:*:*:*:*:*","purl":"pkg:deb/ubuntu/libicu-dev@unknown","properties":[{"name":"syft:package:foundBy","value":"snap-cataloger"},{"name":"syft:package:type","value":"deb"},{"name":"syft:package:metadataType","value":"snap-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:libicu-dev:libicu_dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libicu_dev:libicu-dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libicu_dev:libicu_dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libicu:libicu-dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libicu:libicu_dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/snap/snapcraft.yaml"}]},{"bom-ref":"pkg:deb/ubuntu/libjbig0@unknown?package-id=ca3d7ec37bb99473","type":"library","name":"libjbig0","version":"unknown","cpe":"cpe:2.3:a:libjbig0:libjbig0:unknown:*:*:*:*:*:*:*","purl":"pkg:deb/ubuntu/libjbig0@unknown","properties":[{"name":"syft:package:foundBy","value":"snap-cataloger"},{"name":"syft:package:type","value":"deb"},{"name":"syft:package:metadataType","value":"snap-entry"},{"name":"syft:location:0:path","value":"/snap/snapcraft.yaml"}]},{"bom-ref":"pkg:deb/ubuntu/libjpeg-dev@unknown?package-id=df05261ff1d6510e","type":"library","name":"libjpeg-dev","version":"unknown","cpe":"cpe:2.3:a:libjpeg-dev:libjpeg-dev:unknown:*:*:*:*:*:*:*","purl":"pkg:deb/ubuntu/libjpeg-dev@unknown","properties":[{"name":"syft:package:foundBy","value":"snap-cataloger"},{"name":"syft:package:type","value":"deb"},{"name":"syft:package:metadataType","value":"snap-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:libjpeg-dev:libjpeg_dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libjpeg_dev:libjpeg-dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libjpeg_dev:libjpeg_dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libjpeg:libjpeg-dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libjpeg:libjpeg_dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/snap/snapcraft.yaml"}]},{"bom-ref":"pkg:deb/ubuntu/libjpeg-turbo8@unknown?package-id=cf571aedb263645d","type":"library","name":"libjpeg-turbo8","version":"unknown","cpe":"cpe:2.3:a:libjpeg-turbo8:libjpeg-turbo8:unknown:*:*:*:*:*:*:*","purl":"pkg:deb/ubuntu/libjpeg-turbo8@unknown","properties":[{"name":"syft:package:foundBy","value":"snap-cataloger"},{"name":"syft:package:type","value":"deb"},{"name":"syft:package:metadataType","value":"snap-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:libjpeg-turbo8:libjpeg_turbo8:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libjpeg_turbo8:libjpeg-turbo8:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libjpeg_turbo8:libjpeg_turbo8:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libjpeg:libjpeg-turbo8:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libjpeg:libjpeg_turbo8:unknown:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/snap/snapcraft.yaml"}]},{"bom-ref":"pkg:deb/ubuntu/libopenjp2-7@unknown?package-id=ccb7ff9398a7bccd","type":"library","name":"libopenjp2-7","version":"unknown","cpe":"cpe:2.3:a:libopenjp2-7:libopenjp2-7:unknown:*:*:*:*:*:*:*","purl":"pkg:deb/ubuntu/libopenjp2-7@unknown","properties":[{"name":"syft:package:foundBy","value":"snap-cataloger"},{"name":"syft:package:type","value":"deb"},{"name":"syft:package:metadataType","value":"snap-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:libopenjp2-7:libopenjp2_7:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libopenjp2_7:libopenjp2-7:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libopenjp2_7:libopenjp2_7:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libopenjp2:libopenjp2-7:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libopenjp2:libopenjp2_7:unknown:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/snap/snapcraft.yaml"}]},{"bom-ref":"pkg:deb/ubuntu/libpango1.0-dev@unknown?package-id=43982395591f9cf5","type":"library","name":"libpango1.0-dev","version":"unknown","cpe":"cpe:2.3:a:libpango1.0-dev:libpango1.0-dev:unknown:*:*:*:*:*:*:*","purl":"pkg:deb/ubuntu/libpango1.0-dev@unknown","properties":[{"name":"syft:package:foundBy","value":"snap-cataloger"},{"name":"syft:package:type","value":"deb"},{"name":"syft:package:metadataType","value":"snap-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:libpango1.0-dev:libpango1.0_dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libpango1.0_dev:libpango1.0-dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libpango1.0_dev:libpango1.0_dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libpango1.0:libpango1.0-dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libpango1.0:libpango1.0_dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/snap/snapcraft.yaml"}]},{"bom-ref":"pkg:deb/ubuntu/libpng-dev@unknown?package-id=63412d71630614fc","type":"library","name":"libpng-dev","version":"unknown","cpe":"cpe:2.3:a:libpng-dev:libpng-dev:unknown:*:*:*:*:*:*:*","purl":"pkg:deb/ubuntu/libpng-dev@unknown","properties":[{"name":"syft:package:foundBy","value":"snap-cataloger"},{"name":"syft:package:type","value":"deb"},{"name":"syft:package:metadataType","value":"snap-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:libpng-dev:libpng_dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libpng_dev:libpng-dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libpng_dev:libpng_dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libpng:libpng-dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libpng:libpng_dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/snap/snapcraft.yaml"}]},{"bom-ref":"pkg:deb/ubuntu/libtiff-dev@unknown?package-id=fca58b8143468e0e","type":"library","name":"libtiff-dev","version":"unknown","cpe":"cpe:2.3:a:libtiff-dev:libtiff-dev:unknown:*:*:*:*:*:*:*","purl":"pkg:deb/ubuntu/libtiff-dev@unknown","properties":[{"name":"syft:package:foundBy","value":"snap-cataloger"},{"name":"syft:package:type","value":"deb"},{"name":"syft:package:metadataType","value":"snap-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:libtiff-dev:libtiff_dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libtiff_dev:libtiff-dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libtiff_dev:libtiff_dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libtiff:libtiff-dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:libtiff:libtiff_dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/snap/snapcraft.yaml"}]},{"bom-ref":"pkg:deb/ubuntu/libtiff5@unknown?package-id=f93d3d6d628f3ffc","type":"library","name":"libtiff5","version":"unknown","cpe":"cpe:2.3:a:libtiff5:libtiff5:unknown:*:*:*:*:*:*:*","purl":"pkg:deb/ubuntu/libtiff5@unknown","properties":[{"name":"syft:package:foundBy","value":"snap-cataloger"},{"name":"syft:package:type","value":"deb"},{"name":"syft:package:metadataType","value":"snap-entry"},{"name":"syft:location:0:path","value":"/snap/snapcraft.yaml"}]},{"bom-ref":"pkg:github/microsoft/setup-msbuild@v2?package-id=fc9e5abbe072cd89","type":"library","name":"microsoft/setup-msbuild","version":"v2","cpe":"cpe:2.3:a:microsoft\\/setup-msbuild:microsoft\\/setup-msbuild:v2:*:*:*:*:*:*:*","purl":"pkg:github/microsoft/setup-msbuild@v2","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:cpe23","value":"cpe:2.3:a:microsoft\\/setup-msbuild:microsoft\\/setup_msbuild:v2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:microsoft\\/setup_msbuild:microsoft\\/setup-msbuild:v2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:microsoft\\/setup_msbuild:microsoft\\/setup_msbuild:v2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:microsoft\\/setup:microsoft\\/setup-msbuild:v2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:microsoft\\/setup:microsoft\\/setup_msbuild:v2:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/.github/workflows/cmake-win64.yml"}]},{"bom-ref":"pkg:github/mikepenz/action-junit-report@v6?package-id=f1f5e0cbfb21cae9","type":"library","name":"mikepenz/action-junit-report","version":"v6","cpe":"cpe:2.3:a:mikepenz\\/action-junit-report:mikepenz\\/action-junit-report:v6:*:*:*:*:*:*:*","purl":"pkg:github/mikepenz/action-junit-report@v6","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:cpe23","value":"cpe:2.3:a:mikepenz\\/action-junit-report:mikepenz\\/action_junit_report:v6:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:mikepenz\\/action_junit_report:mikepenz\\/action-junit-report:v6:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:mikepenz\\/action_junit_report:mikepenz\\/action_junit_report:v6:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:mikepenz\\/action-junit:mikepenz\\/action-junit-report:v6:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:mikepenz\\/action-junit:mikepenz\\/action_junit_report:v6:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:mikepenz\\/action_junit:mikepenz\\/action-junit-report:v6:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:mikepenz\\/action_junit:mikepenz\\/action_junit_report:v6:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:mikepenz\\/action:mikepenz\\/action-junit-report:v6:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:mikepenz\\/action:mikepenz\\/action_junit_report:v6:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/.github/workflows/sw.yml"}]},{"bom-ref":"pkg:github/msys2/setup-msys2@v2?package-id=72e8b99e2af678a9","type":"library","name":"msys2/setup-msys2","version":"v2","cpe":"cpe:2.3:a:msys2\\/setup-msys2:msys2\\/setup-msys2:v2:*:*:*:*:*:*:*","purl":"pkg:github/msys2/setup-msys2@v2","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:cpe23","value":"cpe:2.3:a:msys2\\/setup-msys2:msys2\\/setup_msys2:v2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:msys2\\/setup_msys2:msys2\\/setup-msys2:v2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:msys2\\/setup_msys2:msys2\\/setup_msys2:v2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:msys2\\/setup:msys2\\/setup-msys2:v2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:msys2\\/setup:msys2\\/setup_msys2:v2:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/.github/workflows/msys2.yml"}]},{"bom-ref":"pkg:deb/ubuntu/pkg-config@unknown?package-id=a02bbdbe57fa0237","type":"library","name":"pkg-config","version":"unknown","cpe":"cpe:2.3:a:pkg-config:pkg-config:unknown:*:*:*:*:*:*:*","purl":"pkg:deb/ubuntu/pkg-config@unknown","properties":[{"name":"syft:package:foundBy","value":"snap-cataloger"},{"name":"syft:package:type","value":"deb"},{"name":"syft:package:metadataType","value":"snap-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:pkg-config:pkg_config:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:pkg_config:pkg-config:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:pkg_config:pkg_config:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:pkg:pkg-config:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:pkg:pkg_config:unknown:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/snap/snapcraft.yaml"}]},{"bom-ref":"pkg:deb/ubuntu/zlib1g-dev@unknown?package-id=5bc49e01bb06375f","type":"library","name":"zlib1g-dev","version":"unknown","cpe":"cpe:2.3:a:zlib1g-dev:zlib1g-dev:unknown:*:*:*:*:*:*:*","purl":"pkg:deb/ubuntu/zlib1g-dev@unknown","properties":[{"name":"syft:package:foundBy","value":"snap-cataloger"},{"name":"syft:package:type","value":"deb"},{"name":"syft:package:metadataType","value":"snap-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:zlib1g-dev:zlib1g_dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:zlib1g_dev:zlib1g-dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:zlib1g_dev:zlib1g_dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:zlib1g:zlib1g-dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:zlib1g:zlib1g_dev:unknown:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/snap/snapcraft.yaml"}]},{"bom-ref":"0e776827f1652a5a","type":"file","name":"/src/.github/workflows/autotools-macos.yml","hashes":[{"alg":"SHA-1","content":"3e270807398b5fff09adfefe720a648e87bfd400"},{"alg":"SHA-256","content":"b54d7e46601d2bf5d9165548887fad67d04dd1d4e6243c65ad253762f7ad8099"}]},{"bom-ref":"658f4a2b75e8d3b6","type":"file","name":"/src/.github/workflows/autotools-openmp.yml","hashes":[{"alg":"SHA-1","content":"371d9212740123e9d8a54d0fc458c62a3fb6a824"},{"alg":"SHA-256","content":"995e6fa11c89192c9518c585365a1e5ce22f3b7584503aef35ec27b6d8a745e1"}]},{"bom-ref":"92fdb09edf70c648","type":"file","name":"/src/.github/workflows/autotools.yml","hashes":[{"alg":"SHA-1","content":"ea2e04c2b9473f083625c9e97e1c0a87375e6d95"},{"alg":"SHA-256","content":"1da3fbc640e774e45fcedb93f0b526d421d8d497fdf1cc5fe0ce596bf0e20c5b"}]},{"bom-ref":"aca88650164dfbe2","type":"file","name":"/src/.github/workflows/cifuzz.yml","hashes":[{"alg":"SHA-1","content":"8cd611580ace6d1ac8aa17af949e46bea5f9a447"},{"alg":"SHA-256","content":"7ae24d2095cc3fb029f7e669bee7d9fb485bf963fc27de3e52507a29df147293"}]},{"bom-ref":"f4cadfd52766af6e","type":"file","name":"/src/.github/workflows/cmake-win64.yml","hashes":[{"alg":"SHA-1","content":"df00e2c25e984d0f96853267bcbfcae139fc104a"},{"alg":"SHA-256","content":"6a1bff68bffd21cab00c9b42130db0bfcd31a4899ee3bad438e10d83b973c466"}]},{"bom-ref":"86d09a73a7e3cff8","type":"file","name":"/src/.github/workflows/cmake.yml","hashes":[{"alg":"SHA-1","content":"03fcfbca40e27c175fbfcd080dd2828166f8bf0a"},{"alg":"SHA-256","content":"d6c5803119b6f07903c22ccd490197ca47fe1971ba8adad25365f1fd95bf7622"}]},{"bom-ref":"5e19ea2e1f9dfee4","type":"file","name":"/src/.github/workflows/codeql-analysis.yml","hashes":[{"alg":"SHA-1","content":"64f299c68c4a6e294c24fa717029b14d01bb9c86"},{"alg":"SHA-256","content":"377e193013164e567839e9e5c4e5514fecdb996ff9e18c2ed5f4171976b8dbf3"}]},{"bom-ref":"e60c94409151bb8e","type":"file","name":"/src/.github/workflows/installer-for-windows.yml","hashes":[{"alg":"SHA-1","content":"6c8f4f5fc1c17e6a155115a52ec10280d991c911"},{"alg":"SHA-256","content":"e93d23a8d79cb18d7b2cb006b1371a63529bf33e9b936228b8391bf02b6a31d9"}]},{"bom-ref":"3c8a50f322047a45","type":"file","name":"/src/.github/workflows/msys2.yml","hashes":[{"alg":"SHA-1","content":"16a1a8635d852643f9434a6a3241dd369284a963"},{"alg":"SHA-256","content":"5042e220f327cc0ee3945bd5655cd2f5eb593518ab21d99831c06663caf44aa6"}]},{"bom-ref":"621162a517dca9d7","type":"file","name":"/src/.github/workflows/sw.yml","hashes":[{"alg":"SHA-1","content":"ac61b954d9c3b2135aa6fbb282b782decf7669b1"},{"alg":"SHA-256","content":"921632a8e020fbf87e4b9aad1588ed7a7f1aa12ce66a4c7b7dfbb150e40dbb93"}]},{"bom-ref":"b5170d5875330f2f","type":"file","name":"/src/.github/workflows/unittest-disablelegacy.yml","hashes":[{"alg":"SHA-1","content":"2aebec78978255fd1293ba52891ca3cc59845f3f"},{"alg":"SHA-256","content":"1901ec47d28deefed9a266c9745ec4afd46a1a370336b2146574319aabf9f446"}]},{"bom-ref":"75ac8d9ef09dbad0","type":"file","name":"/src/.github/workflows/unittest-macos.yml","hashes":[{"alg":"SHA-1","content":"234511602cd524a94d7a2b0349aaf55a5b4e0b4a"},{"alg":"SHA-256","content":"7bb65dad76b76f4f6ff4f6e7b99d2e2a3581562ee3a022ad0a68c55f82870638"}]},{"bom-ref":"8732cffbba92c69f","type":"file","name":"/src/.github/workflows/unittest.yml","hashes":[{"alg":"SHA-1","content":"57e5267d117502672e728b2a8b68a014b36fc162"},{"alg":"SHA-256","content":"258d3032725adcb838e9991a3aa56657a71b9d5f937daa0d26dd90aafa0e29dd"}]},{"bom-ref":"f0f2d4f23eb036d4","type":"file","name":"/src/.github/workflows/vcpkg.yml","hashes":[{"alg":"SHA-1","content":"d1ff86b644603ba5a02040e5eabd9bb5da93be73"},{"alg":"SHA-256","content":"2fdde2e9d5c2453295937019e27e98a656238f7c8f5dd030421bacb5270f0d07"}]},{"bom-ref":"84fcc1ea2a079e27","type":"file","name":"/src/snap/snapcraft.yaml","hashes":[{"alg":"SHA-1","content":"79c834555b763a314c3c1de76f53ad7ecc034a22"},{"alg":"SHA-256","content":"82604f2268585d3d8e101141a8efeefa6c2c81df037bf2f25a94e75de307adc3"}]}]}
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:387c9e71-0c9f-4a30-990f-b92de253c29d",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-02-09T04:57:08Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.41.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "dfcd457ff0b35452",
+      "type": "file",
+      "name": "/src"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:github/actions/checkout@v6?package-id=e05ae2f6f1b6a047",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v6",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/autotools-macos.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v6?package-id=1a9de2b6c29625cb",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v6",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/autotools-openmp.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v6?package-id=ef71701bffab0cf1",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v6",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/autotools.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v6?package-id=e6895fdd785fdeef",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v6",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/cmake-win64.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v6?package-id=77dc2ec00081e2eb",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v6",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/cmake.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v6?package-id=7f10122e4f7ae1fc",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v6",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/codeql-analysis.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v6?package-id=a8f59f84c06903a5",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v6",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/installer-for-windows.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v6?package-id=4596337de1352725",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v6",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/msys2.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v6?package-id=cede898a69b9d327",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v6",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/sw.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v6?package-id=d002bb1c346539ae",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v6",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/unittest-disablelegacy.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v6?package-id=6a5fda2b196181ef",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v6",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/unittest-macos.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v6?package-id=723df0d63438a8e8",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v6",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/unittest.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v6?package-id=ea970ebb81859d14",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v6",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/vcpkg.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/upload-artifact@v6?package-id=332b03ed43c85ed3",
+      "type": "library",
+      "name": "actions/upload-artifact",
+      "version": "v6",
+      "cpe": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload-artifact:v6:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/upload-artifact@v6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload_artifact:v6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload-artifact:v6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload_artifact:v6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload:actions\\/upload-artifact:v6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload:actions\\/upload_artifact:v6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/cifuzz.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/upload-artifact@v6?package-id=9695d93ef41b3b00",
+      "type": "library",
+      "name": "actions/upload-artifact",
+      "version": "v6",
+      "cpe": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload-artifact:v6:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/upload-artifact@v6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload_artifact:v6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload-artifact:v6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload_artifact:v6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload:actions\\/upload-artifact:v6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload:actions\\/upload_artifact:v6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/cmake-win64.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/upload-artifact@v6?package-id=9d00828c97069a6f",
+      "type": "library",
+      "name": "actions/upload-artifact",
+      "version": "v6",
+      "cpe": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload-artifact:v6:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/upload-artifact@v6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload_artifact:v6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload-artifact:v6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload_artifact:v6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload:actions\\/upload-artifact:v6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload:actions\\/upload_artifact:v6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/installer-for-windows.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/upload-artifact@v6?package-id=c873a6cb8bb39513",
+      "type": "library",
+      "name": "actions/upload-artifact",
+      "version": "v6",
+      "cpe": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload-artifact:v6:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/upload-artifact@v6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload_artifact:v6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload-artifact:v6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload_artifact:v6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload:actions\\/upload-artifact:v6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload:actions\\/upload_artifact:v6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/sw.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/egorpugin/sw-action@master?package-id=1966b2dc1775def0",
+      "type": "library",
+      "name": "egorpugin/sw-action",
+      "version": "master",
+      "cpe": "cpe:2.3:a:egorpugin\\/sw-action:egorpugin\\/sw-action:master:*:*:*:*:*:*:*",
+      "purl": "pkg:github/egorpugin/sw-action@master",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:egorpugin\\/sw-action:egorpugin\\/sw_action:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:egorpugin\\/sw_action:egorpugin\\/sw-action:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:egorpugin\\/sw_action:egorpugin\\/sw_action:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:egorpugin\\/sw:egorpugin\\/sw-action:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:egorpugin\\/sw:egorpugin\\/sw_action:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/sw.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/github/codeql-action@v4?package-id=aa7781ed46f30904#analyze",
+      "type": "library",
+      "name": "github/codeql-action/analyze",
+      "version": "v4",
+      "cpe": "cpe:2.3:a:github\\/codeql-action\\/analyze:github\\/codeql-action\\/analyze:v4:*:*:*:*:*:*:*",
+      "purl": "pkg:github/github/codeql-action@v4#analyze",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql-action\\/analyze:github\\/codeql_action\\/analyze:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql_action\\/analyze:github\\/codeql-action\\/analyze:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql_action\\/analyze:github\\/codeql_action\\/analyze:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql:github\\/codeql-action\\/analyze:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql:github\\/codeql_action\\/analyze:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/codeql-analysis.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/github/codeql-action@v4?package-id=c868d160f9f84e1d#init",
+      "type": "library",
+      "name": "github/codeql-action/init",
+      "version": "v4",
+      "cpe": "cpe:2.3:a:github\\/codeql-action\\/init:github\\/codeql-action\\/init:v4:*:*:*:*:*:*:*",
+      "purl": "pkg:github/github/codeql-action@v4#init",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql-action\\/init:github\\/codeql_action\\/init:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql_action\\/init:github\\/codeql-action\\/init:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql_action\\/init:github\\/codeql_action\\/init:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql:github\\/codeql-action\\/init:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql:github\\/codeql_action\\/init:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/codeql-analysis.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/google/oss-fuzz@master?package-id=95c24ead5738875a#infra/cifuzz/actions/build_fuzzers",
+      "type": "library",
+      "name": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers",
+      "version": "master",
+      "cpe": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:master:*:*:*:*:*:*:*",
+      "purl": "pkg:github/google/oss-fuzz@master#infra/cifuzz/actions/build_fuzzers",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build-fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/build_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/cifuzz.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/google/oss-fuzz@master?package-id=003690b85bd9f86c#infra/cifuzz/actions/run_fuzzers",
+      "type": "library",
+      "name": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers",
+      "version": "master",
+      "cpe": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:master:*:*:*:*:*:*:*",
+      "purl": "pkg:github/google/oss-fuzz@master#infra/cifuzz/actions/run_fuzzers",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run-fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss:google\\/oss-fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google\\/oss:google\\/oss_fuzz\\/infra\\/cifuzz\\/actions\\/run_fuzzers:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/cifuzz.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/ilammy/setup-nasm@v1?package-id=c481145a5ca29dda",
+      "type": "library",
+      "name": "ilammy/setup-nasm",
+      "version": "v1",
+      "cpe": "cpe:2.3:a:ilammy\\/setup-nasm:ilammy\\/setup-nasm:v1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/ilammy/setup-nasm@v1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ilammy\\/setup-nasm:ilammy\\/setup_nasm:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ilammy\\/setup_nasm:ilammy\\/setup-nasm:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ilammy\\/setup_nasm:ilammy\\/setup_nasm:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ilammy\\/setup:ilammy\\/setup-nasm:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ilammy\\/setup:ilammy\\/setup_nasm:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/cmake-win64.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/ubuntu/libcairo2-dev@unknown?package-id=7773a5c923488c0a",
+      "type": "library",
+      "name": "libcairo2-dev",
+      "version": "unknown",
+      "cpe": "cpe:2.3:a:libcairo2-dev:libcairo2-dev:unknown:*:*:*:*:*:*:*",
+      "purl": "pkg:deb/ubuntu/libcairo2-dev@unknown",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "snap-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "deb"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "snap-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libcairo2-dev:libcairo2_dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libcairo2_dev:libcairo2-dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libcairo2_dev:libcairo2_dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libcairo2:libcairo2-dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libcairo2:libcairo2_dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/snap/snapcraft.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/ubuntu/libgomp1@unknown?package-id=4b860170b585b0bd",
+      "type": "library",
+      "name": "libgomp1",
+      "version": "unknown",
+      "cpe": "cpe:2.3:a:libgomp1:libgomp1:unknown:*:*:*:*:*:*:*",
+      "purl": "pkg:deb/ubuntu/libgomp1@unknown",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "snap-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "deb"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "snap-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/snap/snapcraft.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/ubuntu/libicu-dev@unknown?package-id=5ac0678560e9bbca",
+      "type": "library",
+      "name": "libicu-dev",
+      "version": "unknown",
+      "cpe": "cpe:2.3:a:libicu-dev:libicu-dev:unknown:*:*:*:*:*:*:*",
+      "purl": "pkg:deb/ubuntu/libicu-dev@unknown",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "snap-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "deb"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "snap-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libicu-dev:libicu_dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libicu_dev:libicu-dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libicu_dev:libicu_dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libicu:libicu-dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libicu:libicu_dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/snap/snapcraft.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/ubuntu/libjbig0@unknown?package-id=ca3d7ec37bb99473",
+      "type": "library",
+      "name": "libjbig0",
+      "version": "unknown",
+      "cpe": "cpe:2.3:a:libjbig0:libjbig0:unknown:*:*:*:*:*:*:*",
+      "purl": "pkg:deb/ubuntu/libjbig0@unknown",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "snap-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "deb"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "snap-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/snap/snapcraft.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/ubuntu/libjpeg-dev@unknown?package-id=df05261ff1d6510e",
+      "type": "library",
+      "name": "libjpeg-dev",
+      "version": "unknown",
+      "cpe": "cpe:2.3:a:libjpeg-dev:libjpeg-dev:unknown:*:*:*:*:*:*:*",
+      "purl": "pkg:deb/ubuntu/libjpeg-dev@unknown",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "snap-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "deb"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "snap-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libjpeg-dev:libjpeg_dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libjpeg_dev:libjpeg-dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libjpeg_dev:libjpeg_dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libjpeg:libjpeg-dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libjpeg:libjpeg_dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/snap/snapcraft.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/ubuntu/libjpeg-turbo8@unknown?package-id=cf571aedb263645d",
+      "type": "library",
+      "name": "libjpeg-turbo8",
+      "version": "unknown",
+      "cpe": "cpe:2.3:a:libjpeg-turbo8:libjpeg-turbo8:unknown:*:*:*:*:*:*:*",
+      "purl": "pkg:deb/ubuntu/libjpeg-turbo8@unknown",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "snap-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "deb"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "snap-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libjpeg-turbo8:libjpeg_turbo8:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libjpeg_turbo8:libjpeg-turbo8:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libjpeg_turbo8:libjpeg_turbo8:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libjpeg:libjpeg-turbo8:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libjpeg:libjpeg_turbo8:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/snap/snapcraft.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/ubuntu/libopenjp2-7@unknown?package-id=ccb7ff9398a7bccd",
+      "type": "library",
+      "name": "libopenjp2-7",
+      "version": "unknown",
+      "cpe": "cpe:2.3:a:libopenjp2-7:libopenjp2-7:unknown:*:*:*:*:*:*:*",
+      "purl": "pkg:deb/ubuntu/libopenjp2-7@unknown",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "snap-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "deb"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "snap-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libopenjp2-7:libopenjp2_7:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libopenjp2_7:libopenjp2-7:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libopenjp2_7:libopenjp2_7:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libopenjp2:libopenjp2-7:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libopenjp2:libopenjp2_7:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/snap/snapcraft.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/ubuntu/libpango1.0-dev@unknown?package-id=43982395591f9cf5",
+      "type": "library",
+      "name": "libpango1.0-dev",
+      "version": "unknown",
+      "cpe": "cpe:2.3:a:libpango1.0-dev:libpango1.0-dev:unknown:*:*:*:*:*:*:*",
+      "purl": "pkg:deb/ubuntu/libpango1.0-dev@unknown",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "snap-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "deb"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "snap-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libpango1.0-dev:libpango1.0_dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libpango1.0_dev:libpango1.0-dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libpango1.0_dev:libpango1.0_dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libpango1.0:libpango1.0-dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libpango1.0:libpango1.0_dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/snap/snapcraft.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/ubuntu/libpng-dev@unknown?package-id=63412d71630614fc",
+      "type": "library",
+      "name": "libpng-dev",
+      "version": "unknown",
+      "cpe": "cpe:2.3:a:libpng-dev:libpng-dev:unknown:*:*:*:*:*:*:*",
+      "purl": "pkg:deb/ubuntu/libpng-dev@unknown",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "snap-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "deb"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "snap-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libpng-dev:libpng_dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libpng_dev:libpng-dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libpng_dev:libpng_dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libpng:libpng-dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libpng:libpng_dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/snap/snapcraft.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/ubuntu/libtiff-dev@unknown?package-id=fca58b8143468e0e",
+      "type": "library",
+      "name": "libtiff-dev",
+      "version": "unknown",
+      "cpe": "cpe:2.3:a:libtiff-dev:libtiff-dev:unknown:*:*:*:*:*:*:*",
+      "purl": "pkg:deb/ubuntu/libtiff-dev@unknown",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "snap-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "deb"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "snap-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libtiff-dev:libtiff_dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libtiff_dev:libtiff-dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libtiff_dev:libtiff_dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libtiff:libtiff-dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libtiff:libtiff_dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/snap/snapcraft.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/ubuntu/libtiff5@unknown?package-id=f93d3d6d628f3ffc",
+      "type": "library",
+      "name": "libtiff5",
+      "version": "unknown",
+      "cpe": "cpe:2.3:a:libtiff5:libtiff5:unknown:*:*:*:*:*:*:*",
+      "purl": "pkg:deb/ubuntu/libtiff5@unknown",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "snap-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "deb"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "snap-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/snap/snapcraft.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/microsoft/setup-msbuild@v2?package-id=fc9e5abbe072cd89",
+      "type": "library",
+      "name": "microsoft/setup-msbuild",
+      "version": "v2",
+      "cpe": "cpe:2.3:a:microsoft\\/setup-msbuild:microsoft\\/setup-msbuild:v2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/microsoft/setup-msbuild@v2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:microsoft\\/setup-msbuild:microsoft\\/setup_msbuild:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:microsoft\\/setup_msbuild:microsoft\\/setup-msbuild:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:microsoft\\/setup_msbuild:microsoft\\/setup_msbuild:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:microsoft\\/setup:microsoft\\/setup-msbuild:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:microsoft\\/setup:microsoft\\/setup_msbuild:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/cmake-win64.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/mikepenz/action-junit-report@v6?package-id=f1f5e0cbfb21cae9",
+      "type": "library",
+      "name": "mikepenz/action-junit-report",
+      "version": "v6",
+      "cpe": "cpe:2.3:a:mikepenz\\/action-junit-report:mikepenz\\/action-junit-report:v6:*:*:*:*:*:*:*",
+      "purl": "pkg:github/mikepenz/action-junit-report@v6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mikepenz\\/action-junit-report:mikepenz\\/action_junit_report:v6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mikepenz\\/action_junit_report:mikepenz\\/action-junit-report:v6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mikepenz\\/action_junit_report:mikepenz\\/action_junit_report:v6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mikepenz\\/action-junit:mikepenz\\/action-junit-report:v6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mikepenz\\/action-junit:mikepenz\\/action_junit_report:v6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mikepenz\\/action_junit:mikepenz\\/action-junit-report:v6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mikepenz\\/action_junit:mikepenz\\/action_junit_report:v6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mikepenz\\/action:mikepenz\\/action-junit-report:v6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mikepenz\\/action:mikepenz\\/action_junit_report:v6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/sw.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/msys2/setup-msys2@v2?package-id=72e8b99e2af678a9",
+      "type": "library",
+      "name": "msys2/setup-msys2",
+      "version": "v2",
+      "cpe": "cpe:2.3:a:msys2\\/setup-msys2:msys2\\/setup-msys2:v2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/msys2/setup-msys2@v2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:msys2\\/setup-msys2:msys2\\/setup_msys2:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:msys2\\/setup_msys2:msys2\\/setup-msys2:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:msys2\\/setup_msys2:msys2\\/setup_msys2:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:msys2\\/setup:msys2\\/setup-msys2:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:msys2\\/setup:msys2\\/setup_msys2:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/msys2.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/ubuntu/pkg-config@unknown?package-id=a02bbdbe57fa0237",
+      "type": "library",
+      "name": "pkg-config",
+      "version": "unknown",
+      "cpe": "cpe:2.3:a:pkg-config:pkg-config:unknown:*:*:*:*:*:*:*",
+      "purl": "pkg:deb/ubuntu/pkg-config@unknown",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "snap-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "deb"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "snap-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pkg-config:pkg_config:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pkg_config:pkg-config:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pkg_config:pkg_config:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pkg:pkg-config:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pkg:pkg_config:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/snap/snapcraft.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/ubuntu/zlib1g-dev@unknown?package-id=5bc49e01bb06375f",
+      "type": "library",
+      "name": "zlib1g-dev",
+      "version": "unknown",
+      "cpe": "cpe:2.3:a:zlib1g-dev:zlib1g-dev:unknown:*:*:*:*:*:*:*",
+      "purl": "pkg:deb/ubuntu/zlib1g-dev@unknown",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "snap-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "deb"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "snap-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:zlib1g-dev:zlib1g_dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:zlib1g_dev:zlib1g-dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:zlib1g_dev:zlib1g_dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:zlib1g:zlib1g-dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:zlib1g:zlib1g_dev:unknown:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/snap/snapcraft.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "0e776827f1652a5a",
+      "type": "file",
+      "name": "/src/.github/workflows/autotools-macos.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "3e270807398b5fff09adfefe720a648e87bfd400"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b54d7e46601d2bf5d9165548887fad67d04dd1d4e6243c65ad253762f7ad8099"
+        }
+      ]
+    },
+    {
+      "bom-ref": "658f4a2b75e8d3b6",
+      "type": "file",
+      "name": "/src/.github/workflows/autotools-openmp.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "371d9212740123e9d8a54d0fc458c62a3fb6a824"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "995e6fa11c89192c9518c585365a1e5ce22f3b7584503aef35ec27b6d8a745e1"
+        }
+      ]
+    },
+    {
+      "bom-ref": "92fdb09edf70c648",
+      "type": "file",
+      "name": "/src/.github/workflows/autotools.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ea2e04c2b9473f083625c9e97e1c0a87375e6d95"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1da3fbc640e774e45fcedb93f0b526d421d8d497fdf1cc5fe0ce596bf0e20c5b"
+        }
+      ]
+    },
+    {
+      "bom-ref": "aca88650164dfbe2",
+      "type": "file",
+      "name": "/src/.github/workflows/cifuzz.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "8cd611580ace6d1ac8aa17af949e46bea5f9a447"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7ae24d2095cc3fb029f7e669bee7d9fb485bf963fc27de3e52507a29df147293"
+        }
+      ]
+    },
+    {
+      "bom-ref": "f4cadfd52766af6e",
+      "type": "file",
+      "name": "/src/.github/workflows/cmake-win64.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "df00e2c25e984d0f96853267bcbfcae139fc104a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6a1bff68bffd21cab00c9b42130db0bfcd31a4899ee3bad438e10d83b973c466"
+        }
+      ]
+    },
+    {
+      "bom-ref": "86d09a73a7e3cff8",
+      "type": "file",
+      "name": "/src/.github/workflows/cmake.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "03fcfbca40e27c175fbfcd080dd2828166f8bf0a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d6c5803119b6f07903c22ccd490197ca47fe1971ba8adad25365f1fd95bf7622"
+        }
+      ]
+    },
+    {
+      "bom-ref": "5e19ea2e1f9dfee4",
+      "type": "file",
+      "name": "/src/.github/workflows/codeql-analysis.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "64f299c68c4a6e294c24fa717029b14d01bb9c86"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "377e193013164e567839e9e5c4e5514fecdb996ff9e18c2ed5f4171976b8dbf3"
+        }
+      ]
+    },
+    {
+      "bom-ref": "e60c94409151bb8e",
+      "type": "file",
+      "name": "/src/.github/workflows/installer-for-windows.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "6c8f4f5fc1c17e6a155115a52ec10280d991c911"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e93d23a8d79cb18d7b2cb006b1371a63529bf33e9b936228b8391bf02b6a31d9"
+        }
+      ]
+    },
+    {
+      "bom-ref": "3c8a50f322047a45",
+      "type": "file",
+      "name": "/src/.github/workflows/msys2.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "16a1a8635d852643f9434a6a3241dd369284a963"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5042e220f327cc0ee3945bd5655cd2f5eb593518ab21d99831c06663caf44aa6"
+        }
+      ]
+    },
+    {
+      "bom-ref": "621162a517dca9d7",
+      "type": "file",
+      "name": "/src/.github/workflows/sw.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ac61b954d9c3b2135aa6fbb282b782decf7669b1"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "921632a8e020fbf87e4b9aad1588ed7a7f1aa12ce66a4c7b7dfbb150e40dbb93"
+        }
+      ]
+    },
+    {
+      "bom-ref": "b5170d5875330f2f",
+      "type": "file",
+      "name": "/src/.github/workflows/unittest-disablelegacy.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "2aebec78978255fd1293ba52891ca3cc59845f3f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1901ec47d28deefed9a266c9745ec4afd46a1a370336b2146574319aabf9f446"
+        }
+      ]
+    },
+    {
+      "bom-ref": "75ac8d9ef09dbad0",
+      "type": "file",
+      "name": "/src/.github/workflows/unittest-macos.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "234511602cd524a94d7a2b0349aaf55a5b4e0b4a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7bb65dad76b76f4f6ff4f6e7b99d2e2a3581562ee3a022ad0a68c55f82870638"
+        }
+      ]
+    },
+    {
+      "bom-ref": "8732cffbba92c69f",
+      "type": "file",
+      "name": "/src/.github/workflows/unittest.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "57e5267d117502672e728b2a8b68a014b36fc162"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "258d3032725adcb838e9991a3aa56657a71b9d5f937daa0d26dd90aafa0e29dd"
+        }
+      ]
+    },
+    {
+      "bom-ref": "f0f2d4f23eb036d4",
+      "type": "file",
+      "name": "/src/.github/workflows/vcpkg.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d1ff86b644603ba5a02040e5eabd9bb5da93be73"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2fdde2e9d5c2453295937019e27e98a656238f7c8f5dd030421bacb5270f0d07"
+        }
+      ]
+    },
+    {
+      "bom-ref": "84fcc1ea2a079e27",
+      "type": "file",
+      "name": "/src/snap/snapcraft.yaml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "79c834555b763a314c3c1de76f53ad7ecc034a22"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "82604f2268585d3d8e101141a8efeefa6c2c81df037bf2f25a94e75de307adc3"
+        }
+      ]
+    }
+  ]
+}

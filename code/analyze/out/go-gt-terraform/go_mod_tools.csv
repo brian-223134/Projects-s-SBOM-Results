@@ -1,0 +1,8 @@
+owner_module,owner_file,tool_module,tool_version,source_line
+github.com/hashicorp/terraform,languages/go/project/terraform/go.mod,github.com/hashicorp/copywrite,,326
+github.com/hashicorp/terraform,languages/go/project/terraform/go.mod,github.com/nishanths/exhaustive/cmd/exhaustive,,327
+github.com/hashicorp/terraform,languages/go/project/terraform/go.mod,go.uber.org/mock/mockgen,,328
+github.com/hashicorp/terraform,languages/go/project/terraform/go.mod,golang.org/x/tools/cmd/cover,,329
+github.com/hashicorp/terraform,languages/go/project/terraform/go.mod,golang.org/x/tools/cmd/goimports,,330
+github.com/hashicorp/terraform,languages/go/project/terraform/go.mod,golang.org/x/tools/cmd/stringer,,331
+github.com/hashicorp/terraform,languages/go/project/terraform/go.mod,honnef.co/go/tools/cmd/staticcheck,,332

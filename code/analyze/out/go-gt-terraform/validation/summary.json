@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-02-09T07:08:45.532018+00:00",
+  "gt_dir": "code/analyze/out/go-gt-terraform",
+  "root_module": "github.com/hashicorp/terraform",
+  "include_indirect": true,
+  "results": [
+    {
+      "sbom": "languages/go/SBOM/terraform/cdxgen/terraform_cdxgen_sbom.json",
+      "observed_count": 286,
+      "expected_count": 274,
+      "tp": 274,
+      "fp": 12,
+      "fn": 0,
+      "precision": 0.958041958041958,
+      "recall": 1.0,
+      "f1": 0.9785714285714286,
+      "accuracy_union": 0.958041958041958,
+      "fp_reasons": {
+        "placeholder_version": 11,
+        "directive:godebug": 1
+      }
+    },
+    {
+      "sbom": "languages/go/SBOM/terraform/syft/terraform_syft_sbom.json",
+      "observed_count": 283,
+      "expected_count": 274,
+      "tp": 274,
+      "fp": 9,
+      "fn": 0,
+      "precision": 0.9681978798586572,
+      "recall": 1.0,
+      "f1": 0.9838420107719928,
+      "accuracy_union": 0.9681978798586572,
+      "fp_reasons": {
+        "example_domain": 1,
+        "terraform_registry_provider": 8
+      }
+    },
+    {
+      "sbom": "languages/go/SBOM/terraform/trivy/terraform_trivy_sbom.json",
+      "observed_count": 274,
+      "expected_count": 274,
+      "tp": 274,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy_union": 1.0,
+      "fp_reasons": {}
+    }
+  ],
+  "metric_definition": {
+    "accuracy_union": "TP / |GT ∪ SBOM| (Jaccard-style, since TN is undefined for SBOM comparison)",
+    "f1": "2TP / (2TP + FP + FN)"
+  }
+}
