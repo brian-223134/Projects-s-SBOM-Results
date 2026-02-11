@@ -6,6 +6,8 @@
 
 - `go_mod_gt.py`: `go.mod` 파일을 스캔하여 GT를 JSON/CSV로 추출
 - `go_sbom_gt_validate.py`: CycloneDX SBOM을 GT와 비교하여 TP/FP/FN 및 지표를 계산
+- `php_js_lock_gt.py`: Composer(`composer.lock`) + npm(`package-lock.json`) lockfile 기반 GT를 JSON/CSV로 추출
+- `php_js_sbom_gt_validate.py`: CycloneDX SBOM(cdxgen/syft/trivy)의 composer/npm purl을 GT와 비교
 - `SBOM_parser.py`, `SBOM_purl.py`, `SBOM_scheme.py`: SBOM 파싱/스키마/식별자(purl) 관련 모듈
 - `out/`: 분석 결과 산출물(스크립트 실행 결과)이 저장되는 폴더
 
@@ -47,6 +49,71 @@ python code/analyze/java_sbom_gt_validate.py \
 ```
 
 ---
+
+---
+
+## PHP (Coolify) - Composer+npm lockfile GT & SBOM 검증
+
+Coolify는 PHP(Composer) + JS(npm) 혼합 프로젝트이며, **정답(ground truth)은 lockfile 기반**으로 만드는 것이 가장 재현성이 좋습니다.
+
+- Composer: `composer.lock`의 resolved 패키지(`packages`, `packages-dev`)
+  - `composer.json`의 `require`/`require-dev`를 참고해 direct/dev-direct 표기(보조)
+  - `php`, `ext-*`, `lib-*` 등 플랫폼 항목은 제외
+- npm: `package-lock.json`(lockfileVersion 3)의 `packages` 맵에서 resolved 패키지
+  - `packages[""]`의 `dependencies`/`devDependencies`를 참고해 direct/dev-direct 표기(보조)
+  - `link: true` 항목은 제외
+
+### 입력 파일(이번 실험: coolify)
+
+- Composer
+  - `languages/php/project/coolify/composer.json`
+  - `languages/php/project/coolify/composer.lock`
+- npm
+  - `languages/php/project/coolify/package.json`
+  - `languages/php/project/coolify/package-lock.json`
+  - `languages/php/project/coolify/docker/coolify-realtime/package.json`
+  - `languages/php/project/coolify/docker/coolify-realtime/package-lock.json`
+
+### 1) Lockfile 기반 GT 생성
+
+- 스크립트: `php_js_lock_gt.py`
+- 출력(예: `code/analyze/out/php-js-gt-coolify/`)
+  - `php_js_lock_gt.json`: 최종 GT(JSON)
+  - `composer_deps.csv`: composer 의존성 테이블
+  - `npm_deps.csv`: npm 의존성 테이블
+
+```powershell
+python code/analyze/php_js_lock_gt.py \
+  --root languages/php/project/coolify \
+  --out-dir code/analyze/out/php-js-gt-coolify
+```
+
+### 2) GT ↔ CycloneDX SBOM 검증(TP/FP/FN)
+
+- 스크립트: `php_js_sbom_gt_validate.py`
+- 입력 SBOM(CycloneDX JSON)
+  - `languages/php/SBOM/coolify/cdxgen/coolify_cdxgen_sbom.json`
+  - `languages/php/SBOM/coolify/syft/coolify_syft_sbom.json`
+  - `languages/php/SBOM/coolify/trivy/coolify_trivy_sbom.json`
+- 출력(예: `code/analyze/out/php-js-gt-coolify/validation/`)
+  - `summary.json`: SBOM별 TP/FP/FN 및 지표 요약
+  - `<sbom_stem>.tp.csv|fp.csv|fn.csv`: 도구별 TP/FP/FN 목록
+
+```powershell
+python code/analyze/php_js_sbom_gt_validate.py \
+  --gt-dir code/analyze/out/php-js-gt-coolify \
+  --sbom languages/php/SBOM/coolify/cdxgen/coolify_cdxgen_sbom.json \
+  --sbom languages/php/SBOM/coolify/syft/coolify_syft_sbom.json \
+  --sbom languages/php/SBOM/coolify/trivy/coolify_trivy_sbom.json \
+  --out-dir code/analyze/out/php-js-gt-coolify/validation
+```
+
+### 이번 실행 결과 요약(coolify)
+
+- GT expected deps: 407
+- cdxgen: TP=407 FP=0 FN=0 (precision=1.000, recall=1.000, F1=1.000, accuracy_union=1.000)
+- syft: TP=212 FP=1 FN=195 (precision=0.995, recall=0.521, F1=0.684, accuracy_union=0.520)
+- trivy: TP=212 FP=0 FN=195 (precision=1.000, recall=0.521, F1=0.685, accuracy_union=0.521)
 
 ---
 
