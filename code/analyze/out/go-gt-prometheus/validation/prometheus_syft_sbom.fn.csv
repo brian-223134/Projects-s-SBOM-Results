@@ -1,0 +1,2 @@
+module,version,purl
+google.golang.org/api,v0.265.0,pkg:golang/google.golang.org/api@v0.265.0

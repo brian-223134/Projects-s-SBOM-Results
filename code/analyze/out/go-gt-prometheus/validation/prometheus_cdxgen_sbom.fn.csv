@@ -1,0 +1,10 @@
+module,version,purl
+github.com/apapsch/go-jsonmerge/v2,v2.0.0,pkg:golang/github.com/apapsch/go-jsonmerge/v2@v2.0.0
+github.com/aws/aws-sdk-go-v2/service/ec2,v1.286.0,pkg:golang/github.com/aws/aws-sdk-go-v2/service/ec2@v1.286.0
+github.com/digitalocean/godo,v1.174.0,pkg:golang/github.com/digitalocean/godo@v1.174.0
+github.com/googleapis/gax-go/v2,v2.17.0,pkg:golang/github.com/googleapis/gax-go/v2@v2.17.0
+github.com/hashicorp/nomad/api,v0.0.0-20260209224925-94b77491c895,pkg:golang/github.com/hashicorp/nomad/api@v0.0.0-20260209224925-94b77491c895
+github.com/influxdata/influxdb-client-go/v2,v2.14.0,pkg:golang/github.com/influxdata/influxdb-client-go/v2@v2.14.0
+github.com/influxdata/line-protocol,v0.0.0-20200327222509-2487e7298839,pkg:golang/github.com/influxdata/line-protocol@v0.0.0-20200327222509-2487e7298839
+github.com/oapi-codegen/runtime,v1.0.0,pkg:golang/github.com/oapi-codegen/runtime@v1.0.0
+go.opentelemetry.io/collector/semconv,v0.128.0,pkg:golang/go.opentelemetry.io/collector/semconv@v0.128.0

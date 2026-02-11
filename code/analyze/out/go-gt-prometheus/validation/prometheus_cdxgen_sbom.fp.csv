@@ -1,0 +1,6 @@
+module,version,purl
+cloud.google.com/go,v0.123.0,pkg:golang/cloud.google.com/go@v0.123.0
+exclude,(,pkg:golang/exclude@(
+exclude,github.com/linode/linodego,pkg:golang/exclude@github.com/linode/linodego
+github.com/grpc-ecosystem/grpc-gateway,v1.14.7,pkg:golang/github.com/grpc-ecosystem/grpc-gateway@v1.14.7
+google.golang.org/api,v0.30.0,pkg:golang/google.golang.org/api@v0.30.0

@@ -1,0 +1,2 @@
+module,version,purl
+cloud.google.com/go,v0.123.0,pkg:golang/cloud.google.com/go@v0.123.0

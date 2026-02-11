@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-02-11T01:46:33.212164+00:00",
+  "gt_dir": "code/analyze/out/go-gt-prometheus",
+  "root_module": "github.com/prometheus/prometheus/documentation/examples/remote_storage",
+  "include_indirect": true,
+  "results": [
+    {
+      "sbom": "languages/go/SBOM/prometheus/cdxgen/prometheus_cdxgen_sbom.json",
+      "observed_count": 319,
+      "expected_count": 323,
+      "tp": 314,
+      "fp": 5,
+      "fn": 9,
+      "precision": 0.9843260188087775,
+      "recall": 0.9721362229102167,
+      "f1": 0.9781931464174454,
+      "accuracy_union": 0.9573170731707317,
+      "fp_reasons": {
+        "other": 5
+      }
+    },
+    {
+      "sbom": "languages/go/SBOM/prometheus/syft/prometheus_syft_sbom.json",
+      "observed_count": 323,
+      "expected_count": 323,
+      "tp": 322,
+      "fp": 1,
+      "fn": 1,
+      "precision": 0.9969040247678018,
+      "recall": 0.9969040247678018,
+      "f1": 0.9969040247678018,
+      "accuracy_union": 0.9938271604938271,
+      "fp_reasons": {
+        "other": 1
+      }
+    },
+    {
+      "sbom": "languages/go/SBOM/prometheus/trivy/prometheus_trivy_sbom.json",
+      "observed_count": 323,
+      "expected_count": 323,
+      "tp": 323,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy_union": 1.0,
+      "fp_reasons": {}
+    }
+  ],
+  "metric_definition": {
+    "accuracy_union": "TP / |GT ∪ SBOM| (Jaccard-style, since TN is undefined for SBOM comparison)",
+    "f1": "2TP / (2TP + FP + FN)"
+  }
+}

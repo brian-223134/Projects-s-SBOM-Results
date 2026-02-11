@@ -1,0 +1,3 @@
+owner_module,owner_file,old_module,old_version,new_target,new_version,new_is_path,source_line
+github.com/prometheus/prometheus,languages/go/project/prometheus/go.mod,cloud.google.com/go,,cloud.google.com/go,v0.123.0,false,270
+github.com/prometheus/prometheus/web/ui/mantine-ui/src/promql/tools,languages/go/project/prometheus/web/ui/mantine-ui/src/promql/tools/go.mod,cloud.google.com/go,,cloud.google.com/go,v0.123.0,false,42
