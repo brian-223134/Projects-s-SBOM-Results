@@ -1,0 +1,3890 @@
+{
+  "generated_at": "2026-02-11T01:00:39.734564+00:00",
+  "root": "languages/php/project/coolify",
+  "manifests": [
+    {
+      "type": "composer",
+      "file": "languages/php/project/coolify/composer.lock",
+      "project_name": "coollabsio/coolify",
+      "content_hash": "710c697fd96f4388646963daf6f10304",
+      "package_count": 217
+    },
+    {
+      "type": "npm",
+      "file": "languages/php/project/coolify/docker/coolify-realtime/package-lock.json",
+      "project_name": "coolify-realtime",
+      "lockfile_version": 3,
+      "package_count": 30
+    },
+    {
+      "type": "npm",
+      "file": "languages/php/project/coolify/package-lock.json",
+      "project_name": "coolify",
+      "lockfile_version": 3,
+      "package_count": 182
+    }
+  ],
+  "dependencies": [
+    {
+      "ecosystem": "composer",
+      "name": "aws/aws-crt-php",
+      "version": "v1.2.7",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/aws/aws-crt-php@v1.2.7"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "aws/aws-sdk-php",
+      "version": "3.369.6",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/aws/aws-sdk-php@3.369.6"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "bacon/bacon-qr-code",
+      "version": "v3.0.3",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/bacon/bacon-qr-code@v3.0.3"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "brick/math",
+      "version": "0.14.1",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/brick/math@0.14.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "carbonphp/carbon-doctrine-types",
+      "version": "3.2.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/carbonphp/carbon-doctrine-types@3.2.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "danharrin/livewire-rate-limiting",
+      "version": "v2.1.0",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/danharrin/livewire-rate-limiting@v2.1.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "dasprid/enum",
+      "version": "1.0.7",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/dasprid/enum@1.0.7"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "dflydev/dot-access-data",
+      "version": "v3.0.3",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/dflydev/dot-access-data@v3.0.3"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "doctrine/dbal",
+      "version": "4.4.1",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/doctrine/dbal@4.4.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "doctrine/deprecations",
+      "version": "1.1.5",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/doctrine/deprecations@1.1.5"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "doctrine/inflector",
+      "version": "2.1.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/doctrine/inflector@2.1.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "doctrine/lexer",
+      "version": "3.0.1",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/doctrine/lexer@3.0.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "dragonmantank/cron-expression",
+      "version": "v3.6.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/dragonmantank/cron-expression@v3.6.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "egulias/email-validator",
+      "version": "4.0.4",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/egulias/email-validator@4.0.4"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "ezyang/htmlpurifier",
+      "version": "v4.19.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/ezyang/htmlpurifier@v4.19.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "firebase/php-jwt",
+      "version": "v6.11.1",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/firebase/php-jwt@v6.11.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "fruitcake/php-cors",
+      "version": "v1.4.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/fruitcake/php-cors@v1.4.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "graham-campbell/result-type",
+      "version": "v1.1.4",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/graham-campbell/result-type@v1.1.4"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "guzzlehttp/guzzle",
+      "version": "7.10.0",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/guzzlehttp/guzzle@7.10.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "guzzlehttp/promises",
+      "version": "2.3.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/guzzlehttp/promises@2.3.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "guzzlehttp/psr7",
+      "version": "2.8.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/guzzlehttp/psr7@2.8.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "guzzlehttp/uri-template",
+      "version": "v1.0.5",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/guzzlehttp/uri-template@v1.0.5"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "jean85/pretty-package-versions",
+      "version": "2.1.1",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/jean85/pretty-package-versions@2.1.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "laravel/fortify",
+      "version": "v1.33.0",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/laravel/fortify@v1.33.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "laravel/framework",
+      "version": "v12.44.0",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/laravel/framework@v12.44.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "laravel/horizon",
+      "version": "v5.41.0",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/laravel/horizon@v5.41.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "laravel/pail",
+      "version": "v1.2.4",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/laravel/pail@v1.2.4"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "laravel/prompts",
+      "version": "v0.3.8",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/laravel/prompts@v0.3.8"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "laravel/sanctum",
+      "version": "v4.2.1",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/laravel/sanctum@v4.2.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "laravel/serializable-closure",
+      "version": "v2.0.7",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/laravel/serializable-closure@v2.0.7"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "laravel/socialite",
+      "version": "v5.24.0",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/laravel/socialite@v5.24.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "laravel/tinker",
+      "version": "v2.10.2",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/laravel/tinker@v2.10.2"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "laravel/ui",
+      "version": "v4.6.1",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/laravel/ui@v4.6.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "lcobucci/jwt",
+      "version": "5.6.0",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/lcobucci/jwt@5.6.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "league/commonmark",
+      "version": "2.8.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/league/commonmark@2.8.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "league/config",
+      "version": "v1.2.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/league/config@v1.2.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "league/flysystem",
+      "version": "3.30.2",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/league/flysystem@3.30.2"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "league/flysystem-aws-s3-v3",
+      "version": "3.30.1",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/league/flysystem-aws-s3-v3@3.30.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "league/flysystem-local",
+      "version": "3.30.2",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/league/flysystem-local@3.30.2"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "league/flysystem-sftp-v3",
+      "version": "3.30.0",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/league/flysystem-sftp-v3@3.30.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "league/mime-type-detection",
+      "version": "1.16.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/league/mime-type-detection@1.16.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "league/oauth1-client",
+      "version": "v1.11.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/league/oauth1-client@v1.11.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "league/uri",
+      "version": "7.7.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/league/uri@7.7.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "league/uri-interfaces",
+      "version": "7.7.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/league/uri-interfaces@7.7.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "livewire/livewire",
+      "version": "v3.7.3",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/livewire/livewire@v3.7.3"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "log1x/laravel-webfonts",
+      "version": "v2.0.1",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/log1x/laravel-webfonts@v2.0.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "lorisleiva/laravel-actions",
+      "version": "v2.9.1",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/lorisleiva/laravel-actions@v2.9.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "lorisleiva/lody",
+      "version": "v0.6.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/lorisleiva/lody@v0.6.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "monolog/monolog",
+      "version": "3.10.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/monolog/monolog@3.10.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "mtdowling/jmespath.php",
+      "version": "2.8.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/mtdowling/jmespath.php@2.8.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "nesbot/carbon",
+      "version": "3.11.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/nesbot/carbon@3.11.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "nette/schema",
+      "version": "v1.3.3",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/nette/schema@v1.3.3"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "nette/utils",
+      "version": "v4.1.1",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/nette/utils@v4.1.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "nikic/php-parser",
+      "version": "v5.7.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/nikic/php-parser@v5.7.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "nubs/random-name-generator",
+      "version": "v2.2.0",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/nubs/random-name-generator@v2.2.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "nunomaduro/termwind",
+      "version": "v2.3.3",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/nunomaduro/termwind@v2.3.3"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "nyholm/psr7",
+      "version": "1.8.2",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/nyholm/psr7@1.8.2"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "paragonie/constant_time_encoding",
+      "version": "v3.1.3",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/paragonie/constant_time_encoding@v3.1.3"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "paragonie/random_compat",
+      "version": "v9.99.100",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/paragonie/random_compat@v9.99.100"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "paragonie/sodium_compat",
+      "version": "v2.5.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/paragonie/sodium_compat@v2.5.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "php-di/invoker",
+      "version": "2.3.7",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/php-di/invoker@2.3.7"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "php-di/php-di",
+      "version": "7.1.1",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/php-di/php-di@7.1.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "phpdocumentor/reflection",
+      "version": "6.4.4",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/phpdocumentor/reflection@6.4.4"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "phpdocumentor/reflection-common",
+      "version": "2.2.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/phpdocumentor/reflection-common@2.2.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "phpdocumentor/reflection-docblock",
+      "version": "5.6.6",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/phpdocumentor/reflection-docblock@5.6.6"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "phpdocumentor/type-resolver",
+      "version": "1.12.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/phpdocumentor/type-resolver@1.12.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "phpoption/phpoption",
+      "version": "1.9.5",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/phpoption/phpoption@1.9.5"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "phpseclib/phpseclib",
+      "version": "3.0.48",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/phpseclib/phpseclib@3.0.48"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "phpstan/phpdoc-parser",
+      "version": "2.3.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/phpstan/phpdoc-parser@2.3.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "pion/laravel-chunk-upload",
+      "version": "v1.5.6",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/pion/laravel-chunk-upload@v1.5.6"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "poliander/cron",
+      "version": "3.3.0",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/poliander/cron@3.3.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "pragmarx/google2fa",
+      "version": "v9.0.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/pragmarx/google2fa@v9.0.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "psr/cache",
+      "version": "3.0.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/psr/cache@3.0.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "psr/clock",
+      "version": "1.0.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/psr/clock@1.0.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "psr/container",
+      "version": "2.0.2",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/psr/container@2.0.2"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "psr/event-dispatcher",
+      "version": "1.0.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/psr/event-dispatcher@1.0.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "psr/http-client",
+      "version": "1.0.3",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/psr/http-client@1.0.3"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "psr/http-factory",
+      "version": "1.1.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/psr/http-factory@1.1.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "psr/http-message",
+      "version": "2.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/psr/http-message@2.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "psr/log",
+      "version": "3.0.2",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/psr/log@3.0.2"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "psr/simple-cache",
+      "version": "3.0.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/psr/simple-cache@3.0.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "psy/psysh",
+      "version": "v0.12.18",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/psy/psysh@v0.12.18"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "purplepixie/phpdns",
+      "version": "2.3.6",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/purplepixie/phpdns@2.3.6"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "pusher/pusher-php-server",
+      "version": "7.2.7",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/pusher/pusher-php-server@7.2.7"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "ralouphie/getallheaders",
+      "version": "3.0.3",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/ralouphie/getallheaders@3.0.3"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "ramsey/collection",
+      "version": "2.1.1",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/ramsey/collection@2.1.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "ramsey/uuid",
+      "version": "4.9.2",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/ramsey/uuid@4.9.2"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "resend/resend-laravel",
+      "version": "v0.20.0",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/resend/resend-laravel@v0.20.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "resend/resend-php",
+      "version": "v0.18.1",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/resend/resend-php@v0.18.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "sentry/sentry",
+      "version": "4.19.1",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/sentry/sentry@4.19.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "sentry/sentry-laravel",
+      "version": "4.20.0",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/sentry/sentry-laravel@4.20.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "socialiteproviders/authentik",
+      "version": "5.2.0",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/socialiteproviders/authentik@5.2.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "socialiteproviders/clerk",
+      "version": "5.1.0",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/socialiteproviders/clerk@5.1.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "socialiteproviders/discord",
+      "version": "4.2.0",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/socialiteproviders/discord@4.2.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "socialiteproviders/google",
+      "version": "4.1.0",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/socialiteproviders/google@4.1.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "socialiteproviders/infomaniak",
+      "version": "4.0.0",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/socialiteproviders/infomaniak@4.0.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "socialiteproviders/manager",
+      "version": "v4.8.1",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/socialiteproviders/manager@v4.8.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "socialiteproviders/microsoft-azure",
+      "version": "5.2.0",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/socialiteproviders/microsoft-azure@5.2.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "socialiteproviders/zitadel",
+      "version": "4.2.0",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/socialiteproviders/zitadel@4.2.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "spatie/backtrace",
+      "version": "1.8.1",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/spatie/backtrace@1.8.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "spatie/commonmark-shiki-highlighter",
+      "version": "2.5.2",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/spatie/commonmark-shiki-highlighter@2.5.2"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "spatie/laravel-activitylog",
+      "version": "4.10.2",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/spatie/laravel-activitylog@4.10.2"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "spatie/laravel-data",
+      "version": "4.18.0",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/spatie/laravel-data@4.18.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "spatie/laravel-markdown",
+      "version": "2.7.1",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/spatie/laravel-markdown@2.7.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "spatie/laravel-package-tools",
+      "version": "1.92.7",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/spatie/laravel-package-tools@1.92.7"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "spatie/laravel-ray",
+      "version": "1.43.2",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/spatie/laravel-ray@1.43.2"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "spatie/laravel-schemaless-attributes",
+      "version": "2.5.1",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/spatie/laravel-schemaless-attributes@2.5.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "spatie/macroable",
+      "version": "2.0.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/spatie/macroable@2.0.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "spatie/php-structure-discoverer",
+      "version": "2.3.3",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/spatie/php-structure-discoverer@2.3.3"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "spatie/ray",
+      "version": "1.44.1",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/spatie/ray@1.44.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "spatie/shiki-php",
+      "version": "2.3.2",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/spatie/shiki-php@2.3.2"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "spatie/url",
+      "version": "2.4.0",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/spatie/url@2.4.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "stevebauman/purify",
+      "version": "v6.3.1",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/stevebauman/purify@v6.3.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "stripe/stripe-php",
+      "version": "v16.6.0",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/stripe/stripe-php@v16.6.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/clock",
+      "version": "v8.0.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/clock@v8.0.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/console",
+      "version": "v7.4.3",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/console@v7.4.3"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/css-selector",
+      "version": "v8.0.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/css-selector@v8.0.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/deprecation-contracts",
+      "version": "v3.6.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/deprecation-contracts@v3.6.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/error-handler",
+      "version": "v7.4.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/error-handler@v7.4.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/event-dispatcher",
+      "version": "v8.0.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/event-dispatcher@v8.0.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/event-dispatcher-contracts",
+      "version": "v3.6.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/event-dispatcher-contracts@v3.6.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/filesystem",
+      "version": "v8.0.1",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/filesystem@v8.0.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/finder",
+      "version": "v7.4.3",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/finder@v7.4.3"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/http-foundation",
+      "version": "v7.4.3",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/http-foundation@v7.4.3"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/http-kernel",
+      "version": "v7.4.3",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/http-kernel@v7.4.3"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/mailer",
+      "version": "v7.4.3",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/mailer@v7.4.3"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/mime",
+      "version": "v7.4.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/mime@v7.4.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/options-resolver",
+      "version": "v8.0.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/options-resolver@v8.0.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/polyfill-ctype",
+      "version": "v1.33.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/polyfill-ctype@v1.33.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/polyfill-iconv",
+      "version": "v1.33.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/polyfill-iconv@v1.33.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/polyfill-intl-grapheme",
+      "version": "v1.33.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/polyfill-intl-grapheme@v1.33.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/polyfill-intl-idn",
+      "version": "v1.33.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/polyfill-intl-idn@v1.33.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/polyfill-intl-normalizer",
+      "version": "v1.33.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/polyfill-intl-normalizer@v1.33.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/polyfill-mbstring",
+      "version": "v1.33.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/polyfill-mbstring@v1.33.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/polyfill-php80",
+      "version": "v1.33.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/polyfill-php80@v1.33.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/polyfill-php83",
+      "version": "v1.33.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/polyfill-php83@v1.33.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/polyfill-php84",
+      "version": "v1.33.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/polyfill-php84@v1.33.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/polyfill-php85",
+      "version": "v1.33.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/polyfill-php85@v1.33.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/polyfill-uuid",
+      "version": "v1.33.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/polyfill-uuid@v1.33.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/process",
+      "version": "v7.4.3",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/process@v7.4.3"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/psr-http-message-bridge",
+      "version": "v7.4.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/psr-http-message-bridge@v7.4.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/routing",
+      "version": "v7.4.3",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/routing@v7.4.3"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/service-contracts",
+      "version": "v3.6.1",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/service-contracts@v3.6.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/stopwatch",
+      "version": "v8.0.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/stopwatch@v8.0.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/string",
+      "version": "v8.0.1",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/string@v8.0.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/translation",
+      "version": "v8.0.3",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/translation@v8.0.3"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/translation-contracts",
+      "version": "v3.6.1",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/translation-contracts@v3.6.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/uid",
+      "version": "v7.4.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/uid@v7.4.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/var-dumper",
+      "version": "v7.4.3",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/var-dumper@v7.4.3"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/yaml",
+      "version": "v7.4.1",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/yaml@v7.4.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "tijsverkoyen/css-to-inline-styles",
+      "version": "v2.4.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/tijsverkoyen/css-to-inline-styles@v2.4.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "visus/cuid2",
+      "version": "4.1.0",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/visus/cuid2@4.1.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "vlucas/phpdotenv",
+      "version": "v5.6.3",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/vlucas/phpdotenv@v5.6.3"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "voku/portable-ascii",
+      "version": "2.0.3",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/voku/portable-ascii@2.0.3"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "webmozart/assert",
+      "version": "1.12.1",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/webmozart/assert@1.12.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "yosymfony/parser-utils",
+      "version": "v2.0.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/yosymfony/parser-utils@v2.0.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "yosymfony/toml",
+      "version": "v1.0.4",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/yosymfony/toml@v1.0.4"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "zbateson/mail-mime-parser",
+      "version": "3.0.5",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/zbateson/mail-mime-parser@3.0.5"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "zbateson/mb-wrapper",
+      "version": "2.0.1",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/zbateson/mb-wrapper@2.0.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "zbateson/stream-decorators",
+      "version": "2.1.1",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/zbateson/stream-decorators@2.1.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "zircote/swagger-php",
+      "version": "5.7.7",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/zircote/swagger-php@5.7.7"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "barryvdh/laravel-debugbar",
+      "version": "v3.16.3",
+      "direct": true,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/barryvdh/laravel-debugbar@v3.16.3"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "brianium/paratest",
+      "version": "v7.16.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/brianium/paratest@v7.16.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "driftingly/rector-laravel",
+      "version": "2.1.9",
+      "direct": true,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/driftingly/rector-laravel@2.1.9"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "fakerphp/faker",
+      "version": "v1.24.1",
+      "direct": true,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/fakerphp/faker@v1.24.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "fidry/cpu-core-counter",
+      "version": "1.3.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/fidry/cpu-core-counter@1.3.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "filp/whoops",
+      "version": "2.18.4",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/filp/whoops@2.18.4"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "hamcrest/hamcrest-php",
+      "version": "v2.1.1",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/hamcrest/hamcrest-php@v2.1.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "laravel/boost",
+      "version": "v1.8.7",
+      "direct": true,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/laravel/boost@v1.8.7"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "laravel/dusk",
+      "version": "v8.3.4",
+      "direct": true,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/laravel/dusk@v8.3.4"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "laravel/mcp",
+      "version": "v0.5.1",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/laravel/mcp@v0.5.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "laravel/pint",
+      "version": "v1.26.0",
+      "direct": true,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/laravel/pint@v1.26.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "laravel/roster",
+      "version": "v0.2.9",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/laravel/roster@v0.2.9"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "laravel/telescope",
+      "version": "v5.16.0",
+      "direct": true,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/laravel/telescope@v5.16.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "mockery/mockery",
+      "version": "1.6.12",
+      "direct": true,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/mockery/mockery@1.6.12"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "myclabs/deep-copy",
+      "version": "1.13.4",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/myclabs/deep-copy@1.13.4"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "nunomaduro/collision",
+      "version": "v8.8.3",
+      "direct": true,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/nunomaduro/collision@v8.8.3"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "pestphp/pest",
+      "version": "v4.3.0",
+      "direct": true,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/pestphp/pest@v4.3.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "pestphp/pest-plugin",
+      "version": "v4.0.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/pestphp/pest-plugin@v4.0.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "pestphp/pest-plugin-arch",
+      "version": "v4.0.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/pestphp/pest-plugin-arch@v4.0.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "pestphp/pest-plugin-mutate",
+      "version": "v4.0.1",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/pestphp/pest-plugin-mutate@v4.0.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "pestphp/pest-plugin-profanity",
+      "version": "v4.2.1",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/pestphp/pest-plugin-profanity@v4.2.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "phar-io/manifest",
+      "version": "2.0.4",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/phar-io/manifest@2.0.4"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "phar-io/version",
+      "version": "3.2.1",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/phar-io/version@3.2.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "php-debugbar/php-debugbar",
+      "version": "v2.2.6",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/php-debugbar/php-debugbar@v2.2.6"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "php-webdriver/webdriver",
+      "version": "1.16.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/php-webdriver/webdriver@1.16.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "phpstan/phpstan",
+      "version": "2.1.33",
+      "direct": true,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/phpstan/phpstan@2.1.33"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "phpunit/php-code-coverage",
+      "version": "12.5.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/phpunit/php-code-coverage@12.5.2"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "phpunit/php-file-iterator",
+      "version": "6.0.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/phpunit/php-file-iterator@6.0.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "phpunit/php-invoker",
+      "version": "6.0.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/phpunit/php-invoker@6.0.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "phpunit/php-text-template",
+      "version": "5.0.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/phpunit/php-text-template@5.0.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "phpunit/php-timer",
+      "version": "8.0.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/phpunit/php-timer@8.0.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "phpunit/phpunit",
+      "version": "12.5.4",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/phpunit/phpunit@12.5.4"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "rector/rector",
+      "version": "2.3.0",
+      "direct": true,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/rector/rector@2.3.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "sebastian/cli-parser",
+      "version": "4.2.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/sebastian/cli-parser@4.2.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "sebastian/comparator",
+      "version": "7.1.3",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/sebastian/comparator@7.1.3"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "sebastian/complexity",
+      "version": "5.0.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/sebastian/complexity@5.0.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "sebastian/diff",
+      "version": "7.0.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/sebastian/diff@7.0.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "sebastian/environment",
+      "version": "8.0.3",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/sebastian/environment@8.0.3"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "sebastian/exporter",
+      "version": "7.0.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/sebastian/exporter@7.0.2"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "sebastian/global-state",
+      "version": "8.0.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/sebastian/global-state@8.0.2"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "sebastian/lines-of-code",
+      "version": "4.0.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/sebastian/lines-of-code@4.0.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "sebastian/object-enumerator",
+      "version": "7.0.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/sebastian/object-enumerator@7.0.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "sebastian/object-reflector",
+      "version": "5.0.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/sebastian/object-reflector@5.0.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "sebastian/recursion-context",
+      "version": "7.0.1",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/sebastian/recursion-context@7.0.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "sebastian/type",
+      "version": "6.0.3",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/sebastian/type@6.0.3"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "sebastian/version",
+      "version": "6.0.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/sebastian/version@6.0.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "serversideup/spin",
+      "version": "v3.1.1",
+      "direct": true,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/serversideup/spin@v3.1.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "spatie/error-solutions",
+      "version": "1.1.3",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/spatie/error-solutions@1.1.3"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "spatie/flare-client-php",
+      "version": "1.10.1",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/spatie/flare-client-php@1.10.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "spatie/ignition",
+      "version": "1.15.1",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/spatie/ignition@1.15.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "spatie/laravel-ignition",
+      "version": "2.9.1",
+      "direct": true,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/spatie/laravel-ignition@2.9.1"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "staabm/side-effects-detector",
+      "version": "1.0.5",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/staabm/side-effects-detector@1.0.5"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/http-client",
+      "version": "v7.4.3",
+      "direct": true,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/http-client@v7.4.3"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "symfony/http-client-contracts",
+      "version": "v3.6.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/symfony/http-client-contracts@v3.6.0"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "ta-tikoma/phpunit-architecture-test",
+      "version": "0.8.5",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/ta-tikoma/phpunit-architecture-test@0.8.5"
+    },
+    {
+      "ecosystem": "composer",
+      "name": "theseer/tokenizer",
+      "version": "2.0.1",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/composer.lock",
+      "purl": "pkg:composer/theseer/tokenizer@2.0.1"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@xterm/addon-fit",
+      "version": "0.10.0",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/docker/coolify-realtime/package-lock.json",
+      "purl": "pkg:npm/%40xterm/addon-fit@0.10.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@xterm/xterm",
+      "version": "5.5.0",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/docker/coolify-realtime/package-lock.json",
+      "purl": "pkg:npm/%40xterm/xterm@5.5.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "asynckit",
+      "version": "0.4.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/docker/coolify-realtime/package-lock.json",
+      "purl": "pkg:npm/asynckit@0.4.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "axios",
+      "version": "1.12.0",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/docker/coolify-realtime/package-lock.json",
+      "purl": "pkg:npm/axios@1.12.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "call-bind-apply-helpers",
+      "version": "1.0.2",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/docker/coolify-realtime/package-lock.json",
+      "purl": "pkg:npm/call-bind-apply-helpers@1.0.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "combined-stream",
+      "version": "1.0.8",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/docker/coolify-realtime/package-lock.json",
+      "purl": "pkg:npm/combined-stream@1.0.8"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "cookie",
+      "version": "1.0.2",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/docker/coolify-realtime/package-lock.json",
+      "purl": "pkg:npm/cookie@1.0.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "delayed-stream",
+      "version": "1.0.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/docker/coolify-realtime/package-lock.json",
+      "purl": "pkg:npm/delayed-stream@1.0.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "dotenv",
+      "version": "16.5.0",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/docker/coolify-realtime/package-lock.json",
+      "purl": "pkg:npm/dotenv@16.5.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "dunder-proto",
+      "version": "1.0.1",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/docker/coolify-realtime/package-lock.json",
+      "purl": "pkg:npm/dunder-proto@1.0.1"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "es-define-property",
+      "version": "1.0.1",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/docker/coolify-realtime/package-lock.json",
+      "purl": "pkg:npm/es-define-property@1.0.1"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "es-errors",
+      "version": "1.3.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/docker/coolify-realtime/package-lock.json",
+      "purl": "pkg:npm/es-errors@1.3.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "es-object-atoms",
+      "version": "1.1.1",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/docker/coolify-realtime/package-lock.json",
+      "purl": "pkg:npm/es-object-atoms@1.1.1"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "es-set-tostringtag",
+      "version": "2.1.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/docker/coolify-realtime/package-lock.json",
+      "purl": "pkg:npm/es-set-tostringtag@2.1.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "follow-redirects",
+      "version": "1.15.9",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/docker/coolify-realtime/package-lock.json",
+      "purl": "pkg:npm/follow-redirects@1.15.9"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "form-data",
+      "version": "4.0.4",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/docker/coolify-realtime/package-lock.json",
+      "purl": "pkg:npm/form-data@4.0.4"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "function-bind",
+      "version": "1.1.2",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/docker/coolify-realtime/package-lock.json",
+      "purl": "pkg:npm/function-bind@1.1.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "get-intrinsic",
+      "version": "1.3.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/docker/coolify-realtime/package-lock.json",
+      "purl": "pkg:npm/get-intrinsic@1.3.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "get-proto",
+      "version": "1.0.1",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/docker/coolify-realtime/package-lock.json",
+      "purl": "pkg:npm/get-proto@1.0.1"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "gopd",
+      "version": "1.2.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/docker/coolify-realtime/package-lock.json",
+      "purl": "pkg:npm/gopd@1.2.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "has-symbols",
+      "version": "1.1.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/docker/coolify-realtime/package-lock.json",
+      "purl": "pkg:npm/has-symbols@1.1.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "has-tostringtag",
+      "version": "1.0.2",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/docker/coolify-realtime/package-lock.json",
+      "purl": "pkg:npm/has-tostringtag@1.0.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "hasown",
+      "version": "2.0.2",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/docker/coolify-realtime/package-lock.json",
+      "purl": "pkg:npm/hasown@2.0.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "math-intrinsics",
+      "version": "1.1.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/docker/coolify-realtime/package-lock.json",
+      "purl": "pkg:npm/math-intrinsics@1.1.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "mime-db",
+      "version": "1.52.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/docker/coolify-realtime/package-lock.json",
+      "purl": "pkg:npm/mime-db@1.52.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "mime-types",
+      "version": "2.1.35",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/docker/coolify-realtime/package-lock.json",
+      "purl": "pkg:npm/mime-types@2.1.35"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "nan",
+      "version": "2.23.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/docker/coolify-realtime/package-lock.json",
+      "purl": "pkg:npm/nan@2.23.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "node-pty",
+      "version": "1.0.0",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/docker/coolify-realtime/package-lock.json",
+      "purl": "pkg:npm/node-pty@1.0.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "proxy-from-env",
+      "version": "1.1.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/docker/coolify-realtime/package-lock.json",
+      "purl": "pkg:npm/proxy-from-env@1.1.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "ws",
+      "version": "8.18.1",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/docker/coolify-realtime/package-lock.json",
+      "purl": "pkg:npm/ws@8.18.1"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@alloc/quick-lru",
+      "version": "5.2.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40alloc/quick-lru@5.2.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@babel/helper-string-parser",
+      "version": "7.27.1",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40babel/helper-string-parser@7.27.1"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@babel/helper-validator-identifier",
+      "version": "7.28.5",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40babel/helper-validator-identifier@7.28.5"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@babel/parser",
+      "version": "7.28.5",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40babel/parser@7.28.5"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@babel/types",
+      "version": "7.28.5",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40babel/types@7.28.5"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@esbuild/aix-ppc64",
+      "version": "0.27.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40esbuild/aix-ppc64@0.27.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@esbuild/android-arm",
+      "version": "0.27.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40esbuild/android-arm@0.27.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@esbuild/android-arm64",
+      "version": "0.27.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40esbuild/android-arm64@0.27.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@esbuild/android-x64",
+      "version": "0.27.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40esbuild/android-x64@0.27.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@esbuild/darwin-arm64",
+      "version": "0.27.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40esbuild/darwin-arm64@0.27.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@esbuild/darwin-x64",
+      "version": "0.27.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40esbuild/darwin-x64@0.27.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@esbuild/freebsd-arm64",
+      "version": "0.27.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40esbuild/freebsd-arm64@0.27.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@esbuild/freebsd-x64",
+      "version": "0.27.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40esbuild/freebsd-x64@0.27.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@esbuild/linux-arm",
+      "version": "0.27.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40esbuild/linux-arm@0.27.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@esbuild/linux-arm64",
+      "version": "0.27.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40esbuild/linux-arm64@0.27.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@esbuild/linux-ia32",
+      "version": "0.27.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40esbuild/linux-ia32@0.27.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@esbuild/linux-loong64",
+      "version": "0.27.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40esbuild/linux-loong64@0.27.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@esbuild/linux-mips64el",
+      "version": "0.27.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40esbuild/linux-mips64el@0.27.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@esbuild/linux-ppc64",
+      "version": "0.27.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40esbuild/linux-ppc64@0.27.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@esbuild/linux-riscv64",
+      "version": "0.27.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40esbuild/linux-riscv64@0.27.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@esbuild/linux-s390x",
+      "version": "0.27.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40esbuild/linux-s390x@0.27.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@esbuild/linux-x64",
+      "version": "0.27.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40esbuild/linux-x64@0.27.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@esbuild/netbsd-arm64",
+      "version": "0.27.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40esbuild/netbsd-arm64@0.27.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@esbuild/netbsd-x64",
+      "version": "0.27.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40esbuild/netbsd-x64@0.27.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@esbuild/openbsd-arm64",
+      "version": "0.27.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40esbuild/openbsd-arm64@0.27.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@esbuild/openbsd-x64",
+      "version": "0.27.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40esbuild/openbsd-x64@0.27.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@esbuild/openharmony-arm64",
+      "version": "0.27.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40esbuild/openharmony-arm64@0.27.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@esbuild/sunos-x64",
+      "version": "0.27.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40esbuild/sunos-x64@0.27.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@esbuild/win32-arm64",
+      "version": "0.27.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40esbuild/win32-arm64@0.27.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@esbuild/win32-ia32",
+      "version": "0.27.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40esbuild/win32-ia32@0.27.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@esbuild/win32-x64",
+      "version": "0.27.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40esbuild/win32-x64@0.27.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@ioredis/commands",
+      "version": "1.5.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40ioredis/commands@1.5.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@jridgewell/gen-mapping",
+      "version": "0.3.13",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40jridgewell/gen-mapping@0.3.13"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@jridgewell/remapping",
+      "version": "2.3.5",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40jridgewell/remapping@2.3.5"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@jridgewell/resolve-uri",
+      "version": "3.1.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40jridgewell/resolve-uri@3.1.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@jridgewell/sourcemap-codec",
+      "version": "1.5.5",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40jridgewell/sourcemap-codec@1.5.5"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@jridgewell/trace-mapping",
+      "version": "0.3.31",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40jridgewell/trace-mapping@0.3.31"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rolldown/pluginutils",
+      "version": "1.0.0-beta.53",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40rolldown/pluginutils@1.0.0-beta.53"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rollup/rollup-android-arm-eabi",
+      "version": "4.54.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40rollup/rollup-android-arm-eabi@4.54.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rollup/rollup-android-arm64",
+      "version": "4.54.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40rollup/rollup-android-arm64@4.54.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rollup/rollup-darwin-arm64",
+      "version": "4.54.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40rollup/rollup-darwin-arm64@4.54.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rollup/rollup-darwin-x64",
+      "version": "4.54.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40rollup/rollup-darwin-x64@4.54.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rollup/rollup-freebsd-arm64",
+      "version": "4.54.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40rollup/rollup-freebsd-arm64@4.54.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rollup/rollup-freebsd-x64",
+      "version": "4.54.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40rollup/rollup-freebsd-x64@4.54.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rollup/rollup-linux-arm-gnueabihf",
+      "version": "4.54.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40rollup/rollup-linux-arm-gnueabihf@4.54.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rollup/rollup-linux-arm-musleabihf",
+      "version": "4.54.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40rollup/rollup-linux-arm-musleabihf@4.54.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rollup/rollup-linux-arm64-gnu",
+      "version": "4.54.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40rollup/rollup-linux-arm64-gnu@4.54.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rollup/rollup-linux-arm64-musl",
+      "version": "4.54.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40rollup/rollup-linux-arm64-musl@4.54.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rollup/rollup-linux-loong64-gnu",
+      "version": "4.54.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40rollup/rollup-linux-loong64-gnu@4.54.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rollup/rollup-linux-ppc64-gnu",
+      "version": "4.54.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40rollup/rollup-linux-ppc64-gnu@4.54.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rollup/rollup-linux-riscv64-gnu",
+      "version": "4.54.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40rollup/rollup-linux-riscv64-gnu@4.54.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rollup/rollup-linux-riscv64-musl",
+      "version": "4.54.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40rollup/rollup-linux-riscv64-musl@4.54.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rollup/rollup-linux-s390x-gnu",
+      "version": "4.54.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40rollup/rollup-linux-s390x-gnu@4.54.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rollup/rollup-linux-x64-gnu",
+      "version": "4.54.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40rollup/rollup-linux-x64-gnu@4.54.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rollup/rollup-linux-x64-musl",
+      "version": "4.54.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40rollup/rollup-linux-x64-musl@4.54.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rollup/rollup-openharmony-arm64",
+      "version": "4.54.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40rollup/rollup-openharmony-arm64@4.54.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rollup/rollup-win32-arm64-msvc",
+      "version": "4.54.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40rollup/rollup-win32-arm64-msvc@4.54.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rollup/rollup-win32-ia32-msvc",
+      "version": "4.54.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40rollup/rollup-win32-ia32-msvc@4.54.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rollup/rollup-win32-x64-gnu",
+      "version": "4.54.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40rollup/rollup-win32-x64-gnu@4.54.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rollup/rollup-win32-x64-msvc",
+      "version": "4.54.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40rollup/rollup-win32-x64-msvc@4.54.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@socket.io/component-emitter",
+      "version": "3.1.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40socket.io/component-emitter@3.1.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tailwindcss/forms",
+      "version": "0.5.10",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40tailwindcss/forms@0.5.10"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tailwindcss/node",
+      "version": "4.1.18",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40tailwindcss/node@4.1.18"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tailwindcss/oxide",
+      "version": "4.1.18",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40tailwindcss/oxide@4.1.18"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tailwindcss/oxide-android-arm64",
+      "version": "4.1.18",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40tailwindcss/oxide-android-arm64@4.1.18"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tailwindcss/oxide-darwin-arm64",
+      "version": "4.1.18",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40tailwindcss/oxide-darwin-arm64@4.1.18"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tailwindcss/oxide-darwin-x64",
+      "version": "4.1.18",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40tailwindcss/oxide-darwin-x64@4.1.18"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tailwindcss/oxide-freebsd-x64",
+      "version": "4.1.18",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40tailwindcss/oxide-freebsd-x64@4.1.18"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tailwindcss/oxide-linux-arm-gnueabihf",
+      "version": "4.1.18",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40tailwindcss/oxide-linux-arm-gnueabihf@4.1.18"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tailwindcss/oxide-linux-arm64-gnu",
+      "version": "4.1.18",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40tailwindcss/oxide-linux-arm64-gnu@4.1.18"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tailwindcss/oxide-linux-arm64-musl",
+      "version": "4.1.18",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40tailwindcss/oxide-linux-arm64-musl@4.1.18"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tailwindcss/oxide-linux-x64-gnu",
+      "version": "4.1.18",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40tailwindcss/oxide-linux-x64-gnu@4.1.18"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tailwindcss/oxide-linux-x64-musl",
+      "version": "4.1.18",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40tailwindcss/oxide-linux-x64-musl@4.1.18"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tailwindcss/oxide-wasm32-wasi",
+      "version": "4.1.18",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40tailwindcss/oxide-wasm32-wasi@4.1.18"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tailwindcss/oxide-win32-arm64-msvc",
+      "version": "4.1.18",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40tailwindcss/oxide-win32-arm64-msvc@4.1.18"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tailwindcss/oxide-win32-x64-msvc",
+      "version": "4.1.18",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40tailwindcss/oxide-win32-x64-msvc@4.1.18"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tailwindcss/postcss",
+      "version": "4.1.18",
+      "direct": true,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40tailwindcss/postcss@4.1.18"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tailwindcss/typography",
+      "version": "0.5.16",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40tailwindcss/typography@0.5.16"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@types/estree",
+      "version": "1.0.8",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40types/estree@1.0.8"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@types/prismjs",
+      "version": "1.26.5",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40types/prismjs@1.26.5"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@vitejs/plugin-vue",
+      "version": "6.0.3",
+      "direct": true,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40vitejs/plugin-vue@6.0.3"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@vue/compiler-core",
+      "version": "3.5.26",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40vue/compiler-core@3.5.26"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@vue/compiler-dom",
+      "version": "3.5.26",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40vue/compiler-dom@3.5.26"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@vue/compiler-sfc",
+      "version": "3.5.26",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40vue/compiler-sfc@3.5.26"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@vue/compiler-ssr",
+      "version": "3.5.26",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40vue/compiler-ssr@3.5.26"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@vue/reactivity",
+      "version": "3.5.26",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40vue/reactivity@3.5.26"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@vue/runtime-core",
+      "version": "3.5.26",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40vue/runtime-core@3.5.26"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@vue/runtime-dom",
+      "version": "3.5.26",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40vue/runtime-dom@3.5.26"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@vue/server-renderer",
+      "version": "3.5.26",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40vue/server-renderer@3.5.26"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@vue/shared",
+      "version": "3.5.26",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40vue/shared@3.5.26"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@xterm/addon-fit",
+      "version": "0.10.0",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40xterm/addon-fit@0.10.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@xterm/xterm",
+      "version": "5.5.0",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/%40xterm/xterm@5.5.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "asynckit",
+      "version": "0.4.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/asynckit@0.4.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "axios",
+      "version": "1.13.2",
+      "direct": true,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/axios@1.13.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "call-bind-apply-helpers",
+      "version": "1.0.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/call-bind-apply-helpers@1.0.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "clsx",
+      "version": "2.1.1",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/clsx@2.1.1"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "cluster-key-slot",
+      "version": "1.1.2",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/cluster-key-slot@1.1.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "combined-stream",
+      "version": "1.0.8",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/combined-stream@1.0.8"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "cssesc",
+      "version": "3.0.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/cssesc@3.0.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "csstype",
+      "version": "3.2.3",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/csstype@3.2.3"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "debug",
+      "version": "4.4.3",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/debug@4.4.3"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "delayed-stream",
+      "version": "1.0.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/delayed-stream@1.0.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "denque",
+      "version": "2.1.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/denque@2.1.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "detect-libc",
+      "version": "2.1.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/detect-libc@2.1.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "dunder-proto",
+      "version": "1.0.1",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/dunder-proto@1.0.1"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "engine.io-client",
+      "version": "6.6.4",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/engine.io-client@6.6.4"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "engine.io-parser",
+      "version": "5.2.3",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/engine.io-parser@5.2.3"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "enhanced-resolve",
+      "version": "5.18.4",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/enhanced-resolve@5.18.4"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "entities",
+      "version": "7.0.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/entities@7.0.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "es-define-property",
+      "version": "1.0.1",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/es-define-property@1.0.1"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "es-errors",
+      "version": "1.3.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/es-errors@1.3.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "es-object-atoms",
+      "version": "1.1.1",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/es-object-atoms@1.1.1"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "es-set-tostringtag",
+      "version": "2.1.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/es-set-tostringtag@2.1.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "esbuild",
+      "version": "0.27.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/esbuild@0.27.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "estree-walker",
+      "version": "2.0.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/estree-walker@2.0.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "fdir",
+      "version": "6.5.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/fdir@6.5.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "follow-redirects",
+      "version": "1.15.11",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/follow-redirects@1.15.11"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "form-data",
+      "version": "4.0.5",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/form-data@4.0.5"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "fsevents",
+      "version": "2.3.3",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/fsevents@2.3.3"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "function-bind",
+      "version": "1.1.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/function-bind@1.1.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "get-intrinsic",
+      "version": "1.3.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/get-intrinsic@1.3.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "get-proto",
+      "version": "1.0.1",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/get-proto@1.0.1"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "gopd",
+      "version": "1.2.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/gopd@1.2.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "graceful-fs",
+      "version": "4.2.11",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/graceful-fs@4.2.11"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "has-symbols",
+      "version": "1.1.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/has-symbols@1.1.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "has-tostringtag",
+      "version": "1.0.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/has-tostringtag@1.0.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "hasown",
+      "version": "2.0.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/hasown@2.0.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "ioredis",
+      "version": "5.6.1",
+      "direct": true,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/ioredis@5.6.1"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "jiti",
+      "version": "2.6.1",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/jiti@2.6.1"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "laravel-echo",
+      "version": "2.2.7",
+      "direct": true,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/laravel-echo@2.2.7"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "laravel-vite-plugin",
+      "version": "2.0.1",
+      "direct": true,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/laravel-vite-plugin@2.0.1"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lightningcss",
+      "version": "1.30.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/lightningcss@1.30.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lightningcss-android-arm64",
+      "version": "1.30.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/lightningcss-android-arm64@1.30.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lightningcss-darwin-arm64",
+      "version": "1.30.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/lightningcss-darwin-arm64@1.30.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lightningcss-darwin-x64",
+      "version": "1.30.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/lightningcss-darwin-x64@1.30.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lightningcss-freebsd-x64",
+      "version": "1.30.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/lightningcss-freebsd-x64@1.30.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lightningcss-linux-arm-gnueabihf",
+      "version": "1.30.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/lightningcss-linux-arm-gnueabihf@1.30.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lightningcss-linux-arm64-gnu",
+      "version": "1.30.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/lightningcss-linux-arm64-gnu@1.30.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lightningcss-linux-arm64-musl",
+      "version": "1.30.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/lightningcss-linux-arm64-musl@1.30.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lightningcss-linux-x64-gnu",
+      "version": "1.30.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/lightningcss-linux-x64-gnu@1.30.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lightningcss-linux-x64-musl",
+      "version": "1.30.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/lightningcss-linux-x64-musl@1.30.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lightningcss-win32-arm64-msvc",
+      "version": "1.30.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/lightningcss-win32-arm64-msvc@1.30.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lightningcss-win32-x64-msvc",
+      "version": "1.30.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/lightningcss-win32-x64-msvc@1.30.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lodash.castarray",
+      "version": "4.4.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/lodash.castarray@4.4.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lodash.defaults",
+      "version": "4.2.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/lodash.defaults@4.2.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lodash.isarguments",
+      "version": "3.1.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/lodash.isarguments@3.1.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lodash.isplainobject",
+      "version": "4.0.6",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/lodash.isplainobject@4.0.6"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lodash.merge",
+      "version": "4.6.2",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/lodash.merge@4.6.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "magic-string",
+      "version": "0.30.21",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/magic-string@0.30.21"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "math-intrinsics",
+      "version": "1.1.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/math-intrinsics@1.1.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "mime-db",
+      "version": "1.52.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/mime-db@1.52.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "mime-types",
+      "version": "2.1.35",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/mime-types@2.1.35"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "mini-svg-data-uri",
+      "version": "1.4.4",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/mini-svg-data-uri@1.4.4"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "ms",
+      "version": "2.1.3",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/ms@2.1.3"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "nanoid",
+      "version": "3.3.11",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/nanoid@3.3.11"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "picocolors",
+      "version": "1.1.1",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/picocolors@1.1.1"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "picomatch",
+      "version": "4.0.3",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/picomatch@4.0.3"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "postcss",
+      "version": "8.5.6",
+      "direct": true,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/postcss@8.5.6"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "postcss-selector-parser",
+      "version": "6.0.10",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/postcss-selector-parser@6.0.10"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "prism-react-renderer",
+      "version": "2.4.1",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/prism-react-renderer@2.4.1"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "proxy-from-env",
+      "version": "1.1.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/proxy-from-env@1.1.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "pusher-js",
+      "version": "8.4.0",
+      "direct": true,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/pusher-js@8.4.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "19.2.3",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/react@19.2.3"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "redis-errors",
+      "version": "1.2.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/redis-errors@1.2.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "redis-parser",
+      "version": "3.0.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/redis-parser@3.0.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "rollup",
+      "version": "4.54.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/rollup@4.54.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "socket.io-client",
+      "version": "4.8.3",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/socket.io-client@4.8.3"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "socket.io-parser",
+      "version": "4.2.5",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/socket.io-parser@4.2.5"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "source-map-js",
+      "version": "1.2.1",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/source-map-js@1.2.1"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "standard-as-callback",
+      "version": "2.1.0",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/standard-as-callback@2.1.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "tailwind-scrollbar",
+      "version": "4.0.2",
+      "direct": true,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/tailwind-scrollbar@4.0.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "tailwindcss",
+      "version": "4.1.18",
+      "direct": true,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/tailwindcss@4.1.18"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "tapable",
+      "version": "2.3.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/tapable@2.3.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "tinyglobby",
+      "version": "0.2.15",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/tinyglobby@0.2.15"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "tweetnacl",
+      "version": "1.0.3",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/tweetnacl@1.0.3"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "util-deprecate",
+      "version": "1.0.2",
+      "direct": false,
+      "dev": false,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/util-deprecate@1.0.2"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "vite",
+      "version": "7.3.0",
+      "direct": true,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/vite@7.3.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "vite-plugin-full-reload",
+      "version": "1.2.0",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/vite-plugin-full-reload@1.2.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "picomatch",
+      "version": "2.3.1",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/picomatch@2.3.1"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "vue",
+      "version": "3.5.26",
+      "direct": true,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/vue@3.5.26"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "ws",
+      "version": "8.18.3",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/ws@8.18.3"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "xmlhttprequest-ssl",
+      "version": "2.1.2",
+      "direct": false,
+      "dev": true,
+      "manifest": "languages/php/project/coolify/package-lock.json",
+      "purl": "pkg:npm/xmlhttprequest-ssl@2.1.2"
+    }
+  ]
+}

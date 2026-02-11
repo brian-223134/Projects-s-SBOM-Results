@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-02-11T01:02:19.140731+00:00",
+  "gt_dir": "code/analyze/out/php-js-gt-coolify",
+  "exclude_dev": false,
+  "results": [
+    {
+      "sbom": "languages/php/SBOM/coolify/trivy/coolify_trivy_sbom.json",
+      "observed_count": 212,
+      "expected_count": 407,
+      "tp": 212,
+      "fp": 0,
+      "fn": 195,
+      "precision": 1.0,
+      "recall": 0.5208845208845209,
+      "f1": 0.6849757673667205,
+      "accuracy_union": 0.5208845208845209
+    }
+  ],
+  "metric_definition": {
+    "accuracy_union": "TP / |GT ∪ SBOM| (Jaccard-style, since TN is undefined for SBOM comparison)",
+    "f1": "2TP / (2TP + FP + FN)"
+  }
+}
