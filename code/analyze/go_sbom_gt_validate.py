@@ -287,7 +287,7 @@ def main() -> int:
         "include_indirect": not args.exclude_indirect,
         "results": results,
         "metric_definition": {
-            "accuracy_union": "TP / |GT ∪ SBOM| (Jaccard-style, since TN is undefined for SBOM comparison)",
+            "accuracy_union": "TP / |GT union SBOM| (Jaccard-style, since TN is undefined for SBOM comparison)",
             "f1": "2TP / (2TP + FP + FN)",
         },
     }

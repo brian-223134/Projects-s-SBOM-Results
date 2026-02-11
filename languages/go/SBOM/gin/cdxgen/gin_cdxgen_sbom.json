@@ -1,0 +1,2005 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:7bd35c2e-d594-4024-aa28-9f291cc4ffd6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-02-11T02:37:26Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "12.0.0",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@12.0.0",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@12.0.0",
+          "publisher": "OWASP Foundation",
+          "authors": [
+            {
+              "name": "OWASP Foundation"
+            }
+          ]
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "component": {
+      "name": "github.com/gin-gonic/gin",
+      "type": "application",
+      "purl": "pkg:golang/github.com/gin-gonic/gin",
+      "bom-ref": "pkg:golang/github.com/gin-gonic/gin"
+    },
+    "properties": [
+      {
+        "name": "cdx:bom:componentTypes",
+        "value": "github\\ngolang"
+      },
+      {
+        "name": "cdx:bom:componentNamespaces",
+        "value": "actions\\naquasecurity\\ncodecov\\ngithub.com/bytedance\\ngithub.com/bytedance/sonic\\ngithub.com/cloudwego\\ngithub.com/davecgh\\ngithub.com/gabriel-vasile\\ngithub.com/gin-contrib\\ngithub.com/go-playground\\ngithub.com/go-playground/validator\\ngithub.com/goccy\\ngithub.com/json-iterator\\ngithub.com/klauspost/cpuid\\ngithub.com/kr\\ngithub.com/leodido\\ngithub.com/mattn\\ngithub.com/modern-go\\ngithub.com/pelletier/go-toml\\ngithub.com/pmezard\\ngithub.com/quic-go\\ngithub.com/stretchr\\ngithub.com/twitchyliquid64\\ngithub.com/ugorji/go\\ngithub/codeql-action\\ngo.mongodb.org\\ngo.uber.org\\ngolang.org/x\\ngolangci\\ngoogle.golang.org\\ngopkg.in\\ngoreleaser"
+      },
+      {
+        "name": "cdx:bom:componentSrcFiles",
+        "value": ".github/workflows/codeql.yml\\n.github/workflows/gin.yml\\n.github/workflows/goreleaser.yml\\n.github/workflows/trivy-scan.yml\\ngo.mod"
+      }
+    ]
+  },
+  "components": [
+    {
+      "group": "",
+      "name": "github.com/bytedance/gopkg",
+      "version": "v0.1.3",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e7be95bc9f9e260c82cdd8d2f9ce3eefb405de9eee6dbb6228044fdd3c5db9c3"
+        }
+      ],
+      "purl": "pkg:golang/github.com/bytedance/gopkg@v0.1.3",
+      "type": "library",
+      "bom-ref": "pkg:golang/github.com/bytedance/gopkg@v0.1.3",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "github.com/bytedance/sonic",
+      "version": "v1.14.2",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4fcd220c42de1e21ca49cd02f6db9b172822b97a06ceb9232b35f6aae031f7cd"
+        }
+      ],
+      "purl": "pkg:golang/github.com/bytedance/sonic@v1.14.2",
+      "type": "library",
+      "bom-ref": "pkg:golang/github.com/bytedance/sonic@v1.14.2",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.7,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.7,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "github.com/bytedance/sonic/loader",
+      "version": "v0.4.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "011e0d6029390ddcd98b36797631aa43dd9e12108271d7f9c7beee758892251a"
+        }
+      ],
+      "purl": "pkg:golang/github.com/bytedance/sonic/loader@v0.4.0",
+      "type": "library",
+      "bom-ref": "pkg:golang/github.com/bytedance/sonic/loader@v0.4.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "github.com/cloudwego/base64x",
+      "version": "v0.1.6",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "385725a1cd7cec55c36981efacd223c527bc9dc9f438e33c8041df82107620f5"
+        }
+      ],
+      "purl": "pkg:golang/github.com/cloudwego/base64x@v0.1.6",
+      "type": "library",
+      "bom-ref": "pkg:golang/github.com/cloudwego/base64x@v0.1.6",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "github.com/davecgh/go-spew",
+      "version": "v1.1.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "27b63c61c5b636286c826568fe6bf7940c25fec90e37888b1e34ac23e7391f7f"
+        }
+      ],
+      "purl": "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
+      "type": "library",
+      "bom-ref": "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "github.com/gabriel-vasile/mimetype",
+      "version": "v1.4.10",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "77ef4ec72a35c13cd67725543cc99716fa7817db5e6b5f09f2e7c0efbe00077b"
+        }
+      ],
+      "purl": "pkg:golang/github.com/gabriel-vasile/mimetype@v1.4.10",
+      "type": "library",
+      "bom-ref": "pkg:golang/github.com/gabriel-vasile/mimetype@v1.4.10",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "github.com/gin-contrib/sse",
+      "version": "v1.1.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "871459e6056958c4fb674074812358aaab1208d209323cef9ba7ea0b3f6f8f03"
+        }
+      ],
+      "purl": "pkg:golang/github.com/gin-contrib/sse@v1.1.0",
+      "type": "library",
+      "bom-ref": "pkg:golang/github.com/gin-contrib/sse@v1.1.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.7,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.7,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "github.com/go-playground/locales",
+      "version": "v0.14.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "871aea2d5beb2bae7e470adde4573a1763bbe89fcdb96f6dd2c8e75aa1b5b256"
+        }
+      ],
+      "purl": "pkg:golang/github.com/go-playground/locales@v0.14.1",
+      "type": "framework",
+      "bom-ref": "pkg:golang/github.com/go-playground/locales@v0.14.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      },
+      "tags": [
+        "framework"
+      ]
+    },
+    {
+      "group": "",
+      "name": "github.com/go-playground/universal-translator",
+      "version": "v0.18.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c5e918f9424a36e5fd58ff754e9c121f654c9437f6f148f6e010a9d3c6454d46"
+        }
+      ],
+      "purl": "pkg:golang/github.com/go-playground/universal-translator@v0.18.1",
+      "type": "framework",
+      "bom-ref": "pkg:golang/github.com/go-playground/universal-translator@v0.18.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      },
+      "tags": [
+        "framework"
+      ]
+    },
+    {
+      "group": "",
+      "name": "github.com/go-playground/validator/v10",
+      "version": "v10.28.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1a823a2354a33c187da7bca4344ff28f77c561bc833a9c0c9f929777e9b68545"
+        }
+      ],
+      "purl": "pkg:golang/github.com/go-playground/validator/v10@v10.28.0",
+      "type": "framework",
+      "bom-ref": "pkg:golang/github.com/go-playground/validator/v10@v10.28.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.7,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.7,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      },
+      "tags": [
+        "framework"
+      ]
+    },
+    {
+      "group": "",
+      "name": "github.com/goccy/go-json",
+      "version": "v0.10.5",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a2aedea35e52840869ef4027c1de65817da92df392dd00a2c14fcf50bb572fa3"
+        }
+      ],
+      "purl": "pkg:golang/github.com/goccy/go-json@v0.10.5",
+      "type": "library",
+      "bom-ref": "pkg:golang/github.com/goccy/go-json@v0.10.5",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.7,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.7,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "github.com/goccy/go-yaml",
+      "version": "v1.19.1",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5c1babb3b80af004db5b864f18a81c6eb63506be7a3dd33af45ecb905462d640"
+        }
+      ],
+      "purl": "pkg:golang/github.com/goccy/go-yaml@v1.19.1",
+      "type": "library",
+      "bom-ref": "pkg:golang/github.com/goccy/go-yaml@v1.19.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.7,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.7,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "github.com/json-iterator/go",
+      "version": "v1.1.12",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7b7d0b4aac28a1969efd4c2511b476f39d8677c86342f2681e64f84e784d181a"
+        }
+      ],
+      "purl": "pkg:golang/github.com/json-iterator/go@v1.1.12",
+      "type": "library",
+      "bom-ref": "pkg:golang/github.com/json-iterator/go@v1.1.12",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.7,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.7,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "github.com/klauspost/cpuid/v2",
+      "version": "v2.3.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "86ac248322229cd0f49847afd348c9602c4f3554555c541ebb55ca96893aa0ed"
+        }
+      ],
+      "purl": "pkg:golang/github.com/klauspost/cpuid/v2@v2.3.0",
+      "type": "library",
+      "bom-ref": "pkg:golang/github.com/klauspost/cpuid/v2@v2.3.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "github.com/kr/text",
+      "version": "v0.2.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "78b7abef6d937a4886b8c92274cc42fe9334e255847ab687514981c3c97682b1"
+        }
+      ],
+      "purl": "pkg:golang/github.com/kr/text@v0.2.0",
+      "type": "library",
+      "bom-ref": "pkg:golang/github.com/kr/text@v0.2.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "github.com/leodido/go-urn",
+      "version": "v1.4.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6efc5cf8c5712ca078cf4d23775cfe0efcebe3ba0edf617f4123634813a51712"
+        }
+      ],
+      "purl": "pkg:golang/github.com/leodido/go-urn@v1.4.0",
+      "type": "library",
+      "bom-ref": "pkg:golang/github.com/leodido/go-urn@v1.4.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "github.com/mattn/go-isatty",
+      "version": "v0.0.20",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5be57c3e5b534cc3af2af01e247ec8bae712f784b60ba8df2bf0fb753093a376"
+        }
+      ],
+      "purl": "pkg:golang/github.com/mattn/go-isatty@v0.0.20",
+      "type": "library",
+      "bom-ref": "pkg:golang/github.com/mattn/go-isatty@v0.0.20",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.7,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.7,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "github.com/modern-go/concurrent",
+      "version": "v0.0.0-20180306012644-bacd9c7ef1dd",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e9d242d2600fe2291821bbf273b7e28e358975d4322e7f08837241e42aa807d4"
+        }
+      ],
+      "purl": "pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd",
+      "type": "library",
+      "bom-ref": "pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "github.com/modern-go/reflect2",
+      "version": "v1.0.2",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c96b9ebe780c389a42cb9d8559632f502f30b3b9bf2c9b236330dad3fafc96e9"
+        }
+      ],
+      "purl": "pkg:golang/github.com/modern-go/reflect2@v1.0.2",
+      "type": "library",
+      "bom-ref": "pkg:golang/github.com/modern-go/reflect2@v1.0.2",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.7,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.7,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "github.com/pelletier/go-toml/v2",
+      "version": "v2.2.4",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "da022a36ffaa7f14954bb70cdb12502ad2d24cb504f55f2df52b6dfa1e7a9826"
+        }
+      ],
+      "purl": "pkg:golang/github.com/pelletier/go-toml/v2@v2.2.4",
+      "type": "library",
+      "bom-ref": "pkg:golang/github.com/pelletier/go-toml/v2@v2.2.4",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.7,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.7,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "github.com/pmezard/go-difflib",
+      "version": "v1.0.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "88a1fbee4a05858c532b5a5c46790a92a7d3a20b1b83b819355638b110d867fe"
+        }
+      ],
+      "purl": "pkg:golang/github.com/pmezard/go-difflib@v1.0.0",
+      "type": "library",
+      "bom-ref": "pkg:golang/github.com/pmezard/go-difflib@v1.0.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "github.com/quic-go/qpack",
+      "version": "v0.6.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "954a4b282862f278c1e2dcb66c52d7db1e20cc3a97c14a5a3b50cff6a3036482"
+        }
+      ],
+      "purl": "pkg:golang/github.com/quic-go/qpack@v0.6.0",
+      "type": "library",
+      "bom-ref": "pkg:golang/github.com/quic-go/qpack@v0.6.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "github.com/quic-go/quic-go",
+      "version": "v0.57.1",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "972e100408c7036561767c61a2346c09439e27029883eb5a0e5a2cf76c5bd7eb"
+        }
+      ],
+      "purl": "pkg:golang/github.com/quic-go/quic-go@v0.57.1",
+      "type": "library",
+      "bom-ref": "pkg:golang/github.com/quic-go/quic-go@v0.57.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.7,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.7,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "github.com/stretchr/testify",
+      "version": "v1.11.1",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c19c1f5b7b1c2e044afb6de03bae5065e7caa4a4119dfcfab03f7cd4d9b807a5"
+        }
+      ],
+      "purl": "pkg:golang/github.com/stretchr/testify@v1.11.1",
+      "type": "library",
+      "bom-ref": "pkg:golang/github.com/stretchr/testify@v1.11.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.7,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.7,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "github.com/twitchyliquid64/golang-asm",
+      "version": "v0.15.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6b59556ff0ed3ef081f1fb254598409e00b6f9a6354160a4dc279d8ff19db74f"
+        }
+      ],
+      "purl": "pkg:golang/github.com/twitchyliquid64/golang-asm@v0.15.1",
+      "type": "library",
+      "bom-ref": "pkg:golang/github.com/twitchyliquid64/golang-asm@v0.15.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "github.com/ugorji/go/codec",
+      "version": "v1.3.1",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a51055b4148a97becadf406ff11d8ff9c2d219a4ed7b1e9fb00d968ea99fc63e"
+        }
+      ],
+      "purl": "pkg:golang/github.com/ugorji/go/codec@v1.3.1",
+      "type": "library",
+      "bom-ref": "pkg:golang/github.com/ugorji/go/codec@v1.3.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.7,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.7,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "go.mongodb.org/mongo-driver",
+      "version": "v1.17.7",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1f2d388bb3b6902e114b4e99ae13d1aa3feee034d89050c001c723fab54aaa04"
+        }
+      ],
+      "purl": "pkg:golang/go.mongodb.org/mongo-driver@v1.17.7",
+      "type": "library",
+      "bom-ref": "pkg:golang/go.mongodb.org/mongo-driver@v1.17.7",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.7,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.7,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "go.uber.org/mock",
+      "version": "v0.6.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2a2549e01a9925a323e2cbdd7e61ccd00531e0d2583bc64da4f9d99f567e0415"
+        }
+      ],
+      "purl": "pkg:golang/go.uber.org/mock@v0.6.0",
+      "type": "library",
+      "bom-ref": "pkg:golang/go.uber.org/mock@v0.6.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "golang.org/x/arch",
+      "version": "v0.22.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "74d1e839e2a2ca36bb193bc5f4d252d65dd9db29eda5037382b8e1d5c535d370"
+        }
+      ],
+      "purl": "pkg:golang/golang.org/x/arch@v0.22.0",
+      "type": "library",
+      "bom-ref": "pkg:golang/golang.org/x/arch@v0.22.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "golang.org/x/crypto",
+      "version": "v0.45.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5d31abae4189bdeec260aec9f0f130c38698ee0337a8c08495c250f27f09757e"
+        }
+      ],
+      "purl": "pkg:golang/golang.org/x/crypto@v0.45.0",
+      "type": "library",
+      "bom-ref": "pkg:golang/golang.org/x/crypto@v0.45.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "golang.org/x/net",
+      "version": "v0.47.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fe3371b6482ae7259419891a646aa8dbb71f199d5ce4d7a7d37698aeb2a95515"
+        }
+      ],
+      "purl": "pkg:golang/golang.org/x/net@v0.47.0",
+      "type": "library",
+      "bom-ref": "pkg:golang/golang.org/x/net@v0.47.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.7,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.7,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "golang.org/x/sys",
+      "version": "v0.38.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3a0907a2d9c6883226a1c45cb810016011177fc03d6bcedefee5e3a7d5d3de4b"
+        }
+      ],
+      "purl": "pkg:golang/golang.org/x/sys@v0.38.0",
+      "type": "library",
+      "bom-ref": "pkg:golang/golang.org/x/sys@v0.38.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "golang.org/x/text",
+      "version": "v0.31.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b4a44096feb5c8a2231861d7ff8b4fd4b4db735dd849e735a71544597cdfa1e3"
+        }
+      ],
+      "purl": "pkg:golang/golang.org/x/text@v0.31.0",
+      "type": "library",
+      "bom-ref": "pkg:golang/golang.org/x/text@v0.31.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "google.golang.org/protobuf",
+      "version": "v1.36.10",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1d37fe0ab2a7d82de0e52f15226cbab5d714bc2b246b6901ee3db75dfcc3a5ca"
+        }
+      ],
+      "purl": "pkg:golang/google.golang.org/protobuf@v1.36.10",
+      "type": "library",
+      "bom-ref": "pkg:golang/google.golang.org/protobuf@v1.36.10",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.7,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.7,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "gopkg.in/yaml.v3",
+      "version": "v3.0.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2b8bb293bcfb04210faaee84f82eb861fbf5710ee4cfbac866f89498df848043"
+        }
+      ],
+      "purl": "pkg:golang/gopkg.in/yaml.v3@v3.0.1",
+      "type": "library",
+      "bom-ref": "pkg:golang/gopkg.in/yaml.v3@v3.0.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "go.mod"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "go.mod"
+              }
+            ],
+            "concludedValue": "go.mod"
+          }
+        ]
+      }
+    },
+    {
+      "group": "actions",
+      "name": "checkout",
+      "version": "v6",
+      "purl": "pkg:github/actions/checkout@v6",
+      "type": "application",
+      "bom-ref": "pkg:github/actions/checkout@v6",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/trivy-scan.yml"
+        },
+        {
+          "name": "cdx:actions:isOfficial",
+          "value": "true"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/goreleaser.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/gin.yml"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/codeql.yml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.6,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.6,
+                "value": ".github/workflows/codeql.yml"
+              }
+            ],
+            "concludedValue": ".github/workflows/codeql.yml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "aquasecurity",
+      "name": "trivy-action",
+      "version": "0.33.1",
+      "purl": "pkg:github/aquasecurity/trivy-action@0.33.1",
+      "type": "application",
+      "bom-ref": "pkg:github/aquasecurity/trivy-action@0.33.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/trivy-scan.yml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.6,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.6,
+                "value": ".github/workflows/trivy-scan.yml"
+              }
+            ],
+            "concludedValue": ".github/workflows/trivy-scan.yml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "github/codeql-action",
+      "name": "upload-sarif",
+      "version": "v4",
+      "purl": "pkg:github/github/codeql-action/upload-sarif@v4",
+      "type": "application",
+      "bom-ref": "pkg:github/github/codeql-action/upload-sarif@v4",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/trivy-scan.yml"
+        },
+        {
+          "name": "cdx:actions:isOfficial",
+          "value": "true"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.6,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.6,
+                "value": ".github/workflows/trivy-scan.yml"
+              }
+            ],
+            "concludedValue": ".github/workflows/trivy-scan.yml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "actions",
+      "name": "setup-go",
+      "version": "v6",
+      "purl": "pkg:github/actions/setup-go@v6",
+      "type": "application",
+      "bom-ref": "pkg:github/actions/setup-go@v6",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/goreleaser.yml"
+        },
+        {
+          "name": "cdx:actions:isOfficial",
+          "value": "true"
+        },
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/gin.yml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.6,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.6,
+                "value": ".github/workflows/gin.yml"
+              }
+            ],
+            "concludedValue": ".github/workflows/gin.yml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "goreleaser",
+      "name": "goreleaser-action",
+      "version": "v6",
+      "purl": "pkg:github/goreleaser/goreleaser-action@v6",
+      "type": "application",
+      "bom-ref": "pkg:github/goreleaser/goreleaser-action@v6",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/goreleaser.yml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.6,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.6,
+                "value": ".github/workflows/goreleaser.yml"
+              }
+            ],
+            "concludedValue": ".github/workflows/goreleaser.yml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "golangci",
+      "name": "golangci-lint-action",
+      "version": "v9",
+      "purl": "pkg:github/golangci/golangci-lint-action@v9",
+      "type": "application",
+      "bom-ref": "pkg:github/golangci/golangci-lint-action@v9",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/gin.yml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.6,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.6,
+                "value": ".github/workflows/gin.yml"
+              }
+            ],
+            "concludedValue": ".github/workflows/gin.yml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "actions",
+      "name": "cache",
+      "version": "v5",
+      "purl": "pkg:github/actions/cache@v5",
+      "type": "application",
+      "bom-ref": "pkg:github/actions/cache@v5",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/gin.yml"
+        },
+        {
+          "name": "cdx:actions:isOfficial",
+          "value": "true"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.6,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.6,
+                "value": ".github/workflows/gin.yml"
+              }
+            ],
+            "concludedValue": ".github/workflows/gin.yml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "codecov",
+      "name": "codecov-action",
+      "version": "v5",
+      "purl": "pkg:github/codecov/codecov-action@v5",
+      "type": "application",
+      "bom-ref": "pkg:github/codecov/codecov-action@v5",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/gin.yml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.6,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.6,
+                "value": ".github/workflows/gin.yml"
+              }
+            ],
+            "concludedValue": ".github/workflows/gin.yml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "github/codeql-action",
+      "name": "init",
+      "version": "v4",
+      "purl": "pkg:github/github/codeql-action/init@v4",
+      "type": "application",
+      "bom-ref": "pkg:github/github/codeql-action/init@v4",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/codeql.yml"
+        },
+        {
+          "name": "cdx:actions:isOfficial",
+          "value": "true"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.6,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.6,
+                "value": ".github/workflows/codeql.yml"
+              }
+            ],
+            "concludedValue": ".github/workflows/codeql.yml"
+          }
+        ]
+      }
+    },
+    {
+      "group": "github/codeql-action",
+      "name": "analyze",
+      "version": "v4",
+      "purl": "pkg:github/github/codeql-action/analyze@v4",
+      "type": "application",
+      "bom-ref": "pkg:github/github/codeql-action/analyze@v4",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": ".github/workflows/codeql.yml"
+        },
+        {
+          "name": "cdx:actions:isOfficial",
+          "value": "true"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.6,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.6,
+                "value": ".github/workflows/codeql.yml"
+              }
+            ],
+            "concludedValue": ".github/workflows/codeql.yml"
+          }
+        ]
+      }
+    }
+  ],
+  "services": [],
+  "dependencies": [
+    {
+      "ref": "pkg:golang/github.com/bytedance/gopkg@v0.1.3",
+      "dependsOn": [
+        "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
+        "pkg:golang/github.com/pmezard/go-difflib@v1.0.0",
+        "pkg:golang/gopkg.in/yaml.v3@v3.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:golang/github.com/bytedance/sonic/loader@v0.4.0",
+      "dependsOn": [
+        "pkg:golang/github.com/davecgh/go-spew@v1.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:golang/github.com/bytedance/sonic@v1.14.2",
+      "dependsOn": [
+        "pkg:golang/github.com/bytedance/gopkg@v0.1.3",
+        "pkg:golang/github.com/bytedance/sonic/loader@v0.4.0",
+        "pkg:golang/github.com/cloudwego/base64x@v0.1.6",
+        "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
+        "pkg:golang/github.com/pmezard/go-difflib@v1.0.0",
+        "pkg:golang/github.com/twitchyliquid64/golang-asm@v0.15.1",
+        "pkg:golang/gopkg.in/yaml.v3@v3.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:golang/github.com/cloudwego/base64x@v0.1.6",
+      "dependsOn": [
+        "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
+        "pkg:golang/github.com/pmezard/go-difflib@v1.0.0",
+        "pkg:golang/gopkg.in/yaml.v3@v3.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:golang/github.com/gabriel-vasile/mimetype@v1.4.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:golang/github.com/gin-contrib/sse@v1.1.0",
+      "dependsOn": [
+        "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
+        "pkg:golang/github.com/pmezard/go-difflib@v1.0.0",
+        "pkg:golang/gopkg.in/yaml.v3@v3.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:golang/github.com/gin-gonic/gin",
+      "dependsOn": [
+        "pkg:golang/github.com/bytedance/sonic@v1.14.2",
+        "pkg:golang/github.com/gin-contrib/sse@v1.1.0",
+        "pkg:golang/github.com/go-playground/validator/v10@v10.28.0",
+        "pkg:golang/github.com/goccy/go-json@v0.10.5",
+        "pkg:golang/github.com/goccy/go-yaml@v1.19.1",
+        "pkg:golang/github.com/json-iterator/go@v1.1.12",
+        "pkg:golang/github.com/mattn/go-isatty@v0.0.20",
+        "pkg:golang/github.com/modern-go/reflect2@v1.0.2",
+        "pkg:golang/github.com/pelletier/go-toml/v2@v2.2.4",
+        "pkg:golang/github.com/quic-go/quic-go@v0.57.1",
+        "pkg:golang/github.com/stretchr/testify@v1.11.1",
+        "pkg:golang/github.com/ugorji/go/codec@v1.3.1",
+        "pkg:golang/go.mongodb.org/mongo-driver@v1.17.7",
+        "pkg:golang/golang.org/x/net@v0.47.0",
+        "pkg:golang/google.golang.org/protobuf@v1.36.10"
+      ]
+    },
+    {
+      "ref": "pkg:golang/github.com/go-playground/locales@v0.14.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:golang/github.com/go-playground/universal-translator@v0.18.1",
+      "dependsOn": [
+        "pkg:golang/github.com/go-playground/locales@v0.14.1"
+      ]
+    },
+    {
+      "ref": "pkg:golang/github.com/go-playground/validator/v10@v10.28.0",
+      "dependsOn": [
+        "pkg:golang/github.com/gabriel-vasile/mimetype@v1.4.10",
+        "pkg:golang/github.com/go-playground/locales@v0.14.1",
+        "pkg:golang/github.com/go-playground/universal-translator@v0.18.1",
+        "pkg:golang/github.com/leodido/go-urn@v1.4.0"
+      ]
+    },
+    {
+      "ref": "pkg:golang/github.com/goccy/go-json@v0.10.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:golang/github.com/goccy/go-yaml@v1.19.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:golang/github.com/json-iterator/go@v1.1.12",
+      "dependsOn": [
+        "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
+        "pkg:golang/github.com/modern-go/reflect2@v1.0.2"
+      ]
+    },
+    {
+      "ref": "pkg:golang/github.com/klauspost/cpuid/v2@v2.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:golang/github.com/kr/text@v0.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:golang/github.com/leodido/go-urn@v1.4.0",
+      "dependsOn": [
+        "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
+        "pkg:golang/github.com/pmezard/go-difflib@v1.0.0",
+        "pkg:golang/gopkg.in/yaml.v3@v3.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:golang/github.com/mattn/go-isatty@v0.0.20",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:golang/github.com/modern-go/reflect2@v1.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:golang/github.com/pelletier/go-toml/v2@v2.2.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:golang/github.com/pmezard/go-difflib@v1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:golang/github.com/quic-go/qpack@v0.6.0",
+      "dependsOn": [
+        "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
+        "pkg:golang/github.com/pmezard/go-difflib@v1.0.0",
+        "pkg:golang/gopkg.in/yaml.v3@v3.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:golang/github.com/quic-go/quic-go@v0.57.1",
+      "dependsOn": [
+        "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
+        "pkg:golang/github.com/pmezard/go-difflib@v1.0.0",
+        "pkg:golang/github.com/quic-go/qpack@v0.6.0",
+        "pkg:golang/github.com/stretchr/testify@v1.11.1",
+        "pkg:golang/gopkg.in/yaml.v3@v3.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:golang/github.com/stretchr/objx@v0.4.0",
+      "dependsOn": [
+        "pkg:golang/github.com/davecgh/go-spew@v1.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:golang/github.com/stretchr/objx@v0.5.2",
+      "dependsOn": [
+        "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
+        "pkg:golang/github.com/pmezard/go-difflib@v1.0.0",
+        "pkg:golang/gopkg.in/yaml.v3@v3.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:golang/github.com/stretchr/testify@v1.10.0",
+      "dependsOn": [
+        "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
+        "pkg:golang/github.com/pmezard/go-difflib@v1.0.0",
+        "pkg:golang/gopkg.in/yaml.v3@v3.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:golang/github.com/stretchr/testify@v1.11.1",
+      "dependsOn": [
+        "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
+        "pkg:golang/github.com/pmezard/go-difflib@v1.0.0",
+        "pkg:golang/gopkg.in/yaml.v3@v3.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:golang/github.com/stretchr/testify@v1.3.0",
+      "dependsOn": [
+        "pkg:golang/github.com/pmezard/go-difflib@v1.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:golang/github.com/stretchr/testify@v1.7.1",
+      "dependsOn": [
+        "pkg:golang/github.com/pmezard/go-difflib@v1.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:golang/github.com/stretchr/testify@v1.8.0",
+      "dependsOn": [
+        "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
+        "pkg:golang/github.com/pmezard/go-difflib@v1.0.0",
+        "pkg:golang/gopkg.in/yaml.v3@v3.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:golang/github.com/stretchr/testify@v1.8.4",
+      "dependsOn": [
+        "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
+        "pkg:golang/github.com/pmezard/go-difflib@v1.0.0",
+        "pkg:golang/gopkg.in/yaml.v3@v3.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:golang/github.com/twitchyliquid64/golang-asm@v0.15.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:golang/github.com/ugorji/go/codec@v1.3.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:golang/go.mongodb.org/mongo-driver@v1.17.7",
+      "dependsOn": [
+        "pkg:golang/github.com/davecgh/go-spew@v1.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:golang/go.uber.org/mock@v0.6.0",
+      "dependsOn": [
+        "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
+        "pkg:golang/github.com/pmezard/go-difflib@v1.0.0",
+        "pkg:golang/gopkg.in/yaml.v3@v3.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:golang/golang.org/x/arch@v0.22.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:golang/golang.org/x/crypto@v0.45.0",
+      "dependsOn": [
+        "pkg:golang/golang.org/x/net@v0.47.0",
+        "pkg:golang/golang.org/x/sys@v0.38.0",
+        "pkg:golang/golang.org/x/text@v0.31.0"
+      ]
+    },
+    {
+      "ref": "pkg:golang/golang.org/x/net@v0.47.0",
+      "dependsOn": [
+        "pkg:golang/golang.org/x/sys@v0.38.0",
+        "pkg:golang/golang.org/x/text@v0.31.0"
+      ]
+    },
+    {
+      "ref": "pkg:golang/golang.org/x/sys@v0.38.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:golang/golang.org/x/text@v0.31.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:golang/google.golang.org/protobuf@v1.36.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:golang/gopkg.in/yaml.v3@v3.0.1",
+      "dependsOn": []
+    }
+  ],
+  "annotations": [
+    {
+      "bom-ref": "metadata-annotations",
+      "subjects": [
+        "pkg:golang/github.com/gin-gonic/gin"
+      ],
+      "annotator": {
+        "component": {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "12.0.0",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@12.0.0",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@12.0.0",
+          "publisher": "OWASP Foundation",
+          "authors": [
+            {
+              "name": "OWASP Foundation"
+            }
+          ]
+        }
+      },
+      "timestamp": "2026-02-11T02:37:26Z",
+      "text": "This Software Bill-of-Materials (SBOM) document was created on Wednesday, February 11, 2026 with cdxgen. The data was captured during the build lifecycle phase. The document describes an application named 'github.com/gin-gonic/gin'. There are 45 components. 2 package type(s) and 32 purl namespaces are described in the document under components."
+    }
+  ]
+}

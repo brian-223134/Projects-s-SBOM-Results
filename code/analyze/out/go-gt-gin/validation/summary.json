@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-02-11T02:40:02.755894+00:00",
+  "gt_dir": "code/analyze/out/go-gt-gin",
+  "root_module": "github.com/gin-gonic/gin",
+  "include_indirect": true,
+  "results": [
+    {
+      "sbom": "languages/go/SBOM/gin/cdxgen/gin_cdxgen_sbom.json",
+      "observed_count": 35,
+      "expected_count": 35,
+      "tp": 35,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy_union": 1.0,
+      "fp_reasons": {}
+    },
+    {
+      "sbom": "languages/go/SBOM/gin/syft/gin_syft_sbom.json",
+      "observed_count": 35,
+      "expected_count": 35,
+      "tp": 35,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy_union": 1.0,
+      "fp_reasons": {}
+    },
+    {
+      "sbom": "languages/go/SBOM/gin/trivy/gin_trivy_sbom.json",
+      "observed_count": 35,
+      "expected_count": 35,
+      "tp": 35,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy_union": 1.0,
+      "fp_reasons": {}
+    }
+  ],
+  "metric_definition": {
+    "accuracy_union": "TP / |GT ∪ SBOM| (Jaccard-style, since TN is undefined for SBOM comparison)",
+    "f1": "2TP / (2TP + FP + FN)"
+  }
+}
