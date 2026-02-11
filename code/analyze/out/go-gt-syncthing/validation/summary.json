@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-02-11T01:53:46.118220+00:00",
+  "gt_dir": "code/analyze/out/go-gt-syncthing",
+  "root_module": "github.com/syncthing/syncthing",
+  "include_indirect": true,
+  "results": [
+    {
+      "sbom": "languages/go/SBOM/syncthing/cdxgen/syncthing_cdxgen_sbom.json",
+      "observed_count": 99,
+      "expected_count": 97,
+      "tp": 97,
+      "fp": 2,
+      "fn": 0,
+      "precision": 0.9797979797979798,
+      "recall": 1.0,
+      "f1": 0.989795918367347,
+      "accuracy_union": 0.9797979797979798,
+      "fp_reasons": {
+        "other": 2
+      }
+    },
+    {
+      "sbom": "languages/go/SBOM/syncthing/syft/syncthing_syft_sbom.json",
+      "observed_count": 97,
+      "expected_count": 97,
+      "tp": 95,
+      "fp": 2,
+      "fn": 2,
+      "precision": 0.979381443298969,
+      "recall": 0.979381443298969,
+      "f1": 0.979381443298969,
+      "accuracy_union": 0.9595959595959596,
+      "fp_reasons": {
+        "other": 2
+      }
+    },
+    {
+      "sbom": "languages/go/SBOM/syncthing/trivy/syncthing_trivy_sbom.json",
+      "observed_count": 97,
+      "expected_count": 97,
+      "tp": 95,
+      "fp": 2,
+      "fn": 2,
+      "precision": 0.979381443298969,
+      "recall": 0.979381443298969,
+      "f1": 0.979381443298969,
+      "accuracy_union": 0.9595959595959596,
+      "fp_reasons": {
+        "other": 2
+      }
+    }
+  ],
+  "metric_definition": {
+    "accuracy_union": "TP / |GT ∪ SBOM| (Jaccard-style, since TN is undefined for SBOM comparison)",
+    "f1": "2TP / (2TP + FP + FN)"
+  }
+}

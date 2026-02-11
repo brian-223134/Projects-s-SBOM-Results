@@ -1,0 +1,733 @@
+{
+  "generated_at": "2026-02-11T01:53:38.807790+00:00",
+  "root": "languages/go/project/syncthing",
+  "go_mod_files": [
+    "languages/go/project/syncthing/go.mod"
+  ],
+  "modules": [
+    {
+      "file": "languages/go/project/syncthing/go.mod",
+      "module": "github.com/syncthing/syncthing",
+      "go_version": "1.24.0",
+      "requires": [
+        {
+          "module": "github.com/AudriusButkevicius/recli",
+          "version": "v0.0.7",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 6
+        },
+        {
+          "module": "github.com/alecthomas/kong",
+          "version": "v1.12.1",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 7
+        },
+        {
+          "module": "github.com/aws/aws-sdk-go",
+          "version": "v1.55.8",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 8
+        },
+        {
+          "module": "github.com/calmh/incontainer",
+          "version": "v1.0.0",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 9
+        },
+        {
+          "module": "github.com/calmh/xdr",
+          "version": "v1.2.0",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 10
+        },
+        {
+          "module": "github.com/ccding/go-stun",
+          "version": "v0.1.5",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 11
+        },
+        {
+          "module": "github.com/coreos/go-semver",
+          "version": "v0.3.1",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 12
+        },
+        {
+          "module": "github.com/d4l3k/messagediff",
+          "version": "v1.2.1",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 13
+        },
+        {
+          "module": "github.com/getsentry/raven-go",
+          "version": "v0.2.0",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 14
+        },
+        {
+          "module": "github.com/go-ldap/ldap/v3",
+          "version": "v3.4.11",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 15
+        },
+        {
+          "module": "github.com/gobwas/glob",
+          "version": "v0.2.3",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 16
+        },
+        {
+          "module": "github.com/gofrs/flock",
+          "version": "v0.12.1",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 17
+        },
+        {
+          "module": "github.com/hashicorp/golang-lru/v2",
+          "version": "v2.0.7",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 18
+        },
+        {
+          "module": "github.com/jackpal/gateway",
+          "version": "v1.0.16",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 19
+        },
+        {
+          "module": "github.com/jackpal/go-nat-pmp",
+          "version": "v1.0.2",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 20
+        },
+        {
+          "module": "github.com/jmoiron/sqlx",
+          "version": "v1.4.0",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 21
+        },
+        {
+          "module": "github.com/julienschmidt/httprouter",
+          "version": "v1.3.0",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 22
+        },
+        {
+          "module": "github.com/kballard/go-shellquote",
+          "version": "v0.0.0-20180428030007-95032a82bc51",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 23
+        },
+        {
+          "module": "github.com/maruel/panicparse/v2",
+          "version": "v2.5.0",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 24
+        },
+        {
+          "module": "github.com/mattn/go-sqlite3",
+          "version": "v1.14.31",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 25
+        },
+        {
+          "module": "github.com/maxmind/geoipupdate/v6",
+          "version": "v6.1.0",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 26
+        },
+        {
+          "module": "github.com/miscreant/miscreant.go",
+          "version": "v0.0.0-20200214223636-26d376326b75",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 27
+        },
+        {
+          "module": "github.com/oschwald/geoip2-golang",
+          "version": "v1.13.0",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 28
+        },
+        {
+          "module": "github.com/pierrec/lz4/v4",
+          "version": "v4.1.22",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 29
+        },
+        {
+          "module": "github.com/prometheus/client_golang",
+          "version": "v1.23.0",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 30
+        },
+        {
+          "module": "github.com/puzpuzpuz/xsync/v3",
+          "version": "v3.5.1",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 31
+        },
+        {
+          "module": "github.com/quic-go/quic-go",
+          "version": "v0.56.0",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 32
+        },
+        {
+          "module": "github.com/rabbitmq/amqp091-go",
+          "version": "v1.10.0",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 33
+        },
+        {
+          "module": "github.com/rcrowley/go-metrics",
+          "version": "v0.0.0-20250401214520-65e299d6c5c9",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 34
+        },
+        {
+          "module": "github.com/shirou/gopsutil/v4",
+          "version": "v4.25.6",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 35
+        },
+        {
+          "module": "github.com/syncthing/notify",
+          "version": "v0.0.0-20250528144937-c7027d4f7465",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 36
+        },
+        {
+          "module": "github.com/syndtr/goleveldb",
+          "version": "v1.0.1-0.20220721030215-126854af5e6d",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 37
+        },
+        {
+          "module": "github.com/thejerf/suture/v4",
+          "version": "v4.0.6",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 38
+        },
+        {
+          "module": "github.com/urfave/cli",
+          "version": "v1.22.17",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 39
+        },
+        {
+          "module": "github.com/vitrun/qart",
+          "version": "v0.0.0-20160531060029-bf64b92db6b0",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 40
+        },
+        {
+          "module": "github.com/willabides/kongplete",
+          "version": "v0.4.0",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 41
+        },
+        {
+          "module": "github.com/wlynxg/anet",
+          "version": "v0.0.5",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 42
+        },
+        {
+          "module": "go.uber.org/automaxprocs",
+          "version": "v1.6.0",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 43
+        },
+        {
+          "module": "golang.org/x/crypto",
+          "version": "v0.44.0",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 44
+        },
+        {
+          "module": "golang.org/x/exp",
+          "version": "v0.0.0-20250811191247-51f88131bc50",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 45
+        },
+        {
+          "module": "golang.org/x/net",
+          "version": "v0.47.0",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 46
+        },
+        {
+          "module": "golang.org/x/sys",
+          "version": "v0.38.0",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 47
+        },
+        {
+          "module": "golang.org/x/text",
+          "version": "v0.31.0",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 48
+        },
+        {
+          "module": "golang.org/x/time",
+          "version": "v0.12.0",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 49
+        },
+        {
+          "module": "google.golang.org/protobuf",
+          "version": "v1.36.7",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 50
+        },
+        {
+          "module": "modernc.org/sqlite",
+          "version": "v1.38.2",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 51
+        },
+        {
+          "module": "sigs.k8s.io/yaml",
+          "version": "v1.6.0",
+          "indirect": false,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 52
+        },
+        {
+          "module": "github.com/Azure/go-ntlmssp",
+          "version": "v0.0.0-20221128193559-754e69321358",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 56
+        },
+        {
+          "module": "github.com/beorn7/perks",
+          "version": "v1.0.1",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 57
+        },
+        {
+          "module": "github.com/cenkalti/backoff/v4",
+          "version": "v4.3.0",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 58
+        },
+        {
+          "module": "github.com/certifi/gocertifi",
+          "version": "v0.0.0-20210507211836-431795d63e8d",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 59
+        },
+        {
+          "module": "github.com/cespare/xxhash/v2",
+          "version": "v2.3.0",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 60
+        },
+        {
+          "module": "github.com/cpuguy83/go-md2man/v2",
+          "version": "v2.0.7",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 61
+        },
+        {
+          "module": "github.com/davecgh/go-spew",
+          "version": "v1.1.1",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 62
+        },
+        {
+          "module": "github.com/dustin/go-humanize",
+          "version": "v1.0.1",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 63
+        },
+        {
+          "module": "github.com/ebitengine/purego",
+          "version": "v0.8.4",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 64
+        },
+        {
+          "module": "github.com/fsnotify/fsnotify",
+          "version": "v1.7.0",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 65
+        },
+        {
+          "module": "github.com/go-asn1-ber/asn1-ber",
+          "version": "v1.5.8-0.20250403174932-29230038a667",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 66
+        },
+        {
+          "module": "github.com/go-ole/go-ole",
+          "version": "v1.3.0",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 67
+        },
+        {
+          "module": "github.com/golang/snappy",
+          "version": "v0.0.4",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 68
+        },
+        {
+          "module": "github.com/google/pprof",
+          "version": "v0.0.0-20250423184734-337e5dd93bb4",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 69
+        },
+        {
+          "module": "github.com/google/uuid",
+          "version": "v1.6.0",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 70
+        },
+        {
+          "module": "github.com/hashicorp/errwrap",
+          "version": "v1.1.0",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 71
+        },
+        {
+          "module": "github.com/hashicorp/go-multierror",
+          "version": "v1.1.1",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 72
+        },
+        {
+          "module": "github.com/jmespath/go-jmespath",
+          "version": "v0.4.0",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 73
+        },
+        {
+          "module": "github.com/lufia/plan9stats",
+          "version": "v0.0.0-20240909124753-873cd0166683",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 74
+        },
+        {
+          "module": "github.com/mattn/go-isatty",
+          "version": "v0.0.20",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 75
+        },
+        {
+          "module": "github.com/maxbrunsfeld/counterfeiter/v6",
+          "version": "v6.12.0",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 76
+        },
+        {
+          "module": "github.com/munnerz/goautoneg",
+          "version": "v0.0.0-20191010083416-a7dc8b61c822",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 77
+        },
+        {
+          "module": "github.com/ncruces/go-strftime",
+          "version": "v0.1.9",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 78
+        },
+        {
+          "module": "github.com/nxadm/tail",
+          "version": "v1.4.11",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 79
+        },
+        {
+          "module": "github.com/oschwald/maxminddb-golang",
+          "version": "v1.13.1",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 80
+        },
+        {
+          "module": "github.com/pkg/errors",
+          "version": "v0.9.1",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 81
+        },
+        {
+          "module": "github.com/pmezard/go-difflib",
+          "version": "v1.0.0",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 82
+        },
+        {
+          "module": "github.com/posener/complete",
+          "version": "v1.2.3",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 83
+        },
+        {
+          "module": "github.com/power-devops/perfstat",
+          "version": "v0.0.0-20240221224432-82ca36839d55",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 84
+        },
+        {
+          "module": "github.com/prometheus/client_model",
+          "version": "v0.6.2",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 85
+        },
+        {
+          "module": "github.com/prometheus/common",
+          "version": "v0.65.0",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 86
+        },
+        {
+          "module": "github.com/prometheus/procfs",
+          "version": "v0.16.1",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 87
+        },
+        {
+          "module": "github.com/remyoudompheng/bigfft",
+          "version": "v0.0.0-20230129092748-24d4a6f8daec",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 88
+        },
+        {
+          "module": "github.com/riywo/loginshell",
+          "version": "v0.0.0-20200815045211-7d26008be1ab",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 89
+        },
+        {
+          "module": "github.com/rogpeppe/go-internal",
+          "version": "v1.12.0",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 90
+        },
+        {
+          "module": "github.com/russross/blackfriday/v2",
+          "version": "v2.1.0",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 91
+        },
+        {
+          "module": "github.com/stretchr/objx",
+          "version": "v0.5.2",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 92
+        },
+        {
+          "module": "github.com/stretchr/testify",
+          "version": "v1.10.0",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 93
+        },
+        {
+          "module": "github.com/tklauser/go-sysconf",
+          "version": "v0.3.15",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 94
+        },
+        {
+          "module": "github.com/tklauser/numcpus",
+          "version": "v0.10.0",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 95
+        },
+        {
+          "module": "github.com/yusufpapurcu/wmi",
+          "version": "v1.2.4",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 96
+        },
+        {
+          "module": "go.yaml.in/yaml/v2",
+          "version": "v2.4.2",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 97
+        },
+        {
+          "module": "golang.org/x/mod",
+          "version": "v0.30.0",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 98
+        },
+        {
+          "module": "golang.org/x/sync",
+          "version": "v0.18.0",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 99
+        },
+        {
+          "module": "golang.org/x/telemetry",
+          "version": "v0.0.0-20251111182119-bc8e575c7b54",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 100
+        },
+        {
+          "module": "golang.org/x/tools",
+          "version": "v0.39.0",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 101
+        },
+        {
+          "module": "gopkg.in/yaml.v3",
+          "version": "v3.0.1",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 102
+        },
+        {
+          "module": "modernc.org/libc",
+          "version": "v1.66.3",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 103
+        },
+        {
+          "module": "modernc.org/mathutil",
+          "version": "v1.7.1",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 104
+        },
+        {
+          "module": "modernc.org/memory",
+          "version": "v1.11.0",
+          "indirect": true,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 105
+        }
+      ],
+      "replaces": [
+        {
+          "old_module": "github.com/gobwas/glob",
+          "old_version": "v0.2.3",
+          "new_target": "github.com/calmh/glob",
+          "new_version": "v0.0.0-20220615080505-1d823af5017b",
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 109
+        },
+        {
+          "old_module": "github.com/mattn/go-sqlite3",
+          "old_version": "v1.14.31",
+          "new_target": "github.com/calmh/go-sqlite3",
+          "new_version": "v1.14.32-0.20250812195006-80712c77b76a",
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 112
+        }
+      ],
+      "tools": [
+        {
+          "module": "github.com/calmh/xdr/cmd/genxdr",
+          "version": null,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 115
+        },
+        {
+          "module": "github.com/maxbrunsfeld/counterfeiter/v6",
+          "version": null,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 116
+        },
+        {
+          "module": "golang.org/x/tools/cmd/goimports",
+          "version": null,
+          "file": "languages/go/project/syncthing/go.mod",
+          "line": 117
+        }
+      ]
+    }
+  ]
+}

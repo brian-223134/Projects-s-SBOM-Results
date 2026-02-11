@@ -1,0 +1,3 @@
+owner_module,owner_file,old_module,old_version,new_target,new_version,new_is_path,source_line
+github.com/syncthing/syncthing,languages/go/project/syncthing/go.mod,github.com/gobwas/glob,v0.2.3,github.com/calmh/glob,v0.0.0-20220615080505-1d823af5017b,false,109
+github.com/syncthing/syncthing,languages/go/project/syncthing/go.mod,github.com/mattn/go-sqlite3,v1.14.31,github.com/calmh/go-sqlite3,v1.14.32-0.20250812195006-80712c77b76a,false,112

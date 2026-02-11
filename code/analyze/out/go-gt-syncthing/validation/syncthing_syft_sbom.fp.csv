@@ -1,0 +1,3 @@
+module,version,purl
+github.com/calmh/glob,v0.0.0-20220615080505-1d823af5017b,pkg:golang/github.com/calmh/glob@v0.0.0-20220615080505-1d823af5017b
+github.com/calmh/go-sqlite3,v1.14.32-0.20250812195006-80712c77b76a,pkg:golang/github.com/calmh/go-sqlite3@v1.14.32-0.20250812195006-80712c77b76a

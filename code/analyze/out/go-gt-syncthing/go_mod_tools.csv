@@ -1,0 +1,4 @@
+owner_module,owner_file,tool_module,tool_version,source_line
+github.com/syncthing/syncthing,languages/go/project/syncthing/go.mod,github.com/calmh/xdr/cmd/genxdr,,115
+github.com/syncthing/syncthing,languages/go/project/syncthing/go.mod,github.com/maxbrunsfeld/counterfeiter/v6,,116
+github.com/syncthing/syncthing,languages/go/project/syncthing/go.mod,golang.org/x/tools/cmd/goimports,,117
