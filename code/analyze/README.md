@@ -162,6 +162,9 @@ python code/analyze/python_mod_gt_validate.py \
 
 | Project | Tool | Time (s) | Accuracy (union) | Precision | Recall | F1 |
 |---|---|---:|---:|---:|---:|---:|
+| flask | cdxgen | 3.496 | 0.988 | 0.988 | 1.000 | 0.994 |
+| flask | syft | 4.428 | 0.988 | 0.988 | 1.000 | 0.994 |
+| flask | trivy | 1.998 | 0.123 | 0.909 | 0.125 | 0.220 |
 | langchain | cdxgen | 121.200 | 0.971 | 0.971 | 1.000 | 0.985 |
 | langchain | syft | 47.372 | 0.956 | 0.956 | 1.000 | 0.977 |
 | langchain | trivy | 32.379 | 0.606 | 0.944 | 0.628 | 0.754 |

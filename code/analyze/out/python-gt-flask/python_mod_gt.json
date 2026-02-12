@@ -1,0 +1,810 @@
+{
+  "generated_at": "2026-02-12T07:20:03.275523+00:00",
+  "root": "languages/python/project/flask",
+  "manifests": [
+    {
+      "file": "languages/python/project/flask/pyproject.toml",
+      "kind": "pyproject.toml",
+      "project_name": "Flask",
+      "project_version": "3.2.0.dev",
+      "resolved": [],
+      "declared": [
+        {
+          "name": "blinker",
+          "specifier": "blinker>=1.9.0",
+          "file": "languages/python/project/flask/pyproject.toml",
+          "line": 0,
+          "group": "project"
+        },
+        {
+          "name": "click",
+          "specifier": "click>=8.1.3",
+          "file": "languages/python/project/flask/pyproject.toml",
+          "line": 0,
+          "group": "project"
+        },
+        {
+          "name": "itsdangerous",
+          "specifier": "itsdangerous>=2.2.0",
+          "file": "languages/python/project/flask/pyproject.toml",
+          "line": 0,
+          "group": "project"
+        },
+        {
+          "name": "jinja2",
+          "specifier": "jinja2>=3.1.2",
+          "file": "languages/python/project/flask/pyproject.toml",
+          "line": 0,
+          "group": "project"
+        },
+        {
+          "name": "markupsafe",
+          "specifier": "markupsafe>=2.1.1",
+          "file": "languages/python/project/flask/pyproject.toml",
+          "line": 0,
+          "group": "project"
+        },
+        {
+          "name": "werkzeug",
+          "specifier": "werkzeug>=3.1.0",
+          "file": "languages/python/project/flask/pyproject.toml",
+          "line": 0,
+          "group": "project"
+        },
+        {
+          "name": "asgiref",
+          "specifier": "asgiref>=3.2",
+          "file": "languages/python/project/flask/pyproject.toml",
+          "line": 0,
+          "group": "optional:async"
+        },
+        {
+          "name": "python-dotenv",
+          "specifier": "python-dotenv",
+          "file": "languages/python/project/flask/pyproject.toml",
+          "line": 0,
+          "group": "optional:dotenv"
+        },
+        {
+          "name": "ruff",
+          "specifier": "ruff",
+          "file": "languages/python/project/flask/pyproject.toml",
+          "line": 0,
+          "group": "group:dev"
+        },
+        {
+          "name": "tox",
+          "specifier": "tox",
+          "file": "languages/python/project/flask/pyproject.toml",
+          "line": 0,
+          "group": "group:dev"
+        },
+        {
+          "name": "tox-uv",
+          "specifier": "tox-uv",
+          "file": "languages/python/project/flask/pyproject.toml",
+          "line": 0,
+          "group": "group:dev"
+        },
+        {
+          "name": "pallets-sphinx-themes",
+          "specifier": "pallets-sphinx-themes",
+          "file": "languages/python/project/flask/pyproject.toml",
+          "line": 0,
+          "group": "group:docs"
+        },
+        {
+          "name": "sphinx",
+          "specifier": "sphinx<9",
+          "file": "languages/python/project/flask/pyproject.toml",
+          "line": 0,
+          "group": "group:docs"
+        },
+        {
+          "name": "sphinx-tabs",
+          "specifier": "sphinx-tabs",
+          "file": "languages/python/project/flask/pyproject.toml",
+          "line": 0,
+          "group": "group:docs"
+        },
+        {
+          "name": "sphinxcontrib-log-cabinet",
+          "specifier": "sphinxcontrib-log-cabinet",
+          "file": "languages/python/project/flask/pyproject.toml",
+          "line": 0,
+          "group": "group:docs"
+        },
+        {
+          "name": "sphinx-autobuild",
+          "specifier": "sphinx-autobuild",
+          "file": "languages/python/project/flask/pyproject.toml",
+          "line": 0,
+          "group": "group:docs-auto"
+        },
+        {
+          "name": "gha-update",
+          "specifier": "gha-update ; python_full_version >= '3.12'",
+          "file": "languages/python/project/flask/pyproject.toml",
+          "line": 0,
+          "group": "group:gha-update"
+        },
+        {
+          "name": "pre-commit",
+          "specifier": "pre-commit",
+          "file": "languages/python/project/flask/pyproject.toml",
+          "line": 0,
+          "group": "group:pre-commit"
+        },
+        {
+          "name": "pre-commit-uv",
+          "specifier": "pre-commit-uv",
+          "file": "languages/python/project/flask/pyproject.toml",
+          "line": 0,
+          "group": "group:pre-commit"
+        },
+        {
+          "name": "asgiref",
+          "specifier": "asgiref",
+          "file": "languages/python/project/flask/pyproject.toml",
+          "line": 0,
+          "group": "group:tests"
+        },
+        {
+          "name": "greenlet",
+          "specifier": "greenlet",
+          "file": "languages/python/project/flask/pyproject.toml",
+          "line": 0,
+          "group": "group:tests"
+        },
+        {
+          "name": "pytest",
+          "specifier": "pytest",
+          "file": "languages/python/project/flask/pyproject.toml",
+          "line": 0,
+          "group": "group:tests"
+        },
+        {
+          "name": "python-dotenv",
+          "specifier": "python-dotenv",
+          "file": "languages/python/project/flask/pyproject.toml",
+          "line": 0,
+          "group": "group:tests"
+        },
+        {
+          "name": "asgiref",
+          "specifier": "asgiref",
+          "file": "languages/python/project/flask/pyproject.toml",
+          "line": 0,
+          "group": "group:typing"
+        },
+        {
+          "name": "cryptography",
+          "specifier": "cryptography",
+          "file": "languages/python/project/flask/pyproject.toml",
+          "line": 0,
+          "group": "group:typing"
+        },
+        {
+          "name": "mypy",
+          "specifier": "mypy",
+          "file": "languages/python/project/flask/pyproject.toml",
+          "line": 0,
+          "group": "group:typing"
+        },
+        {
+          "name": "pyright",
+          "specifier": "pyright",
+          "file": "languages/python/project/flask/pyproject.toml",
+          "line": 0,
+          "group": "group:typing"
+        },
+        {
+          "name": "pytest",
+          "specifier": "pytest",
+          "file": "languages/python/project/flask/pyproject.toml",
+          "line": 0,
+          "group": "group:typing"
+        },
+        {
+          "name": "python-dotenv",
+          "specifier": "python-dotenv",
+          "file": "languages/python/project/flask/pyproject.toml",
+          "line": 0,
+          "group": "group:typing"
+        },
+        {
+          "name": "types-contextvars",
+          "specifier": "types-contextvars",
+          "file": "languages/python/project/flask/pyproject.toml",
+          "line": 0,
+          "group": "group:typing"
+        },
+        {
+          "name": "types-dataclasses",
+          "specifier": "types-dataclasses",
+          "file": "languages/python/project/flask/pyproject.toml",
+          "line": 0,
+          "group": "group:typing"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "file": "languages/python/project/flask/uv.lock",
+      "kind": "uv.lock",
+      "project_name": "Flask",
+      "project_version": "3.2.0.dev",
+      "resolved": [
+        {
+          "name": "alabaster",
+          "version": "1.0.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "anyio",
+          "version": "4.12.1",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "asgiref",
+          "version": "3.11.1",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "babel",
+          "version": "2.18.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "blinker",
+          "version": "1.9.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "cachetools",
+          "version": "7.0.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "certifi",
+          "version": "2026.1.4",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "cffi",
+          "version": "2.0.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "cfgv",
+          "version": "3.5.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "chardet",
+          "version": "5.2.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "charset-normalizer",
+          "version": "3.4.4",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "click",
+          "version": "8.3.1",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "colorama",
+          "version": "0.4.6",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "cryptography",
+          "version": "46.0.4",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "distlib",
+          "version": "0.4.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "docutils",
+          "version": "0.21.2",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "exceptiongroup",
+          "version": "1.3.1",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "filelock",
+          "version": "3.20.3",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "flask",
+          "version": "3.2.0.dev0",
+          "source_kind": "editable",
+          "source": ".",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "gha-update",
+          "version": "0.2.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "greenlet",
+          "version": "3.3.1",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "h11",
+          "version": "0.16.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "httpcore",
+          "version": "1.0.9",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "httpx",
+          "version": "0.28.1",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "identify",
+          "version": "2.6.16",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "idna",
+          "version": "3.11",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "imagesize",
+          "version": "1.4.1",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "iniconfig",
+          "version": "2.3.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "itsdangerous",
+          "version": "2.2.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "jinja2",
+          "version": "3.1.6",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "librt",
+          "version": "0.7.8",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "markupsafe",
+          "version": "3.0.3",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "mypy",
+          "version": "1.19.1",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "mypy-extensions",
+          "version": "1.1.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "nodeenv",
+          "version": "1.10.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "packaging",
+          "version": "26.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "pallets-sphinx-themes",
+          "version": "2.3.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "pathspec",
+          "version": "1.0.4",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "platformdirs",
+          "version": "4.5.1",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "pluggy",
+          "version": "1.6.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "pre-commit",
+          "version": "4.5.1",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "pre-commit-uv",
+          "version": "4.2.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "pycparser",
+          "version": "3.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "pygments",
+          "version": "2.19.2",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "pyproject-api",
+          "version": "1.10.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "pyright",
+          "version": "1.1.408",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "pytest",
+          "version": "9.0.2",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "python-dotenv",
+          "version": "1.2.1",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "pyyaml",
+          "version": "6.0.3",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "requests",
+          "version": "2.32.5",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "roman-numerals",
+          "version": "4.1.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "roman-numerals-py",
+          "version": "4.1.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "ruff",
+          "version": "0.15.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "snowballstemmer",
+          "version": "3.0.1",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "sphinx",
+          "version": "8.1.3",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "sphinx",
+          "version": "8.2.3",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "sphinx-autobuild",
+          "version": "2024.10.3",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "sphinx-autobuild",
+          "version": "2025.8.25",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "sphinx-notfound-page",
+          "version": "1.1.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "sphinx-tabs",
+          "version": "3.4.7",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "sphinxcontrib-applehelp",
+          "version": "2.0.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "sphinxcontrib-devhelp",
+          "version": "2.0.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "sphinxcontrib-htmlhelp",
+          "version": "2.1.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "sphinxcontrib-jsmath",
+          "version": "1.0.1",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "sphinxcontrib-log-cabinet",
+          "version": "1.0.1",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "sphinxcontrib-qthelp",
+          "version": "2.0.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "sphinxcontrib-serializinghtml",
+          "version": "2.0.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "starlette",
+          "version": "0.52.1",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "tomli",
+          "version": "2.4.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "tox",
+          "version": "4.34.1",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "tox-uv",
+          "version": "1.29.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "types-contextvars",
+          "version": "2.4.7.3",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "types-dataclasses",
+          "version": "0.6.6",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "typing-extensions",
+          "version": "4.15.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "urllib3",
+          "version": "2.6.3",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "uv",
+          "version": "0.9.28",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "uvicorn",
+          "version": "0.40.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "virtualenv",
+          "version": "20.36.1",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "watchfiles",
+          "version": "1.1.1",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "websockets",
+          "version": "16.0",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        },
+        {
+          "name": "werkzeug",
+          "version": "3.1.5",
+          "source_kind": "registry",
+          "source": "https://pypi.org/simple",
+          "file": "languages/python/project/flask/uv.lock"
+        }
+      ],
+      "declared": [],
+      "notes": []
+    }
+  ]
+}
