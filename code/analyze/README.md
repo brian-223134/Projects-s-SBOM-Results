@@ -110,19 +110,19 @@ python code/analyze/php_js_sbom_gt_validate.py \
   --out-dir code/analyze/out/php-js-gt-coolify/validation
 ```
 
-### 이번 실행 결과 요약(coolify)
+### PHP 프로젝트별 SBOM 검증 결과 + 실행 시간
 
-- GT expected deps: 407
-- cdxgen: TP=407 FP=0 FN=0 (precision=1.000, recall=1.000, F1=1.000, accuracy_union=1.000)
-- syft: TP=212 FP=1 FN=195 (precision=0.995, recall=0.521, F1=0.684, accuracy_union=0.520)
-- trivy: TP=212 FP=0 FN=195 (precision=1.000, recall=0.521, F1=0.685, accuracy_union=0.521)
+- 검증 지표: `code/analyze/out/php-js-gt-*/validation/summary.json` 기반
+- 실행 시간: `languages/php/SBOM/<project>/<tool>/time.txt`의 `TotalSeconds`(초) 기반
 
-### 이번 실행 결과 요약(laravel)
-
-- GT expected deps: 241
-- cdxgen: TP=241 FP=0 FN=0 (precision=1.000, recall=1.000, F1=1.000, accuracy_union=1.000) | time=182.292s
-- syft: TP=51 FP=0 FN=190 (precision=1.000, recall=0.212, F1=0.349, accuracy_union=0.212) | time=88.766s
-- trivy: TP=51 FP=0 FN=190 (precision=1.000, recall=0.212, F1=0.349, accuracy_union=0.212) | time=29.013s
+| Project | Tool | Time (s) | Accuracy (union) | Precision | Recall | F1 |
+|---|---|---:|---:|---:|---:|---:|
+| coolify | cdxgen | 98.800 | 1.000 | 1.000 | 1.000 | 1.000 |
+| coolify | syft | 55.428 | 0.520 | 0.995 | 0.521 | 0.684 |
+| coolify | trivy | 20.730 | 0.521 | 1.000 | 0.521 | 0.685 |
+| laravel | cdxgen | 182.292 | 1.000 | 1.000 | 1.000 | 1.000 |
+| laravel | syft | 88.766 | 0.212 | 1.000 | 0.212 | 0.349 |
+| laravel | trivy | 29.013 | 0.212 | 1.000 | 0.212 | 0.349 |
 
 ---
 
