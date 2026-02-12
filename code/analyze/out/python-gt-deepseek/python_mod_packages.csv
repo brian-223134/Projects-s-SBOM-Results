@@ -1,0 +1,5 @@
+kind,manifest_file,project_name,package,version,source_kind,source
+requirements,languages/python/project/DeepSeek-V3/inference/requirements.txt,,torch,2.4.1,requirements_pin,requirements.txt
+requirements,languages/python/project/DeepSeek-V3/inference/requirements.txt,,triton,3.0.0,requirements_pin,requirements.txt
+requirements,languages/python/project/DeepSeek-V3/inference/requirements.txt,,transformers,4.46.3,requirements_pin,requirements.txt
+requirements,languages/python/project/DeepSeek-V3/inference/requirements.txt,,safetensors,0.4.5,requirements_pin,requirements.txt

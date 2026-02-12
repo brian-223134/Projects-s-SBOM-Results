@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-02-12T02:31:12.270023+00:00",
+  "root": "languages/python/project/DeepSeek-V3",
+  "manifests": [
+    {
+      "file": "languages/python/project/DeepSeek-V3/inference/requirements.txt",
+      "kind": "requirements",
+      "project_name": null,
+      "project_version": null,
+      "resolved": [
+        {
+          "name": "torch",
+          "version": "2.4.1",
+          "source_kind": "requirements_pin",
+          "source": "requirements.txt",
+          "file": "languages/python/project/DeepSeek-V3/inference/requirements.txt"
+        },
+        {
+          "name": "triton",
+          "version": "3.0.0",
+          "source_kind": "requirements_pin",
+          "source": "requirements.txt",
+          "file": "languages/python/project/DeepSeek-V3/inference/requirements.txt"
+        },
+        {
+          "name": "transformers",
+          "version": "4.46.3",
+          "source_kind": "requirements_pin",
+          "source": "requirements.txt",
+          "file": "languages/python/project/DeepSeek-V3/inference/requirements.txt"
+        },
+        {
+          "name": "safetensors",
+          "version": "0.4.5",
+          "source_kind": "requirements_pin",
+          "source": "requirements.txt",
+          "file": "languages/python/project/DeepSeek-V3/inference/requirements.txt"
+        }
+      ],
+      "declared": [],
+      "notes": []
+    }
+  ]
+}

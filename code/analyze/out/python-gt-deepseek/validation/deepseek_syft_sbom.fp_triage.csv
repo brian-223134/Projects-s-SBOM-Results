@@ -1,0 +1,5 @@
+name,version,purl,reason
+safetensors,0.4.5,pkg:pypi/safetensors@0.4.5,internal_local
+torch,2.4.1,pkg:pypi/torch@2.4.1,internal_local
+transformers,4.46.3,pkg:pypi/transformers@4.46.3,internal_local
+triton,3.0.0,pkg:pypi/triton@3.0.0,internal_local

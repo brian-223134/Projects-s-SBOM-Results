@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-02-12T02:33:18.708489+00:00",
+  "gt_dir": "code/analyze/out/python-gt-deepseek",
+  "include_non_registry": false,
+  "results": [
+    {
+      "sbom": "languages/python/SBOM/deepseek/cdxgen/deepseek_cdxgen_sbom.json",
+      "observed_count": 4,
+      "expected_count": 0,
+      "tp": 0,
+      "fp": 4,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy_union": 0.0,
+      "fp_reasons": {
+        "internal_local": 4
+      }
+    },
+    {
+      "sbom": "languages/python/SBOM/deepseek/syft/deepseek_syft_sbom.json",
+      "observed_count": 4,
+      "expected_count": 0,
+      "tp": 0,
+      "fp": 4,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy_union": 0.0,
+      "fp_reasons": {
+        "internal_local": 4
+      }
+    },
+    {
+      "sbom": "languages/python/SBOM/deepseek/trivy/deepseek_trivy_sbom.json",
+      "observed_count": 4,
+      "expected_count": 0,
+      "tp": 0,
+      "fp": 4,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy_union": 0.0,
+      "fp_reasons": {
+        "internal_local": 4
+      }
+    }
+  ],
+  "metric_definition": {
+    "accuracy_union": "TP / |GT union SBOM| (Jaccard-style, since TN is undefined for SBOM comparison)",
+    "f1": "2TP / (2TP + FP + FN)"
+  }
+}
