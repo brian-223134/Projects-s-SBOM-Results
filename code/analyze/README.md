@@ -117,6 +117,13 @@ python code/analyze/php_js_sbom_gt_validate.py \
 - syft: TP=212 FP=1 FN=195 (precision=0.995, recall=0.521, F1=0.684, accuracy_union=0.520)
 - trivy: TP=212 FP=0 FN=195 (precision=1.000, recall=0.521, F1=0.685, accuracy_union=0.521)
 
+### 이번 실행 결과 요약(laravel)
+
+- GT expected deps: 241
+- cdxgen: TP=241 FP=0 FN=0 (precision=1.000, recall=1.000, F1=1.000, accuracy_union=1.000) | time=182.292s
+- syft: TP=51 FP=0 FN=190 (precision=1.000, recall=0.212, F1=0.349, accuracy_union=0.212) | time=88.766s
+- trivy: TP=51 FP=0 FN=190 (precision=1.000, recall=0.212, F1=0.349, accuracy_union=0.212) | time=29.013s
+
 ---
 
 ## Python (LangChain) - lockfile GT & SBOM 검증

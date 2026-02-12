@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-02-12T07:47:00.345674+00:00",
+  "gt_dir": "code/analyze/out/php-js-gt-laravel",
+  "exclude_dev": false,
+  "results": [
+    {
+      "sbom": "languages/php/SBOM/laravel/cdxgen/laravel_cdxgen_sbom.json",
+      "observed_count": 241,
+      "expected_count": 241,
+      "tp": 241,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy_union": 1.0
+    },
+    {
+      "sbom": "languages/php/SBOM/laravel/syft/laravel_syft_sbom.json",
+      "observed_count": 51,
+      "expected_count": 241,
+      "tp": 51,
+      "fp": 0,
+      "fn": 190,
+      "precision": 1.0,
+      "recall": 0.21161825726141079,
+      "f1": 0.3493150684931507,
+      "accuracy_union": 0.21161825726141079
+    },
+    {
+      "sbom": "languages/php/SBOM/laravel/trivy/laravel_trivy_sbom.json",
+      "observed_count": 51,
+      "expected_count": 241,
+      "tp": 51,
+      "fp": 0,
+      "fn": 190,
+      "precision": 1.0,
+      "recall": 0.21161825726141079,
+      "f1": 0.3493150684931507,
+      "accuracy_union": 0.21161825726141079
+    }
+  ],
+  "metric_definition": {
+    "accuracy_union": "TP / |GT ∪ SBOM| (Jaccard-style, since TN is undefined for SBOM comparison)",
+    "f1": "2TP / (2TP + FP + FN)"
+  }
+}
