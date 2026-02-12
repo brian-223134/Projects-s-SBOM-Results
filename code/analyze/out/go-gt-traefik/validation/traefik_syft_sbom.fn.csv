@@ -1,0 +1,3 @@
+module,version,purl
+github.com/gorilla/mux,v1.8.1,pkg:golang/github.com/gorilla/mux@v1.8.1
+github.com/mailgun/minheap,v0.0.0-20170619185613-3dbe6c6bf55f,pkg:golang/github.com/mailgun/minheap@v0.0.0-20170619185613-3dbe6c6bf55f

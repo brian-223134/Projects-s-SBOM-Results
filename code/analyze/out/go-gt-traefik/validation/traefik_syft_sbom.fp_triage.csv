@@ -1,0 +1,10 @@
+module,version,purl,reason
+@nodelib/fs.scandir,2.1.5,pkg:golang/@nodelib/fs.scandir@2.1.5,other
+@nodelib/fs.stat,2.0.5,pkg:golang/@nodelib/fs.stat@2.0.5,other
+@nodelib/fs.walk,1.2.8,pkg:golang/@nodelib/fs.walk@1.2.8,other
+@pnpm/config.env-replace,1.1.0,pkg:golang/@pnpm/config.env-replace@1.1.0,other
+@pnpm/network.ca-file,1.0.2,pkg:golang/@pnpm/network.ca-file@1.0.2,other
+@types/lodash.merge,4.6.9,pkg:golang/@types/lodash.merge@4.6.9,other
+github.com/containous/go-http-auth,v0.4.1-0.20200324110947-a37a7636d23e,pkg:golang/github.com/containous/go-http-auth@v0.4.1-0.20200324110947-a37a7636d23e,other
+github.com/containous/minheap,v0.0.0-20190809180810-6e71eb837595,pkg:golang/github.com/containous/minheap@v0.0.0-20190809180810-6e71eb837595,other
+github.com/containous/mux,v0.0.0-20250523120546-41b6ec3aed59,pkg:golang/github.com/containous/mux@v0.0.0-20250523120546-41b6ec3aed59,other

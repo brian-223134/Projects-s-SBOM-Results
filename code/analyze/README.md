@@ -264,6 +264,9 @@ C:/Users/{username}/Desktop/Projects-s-SBOM-Results/.venv/Scripts/python.exe cod
 | syncthing | cdxgen | 49.987 | 0.980 | 0.980 | 1.000 | 0.990 |
 | syncthing | syft | 18.275 | 0.960 | 0.979 | 0.979 | 0.979 |
 | syncthing | trivy | 7.988 | 0.960 | 0.979 | 0.979 | 0.979 |
+| traefik | cdxgen | 108.102 | 0.988 | 0.988 | 1.000 | 0.994 |
+| traefik | syft | 37.397 | 0.973 | 0.978 | 0.995 | 0.986 |
+| traefik | trivy | 21.215 | 0.988 | 0.993 | 0.995 | 0.994 |
 | terraform | cdxgen | 584.974 | 0.958 | 0.958 | 1.000 | 0.979 |
 | terraform | syft | 86.818 | 0.968 | 0.968 | 1.000 | 0.984 |
 | terraform | trivy | 75.325 | 1.000 | 1.000 | 1.000 | 1.000 |

@@ -1,0 +1,5 @@
+owner_module,owner_file,old_module,old_version,new_target,new_version,new_is_path,source_line
+github.com/traefik/traefik/v3,languages/go/project/traefik/go.mod,github.com/traefik/traefik/dynamic/ext,,./pkg/config/dynamic/ext,,true,416
+github.com/traefik/traefik/v3,languages/go/project/traefik/go.mod,github.com/abbot/go-http-auth,,github.com/containous/go-http-auth,v0.4.1-0.20200324110947-a37a7636d23e,false,420
+github.com/traefik/traefik/v3,languages/go/project/traefik/go.mod,github.com/gorilla/mux,,github.com/containous/mux,v0.0.0-20250523120546-41b6ec3aed59,false,421
+github.com/traefik/traefik/v3,languages/go/project/traefik/go.mod,github.com/mailgun/minheap,,github.com/containous/minheap,v0.0.0-20190809180810-6e71eb837595,false,422

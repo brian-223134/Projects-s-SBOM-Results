@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-02-12T05:40:20.333713+00:00",
+  "gt_dir": "code/analyze/out/go-gt-traefik",
+  "root_module": "github.com/traefik/traefik/v3",
+  "include_indirect": true,
+  "results": [
+    {
+      "sbom": "languages/go/SBOM/traefik/cdxgen/traefik_cdxgen_sbom.json",
+      "observed_count": 408,
+      "expected_count": 403,
+      "tp": 403,
+      "fp": 5,
+      "fn": 0,
+      "precision": 0.9877450980392157,
+      "recall": 1.0,
+      "f1": 0.9938347718865598,
+      "accuracy_union": 0.9877450980392157,
+      "fp_reasons": {
+        "placeholder_version": 2,
+        "other": 3
+      }
+    },
+    {
+      "sbom": "languages/go/SBOM/traefik/syft/traefik_syft_sbom.json",
+      "observed_count": 410,
+      "expected_count": 403,
+      "tp": 401,
+      "fp": 9,
+      "fn": 2,
+      "precision": 0.9780487804878049,
+      "recall": 0.9950372208436724,
+      "f1": 0.9864698646986471,
+      "accuracy_union": 0.9733009708737864,
+      "fp_reasons": {
+        "other": 9
+      }
+    },
+    {
+      "sbom": "languages/go/SBOM/traefik/trivy/traefik_trivy_sbom.json",
+      "observed_count": 404,
+      "expected_count": 403,
+      "tp": 401,
+      "fp": 3,
+      "fn": 2,
+      "precision": 0.9925742574257426,
+      "recall": 0.9950372208436724,
+      "f1": 0.9938042131350682,
+      "accuracy_union": 0.9876847290640394,
+      "fp_reasons": {
+        "other": 3
+      }
+    }
+  ],
+  "metric_definition": {
+    "accuracy_union": "TP / |GT union SBOM| (Jaccard-style, since TN is undefined for SBOM comparison)",
+    "f1": "2TP / (2TP + FP + FN)"
+  }
+}

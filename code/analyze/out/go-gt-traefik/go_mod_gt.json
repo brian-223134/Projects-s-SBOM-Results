@@ -1,0 +1,2932 @@
+{
+  "generated_at": "2026-02-12T05:40:07.885071+00:00",
+  "root": "languages/go/project/traefik",
+  "go_mod_files": [
+    "languages/go/project/traefik/go.mod",
+    "languages/go/project/traefik/pkg/config/dynamic/ext/go.mod",
+    "languages/go/project/traefik/pkg/plugins/fixtures/src/testpluginsafe/go.mod",
+    "languages/go/project/traefik/pkg/plugins/fixtures/src/testpluginsyscall/go.mod",
+    "languages/go/project/traefik/pkg/plugins/fixtures/src/testpluginunsafe/go.mod",
+    "languages/go/project/traefik/pkg/plugins/fixtures/withoutsocket/go.mod"
+  ],
+  "modules": [
+    {
+      "file": "languages/go/project/traefik/go.mod",
+      "module": "github.com/traefik/traefik/v3",
+      "go_version": "1.25.0",
+      "requires": [
+        {
+          "module": "github.com/BurntSushi/toml",
+          "version": "v1.6.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 6
+        },
+        {
+          "module": "github.com/Masterminds/sprig/v3",
+          "version": "v3.2.3",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 7
+        },
+        {
+          "module": "github.com/abbot/go-http-auth",
+          "version": "v0.0.0-00010101000000-000000000000",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 8
+        },
+        {
+          "module": "github.com/andybalholm/brotli",
+          "version": "v1.1.1",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 9
+        },
+        {
+          "module": "github.com/armon/go-socks5",
+          "version": "v0.0.0-20160902184237-e75332964ef5",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 10
+        },
+        {
+          "module": "github.com/aws/aws-sdk-go-v2",
+          "version": "v1.41.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 11
+        },
+        {
+          "module": "github.com/aws/aws-sdk-go-v2/config",
+          "version": "v1.32.6",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 12
+        },
+        {
+          "module": "github.com/aws/aws-sdk-go-v2/credentials",
+          "version": "v1.19.6",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 13
+        },
+        {
+          "module": "github.com/aws/aws-sdk-go-v2/service/ec2",
+          "version": "v1.203.1",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 14
+        },
+        {
+          "module": "github.com/aws/aws-sdk-go-v2/service/ecs",
+          "version": "v1.53.15",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 15
+        },
+        {
+          "module": "github.com/aws/aws-sdk-go-v2/service/ssm",
+          "version": "v1.56.13",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 16
+        },
+        {
+          "module": "github.com/aws/smithy-go",
+          "version": "v1.24.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 17
+        },
+        {
+          "module": "github.com/cenkalti/backoff/v4",
+          "version": "v4.3.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 18
+        },
+        {
+          "module": "github.com/containous/alice",
+          "version": "v0.0.0-20181107144136-d83ebdd94cbd",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 19
+        },
+        {
+          "module": "github.com/coreos/go-systemd/v22",
+          "version": "v22.5.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 20
+        },
+        {
+          "module": "github.com/docker/cli",
+          "version": "v28.3.3+incompatible",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 21
+        },
+        {
+          "module": "github.com/docker/docker",
+          "version": "v28.3.3+incompatible",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 22
+        },
+        {
+          "module": "github.com/docker/go-connections",
+          "version": "v0.5.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 23
+        },
+        {
+          "module": "github.com/fatih/structs",
+          "version": "v1.1.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 24
+        },
+        {
+          "module": "github.com/fsnotify/fsnotify",
+          "version": "v1.9.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 25
+        },
+        {
+          "module": "github.com/go-acme/lego/v4",
+          "version": "v4.31.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 26
+        },
+        {
+          "module": "github.com/go-kit/kit",
+          "version": "v0.13.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 27
+        },
+        {
+          "module": "github.com/go-kit/log",
+          "version": "v0.2.1",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 28
+        },
+        {
+          "module": "github.com/golang/protobuf",
+          "version": "v1.5.4",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 29
+        },
+        {
+          "module": "github.com/google/go-github/v28",
+          "version": "v28.1.1",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 30
+        },
+        {
+          "module": "github.com/gorilla/mux",
+          "version": "v1.8.1",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 31
+        },
+        {
+          "module": "github.com/gorilla/websocket",
+          "version": "v1.5.4-0.20250319132907-e064f32e3674",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 32
+        },
+        {
+          "module": "github.com/hashicorp/consul/api",
+          "version": "v1.26.1",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 33
+        },
+        {
+          "module": "github.com/hashicorp/go-hclog",
+          "version": "v1.6.3",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 34
+        },
+        {
+          "module": "github.com/hashicorp/go-multierror",
+          "version": "v1.1.1",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 35
+        },
+        {
+          "module": "github.com/hashicorp/go-retryablehttp",
+          "version": "v0.7.8",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 36
+        },
+        {
+          "module": "github.com/hashicorp/go-version",
+          "version": "v1.8.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 37
+        },
+        {
+          "module": "github.com/hashicorp/nomad/api",
+          "version": "v0.0.0-20231213195942-64e3dca9274b",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 38
+        },
+        {
+          "module": "github.com/http-wasm/http-wasm-host-go",
+          "version": "v0.7.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 39
+        },
+        {
+          "module": "github.com/huandu/xstrings",
+          "version": "v1.5.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 40
+        },
+        {
+          "module": "github.com/influxdata/influxdb-client-go/v2",
+          "version": "v2.7.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 41
+        },
+        {
+          "module": "github.com/influxdata/influxdb1-client",
+          "version": "v0.0.0-20200827194710-b269163b24ab",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 42
+        },
+        {
+          "module": "github.com/klauspost/compress",
+          "version": "v1.18.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 43
+        },
+        {
+          "module": "github.com/kvtools/consul",
+          "version": "v1.0.2",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 44
+        },
+        {
+          "module": "github.com/kvtools/etcdv3",
+          "version": "v1.0.3",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 45
+        },
+        {
+          "module": "github.com/kvtools/redis",
+          "version": "v1.2.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 46
+        },
+        {
+          "module": "github.com/kvtools/valkeyrie",
+          "version": "v1.0.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 47
+        },
+        {
+          "module": "github.com/kvtools/zookeeper",
+          "version": "v1.0.2",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 48
+        },
+        {
+          "module": "github.com/mailgun/ttlmap",
+          "version": "v0.0.0-20170619185759-c1c17f74874f",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 49
+        },
+        {
+          "module": "github.com/miekg/dns",
+          "version": "v1.1.69",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 50
+        },
+        {
+          "module": "github.com/mitchellh/copystructure",
+          "version": "v1.2.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 51
+        },
+        {
+          "module": "github.com/mitchellh/hashstructure",
+          "version": "v1.0.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 52
+        },
+        {
+          "module": "github.com/mitchellh/mapstructure",
+          "version": "v1.5.1-0.20231216201459-8508981c8b6c",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 53
+        },
+        {
+          "module": "github.com/patrickmn/go-cache",
+          "version": "v2.1.0+incompatible",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 54
+        },
+        {
+          "module": "github.com/pires/go-proxyproto",
+          "version": "v0.8.1",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 55
+        },
+        {
+          "module": "github.com/pmezard/go-difflib",
+          "version": "v1.0.1-0.20181226105442-5d4384ee4fb2",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 56
+        },
+        {
+          "module": "github.com/prometheus/client_golang",
+          "version": "v1.23.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 57
+        },
+        {
+          "module": "github.com/prometheus/client_model",
+          "version": "v0.6.2",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 58
+        },
+        {
+          "module": "github.com/quic-go/quic-go",
+          "version": "v0.59.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 59
+        },
+        {
+          "module": "github.com/redis/go-redis/v9",
+          "version": "v9.8.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 60
+        },
+        {
+          "module": "github.com/rs/zerolog",
+          "version": "v1.33.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 61
+        },
+        {
+          "module": "github.com/sirupsen/logrus",
+          "version": "v1.9.3",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 62
+        },
+        {
+          "module": "github.com/spiffe/go-spiffe/v2",
+          "version": "v2.6.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 63
+        },
+        {
+          "module": "github.com/stealthrocket/wasi-go",
+          "version": "v0.8.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 64
+        },
+        {
+          "module": "github.com/stealthrocket/wazergo",
+          "version": "v0.19.1",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 65
+        },
+        {
+          "module": "github.com/stretchr/testify",
+          "version": "v1.11.1",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 66
+        },
+        {
+          "module": "github.com/stvp/go-udp-testing",
+          "version": "v0.0.0-20201019212854-469649b16807",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 67
+        },
+        {
+          "module": "github.com/tailscale/tscert",
+          "version": "v0.0.0-20230806124524-28a91b69a046",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 68
+        },
+        {
+          "module": "github.com/testcontainers/testcontainers-go",
+          "version": "v0.32.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 69
+        },
+        {
+          "module": "github.com/testcontainers/testcontainers-go/modules/k3s",
+          "version": "v0.32.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 70
+        },
+        {
+          "module": "github.com/tetratelabs/wazero",
+          "version": "v1.8.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 71
+        },
+        {
+          "module": "github.com/tidwall/gjson",
+          "version": "v1.17.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 72
+        },
+        {
+          "module": "github.com/traefik/grpc-web",
+          "version": "v0.16.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 73
+        },
+        {
+          "module": "github.com/traefik/paerser",
+          "version": "v0.2.2",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 74
+        },
+        {
+          "module": "github.com/traefik/traefik/dynamic/ext",
+          "version": "v0.0.0-00010101000000-000000000000",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 75
+        },
+        {
+          "module": "github.com/traefik/yaegi",
+          "version": "v0.16.1",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 76
+        },
+        {
+          "module": "github.com/unrolled/render",
+          "version": "v1.0.2",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 77
+        },
+        {
+          "module": "github.com/unrolled/secure",
+          "version": "v1.0.9",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 78
+        },
+        {
+          "module": "github.com/valyala/fasthttp",
+          "version": "v1.58.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 79
+        },
+        {
+          "module": "github.com/vulcand/oxy/v2",
+          "version": "v2.0.3",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 80
+        },
+        {
+          "module": "github.com/vulcand/predicate",
+          "version": "v1.2.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 81
+        },
+        {
+          "module": "github.com/yuin/gopher-lua",
+          "version": "v1.1.1",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 82
+        },
+        {
+          "module": "go.opentelemetry.io/collector/pdata",
+          "version": "v1.41.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 83
+        },
+        {
+          "module": "go.opentelemetry.io/contrib/bridges/otellogrus",
+          "version": "v0.13.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 84
+        },
+        {
+          "module": "go.opentelemetry.io/contrib/propagators/autoprop",
+          "version": "v0.63.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 85
+        },
+        {
+          "module": "go.opentelemetry.io/otel",
+          "version": "v1.38.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 86
+        },
+        {
+          "module": "go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploggrpc",
+          "version": "v0.14.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 87
+        },
+        {
+          "module": "go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploghttp",
+          "version": "v0.14.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 88
+        },
+        {
+          "module": "go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc",
+          "version": "v1.38.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 89
+        },
+        {
+          "module": "go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp",
+          "version": "v1.38.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 90
+        },
+        {
+          "module": "go.opentelemetry.io/otel/exporters/otlp/otlptrace",
+          "version": "v1.38.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 91
+        },
+        {
+          "module": "go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc",
+          "version": "v1.38.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 92
+        },
+        {
+          "module": "go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp",
+          "version": "v1.38.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 93
+        },
+        {
+          "module": "go.opentelemetry.io/otel/log",
+          "version": "v0.14.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 94
+        },
+        {
+          "module": "go.opentelemetry.io/otel/metric",
+          "version": "v1.38.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 95
+        },
+        {
+          "module": "go.opentelemetry.io/otel/sdk",
+          "version": "v1.38.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 96
+        },
+        {
+          "module": "go.opentelemetry.io/otel/sdk/log",
+          "version": "v0.14.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 97
+        },
+        {
+          "module": "go.opentelemetry.io/otel/sdk/metric",
+          "version": "v1.38.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 98
+        },
+        {
+          "module": "go.opentelemetry.io/otel/trace",
+          "version": "v1.38.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 99
+        },
+        {
+          "module": "golang.org/x/crypto",
+          "version": "v0.47.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 100
+        },
+        {
+          "module": "golang.org/x/mod",
+          "version": "v0.31.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 101
+        },
+        {
+          "module": "golang.org/x/net",
+          "version": "v0.49.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 102
+        },
+        {
+          "module": "golang.org/x/sync",
+          "version": "v0.19.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 103
+        },
+        {
+          "module": "golang.org/x/sys",
+          "version": "v0.40.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 104
+        },
+        {
+          "module": "golang.org/x/text",
+          "version": "v0.33.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 105
+        },
+        {
+          "module": "golang.org/x/time",
+          "version": "v0.14.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 106
+        },
+        {
+          "module": "golang.org/x/tools",
+          "version": "v0.40.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 107
+        },
+        {
+          "module": "google.golang.org/grpc",
+          "version": "v1.78.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 108
+        },
+        {
+          "module": "gopkg.in/natefinch/lumberjack.v2",
+          "version": "v2.2.1",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 109
+        },
+        {
+          "module": "gopkg.in/yaml.v3",
+          "version": "v3.0.1",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 110
+        },
+        {
+          "module": "k8s.io/api",
+          "version": "v0.34.3",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 111
+        },
+        {
+          "module": "k8s.io/apiextensions-apiserver",
+          "version": "v0.34.3",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 112
+        },
+        {
+          "module": "k8s.io/apimachinery",
+          "version": "v0.34.3",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 113
+        },
+        {
+          "module": "k8s.io/client-go",
+          "version": "v0.34.3",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 114
+        },
+        {
+          "module": "k8s.io/utils",
+          "version": "v0.0.0-20250820121507-0af2bda4dd1d",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 115
+        },
+        {
+          "module": "knative.dev/networking",
+          "version": "v0.0.0-20241022012959-60e29ff520dc",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 116
+        },
+        {
+          "module": "knative.dev/pkg",
+          "version": "v0.0.0-20241021183759-9b9d535af5ad",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 117
+        },
+        {
+          "module": "mvdan.cc/xurls/v2",
+          "version": "v2.5.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 118
+        },
+        {
+          "module": "sigs.k8s.io/controller-runtime",
+          "version": "v0.22.1",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 119
+        },
+        {
+          "module": "sigs.k8s.io/gateway-api",
+          "version": "v1.4.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 120
+        },
+        {
+          "module": "sigs.k8s.io/structured-merge-diff/v6",
+          "version": "v6.3.1",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 121
+        },
+        {
+          "module": "sigs.k8s.io/yaml",
+          "version": "v1.6.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 122
+        },
+        {
+          "module": "cloud.google.com/go/auth",
+          "version": "v0.18.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 126
+        },
+        {
+          "module": "cloud.google.com/go/auth/oauth2adapt",
+          "version": "v0.2.8",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 127
+        },
+        {
+          "module": "cloud.google.com/go/compute/metadata",
+          "version": "v0.9.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 128
+        },
+        {
+          "module": "dario.cat/mergo",
+          "version": "v1.0.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 129
+        },
+        {
+          "module": "github.com/AdamSLevy/jsonrpc2/v14",
+          "version": "v14.1.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 130
+        },
+        {
+          "module": "github.com/Azure/azure-sdk-for-go",
+          "version": "v68.0.0+incompatible",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 131
+        },
+        {
+          "module": "github.com/Azure/azure-sdk-for-go/sdk/azcore",
+          "version": "v1.20.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 132
+        },
+        {
+          "module": "github.com/Azure/azure-sdk-for-go/sdk/azidentity",
+          "version": "v1.13.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 133
+        },
+        {
+          "module": "github.com/Azure/azure-sdk-for-go/sdk/internal",
+          "version": "v1.11.2",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 134
+        },
+        {
+          "module": "github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/dns/armdns",
+          "version": "v1.2.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 135
+        },
+        {
+          "module": "github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/privatedns/armprivatedns",
+          "version": "v1.3.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 136
+        },
+        {
+          "module": "github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/resourcegraph/armresourcegraph",
+          "version": "v0.9.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 137
+        },
+        {
+          "module": "github.com/Azure/go-ansiterm",
+          "version": "v0.0.0-20250102033503-faa5f7b0171c",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 138
+        },
+        {
+          "module": "github.com/Azure/go-autorest",
+          "version": "v14.2.0+incompatible",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 139
+        },
+        {
+          "module": "github.com/Azure/go-autorest/autorest",
+          "version": "v0.11.30",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 140
+        },
+        {
+          "module": "github.com/Azure/go-autorest/autorest/adal",
+          "version": "v0.9.22",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 141
+        },
+        {
+          "module": "github.com/Azure/go-autorest/autorest/azure/auth",
+          "version": "v0.5.13",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 142
+        },
+        {
+          "module": "github.com/Azure/go-autorest/autorest/azure/cli",
+          "version": "v0.4.6",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 143
+        },
+        {
+          "module": "github.com/Azure/go-autorest/autorest/date",
+          "version": "v0.3.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 144
+        },
+        {
+          "module": "github.com/Azure/go-autorest/autorest/to",
+          "version": "v0.4.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 145
+        },
+        {
+          "module": "github.com/Azure/go-autorest/logger",
+          "version": "v0.2.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 146
+        },
+        {
+          "module": "github.com/Azure/go-autorest/tracing",
+          "version": "v0.6.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 147
+        },
+        {
+          "module": "github.com/AzureAD/microsoft-authentication-library-for-go",
+          "version": "v1.6.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 148
+        },
+        {
+          "module": "github.com/HdrHistogram/hdrhistogram-go",
+          "version": "v1.1.2",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 149
+        },
+        {
+          "module": "github.com/Masterminds/goutils",
+          "version": "v1.1.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 150
+        },
+        {
+          "module": "github.com/Masterminds/semver/v3",
+          "version": "v3.3.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 151
+        },
+        {
+          "module": "github.com/Microsoft/go-winio",
+          "version": "v0.6.2",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 152
+        },
+        {
+          "module": "github.com/Microsoft/hcsshim",
+          "version": "v0.13.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 153
+        },
+        {
+          "module": "github.com/VividCortex/gohistogram",
+          "version": "v1.0.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 154
+        },
+        {
+          "module": "github.com/akamai/AkamaiOPEN-edgegrid-golang/v11",
+          "version": "v11.1.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 155
+        },
+        {
+          "module": "github.com/alibabacloud-go/alibabacloud-gateway-spi",
+          "version": "v0.0.5",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 156
+        },
+        {
+          "module": "github.com/alibabacloud-go/darabonba-openapi/v2",
+          "version": "v2.1.13",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 157
+        },
+        {
+          "module": "github.com/alibabacloud-go/debug",
+          "version": "v1.0.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 158
+        },
+        {
+          "module": "github.com/alibabacloud-go/tea",
+          "version": "v1.4.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 159
+        },
+        {
+          "module": "github.com/alibabacloud-go/tea-utils/v2",
+          "version": "v2.0.7",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 160
+        },
+        {
+          "module": "github.com/aliyun/credentials-go",
+          "version": "v1.4.7",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 161
+        },
+        {
+          "module": "github.com/armon/go-metrics",
+          "version": "v0.4.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 162
+        },
+        {
+          "module": "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
+          "version": "v1.18.16",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 163
+        },
+        {
+          "module": "github.com/aws/aws-sdk-go-v2/internal/configsources",
+          "version": "v1.4.16",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 164
+        },
+        {
+          "module": "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
+          "version": "v2.7.16",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 165
+        },
+        {
+          "module": "github.com/aws/aws-sdk-go-v2/internal/ini",
+          "version": "v1.8.4",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 166
+        },
+        {
+          "module": "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
+          "version": "v1.13.4",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 167
+        },
+        {
+          "module": "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
+          "version": "v1.13.16",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 168
+        },
+        {
+          "module": "github.com/aws/aws-sdk-go-v2/service/lightsail",
+          "version": "v1.50.10",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 169
+        },
+        {
+          "module": "github.com/aws/aws-sdk-go-v2/service/route53",
+          "version": "v1.62.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 170
+        },
+        {
+          "module": "github.com/aws/aws-sdk-go-v2/service/signin",
+          "version": "v1.0.4",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 171
+        },
+        {
+          "module": "github.com/aws/aws-sdk-go-v2/service/sso",
+          "version": "v1.30.8",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 172
+        },
+        {
+          "module": "github.com/aws/aws-sdk-go-v2/service/ssooidc",
+          "version": "v1.35.12",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 173
+        },
+        {
+          "module": "github.com/aws/aws-sdk-go-v2/service/sts",
+          "version": "v1.41.5",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 174
+        },
+        {
+          "module": "github.com/aziontech/azionapi-go-sdk",
+          "version": "v0.144.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 175
+        },
+        {
+          "module": "github.com/baidubce/bce-sdk-go",
+          "version": "v0.9.256",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 176
+        },
+        {
+          "module": "github.com/benbjohnson/clock",
+          "version": "v1.3.5",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 177
+        },
+        {
+          "module": "github.com/beorn7/perks",
+          "version": "v1.0.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 178
+        },
+        {
+          "module": "github.com/blendle/zapdriver",
+          "version": "v1.3.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 179
+        },
+        {
+          "module": "github.com/boombuler/barcode",
+          "version": "v1.0.1-0.20190219062509-6c824513bacc",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 180
+        },
+        {
+          "module": "github.com/bytedance/sonic",
+          "version": "v1.10.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 181
+        },
+        {
+          "module": "github.com/cenkalti/backoff/v5",
+          "version": "v5.0.3",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 182
+        },
+        {
+          "module": "github.com/cespare/xxhash/v2",
+          "version": "v2.3.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 183
+        },
+        {
+          "module": "github.com/clbanning/mxj/v2",
+          "version": "v2.7.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 184
+        },
+        {
+          "module": "github.com/containerd/containerd",
+          "version": "v1.7.29",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 185
+        },
+        {
+          "module": "github.com/containerd/errdefs",
+          "version": "v1.0.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 186
+        },
+        {
+          "module": "github.com/containerd/errdefs/pkg",
+          "version": "v0.3.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 187
+        },
+        {
+          "module": "github.com/containerd/log",
+          "version": "v0.1.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 188
+        },
+        {
+          "module": "github.com/containerd/platforms",
+          "version": "v1.0.0-rc.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 189
+        },
+        {
+          "module": "github.com/coreos/go-semver",
+          "version": "v0.3.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 190
+        },
+        {
+          "module": "github.com/cpuguy83/dockercfg",
+          "version": "v0.3.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 191
+        },
+        {
+          "module": "github.com/davecgh/go-spew",
+          "version": "v1.1.2-0.20180830191138-d8f796af33cc",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 192
+        },
+        {
+          "module": "github.com/deepmap/oapi-codegen",
+          "version": "v1.9.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 193
+        },
+        {
+          "module": "github.com/desertbit/timer",
+          "version": "v0.0.0-20180107155436-c41aec40b27f",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 194
+        },
+        {
+          "module": "github.com/dgryski/go-rendezvous",
+          "version": "v0.0.0-20200823014737-9f7001d12a5f",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 195
+        },
+        {
+          "module": "github.com/dimchansky/utfbom",
+          "version": "v1.1.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 196
+        },
+        {
+          "module": "github.com/distribution/reference",
+          "version": "v0.6.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 197
+        },
+        {
+          "module": "github.com/dnsimple/dnsimple-go/v4",
+          "version": "v4.0.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 198
+        },
+        {
+          "module": "github.com/docker/go-units",
+          "version": "v0.5.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 199
+        },
+        {
+          "module": "github.com/emicklei/go-restful/v3",
+          "version": "v3.13.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 200
+        },
+        {
+          "module": "github.com/evanphx/json-patch/v5",
+          "version": "v5.9.11",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 201
+        },
+        {
+          "module": "github.com/exoscale/egoscale/v3",
+          "version": "v3.1.33",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 202
+        },
+        {
+          "module": "github.com/fatih/color",
+          "version": "v1.18.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 203
+        },
+        {
+          "module": "github.com/felixge/httpsnoop",
+          "version": "v1.0.4",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 204
+        },
+        {
+          "module": "github.com/fxamacker/cbor/v2",
+          "version": "v2.9.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 205
+        },
+        {
+          "module": "github.com/gabriel-vasile/mimetype",
+          "version": "v1.4.3",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 206
+        },
+        {
+          "module": "github.com/ghodss/yaml",
+          "version": "v1.0.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 207
+        },
+        {
+          "module": "github.com/gin-gonic/gin",
+          "version": "v1.9.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 208
+        },
+        {
+          "module": "github.com/go-acme/alidns-20150109/v4",
+          "version": "v4.7.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 209
+        },
+        {
+          "module": "github.com/go-acme/esa-20240910/v2",
+          "version": "v2.44.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 210
+        },
+        {
+          "module": "github.com/go-acme/jdcloud-sdk-go",
+          "version": "v1.64.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 211
+        },
+        {
+          "module": "github.com/go-acme/tencentclouddnspod",
+          "version": "v1.1.25",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 212
+        },
+        {
+          "module": "github.com/go-acme/tencentedgdeone",
+          "version": "v1.1.48",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 213
+        },
+        {
+          "module": "github.com/go-errors/errors",
+          "version": "v1.0.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 214
+        },
+        {
+          "module": "github.com/go-jose/go-jose/v4",
+          "version": "v4.1.3",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 215
+        },
+        {
+          "module": "github.com/go-logfmt/logfmt",
+          "version": "v0.5.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 216
+        },
+        {
+          "module": "github.com/go-logr/logr",
+          "version": "v1.4.3",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 217
+        },
+        {
+          "module": "github.com/go-logr/stdr",
+          "version": "v1.2.2",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 218
+        },
+        {
+          "module": "github.com/go-logr/zapr",
+          "version": "v1.3.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 219
+        },
+        {
+          "module": "github.com/go-ole/go-ole",
+          "version": "v1.3.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 220
+        },
+        {
+          "module": "github.com/go-openapi/jsonpointer",
+          "version": "v0.21.2",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 221
+        },
+        {
+          "module": "github.com/go-openapi/jsonreference",
+          "version": "v0.21.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 222
+        },
+        {
+          "module": "github.com/go-openapi/swag",
+          "version": "v0.23.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 223
+        },
+        {
+          "module": "github.com/go-ozzo/ozzo-validation/v4",
+          "version": "v4.3.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 224
+        },
+        {
+          "module": "github.com/go-playground/locales",
+          "version": "v0.14.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 225
+        },
+        {
+          "module": "github.com/go-playground/universal-translator",
+          "version": "v0.18.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 226
+        },
+        {
+          "module": "github.com/go-playground/validator/v10",
+          "version": "v10.23.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 227
+        },
+        {
+          "module": "github.com/go-resty/resty/v2",
+          "version": "v2.17.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 228
+        },
+        {
+          "module": "github.com/go-viper/mapstructure/v2",
+          "version": "v2.4.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 229
+        },
+        {
+          "module": "github.com/go-zookeeper/zk",
+          "version": "v1.0.3",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 230
+        },
+        {
+          "module": "github.com/goccy/go-yaml",
+          "version": "v1.18.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 231
+        },
+        {
+          "module": "github.com/gofrs/flock",
+          "version": "v0.13.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 232
+        },
+        {
+          "module": "github.com/gofrs/uuid",
+          "version": "v4.4.0+incompatible",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 233
+        },
+        {
+          "module": "github.com/gogo/protobuf",
+          "version": "v1.3.2",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 234
+        },
+        {
+          "module": "github.com/golang-jwt/jwt/v4",
+          "version": "v4.5.2",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 235
+        },
+        {
+          "module": "github.com/golang-jwt/jwt/v5",
+          "version": "v5.3.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 236
+        },
+        {
+          "module": "github.com/golang/groupcache",
+          "version": "v0.0.0-20210331224755-41bb18bfe9da",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 237
+        },
+        {
+          "module": "github.com/google/gnostic-models",
+          "version": "v0.7.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 238
+        },
+        {
+          "module": "github.com/google/go-cmp",
+          "version": "v0.7.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 239
+        },
+        {
+          "module": "github.com/google/go-querystring",
+          "version": "v1.2.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 240
+        },
+        {
+          "module": "github.com/google/s2a-go",
+          "version": "v0.1.9",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 241
+        },
+        {
+          "module": "github.com/google/uuid",
+          "version": "v1.6.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 242
+        },
+        {
+          "module": "github.com/googleapis/enterprise-certificate-proxy",
+          "version": "v0.3.7",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 243
+        },
+        {
+          "module": "github.com/googleapis/gax-go/v2",
+          "version": "v2.16.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 244
+        },
+        {
+          "module": "github.com/gophercloud/gophercloud",
+          "version": "v1.14.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 245
+        },
+        {
+          "module": "github.com/gophercloud/utils",
+          "version": "v0.0.0-20231010081019-80377eca5d56",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 246
+        },
+        {
+          "module": "github.com/gravitational/trace",
+          "version": "v1.1.16-0.20220114165159-14a9a7dd6aaf",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 247
+        },
+        {
+          "module": "github.com/grpc-ecosystem/grpc-gateway/v2",
+          "version": "v2.27.2",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 248
+        },
+        {
+          "module": "github.com/hashicorp/cronexpr",
+          "version": "v1.1.2",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 249
+        },
+        {
+          "module": "github.com/hashicorp/errwrap",
+          "version": "v1.1.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 250
+        },
+        {
+          "module": "github.com/hashicorp/go-cleanhttp",
+          "version": "v0.5.2",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 251
+        },
+        {
+          "module": "github.com/hashicorp/go-immutable-radix",
+          "version": "v1.3.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 252
+        },
+        {
+          "module": "github.com/hashicorp/go-rootcerts",
+          "version": "v1.0.2",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 253
+        },
+        {
+          "module": "github.com/hashicorp/go-uuid",
+          "version": "v1.0.3",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 254
+        },
+        {
+          "module": "github.com/hashicorp/golang-lru",
+          "version": "v1.0.2",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 255
+        },
+        {
+          "module": "github.com/hashicorp/hcl",
+          "version": "v1.0.1-vault-5",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 256
+        },
+        {
+          "module": "github.com/hashicorp/serf",
+          "version": "v0.10.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 257
+        },
+        {
+          "module": "github.com/huaweicloud/huaweicloud-sdk-go-v3",
+          "version": "v0.1.182",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 258
+        },
+        {
+          "module": "github.com/iij/doapi",
+          "version": "v0.0.0-20190504054126-0bbf12d6d7df",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 259
+        },
+        {
+          "module": "github.com/imdario/mergo",
+          "version": "v0.3.16",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 260
+        },
+        {
+          "module": "github.com/influxdata/line-protocol",
+          "version": "v0.0.0-20200327222509-2487e7298839",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 261
+        },
+        {
+          "module": "github.com/infobloxopen/infoblox-go-client/v2",
+          "version": "v2.10.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 262
+        },
+        {
+          "module": "github.com/jonboulle/clockwork",
+          "version": "v0.5.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 263
+        },
+        {
+          "module": "github.com/josharian/intern",
+          "version": "v1.0.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 264
+        },
+        {
+          "module": "github.com/json-iterator/go",
+          "version": "v1.1.13-0.20220915233716-71ac16282d12",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 265
+        },
+        {
+          "module": "github.com/k0kubun/go-ansi",
+          "version": "v0.0.0-20180517002512-3bf9e2903213",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 266
+        },
+        {
+          "module": "github.com/klauspost/cpuid/v2",
+          "version": "v2.2.5",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 267
+        },
+        {
+          "module": "github.com/kolo/xmlrpc",
+          "version": "v0.0.0-20220921171641-a4b6fa1dd06b",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 268
+        },
+        {
+          "module": "github.com/kylelemons/godebug",
+          "version": "v1.1.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 269
+        },
+        {
+          "module": "github.com/labbsr0x/bindman-dns-webhook",
+          "version": "v1.0.2",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 270
+        },
+        {
+          "module": "github.com/labbsr0x/goh",
+          "version": "v1.0.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 271
+        },
+        {
+          "module": "github.com/leodido/go-urn",
+          "version": "v1.4.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 272
+        },
+        {
+          "module": "github.com/linode/linodego",
+          "version": "v1.64.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 273
+        },
+        {
+          "module": "github.com/liquidweb/liquidweb-cli",
+          "version": "v0.6.9",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 274
+        },
+        {
+          "module": "github.com/liquidweb/liquidweb-go",
+          "version": "v1.6.4",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 275
+        },
+        {
+          "module": "github.com/lufia/plan9stats",
+          "version": "v0.0.0-20250317134145-8bc96cf8fc35",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 276
+        },
+        {
+          "module": "github.com/magiconair/properties",
+          "version": "v1.8.7",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 277
+        },
+        {
+          "module": "github.com/mailgun/minheap",
+          "version": "v0.0.0-20170619185613-3dbe6c6bf55f",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 278
+        },
+        {
+          "module": "github.com/mailgun/multibuf",
+          "version": "v0.1.2",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 279
+        },
+        {
+          "module": "github.com/mailgun/timetools",
+          "version": "v0.0.0-20141028012446-7e6055773c51",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 280
+        },
+        {
+          "module": "github.com/mailru/easyjson",
+          "version": "v0.9.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 281
+        },
+        {
+          "module": "github.com/mattn/go-colorable",
+          "version": "v0.1.14",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 282
+        },
+        {
+          "module": "github.com/mattn/go-isatty",
+          "version": "v0.0.20",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 283
+        },
+        {
+          "module": "github.com/mimuret/golang-iij-dpf",
+          "version": "v0.9.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 284
+        },
+        {
+          "module": "github.com/mitchellh/go-homedir",
+          "version": "v1.1.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 285
+        },
+        {
+          "module": "github.com/mitchellh/go-ps",
+          "version": "v1.0.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 286
+        },
+        {
+          "module": "github.com/mitchellh/reflectwalk",
+          "version": "v1.0.2",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 287
+        },
+        {
+          "module": "github.com/moby/docker-image-spec",
+          "version": "v1.3.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 288
+        },
+        {
+          "module": "github.com/moby/go-archive",
+          "version": "v0.1.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 289
+        },
+        {
+          "module": "github.com/moby/patternmatcher",
+          "version": "v0.6.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 290
+        },
+        {
+          "module": "github.com/moby/spdystream",
+          "version": "v0.5.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 291
+        },
+        {
+          "module": "github.com/moby/sys/atomicwriter",
+          "version": "v0.1.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 292
+        },
+        {
+          "module": "github.com/moby/sys/sequential",
+          "version": "v0.6.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 293
+        },
+        {
+          "module": "github.com/moby/sys/user",
+          "version": "v0.4.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 294
+        },
+        {
+          "module": "github.com/moby/sys/userns",
+          "version": "v0.1.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 295
+        },
+        {
+          "module": "github.com/moby/term",
+          "version": "v0.5.2",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 296
+        },
+        {
+          "module": "github.com/modern-go/concurrent",
+          "version": "v0.0.0-20180306012644-bacd9c7ef1dd",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 297
+        },
+        {
+          "module": "github.com/modern-go/reflect2",
+          "version": "v1.0.3-0.20250322232337-35a7c28c31ee",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 298
+        },
+        {
+          "module": "github.com/morikuni/aec",
+          "version": "v1.0.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 299
+        },
+        {
+          "module": "github.com/munnerz/goautoneg",
+          "version": "v0.0.0-20191010083416-a7dc8b61c822",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 300
+        },
+        {
+          "module": "github.com/mxk/go-flowrate",
+          "version": "v0.0.0-20140419014527-cca7078d478f",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 301
+        },
+        {
+          "module": "github.com/namedotcom/go/v4",
+          "version": "v4.0.2",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 302
+        },
+        {
+          "module": "github.com/nrdcg/auroradns",
+          "version": "v1.1.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 303
+        },
+        {
+          "module": "github.com/nrdcg/bunny-go",
+          "version": "v0.1.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 304
+        },
+        {
+          "module": "github.com/nrdcg/desec",
+          "version": "v0.11.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 305
+        },
+        {
+          "module": "github.com/nrdcg/dnspod-go",
+          "version": "v0.4.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 306
+        },
+        {
+          "module": "github.com/nrdcg/freemyip",
+          "version": "v0.3.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 307
+        },
+        {
+          "module": "github.com/nrdcg/goacmedns",
+          "version": "v0.2.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 308
+        },
+        {
+          "module": "github.com/nrdcg/goinwx",
+          "version": "v0.12.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 309
+        },
+        {
+          "module": "github.com/nrdcg/mailinabox",
+          "version": "v0.3.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 310
+        },
+        {
+          "module": "github.com/nrdcg/namesilo",
+          "version": "v0.5.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 311
+        },
+        {
+          "module": "github.com/nrdcg/nodion",
+          "version": "v0.1.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 312
+        },
+        {
+          "module": "github.com/nrdcg/oci-go-sdk/common/v1065",
+          "version": "v1065.105.2",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 313
+        },
+        {
+          "module": "github.com/nrdcg/oci-go-sdk/dns/v1065",
+          "version": "v1065.105.2",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 314
+        },
+        {
+          "module": "github.com/nrdcg/porkbun",
+          "version": "v0.4.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 315
+        },
+        {
+          "module": "github.com/nrdcg/vegadns",
+          "version": "v0.3.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 316
+        },
+        {
+          "module": "github.com/nzdjb/go-metaname",
+          "version": "v1.0.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 317
+        },
+        {
+          "module": "github.com/onsi/ginkgo",
+          "version": "v1.16.5",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 318
+        },
+        {
+          "module": "github.com/opencontainers/go-digest",
+          "version": "v1.0.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 319
+        },
+        {
+          "module": "github.com/opencontainers/image-spec",
+          "version": "v1.1.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 320
+        },
+        {
+          "module": "github.com/openzipkin/zipkin-go",
+          "version": "v0.4.3",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 321
+        },
+        {
+          "module": "github.com/ovh/go-ovh",
+          "version": "v1.9.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 322
+        },
+        {
+          "module": "github.com/pelletier/go-toml/v2",
+          "version": "v2.2.4",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 323
+        },
+        {
+          "module": "github.com/peterhellberg/link",
+          "version": "v1.2.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 324
+        },
+        {
+          "module": "github.com/pkg/browser",
+          "version": "v0.0.0-20240102092130-5ac0b6a4141c",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 325
+        },
+        {
+          "module": "github.com/pkg/errors",
+          "version": "v0.9.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 326
+        },
+        {
+          "module": "github.com/power-devops/perfstat",
+          "version": "v0.0.0-20240221224432-82ca36839d55",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 327
+        },
+        {
+          "module": "github.com/pquerna/otp",
+          "version": "v1.5.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 328
+        },
+        {
+          "module": "github.com/prometheus/common",
+          "version": "v0.65.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 329
+        },
+        {
+          "module": "github.com/prometheus/procfs",
+          "version": "v0.17.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 330
+        },
+        {
+          "module": "github.com/quic-go/qpack",
+          "version": "v0.6.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 331
+        },
+        {
+          "module": "github.com/regfish/regfish-dnsapi-go",
+          "version": "v0.1.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 332
+        },
+        {
+          "module": "github.com/rs/cors",
+          "version": "v1.7.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 333
+        },
+        {
+          "module": "github.com/rs/dnscache",
+          "version": "v0.0.0-20230804202142-fc85eb664529",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 334
+        },
+        {
+          "module": "github.com/sacloud/api-client-go",
+          "version": "v0.3.3",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 335
+        },
+        {
+          "module": "github.com/sacloud/go-http",
+          "version": "v0.1.9",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 336
+        },
+        {
+          "module": "github.com/sacloud/iaas-api-go",
+          "version": "v1.23.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 337
+        },
+        {
+          "module": "github.com/sacloud/packages-go",
+          "version": "v0.0.12",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 338
+        },
+        {
+          "module": "github.com/sagikazarmark/locafero",
+          "version": "v0.4.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 339
+        },
+        {
+          "module": "github.com/sagikazarmark/slog-shim",
+          "version": "v0.1.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 340
+        },
+        {
+          "module": "github.com/scaleway/scaleway-sdk-go",
+          "version": "v1.0.0-beta.36",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 341
+        },
+        {
+          "module": "github.com/selectel/domains-go",
+          "version": "v1.1.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 342
+        },
+        {
+          "module": "github.com/selectel/go-selvpcclient/v4",
+          "version": "v4.1.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 343
+        },
+        {
+          "module": "github.com/shirou/gopsutil/v3",
+          "version": "v3.24.4",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 344
+        },
+        {
+          "module": "github.com/shoenig/go-m1cpu",
+          "version": "v0.1.6",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 345
+        },
+        {
+          "module": "github.com/shopspring/decimal",
+          "version": "v1.4.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 346
+        },
+        {
+          "module": "github.com/softlayer/softlayer-go",
+          "version": "v1.2.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 347
+        },
+        {
+          "module": "github.com/softlayer/xmlrpc",
+          "version": "v0.0.0-20200409220501-5f089df7cb7e",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 348
+        },
+        {
+          "module": "github.com/sony/gobreaker",
+          "version": "v1.0.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 349
+        },
+        {
+          "module": "github.com/sourcegraph/conc",
+          "version": "v0.3.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 350
+        },
+        {
+          "module": "github.com/spf13/afero",
+          "version": "v1.11.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 351
+        },
+        {
+          "module": "github.com/spf13/cast",
+          "version": "v1.7.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 352
+        },
+        {
+          "module": "github.com/spf13/pflag",
+          "version": "v1.0.7",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 353
+        },
+        {
+          "module": "github.com/spf13/viper",
+          "version": "v1.18.2",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 354
+        },
+        {
+          "module": "github.com/stretchr/objx",
+          "version": "v0.5.2",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 355
+        },
+        {
+          "module": "github.com/subosito/gotenv",
+          "version": "v1.6.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 356
+        },
+        {
+          "module": "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common",
+          "version": "v1.3.28",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 357
+        },
+        {
+          "module": "github.com/tidwall/match",
+          "version": "v1.1.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 358
+        },
+        {
+          "module": "github.com/tidwall/pretty",
+          "version": "v1.2.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 359
+        },
+        {
+          "module": "github.com/tjfoc/gmsm",
+          "version": "v1.4.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 360
+        },
+        {
+          "module": "github.com/tklauser/go-sysconf",
+          "version": "v0.3.15",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 361
+        },
+        {
+          "module": "github.com/tklauser/numcpus",
+          "version": "v0.10.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 362
+        },
+        {
+          "module": "github.com/transip/gotransip/v6",
+          "version": "v6.26.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 363
+        },
+        {
+          "module": "github.com/ultradns/ultradns-go-sdk",
+          "version": "v1.8.1-20250722213956-faef419",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 364
+        },
+        {
+          "module": "github.com/valyala/bytebufferpool",
+          "version": "v1.0.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 365
+        },
+        {
+          "module": "github.com/vinyldns/go-vinyldns",
+          "version": "v0.9.17",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 366
+        },
+        {
+          "module": "github.com/volcengine/volc-sdk-golang",
+          "version": "v1.0.233",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 367
+        },
+        {
+          "module": "github.com/vultr/govultr/v3",
+          "version": "v3.26.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 368
+        },
+        {
+          "module": "github.com/x448/float16",
+          "version": "v0.8.4",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 369
+        },
+        {
+          "module": "github.com/yandex-cloud/go-genproto",
+          "version": "v0.43.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 370
+        },
+        {
+          "module": "github.com/yandex-cloud/go-sdk/services/dns",
+          "version": "v0.0.25",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 371
+        },
+        {
+          "module": "github.com/yandex-cloud/go-sdk/v2",
+          "version": "v2.37.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 372
+        },
+        {
+          "module": "github.com/youmark/pkcs8",
+          "version": "v0.0.0-20240726163527-a2c0da244d78",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 373
+        },
+        {
+          "module": "github.com/yusufpapurcu/wmi",
+          "version": "v1.2.4",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 374
+        },
+        {
+          "module": "go.etcd.io/etcd/api/v3",
+          "version": "v3.6.4",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 375
+        },
+        {
+          "module": "go.etcd.io/etcd/client/pkg/v3",
+          "version": "v3.6.4",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 376
+        },
+        {
+          "module": "go.etcd.io/etcd/client/v3",
+          "version": "v3.6.4",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 377
+        },
+        {
+          "module": "go.mongodb.org/mongo-driver",
+          "version": "v1.13.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 378
+        },
+        {
+          "module": "go.opencensus.io",
+          "version": "v0.24.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 379
+        },
+        {
+          "module": "go.opentelemetry.io/auto/sdk",
+          "version": "v1.2.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 380
+        },
+        {
+          "module": "go.opentelemetry.io/collector/featuregate",
+          "version": "v1.41.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 381
+        },
+        {
+          "module": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
+          "version": "v0.61.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 382
+        },
+        {
+          "module": "go.opentelemetry.io/contrib/propagators/aws",
+          "version": "v1.38.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 383
+        },
+        {
+          "module": "go.opentelemetry.io/contrib/propagators/b3",
+          "version": "v1.38.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 384
+        },
+        {
+          "module": "go.opentelemetry.io/contrib/propagators/jaeger",
+          "version": "v1.38.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 385
+        },
+        {
+          "module": "go.opentelemetry.io/contrib/propagators/ot",
+          "version": "v1.38.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 386
+        },
+        {
+          "module": "go.opentelemetry.io/proto/otlp",
+          "version": "v1.7.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 387
+        },
+        {
+          "module": "go.uber.org/atomic",
+          "version": "v1.11.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 388
+        },
+        {
+          "module": "go.uber.org/multierr",
+          "version": "v1.11.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 389
+        },
+        {
+          "module": "go.uber.org/ratelimit",
+          "version": "v0.3.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 390
+        },
+        {
+          "module": "go.uber.org/zap",
+          "version": "v1.27.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 391
+        },
+        {
+          "module": "go.yaml.in/yaml/v2",
+          "version": "v2.4.2",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 392
+        },
+        {
+          "module": "go.yaml.in/yaml/v3",
+          "version": "v3.0.4",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 393
+        },
+        {
+          "module": "golang.org/x/arch",
+          "version": "v0.4.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 394
+        },
+        {
+          "module": "golang.org/x/exp",
+          "version": "v0.0.0-20250408133849-7e4ce0ab07d0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 395
+        },
+        {
+          "module": "golang.org/x/oauth2",
+          "version": "v0.34.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 396
+        },
+        {
+          "module": "golang.org/x/term",
+          "version": "v0.39.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 397
+        },
+        {
+          "module": "gomodules.xyz/jsonpatch/v2",
+          "version": "v2.4.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 398
+        },
+        {
+          "module": "google.golang.org/api",
+          "version": "v0.259.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 399
+        },
+        {
+          "module": "google.golang.org/genproto/googleapis/api",
+          "version": "v0.0.0-20251202230838-ff82c1b0f217",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 400
+        },
+        {
+          "module": "google.golang.org/genproto/googleapis/rpc",
+          "version": "v0.0.0-20251222181119-0a764e51fe1b",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 401
+        },
+        {
+          "module": "google.golang.org/protobuf",
+          "version": "v1.36.11",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 402
+        },
+        {
+          "module": "gopkg.in/evanphx/json-patch.v4",
+          "version": "v4.13.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 403
+        },
+        {
+          "module": "gopkg.in/inf.v0",
+          "version": "v0.9.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 404
+        },
+        {
+          "module": "gopkg.in/ini.v1",
+          "version": "v1.67.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 405
+        },
+        {
+          "module": "gopkg.in/ns1/ns1-go.v2",
+          "version": "v2.16.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 406
+        },
+        {
+          "module": "gopkg.in/yaml.v2",
+          "version": "v2.4.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 407
+        },
+        {
+          "module": "k8s.io/klog/v2",
+          "version": "v2.130.1",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 408
+        },
+        {
+          "module": "k8s.io/kube-openapi",
+          "version": "v0.0.0-20250814151709-d7b6acb124c3",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 409
+        },
+        {
+          "module": "nhooyr.io/websocket",
+          "version": "v1.8.7",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 410
+        },
+        {
+          "module": "sigs.k8s.io/json",
+          "version": "v0.0.0-20250730193827-2d320260d730",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 411
+        },
+        {
+          "module": "sigs.k8s.io/randfill",
+          "version": "v1.0.0",
+          "indirect": true,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 412
+        }
+      ],
+      "replaces": [
+        {
+          "old_module": "github.com/traefik/traefik/dynamic/ext",
+          "old_version": null,
+          "new_target": "./pkg/config/dynamic/ext",
+          "new_version": null,
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 416
+        },
+        {
+          "old_module": "github.com/abbot/go-http-auth",
+          "old_version": null,
+          "new_target": "github.com/containous/go-http-auth",
+          "new_version": "v0.4.1-0.20200324110947-a37a7636d23e",
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 420
+        },
+        {
+          "old_module": "github.com/gorilla/mux",
+          "old_version": null,
+          "new_target": "github.com/containous/mux",
+          "new_version": "v0.0.0-20250523120546-41b6ec3aed59",
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 421
+        },
+        {
+          "old_module": "github.com/mailgun/minheap",
+          "old_version": null,
+          "new_target": "github.com/containous/minheap",
+          "new_version": "v0.0.0-20190809180810-6e71eb837595",
+          "file": "languages/go/project/traefik/go.mod",
+          "line": 422
+        }
+      ],
+      "tools": []
+    },
+    {
+      "file": "languages/go/project/traefik/pkg/config/dynamic/ext/go.mod",
+      "module": "github.com/traefik/traefik/dynamic/ext",
+      "go_version": "1.24.0",
+      "requires": [],
+      "replaces": [],
+      "tools": []
+    },
+    {
+      "file": "languages/go/project/traefik/pkg/plugins/fixtures/src/testpluginsafe/go.mod",
+      "module": "testpluginsafe",
+      "go_version": "1.23.0",
+      "requires": [],
+      "replaces": [],
+      "tools": []
+    },
+    {
+      "file": "languages/go/project/traefik/pkg/plugins/fixtures/src/testpluginsyscall/go.mod",
+      "module": "testpluginsyscall",
+      "go_version": "1.23.0",
+      "requires": [],
+      "replaces": [],
+      "tools": []
+    },
+    {
+      "file": "languages/go/project/traefik/pkg/plugins/fixtures/src/testpluginunsafe/go.mod",
+      "module": "testpluginunsafe",
+      "go_version": "1.23.0",
+      "requires": [],
+      "replaces": [],
+      "tools": []
+    },
+    {
+      "file": "languages/go/project/traefik/pkg/plugins/fixtures/withoutsocket/go.mod",
+      "module": "withoutsocket",
+      "go_version": "1.23.0",
+      "requires": [
+        {
+          "module": "github.com/http-wasm/http-wasm-guest-tinygo",
+          "version": "v0.4.0",
+          "indirect": false,
+          "file": "languages/go/project/traefik/pkg/plugins/fixtures/withoutsocket/go.mod",
+          "line": 5
+        }
+      ],
+      "replaces": [],
+      "tools": []
+    }
+  ]
+}
