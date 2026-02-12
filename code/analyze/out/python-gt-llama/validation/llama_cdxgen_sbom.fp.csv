@@ -1,0 +1,5 @@
+name,version,purl
+fairscale,0.4.13,pkg:pypi/fairscale@0.4.13
+fire,0.7.1,pkg:pypi/fire@0.7.1
+sentencepiece,0.2.1,pkg:pypi/sentencepiece@0.2.1
+torch,2.10.0,pkg:pypi/torch@2.10.0

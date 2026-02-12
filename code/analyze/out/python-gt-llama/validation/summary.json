@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-02-12T02:57:41.203391+00:00",
+  "gt_dir": "code/analyze/out/python-gt-llama",
+  "include_non_registry": false,
+  "results": [
+    {
+      "sbom": "languages/python/SBOM/llama/cdxgen/llama_cdxgen_sbom.json",
+      "observed_count": 4,
+      "expected_count": 0,
+      "tp": 0,
+      "fp": 4,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy_union": 0.0,
+      "fp_reasons": {
+        "other": 4
+      }
+    },
+    {
+      "sbom": "languages/python/SBOM/llama/syft/llama_syft_sbom.json",
+      "observed_count": 0,
+      "expected_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy_union": 0.0,
+      "fp_reasons": {}
+    },
+    {
+      "sbom": "languages/python/SBOM/llama/trivy/llama_trivy_sbom.json",
+      "observed_count": 0,
+      "expected_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy_union": 0.0,
+      "fp_reasons": {}
+    }
+  ],
+  "metric_definition": {
+    "accuracy_union": "TP / |GT union SBOM| (Jaccard-style, since TN is undefined for SBOM comparison)",
+    "f1": "2TP / (2TP + FP + FN)"
+  }
+}

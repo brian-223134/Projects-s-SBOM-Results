@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-02-12T02:57:30.399178+00:00",
+  "root": "languages/python/project/llama",
+  "manifests": [
+    {
+      "file": "languages/python/project/llama/requirements.txt",
+      "kind": "requirements",
+      "project_name": null,
+      "project_version": null,
+      "resolved": [],
+      "declared": [
+        {
+          "name": "torch",
+          "specifier": "torch",
+          "file": "languages/python/project/llama/requirements.txt",
+          "line": 1,
+          "group": "requirements"
+        },
+        {
+          "name": "fairscale",
+          "specifier": "fairscale",
+          "file": "languages/python/project/llama/requirements.txt",
+          "line": 2,
+          "group": "requirements"
+        },
+        {
+          "name": "fire",
+          "specifier": "fire",
+          "file": "languages/python/project/llama/requirements.txt",
+          "line": 3,
+          "group": "requirements"
+        },
+        {
+          "name": "sentencepiece",
+          "specifier": "sentencepiece",
+          "file": "languages/python/project/llama/requirements.txt",
+          "line": 4,
+          "group": "requirements"
+        }
+      ],
+      "notes": []
+    }
+  ]
+}

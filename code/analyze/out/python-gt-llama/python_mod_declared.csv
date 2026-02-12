@@ -1,0 +1,5 @@
+kind,manifest_file,project_name,name,specifier,group,line
+requirements,languages/python/project/llama/requirements.txt,,torch,torch,requirements,1
+requirements,languages/python/project/llama/requirements.txt,,fairscale,fairscale,requirements,2
+requirements,languages/python/project/llama/requirements.txt,,fire,fire,requirements,3
+requirements,languages/python/project/llama/requirements.txt,,sentencepiece,sentencepiece,requirements,4
