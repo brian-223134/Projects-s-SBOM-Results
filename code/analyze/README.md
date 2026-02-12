@@ -155,6 +155,23 @@ python code/analyze/python_mod_gt_validate.py \
   --out-dir code/analyze/out/python-gt-langchain/validation
 ```
 
+### Python 프로젝트별 SBOM 검증 결과 + 실행 시간
+
+- 검증 지표: `code/analyze/out/python-gt-*/validation/summary.json` 기반
+- 실행 시간: `languages/python/SBOM/<project>/<tool>/time.txt`의 `TotalSeconds`(초) 기반
+
+| Project | Tool | Time (s) | Accuracy (union) | Precision | Recall | F1 |
+|---|---|---:|---:|---:|---:|---:|
+| langchain | cdxgen | 121.200 | 0.971 | 0.971 | 1.000 | 0.985 |
+| langchain | syft | 47.372 | 0.956 | 0.956 | 1.000 | 0.977 |
+| langchain | trivy | 32.379 | 0.606 | 0.944 | 0.628 | 0.754 |
+| deepseek | cdxgen | 594.369 | 0.000 | 0.000 | 0.000 | 0.000 |
+| deepseek | syft | 2.674 | 0.000 | 0.000 | 0.000 | 0.000 |
+| deepseek | trivy | 0.815 | 0.000 | 0.000 | 0.000 | 0.000 |
+| llama | cdxgen | 83.595 | 0.000 | 0.000 | 0.000 | 0.000 |
+| llama | syft | 2.535 | 0.000 | 0.000 | 0.000 | 0.000 |
+| llama | trivy | 0.811 | 0.000 | 0.000 | 0.000 | 0.000 |
+
 옵션:
 
 - `--include-non-registry`: `uv.lock`에서 editable/directory/git/url 등 **비-registry 소스**도 GT에 포함(모노레포 내부 패키지까지 포함하고 싶을 때)
@@ -230,6 +247,26 @@ C:/Users/{username}/Desktop/Projects-s-SBOM-Results/.venv/Scripts/python.exe cod
   --sbom "languages/go/SBOM/terraform/trivy/terraform_trivy_sbom.json" \
   --out-dir "code/analyze/out/go-gt-terraform/validation"
 ```
+
+### Go 프로젝트별 SBOM 검증 결과 + 실행 시간
+
+- 검증 지표: `code/analyze/out/go-gt-*/validation/summary.json` 기반
+- 실행 시간: `languages/go/SBOM/<project>/<tool>/time.txt`의 `TotalSeconds`(초) 기반
+
+| Project | Tool | Time (s) | Accuracy (union) | Precision | Recall | F1 |
+|---|---|---:|---:|---:|---:|---:|
+| gin | cdxgen | 8.060 | 1.000 | 1.000 | 1.000 | 1.000 |
+| gin | syft | 4.768 | 1.000 | 1.000 | 1.000 | 1.000 |
+| gin | trivy | 1.731 | 1.000 | 1.000 | 1.000 | 1.000 |
+| prometheus | cdxgen | 56.799 | 0.957 | 0.984 | 0.972 | 0.978 |
+| prometheus | syft | 29.746 | 0.994 | 0.997 | 0.997 | 0.997 |
+| prometheus | trivy | 13.508 | 1.000 | 1.000 | 1.000 | 1.000 |
+| syncthing | cdxgen | 49.987 | 0.980 | 0.980 | 1.000 | 0.990 |
+| syncthing | syft | 18.275 | 0.960 | 0.979 | 0.979 | 0.979 |
+| syncthing | trivy | 7.988 | 0.960 | 0.979 | 0.979 | 0.979 |
+| terraform | cdxgen | 584.974 | 0.958 | 0.958 | 1.000 | 0.979 |
+| terraform | syft | 86.818 | 0.968 | 0.968 | 1.000 | 0.984 |
+| terraform | trivy | 75.325 | 1.000 | 1.000 | 1.000 | 1.000 |
 
 ---
 
