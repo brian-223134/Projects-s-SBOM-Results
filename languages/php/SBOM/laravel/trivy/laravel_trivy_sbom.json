@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:11c37fd9-91f9-4a81-ab59-d3e4969eed77",
+  "serialNumber": "urn:uuid:e529d50b-b5aa-4cac-aa11-2571033ec721",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-01-26T03:27:40+00:00",
+    "timestamp": "2026-02-12T07:37:39+00:00",
     "tools": {
       "components": [
         {
@@ -15,12 +15,12 @@
           },
           "group": "aquasecurity",
           "name": "trivy",
-          "version": "0.68.2"
+          "version": "0.69.1"
         }
       ]
     },
     "component": {
-      "bom-ref": "d1d5135f-3bf1-4923-b747-61494c9c640a",
+      "bom-ref": "faba4a05-163b-4218-9522-282024c40b33",
       "type": "application",
       "name": "/src",
       "properties": [
@@ -33,9 +33,9 @@
   },
   "components": [
     {
-      "bom-ref": "20d16df0-36b3-4e04-aba5-dd4c28eca99b",
+      "bom-ref": "4ea9e635-a192-4767-87d0-0c8753694888",
       "type": "application",
-      "name": "framework/src/Illuminate/Foundation/resources/exceptions/renderer/package-lock.json",
+      "name": "src/Illuminate/Foundation/resources/exceptions/renderer/package-lock.json",
       "properties": [
         {
           "name": "aquasecurity:trivy:Class",
@@ -53,6 +53,13 @@
       "group": "@popperjs",
       "name": "core",
       "version": "2.11.8",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/%40popperjs/core@2.11.8",
       "properties": [
         {
@@ -71,6 +78,13 @@
       "group": "@shikijs",
       "name": "core",
       "version": "3.13.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/%40shikijs/core@3.13.0",
       "properties": [
         {
@@ -89,6 +103,13 @@
       "group": "@shikijs",
       "name": "engine-javascript",
       "version": "3.13.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/%40shikijs/engine-javascript@3.13.0",
       "properties": [
         {
@@ -107,6 +128,13 @@
       "group": "@shikijs",
       "name": "engine-oniguruma",
       "version": "3.13.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/%40shikijs/engine-oniguruma@3.13.0",
       "properties": [
         {
@@ -125,6 +153,13 @@
       "group": "@shikijs",
       "name": "langs",
       "version": "3.13.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/%40shikijs/langs@3.13.0",
       "properties": [
         {
@@ -143,6 +178,13 @@
       "group": "@shikijs",
       "name": "themes",
       "version": "3.13.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/%40shikijs/themes@3.13.0",
       "properties": [
         {
@@ -161,6 +203,13 @@
       "group": "@shikijs",
       "name": "types",
       "version": "3.13.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/%40shikijs/types@3.13.0",
       "properties": [
         {
@@ -179,6 +228,13 @@
       "group": "@shikijs",
       "name": "vscode-textmate",
       "version": "10.0.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/%40shikijs/vscode-textmate@10.0.2",
       "properties": [
         {
@@ -197,6 +253,13 @@
       "group": "@types",
       "name": "hast",
       "version": "3.0.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/%40types/hast@3.0.4",
       "properties": [
         {
@@ -215,6 +278,13 @@
       "group": "@types",
       "name": "mdast",
       "version": "4.0.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/%40types/mdast@4.0.4",
       "properties": [
         {
@@ -233,6 +303,13 @@
       "group": "@types",
       "name": "unist",
       "version": "3.0.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/%40types/unist@3.0.3",
       "properties": [
         {
@@ -251,6 +328,13 @@
       "group": "@ungap",
       "name": "structured-clone",
       "version": "1.3.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
       "purl": "pkg:npm/%40ungap/structured-clone@1.3.0",
       "properties": [
         {
@@ -269,6 +353,13 @@
       "group": "@vue",
       "name": "reactivity",
       "version": "3.1.5",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/%40vue/reactivity@3.1.5",
       "properties": [
         {
@@ -287,6 +378,13 @@
       "group": "@vue",
       "name": "shared",
       "version": "3.1.5",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/%40vue/shared@3.1.5",
       "properties": [
         {
@@ -304,6 +402,13 @@
       "type": "library",
       "name": "alpinejs",
       "version": "3.14.9",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/alpinejs@3.14.9",
       "properties": [
         {
@@ -321,6 +426,13 @@
       "type": "library",
       "name": "ccount",
       "version": "2.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/ccount@2.0.1",
       "properties": [
         {
@@ -338,6 +450,13 @@
       "type": "library",
       "name": "character-entities-html4",
       "version": "2.1.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/character-entities-html4@2.1.0",
       "properties": [
         {
@@ -355,6 +474,13 @@
       "type": "library",
       "name": "character-entities-legacy",
       "version": "3.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/character-entities-legacy@3.0.0",
       "properties": [
         {
@@ -372,6 +498,13 @@
       "type": "library",
       "name": "comma-separated-tokens",
       "version": "2.0.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/comma-separated-tokens@2.0.3",
       "properties": [
         {
@@ -389,6 +522,13 @@
       "type": "library",
       "name": "dequal",
       "version": "2.0.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/dequal@2.0.3",
       "properties": [
         {
@@ -406,6 +546,13 @@
       "type": "library",
       "name": "devlop",
       "version": "1.1.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/devlop@1.1.0",
       "properties": [
         {
@@ -423,6 +570,13 @@
       "type": "library",
       "name": "hast-util-to-html",
       "version": "9.0.5",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/hast-util-to-html@9.0.5",
       "properties": [
         {
@@ -440,6 +594,13 @@
       "type": "library",
       "name": "hast-util-whitespace",
       "version": "3.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/hast-util-whitespace@3.0.0",
       "properties": [
         {
@@ -457,6 +618,13 @@
       "type": "library",
       "name": "html-void-elements",
       "version": "3.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/html-void-elements@3.0.0",
       "properties": [
         {
@@ -474,6 +642,13 @@
       "type": "library",
       "name": "mdast-util-to-hast",
       "version": "13.2.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/mdast-util-to-hast@13.2.1",
       "properties": [
         {
@@ -491,6 +666,13 @@
       "type": "library",
       "name": "micromark-util-character",
       "version": "2.1.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/micromark-util-character@2.1.1",
       "properties": [
         {
@@ -508,6 +690,13 @@
       "type": "library",
       "name": "micromark-util-encode",
       "version": "2.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/micromark-util-encode@2.0.1",
       "properties": [
         {
@@ -525,6 +714,13 @@
       "type": "library",
       "name": "micromark-util-sanitize-uri",
       "version": "2.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/micromark-util-sanitize-uri@2.0.1",
       "properties": [
         {
@@ -542,6 +738,13 @@
       "type": "library",
       "name": "micromark-util-symbol",
       "version": "2.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/micromark-util-symbol@2.0.1",
       "properties": [
         {
@@ -559,6 +762,13 @@
       "type": "library",
       "name": "micromark-util-types",
       "version": "2.0.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/micromark-util-types@2.0.2",
       "properties": [
         {
@@ -576,6 +786,13 @@
       "type": "library",
       "name": "oniguruma-parser",
       "version": "0.12.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/oniguruma-parser@0.12.1",
       "properties": [
         {
@@ -593,6 +810,13 @@
       "type": "library",
       "name": "oniguruma-to-es",
       "version": "4.3.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/oniguruma-to-es@4.3.3",
       "properties": [
         {
@@ -610,6 +834,13 @@
       "type": "library",
       "name": "property-information",
       "version": "7.1.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/property-information@7.1.0",
       "properties": [
         {
@@ -627,6 +858,13 @@
       "type": "library",
       "name": "regex-recursion",
       "version": "6.0.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/regex-recursion@6.0.2",
       "properties": [
         {
@@ -644,6 +882,13 @@
       "type": "library",
       "name": "regex-utilities",
       "version": "2.3.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/regex-utilities@2.3.0",
       "properties": [
         {
@@ -661,6 +906,13 @@
       "type": "library",
       "name": "regex",
       "version": "6.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/regex@6.0.1",
       "properties": [
         {
@@ -678,6 +930,13 @@
       "type": "library",
       "name": "shiki",
       "version": "3.13.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/shiki@3.13.0",
       "properties": [
         {
@@ -695,6 +954,13 @@
       "type": "library",
       "name": "space-separated-tokens",
       "version": "2.0.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/space-separated-tokens@2.0.2",
       "properties": [
         {
@@ -712,6 +978,13 @@
       "type": "library",
       "name": "stringify-entities",
       "version": "4.0.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/stringify-entities@4.0.4",
       "properties": [
         {
@@ -729,6 +1002,13 @@
       "type": "library",
       "name": "tailwindcss",
       "version": "4.1.12",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/tailwindcss@4.1.12",
       "properties": [
         {
@@ -746,6 +1026,13 @@
       "type": "library",
       "name": "tippy.js",
       "version": "6.3.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/tippy.js@6.3.7",
       "properties": [
         {
@@ -763,6 +1050,13 @@
       "type": "library",
       "name": "trim-lines",
       "version": "3.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/trim-lines@3.0.1",
       "properties": [
         {
@@ -780,6 +1074,13 @@
       "type": "library",
       "name": "tw-animate-css",
       "version": "1.3.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/tw-animate-css@1.3.7",
       "properties": [
         {
@@ -797,6 +1098,13 @@
       "type": "library",
       "name": "unist-util-is",
       "version": "6.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/unist-util-is@6.0.0",
       "properties": [
         {
@@ -814,6 +1122,13 @@
       "type": "library",
       "name": "unist-util-position",
       "version": "5.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/unist-util-position@5.0.0",
       "properties": [
         {
@@ -831,6 +1146,13 @@
       "type": "library",
       "name": "unist-util-stringify-position",
       "version": "4.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/unist-util-stringify-position@4.0.0",
       "properties": [
         {
@@ -848,6 +1170,13 @@
       "type": "library",
       "name": "unist-util-visit-parents",
       "version": "6.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/unist-util-visit-parents@6.0.1",
       "properties": [
         {
@@ -865,6 +1194,13 @@
       "type": "library",
       "name": "unist-util-visit",
       "version": "5.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/unist-util-visit@5.0.0",
       "properties": [
         {
@@ -882,6 +1218,13 @@
       "type": "library",
       "name": "vfile-message",
       "version": "4.0.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/vfile-message@4.0.3",
       "properties": [
         {
@@ -899,6 +1242,13 @@
       "type": "library",
       "name": "vfile",
       "version": "6.0.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/vfile@6.0.3",
       "properties": [
         {
@@ -916,6 +1266,13 @@
       "type": "library",
       "name": "zwitch",
       "version": "2.0.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
       "purl": "pkg:npm/zwitch@2.0.4",
       "properties": [
         {
@@ -931,7 +1288,7 @@
   ],
   "dependencies": [
     {
-      "ref": "20d16df0-36b3-4e04-aba5-dd4c28eca99b",
+      "ref": "4ea9e635-a192-4767-87d0-0c8753694888",
       "dependsOn": [
         "pkg:npm/alpinejs@3.14.9",
         "pkg:npm/shiki@3.13.0",
@@ -941,9 +1298,9 @@
       ]
     },
     {
-      "ref": "d1d5135f-3bf1-4923-b747-61494c9c640a",
+      "ref": "faba4a05-163b-4218-9522-282024c40b33",
       "dependsOn": [
-        "20d16df0-36b3-4e04-aba5-dd4c28eca99b"
+        "4ea9e635-a192-4767-87d0-0c8753694888"
       ]
     },
     {
