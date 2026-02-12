@@ -1,0 +1,11 @@
+Days              : 0
+Hours             : 0
+Minutes           : 0
+Seconds           : 47
+Milliseconds      : 372
+Ticks             : 473724261
+TotalDays         : 0.00054829196875
+TotalHours        : 0.01315900725
+TotalMinutes      : 0.789540435
+TotalSeconds      : 47.3724261
+TotalMilliseconds : 47372.4261
