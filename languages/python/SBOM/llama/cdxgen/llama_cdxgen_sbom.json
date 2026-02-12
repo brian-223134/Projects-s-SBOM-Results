@@ -1,0 +1,283 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:17c71b12-8595-4885-ac06-0c33dfb7ac06",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-02-12T02:53:55Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "12.0.0",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@12.0.0",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@12.0.0",
+          "publisher": "OWASP Foundation",
+          "authors": [
+            {
+              "name": "OWASP Foundation"
+            }
+          ]
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "component": {
+      "group": "",
+      "name": "app",
+      "version": "latest",
+      "type": "application",
+      "bom-ref": "pkg:pypi/app@latest",
+      "purl": "pkg:pypi/app@latest"
+    },
+    "properties": [
+      {
+        "name": "cdx:bom:componentTypes",
+        "value": "pypi"
+      },
+      {
+        "name": "cdx:bom:componentSrcFiles",
+        "value": "PyPI package: fairscale\\nPyPI package: fire\\nPyPI package: sentencepiece\\nPyPI package: torch\\nrequirements.txt"
+      }
+    ]
+  },
+  "components": [
+    {
+      "authors": [
+        {
+          "name": "PyTorch Team <packages@pytorch.org>"
+        }
+      ],
+      "group": "",
+      "name": "torch",
+      "version": "2.10.0",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2b980edd8d7c0a68c4e951ee1856334a43193f98730d97408fbd148c1a933313"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/torch@2.10.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/torch@2.10.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "requirements.txt"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "version",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "PyPI package: torch"
+              }
+            ],
+            "concludedValue": "PyPI package: torch"
+          }
+        ]
+      }
+    },
+    {
+      "authors": [
+        {
+          "name": "Foundational AI Research @ Meta AI <todo@fb.com>"
+        }
+      ],
+      "group": "",
+      "name": "fairscale",
+      "version": "0.4.13",
+      "description": "FairScale: A PyTorch library for large-scale and high-performance training.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1b797825c427f5dba92253fd0d8daa574e8bd651a2423497775fab1b30cfb768"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "0BSD",
+            "url": "https://opensource.org/licenses/0BSD"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/fairscale@0.4.13",
+      "type": "library",
+      "bom-ref": "pkg:pypi/fairscale@0.4.13",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "requirements.txt"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "version",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "PyPI package: fairscale"
+              }
+            ],
+            "concludedValue": "PyPI package: fairscale"
+          }
+        ]
+      }
+    },
+    {
+      "authors": [
+        {
+          "name": "David Bieber <david810+fire@gmail.com>"
+        }
+      ],
+      "group": "",
+      "name": "fire",
+      "version": "0.7.1",
+      "description": "A library for automatically generating command line interfaces.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e43fd8a5033a9001e7e2973bab96070694b9f12f2e0ecf96d4683971b5ab1882"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/fire@0.7.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/fire@0.7.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "requirements.txt"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "version",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "PyPI package: fire"
+              }
+            ],
+            "concludedValue": "PyPI package: fire"
+          }
+        ]
+      }
+    },
+    {
+      "authors": [
+        {
+          "name": "Taku Kudo <taku@google.com>"
+        }
+      ],
+      "group": "",
+      "name": "sentencepiece",
+      "version": "0.2.1",
+      "description": "Unsupervised text tokenizer and detokenizer.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e10fa50bdbaa5e2445dbd387979980d391760faf0ec99a09bd7780ff37eaec44"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:pypi/sentencepiece@0.2.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/sentencepiece@0.2.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "requirements.txt"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "version",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "PyPI package: sentencepiece"
+              }
+            ],
+            "concludedValue": "PyPI package: sentencepiece"
+          }
+        ]
+      }
+    }
+  ],
+  "services": [],
+  "dependencies": [
+    {
+      "ref": "pkg:pypi/app@latest",
+      "dependsOn": []
+    }
+  ],
+  "annotations": [
+    {
+      "bom-ref": "metadata-annotations",
+      "subjects": [
+        "pkg:pypi/app@latest"
+      ],
+      "annotator": {
+        "component": {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "12.0.0",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@12.0.0",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@12.0.0",
+          "publisher": "OWASP Foundation",
+          "authors": [
+            {
+              "name": "OWASP Foundation"
+            }
+          ]
+        }
+      },
+      "timestamp": "2026-02-12T02:53:55Z",
+      "text": "This Software Bill-of-Materials (SBOM) document was created on Thursday, February 12, 2026 with cdxgen. The data was captured during the build lifecycle phase. The document describes an application named 'app'. There are 4 components."
+    }
+  ]
+}
