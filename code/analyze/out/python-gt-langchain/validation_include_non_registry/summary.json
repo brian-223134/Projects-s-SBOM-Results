@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-02-12T02:04:00.284503+00:00",
+  "gt_dir": "code/analyze/out/python-gt-langchain",
+  "include_non_registry": true,
+  "results": [
+    {
+      "sbom": "languages/python/SBOM/langchain/cdxgen/langchain_cdxgen_sbom.json",
+      "observed_count": 554,
+      "expected_count": 563,
+      "tp": 554,
+      "fp": 0,
+      "fn": 9,
+      "precision": 1.0,
+      "recall": 0.9840142095914742,
+      "f1": 0.9919427036705462,
+      "accuracy_union": 0.9840142095914742,
+      "fp_reasons": {}
+    },
+    {
+      "sbom": "languages/python/SBOM/langchain/syft/langchain_syft_sbom.json",
+      "observed_count": 563,
+      "expected_count": 563,
+      "tp": 563,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy_union": 1.0,
+      "fp_reasons": {}
+    },
+    {
+      "sbom": "languages/python/SBOM/langchain/trivy/langchain_trivy_sbom.json",
+      "observed_count": 358,
+      "expected_count": 563,
+      "tp": 358,
+      "fp": 0,
+      "fn": 205,
+      "precision": 1.0,
+      "recall": 0.6358792184724689,
+      "f1": 0.7774158523344191,
+      "accuracy_union": 0.6358792184724689,
+      "fp_reasons": {}
+    }
+  ],
+  "metric_definition": {
+    "accuracy_union": "TP / |GT union SBOM| (Jaccard-style, since TN is undefined for SBOM comparison)",
+    "f1": "2TP / (2TP + FP + FN)"
+  }
+}
