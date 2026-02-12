@@ -6,6 +6,8 @@
 
 - `go_mod_gt.py`: `go.mod` 파일을 스캔하여 GT를 JSON/CSV로 추출
 - `go_sbom_gt_validate.py`: CycloneDX SBOM을 GT와 비교하여 TP/FP/FN 및 지표를 계산
+- `python_mod_gt.py`: Python 프로젝트의 lockfile/manifest(예: `uv.lock`, `pyproject.toml`)를 스캔하여 GT를 JSON/CSV로 추출
+- `python_mod_gt_validate.py`: CycloneDX SBOM의 PyPI purl을 GT와 비교하여 TP/FP/FN 및 지표를 계산
 - `php_js_lock_gt.py`: Composer(`composer.lock`) + npm(`package-lock.json`) lockfile 기반 GT를 JSON/CSV로 추출
 - `php_js_sbom_gt_validate.py`: CycloneDX SBOM(cdxgen/syft/trivy)의 composer/npm purl을 GT와 비교
 - `SBOM_parser.py`, `SBOM_purl.py`, `SBOM_scheme.py`: SBOM 파싱/스키마/식별자(purl) 관련 모듈
@@ -114,6 +116,48 @@ python code/analyze/php_js_sbom_gt_validate.py \
 - cdxgen: TP=407 FP=0 FN=0 (precision=1.000, recall=1.000, F1=1.000, accuracy_union=1.000)
 - syft: TP=212 FP=1 FN=195 (precision=0.995, recall=0.521, F1=0.684, accuracy_union=0.520)
 - trivy: TP=212 FP=0 FN=195 (precision=1.000, recall=0.521, F1=0.685, accuracy_union=0.521)
+
+---
+
+## Python (LangChain) - lockfile GT & SBOM 검증
+
+Python은 Go의 `go.mod`처럼 "정답 파일"이 1개로 고정되지 않을 수 있어, **lockfile 기반(정확한 버전)** 으로 GT를 구성하는 것이 비교에 유리합니다.
+
+현재 구현은 아래 입력을 우선 활용합니다.
+
+- `uv.lock` (uv)
+- `Pipfile.lock` (pipenv)
+- `requirements*.txt` (핀된 `name==version` 라인만)
+- `pyproject.toml`은 declared(버전 미확정) 목록으로 보조 저장
+
+### 1) Lockfile 기반 GT 생성
+
+```powershell
+python code/analyze/python_mod_gt.py \
+  --root languages/python/project/langchain \
+  --out-dir code/analyze/out/python-gt-langchain
+```
+
+출력(예: `code/analyze/out/python-gt-langchain/`)
+
+- `python_mod_gt.json`: 스캔 결과(구조화)
+- `python_mod_packages.csv`: resolved 패키지(name, version) 테이블
+- `python_mod_declared.csv`: declared 요구사항 테이블(버전 미확정 포함)
+
+### 2) GT ↔ CycloneDX SBOM 검증(TP/FP/FN)
+
+```powershell
+python code/analyze/python_mod_gt_validate.py \
+  --gt-dir code/analyze/out/python-gt-langchain \
+  --sbom languages/python/SBOM/langchain/cdxgen/langchain_cdxgen_sbom.json \
+  --sbom languages/python/SBOM/langchain/syft/langchain_syft_sbom.json \
+  --sbom languages/python/SBOM/langchain/trivy/langchain_trivy_sbom.json \
+  --out-dir code/analyze/out/python-gt-langchain/validation
+```
+
+옵션:
+
+- `--include-non-registry`: `uv.lock`에서 editable/directory/git/url 등 **비-registry 소스**도 GT에 포함(모노레포 내부 패키지까지 포함하고 싶을 때)
 
 ---
 
