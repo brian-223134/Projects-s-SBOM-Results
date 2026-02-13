@@ -1,0 +1,12 @@
+name,gt_versions,sbom_versions
+action-junit-report,,v6
+analyze,,v4
+build_fuzzers,,master
+checkout,,v6
+init,,v4
+run_fuzzers,,master
+setup-msbuild,,v2
+setup-msys2,,v2
+setup-nasm,,v1
+sw-action,,master
+upload-artifact,,v6

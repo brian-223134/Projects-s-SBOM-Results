@@ -1,0 +1,343 @@
+{
+  "generated_at": "2026-02-13T04:30:08.148673+00:00",
+  "root": "languages/cpp/project/tesseract",
+  "scanned_files": [
+    "languages/cpp/project/tesseract/cmake/BuildFunctions.cmake",
+    "languages/cpp/project/tesseract/cmake/BuildOptimizations.cmake",
+    "languages/cpp/project/tesseract/cmake/CheckFunctions.cmake",
+    "languages/cpp/project/tesseract/cmake/Configure.cmake",
+    "languages/cpp/project/tesseract/cmake/SourceGroups.cmake",
+    "languages/cpp/project/tesseract/cmake/SourceLists.cmake",
+    "languages/cpp/project/tesseract/CMakeLists.txt",
+    "languages/cpp/project/tesseract/configure.ac",
+    "languages/cpp/project/tesseract/java/com/google/Makefile.am",
+    "languages/cpp/project/tesseract/java/com/google/scrollview/events/Makefile.am",
+    "languages/cpp/project/tesseract/java/com/google/scrollview/Makefile.am",
+    "languages/cpp/project/tesseract/java/com/google/scrollview/ui/Makefile.am",
+    "languages/cpp/project/tesseract/java/com/Makefile.am",
+    "languages/cpp/project/tesseract/java/Makefile.am",
+    "languages/cpp/project/tesseract/m4/ax_check_compile_flag.m4",
+    "languages/cpp/project/tesseract/m4/ax_split_version.m4",
+    "languages/cpp/project/tesseract/Makefile.am",
+    "languages/cpp/project/tesseract/nsis/Makefile.am",
+    "languages/cpp/project/tesseract/src/training/CMakeLists.txt",
+    "languages/cpp/project/tesseract/tessdata/configs/Makefile.am",
+    "languages/cpp/project/tesseract/tessdata/Makefile.am",
+    "languages/cpp/project/tesseract/tessdata/tessconfigs/Makefile.am",
+    "languages/cpp/project/tesseract/tesseract.pc.cmake",
+    "languages/cpp/project/tesseract/unittest/CMakeLists.txt"
+  ],
+  "project_identities": [
+    {
+      "name": "tesseract",
+      "version": "",
+      "file": "languages/cpp/project/tesseract/CMakeLists.txt",
+      "line": "49",
+      "kind": "cmake"
+    },
+    {
+      "name": "tesseract",
+      "version": "m4_esyscmd_s([test -d .git && git describe --abbrev=4 2>/dev/null || cat VERSION",
+      "file": "languages/cpp/project/tesseract/configure.ac",
+      "line": "9",
+      "kind": "autoconf"
+    }
+  ],
+  "internal_targets": [
+    "ambiguous_words",
+    "classifier_tester",
+    "cntraining",
+    "combine_lang_model",
+    "combine_tessdata",
+    "common_training",
+    "dawg2wordlist",
+    "libtesseract",
+    "lstmeval",
+    "lstmtraining",
+    "merge_unicharsets",
+    "mftraining",
+    "openmp::openmp_cxx",
+    "pango_training",
+    "set_unicharset_properties",
+    "shapeclustering",
+    "tesseract",
+    "text2image",
+    "unicharset_extractor",
+    "unicharset_training",
+    "wordlist2dawg"
+  ],
+  "dependencies": [
+    {
+      "name": "openmp",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/tesseract/CMakeLists.txt",
+      "line": 346,
+      "raw": "find_package(OpenMP)"
+    },
+    {
+      "name": "omp",
+      "version": "",
+      "source_kind": "cmake:find_library",
+      "file": "languages/cpp/project/tesseract/CMakeLists.txt",
+      "line": 355,
+      "raw": "find_library(OpenMP_LIBRARY NAMES omp libomp.lib)"
+    },
+    {
+      "name": "libomp.lib",
+      "version": "",
+      "source_kind": "cmake:find_library",
+      "file": "languages/cpp/project/tesseract/CMakeLists.txt",
+      "line": 355,
+      "raw": "find_library(OpenMP_LIBRARY NAMES omp libomp.lib)"
+    },
+    {
+      "name": "sw",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/tesseract/CMakeLists.txt",
+      "line": 444,
+      "raw": "find_package(SW REQUIRED)"
+    },
+    {
+      "name": "pkgconfig",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/tesseract/CMakeLists.txt",
+      "line": 458,
+      "raw": "find_package(PkgConfig)"
+    },
+    {
+      "name": "leptonica",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/tesseract/CMakeLists.txt",
+      "line": 468,
+      "raw": "find_package(Leptonica ${MINIMUM_LEPTONICA_VERSION} CONFIG)"
+    },
+    {
+      "name": "tiff",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/tesseract/CMakeLists.txt",
+      "line": 493,
+      "raw": "find_package(TIFF)"
+    },
+    {
+      "name": "libtiff-4",
+      "version": "",
+      "source_kind": "cmake:pkg_check_modules",
+      "file": "languages/cpp/project/tesseract/CMakeLists.txt",
+      "line": 496,
+      "raw": "pkg_check_modules(TIFF libtiff-4)"
+    },
+    {
+      "name": "libarchive",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/tesseract/CMakeLists.txt",
+      "line": 507,
+      "raw": "find_package(LibArchive)"
+    },
+    {
+      "name": "libarchive",
+      "version": "",
+      "source_kind": "cmake:pkg_check_modules",
+      "file": "languages/cpp/project/tesseract/CMakeLists.txt",
+      "line": 510,
+      "raw": "pkg_check_modules(LibArchive libarchive)"
+    },
+    {
+      "name": "curl",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/tesseract/CMakeLists.txt",
+      "line": 521,
+      "raw": "find_package(CURL)"
+    },
+    {
+      "name": "libcurl",
+      "version": "",
+      "source_kind": "cmake:pkg_check_modules",
+      "file": "languages/cpp/project/tesseract/CMakeLists.txt",
+      "line": 524,
+      "raw": "pkg_check_modules(CURL libcurl)"
+    },
+    {
+      "name": "cpufeaturesndkcompat",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/tesseract/CMakeLists.txt",
+      "line": 977,
+      "raw": "find_package(CpuFeaturesNdkCompat REQUIRED)"
+    },
+    {
+      "name": "libcurl",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/tesseract/configure.ac",
+      "line": 485,
+      "raw": "PKG_CHECK_MODULES(..., [libcurl], ...)"
+    },
+    {
+      "name": "lept",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/tesseract/configure.ac",
+      "line": 497,
+      "raw": "PKG_CHECK_MODULES(..., [lept >= 1.74], ...)"
+    },
+    {
+      "name": "1.74",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/tesseract/configure.ac",
+      "line": 497,
+      "raw": "PKG_CHECK_MODULES(..., [lept >= 1.74], ...)"
+    },
+    {
+      "name": "libarchive",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/tesseract/configure.ac",
+      "line": 506,
+      "raw": "PKG_CHECK_MODULES(..., [libarchive], ...)"
+    },
+    {
+      "name": "icu-uc",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/tesseract/configure.ac",
+      "line": 522,
+      "raw": "PKG_CHECK_MODULES(..., [icu-uc >= 52.1], ...)"
+    },
+    {
+      "name": "52.1",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/tesseract/configure.ac",
+      "line": 522,
+      "raw": "PKG_CHECK_MODULES(..., [icu-uc >= 52.1], ...)"
+    },
+    {
+      "name": "icu-i18n",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/tesseract/configure.ac",
+      "line": 523,
+      "raw": "PKG_CHECK_MODULES(..., [icu-i18n >= 52.1], ...)"
+    },
+    {
+      "name": "pango",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/tesseract/configure.ac",
+      "line": 532,
+      "raw": "PKG_CHECK_MODULES(..., [pango >= 1.38.0], ...)"
+    },
+    {
+      "name": "1.38.0",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/tesseract/configure.ac",
+      "line": 532,
+      "raw": "PKG_CHECK_MODULES(..., [pango >= 1.38.0], ...)"
+    },
+    {
+      "name": "cairo",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/tesseract/configure.ac",
+      "line": 541,
+      "raw": "PKG_CHECK_MODULES(..., [cairo], ...)"
+    },
+    {
+      "name": "pangocairo",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/tesseract/configure.ac",
+      "line": 548,
+      "raw": "PKG_CHECK_MODULES(..., [pangocairo], ...)"
+    },
+    {
+      "name": "pangoft2",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/tesseract/configure.ac",
+      "line": 549,
+      "raw": "PKG_CHECK_MODULES(..., [pangoft2], ...)"
+    },
+    {
+      "name": "pthread",
+      "version": "",
+      "source_kind": "autoconf:ac_search_libs",
+      "file": "languages/cpp/project/tesseract/configure.ac",
+      "line": 424,
+      "raw": "AC_SEARCH_LIBS(..., [pthread], ...)"
+    },
+    {
+      "name": "icu-uc",
+      "version": "",
+      "source_kind": "cmake:pkg_check_modules",
+      "file": "languages/cpp/project/tesseract/src/training/CMakeLists.txt",
+      "line": 72,
+      "raw": "pkg_check_modules(ICU REQUIRED IMPORTED_TARGET icu-uc icu-i18n)"
+    },
+    {
+      "name": "icu-i18n",
+      "version": "",
+      "source_kind": "cmake:pkg_check_modules",
+      "file": "languages/cpp/project/tesseract/src/training/CMakeLists.txt",
+      "line": 72,
+      "raw": "pkg_check_modules(ICU REQUIRED IMPORTED_TARGET icu-uc icu-i18n)"
+    },
+    {
+      "name": "icu",
+      "version": "52.1",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/tesseract/src/training/CMakeLists.txt",
+      "line": 74,
+      "raw": "find_package(ICU 52.1 COMPONENTS uc i18n)"
+    },
+    {
+      "name": "pango",
+      "version": "1.38.0",
+      "source_kind": "cmake:pkg_check_modules",
+      "file": "languages/cpp/project/tesseract/src/training/CMakeLists.txt",
+      "line": 412,
+      "raw": "pkg_check_modules( PANGO REQUIRED IMPORTED_TARGET pango>=1.38.0 cairo pangoft2 pangocairo fontconfig)"
+    },
+    {
+      "name": "cairo",
+      "version": "",
+      "source_kind": "cmake:pkg_check_modules",
+      "file": "languages/cpp/project/tesseract/src/training/CMakeLists.txt",
+      "line": 412,
+      "raw": "pkg_check_modules( PANGO REQUIRED IMPORTED_TARGET pango>=1.38.0 cairo pangoft2 pangocairo fontconfig)"
+    },
+    {
+      "name": "pangoft2",
+      "version": "",
+      "source_kind": "cmake:pkg_check_modules",
+      "file": "languages/cpp/project/tesseract/src/training/CMakeLists.txt",
+      "line": 412,
+      "raw": "pkg_check_modules( PANGO REQUIRED IMPORTED_TARGET pango>=1.38.0 cairo pangoft2 pangocairo fontconfig)"
+    },
+    {
+      "name": "pangocairo",
+      "version": "",
+      "source_kind": "cmake:pkg_check_modules",
+      "file": "languages/cpp/project/tesseract/src/training/CMakeLists.txt",
+      "line": 412,
+      "raw": "pkg_check_modules( PANGO REQUIRED IMPORTED_TARGET pango>=1.38.0 cairo pangoft2 pangocairo fontconfig)"
+    },
+    {
+      "name": "fontconfig",
+      "version": "",
+      "source_kind": "cmake:pkg_check_modules",
+      "file": "languages/cpp/project/tesseract/src/training/CMakeLists.txt",
+      "line": 412,
+      "raw": "pkg_check_modules( PANGO REQUIRED IMPORTED_TARGET pango>=1.38.0 cairo pangoft2 pangocairo fontconfig)"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+name,gt_versions,sbom_versions
+cpufeaturesndkcompat,,
+curl,,
+icu,52.1,52.1
+leptonica,,
+libarchive,,
+libomp.lib,,
+omp,,
+openmp,,
+pkgconfig,,
+sw,,
+tiff,,

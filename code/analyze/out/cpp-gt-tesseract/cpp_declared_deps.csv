@@ -1,0 +1,35 @@
+name,version,source_kind,file,line,raw
+1.38.0,,autoconf:pkg_check_modules,languages/cpp/project/tesseract/configure.ac,532,"PKG_CHECK_MODULES(..., [pango >= 1.38.0], ...)"
+1.74,,autoconf:pkg_check_modules,languages/cpp/project/tesseract/configure.ac,497,"PKG_CHECK_MODULES(..., [lept >= 1.74], ...)"
+52.1,,autoconf:pkg_check_modules,languages/cpp/project/tesseract/configure.ac,522,"PKG_CHECK_MODULES(..., [icu-uc >= 52.1], ...)"
+cairo,,autoconf:pkg_check_modules,languages/cpp/project/tesseract/configure.ac,541,"PKG_CHECK_MODULES(..., [cairo], ...)"
+cairo,,cmake:pkg_check_modules,languages/cpp/project/tesseract/src/training/CMakeLists.txt,412,pkg_check_modules( PANGO REQUIRED IMPORTED_TARGET pango>=1.38.0 cairo pangoft2 pangocairo fontconfig)
+cpufeaturesndkcompat,,cmake:find_package,languages/cpp/project/tesseract/CMakeLists.txt,977,find_package(CpuFeaturesNdkCompat REQUIRED)
+curl,,cmake:find_package,languages/cpp/project/tesseract/CMakeLists.txt,521,find_package(CURL)
+fontconfig,,cmake:pkg_check_modules,languages/cpp/project/tesseract/src/training/CMakeLists.txt,412,pkg_check_modules( PANGO REQUIRED IMPORTED_TARGET pango>=1.38.0 cairo pangoft2 pangocairo fontconfig)
+icu,52.1,cmake:find_package,languages/cpp/project/tesseract/src/training/CMakeLists.txt,74,find_package(ICU 52.1 COMPONENTS uc i18n)
+icu-i18n,,autoconf:pkg_check_modules,languages/cpp/project/tesseract/configure.ac,523,"PKG_CHECK_MODULES(..., [icu-i18n >= 52.1], ...)"
+icu-i18n,,cmake:pkg_check_modules,languages/cpp/project/tesseract/src/training/CMakeLists.txt,72,pkg_check_modules(ICU REQUIRED IMPORTED_TARGET icu-uc icu-i18n)
+icu-uc,,autoconf:pkg_check_modules,languages/cpp/project/tesseract/configure.ac,522,"PKG_CHECK_MODULES(..., [icu-uc >= 52.1], ...)"
+icu-uc,,cmake:pkg_check_modules,languages/cpp/project/tesseract/src/training/CMakeLists.txt,72,pkg_check_modules(ICU REQUIRED IMPORTED_TARGET icu-uc icu-i18n)
+lept,,autoconf:pkg_check_modules,languages/cpp/project/tesseract/configure.ac,497,"PKG_CHECK_MODULES(..., [lept >= 1.74], ...)"
+leptonica,,cmake:find_package,languages/cpp/project/tesseract/CMakeLists.txt,468,find_package(Leptonica ${MINIMUM_LEPTONICA_VERSION} CONFIG)
+libarchive,,autoconf:pkg_check_modules,languages/cpp/project/tesseract/configure.ac,506,"PKG_CHECK_MODULES(..., [libarchive], ...)"
+libarchive,,cmake:find_package,languages/cpp/project/tesseract/CMakeLists.txt,507,find_package(LibArchive)
+libarchive,,cmake:pkg_check_modules,languages/cpp/project/tesseract/CMakeLists.txt,510,pkg_check_modules(LibArchive libarchive)
+libcurl,,autoconf:pkg_check_modules,languages/cpp/project/tesseract/configure.ac,485,"PKG_CHECK_MODULES(..., [libcurl], ...)"
+libcurl,,cmake:pkg_check_modules,languages/cpp/project/tesseract/CMakeLists.txt,524,pkg_check_modules(CURL libcurl)
+libomp.lib,,cmake:find_library,languages/cpp/project/tesseract/CMakeLists.txt,355,find_library(OpenMP_LIBRARY NAMES omp libomp.lib)
+libtiff-4,,cmake:pkg_check_modules,languages/cpp/project/tesseract/CMakeLists.txt,496,pkg_check_modules(TIFF libtiff-4)
+omp,,cmake:find_library,languages/cpp/project/tesseract/CMakeLists.txt,355,find_library(OpenMP_LIBRARY NAMES omp libomp.lib)
+openmp,,cmake:find_package,languages/cpp/project/tesseract/CMakeLists.txt,346,find_package(OpenMP)
+pango,,autoconf:pkg_check_modules,languages/cpp/project/tesseract/configure.ac,532,"PKG_CHECK_MODULES(..., [pango >= 1.38.0], ...)"
+pango,1.38.0,cmake:pkg_check_modules,languages/cpp/project/tesseract/src/training/CMakeLists.txt,412,pkg_check_modules( PANGO REQUIRED IMPORTED_TARGET pango>=1.38.0 cairo pangoft2 pangocairo fontconfig)
+pangocairo,,autoconf:pkg_check_modules,languages/cpp/project/tesseract/configure.ac,548,"PKG_CHECK_MODULES(..., [pangocairo], ...)"
+pangocairo,,cmake:pkg_check_modules,languages/cpp/project/tesseract/src/training/CMakeLists.txt,412,pkg_check_modules( PANGO REQUIRED IMPORTED_TARGET pango>=1.38.0 cairo pangoft2 pangocairo fontconfig)
+pangoft2,,autoconf:pkg_check_modules,languages/cpp/project/tesseract/configure.ac,549,"PKG_CHECK_MODULES(..., [pangoft2], ...)"
+pangoft2,,cmake:pkg_check_modules,languages/cpp/project/tesseract/src/training/CMakeLists.txt,412,pkg_check_modules( PANGO REQUIRED IMPORTED_TARGET pango>=1.38.0 cairo pangoft2 pangocairo fontconfig)
+pkgconfig,,cmake:find_package,languages/cpp/project/tesseract/CMakeLists.txt,458,find_package(PkgConfig)
+pthread,,autoconf:ac_search_libs,languages/cpp/project/tesseract/configure.ac,424,"AC_SEARCH_LIBS(..., [pthread], ...)"
+sw,,cmake:find_package,languages/cpp/project/tesseract/CMakeLists.txt,444,find_package(SW REQUIRED)
+tiff,,cmake:find_package,languages/cpp/project/tesseract/CMakeLists.txt,493,find_package(TIFF)

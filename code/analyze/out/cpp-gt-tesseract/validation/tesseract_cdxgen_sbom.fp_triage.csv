@@ -1,0 +1,12 @@
+name,reason
+action-junit-report,other
+analyze,other
+build_fuzzers,other
+checkout,other
+init,other
+run_fuzzers,other
+setup-msbuild,other
+setup-msys2,other
+setup-nasm,other
+sw-action,other
+upload-artifact,other
