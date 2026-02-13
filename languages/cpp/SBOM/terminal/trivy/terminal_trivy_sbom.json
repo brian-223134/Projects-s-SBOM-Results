@@ -1,0 +1,599 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:a20b992f-bbac-4fbb-8fa7-ac934de0b32b",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-02-13T04:17:23+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.69.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "c792a943-0d6d-4876-9c9a-64e257004458",
+      "type": "application",
+      "name": "/src",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "1a0bb6a4-dcc8-4611-a206-9396edfeba4b",
+      "type": "library",
+      "name": "Microsoft.Taef",
+      "version": "10.100.251104001",
+      "purl": "pkg:nuget/Microsoft.Taef@10.100.251104001",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "nuget"
+        }
+      ]
+    },
+    {
+      "bom-ref": "1d328dbb-68bf-49e2-9d34-72372e6ec5a4",
+      "type": "library",
+      "name": "Microsoft.Windows.CppWinRT",
+      "version": "2.0.250303.1",
+      "purl": "pkg:nuget/Microsoft.Windows.CppWinRT@2.0.250303.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "nuget"
+        }
+      ]
+    },
+    {
+      "bom-ref": "273c2af5-7d14-4cbe-92c3-fd43631902cb",
+      "type": "application",
+      "name": "build/packages.config",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "nuget"
+        }
+      ]
+    },
+    {
+      "bom-ref": "278bd574-05d8-4005-8511-38a608c91d7c",
+      "type": "library",
+      "name": "Microsoft.Taef",
+      "version": "10.100.251104001",
+      "purl": "pkg:nuget/Microsoft.Taef@10.100.251104001",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "nuget"
+        }
+      ]
+    },
+    {
+      "bom-ref": "399cdf2c-d087-4ef9-8e91-5cb73588a79b",
+      "type": "library",
+      "name": "Microsoft.Web.WebView2",
+      "version": "1.0.1661.34",
+      "purl": "pkg:nuget/Microsoft.Web.WebView2@1.0.1661.34",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "nuget"
+        }
+      ]
+    },
+    {
+      "bom-ref": "63e2cc65-ed5b-4bc3-b3df-6cbe83d30525",
+      "type": "application",
+      "name": ".nuget/packages.config",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "nuget"
+        }
+      ]
+    },
+    {
+      "bom-ref": "6d3e81fc-d76e-4127-9abe-a4a39e5f8992",
+      "type": "library",
+      "name": "Microsoft.UI.Xaml",
+      "version": "2.8.4",
+      "purl": "pkg:nuget/Microsoft.UI.Xaml@2.8.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "nuget"
+        }
+      ]
+    },
+    {
+      "bom-ref": "737cb6ec-152f-45cf-b4f2-b22ce77157e7",
+      "type": "library",
+      "name": "Microsoft.Web.WebView2",
+      "version": "1.0.1661.34",
+      "purl": "pkg:nuget/Microsoft.Web.WebView2@1.0.1661.34",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "nuget"
+        }
+      ]
+    },
+    {
+      "bom-ref": "7694a1d6-5a97-4026-8bbd-6d1655ed3d77",
+      "type": "library",
+      "name": "Microsoft.UI.Xaml",
+      "version": "2.8.4",
+      "purl": "pkg:nuget/Microsoft.UI.Xaml@2.8.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "nuget"
+        }
+      ]
+    },
+    {
+      "bom-ref": "7d2ec993-02f8-42dc-b869-d85535fbb240",
+      "type": "library",
+      "name": "Microsoft.Internal.PGO-Helpers.Cpp",
+      "version": "0.2.34",
+      "purl": "pkg:nuget/Microsoft.Internal.PGO-Helpers.Cpp@0.2.34",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "nuget"
+        }
+      ]
+    },
+    {
+      "bom-ref": "802bbea4-073d-45a1-b9b8-757747caee5d",
+      "type": "library",
+      "name": "Microsoft.Windows.CppWinRT",
+      "version": "2.0.250303.1",
+      "purl": "pkg:nuget/Microsoft.Windows.CppWinRT@2.0.250303.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "nuget"
+        }
+      ]
+    },
+    {
+      "bom-ref": "9b135c8e-be21-4406-83d2-f79eb5c42890",
+      "type": "application",
+      "name": "dep/nuget/packages.config",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "nuget"
+        }
+      ]
+    },
+    {
+      "bom-ref": "a6406730-7922-42cb-a000-553876401f55",
+      "type": "application",
+      "name": "scratch/ScratchIslandApp/WindowExe/packages.config",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "nuget"
+        }
+      ]
+    },
+    {
+      "bom-ref": "b46cd973-3bd3-4bfb-8724-959c1f2ef838",
+      "type": "library",
+      "name": "Microsoft.Web.WebView2",
+      "version": "1.0.1661.34",
+      "purl": "pkg:nuget/Microsoft.Web.WebView2@1.0.1661.34",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "nuget"
+        }
+      ]
+    },
+    {
+      "bom-ref": "b957faa8-bcd7-4964-b58a-707efb646b9e",
+      "type": "application",
+      "name": "scratch/ScratchIslandApp/SampleApp/packages.config",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "nuget"
+        }
+      ]
+    },
+    {
+      "bom-ref": "ca98cfcd-b596-4b3a-a0c6-343ec714be72",
+      "type": "library",
+      "name": "Microsoft.Internal.PGO-Helpers.Cpp",
+      "version": "0.2.34",
+      "purl": "pkg:nuget/Microsoft.Internal.PGO-Helpers.Cpp@0.2.34",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "nuget"
+        }
+      ]
+    },
+    {
+      "bom-ref": "e2d9182a-47ac-433d-94c6-ed40ba9829c9",
+      "type": "library",
+      "name": "Microsoft.UI.Xaml",
+      "version": "2.8.4",
+      "purl": "pkg:nuget/Microsoft.UI.Xaml@2.8.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "nuget"
+        }
+      ]
+    },
+    {
+      "bom-ref": "fa674dfc-10eb-4c41-9495-e541a8fb996c",
+      "type": "library",
+      "name": "Microsoft.Windows.CppWinRT",
+      "version": "2.0.250303.1",
+      "purl": "pkg:nuget/Microsoft.Windows.CppWinRT@2.0.250303.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "nuget"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Appium.WebDriver@3.0.0.2",
+      "type": "library",
+      "name": "Appium.WebDriver",
+      "version": "3.0.0.2",
+      "purl": "pkg:nuget/Appium.WebDriver@3.0.0.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "nuget"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Castle.Core@4.1.1",
+      "type": "library",
+      "name": "Castle.Core",
+      "version": "4.1.1",
+      "purl": "pkg:nuget/Castle.Core@4.1.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "nuget"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Debugging.Tools.PdbStr@20220617.1556.0",
+      "type": "library",
+      "name": "Microsoft.Debugging.Tools.PdbStr",
+      "version": "20220617.1556.0",
+      "purl": "pkg:nuget/Microsoft.Debugging.Tools.PdbStr@20220617.1556.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "nuget"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Debugging.Tools.SrcTool@20220617.1556.0",
+      "type": "library",
+      "name": "Microsoft.Debugging.Tools.SrcTool",
+      "version": "20220617.1556.0",
+      "purl": "pkg:nuget/Microsoft.Debugging.Tools.SrcTool@20220617.1556.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "nuget"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Internal.Windows.Terminal.ThemeHelpers@0.8.250811004",
+      "type": "library",
+      "name": "Microsoft.Internal.Windows.Terminal.ThemeHelpers",
+      "version": "0.8.250811004",
+      "purl": "pkg:nuget/Microsoft.Internal.Windows.Terminal.ThemeHelpers@0.8.250811004",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "nuget"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.MSBuildCache.AzurePipelines@0.1.283-preview",
+      "type": "library",
+      "name": "Microsoft.MSBuildCache.AzurePipelines",
+      "version": "0.1.283-preview",
+      "purl": "pkg:nuget/Microsoft.MSBuildCache.AzurePipelines@0.1.283-preview",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "nuget"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.MSBuildCache.Local@0.1.283-preview",
+      "type": "library",
+      "name": "Microsoft.MSBuildCache.Local",
+      "version": "0.1.283-preview",
+      "purl": "pkg:nuget/Microsoft.MSBuildCache.Local@0.1.283-preview",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "nuget"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.MSBuildCache.SharedCompilation@0.1.283-preview",
+      "type": "library",
+      "name": "Microsoft.MSBuildCache.SharedCompilation",
+      "version": "0.1.283-preview",
+      "purl": "pkg:nuget/Microsoft.MSBuildCache.SharedCompilation@0.1.283-preview",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "nuget"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Newtonsoft.Json@13.0.1",
+      "type": "library",
+      "name": "Newtonsoft.Json",
+      "version": "13.0.1",
+      "purl": "pkg:nuget/Newtonsoft.Json@13.0.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "nuget"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Selenium.Support@3.5.0",
+      "type": "library",
+      "name": "Selenium.Support",
+      "version": "3.5.0",
+      "purl": "pkg:nuget/Selenium.Support@3.5.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "nuget"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Selenium.WebDriver@3.5.0",
+      "type": "library",
+      "name": "Selenium.WebDriver",
+      "version": "3.5.0",
+      "purl": "pkg:nuget/Selenium.WebDriver@3.5.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "nuget"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/vswhere@2.6.7",
+      "type": "library",
+      "name": "vswhere",
+      "version": "2.6.7",
+      "purl": "pkg:nuget/vswhere@2.6.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "nuget"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "1a0bb6a4-dcc8-4611-a206-9396edfeba4b",
+      "dependsOn": []
+    },
+    {
+      "ref": "1d328dbb-68bf-49e2-9d34-72372e6ec5a4",
+      "dependsOn": []
+    },
+    {
+      "ref": "273c2af5-7d14-4cbe-92c3-fd43631902cb",
+      "dependsOn": [
+        "278bd574-05d8-4005-8511-38a608c91d7c",
+        "ca98cfcd-b596-4b3a-a0c6-343ec714be72",
+        "pkg:nuget/Microsoft.Debugging.Tools.PdbStr@20220617.1556.0",
+        "pkg:nuget/Microsoft.Debugging.Tools.SrcTool@20220617.1556.0"
+      ]
+    },
+    {
+      "ref": "278bd574-05d8-4005-8511-38a608c91d7c",
+      "dependsOn": []
+    },
+    {
+      "ref": "399cdf2c-d087-4ef9-8e91-5cb73588a79b",
+      "dependsOn": []
+    },
+    {
+      "ref": "63e2cc65-ed5b-4bc3-b3df-6cbe83d30525",
+      "dependsOn": [
+        "pkg:nuget/vswhere@2.6.7"
+      ]
+    },
+    {
+      "ref": "6d3e81fc-d76e-4127-9abe-a4a39e5f8992",
+      "dependsOn": []
+    },
+    {
+      "ref": "737cb6ec-152f-45cf-b4f2-b22ce77157e7",
+      "dependsOn": []
+    },
+    {
+      "ref": "7694a1d6-5a97-4026-8bbd-6d1655ed3d77",
+      "dependsOn": []
+    },
+    {
+      "ref": "7d2ec993-02f8-42dc-b869-d85535fbb240",
+      "dependsOn": []
+    },
+    {
+      "ref": "802bbea4-073d-45a1-b9b8-757747caee5d",
+      "dependsOn": []
+    },
+    {
+      "ref": "9b135c8e-be21-4406-83d2-f79eb5c42890",
+      "dependsOn": [
+        "1a0bb6a4-dcc8-4611-a206-9396edfeba4b",
+        "6d3e81fc-d76e-4127-9abe-a4a39e5f8992",
+        "7d2ec993-02f8-42dc-b869-d85535fbb240",
+        "802bbea4-073d-45a1-b9b8-757747caee5d",
+        "b46cd973-3bd3-4bfb-8724-959c1f2ef838",
+        "pkg:nuget/Appium.WebDriver@3.0.0.2",
+        "pkg:nuget/Castle.Core@4.1.1",
+        "pkg:nuget/Microsoft.Internal.Windows.Terminal.ThemeHelpers@0.8.250811004",
+        "pkg:nuget/Microsoft.MSBuildCache.AzurePipelines@0.1.283-preview",
+        "pkg:nuget/Microsoft.MSBuildCache.Local@0.1.283-preview",
+        "pkg:nuget/Microsoft.MSBuildCache.SharedCompilation@0.1.283-preview",
+        "pkg:nuget/Newtonsoft.Json@13.0.1",
+        "pkg:nuget/Selenium.Support@3.5.0",
+        "pkg:nuget/Selenium.WebDriver@3.5.0"
+      ]
+    },
+    {
+      "ref": "a6406730-7922-42cb-a000-553876401f55",
+      "dependsOn": [
+        "399cdf2c-d087-4ef9-8e91-5cb73588a79b",
+        "e2d9182a-47ac-433d-94c6-ed40ba9829c9",
+        "fa674dfc-10eb-4c41-9495-e541a8fb996c"
+      ]
+    },
+    {
+      "ref": "b46cd973-3bd3-4bfb-8724-959c1f2ef838",
+      "dependsOn": []
+    },
+    {
+      "ref": "b957faa8-bcd7-4964-b58a-707efb646b9e",
+      "dependsOn": [
+        "1d328dbb-68bf-49e2-9d34-72372e6ec5a4",
+        "737cb6ec-152f-45cf-b4f2-b22ce77157e7",
+        "7694a1d6-5a97-4026-8bbd-6d1655ed3d77"
+      ]
+    },
+    {
+      "ref": "c792a943-0d6d-4876-9c9a-64e257004458",
+      "dependsOn": [
+        "273c2af5-7d14-4cbe-92c3-fd43631902cb",
+        "63e2cc65-ed5b-4bc3-b3df-6cbe83d30525",
+        "9b135c8e-be21-4406-83d2-f79eb5c42890",
+        "a6406730-7922-42cb-a000-553876401f55",
+        "b957faa8-bcd7-4964-b58a-707efb646b9e"
+      ]
+    },
+    {
+      "ref": "ca98cfcd-b596-4b3a-a0c6-343ec714be72",
+      "dependsOn": []
+    },
+    {
+      "ref": "e2d9182a-47ac-433d-94c6-ed40ba9829c9",
+      "dependsOn": []
+    },
+    {
+      "ref": "fa674dfc-10eb-4c41-9495-e541a8fb996c",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Appium.WebDriver@3.0.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Castle.Core@4.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Debugging.Tools.PdbStr@20220617.1556.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Debugging.Tools.SrcTool@20220617.1556.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Internal.Windows.Terminal.ThemeHelpers@0.8.250811004",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.MSBuildCache.AzurePipelines@0.1.283-preview",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.MSBuildCache.Local@0.1.283-preview",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.MSBuildCache.SharedCompilation@0.1.283-preview",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Newtonsoft.Json@13.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Selenium.Support@3.5.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Selenium.WebDriver@3.5.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/vswhere@2.6.7",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

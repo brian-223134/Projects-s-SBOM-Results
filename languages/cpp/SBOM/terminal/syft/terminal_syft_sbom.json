@@ -1,0 +1,697 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:8c6cd940-58ac-4137-b9bb-346b9fb567e9",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-02-13T04:15:48Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.41.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "dfcd457ff0b35452",
+      "type": "file",
+      "name": "/src"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "00b6a85cc0f8027d",
+      "type": "application",
+      "name": "A Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design",
+      "version": "2.8.0",
+      "cpe": "cpe:2.3:a:A_Microsoft_project_for_cloud-based_client-server_communication_in_native_code_using_a_modern_asynchronous_C\\+\\+_API_design:A_Microsoft_project_for_cloud-based_client-server_communication_in_native_code_using_a_modern_asynchronous_C\\+\\+_API_design:2.8.0:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "pe-binary-package-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "binary"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "pe-binary"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:A_Microsoft_project_for_cloud-based_client-server_communication_in_native_code_using_a_modern_asynchronous_C\\+\\+_API_design:A_Microsoft_project_for_cloud_based_client_server_communication_in_native_code_using_a_modern_asynchronous_C\\+\\+_API_design:2.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:A_Microsoft_project_for_cloud_based_client_server_communication_in_native_code_using_a_modern_asynchronous_C\\+\\+_API_design:A_Microsoft_project_for_cloud-based_client-server_communication_in_native_code_using_a_modern_asynchronous_C\\+\\+_API_design:2.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:A_Microsoft_project_for_cloud_based_client_server_communication_in_native_code_using_a_modern_asynchronous_C\\+\\+_API_design:A_Microsoft_project_for_cloud_based_client_server_communication_in_native_code_using_a_modern_asynchronous_C\\+\\+_API_design:2.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:A_Microsoft_project_for_cloud-based_client:A_Microsoft_project_for_cloud-based_client-server_communication_in_native_code_using_a_modern_asynchronous_C\\+\\+_API_design:2.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:A_Microsoft_project_for_cloud-based_client:A_Microsoft_project_for_cloud_based_client_server_communication_in_native_code_using_a_modern_asynchronous_C\\+\\+_API_design:2.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:A_Microsoft_project_for_cloud_based_client:A_Microsoft_project_for_cloud-based_client-server_communication_in_native_code_using_a_modern_asynchronous_C\\+\\+_API_design:2.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:A_Microsoft_project_for_cloud_based_client:A_Microsoft_project_for_cloud_based_client_server_communication_in_native_code_using_a_modern_asynchronous_C\\+\\+_API_design:2.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:A_Microsoft_project_for_cloud:A_Microsoft_project_for_cloud-based_client-server_communication_in_native_code_using_a_modern_asynchronous_C\\+\\+_API_design:2.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:A_Microsoft_project_for_cloud:A_Microsoft_project_for_cloud_based_client_server_communication_in_native_code_using_a_modern_asynchronous_C\\+\\+_API_design:2.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/dep/WinAppDriver/cpprest140_2_8.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Json.NET@9.0.1.19813?package-id=032e59077a73ce9f",
+      "type": "library",
+      "name": "Json.NET",
+      "version": "9.0.1.19813",
+      "cpe": "cpe:2.3:a:newtonsoft:json_net_.net:9.0.1.19813:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Json.NET@9.0.1.19813",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-deps-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:newtonsoft:json_net:9.0.1.19813:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/dep/WinAppDriver/Newtonsoft.Json.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Win32.Primitives@4.6.23123.0?package-id=fc1e75167b708c32",
+      "type": "library",
+      "name": "Microsoft.Win32.Primitives",
+      "version": "4.6.23123.0",
+      "purl": "pkg:nuget/Microsoft.Win32.Primitives@4.6.23123.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-deps-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/dep/WinAppDriver/Microsoft.Win32.Primitives.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Win32.Registry@1.0.24212.01.?package-id=bfcce6bea9f65958",
+      "type": "library",
+      "name": "Microsoft.Win32.Registry",
+      "version": "1.0.24212.01.",
+      "purl": "pkg:nuget/Microsoft.Win32.Registry@1.0.24212.01.",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-deps-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/dep/WinAppDriver/Microsoft.Win32.Registry.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/MitaBroker.dll@0.6.161028001-release?package-id=877751e9fc45d4d9",
+      "type": "library",
+      "name": "MitaBroker.dll",
+      "version": "0.6.161028001-release",
+      "cpe": "cpe:2.3:a:microsoft_corporation:windows_application_driver_.net:0.6.161028001-release:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/MitaBroker.dll@0.6.161028001-release",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-deps-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:microsoft_corporation:windows_application_driver:0.6.161028001-release:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/dep/WinAppDriver/MitaBroker.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/MitaLite.Foundation.dll@1.0.161028001?package-id=848baa7709b7cbe8",
+      "type": "library",
+      "name": "MitaLite.Foundation.dll",
+      "version": "1.0.161028001",
+      "cpe": "cpe:2.3:a:microsoft_corporation:microsoft_test_automation_framework___mitalite_.net:1.0.161028001:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/MitaLite.Foundation.dll@1.0.161028001",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-deps-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:microsoft_corporation:microsoft_test_automation_framework___mitalite:1.0.161028001:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/dep/WinAppDriver/MitaLite.Foundation.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/MitaLite.Localization.dll@1.0.161028001?package-id=c149fc6abae2a0b1",
+      "type": "library",
+      "name": "MitaLite.Localization.dll",
+      "version": "1.0.161028001",
+      "cpe": "cpe:2.3:a:microsoft_corporation:microsoft_test_automation_framework___mitalite_.net:1.0.161028001:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/MitaLite.Localization.dll@1.0.161028001",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-deps-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:microsoft_corporation:microsoft_test_automation_framework___mitalite:1.0.161028001:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/dep/WinAppDriver/MitaLite.Localization.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/MitaLite.UIAutomationAdapter.dll@1.0.161028001?package-id=994f0376e5d1337b",
+      "type": "library",
+      "name": "MitaLite.UIAutomationAdapter.dll",
+      "version": "1.0.161028001",
+      "cpe": "cpe:2.3:a:microsoft_corporation:microsoft_test_automation_framework___mitalite_.net:1.0.161028001:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/MitaLite.UIAutomationAdapter.dll@1.0.161028001",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-deps-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:microsoft_corporation:microsoft_test_automation_framework___mitalite:1.0.161028001:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/dep/WinAppDriver/MitaLite.UIAutomationAdapter.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/NuGet%20Command%20Line@4.1.0.2450?package-id=4c9e9b38ee6b54cc",
+      "type": "library",
+      "name": "NuGet Command Line",
+      "version": "4.1.0.2450",
+      "cpe": "cpe:2.3:a:microsoft_corporation:nuget_.net:4.1.0.2450:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/NuGet%20Command%20Line@4.1.0.2450",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-deps-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:microsoft_corporation:nuget:4.1.0.2450:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/dep/nuget/nuget.exe"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/System.Diagnostics.Process@1.0.24212.01.?package-id=4a9e91f369fdf978",
+      "type": "library",
+      "name": "System.Diagnostics.Process",
+      "version": "1.0.24212.01.",
+      "purl": "pkg:nuget/System.Diagnostics.Process@1.0.24212.01.",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-deps-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/dep/WinAppDriver/System.Diagnostics.Process.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/System.Threading.Thread@1.0.24212.01.?package-id=8afcfecd28e2f5ef",
+      "type": "library",
+      "name": "System.Threading.Thread",
+      "version": "1.0.24212.01.",
+      "purl": "pkg:nuget/System.Threading.Thread@1.0.24212.01.",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-deps-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/dep/WinAppDriver/System.Threading.Thread.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/UIAutomation%20Client%20layer%20of%20MitaLite%20framework@1.0.0.0?package-id=9dca651336432b0b",
+      "type": "library",
+      "name": "UIAutomation Client layer of MitaLite framework",
+      "version": "1.0.0.0",
+      "purl": "pkg:nuget/UIAutomation%20Client%20layer%20of%20MitaLite%20framework@1.0.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-deps-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/dep/WinAppDriver/MitaLite.UIAutomationClient.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "79d14fd89a99cea9",
+      "type": "application",
+      "name": "WinAppDriver.exe",
+      "version": "0.6.161028001-release",
+      "cpe": "cpe:2.3:a:WinAppDriver.exe:WinAppDriver.exe:0.6.161028001-release:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "pe-binary-package-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "binary"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "pe-binary"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/dep/WinAppDriver/WinAppDriver.exe"
+        }
+      ]
+    },
+    {
+      "bom-ref": "1481e66327333bc2",
+      "type": "application",
+      "name": "WinAppDriverCore.dll",
+      "version": "0.6.161028001-release",
+      "cpe": "cpe:2.3:a:WinAppDriverCore.dll:WinAppDriverCore.dll:0.6.161028001-release:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "pe-binary-package-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "binary"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "pe-binary"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/dep/WinAppDriver/WinAppDriverCore.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "80aa086d8a5761a1",
+      "type": "file",
+      "name": "/src/dep/WinAppDriver/Microsoft.Win32.Primitives.dll",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "16c18812308e1fa5edd27737a58cbf231e1933e5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d69ad2743b9a731c54dd94d1c52b4a8902a9e7d9c64c2a2c07dec19a96c04c27"
+        }
+      ]
+    },
+    {
+      "bom-ref": "7fe6d024a12f8fa9",
+      "type": "file",
+      "name": "/src/dep/WinAppDriver/Microsoft.Win32.Registry.dll",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b74eee6819d02e76d9083868dbc8004f38caedca"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "adddc0bee89aca1d6c0936efc0c49e26c160aa3288ea56c05ee1652ad2e63b0f"
+        }
+      ]
+    },
+    {
+      "bom-ref": "625428af5431c539",
+      "type": "file",
+      "name": "/src/dep/WinAppDriver/MitaBroker.dll",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "cd84c70988db2a4bdb1b8c0f4f15b876ed8c5a78"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d660b99ce6f6d98da559e0817b4b0a91b85d7e77fd9a8b8fa7c9472759cc34e9"
+        }
+      ]
+    },
+    {
+      "bom-ref": "5617dbcc1b6c974b",
+      "type": "file",
+      "name": "/src/dep/WinAppDriver/MitaLite.Foundation.dll",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "eeea2d30355c87929d5723e3bfb752ab426f82bb"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "514d7f42ce3178d77614492faa095220c4817d90265088133caea7214607a957"
+        }
+      ]
+    },
+    {
+      "bom-ref": "bf20a528488922ec",
+      "type": "file",
+      "name": "/src/dep/WinAppDriver/MitaLite.Localization.dll",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9ef9f7b573b7fd848667624b68da3be6cf8215c4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e16d2526338581c01088fd2f5d7965a6ff1cee20624fb6a9a86c47019a1b3272"
+        }
+      ]
+    },
+    {
+      "bom-ref": "6148164fd44b8223",
+      "type": "file",
+      "name": "/src/dep/WinAppDriver/MitaLite.UIAutomationAdapter.dll",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "3e87a7030a67779aca74a02ad4de98c9e9c136d7"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "17d2b8b7bfcf8aacabb05a451861afaa90a9dcfb2264118af148a4ae8945a171"
+        }
+      ]
+    },
+    {
+      "bom-ref": "b33f5f799e078bff",
+      "type": "file",
+      "name": "/src/dep/WinAppDriver/MitaLite.UIAutomationClient.dll",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "158aa4d93c33461d81d362b940fc2bddddf1097d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1450e230d10ccef1dabb6eaf3ce0ca3f01847de175dc236c3ea16577b011eb7e"
+        }
+      ]
+    },
+    {
+      "bom-ref": "14eba56759fe474c",
+      "type": "file",
+      "name": "/src/dep/WinAppDriver/Newtonsoft.Json.dll",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "6b0da75617a2269493dc1a685d7a0b07f2e48c75"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "575e30f98e4ea42c9e516edc8bbb29ad8b50b173a3e6b36b5ba39e133cce9406"
+        }
+      ]
+    },
+    {
+      "bom-ref": "4d4cb0ad7e9c20f2",
+      "type": "file",
+      "name": "/src/dep/WinAppDriver/System.Diagnostics.Process.dll",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7c0914a84ae25c54e5c762dda0b22007b1676cdd"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2ed932c150e08a19da0ead8f74d60ddac21c57b4e7450e1407bdec07f796b44b"
+        }
+      ]
+    },
+    {
+      "bom-ref": "6742a4e934cf9d78",
+      "type": "file",
+      "name": "/src/dep/WinAppDriver/System.Threading.Thread.dll",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "fcfe98e76f87886e1e1ae1debfc76753fc0f317e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6bf59e965b947bdde9792a10e5ce7472c174ba2a9a1b3b003e9d7d3d250f1cbb"
+        }
+      ]
+    },
+    {
+      "bom-ref": "1c92e879db049692",
+      "type": "file",
+      "name": "/src/dep/WinAppDriver/WinAppDriver.exe",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "0431dd9134ca5e706328100c1c17b6cd139b70a0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "edf9a732c69dd3953a67bc1d7ffe59750416957dfd27fd361ad22cf53cba9a51"
+        }
+      ]
+    },
+    {
+      "bom-ref": "dcc6cd5641f26e49",
+      "type": "file",
+      "name": "/src/dep/WinAppDriver/WinAppDriverCore.dll",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "3a38de628efd03b3fa3a9c66ed5cfe0fde24558d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d49e88fa58707408493611a974f392fa2bdaf27818d72934aee8dc2d2d2febae"
+        }
+      ]
+    },
+    {
+      "bom-ref": "f04f20667c72b999",
+      "type": "file",
+      "name": "/src/dep/WinAppDriver/cpprest140_2_8.dll",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "42507126064049f022aedb2140eb6cb681a25eae"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6e7bc1c6340a5b224d1b3e68d0ca132a13a01959571de661710701266db57595"
+        }
+      ]
+    },
+    {
+      "bom-ref": "08e19fcdac90a404",
+      "type": "file",
+      "name": "/src/dep/nuget/nuget.exe",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "502e6d29eb1a888640a48ba4b232d9dde1ff6754"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4c1de9b026e0c4ab087302ff75240885742c0faa62bd2554f913bbe1f6cb63a0"
+        }
+      ]
+    }
+  ]
+}

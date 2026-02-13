@@ -1,0 +1,1747 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:cd73c1db-2bd7-410b-b5d7-5e5e8c7b8520",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-02-13T04:23:03Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "12.0.0",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@12.0.0",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@12.0.0",
+          "publisher": "OWASP Foundation",
+          "authors": [
+            {
+              "name": "OWASP Foundation"
+            }
+          ]
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "component": {
+      "group": "",
+      "name": "app",
+      "version": "latest",
+      "type": "application",
+      "bom-ref": "pkg:nuget/app@latest",
+      "purl": "pkg:nuget/app@latest",
+      "components": [
+        {
+          "group": "",
+          "name": "VTApp",
+          "version": "",
+          "purl": "pkg:nuget/VTApp@latest?output_type=Exe",
+          "type": "application",
+          "bom-ref": "pkg:nuget/VTApp@latest?output_type=Exe",
+          "properties": [
+            {
+              "name": "cdx:dotnet:project_guid",
+              "value": "{099193A0-1E43-4BBC-BA7F-7B351E1342DF}"
+            },
+            {
+              "name": "Namespaces",
+              "value": "VTApp"
+            },
+            {
+              "name": "cdx:dotnet:target_framework",
+              "value": "v4.7.2"
+            }
+          ]
+        },
+        {
+          "group": "",
+          "name": "TerminalStress",
+          "version": "",
+          "purl": "pkg:nuget/TerminalStress@latest?output_type=Exe",
+          "type": "application",
+          "bom-ref": "pkg:nuget/TerminalStress@latest?output_type=Exe",
+          "properties": [
+            {
+              "name": "cdx:dotnet:target_framework",
+              "value": "net8.0-windows"
+            }
+          ]
+        },
+        {
+          "group": "",
+          "name": "GraphemeTestTableGen",
+          "version": "",
+          "purl": "pkg:nuget/GraphemeTestTableGen@latest?output_type=Exe",
+          "type": "application",
+          "bom-ref": "pkg:nuget/GraphemeTestTableGen@latest?output_type=Exe",
+          "properties": [
+            {
+              "name": "cdx:dotnet:target_framework",
+              "value": "net8.0"
+            }
+          ]
+        },
+        {
+          "group": "",
+          "name": "GraphemeTableGen",
+          "version": "",
+          "purl": "pkg:nuget/GraphemeTableGen@latest?output_type=Exe",
+          "type": "application",
+          "bom-ref": "pkg:nuget/GraphemeTableGen@latest?output_type=Exe",
+          "properties": [
+            {
+              "name": "cdx:dotnet:target_framework",
+              "value": "net8.0"
+            }
+          ]
+        },
+        {
+          "group": "",
+          "name": "ColorTool",
+          "version": "",
+          "purl": "pkg:nuget/ColorTool@latest?output_type=Exe",
+          "type": "application",
+          "bom-ref": "pkg:nuget/ColorTool@latest?output_type=Exe",
+          "properties": [
+            {
+              "name": "cdx:dotnet:target_framework",
+              "value": "net461"
+            }
+          ]
+        },
+        {
+          "group": "",
+          "name": "Conhost.UIA.Tests",
+          "version": "",
+          "purl": "pkg:nuget/Conhost.UIA.Tests@latest",
+          "type": "library",
+          "bom-ref": "pkg:nuget/Conhost.UIA.Tests@latest",
+          "properties": [
+            {
+              "name": "cdx:dotnet:project_guid",
+              "value": "{C17E1BF3-9D34-4779-9458-A8EF98CC5662}"
+            },
+            {
+              "name": "Namespaces",
+              "value": "Conhost.UIA.Tests"
+            },
+            {
+              "name": "cdx:dotnet:target_framework",
+              "value": "v4.7.2"
+            }
+          ]
+        },
+        {
+          "group": "",
+          "name": "WpfTerminalTestNetCore",
+          "version": "",
+          "purl": "pkg:nuget/WpfTerminalTestNetCore@latest?output_type=WinExe",
+          "type": "application",
+          "bom-ref": "pkg:nuget/WpfTerminalTestNetCore@latest?output_type=WinExe",
+          "properties": [
+            {
+              "name": "cdx:dotnet:target_framework",
+              "value": "net8.0-windows"
+            }
+          ]
+        },
+        {
+          "group": "",
+          "name": "Microsoft.Terminal.Wpf",
+          "version": "",
+          "purl": "pkg:nuget/Microsoft.Terminal.Wpf@latest",
+          "type": "application",
+          "bom-ref": "pkg:nuget/Microsoft.Terminal.Wpf@latest",
+          "properties": [
+            {
+              "name": "Namespaces",
+              "value": "Microsoft.Terminal.Wpf"
+            },
+            {
+              "name": "cdx:dotnet:target_framework",
+              "value": "net472;net8.0-windows"
+            }
+          ]
+        },
+        {
+          "group": "",
+          "name": "WindowsTerminal.UIA.Tests",
+          "version": "",
+          "purl": "pkg:nuget/WindowsTerminal.UIA.Tests@latest",
+          "type": "library",
+          "bom-ref": "pkg:nuget/WindowsTerminal.UIA.Tests@latest",
+          "properties": [
+            {
+              "name": "cdx:dotnet:project_guid",
+              "value": "{F19DACD5-0C6E-40DC-B6E4-767A3200542C}"
+            },
+            {
+              "name": "Namespaces",
+              "value": "WindowsTerminal.UIA.Tests"
+            },
+            {
+              "name": "cdx:dotnet:target_framework",
+              "value": "v4.7.2"
+            }
+          ]
+        },
+        {
+          "group": "",
+          "name": "ReadConsoleInputStreamDemo",
+          "version": "",
+          "purl": "pkg:nuget/ReadConsoleInputStreamDemo@latest?output_type=Exe",
+          "type": "application",
+          "bom-ref": "pkg:nuget/ReadConsoleInputStreamDemo@latest?output_type=Exe",
+          "properties": [
+            {
+              "name": "Namespaces",
+              "value": "Samples.Terminal"
+            },
+            {
+              "name": "cdx:dotnet:target_framework",
+              "value": "netcoreapp2.2"
+            }
+          ]
+        },
+        {
+          "group": "",
+          "name": "MiniTerm",
+          "version": "",
+          "purl": "pkg:nuget/MiniTerm@latest?output_type=Exe",
+          "type": "application",
+          "bom-ref": "pkg:nuget/MiniTerm@latest?output_type=Exe",
+          "properties": [
+            {
+              "name": "cdx:dotnet:project_guid",
+              "value": "{121D4818-BD57-433B-8AD5-C4E1ACE7E7C0}"
+            },
+            {
+              "name": "Namespaces",
+              "value": "MiniTerm"
+            },
+            {
+              "name": "cdx:dotnet:target_framework",
+              "value": "v4.7.2"
+            }
+          ]
+        },
+        {
+          "group": "",
+          "name": "GUIConsole.Wpf",
+          "version": "",
+          "purl": "pkg:nuget/GUIConsole.Wpf@latest?output_type=WinExe",
+          "type": "application",
+          "bom-ref": "pkg:nuget/GUIConsole.Wpf@latest?output_type=WinExe",
+          "properties": [
+            {
+              "name": "cdx:dotnet:project_guid",
+              "value": "{FD2109FE-F78A-4E31-8317-11D1B66B69AF}"
+            },
+            {
+              "name": "Namespaces",
+              "value": "GUIConsole.Wpf"
+            },
+            {
+              "name": "cdx:dotnet:target_framework",
+              "value": "v4.6.1"
+            }
+          ]
+        },
+        {
+          "group": "",
+          "name": "GUIConsole.ConPTY",
+          "version": "",
+          "purl": "pkg:nuget/GUIConsole.ConPTY@latest",
+          "type": "application",
+          "bom-ref": "pkg:nuget/GUIConsole.ConPTY@latest",
+          "properties": [
+            {
+              "name": "cdx:dotnet:target_framework",
+              "value": "netstandard2.0"
+            }
+          ]
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "cdx:bom:componentTypes",
+        "value": "nuget"
+      },
+      {
+        "name": "cdx:bom:componentSrcFiles",
+        "value": "samples/ConPTY/GUIConsole/GUIConsole.WPF/GUIConsole.WPF.csproj\\nsamples/ConPTY/MiniTerm/MiniTerm/MiniTerm.csproj\\nsamples/ReadConsoleInputStream/ReadConsoleInputStreamDemo.csproj\\nsrc/cascadia/WindowsTerminal_UIATests/WindowsTerminal.UIA.Tests.csproj\\nsrc/cascadia/WpfTerminalControl/WpfTerminalControl.csproj\\nsrc/cascadia/WpfTerminalControl/obj/project.assets.json\\nsrc/host/ft_uia/Host.Tests.UIA.csproj\\nsrc/tools/vtapp/VTApp.csproj"
+      }
+    ]
+  },
+  "components": [
+    {
+      "group": "",
+      "name": "TerminalStress",
+      "version": "1.0.0",
+      "purl": "pkg:nuget/TerminalStress@1.0.0",
+      "type": "application",
+      "bom-ref": "pkg:nuget/TerminalStress@1.0.0"
+    },
+    {
+      "group": "",
+      "name": "GraphemeTestTableGen",
+      "version": "1.0.0",
+      "purl": "pkg:nuget/GraphemeTestTableGen@1.0.0",
+      "type": "application",
+      "bom-ref": "pkg:nuget/GraphemeTestTableGen@1.0.0"
+    },
+    {
+      "group": "",
+      "name": "GraphemeTableGen",
+      "version": "1.0.0",
+      "purl": "pkg:nuget/GraphemeTableGen@1.0.0",
+      "type": "application",
+      "bom-ref": "pkg:nuget/GraphemeTableGen@1.0.0"
+    },
+    {
+      "group": "",
+      "name": "ColorTool",
+      "version": "1.0.0",
+      "purl": "pkg:nuget/ColorTool@1.0.0",
+      "type": "application",
+      "bom-ref": "pkg:nuget/ColorTool@1.0.0"
+    },
+    {
+      "group": "",
+      "name": "WpfTerminalTestNetCore",
+      "version": "1.0.0",
+      "purl": "pkg:nuget/WpfTerminalTestNetCore@1.0.0",
+      "type": "application",
+      "bom-ref": "pkg:nuget/WpfTerminalTestNetCore@1.0.0"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.Terminal.Wpf",
+      "version": "0.1.0",
+      "purl": "pkg:nuget/Microsoft.Terminal.Wpf@0.1.0",
+      "type": "application",
+      "bom-ref": "pkg:nuget/Microsoft.Terminal.Wpf@0.1.0"
+    },
+    {
+      "group": "",
+      "name": "StyleCop.Analyzers",
+      "version": "1.1.118",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3a7c7aa2f192a9748ad3b9ffd1e33766eb2235d07a70894975a6d08561a0269dd5a28cbd01a2d2fed8a07b26ce240a1ba9bb608136a6a169ddcfbd89b1c641bf"
+        }
+      ],
+      "purl": "pkg:nuget/StyleCop.Analyzers@1.1.118",
+      "type": "library",
+      "bom-ref": "pkg:nuget/StyleCop.Analyzers@1.1.118",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "src/cascadia/WpfTerminalControl/obj/project.assets.json"
+        },
+        {
+          "name": "PackageFiles",
+          "value": "StyleCop.Analyzers.CodeFixes.dll, StyleCop.Analyzers.dll, StyleCop.Analyzers.resources.dll"
+        },
+        {
+          "name": "SrcFile",
+          "value": "src/cascadia/WpfTerminalControl/WpfTerminalControl.csproj"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "src/cascadia/WpfTerminalControl/obj/project.assets.json"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.7,
+                "value": "src/cascadia/WpfTerminalControl/WpfTerminalControl.csproj"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "ReadConsoleInputStreamDemo",
+      "version": "1.0.0",
+      "purl": "pkg:nuget/ReadConsoleInputStreamDemo@1.0.0",
+      "type": "application",
+      "bom-ref": "pkg:nuget/ReadConsoleInputStreamDemo@1.0.0"
+    },
+    {
+      "group": "",
+      "name": "GUIConsole.ConPTY",
+      "version": "1.0.0",
+      "purl": "pkg:nuget/GUIConsole.ConPTY@1.0.0",
+      "type": "application",
+      "bom-ref": "pkg:nuget/GUIConsole.ConPTY@1.0.0"
+    },
+    {
+      "group": "",
+      "name": "System",
+      "version": "",
+      "purl": "pkg:nuget/System",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "src/tools/vtapp/VTApp.csproj"
+        },
+        {
+          "name": "SrcFile",
+          "value": "src/host/ft_uia/Host.Tests.UIA.csproj"
+        },
+        {
+          "name": "SrcFile",
+          "value": "src/cascadia/WindowsTerminal_UIATests/WindowsTerminal.UIA.Tests.csproj"
+        },
+        {
+          "name": "SrcFile",
+          "value": "samples/ConPTY/MiniTerm/MiniTerm/MiniTerm.csproj"
+        },
+        {
+          "name": "SrcFile",
+          "value": "samples/ConPTY/GUIConsole/GUIConsole.WPF/GUIConsole.WPF.csproj"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.3,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/tools/vtapp/VTApp.csproj"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/host/ft_uia/Host.Tests.UIA.csproj"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/cascadia/WindowsTerminal_UIATests/WindowsTerminal.UIA.Tests.csproj"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "samples/ConPTY/MiniTerm/MiniTerm/MiniTerm.csproj"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "samples/ConPTY/GUIConsole/GUIConsole.WPF/GUIConsole.WPF.csproj"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "System.Core",
+      "version": "",
+      "purl": "pkg:nuget/System.Core",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Core",
+      "properties": [
+        {
+          "name": "cdx:dotnet:target_framework",
+          "value": "v4.7.2"
+        },
+        {
+          "name": "SrcFile",
+          "value": "src/tools/vtapp/VTApp.csproj"
+        },
+        {
+          "name": "SrcFile",
+          "value": "samples/ConPTY/MiniTerm/MiniTerm/MiniTerm.csproj"
+        },
+        {
+          "name": "cdx:dotnet:target_framework",
+          "value": "v4.6.1"
+        },
+        {
+          "name": "SrcFile",
+          "value": "samples/ConPTY/GUIConsole/GUIConsole.WPF/GUIConsole.WPF.csproj"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.3,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/tools/vtapp/VTApp.csproj"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "samples/ConPTY/MiniTerm/MiniTerm/MiniTerm.csproj"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "samples/ConPTY/GUIConsole/GUIConsole.WPF/GUIConsole.WPF.csproj"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "System.Xml.Linq",
+      "version": "",
+      "purl": "pkg:nuget/System.Xml.Linq",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Xml.Linq",
+      "properties": [
+        {
+          "name": "cdx:dotnet:target_framework",
+          "value": "v4.7.2"
+        },
+        {
+          "name": "SrcFile",
+          "value": "src/tools/vtapp/VTApp.csproj"
+        },
+        {
+          "name": "SrcFile",
+          "value": "samples/ConPTY/MiniTerm/MiniTerm/MiniTerm.csproj"
+        },
+        {
+          "name": "cdx:dotnet:target_framework",
+          "value": "v4.6.1"
+        },
+        {
+          "name": "SrcFile",
+          "value": "samples/ConPTY/GUIConsole/GUIConsole.WPF/GUIConsole.WPF.csproj"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.3,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/tools/vtapp/VTApp.csproj"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "samples/ConPTY/MiniTerm/MiniTerm/MiniTerm.csproj"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "samples/ConPTY/GUIConsole/GUIConsole.WPF/GUIConsole.WPF.csproj"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "System.Data.DataSetExtensions",
+      "version": "",
+      "purl": "pkg:nuget/System.Data.DataSetExtensions",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Data.DataSetExtensions",
+      "properties": [
+        {
+          "name": "cdx:dotnet:target_framework",
+          "value": "v4.7.2"
+        },
+        {
+          "name": "SrcFile",
+          "value": "src/tools/vtapp/VTApp.csproj"
+        },
+        {
+          "name": "SrcFile",
+          "value": "samples/ConPTY/MiniTerm/MiniTerm/MiniTerm.csproj"
+        },
+        {
+          "name": "cdx:dotnet:target_framework",
+          "value": "v4.6.1"
+        },
+        {
+          "name": "SrcFile",
+          "value": "samples/ConPTY/GUIConsole/GUIConsole.WPF/GUIConsole.WPF.csproj"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.3,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/tools/vtapp/VTApp.csproj"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "samples/ConPTY/MiniTerm/MiniTerm/MiniTerm.csproj"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "samples/ConPTY/GUIConsole/GUIConsole.WPF/GUIConsole.WPF.csproj"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "Microsoft.CSharp",
+      "version": "",
+      "purl": "pkg:nuget/Microsoft.CSharp",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.CSharp",
+      "properties": [
+        {
+          "name": "cdx:dotnet:target_framework",
+          "value": "v4.7.2"
+        },
+        {
+          "name": "SrcFile",
+          "value": "src/tools/vtapp/VTApp.csproj"
+        },
+        {
+          "name": "SrcFile",
+          "value": "samples/ConPTY/MiniTerm/MiniTerm/MiniTerm.csproj"
+        },
+        {
+          "name": "cdx:dotnet:target_framework",
+          "value": "v4.6.1"
+        },
+        {
+          "name": "SrcFile",
+          "value": "samples/ConPTY/GUIConsole/GUIConsole.WPF/GUIConsole.WPF.csproj"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.3,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/tools/vtapp/VTApp.csproj"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "samples/ConPTY/MiniTerm/MiniTerm/MiniTerm.csproj"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "samples/ConPTY/GUIConsole/GUIConsole.WPF/GUIConsole.WPF.csproj"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "System.Data",
+      "version": "",
+      "purl": "pkg:nuget/System.Data",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Data",
+      "properties": [
+        {
+          "name": "cdx:dotnet:target_framework",
+          "value": "v4.7.2"
+        },
+        {
+          "name": "SrcFile",
+          "value": "src/tools/vtapp/VTApp.csproj"
+        },
+        {
+          "name": "SrcFile",
+          "value": "samples/ConPTY/MiniTerm/MiniTerm/MiniTerm.csproj"
+        },
+        {
+          "name": "cdx:dotnet:target_framework",
+          "value": "v4.6.1"
+        },
+        {
+          "name": "SrcFile",
+          "value": "samples/ConPTY/GUIConsole/GUIConsole.WPF/GUIConsole.WPF.csproj"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.3,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/tools/vtapp/VTApp.csproj"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "samples/ConPTY/MiniTerm/MiniTerm/MiniTerm.csproj"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "samples/ConPTY/GUIConsole/GUIConsole.WPF/GUIConsole.WPF.csproj"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "System.Xml",
+      "version": "",
+      "purl": "pkg:nuget/System.Xml",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Xml",
+      "properties": [
+        {
+          "name": "cdx:dotnet:target_framework",
+          "value": "v4.7.2"
+        },
+        {
+          "name": "SrcFile",
+          "value": "src/tools/vtapp/VTApp.csproj"
+        },
+        {
+          "name": "SrcFile",
+          "value": "samples/ConPTY/MiniTerm/MiniTerm/MiniTerm.csproj"
+        },
+        {
+          "name": "cdx:dotnet:target_framework",
+          "value": "v4.6.1"
+        },
+        {
+          "name": "SrcFile",
+          "value": "samples/ConPTY/GUIConsole/GUIConsole.WPF/GUIConsole.WPF.csproj"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.3,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/tools/vtapp/VTApp.csproj"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "samples/ConPTY/MiniTerm/MiniTerm/MiniTerm.csproj"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "samples/ConPTY/GUIConsole/GUIConsole.WPF/GUIConsole.WPF.csproj"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "appium-dotnet-driver",
+      "version": "3.0.0.2",
+      "purl": "pkg:nuget/appium-dotnet-driver@3.0.0.2",
+      "type": "library",
+      "bom-ref": "pkg:nuget/appium-dotnet-driver@3.0.0.2",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "src/host/ft_uia/Host.Tests.UIA.csproj"
+        },
+        {
+          "name": "cdx:dotnet:hint_path",
+          "value": "$(AppiumWebDriverPathRoot)\\lib\\net45\\appium-dotnet-driver.dll"
+        },
+        {
+          "name": "PackageFiles",
+          "value": "appium-dotnet-driver.dll"
+        },
+        {
+          "name": "SrcFile",
+          "value": "src/cascadia/WindowsTerminal_UIATests/WindowsTerminal.UIA.Tests.csproj"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.3,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/host/ft_uia/Host.Tests.UIA.csproj"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/cascadia/WindowsTerminal_UIATests/WindowsTerminal.UIA.Tests.csproj"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        "driver"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Castle.Core",
+      "version": "4.1.1.0",
+      "purl": "pkg:nuget/Castle.Core@4.1.1.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Castle.Core@4.1.1.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "src/host/ft_uia/Host.Tests.UIA.csproj"
+        },
+        {
+          "name": "cdx:dotnet:hint_path",
+          "value": "$(CastleCorePathRoot)\\lib\\net45\\Castle.Core.dll"
+        },
+        {
+          "name": "PackageFiles",
+          "value": "Castle.Core.dll"
+        },
+        {
+          "name": "SrcFile",
+          "value": "src/cascadia/WindowsTerminal_UIATests/WindowsTerminal.UIA.Tests.csproj"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.3,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/host/ft_uia/Host.Tests.UIA.csproj"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/cascadia/WindowsTerminal_UIATests/WindowsTerminal.UIA.Tests.csproj"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "Newtonsoft.Json",
+      "version": "13.0.0.0",
+      "purl": "pkg:nuget/Newtonsoft.Json@13.0.0.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Newtonsoft.Json@13.0.0.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "src/host/ft_uia/Host.Tests.UIA.csproj"
+        },
+        {
+          "name": "cdx:dotnet:hint_path",
+          "value": "$(NewtonsoftJSONPathRoot)\\lib\\net45\\Newtonsoft.Json.dll"
+        },
+        {
+          "name": "PackageFiles",
+          "value": "Newtonsoft.Json.dll"
+        },
+        {
+          "name": "SrcFile",
+          "value": "src/cascadia/WindowsTerminal_UIATests/WindowsTerminal.UIA.Tests.csproj"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.3,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/host/ft_uia/Host.Tests.UIA.csproj"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/cascadia/WindowsTerminal_UIATests/WindowsTerminal.UIA.Tests.csproj"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "System.Drawing",
+      "version": "",
+      "purl": "pkg:nuget/System.Drawing",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Drawing",
+      "properties": [
+        {
+          "name": "cdx:dotnet:target_framework",
+          "value": "v4.7.2"
+        },
+        {
+          "name": "SrcFile",
+          "value": "src/host/ft_uia/Host.Tests.UIA.csproj"
+        },
+        {
+          "name": "SrcFile",
+          "value": "src/cascadia/WindowsTerminal_UIATests/WindowsTerminal.UIA.Tests.csproj"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.3,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/host/ft_uia/Host.Tests.UIA.csproj"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/cascadia/WindowsTerminal_UIATests/WindowsTerminal.UIA.Tests.csproj"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "TE.Managed",
+      "version": "10.0.0.0",
+      "purl": "pkg:nuget/TE.Managed@10.0.0.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/TE.Managed@10.0.0.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "src/host/ft_uia/Host.Tests.UIA.csproj"
+        },
+        {
+          "name": "cdx:dotnet:hint_path",
+          "value": "$(TAEFPackagePathRoot)\\lib\\net452\\TE.Managed.dll"
+        },
+        {
+          "name": "PackageFiles",
+          "value": "TE.Managed.dll"
+        },
+        {
+          "name": "SrcFile",
+          "value": "src/cascadia/WindowsTerminal_UIATests/WindowsTerminal.UIA.Tests.csproj"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.3,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/host/ft_uia/Host.Tests.UIA.csproj"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/cascadia/WindowsTerminal_UIATests/WindowsTerminal.UIA.Tests.csproj"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "TE.Model.Managed",
+      "version": "10.0.0.0",
+      "purl": "pkg:nuget/TE.Model.Managed@10.0.0.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/TE.Model.Managed@10.0.0.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "src/host/ft_uia/Host.Tests.UIA.csproj"
+        },
+        {
+          "name": "cdx:dotnet:hint_path",
+          "value": "$(TAEFPackagePathRoot)\\lib\\net452\\TE.Model.Managed.dll"
+        },
+        {
+          "name": "PackageFiles",
+          "value": "TE.Model.Managed.dll"
+        },
+        {
+          "name": "SrcFile",
+          "value": "src/cascadia/WindowsTerminal_UIATests/WindowsTerminal.UIA.Tests.csproj"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.3,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/host/ft_uia/Host.Tests.UIA.csproj"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/cascadia/WindowsTerminal_UIATests/WindowsTerminal.UIA.Tests.csproj"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "UIAutomationClient",
+      "version": "",
+      "purl": "pkg:nuget/UIAutomationClient",
+      "type": "library",
+      "bom-ref": "pkg:nuget/UIAutomationClient",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "src/host/ft_uia/Host.Tests.UIA.csproj"
+        },
+        {
+          "name": "SrcFile",
+          "value": "src/cascadia/WindowsTerminal_UIATests/WindowsTerminal.UIA.Tests.csproj"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.3,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/host/ft_uia/Host.Tests.UIA.csproj"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/cascadia/WindowsTerminal_UIATests/WindowsTerminal.UIA.Tests.csproj"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "UIAutomationTypes",
+      "version": "",
+      "purl": "pkg:nuget/UIAutomationTypes",
+      "type": "library",
+      "bom-ref": "pkg:nuget/UIAutomationTypes",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "src/host/ft_uia/Host.Tests.UIA.csproj"
+        },
+        {
+          "name": "SrcFile",
+          "value": "src/cascadia/WindowsTerminal_UIATests/WindowsTerminal.UIA.Tests.csproj"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.3,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/host/ft_uia/Host.Tests.UIA.csproj"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/cascadia/WindowsTerminal_UIATests/WindowsTerminal.UIA.Tests.csproj"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "WebDriver",
+      "version": "3.5.0.0",
+      "purl": "pkg:nuget/WebDriver@3.5.0.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/WebDriver@3.5.0.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "src/host/ft_uia/Host.Tests.UIA.csproj"
+        },
+        {
+          "name": "cdx:dotnet:hint_path",
+          "value": "$(SeleniumWebDriverPathRoot)\\lib\\net40\\WebDriver.dll"
+        },
+        {
+          "name": "PackageFiles",
+          "value": "WebDriver.dll"
+        },
+        {
+          "name": "SrcFile",
+          "value": "src/cascadia/WindowsTerminal_UIATests/WindowsTerminal.UIA.Tests.csproj"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.3,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/host/ft_uia/Host.Tests.UIA.csproj"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/cascadia/WindowsTerminal_UIATests/WindowsTerminal.UIA.Tests.csproj"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        "driver"
+      ]
+    },
+    {
+      "group": "",
+      "name": "WebDriver.Support",
+      "version": "3.5.0.0",
+      "purl": "pkg:nuget/WebDriver.Support@3.5.0.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/WebDriver.Support@3.5.0.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "src/host/ft_uia/Host.Tests.UIA.csproj"
+        },
+        {
+          "name": "cdx:dotnet:hint_path",
+          "value": "$(SeleniumSupportPathRoot)\\lib\\net40\\WebDriver.Support.dll"
+        },
+        {
+          "name": "PackageFiles",
+          "value": "WebDriver.Support.dll"
+        },
+        {
+          "name": "SrcFile",
+          "value": "src/cascadia/WindowsTerminal_UIATests/WindowsTerminal.UIA.Tests.csproj"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.3,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/host/ft_uia/Host.Tests.UIA.csproj"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/cascadia/WindowsTerminal_UIATests/WindowsTerminal.UIA.Tests.csproj"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        "driver"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Wex.Common.Managed",
+      "version": "10.0.0.0",
+      "purl": "pkg:nuget/Wex.Common.Managed@10.0.0.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Wex.Common.Managed@10.0.0.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "src/host/ft_uia/Host.Tests.UIA.csproj"
+        },
+        {
+          "name": "cdx:dotnet:hint_path",
+          "value": "$(TAEFPackagePathRoot)\\lib\\net452\\Wex.Common.Managed.dll"
+        },
+        {
+          "name": "PackageFiles",
+          "value": "Wex.Common.Managed.dll"
+        },
+        {
+          "name": "SrcFile",
+          "value": "src/cascadia/WindowsTerminal_UIATests/WindowsTerminal.UIA.Tests.csproj"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.3,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/host/ft_uia/Host.Tests.UIA.csproj"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/cascadia/WindowsTerminal_UIATests/WindowsTerminal.UIA.Tests.csproj"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "Wex.Logger.Interop",
+      "version": "10.0.0.0",
+      "purl": "pkg:nuget/Wex.Logger.Interop@10.0.0.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Wex.Logger.Interop@10.0.0.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "src/host/ft_uia/Host.Tests.UIA.csproj"
+        },
+        {
+          "name": "cdx:dotnet:hint_path",
+          "value": "$(TAEFPackagePathRoot)\\lib\\net452\\Wex.Logger.Interop.dll"
+        },
+        {
+          "name": "PackageFiles",
+          "value": "Wex.Logger.Interop.dll"
+        },
+        {
+          "name": "SrcFile",
+          "value": "src/cascadia/WindowsTerminal_UIATests/WindowsTerminal.UIA.Tests.csproj"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.3,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/host/ft_uia/Host.Tests.UIA.csproj"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/cascadia/WindowsTerminal_UIATests/WindowsTerminal.UIA.Tests.csproj"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "WindowsBase",
+      "version": "",
+      "purl": "pkg:nuget/WindowsBase",
+      "type": "library",
+      "bom-ref": "pkg:nuget/WindowsBase",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "src/host/ft_uia/Host.Tests.UIA.csproj"
+        },
+        {
+          "name": "SrcFile",
+          "value": "src/cascadia/WindowsTerminal_UIATests/WindowsTerminal.UIA.Tests.csproj"
+        },
+        {
+          "name": "SrcFile",
+          "value": "samples/ConPTY/GUIConsole/GUIConsole.WPF/GUIConsole.WPF.csproj"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.3,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/host/ft_uia/Host.Tests.UIA.csproj"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "src/cascadia/WindowsTerminal_UIATests/WindowsTerminal.UIA.Tests.csproj"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "samples/ConPTY/GUIConsole/GUIConsole.WPF/GUIConsole.WPF.csproj"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "Pipelines.Sockets.Unofficial",
+      "version": "2.0.22",
+      "purl": "pkg:nuget/Pipelines.Sockets.Unofficial@2.0.22",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Pipelines.Sockets.Unofficial@2.0.22",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "samples/ReadConsoleInputStream/ReadConsoleInputStreamDemo.csproj"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.7,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.7,
+                "value": "samples/ReadConsoleInputStream/ReadConsoleInputStreamDemo.csproj"
+              }
+            ],
+            "concludedValue": "samples/ReadConsoleInputStream/ReadConsoleInputStreamDemo.csproj"
+          }
+        ]
+      },
+      "tags": [
+        "native"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Vanara.PInvoke.Kernel32",
+      "version": "2.3.6",
+      "purl": "pkg:nuget/Vanara.PInvoke.Kernel32@2.3.6",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Vanara.PInvoke.Kernel32@2.3.6",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "samples/ReadConsoleInputStream/ReadConsoleInputStreamDemo.csproj"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.7,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.7,
+                "value": "samples/ReadConsoleInputStream/ReadConsoleInputStreamDemo.csproj"
+              }
+            ],
+            "concludedValue": "samples/ReadConsoleInputStream/ReadConsoleInputStreamDemo.csproj"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "System.Net.Http",
+      "version": "",
+      "purl": "pkg:nuget/System.Net.Http",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Net.Http",
+      "properties": [
+        {
+          "name": "cdx:dotnet:target_framework",
+          "value": "v4.7.2"
+        },
+        {
+          "name": "SrcFile",
+          "value": "samples/ConPTY/MiniTerm/MiniTerm/MiniTerm.csproj"
+        },
+        {
+          "name": "cdx:dotnet:target_framework",
+          "value": "v4.6.1"
+        },
+        {
+          "name": "SrcFile",
+          "value": "samples/ConPTY/GUIConsole/GUIConsole.WPF/GUIConsole.WPF.csproj"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.3,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "samples/ConPTY/MiniTerm/MiniTerm/MiniTerm.csproj"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "samples/ConPTY/GUIConsole/GUIConsole.WPF/GUIConsole.WPF.csproj"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "System.Xaml",
+      "version": "",
+      "purl": "pkg:nuget/System.Xaml",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Xaml",
+      "properties": [
+        {
+          "name": "cdx:dotnet:target_framework",
+          "value": "v4.6.1"
+        },
+        {
+          "name": "SrcFile",
+          "value": "samples/ConPTY/GUIConsole/GUIConsole.WPF/GUIConsole.WPF.csproj"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.3,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "samples/ConPTY/GUIConsole/GUIConsole.WPF/GUIConsole.WPF.csproj"
+              }
+            ],
+            "concludedValue": "samples/ConPTY/GUIConsole/GUIConsole.WPF/GUIConsole.WPF.csproj"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "PresentationCore",
+      "version": "",
+      "purl": "pkg:nuget/PresentationCore",
+      "type": "library",
+      "bom-ref": "pkg:nuget/PresentationCore",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "samples/ConPTY/GUIConsole/GUIConsole.WPF/GUIConsole.WPF.csproj"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.3,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "samples/ConPTY/GUIConsole/GUIConsole.WPF/GUIConsole.WPF.csproj"
+              }
+            ],
+            "concludedValue": "samples/ConPTY/GUIConsole/GUIConsole.WPF/GUIConsole.WPF.csproj"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "PresentationFramework",
+      "version": "",
+      "purl": "pkg:nuget/PresentationFramework",
+      "type": "library",
+      "bom-ref": "pkg:nuget/PresentationFramework",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "samples/ConPTY/GUIConsole/GUIConsole.WPF/GUIConsole.WPF.csproj"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.3,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.3,
+                "value": "samples/ConPTY/GUIConsole/GUIConsole.WPF/GUIConsole.WPF.csproj"
+              }
+            ],
+            "concludedValue": "samples/ConPTY/GUIConsole/GUIConsole.WPF/GUIConsole.WPF.csproj"
+          }
+        ]
+      }
+    }
+  ],
+  "services": [],
+  "dependencies": [
+    {
+      "ref": "pkg:nuget/Microsoft.Terminal.Wpf@0.1.0",
+      "dependsOn": [
+        "pkg:nuget/StyleCop.Analyzers@1.1.118"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/StyleCop.Analyzers@1.1.118",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/VTApp@latest?output_type=Exe",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.CSharp",
+        "pkg:nuget/System",
+        "pkg:nuget/System.Core",
+        "pkg:nuget/System.Data",
+        "pkg:nuget/System.Data.DataSetExtensions",
+        "pkg:nuget/System.Xml",
+        "pkg:nuget/System.Xml.Linq"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/TerminalStress@latest?output_type=Exe",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/GraphemeTestTableGen@latest?output_type=Exe",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/GraphemeTableGen@latest?output_type=Exe",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/ColorTool@latest?output_type=Exe",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Conhost.UIA.Tests@latest",
+      "dependsOn": [
+        "pkg:nuget/Castle.Core@4.1.1.0",
+        "pkg:nuget/Newtonsoft.Json@13.0.0.0",
+        "pkg:nuget/System",
+        "pkg:nuget/System.Drawing",
+        "pkg:nuget/TE.Managed@10.0.0.0",
+        "pkg:nuget/TE.Model.Managed@10.0.0.0",
+        "pkg:nuget/UIAutomationClient",
+        "pkg:nuget/UIAutomationTypes",
+        "pkg:nuget/WebDriver.Support@3.5.0.0",
+        "pkg:nuget/WebDriver@3.5.0.0",
+        "pkg:nuget/Wex.Common.Managed@10.0.0.0",
+        "pkg:nuget/Wex.Logger.Interop@10.0.0.0",
+        "pkg:nuget/WindowsBase",
+        "pkg:nuget/appium-dotnet-driver@3.0.0.2"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/WpfTerminalTestNetCore@latest?output_type=WinExe",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Terminal.Wpf@latest",
+      "dependsOn": [
+        "pkg:nuget/StyleCop.Analyzers@1.1.118"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/WindowsTerminal.UIA.Tests@latest",
+      "dependsOn": [
+        "pkg:nuget/Castle.Core@4.1.1.0",
+        "pkg:nuget/Newtonsoft.Json@13.0.0.0",
+        "pkg:nuget/System",
+        "pkg:nuget/System.Drawing",
+        "pkg:nuget/TE.Managed@10.0.0.0",
+        "pkg:nuget/TE.Model.Managed@10.0.0.0",
+        "pkg:nuget/UIAutomationClient",
+        "pkg:nuget/UIAutomationTypes",
+        "pkg:nuget/WebDriver.Support@3.5.0.0",
+        "pkg:nuget/WebDriver@3.5.0.0",
+        "pkg:nuget/Wex.Common.Managed@10.0.0.0",
+        "pkg:nuget/Wex.Logger.Interop@10.0.0.0",
+        "pkg:nuget/WindowsBase",
+        "pkg:nuget/appium-dotnet-driver@3.0.0.2"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/ReadConsoleInputStreamDemo@latest?output_type=Exe",
+      "dependsOn": [
+        "pkg:nuget/Pipelines.Sockets.Unofficial@2.0.22",
+        "pkg:nuget/Vanara.PInvoke.Kernel32@2.3.6"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/MiniTerm@latest?output_type=Exe",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.CSharp",
+        "pkg:nuget/System",
+        "pkg:nuget/System.Core",
+        "pkg:nuget/System.Data",
+        "pkg:nuget/System.Data.DataSetExtensions",
+        "pkg:nuget/System.Net.Http",
+        "pkg:nuget/System.Xml",
+        "pkg:nuget/System.Xml.Linq"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/GUIConsole.Wpf@latest?output_type=WinExe",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.CSharp",
+        "pkg:nuget/PresentationCore",
+        "pkg:nuget/PresentationFramework",
+        "pkg:nuget/System",
+        "pkg:nuget/System.Core",
+        "pkg:nuget/System.Data",
+        "pkg:nuget/System.Data.DataSetExtensions",
+        "pkg:nuget/System.Net.Http",
+        "pkg:nuget/System.Xaml",
+        "pkg:nuget/System.Xml",
+        "pkg:nuget/System.Xml.Linq",
+        "pkg:nuget/WindowsBase"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/GUIConsole.ConPTY@latest",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/app@latest",
+      "dependsOn": []
+    }
+  ],
+  "annotations": [
+    {
+      "bom-ref": "metadata-annotations",
+      "subjects": [
+        "pkg:nuget/app@latest"
+      ],
+      "annotator": {
+        "component": {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "12.0.0",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@12.0.0",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@12.0.0",
+          "publisher": "OWASP Foundation",
+          "authors": [
+            {
+              "name": "OWASP Foundation"
+            }
+          ]
+        }
+      },
+      "timestamp": "2026-02-13T04:23:03Z",
+      "text": "This Software Bill-of-Materials (SBOM) document was created on Friday, February 13, 2026 with cdxgen. The data was captured during the build lifecycle phase. The document describes an application named 'app'. The application also has 13 child modules/components. There are 35 components."
+    }
+  ]
+}
