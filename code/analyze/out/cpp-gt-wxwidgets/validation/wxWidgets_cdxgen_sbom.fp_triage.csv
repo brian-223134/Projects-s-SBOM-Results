@@ -1,0 +1,5 @@
+name,reason
+cotireexample,internal_target
+libxkbcommon,other
+minimal,internal_target
+wxwidgets,root_component

@@ -188,6 +188,72 @@ python code/analyze/python_mod_gt_validate.py \
 
 ---
 
+## C/C++ (wxWidgets) - 선언 기반 GT & SBOM 검증
+
+C/C++ 프로젝트는 Go의 `go.mod`처럼 단일 의존성 정답 파일이 없는 경우가 많습니다.  
+따라서 이 저장소에서는 **빌드 시스템 선언(declared dependency signals)** 을 GT로 사용합니다.
+
+### GT 구성 원칙
+
+- CMake 선언 수집
+  - `find_package(...)`
+  - `pkg_check_modules(...)`
+  - `find_library(...)`
+- Autotools 선언 수집
+  - `PKG_CHECK_MODULES(...)`
+  - `AC_CHECK_LIB(...)`
+  - `AC_SEARCH_LIBS(...)`
+  - `AC_INIT(...)` (프로젝트/내부 식별자 추출)
+- 내부 타겟(`project`, `add_library`, `add_executable`)은 별도로 저장하여 FP triage에 사용
+
+### C/C++ 혼합 프로젝트에서의 권장 방식
+
+- **언어별 분리보다 빌드 시스템 단위로 GT 생성**
+  - C와 C++가 섞여도 실제 외부 의존성 선언은 보통 CMake/Autotools에 함께 존재
+- **플랫폼/툴체인 분기 의존성 허용**
+  - Linux/Windows/macOS 분기(`if(WIN32)`, `if(UNIX)`)에서 서로 다른 의존성 선언이 나올 수 있으므로, 선언 집합 GT는 “가능 의존성 superset”으로 다루는 것이 안전
+- **버전은 보조 지표로 사용**
+  - C/C++ 선언은 버전 고정이 약한 경우가 많아 기본 비교 키는 이름(name) 중심
+- **패키지 매니저 manifest 병행 권장(선택)**
+  - `vcpkg.json`, `conanfile.*`, `meson.build`가 있다면 추가 파서로 병합하면 정확도 상승
+
+### 1) 선언 기반 GT 생성
+
+- 스크립트: `cpp_mod_gt.py`
+- 출력(예: `code/analyze/out/cpp-gt-wxwidgets/`)
+  - `cpp_mod_gt.json`: 구조화 GT (project identities, internal targets, dependencies)
+  - `cpp_declared_deps.csv`: 평탄화 의존성 테이블
+  - `cpp_internal_targets.csv`: 내부 타겟/프로젝트 이름 목록
+
+```powershell
+python code/analyze/cpp_mod_gt.py \
+  --root languages/cpp/project/wxWidgets \
+  --out-dir code/analyze/out/cpp-gt-wxwidgets
+```
+
+### 2) GT ↔ CycloneDX SBOM 검증(TP/FP/FN)
+
+- 스크립트: `cpp_sbom_gt_validate.py`
+- 입력 SBOM(CycloneDX JSON)
+  - `languages/cpp/SBOM/wxWidgets/cdxgen/wxWidgets_cdxgen_sbom.json`
+  - `languages/cpp/SBOM/wxWidgets/syft/wxWidgets_syft_sbom.json`
+  - `languages/cpp/SBOM/wxWidgets/trivy/wxWidgets_trivy_sbom.json`
+- 출력(예: `code/analyze/out/cpp-gt-wxwidgets/validation/`)
+  - `summary.json`: SBOM별 TP/FP/FN 및 지표
+  - `<sbom_stem>.tp.csv|fp.csv|fn.csv`: 도구별 목록
+  - `<sbom_stem>.fp_triage.csv`: FP 원인 분류(root/internal_target/other)
+
+```powershell
+python code/analyze/cpp_sbom_gt_validate.py \
+  --gt-dir code/analyze/out/cpp-gt-wxwidgets \
+  --sbom languages/cpp/SBOM/wxWidgets/cdxgen/wxWidgets_cdxgen_sbom.json \
+  --sbom languages/cpp/SBOM/wxWidgets/syft/wxWidgets_syft_sbom.json \
+  --sbom languages/cpp/SBOM/wxWidgets/trivy/wxWidgets_trivy_sbom.json \
+  --out-dir code/analyze/out/cpp-gt-wxwidgets/validation
+```
+
+---
+
 ## 1) Go 의존성(GT) 추출: `go_mod_gt.py`
 
 ### 무엇을 추출하나?

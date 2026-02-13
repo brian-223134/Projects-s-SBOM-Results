@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-02-13T01:23:37.482604+00:00",
+  "gt_dir": "code/analyze/out/cpp-gt-wxwidgets",
+  "results": [
+    {
+      "sbom": "languages/cpp/SBOM/wxWidgets/cdxgen/wxWidgets_cdxgen_sbom.json",
+      "observed_count": 37,
+      "expected_count": 95,
+      "tp": 33,
+      "fp": 4,
+      "fn": 62,
+      "precision": 0.8918918918918919,
+      "recall": 0.3473684210526316,
+      "f1": 0.5000000000000001,
+      "accuracy_union": 0.3333333333333333,
+      "fp_reasons": {
+        "internal_target": 2,
+        "other": 1,
+        "root_component": 1
+      }
+    },
+    {
+      "sbom": "languages/cpp/SBOM/wxWidgets/syft/wxWidgets_syft_sbom.json",
+      "observed_count": 0,
+      "expected_count": 95,
+      "tp": 0,
+      "fp": 0,
+      "fn": 95,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy_union": 0.0,
+      "fp_reasons": {}
+    },
+    {
+      "sbom": "languages/cpp/SBOM/wxWidgets/trivy/wxWidgets_trivy_sbom.json",
+      "observed_count": 0,
+      "expected_count": 95,
+      "tp": 0,
+      "fp": 0,
+      "fn": 95,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy_union": 0.0,
+      "fp_reasons": {}
+    }
+  ],
+  "metric_definition": {
+    "accuracy_union": "TP / |GT union SBOM| (Jaccard-style, since TN is undefined for SBOM comparison)",
+    "f1": "2TP / (2TP + FP + FN)"
+  }
+}

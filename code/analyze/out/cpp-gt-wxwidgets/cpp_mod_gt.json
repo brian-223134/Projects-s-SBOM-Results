@@ -1,0 +1,1181 @@
+{
+  "generated_at": "2026-02-13T01:23:19.127221+00:00",
+  "root": "languages/cpp/project/wxWidgets",
+  "scanned_files": [
+    "languages/cpp/project/wxWidgets/acinclude.m4",
+    "languages/cpp/project/wxWidgets/aclocal.m4",
+    "languages/cpp/project/wxWidgets/autoconf_inc.m4",
+    "languages/cpp/project/wxWidgets/build/cmake/benchmarks/bench/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/benchmarks/bench_graphics/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/benchmarks/bench_gui/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/benchmarks/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/build_cfg.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/config.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/demos/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/files.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/functions.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/init.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/install.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/lib/adv/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/lib/aui/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/lib/base/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/lib/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/lib/core/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/lib/expat.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/lib/gl/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/lib/html/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/lib/jpeg.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/lib/lunasvg.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/lib/media/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/lib/nanosvg.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/lib/net/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/lib/png.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/lib/propgrid/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/lib/qa/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/lib/regex.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/lib/ribbon/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/lib/richtext/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/lib/stc/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/lib/stc/lexilla.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/lib/stc/scintilla.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/lib/tiff.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/lib/webp.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/lib/webview/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/lib/webview_chromium/cef_update_version_info.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/lib/webview_chromium/cef_version_info.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/lib/webview_chromium/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/lib/xml/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/lib/xrc/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/lib/zlib.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/locale/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/main.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/modules/cotire.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/modules/cotire_test/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/modules/cotire_test/src/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/modules/FindCairo.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/modules/FindFONTCONFIG.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/modules/FindGNOMEVFS2.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/modules/FindGSPELL.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/modules/FindGSTREAMER.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/modules/FindGTK2.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/modules/FindGTK3.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/modules/FindGTK4.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/modules/FindGTKPRINT.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/modules/FindICONV.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/modules/FindLIBNOTIFY.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/modules/FindLIBSECRET.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/modules/FindLIBSOUP.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/modules/FindMSPACK.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/modules/FindPANGOFT2.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/modules/FindPCRE2.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/modules/FindSDL2.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/modules/FindWAYLANDEGL.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/modules/FindWEBKIT.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/modules/FindWEBKIT2.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/modules/FindWebP.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/modules/FindXKBCommon.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/modules/FindXTEST.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/options.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/pch.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/policies.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/samples/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/samples/html.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/samples/webview.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/setup.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/source_groups.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/tests/base/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/tests/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/tests/drawing/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/tests/gui/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/tests/headers/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/tests/win32/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/build/cmake/toolkit.cmake",
+    "languages/cpp/project/wxWidgets/build/cmake/utils/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/configure.ac",
+    "languages/cpp/project/wxWidgets/samples/minimal/CMakeLists.txt",
+    "languages/cpp/project/wxWidgets/wxwin.m4"
+  ],
+  "project_identities": [
+    {
+      "name": "CotireExample",
+      "version": "",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/cotire_test/CMakeLists.txt",
+      "line": "10",
+      "kind": "cmake"
+    },
+    {
+      "name": "wxWidgets",
+      "version": "${wxVERSION}",
+      "file": "languages/cpp/project/wxWidgets/CMakeLists.txt",
+      "line": "101",
+      "kind": "cmake"
+    },
+    {
+      "name": "wxWidgets",
+      "version": "3.3.2",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": "16",
+      "kind": "autoconf"
+    },
+    {
+      "name": "minimal",
+      "version": "",
+      "file": "languages/cpp/project/wxWidgets/samples/minimal/CMakeLists.txt",
+      "line": "30",
+      "kind": "cmake"
+    }
+  ],
+  "internal_targets": [
+    "cotireexample",
+    "example",
+    "libcef",
+    "minimal",
+    "wxrc",
+    "wxwebkit2_ext",
+    "wxwidgets",
+    "wxwidgets::wxwidgets"
+  ],
+  "dependencies": [
+    {
+      "name": "threads",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/init.cmake",
+      "line": 354,
+      "raw": "find_package(Threads REQUIRED)"
+    },
+    {
+      "name": "liblzma",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/init.cmake",
+      "line": 359,
+      "raw": "find_package(LibLZMA)"
+    },
+    {
+      "name": "curl",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/init.cmake",
+      "line": 368,
+      "raw": "find_package(CURL)"
+    },
+    {
+      "name": "libsecret",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/init.cmake",
+      "line": 397,
+      "raw": "find_package(LIBSECRET)"
+    },
+    {
+      "name": "iconv",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/init.cmake",
+      "line": 410,
+      "raw": "find_package(ICONV)"
+    },
+    {
+      "name": "pkgconfig",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/init.cmake",
+      "line": 461,
+      "raw": "find_package(PkgConfig)"
+    },
+    {
+      "name": "wayland-client",
+      "version": "",
+      "source_kind": "cmake:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/init.cmake",
+      "line": 462,
+      "raw": "pkg_check_modules(WAYLAND_CLIENT wayland-client)"
+    },
+    {
+      "name": "opengl",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/init.cmake",
+      "line": 523,
+      "raw": "find_package(OpenGL)"
+    },
+    {
+      "name": "waylandegl",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/init.cmake",
+      "line": 542,
+      "raw": "find_package(WAYLANDEGL)"
+    },
+    {
+      "name": "webkit",
+      "version": "1.0",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/init.cmake",
+      "line": 569,
+      "raw": "find_package(WEBKIT 1.0)"
+    },
+    {
+      "name": "webkit2",
+      "version": "4.1",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/init.cmake",
+      "line": 571,
+      "raw": "find_package(WEBKIT2 4.1 QUIET)"
+    },
+    {
+      "name": "webkit2",
+      "version": "4.0",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/init.cmake",
+      "line": 575,
+      "raw": "find_package(WEBKIT2 4.0)"
+    },
+    {
+      "name": "webkit",
+      "version": "3.0",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/init.cmake",
+      "line": 578,
+      "raw": "find_package(WEBKIT 3.0)"
+    },
+    {
+      "name": "libsoup",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/init.cmake",
+      "line": 581,
+      "raw": "find_package(LIBSOUP ${WEBKIT_LIBSOUP_VERSION})"
+    },
+    {
+      "name": "fontconfig",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/init.cmake",
+      "line": 660,
+      "raw": "find_package(FONTCONFIG)"
+    },
+    {
+      "name": "pangoft2",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/init.cmake",
+      "line": 661,
+      "raw": "find_package(PANGOFT2)"
+    },
+    {
+      "name": "gstreamer",
+      "version": "1.0",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/init.cmake",
+      "line": 669,
+      "raw": "find_package(GSTREAMER 1.0 COMPONENTS video)"
+    },
+    {
+      "name": "gstreamer",
+      "version": "0.10",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/init.cmake",
+      "line": 671,
+      "raw": "find_package(GSTREAMER 0.10 COMPONENTS interfaces)"
+    },
+    {
+      "name": "sdl2",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/init.cmake",
+      "line": 690,
+      "raw": "find_package(SDL2)"
+    },
+    {
+      "name": "sdl",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/init.cmake",
+      "line": 692,
+      "raw": "find_package(SDL)"
+    },
+    {
+      "name": "libnotify",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/init.cmake",
+      "line": 704,
+      "raw": "find_package(LIBNOTIFY)"
+    },
+    {
+      "name": "xtest",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/init.cmake",
+      "line": 720,
+      "raw": "find_package(XTEST)"
+    },
+    {
+      "name": "mspack",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/init.cmake",
+      "line": 743,
+      "raw": "find_package(MSPACK)"
+    },
+    {
+      "name": "gtkprint",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/init.cmake",
+      "line": 753,
+      "raw": "find_package(GTKPRINT ${wxTOOLKIT_VERSION})"
+    },
+    {
+      "name": "gnomevfs2",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/init.cmake",
+      "line": 766,
+      "raw": "find_package(GNOMEVFS2)"
+    },
+    {
+      "name": "gspell",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/init.cmake",
+      "line": 780,
+      "raw": "find_package(GSPELL)"
+    },
+    {
+      "name": "cairo",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/init.cmake",
+      "line": 791,
+      "raw": "find_package(Cairo)"
+    },
+    {
+      "name": "xkbcommon",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/init.cmake",
+      "line": 799,
+      "raw": "find_package(XKBCommon)"
+    },
+    {
+      "name": "expat",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/lib/expat.cmake",
+      "line": 11,
+      "raw": "find_package(EXPAT)"
+    },
+    {
+      "name": "jpeg",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/lib/jpeg.cmake",
+      "line": 11,
+      "raw": "find_package(JPEG)"
+    },
+    {
+      "name": "nanosvg",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/lib/nanosvg.cmake",
+      "line": 11,
+      "raw": "find_package(NanoSVG)"
+    },
+    {
+      "name": "png",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/lib/png.cmake",
+      "line": 11,
+      "raw": "find_package(PNG)"
+    },
+    {
+      "name": "pcre2",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/lib/regex.cmake",
+      "line": 11,
+      "raw": "find_package(PCRE2)"
+    },
+    {
+      "name": "tiff",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/lib/tiff.cmake",
+      "line": 11,
+      "raw": "find_package(TIFF)"
+    },
+    {
+      "name": "webp",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/lib/webp.cmake",
+      "line": 11,
+      "raw": "find_package(WebP)"
+    },
+    {
+      "name": "zlib",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/lib/zlib.cmake",
+      "line": 11,
+      "raw": "find_package(ZLIB)"
+    },
+    {
+      "name": "gettext",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/locale/CMakeLists.txt",
+      "line": 3,
+      "raw": "find_package(Gettext)"
+    },
+    {
+      "name": "cairo",
+      "version": "",
+      "source_kind": "cmake:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindCairo.cmake",
+      "line": 32,
+      "raw": "PKG_CHECK_MODULES(PC_CAIRO QUIET cairo)"
+    },
+    {
+      "name": "cairo",
+      "version": "",
+      "source_kind": "cmake:find_library",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindCairo.cmake",
+      "line": 41,
+      "raw": "FIND_LIBRARY(CAIRO_LIBRARIES NAMES cairo HINTS ${PC_CAIRO_LIBDIR} ${PC_CAIRO_LIBRARY_DIRS} )"
+    },
+    {
+      "name": "fontconfig",
+      "version": "",
+      "source_kind": "cmake:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindFONTCONFIG.cmake",
+      "line": 9,
+      "raw": "pkg_check_modules(PC_FONTCONFIG QUIET fontconfig)"
+    },
+    {
+      "name": "fontconfig",
+      "version": "",
+      "source_kind": "cmake:find_library",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindFONTCONFIG.cmake",
+      "line": 18,
+      "raw": "find_library(FONTCONFIG_LIBRARIES NAMES fontconfig HINTS ${PC_FONTCONFIG_LIBDIR} ${PC_FONTCONFIG_LIBRARY_DIRS} )"
+    },
+    {
+      "name": "gnome-vfs-2.0",
+      "version": "",
+      "source_kind": "cmake:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindGNOMEVFS2.cmake",
+      "line": 29,
+      "raw": "pkg_check_modules(_GNOMEVFS2 gnome-vfs-2.0)"
+    },
+    {
+      "name": "gnomevfs-2",
+      "version": "",
+      "source_kind": "cmake:find_library",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindGNOMEVFS2.cmake",
+      "line": 46,
+      "raw": "find_library(GNOMEVFS-2_LIBRARY NAMES gnomevfs-2 PATHS ${_GNOMEVFS2_LIBDIR} /usr/lib /usr/local/lib /opt/local/lib /sw/lib )"
+    },
+    {
+      "name": "gspell-1",
+      "version": "",
+      "source_kind": "cmake:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindGSPELL.cmake",
+      "line": 9,
+      "raw": "pkg_check_modules(PC_GSPELL QUIET gspell-1)"
+    },
+    {
+      "name": "gspell-1",
+      "version": "",
+      "source_kind": "cmake:find_library",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindGSPELL.cmake",
+      "line": 17,
+      "raw": "find_library(GSPELL_LIBRARIES NAMES gspell-1 HINTS ${PC_GSPELL_LIBDIR} ${PC_GSPELL_LIBRARY_DIRS} )"
+    },
+    {
+      "name": "enchant-2",
+      "version": "",
+      "source_kind": "cmake:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindGSPELL.cmake",
+      "line": 23,
+      "raw": "pkg_check_modules(PC_ENCHANT QUIET enchant-2 enchant)"
+    },
+    {
+      "name": "enchant",
+      "version": "",
+      "source_kind": "cmake:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindGSPELL.cmake",
+      "line": 23,
+      "raw": "pkg_check_modules(PC_ENCHANT QUIET enchant-2 enchant)"
+    },
+    {
+      "name": "gtk+-2.0",
+      "version": "",
+      "source_kind": "cmake:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindGTK2.cmake",
+      "line": 32,
+      "raw": "pkg_check_modules(GTK2 QUIET gtk+-2.0)"
+    },
+    {
+      "name": "gtk2",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindGTK2.cmake",
+      "line": 61,
+      "raw": "find_package(GTK2)"
+    },
+    {
+      "name": "gtk+-3.0",
+      "version": "",
+      "source_kind": "cmake:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindGTK3.cmake",
+      "line": 32,
+      "raw": "pkg_check_modules(GTK3 QUIET gtk+-3.0)"
+    },
+    {
+      "name": "gtk4",
+      "version": "",
+      "source_kind": "cmake:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindGTK4.cmake",
+      "line": 32,
+      "raw": "pkg_check_modules(GTK4 QUIET gtk4)"
+    },
+    {
+      "name": "iconv",
+      "version": "",
+      "source_kind": "cmake:find_library",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindICONV.cmake",
+      "line": 20,
+      "raw": "FIND_LIBRARY(ICONV_LIBRARIES NAMES iconv libiconv libiconv-2 c)"
+    },
+    {
+      "name": "libiconv",
+      "version": "",
+      "source_kind": "cmake:find_library",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindICONV.cmake",
+      "line": 20,
+      "raw": "FIND_LIBRARY(ICONV_LIBRARIES NAMES iconv libiconv libiconv-2 c)"
+    },
+    {
+      "name": "libiconv-2",
+      "version": "",
+      "source_kind": "cmake:find_library",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindICONV.cmake",
+      "line": 20,
+      "raw": "FIND_LIBRARY(ICONV_LIBRARIES NAMES iconv libiconv libiconv-2 c)"
+    },
+    {
+      "name": "c",
+      "version": "",
+      "source_kind": "cmake:find_library",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindICONV.cmake",
+      "line": 20,
+      "raw": "FIND_LIBRARY(ICONV_LIBRARIES NAMES iconv libiconv libiconv-2 c)"
+    },
+    {
+      "name": "libnotify",
+      "version": "",
+      "source_kind": "cmake:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindLIBNOTIFY.cmake",
+      "line": 33,
+      "raw": "pkg_check_modules(LIBNOTIFY QUIET libnotify)"
+    },
+    {
+      "name": "notify",
+      "version": "",
+      "source_kind": "cmake:find_library",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindLIBNOTIFY.cmake",
+      "line": 42,
+      "raw": "find_library(LIBNOTIFY_LIBRARIES NAMES notify HINTS ${LIBNOTIFY_LIBDIR} ${LIBNOTIFY_LIBRARY_DIRS} )"
+    },
+    {
+      "name": "libsecret-1",
+      "version": "",
+      "source_kind": "cmake:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindLIBSECRET.cmake",
+      "line": 33,
+      "raw": "pkg_check_modules(LIBSECRET QUIET libsecret-1)"
+    },
+    {
+      "name": "mspack",
+      "version": "",
+      "source_kind": "cmake:find_library",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindMSPACK.cmake",
+      "line": 25,
+      "raw": "find_library(MSPACK_LIBRARY NAMES mspack )"
+    },
+    {
+      "name": "pangoft2",
+      "version": "",
+      "source_kind": "cmake:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindPANGOFT2.cmake",
+      "line": 9,
+      "raw": "pkg_check_modules(PC_PANGOFT2 QUIET pangoft2)"
+    },
+    {
+      "name": "pangoft2-1.0",
+      "version": "",
+      "source_kind": "cmake:find_library",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindPANGOFT2.cmake",
+      "line": 18,
+      "raw": "find_library(PANGOFT2_LIBRARIES NAMES pangoft2-1.0 HINTS ${PC_PANGOFT2_LIBDIR} ${PC_PANGOFT2_LIBRARY_DIRS} )"
+    },
+    {
+      "name": "sdl2",
+      "version": "",
+      "source_kind": "cmake:find_library",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindSDL2.cmake",
+      "line": 95,
+      "raw": "FIND_LIBRARY(SDL2_LIBRARY_TEMP NAMES SDL2 HINTS $ENV{SDL2DIR} PATH_SUFFIXES ${PATH_SUFFIXES} PATHS ${SDL2_SEARCH_PATHS} )"
+    },
+    {
+      "name": "sdl2main",
+      "version": "",
+      "source_kind": "cmake:find_library",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindSDL2.cmake",
+      "line": 109,
+      "raw": "FIND_LIBRARY(SDL2MAIN_LIBRARY NAMES SDL2main HINTS $ENV{SDL2DIR} PATH_SUFFIXES ${PATH_SUFFIXES} PATHS ${SDL2_SEARCH_PATHS} )"
+    },
+    {
+      "name": "wayland-egl",
+      "version": "",
+      "source_kind": "cmake:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindWAYLANDEGL.cmake",
+      "line": 2,
+      "raw": "pkg_check_modules(WAYLANDEGL QUIET wayland-egl)"
+    },
+    {
+      "name": "libwebp",
+      "version": "",
+      "source_kind": "cmake:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindWebP.cmake",
+      "line": 6,
+      "raw": "pkg_check_modules(WebP libwebp libwebpdemux)"
+    },
+    {
+      "name": "libwebpdemux",
+      "version": "",
+      "source_kind": "cmake:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindWebP.cmake",
+      "line": 6,
+      "raw": "pkg_check_modules(WebP libwebp libwebpdemux)"
+    },
+    {
+      "name": "xkbcommon",
+      "version": "",
+      "source_kind": "cmake:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindXKBCommon.cmake",
+      "line": 4,
+      "raw": "pkg_check_modules(PC_XKBCOMMON QUIET xkbcommon)"
+    },
+    {
+      "name": "xkbcommon",
+      "version": "",
+      "source_kind": "cmake:find_library",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindXKBCommon.cmake",
+      "line": 13,
+      "raw": "find_library(XKBCOMMON_LIBRARIES NAMES xkbcommon HINTS ${PC_XKBCOMMON_LIBDIR} ${PC_XKBCOMMON_LIBRARY_DIRS} )"
+    },
+    {
+      "name": "xtst",
+      "version": "",
+      "source_kind": "cmake:find_library",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/modules/FindXTEST.cmake",
+      "line": 37,
+      "raw": "find_library(XTEST_LIBRARY NAMES Xtst PATHS /opt/X11/lib DOC \"The XTest library\" )"
+    },
+    {
+      "name": "mfc",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/samples/CMakeLists.txt",
+      "line": 283,
+      "raw": "find_package(MFC QUIET)"
+    },
+    {
+      "name": "x11",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/toolkit.cmake",
+      "line": 125,
+      "raw": "find_package(X11 REQUIRED)"
+    },
+    {
+      "name": "qt",
+      "version": "",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/build/cmake/toolkit.cmake",
+      "line": 132,
+      "raw": "find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Core)"
+    },
+    {
+      "name": "libwebp",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 2533,
+      "raw": "PKG_CHECK_MODULES(..., [libwebp libwebpdemux], ...)"
+    },
+    {
+      "name": "libwebpdemux",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 2533,
+      "raw": "PKG_CHECK_MODULES(..., [libwebp libwebpdemux], ...)"
+    },
+    {
+      "name": "libtiff-4",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 2586,
+      "raw": "PKG_CHECK_MODULES(..., [libtiff-4], ...)"
+    },
+    {
+      "name": "libcurl",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 2831,
+      "raw": "PKG_CHECK_MODULES(..., [libcurl], ...)"
+    },
+    {
+      "name": "gtk+-2.0",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 2926,
+      "raw": "PKG_CHECK_MODULES(..., [gtk+-2.0 >= 2.6.0], ...)"
+    },
+    {
+      "name": "2.6.0",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 2926,
+      "raw": "PKG_CHECK_MODULES(..., [gtk+-2.0 >= 2.6.0], ...)"
+    },
+    {
+      "name": "wayland-client",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 3081,
+      "raw": "PKG_CHECK_MODULES(..., [wayland-client], ...)"
+    },
+    {
+      "name": "directfb",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 3122,
+      "raw": "PKG_CHECK_MODULES(..., [directfb >= 0.9.23], ...)"
+    },
+    {
+      "name": "0.9.23",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 3122,
+      "raw": "PKG_CHECK_MODULES(..., [directfb >= 0.9.23], ...)"
+    },
+    {
+      "name": "qt5core",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 3306,
+      "raw": "PKG_CHECK_MODULES(..., [Qt5Core Qt5Widgets Qt5Gui Qt5OpenGL Qt5Test Qt5PrintSupport], ...)"
+    },
+    {
+      "name": "qt5widgets",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 3306,
+      "raw": "PKG_CHECK_MODULES(..., [Qt5Core Qt5Widgets Qt5Gui Qt5OpenGL Qt5Test Qt5PrintSupport], ...)"
+    },
+    {
+      "name": "qt5gui",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 3306,
+      "raw": "PKG_CHECK_MODULES(..., [Qt5Core Qt5Widgets Qt5Gui Qt5OpenGL Qt5Test Qt5PrintSupport], ...)"
+    },
+    {
+      "name": "qt5opengl",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 3306,
+      "raw": "PKG_CHECK_MODULES(..., [Qt5Core Qt5Widgets Qt5Gui Qt5OpenGL Qt5Test Qt5PrintSupport], ...)"
+    },
+    {
+      "name": "qt5test",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 3306,
+      "raw": "PKG_CHECK_MODULES(..., [Qt5Core Qt5Widgets Qt5Gui Qt5OpenGL Qt5Test Qt5PrintSupport], ...)"
+    },
+    {
+      "name": "qt5printsupport",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 3306,
+      "raw": "PKG_CHECK_MODULES(..., [Qt5Core Qt5Widgets Qt5Gui Qt5OpenGL Qt5Test Qt5PrintSupport], ...)"
+    },
+    {
+      "name": "egl",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 3485,
+      "raw": "PKG_CHECK_MODULES(..., [egl >= 1.4], ...)"
+    },
+    {
+      "name": "1.4",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 3485,
+      "raw": "PKG_CHECK_MODULES(..., [egl >= 1.4], ...)"
+    },
+    {
+      "name": "wayland-egl",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 3489,
+      "raw": "PKG_CHECK_MODULES(..., [wayland-egl], ...)"
+    },
+    {
+      "name": "xkbcommon",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 5210,
+      "raw": "PKG_CHECK_MODULES(..., [xkbcommon], ...)"
+    },
+    {
+      "name": "libsecret-1",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 5232,
+      "raw": "PKG_CHECK_MODULES(..., [libsecret-1], ...)"
+    },
+    {
+      "name": "gspell-1",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 5274,
+      "raw": "PKG_CHECK_MODULES(..., [gspell-1], ...)"
+    },
+    {
+      "name": "sdl2",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 5365,
+      "raw": "PKG_CHECK_MODULES(..., [sdl2 >= 2.0.0], ...)"
+    },
+    {
+      "name": "2.0.0",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 5365,
+      "raw": "PKG_CHECK_MODULES(..., [sdl2 >= 2.0.0], ...)"
+    },
+    {
+      "name": "gnome-vfs-2.0",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 5423,
+      "raw": "PKG_CHECK_MODULES(..., [gnome-vfs-2.0 >= 2.0], ...)"
+    },
+    {
+      "name": "2.0",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 5423,
+      "raw": "PKG_CHECK_MODULES(..., [gnome-vfs-2.0 >= 2.0], ...)"
+    },
+    {
+      "name": "libnotify",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 5442,
+      "raw": "PKG_CHECK_MODULES(..., [libnotify >= 0.7], ...)"
+    },
+    {
+      "name": "0.7",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 5442,
+      "raw": "PKG_CHECK_MODULES(..., [libnotify >= 0.7], ...)"
+    },
+    {
+      "name": "0.4",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 5448,
+      "raw": "PKG_CHECK_MODULES(..., [libnotify >= 0.4], ...)"
+    },
+    {
+      "name": "fontconfig",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 6846,
+      "raw": "PKG_CHECK_MODULES(..., [fontconfig >= 2.8.0 pangoft2 >= 1.38.0], ...)"
+    },
+    {
+      "name": "2.8.0",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 6846,
+      "raw": "PKG_CHECK_MODULES(..., [fontconfig >= 2.8.0 pangoft2 >= 1.38.0], ...)"
+    },
+    {
+      "name": "pangoft2",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 6846,
+      "raw": "PKG_CHECK_MODULES(..., [fontconfig >= 2.8.0 pangoft2 >= 1.38.0], ...)"
+    },
+    {
+      "name": "1.38.0",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 6846,
+      "raw": "PKG_CHECK_MODULES(..., [fontconfig >= 2.8.0 pangoft2 >= 1.38.0], ...)"
+    },
+    {
+      "name": "webkit2gtk-4.1",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 7072,
+      "raw": "PKG_CHECK_MODULES(..., [webkit2gtk-4.1], ...)"
+    },
+    {
+      "name": "webkit2gtk-4.0",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 7083,
+      "raw": "PKG_CHECK_MODULES(..., [webkit2gtk-4.0], ...)"
+    },
+    {
+      "name": "1.3.1",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 7100,
+      "raw": "PKG_CHECK_MODULES(..., [$webkitgtk >= 1.3.1], ...)"
+    },
+    {
+      "name": "cairo",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 7455,
+      "raw": "PKG_CHECK_MODULES(..., [cairo >= 1.2], ...)"
+    },
+    {
+      "name": "1.2",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 7455,
+      "raw": "PKG_CHECK_MODULES(..., [cairo >= 1.2], ...)"
+    },
+    {
+      "name": "1.7.2.1",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 7551,
+      "raw": "PKG_CHECK_MODULES(..., [gstreamer-$GST_VERSION gstreamer-video-$GST_VERSION gstreamer-player-$GST_VERSION >= 1.7.2.1], ...)"
+    },
+    {
+      "name": "catch2",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 8415,
+      "raw": "PKG_CHECK_MODULES(..., [catch2 < 3], ...)"
+    },
+    {
+      "name": "3",
+      "version": "",
+      "source_kind": "autoconf:pkg_check_modules",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 8415,
+      "raw": "PKG_CHECK_MODULES(..., [catch2 < 3], ...)"
+    },
+    {
+      "name": "z",
+      "version": "",
+      "source_kind": "autoconf:ac_check_lib",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 2284,
+      "raw": "AC_CHECK_LIB(z,"
+    },
+    {
+      "name": "png",
+      "version": "",
+      "source_kind": "autoconf:ac_check_lib",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 2365,
+      "raw": "AC_CHECK_LIB(png,"
+    },
+    {
+      "name": "jpeg",
+      "version": "",
+      "source_kind": "autoconf:ac_check_lib",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 2433,
+      "raw": "AC_CHECK_LIB(jpeg,"
+    },
+    {
+      "name": "lzma",
+      "version": "",
+      "source_kind": "autoconf:ac_check_lib",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 2502,
+      "raw": "AC_CHECK_LIB(lzma,"
+    },
+    {
+      "name": "jbig",
+      "version": "",
+      "source_kind": "autoconf:ac_check_lib",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 2522,
+      "raw": "AC_CHECK_LIB(jbig,"
+    },
+    {
+      "name": "tiff",
+      "version": "",
+      "source_kind": "autoconf:ac_check_lib",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 2612,
+      "raw": "AC_CHECK_LIB(tiff,"
+    },
+    {
+      "name": "expat",
+      "version": "",
+      "source_kind": "autoconf:ac_check_lib",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 2709,
+      "raw": "AC_CHECK_LIB(expat,"
+    },
+    {
+      "name": "mspack",
+      "version": "",
+      "source_kind": "autoconf:ac_check_lib",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 2802,
+      "raw": "AC_CHECK_LIB(mspack,"
+    },
+    {
+      "name": "xext",
+      "version": "",
+      "source_kind": "autoconf:ac_check_lib",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 3245,
+      "raw": "AC_CHECK_LIB([Xext],"
+    },
+    {
+      "name": "msvcrt",
+      "version": "",
+      "source_kind": "autoconf:ac_check_lib",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 3910,
+      "raw": "AC_CHECK_LIB(msvcrt,"
+    },
+    {
+      "name": "w",
+      "version": "",
+      "source_kind": "autoconf:ac_check_lib",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 3912,
+      "raw": "AC_CHECK_LIB(w,"
+    },
+    {
+      "name": "posix4",
+      "version": "",
+      "source_kind": "autoconf:ac_check_lib",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 4320,
+      "raw": "AC_CHECK_LIB(posix4,"
+    },
+    {
+      "name": "nsl",
+      "version": "",
+      "source_kind": "autoconf:ac_check_lib",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 4349,
+      "raw": "AC_CHECK_LIB(nsl,"
+    },
+    {
+      "name": "resolv",
+      "version": "",
+      "source_kind": "autoconf:ac_check_lib",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 4352,
+      "raw": "AC_CHECK_LIB(resolv,"
+    },
+    {
+      "name": "socket",
+      "version": "",
+      "source_kind": "autoconf:ac_check_lib",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 4355,
+      "raw": "AC_CHECK_LIB(socket,"
+    },
+    {
+      "name": "network",
+      "version": "",
+      "source_kind": "autoconf:ac_check_lib",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 4358,
+      "raw": "AC_CHECK_LIB(network,"
+    },
+    {
+      "name": "dl",
+      "version": "",
+      "source_kind": "autoconf:ac_check_lib",
+      "file": "languages/cpp/project/wxWidgets/configure.ac",
+      "line": 5061,
+      "raw": "AC_CHECK_LIB(dl,"
+    },
+    {
+      "name": "wxwidgets",
+      "version": "3.3",
+      "source_kind": "cmake:find_package",
+      "file": "languages/cpp/project/wxWidgets/samples/minimal/CMakeLists.txt",
+      "line": 36,
+      "raw": "find_package(wxWidgets 3.3 COMPONENTS core base REQUIRED CONFIG)"
+    }
+  ]
+}
