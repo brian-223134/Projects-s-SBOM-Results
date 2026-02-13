@@ -1,0 +1,329 @@
+{
+  "generated_at": "2026-02-13T04:26:51.103685+00:00",
+  "root": "languages/cpp/project/terminal",
+  "scanned_files": [
+    "languages/cpp/project/terminal/.nuget/packages.config",
+    "languages/cpp/project/terminal/build/packages.config",
+    "languages/cpp/project/terminal/dep/nuget/packages.config",
+    "languages/cpp/project/terminal/dep/vcpkg-overlay-ports/fmt/portfile.cmake",
+    "languages/cpp/project/terminal/dep/vcpkg-overlay-ports/fmt/vcpkg.json",
+    "languages/cpp/project/terminal/dep/vcpkg-overlay-ports/jsoncpp/portfile.cmake",
+    "languages/cpp/project/terminal/dep/vcpkg-overlay-ports/jsoncpp/vcpkg.json",
+    "languages/cpp/project/terminal/dep/vcpkg-overlay-triplets/arm64-windows-static.cmake",
+    "languages/cpp/project/terminal/dep/vcpkg-overlay-triplets/fuzzing/arm64-windows-static.cmake",
+    "languages/cpp/project/terminal/dep/vcpkg-overlay-triplets/fuzzing/x64-windows-static.cmake",
+    "languages/cpp/project/terminal/dep/vcpkg-overlay-triplets/fuzzing/x86-windows-static.cmake",
+    "languages/cpp/project/terminal/dep/vcpkg-overlay-triplets/x64-windows-static.cmake",
+    "languages/cpp/project/terminal/dep/vcpkg-overlay-triplets/x86-windows-static.cmake",
+    "languages/cpp/project/terminal/samples/ConPTY/GUIConsole/GUIConsole.ConPTY/GUIConsole.ConPTY.csproj",
+    "languages/cpp/project/terminal/samples/ConPTY/GUIConsole/GUIConsole.WPF/GUIConsole.WPF.csproj",
+    "languages/cpp/project/terminal/samples/ConPTY/MiniTerm/MiniTerm/MiniTerm.csproj",
+    "languages/cpp/project/terminal/samples/ReadConsoleInputStream/ReadConsoleInputStreamDemo.csproj",
+    "languages/cpp/project/terminal/scratch/ScratchIslandApp/SampleApp/packages.config",
+    "languages/cpp/project/terminal/scratch/ScratchIslandApp/WindowExe/packages.config",
+    "languages/cpp/project/terminal/src/cascadia/WindowsTerminal_UIATests/WindowsTerminal.UIA.Tests.csproj",
+    "languages/cpp/project/terminal/src/cascadia/WpfTerminalControl/WpfTerminalControl.csproj",
+    "languages/cpp/project/terminal/src/cascadia/WpfTerminalTestNetCore/WpfTerminalTestNetCore.csproj",
+    "languages/cpp/project/terminal/src/host/ft_uia/Host.Tests.UIA.csproj",
+    "languages/cpp/project/terminal/src/tools/ColorTool/ColorTool/ColorTool.csproj",
+    "languages/cpp/project/terminal/src/tools/GraphemeTableGen/GraphemeTableGen.csproj",
+    "languages/cpp/project/terminal/src/tools/GraphemeTestTableGen/GraphemeTestTableGen.csproj",
+    "languages/cpp/project/terminal/src/tools/TerminalStress/TerminalStress.csproj",
+    "languages/cpp/project/terminal/src/tools/vtapp/VTApp.csproj",
+    "languages/cpp/project/terminal/vcpkg.json"
+  ],
+  "project_identities": [
+    {
+      "name": "GUIConsole.Wpf",
+      "version": "",
+      "file": "languages/cpp/project/terminal/samples/ConPTY/GUIConsole/GUIConsole.WPF/GUIConsole.WPF.csproj",
+      "line": "1",
+      "kind": "csproj"
+    },
+    {
+      "name": "MiniTerm",
+      "version": "",
+      "file": "languages/cpp/project/terminal/samples/ConPTY/MiniTerm/MiniTerm/MiniTerm.csproj",
+      "line": "1",
+      "kind": "csproj"
+    },
+    {
+      "name": "WindowsTerminal.UIA.Tests",
+      "version": "",
+      "file": "languages/cpp/project/terminal/src/cascadia/WindowsTerminal_UIATests/WindowsTerminal.UIA.Tests.csproj",
+      "line": "1",
+      "kind": "csproj"
+    },
+    {
+      "name": "Microsoft.Terminal.Wpf",
+      "version": "0.1",
+      "file": "languages/cpp/project/terminal/src/cascadia/WpfTerminalControl/WpfTerminalControl.csproj",
+      "line": "1",
+      "kind": "csproj"
+    },
+    {
+      "name": "Conhost.UIA.Tests",
+      "version": "",
+      "file": "languages/cpp/project/terminal/src/host/ft_uia/Host.Tests.UIA.csproj",
+      "line": "1",
+      "kind": "csproj"
+    },
+    {
+      "name": "VTApp",
+      "version": "",
+      "file": "languages/cpp/project/terminal/src/tools/vtapp/VTApp.csproj",
+      "line": "1",
+      "kind": "csproj"
+    }
+  ],
+  "internal_targets": [
+    "conhost.uia.tests",
+    "guiconsole.wpf",
+    "microsoft.terminal.wpf",
+    "miniterm",
+    "vtapp",
+    "windowsterminal.uia.tests"
+  ],
+  "dependencies": [
+    {
+      "name": "vswhere",
+      "version": "2.6.7",
+      "source_kind": "nuget:packages_config",
+      "file": "languages/cpp/project/terminal/.nuget/packages.config",
+      "line": 3,
+      "raw": "<package id=\"vswhere\" version=\"2.6.7\" />\n"
+    },
+    {
+      "name": "microsoft.taef",
+      "version": "10.100.251104001",
+      "source_kind": "nuget:packages_config",
+      "file": "languages/cpp/project/terminal/build/packages.config",
+      "line": 3,
+      "raw": "<package id=\"Microsoft.Taef\" version=\"10.100.251104001\" targetFramework=\"native\" />\n  "
+    },
+    {
+      "name": "microsoft.internal.pgo-helpers.cpp",
+      "version": "0.2.34",
+      "source_kind": "nuget:packages_config",
+      "file": "languages/cpp/project/terminal/build/packages.config",
+      "line": 4,
+      "raw": "<package id=\"Microsoft.Internal.PGO-Helpers.Cpp\" version=\"0.2.34\" targetFramework=\"native\" />\n  "
+    },
+    {
+      "name": "microsoft.debugging.tools.pdbstr",
+      "version": "20220617.1556.0",
+      "source_kind": "nuget:packages_config",
+      "file": "languages/cpp/project/terminal/build/packages.config",
+      "line": 5,
+      "raw": "<package id=\"Microsoft.Debugging.Tools.PdbStr\" version=\"20220617.1556.0\" targetFramework=\"native\" />\n  "
+    },
+    {
+      "name": "microsoft.debugging.tools.srctool",
+      "version": "20220617.1556.0",
+      "source_kind": "nuget:packages_config",
+      "file": "languages/cpp/project/terminal/build/packages.config",
+      "line": 6,
+      "raw": "<package id=\"Microsoft.Debugging.Tools.SrcTool\" version=\"20220617.1556.0\" targetFramework=\"native\" />\n"
+    },
+    {
+      "name": "microsoft.windows.cppwinrt",
+      "version": "2.0.250303.1",
+      "source_kind": "nuget:packages_config",
+      "file": "languages/cpp/project/terminal/dep/nuget/packages.config",
+      "line": 7,
+      "raw": "<package id=\"Microsoft.Windows.CppWinRT\" version=\"2.0.250303.1\" targetFramework=\"native\" />\n  "
+    },
+    {
+      "name": "microsoft.internal.windows.terminal.themehelpers",
+      "version": "0.8.250811004",
+      "source_kind": "nuget:packages_config",
+      "file": "languages/cpp/project/terminal/dep/nuget/packages.config",
+      "line": 8,
+      "raw": "<package id=\"Microsoft.Internal.Windows.Terminal.ThemeHelpers\" version=\"0.8.250811004\" targetFramework=\"native\" />\n  "
+    },
+    {
+      "name": "microsoft.visualstudio.setup.configuration.native",
+      "version": "2.3.2262",
+      "source_kind": "nuget:packages_config",
+      "file": "languages/cpp/project/terminal/dep/nuget/packages.config",
+      "line": 9,
+      "raw": "<package id=\"Microsoft.VisualStudio.Setup.Configuration.Native\" version=\"2.3.2262\" targetFramework=\"native\" developmentDependency=\"true\" />\n  "
+    },
+    {
+      "name": "microsoft.ui.xaml",
+      "version": "2.8.4",
+      "source_kind": "nuget:packages_config",
+      "file": "languages/cpp/project/terminal/dep/nuget/packages.config",
+      "line": 10,
+      "raw": "<package id=\"Microsoft.UI.Xaml\" version=\"2.8.4\" targetFramework=\"native\" />\n  "
+    },
+    {
+      "name": "microsoft.web.webview2",
+      "version": "1.0.1661.34",
+      "source_kind": "nuget:packages_config",
+      "file": "languages/cpp/project/terminal/dep/nuget/packages.config",
+      "line": 11,
+      "raw": "<package id=\"Microsoft.Web.WebView2\" version=\"1.0.1661.34\" targetFramework=\"native\" />\n  "
+    },
+    {
+      "name": "microsoft.windows.implementationlibrary",
+      "version": "1.0.250325.1",
+      "source_kind": "nuget:packages_config",
+      "file": "languages/cpp/project/terminal/dep/nuget/packages.config",
+      "line": 12,
+      "raw": "<package id=\"Microsoft.Windows.ImplementationLibrary\" version=\"1.0.250325.1\" targetFramework=\"native\" developmentDependency=\"true\" />\n  "
+    },
+    {
+      "name": "microsoft.windowspackagemanager.cominterop",
+      "version": "1.8.1911",
+      "source_kind": "nuget:packages_config",
+      "file": "languages/cpp/project/terminal/dep/nuget/packages.config",
+      "line": 13,
+      "raw": "<package id=\"Microsoft.WindowsPackageManager.ComInterop\" version=\"1.8.1911\" targetFramework=\"native\" developmentDependency=\"true\" />\n\n  \n  "
+    },
+    {
+      "name": "appium.webdriver",
+      "version": "3.0.0.2",
+      "source_kind": "nuget:packages_config",
+      "file": "languages/cpp/project/terminal/dep/nuget/packages.config",
+      "line": 16,
+      "raw": "<package id=\"Appium.WebDriver\" version=\"3.0.0.2\" targetFramework=\"net45\" />\n  "
+    },
+    {
+      "name": "castle.core",
+      "version": "4.1.1",
+      "source_kind": "nuget:packages_config",
+      "file": "languages/cpp/project/terminal/dep/nuget/packages.config",
+      "line": 17,
+      "raw": "<package id=\"Castle.Core\" version=\"4.1.1\" targetFramework=\"net45\" />\n  "
+    },
+    {
+      "name": "newtonsoft.json",
+      "version": "13.0.1",
+      "source_kind": "nuget:packages_config",
+      "file": "languages/cpp/project/terminal/dep/nuget/packages.config",
+      "line": 18,
+      "raw": "<package id=\"Newtonsoft.Json\" version=\"13.0.1\" targetFramework=\"net45\" />\n  "
+    },
+    {
+      "name": "selenium.support",
+      "version": "3.5.0",
+      "source_kind": "nuget:packages_config",
+      "file": "languages/cpp/project/terminal/dep/nuget/packages.config",
+      "line": 19,
+      "raw": "<package id=\"Selenium.Support\" version=\"3.5.0\" targetFramework=\"net45\" />\n  "
+    },
+    {
+      "name": "selenium.webdriver",
+      "version": "3.5.0",
+      "source_kind": "nuget:packages_config",
+      "file": "languages/cpp/project/terminal/dep/nuget/packages.config",
+      "line": 20,
+      "raw": "<package id=\"Selenium.WebDriver\" version=\"3.5.0\" targetFramework=\"net45\" />\n\n  \n  "
+    },
+    {
+      "name": "microsoft.msbuildcache.azurepipelines",
+      "version": "0.1.283-preview",
+      "source_kind": "nuget:packages_config",
+      "file": "languages/cpp/project/terminal/dep/nuget/packages.config",
+      "line": 23,
+      "raw": "<package id=\"Microsoft.MSBuildCache.AzurePipelines\" version=\"0.1.283-preview\" />\n  "
+    },
+    {
+      "name": "microsoft.msbuildcache.local",
+      "version": "0.1.283-preview",
+      "source_kind": "nuget:packages_config",
+      "file": "languages/cpp/project/terminal/dep/nuget/packages.config",
+      "line": 24,
+      "raw": "<package id=\"Microsoft.MSBuildCache.Local\" version=\"0.1.283-preview\" />\n  "
+    },
+    {
+      "name": "microsoft.msbuildcache.sharedcompilation",
+      "version": "0.1.283-preview",
+      "source_kind": "nuget:packages_config",
+      "file": "languages/cpp/project/terminal/dep/nuget/packages.config",
+      "line": 25,
+      "raw": "<package id=\"Microsoft.MSBuildCache.SharedCompilation\" version=\"0.1.283-preview\" />\n"
+    },
+    {
+      "name": "vcpkg-cmake",
+      "version": "",
+      "source_kind": "vcpkg:dependencies",
+      "file": "languages/cpp/project/terminal/dep/vcpkg-overlay-ports/fmt/vcpkg.json",
+      "line": 1,
+      "raw": "{'name': 'vcpkg-cmake', 'host': True}"
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "version": "",
+      "source_kind": "vcpkg:dependencies",
+      "file": "languages/cpp/project/terminal/dep/vcpkg-overlay-ports/fmt/vcpkg.json",
+      "line": 1,
+      "raw": "{'name': 'vcpkg-cmake-config', 'host': True}"
+    },
+    {
+      "name": "pipelines.sockets.unofficial",
+      "version": "2.0.22",
+      "source_kind": "nuget:package_reference",
+      "file": "languages/cpp/project/terminal/samples/ReadConsoleInputStream/ReadConsoleInputStreamDemo.csproj",
+      "line": 11,
+      "raw": "<PackageReference Include=\"Pipelines.Sockets.Unofficial\" Version=\"2.0.22\" />\n    "
+    },
+    {
+      "name": "vanara.pinvoke.kernel32",
+      "version": "2.3.6",
+      "source_kind": "nuget:package_reference",
+      "file": "languages/cpp/project/terminal/samples/ReadConsoleInputStream/ReadConsoleInputStreamDemo.csproj",
+      "line": 12,
+      "raw": "<PackageReference Include=\"Vanara.PInvoke.Kernel32\" Version=\"2.3.6\" />\n  "
+    },
+    {
+      "name": "stylecop.analyzers",
+      "version": "1.1.118",
+      "source_kind": "nuget:package_reference",
+      "file": "languages/cpp/project/terminal/src/cascadia/WpfTerminalControl/WpfTerminalControl.csproj",
+      "line": 31,
+      "raw": "<PackageReference Include=\"StyleCop.Analyzers\" Version=\"1.1.118\">\n      <PrivateAssets>all</PrivateAssets>\n      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>\n    </PackageReference>\n  "
+    },
+    {
+      "name": "fmt",
+      "version": "12.1.0",
+      "source_kind": "vcpkg:dependencies",
+      "file": "languages/cpp/project/terminal/vcpkg.json",
+      "line": 1,
+      "raw": "fmt"
+    },
+    {
+      "name": "ms-gsl",
+      "version": "3.1.0",
+      "source_kind": "vcpkg:dependencies",
+      "file": "languages/cpp/project/terminal/vcpkg.json",
+      "line": 1,
+      "raw": "ms-gsl"
+    },
+    {
+      "name": "jsoncpp",
+      "version": "1.9.6",
+      "source_kind": "vcpkg:feature:terminal",
+      "file": "languages/cpp/project/terminal/vcpkg.json",
+      "line": 1,
+      "raw": "jsoncpp"
+    },
+    {
+      "name": "cli11",
+      "version": "2.6.1",
+      "source_kind": "vcpkg:feature:terminal",
+      "file": "languages/cpp/project/terminal/vcpkg.json",
+      "line": 1,
+      "raw": "cli11"
+    },
+    {
+      "name": "cmark",
+      "version": "0.31.1",
+      "source_kind": "vcpkg:feature:terminal",
+      "file": "languages/cpp/project/terminal/vcpkg.json",
+      "line": 1,
+      "raw": "cmark"
+    }
+  ]
+}

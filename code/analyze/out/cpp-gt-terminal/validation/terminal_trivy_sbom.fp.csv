@@ -1,0 +1,6 @@
+name,gt_versions,sbom_versions
+.nuget/packages.config,,
+build/packages.config,,
+dep/nuget/packages.config,,
+scratch/scratchislandapp/sampleapp/packages.config,,
+scratch/scratchislandapp/windowexe/packages.config,,

@@ -1,0 +1,61 @@
+name,version,source_kind,file,line,raw
+appium.webdriver,3.0.0.2,nuget:packages_config,languages/cpp/project/terminal/dep/nuget/packages.config,16,"<package id=""Appium.WebDriver"" version=""3.0.0.2"" targetFramework=""net45"" />
+  "
+castle.core,4.1.1,nuget:packages_config,languages/cpp/project/terminal/dep/nuget/packages.config,17,"<package id=""Castle.Core"" version=""4.1.1"" targetFramework=""net45"" />
+  "
+cli11,2.6.1,vcpkg:feature:terminal,languages/cpp/project/terminal/vcpkg.json,1,cli11
+cmark,0.31.1,vcpkg:feature:terminal,languages/cpp/project/terminal/vcpkg.json,1,cmark
+fmt,12.1.0,vcpkg:dependencies,languages/cpp/project/terminal/vcpkg.json,1,fmt
+jsoncpp,1.9.6,vcpkg:feature:terminal,languages/cpp/project/terminal/vcpkg.json,1,jsoncpp
+microsoft.debugging.tools.pdbstr,20220617.1556.0,nuget:packages_config,languages/cpp/project/terminal/build/packages.config,5,"<package id=""Microsoft.Debugging.Tools.PdbStr"" version=""20220617.1556.0"" targetFramework=""native"" />
+  "
+microsoft.debugging.tools.srctool,20220617.1556.0,nuget:packages_config,languages/cpp/project/terminal/build/packages.config,6,"<package id=""Microsoft.Debugging.Tools.SrcTool"" version=""20220617.1556.0"" targetFramework=""native"" />
+"
+microsoft.internal.pgo-helpers.cpp,0.2.34,nuget:packages_config,languages/cpp/project/terminal/build/packages.config,4,"<package id=""Microsoft.Internal.PGO-Helpers.Cpp"" version=""0.2.34"" targetFramework=""native"" />
+  "
+microsoft.internal.windows.terminal.themehelpers,0.8.250811004,nuget:packages_config,languages/cpp/project/terminal/dep/nuget/packages.config,8,"<package id=""Microsoft.Internal.Windows.Terminal.ThemeHelpers"" version=""0.8.250811004"" targetFramework=""native"" />
+  "
+microsoft.msbuildcache.azurepipelines,0.1.283-preview,nuget:packages_config,languages/cpp/project/terminal/dep/nuget/packages.config,23,"<package id=""Microsoft.MSBuildCache.AzurePipelines"" version=""0.1.283-preview"" />
+  "
+microsoft.msbuildcache.local,0.1.283-preview,nuget:packages_config,languages/cpp/project/terminal/dep/nuget/packages.config,24,"<package id=""Microsoft.MSBuildCache.Local"" version=""0.1.283-preview"" />
+  "
+microsoft.msbuildcache.sharedcompilation,0.1.283-preview,nuget:packages_config,languages/cpp/project/terminal/dep/nuget/packages.config,25,"<package id=""Microsoft.MSBuildCache.SharedCompilation"" version=""0.1.283-preview"" />
+"
+microsoft.taef,10.100.251104001,nuget:packages_config,languages/cpp/project/terminal/build/packages.config,3,"<package id=""Microsoft.Taef"" version=""10.100.251104001"" targetFramework=""native"" />
+  "
+microsoft.ui.xaml,2.8.4,nuget:packages_config,languages/cpp/project/terminal/dep/nuget/packages.config,10,"<package id=""Microsoft.UI.Xaml"" version=""2.8.4"" targetFramework=""native"" />
+  "
+microsoft.visualstudio.setup.configuration.native,2.3.2262,nuget:packages_config,languages/cpp/project/terminal/dep/nuget/packages.config,9,"<package id=""Microsoft.VisualStudio.Setup.Configuration.Native"" version=""2.3.2262"" targetFramework=""native"" developmentDependency=""true"" />
+  "
+microsoft.web.webview2,1.0.1661.34,nuget:packages_config,languages/cpp/project/terminal/dep/nuget/packages.config,11,"<package id=""Microsoft.Web.WebView2"" version=""1.0.1661.34"" targetFramework=""native"" />
+  "
+microsoft.windows.cppwinrt,2.0.250303.1,nuget:packages_config,languages/cpp/project/terminal/dep/nuget/packages.config,7,"<package id=""Microsoft.Windows.CppWinRT"" version=""2.0.250303.1"" targetFramework=""native"" />
+  "
+microsoft.windows.implementationlibrary,1.0.250325.1,nuget:packages_config,languages/cpp/project/terminal/dep/nuget/packages.config,12,"<package id=""Microsoft.Windows.ImplementationLibrary"" version=""1.0.250325.1"" targetFramework=""native"" developmentDependency=""true"" />
+  "
+microsoft.windowspackagemanager.cominterop,1.8.1911,nuget:packages_config,languages/cpp/project/terminal/dep/nuget/packages.config,13,"<package id=""Microsoft.WindowsPackageManager.ComInterop"" version=""1.8.1911"" targetFramework=""native"" developmentDependency=""true"" />
+
+  
+  "
+ms-gsl,3.1.0,vcpkg:dependencies,languages/cpp/project/terminal/vcpkg.json,1,ms-gsl
+newtonsoft.json,13.0.1,nuget:packages_config,languages/cpp/project/terminal/dep/nuget/packages.config,18,"<package id=""Newtonsoft.Json"" version=""13.0.1"" targetFramework=""net45"" />
+  "
+pipelines.sockets.unofficial,2.0.22,nuget:package_reference,languages/cpp/project/terminal/samples/ReadConsoleInputStream/ReadConsoleInputStreamDemo.csproj,11,"<PackageReference Include=""Pipelines.Sockets.Unofficial"" Version=""2.0.22"" />
+    "
+selenium.support,3.5.0,nuget:packages_config,languages/cpp/project/terminal/dep/nuget/packages.config,19,"<package id=""Selenium.Support"" version=""3.5.0"" targetFramework=""net45"" />
+  "
+selenium.webdriver,3.5.0,nuget:packages_config,languages/cpp/project/terminal/dep/nuget/packages.config,20,"<package id=""Selenium.WebDriver"" version=""3.5.0"" targetFramework=""net45"" />
+
+  
+  "
+stylecop.analyzers,1.1.118,nuget:package_reference,languages/cpp/project/terminal/src/cascadia/WpfTerminalControl/WpfTerminalControl.csproj,31,"<PackageReference Include=""StyleCop.Analyzers"" Version=""1.1.118"">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  "
+vanara.pinvoke.kernel32,2.3.6,nuget:package_reference,languages/cpp/project/terminal/samples/ReadConsoleInputStream/ReadConsoleInputStreamDemo.csproj,12,"<PackageReference Include=""Vanara.PInvoke.Kernel32"" Version=""2.3.6"" />
+  "
+vcpkg-cmake,,vcpkg:dependencies,languages/cpp/project/terminal/dep/vcpkg-overlay-ports/fmt/vcpkg.json,1,"{'name': 'vcpkg-cmake', 'host': True}"
+vcpkg-cmake-config,,vcpkg:dependencies,languages/cpp/project/terminal/dep/vcpkg-overlay-ports/fmt/vcpkg.json,1,"{'name': 'vcpkg-cmake-config', 'host': True}"
+vswhere,2.6.7,nuget:packages_config,languages/cpp/project/terminal/.nuget/packages.config,3,"<package id=""vswhere"" version=""2.6.7"" />
+"

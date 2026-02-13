@@ -1,0 +1,6 @@
+name,gt_versions,sbom_versions
+castle.core,4.1.1,4.1.1.0
+newtonsoft.json,13.0.1,13.0.0.0
+pipelines.sockets.unofficial,2.0.22,2.0.22
+stylecop.analyzers,1.1.118,1.1.118
+vanara.pinvoke.kernel32,2.3.6,2.3.6

@@ -1,0 +1,6 @@
+name,reason
+.nuget/packages.config,other
+build/packages.config,other
+dep/nuget/packages.config,other
+scratch/scratchislandapp/sampleapp/packages.config,other
+scratch/scratchislandapp/windowexe/packages.config,other
