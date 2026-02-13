@@ -252,6 +252,44 @@ python code/analyze/cpp_sbom_gt_validate.py \
   --out-dir code/analyze/out/cpp-gt-wxwidgets/validation
 ```
 
+### Terminal 프로젝트 예시
+
+`terminal`은 C/C++ + NuGet(.csproj/packages.config) + vcpkg가 섞인 형태이므로, 동일 스크립트가 아래 신호를 함께 GT에 포함합니다.
+
+- `vcpkg.json` (`dependencies`, `features.*.dependencies`, `overrides`)
+- `dep/nuget/packages.config` (NuGet id/version)
+- 일부 `.csproj`의 `<PackageReference ...>`
+
+```powershell
+python code/analyze/cpp_mod_gt.py \
+  --root languages/cpp/project/terminal \
+  --out-dir code/analyze/out/cpp-gt-terminal
+
+python code/analyze/cpp_sbom_gt_validate.py \
+  --gt-dir code/analyze/out/cpp-gt-terminal \
+  --sbom languages/cpp/SBOM/terminal/cdxgen/terminal_cdxgen_sbom.json \
+  --sbom languages/cpp/SBOM/terminal/syft/terminal_syft_sbom.json \
+  --sbom languages/cpp/SBOM/terminal/trivy/terminal_trivy_sbom.json \
+  --out-dir code/analyze/out/cpp-gt-terminal/validation
+```
+
+### C++ 프로젝트별 SBOM 검증 결과 + 실행 시간
+
+- 검증 지표: `code/analyze/out/cpp-gt-*/validation/summary.json` 기반
+- 실행 시간: `languages/cpp/SBOM/<project>/<tool>/time.txt`의 `TotalSeconds`(초) 기반
+
+| Project | Tool | Time (s) | Accuracy (union) | Precision | Recall | F1 |
+|---|---|---:|---:|---:|---:|---:|
+| wxWidgets | cdxgen | 122.727 | 0.333 | 0.892 | 0.347 | 0.500 |
+| wxWidgets | syft | 86.421 | 0.000 | 0.000 | 0.000 | 0.000 |
+| wxWidgets | trivy | 40.146 | 0.000 | 0.000 | 0.000 | 0.000 |
+| terminal | cdxgen | 178.894 | 0.083 | 0.143 | 0.167 | 0.154 |
+| terminal | syft | 50.508 | 0.000 | 0.000 | 0.000 | 0.000 |
+| terminal | trivy | 31.660 | 0.486 | 0.773 | 0.567 | 0.654 |
+| tesseract | cdxgen | 13.827 | 0.306 | 0.500 | 0.440 | 0.468 |
+| tesseract | syft | 13.917 | 0.000 | 0.000 | 0.000 | 0.000 |
+| tesseract | trivy | 5.147 | 0.000 | 0.000 | 0.000 | 0.000 |
+
 ---
 
 ## 1) Go 의존성(GT) 추출: `go_mod_gt.py`

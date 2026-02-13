@@ -26,6 +26,7 @@ import argparse
 import csv
 import json
 import re
+import xml.etree.ElementTree as ET
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
 from pathlib import Path
@@ -99,7 +100,7 @@ def _tokenize_args(s: str) -> List[str]:
 
 def _iter_candidate_files(root: Path) -> Iterable[Path]:
     exts = {".cmake", ".m4"}
-    names = {"CMakeLists.txt", "configure.ac", "Makefile.am"}
+    names = {"CMakeLists.txt", "configure.ac", "Makefile.am", "vcpkg.json", "packages.config"}
     skip_dirs = {
         ".git",
         "docs",
@@ -118,7 +119,7 @@ def _iter_candidate_files(root: Path) -> Iterable[Path]:
         if any(rel == d or rel.startswith(d + "/") for d in skip_dirs):
             continue
 
-        if p.name in names or p.suffix in exts:
+        if p.name in names or p.suffix in exts or p.suffix.lower() == ".csproj":
             yield p
 
 
@@ -411,6 +412,197 @@ def parse_autotools_file(path: Path) -> Tuple[List[DeclaredDep], Set[str], List[
     return deps, internal_targets, projects
 
 
+def _vcpkg_dep_name_and_version(item: object, overrides: Dict[str, str]) -> Optional[Tuple[str, str]]:
+    if isinstance(item, str):
+        n = _norm_name(item)
+        if not n:
+            return None
+        return n, overrides.get(n, "")
+
+    if isinstance(item, dict):
+        name = item.get("name")
+        if not isinstance(name, str):
+            return None
+        n = _norm_name(name)
+        if not n:
+            return None
+        version = ""
+        for k in ("version", "version>=", "version>", "version<=", "version<"):
+            v = item.get(k)
+            if isinstance(v, str) and v.strip():
+                version = v.strip()
+                break
+        if not version:
+            version = overrides.get(n, "")
+        return n, version
+
+    return None
+
+
+def parse_vcpkg_json(path: Path) -> Tuple[List[DeclaredDep], Set[str], List[Dict[str, str]]]:
+    doc = json.loads(_load_text(path))
+    f = path.as_posix()
+    deps: List[DeclaredDep] = []
+
+    overrides: Dict[str, str] = {}
+    for o in doc.get("overrides") or []:
+        if not isinstance(o, dict):
+            continue
+        name = o.get("name")
+        version = o.get("version")
+        if isinstance(name, str) and isinstance(version, str) and name.strip() and version.strip():
+            overrides[_norm_name(name)] = version.strip()
+
+    for d in doc.get("dependencies") or []:
+        nv = _vcpkg_dep_name_and_version(d, overrides)
+        if not nv:
+            continue
+        deps.append(
+            DeclaredDep(
+                name=nv[0],
+                version=nv[1],
+                source_kind="vcpkg:dependencies",
+                file=f,
+                line=1,
+                raw=str(d),
+            )
+        )
+
+    features = doc.get("features")
+    if isinstance(features, dict):
+        for feat_name, feat_val in features.items():
+            if not isinstance(feat_val, dict):
+                continue
+            for d in feat_val.get("dependencies") or []:
+                nv = _vcpkg_dep_name_and_version(d, overrides)
+                if not nv:
+                    continue
+                deps.append(
+                    DeclaredDep(
+                        name=nv[0],
+                        version=nv[1],
+                        source_kind=f"vcpkg:feature:{_norm_name(str(feat_name))}",
+                        file=f,
+                        line=1,
+                        raw=str(d),
+                    )
+                )
+
+    return deps, set(), []
+
+
+def parse_packages_config(path: Path) -> Tuple[List[DeclaredDep], Set[str], List[Dict[str, str]]]:
+    f = path.as_posix()
+    text = _load_text(path)
+    deps: List[DeclaredDep] = []
+
+    try:
+        root = ET.fromstring(text)
+    except ET.ParseError:
+        return [], set(), []
+
+    for pkg in root.findall(".//package"):
+        pid = pkg.attrib.get("id", "").strip()
+        version = pkg.attrib.get("version", "").strip()
+        if not pid:
+            continue
+        m = re.search(rf'id\s*=\s*["\']{re.escape(pid)}["\']', text)
+        line_no = text.count("\n", 0, m.start()) + 1 if m else 1
+        deps.append(
+            DeclaredDep(
+                name=_norm_name(pid),
+                version=version,
+                source_kind="nuget:packages_config",
+                file=f,
+                line=line_no,
+                raw=ET.tostring(pkg, encoding="unicode"),
+            )
+        )
+
+    return deps, set(), []
+
+
+def parse_csproj(path: Path) -> Tuple[List[DeclaredDep], Set[str], List[Dict[str, str]]]:
+    f = path.as_posix()
+    text = _load_text(path)
+    deps: List[DeclaredDep] = []
+    internal_targets: Set[str] = set()
+    projects: List[Dict[str, str]] = []
+
+    try:
+        root = ET.fromstring(text)
+    except ET.ParseError:
+        return [], set(), []
+
+    # namespace-agnostic tag match helper
+    def _tag_eq(el: ET.Element, local: str) -> bool:
+        tag = el.tag
+        if "}" in tag:
+            tag = tag.rsplit("}", 1)[1]
+        return tag == local
+
+    # project identity
+    for pg in root.iter():
+        if not _tag_eq(pg, "PropertyGroup"):
+            continue
+        for child in list(pg):
+            if _tag_eq(child, "AssemblyName") and child.text and child.text.strip():
+                name = child.text.strip()
+                internal_targets.add(_norm_name(name))
+                projects.append({"name": name, "version": "", "file": f, "line": "1", "kind": "csproj"})
+            if _tag_eq(child, "Version") and child.text and child.text.strip() and projects:
+                projects[-1]["version"] = child.text.strip()
+
+    # PackageReference
+    for el in root.iter():
+        if not _tag_eq(el, "PackageReference"):
+            continue
+        include = (el.attrib.get("Include") or el.attrib.get("Update") or "").strip()
+        if not include:
+            continue
+        version = (el.attrib.get("Version") or "").strip()
+        if not version:
+            for child in list(el):
+                if _tag_eq(child, "Version") and child.text:
+                    version = child.text.strip()
+                    break
+        m = re.search(rf'PackageReference[^>]*(Include|Update)\s*=\s*["\']{re.escape(include)}["\']', text, flags=re.I)
+        line_no = text.count("\n", 0, m.start()) + 1 if m else 1
+        deps.append(
+            DeclaredDep(
+                name=_norm_name(include),
+                version=version,
+                source_kind="nuget:package_reference",
+                file=f,
+                line=line_no,
+                raw=ET.tostring(el, encoding="unicode"),
+            )
+        )
+
+    # HintPath can encode package folder names: packages/<id>.<version>/...
+    hint_re = re.compile(r"<HintPath>\s*([^<]+?)\s*</HintPath>", flags=re.I)
+    for m in hint_re.finditer(text):
+        hp = m.group(1).strip().replace("\\", "/")
+        line_no = text.count("\n", 0, m.start()) + 1
+        mm = re.search(r"packages/([^/]+?)\.([0-9][A-Za-z0-9.+\-]*)/", hp, flags=re.I)
+        if not mm:
+            continue
+        dep_name = mm.group(1)
+        dep_ver = mm.group(2)
+        deps.append(
+            DeclaredDep(
+                name=_norm_name(dep_name),
+                version=dep_ver,
+                source_kind="msbuild:hint_path",
+                file=f,
+                line=line_no,
+                raw=hp,
+            )
+        )
+
+    return deps, internal_targets, projects
+
+
 def _dedupe_deps(items: Sequence[DeclaredDep]) -> List[DeclaredDep]:
     seen: Set[Tuple[str, str, str]] = set()
     out: List[DeclaredDep] = []
@@ -465,6 +657,12 @@ def main() -> int:
         low_name = p.name.lower()
         if low_name == "cmakelists.txt" or p.suffix.lower() == ".cmake":
             deps, internal, projs = parse_cmake_file(p)
+        elif low_name == "vcpkg.json":
+            deps, internal, projs = parse_vcpkg_json(p)
+        elif low_name == "packages.config":
+            deps, internal, projs = parse_packages_config(p)
+        elif p.suffix.lower() == ".csproj":
+            deps, internal, projs = parse_csproj(p)
         elif low_name == "configure.ac" or p.suffix.lower() == ".m4" or low_name == "makefile.am":
             deps, internal, projs = parse_autotools_file(p)
         else:
