@@ -1,0 +1,1096 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:df990aab-2a61-4047-99cf-6e65b13cf89e",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-02-13T01:13:35Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "12.0.0",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@12.0.0",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@12.0.0",
+          "publisher": "OWASP Foundation",
+          "authors": [
+            {
+              "name": "OWASP Foundation"
+            }
+          ]
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "component": {
+      "group": "",
+      "name": "wxWidgets",
+      "version": "${wxVERSION}",
+      "type": "application",
+      "purl": "pkg:generic/wxWidgets@%24%7BwxVERSION%7D",
+      "bom-ref": "pkg:generic/wxWidgets@${wxVERSION}"
+    },
+    "properties": [
+      {
+        "name": "cdx:bom:componentTypes",
+        "value": "generic"
+      },
+      {
+        "name": "cdx:bom:componentSrcFiles",
+        "value": "Filename /app/build/cmake/init.cmake\\nFilename /app/build/cmake/lib/expat.cmake\\nFilename /app/build/cmake/lib/jpeg.cmake\\nFilename /app/build/cmake/lib/nanosvg.cmake\\nFilename /app/build/cmake/lib/png.cmake\\nFilename /app/build/cmake/lib/regex.cmake\\nFilename /app/build/cmake/lib/tiff.cmake\\nFilename /app/build/cmake/lib/webp.cmake\\nFilename /app/build/cmake/locale/CMakeLists.txt\\nFilename /app/build/cmake/modules/FindFONTCONFIG.cmake\\nFilename /app/build/cmake/modules/FindGTK2.cmake\\nFilename /app/build/cmake/modules/FindXTEST.cmake\\nFilename /app/build/cmake/samples/CMakeLists.txt\\nFilename /app/build/cmake/toolkit.cmake\\nFilename /app/samples/minimal/CMakeLists.txt"
+      }
+    ]
+  },
+  "components": [
+    {
+      "group": "",
+      "name": "wxWidgets",
+      "version": "3.3",
+      "purl": "pkg:generic/wxWidgets@3.3",
+      "type": "library",
+      "bom-ref": "pkg:generic/wxWidgets@3.3",
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/samples/minimal/CMakeLists.txt"
+              }
+            ],
+            "concludedValue": "Filename /app/samples/minimal/CMakeLists.txt"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "minimal",
+      "version": "",
+      "purl": "pkg:generic/minimal",
+      "type": "library",
+      "bom-ref": "pkg:generic/minimal"
+    },
+    {
+      "group": "",
+      "name": "MFC",
+      "version": "",
+      "purl": "pkg:generic/MFC",
+      "type": "library",
+      "bom-ref": "pkg:generic/MFC",
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/samples/CMakeLists.txt"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/samples/CMakeLists.txt"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "CotireExample",
+      "version": "",
+      "purl": "pkg:generic/CotireExample",
+      "type": "library",
+      "bom-ref": "pkg:generic/CotireExample"
+    },
+    {
+      "group": "",
+      "name": "Gettext",
+      "version": "",
+      "purl": "pkg:generic/Gettext",
+      "type": "library",
+      "bom-ref": "pkg:generic/Gettext",
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/locale/CMakeLists.txt"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/locale/CMakeLists.txt"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "X11",
+      "version": "",
+      "purl": "pkg:generic/X11",
+      "type": "library",
+      "bom-ref": "pkg:generic/X11",
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/toolkit.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/toolkit.cmake"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "QT",
+      "version": "",
+      "purl": "pkg:generic/QT",
+      "type": "library",
+      "bom-ref": "pkg:generic/QT",
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/toolkit.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/toolkit.cmake"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "Threads",
+      "version": "",
+      "purl": "pkg:generic/Threads",
+      "type": "library",
+      "bom-ref": "pkg:generic/Threads",
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/init.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/init.cmake"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "liblzma",
+      "version": "",
+      "purl": "pkg:generic/liblzma",
+      "type": "library",
+      "bom-ref": "pkg:generic/liblzma",
+      "properties": [
+        {
+          "name": "name_with_version",
+          "value": "xz-5.2.12"
+        },
+        {
+          "name": "analyzed_version",
+          "value": "xz-5.2.12"
+        },
+        {
+          "name": "analyzed_source_url",
+          "value": "http://tukaani.org/xz/xz-5.2.12.tar.xz"
+        },
+        {
+          "name": "analyzed_source_filename",
+          "value": "xz-5.2.12.tar.xz"
+        },
+        {
+          "name": "analyzed_source_hash",
+          "value": "f79a92b84101d19d76be833aecc93e68e56065b61ec737610964cd4f6c54ff2e"
+        },
+        {
+          "name": "PkgProvides",
+          "value": "liblzma"
+        },
+        {
+          "name": "available_versions",
+          "value": "5.2.12-1|5.2.11-2|5.2.11-1|5.2.10-1|5.2.8-2|5.2.8-1|5.2.7-1|5.2.6-3|5.2.6-2|5.2.6-1|5.2.5-2|5.2.5-1|5.2.1-6|5.2.1-5|5.2.1-4|5.2.1-2"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/init.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/init.cmake"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "CURL",
+      "version": "",
+      "purl": "pkg:generic/CURL",
+      "type": "library",
+      "bom-ref": "pkg:generic/CURL",
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/init.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/init.cmake"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "ICONV",
+      "version": "",
+      "purl": "pkg:generic/ICONV",
+      "type": "library",
+      "bom-ref": "pkg:generic/ICONV",
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/init.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/init.cmake"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "PkgConfig",
+      "version": "",
+      "purl": "pkg:generic/PkgConfig",
+      "type": "library",
+      "bom-ref": "pkg:generic/PkgConfig",
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/modules/FindFONTCONFIG.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/modules/FindFONTCONFIG.cmake"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "OpenGL",
+      "version": "",
+      "purl": "pkg:generic/OpenGL",
+      "type": "library",
+      "bom-ref": "pkg:generic/OpenGL",
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/init.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/init.cmake"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "WAYLANDEGL",
+      "version": "",
+      "purl": "pkg:generic/WAYLANDEGL",
+      "type": "library",
+      "bom-ref": "pkg:generic/WAYLANDEGL",
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/init.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/init.cmake"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "WEBKIT",
+      "version": "1.0",
+      "purl": "pkg:generic/WEBKIT@1.0",
+      "type": "library",
+      "bom-ref": "pkg:generic/WEBKIT@1.0",
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/init.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/init.cmake"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "WEBKIT2",
+      "version": "4.1",
+      "purl": "pkg:generic/WEBKIT2@4.1",
+      "type": "library",
+      "bom-ref": "pkg:generic/WEBKIT2@4.1",
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/init.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/init.cmake"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "fontconfig",
+      "version": "",
+      "purl": "pkg:generic/fontconfig",
+      "type": "library",
+      "bom-ref": "pkg:generic/fontconfig",
+      "properties": [
+        {
+          "name": "name_with_version",
+          "value": "fontconfig-2.15.0"
+        },
+        {
+          "name": "analyzed_version",
+          "value": "2.15.0"
+        },
+        {
+          "name": "analyzed_source_url",
+          "value": "https://www.freedesktop.org/software/fontconfig/release/fontconfig-2.15.0.tar.xz"
+        },
+        {
+          "name": "analyzed_source_filename",
+          "value": "fontconfig-2.15.0.tar.xz"
+        },
+        {
+          "name": "analyzed_source_hash",
+          "value": "63a0658d0e06e0fa886106452b58ef04f21f58202ea02a94c39de0d3335d7c0e"
+        },
+        {
+          "name": "PkgProvides",
+          "value": "fontconfig"
+        },
+        {
+          "name": "available_versions",
+          "value": "2.15.0-1|2.14.2-1"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/init.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/init.cmake"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "PANGOFT2",
+      "version": "",
+      "purl": "pkg:generic/PANGOFT2",
+      "type": "library",
+      "bom-ref": "pkg:generic/PANGOFT2",
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/init.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/init.cmake"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "GSTREAMER",
+      "version": "1.0",
+      "purl": "pkg:generic/GSTREAMER@1.0",
+      "type": "library",
+      "bom-ref": "pkg:generic/GSTREAMER@1.0",
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/init.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/init.cmake"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "sdl2",
+      "version": "",
+      "purl": "pkg:generic/sdl2",
+      "type": "library",
+      "bom-ref": "pkg:generic/sdl2",
+      "properties": [
+        {
+          "name": "name_with_version",
+          "value": "SDL2-2.30.6"
+        },
+        {
+          "name": "analyzed_version",
+          "value": "SDL2-2.30.6"
+        },
+        {
+          "name": "analyzed_source_url",
+          "value": "https://github.com/libsdl-org/SDL/releases/download/release-2.30.6/SDL2-2.30.6.tar.gz"
+        },
+        {
+          "name": "analyzed_source_filename",
+          "value": "SDL2-2.30.6.tar.gz"
+        },
+        {
+          "name": "analyzed_source_hash",
+          "value": "c6ef64ca18a19d13df6eb22df9aff19fb0db65610a74cc81dae33a82235cacd4"
+        },
+        {
+          "name": "PkgProvides",
+          "value": "sdl2|sdl2_test|sdl2main"
+        },
+        {
+          "name": "available_versions",
+          "value": "2.30.6-2|2.30.6-1|2.30.3-3|2.30.3-2|2.30.3-1|2.28.5-2|2.28.5-1|2.28.1-2|2.28.1-1|2.26.5-5|2.26.5-4|2.26.5-3|2.26.5-2|2.26.5-1|2.26.0-2|2.26.0-1|2.24.2-1|2.24.1-4|2.24.1-3|2.24.1-2|2.24.1-1|2.24.0-5|2.24.0-4|2.24.0-3|2.24.0-2|2.24.0-1|2.0.20-6|2.0.20-5|2.0.20-4|2.0.20-3|2.0.20-2|2.0.20-1|2.0.18-2|2.0.18-1|2.0.12-3|2.0.12-2|2.0.12-1|2.0.3-6|2.0.3-5|2.0.3-4"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/init.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/init.cmake"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "SDL",
+      "version": "",
+      "purl": "pkg:generic/SDL",
+      "type": "library",
+      "bom-ref": "pkg:generic/SDL",
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/init.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/init.cmake"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "XTEST",
+      "version": "",
+      "purl": "pkg:generic/XTEST",
+      "type": "library",
+      "bom-ref": "pkg:generic/XTEST",
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/init.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/init.cmake"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "MSPACK",
+      "version": "",
+      "purl": "pkg:generic/MSPACK",
+      "type": "library",
+      "bom-ref": "pkg:generic/MSPACK",
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/init.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/init.cmake"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "GTKPRINT",
+      "version": "",
+      "purl": "pkg:generic/GTKPRINT",
+      "type": "library",
+      "bom-ref": "pkg:generic/GTKPRINT",
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/init.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/init.cmake"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "GNOMEVFS2",
+      "version": "",
+      "purl": "pkg:generic/GNOMEVFS2",
+      "type": "library",
+      "bom-ref": "pkg:generic/GNOMEVFS2",
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/init.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/init.cmake"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "GSPELL",
+      "version": "",
+      "purl": "pkg:generic/GSPELL",
+      "type": "library",
+      "bom-ref": "pkg:generic/GSPELL",
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/init.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/init.cmake"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "Cairo",
+      "version": "",
+      "purl": "pkg:generic/Cairo",
+      "type": "library",
+      "bom-ref": "pkg:generic/Cairo",
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/init.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/init.cmake"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "libxkbcommon",
+      "version": "",
+      "purl": "pkg:generic/libxkbcommon",
+      "type": "library",
+      "bom-ref": "pkg:generic/libxkbcommon",
+      "properties": [
+        {
+          "name": "name_with_version",
+          "value": "libxkbcommon-1.7.0"
+        },
+        {
+          "name": "analyzed_version",
+          "value": "1.7.0"
+        },
+        {
+          "name": "analyzed_source_url",
+          "value": "https://xkbcommon.org/download/libxkbcommon-1.7.0.tar.xz"
+        },
+        {
+          "name": "analyzed_source_filename",
+          "value": "libxkbcommon-1.7.0.tar.xz"
+        },
+        {
+          "name": "analyzed_source_hash",
+          "value": "65782f0a10a4b455af9c6baab7040e2f537520caa2ec2092805cdfd36863b247"
+        },
+        {
+          "name": "PkgProvides",
+          "value": "xkbcommon"
+        },
+        {
+          "name": "available_versions",
+          "value": "1.7.0-1"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/init.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/init.cmake"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "Xtst",
+      "version": "",
+      "purl": "pkg:generic/Xtst",
+      "type": "library",
+      "bom-ref": "pkg:generic/Xtst",
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/modules/FindXTEST.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/modules/FindXTEST.cmake"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "WebP",
+      "version": "",
+      "purl": "pkg:generic/WebP",
+      "type": "library",
+      "bom-ref": "pkg:generic/WebP",
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/lib/webp.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/lib/webp.cmake"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "GTK2",
+      "version": "",
+      "purl": "pkg:generic/GTK2",
+      "type": "library",
+      "bom-ref": "pkg:generic/GTK2",
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/modules/FindGTK2.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/modules/FindGTK2.cmake"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "TIFF",
+      "version": "",
+      "purl": "pkg:generic/TIFF",
+      "type": "library",
+      "bom-ref": "pkg:generic/TIFF",
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/lib/tiff.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/lib/tiff.cmake"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "PCRE2",
+      "version": "",
+      "purl": "pkg:generic/PCRE2",
+      "type": "library",
+      "bom-ref": "pkg:generic/PCRE2",
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/lib/regex.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/lib/regex.cmake"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "PNG",
+      "version": "",
+      "purl": "pkg:generic/PNG",
+      "type": "library",
+      "bom-ref": "pkg:generic/PNG",
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/lib/png.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/lib/png.cmake"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "NanoSVG",
+      "version": "",
+      "purl": "pkg:generic/NanoSVG",
+      "type": "library",
+      "bom-ref": "pkg:generic/NanoSVG",
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/lib/nanosvg.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/lib/nanosvg.cmake"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "JPEG",
+      "version": "",
+      "purl": "pkg:generic/JPEG",
+      "type": "library",
+      "bom-ref": "pkg:generic/JPEG",
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/lib/jpeg.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/lib/jpeg.cmake"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "expat",
+      "version": "",
+      "purl": "pkg:generic/expat",
+      "type": "library",
+      "bom-ref": "pkg:generic/expat",
+      "properties": [
+        {
+          "name": "name_with_version",
+          "value": "expat-2.6.3"
+        },
+        {
+          "name": "analyzed_version",
+          "value": "2.6.3"
+        },
+        {
+          "name": "analyzed_source_url",
+          "value": "https://github.com/libexpat/libexpat/releases/download/R_2_6_3/expat-2.6.3.tar.xz"
+        },
+        {
+          "name": "analyzed_source_filename",
+          "value": "expat-2.6.3.tar.bz2"
+        },
+        {
+          "name": "analyzed_source_hash",
+          "value": "274db254a6979bde5aad404763a704956940e465843f2a9bd9ed7af22e2c0efc"
+        },
+        {
+          "name": "PkgProvides",
+          "value": "expat"
+        },
+        {
+          "name": "available_versions",
+          "value": "2.6.3-1|2.6.2-1|2.6.0-1|2.5.0-4|2.5.0-3|2.5.0-2|2.5.0-1|2.4.9-1|2.4.8-2|2.4.8-1|2.2.9-4|2.2.9-3|2.2.9-2|2.2.9-1|2.2.6-1|2.2.5-5|2.2.5-4|2.2.5-3|2.2.5-1"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "source-code-analysis",
+                "confidence": 0.5,
+                "value": "Filename /app/build/cmake/lib/expat.cmake"
+              }
+            ],
+            "concludedValue": "Filename /app/build/cmake/lib/expat.cmake"
+          }
+        ]
+      }
+    }
+  ],
+  "services": [],
+  "dependencies": [
+    {
+      "ref": "pkg:generic/wxWidgets@${wxVERSION}",
+      "dependsOn": []
+    }
+  ],
+  "annotations": [
+    {
+      "bom-ref": "metadata-annotations",
+      "subjects": [
+        "pkg:generic/wxWidgets@${wxVERSION}"
+      ],
+      "annotator": {
+        "component": {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "12.0.0",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@12.0.0",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@12.0.0",
+          "publisher": "OWASP Foundation",
+          "authors": [
+            {
+              "name": "OWASP Foundation"
+            }
+          ]
+        }
+      },
+      "timestamp": "2026-02-13T01:13:35Z",
+      "text": "This Software Bill-of-Materials (SBOM) document was created on Friday, February 13, 2026 with cdxgen. The data was captured during the build lifecycle phase. The document describes an application named 'wxWidgets' with version '${wxVERSION}'. There are 37 components."
+    }
+  ]
+}
